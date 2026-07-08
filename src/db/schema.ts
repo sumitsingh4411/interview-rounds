@@ -16,6 +16,7 @@ import {
   ROUNDS,
   DIFFICULTIES,
   SOURCE_TYPES,
+  OUTCOMES,
   type Round,
 } from '../lib/constants';
 
@@ -31,6 +32,7 @@ export const levelEnum = pgEnum('level', LEVELS);
 export const roundEnum = pgEnum('round', ROUNDS);
 export const difficultyEnum = pgEnum('difficulty', DIFFICULTIES);
 export const sourceTypeEnum = pgEnum('source_type', SOURCE_TYPES);
+export const outcomeEnum = pgEnum('outcome', OUTCOMES);
 export const questionStatusEnum = pgEnum('question_status', ['draft', 'published']);
 export const userRoleEnum = pgEnum('user_role', ['user', 'moderator', 'admin']);
 export const submissionStatusEnum = pgEnum('submission_status', [
@@ -116,6 +118,31 @@ export const companies = pgTable(
   (t) => [index('companies_slug_idx').on(t.slug)],
 );
 
+// One shared interview experience: a role/level attempt at a company, made up
+// of several rounds. Questions belong to an interview (and to the company).
+export const interviews = pgTable(
+  'interviews',
+  {
+    id: serial('id').primaryKey(),
+    companyId: integer('company_id')
+      .notNull()
+      .references(() => companies.id, { onDelete: 'cascade' }),
+    role: roleEnum('role').notNull(),
+    level: levelEnum('level').notNull(),
+    outcome: outcomeEnum('outcome').notNull().default('unknown'),
+    title: text('title'),
+    summary: text('summary'),
+    year: integer('year'),
+    sourceType: sourceTypeEnum('source_type').notNull(),
+    sourceUrl: text('source_url'),
+    sourceAuthor: text('source_author'),
+    status: questionStatusEnum('status').notNull().default('published'),
+    contentHash: text('content_hash').unique(),
+    createdAt: timestamp('created_at').defaultNow().notNull(),
+  },
+  (t) => [index('interviews_company_idx').on(t.companyId, t.role, t.level)],
+);
+
 export const questions = pgTable(
   'questions',
   {
@@ -123,6 +150,9 @@ export const questions = pgTable(
     companyId: integer('company_id')
       .notNull()
       .references(() => companies.id, { onDelete: 'cascade' }),
+    interviewId: integer('interview_id').references(() => interviews.id, {
+      onDelete: 'cascade',
+    }),
     title: text('title').notNull(),
     body: text('body'),
     role: roleEnum('role').notNull(),
@@ -143,6 +173,7 @@ export const questions = pgTable(
   },
   (t) => [
     index('questions_company_idx').on(t.companyId),
+    index('questions_interview_idx').on(t.interviewId),
     index('questions_filter_idx').on(
       t.companyId,
       t.role,
@@ -206,6 +237,8 @@ export const progress = pgTable(
 
 // Inferred row types for use across the app.
 export type Company = typeof companies.$inferSelect;
+export type Interview = typeof interviews.$inferSelect;
+export type NewInterview = typeof interviews.$inferInsert;
 export type Question = typeof questions.$inferSelect;
 export type NewQuestion = typeof questions.$inferInsert;
 export type Submission = typeof submissions.$inferSelect;

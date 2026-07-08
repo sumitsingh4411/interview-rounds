@@ -22,8 +22,17 @@ export type Round = (typeof ROUNDS)[number];
 export const DIFFICULTIES = ['easy', 'medium', 'hard'] as const;
 export type Difficulty = (typeof DIFFICULTIES)[number];
 
-export const SOURCE_TYPES = ['ai', 'github', 'community'] as const;
+export const SOURCE_TYPES = ['ai', 'github', 'community', 'curated'] as const;
 export type SourceType = (typeof SOURCE_TYPES)[number];
+
+export const OUTCOMES = [
+  'offer',
+  'rejected',
+  'no_offer',
+  'withdrew',
+  'unknown',
+] as const;
+export type Outcome = (typeof OUTCOMES)[number];
 
 export const ROLE_LABELS: Record<Role, string> = {
   frontend: 'Frontend',
@@ -74,6 +83,15 @@ export const SOURCE_LABELS: Record<SourceType, string> = {
   ai: 'AI-generated (likely question)',
   github: 'GitHub',
   community: 'Community',
+  curated: 'Commonly asked',
+};
+
+export const OUTCOME_LABELS: Record<Outcome, string> = {
+  offer: 'Offer',
+  rejected: 'Rejected',
+  no_offer: 'No offer',
+  withdrew: 'Withdrew',
+  unknown: 'Outcome unknown',
 };
 
 // Coerce untrusted URL params to a valid enum value (or undefined).

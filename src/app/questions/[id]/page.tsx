@@ -73,6 +73,15 @@ export default async function QuestionPage({ params }: PageProps) {
         />
       </div>
 
+      {question.interviewId ? (
+        <Link
+          href={`/interviews/${question.interviewId}`}
+          className="mt-4 inline-block text-sm text-brand hover:underline"
+        >
+          View the full interview →
+        </Link>
+      ) : null}
+
       {question.body ? (
         <div className="prose-loop mt-8">
           <ReactMarkdown>{question.body}</ReactMarkdown>

@@ -2,20 +2,15 @@ import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { Container } from '@/components/ui/Container';
 import { Filters } from '@/components/Filters';
-import { RoundRail } from '@/components/RoundRail';
-import { getCompanyBySlug, getQuestionsForCompany } from '@/db/queries';
-import {
-  filterQuestions,
-  groupQuestionsByRound,
-  facetsOf,
-} from '@/lib/questions';
-import { asRole, asLevel, asRound } from '@/lib/constants';
+import { InterviewCard } from '@/components/InterviewCard';
+import { getCompanyBySlug, getInterviewsForCompany } from '@/db/queries';
+import { asRole, asLevel, ROLES, LEVELS } from '@/lib/constants';
 
 export const dynamic = 'force-dynamic';
 
 type PageProps = {
   params: Promise<{ slug: string }>;
-  searchParams: Promise<{ role?: string; level?: string; round?: string }>;
+  searchParams: Promise<{ role?: string; level?: string }>;
 };
 
 export async function generateMetadata({
@@ -26,7 +21,7 @@ export async function generateMetadata({
   if (!company) return { title: 'Company not found' };
   return {
     title: `${company.name} interview questions`,
-    description: `Interview questions asked at ${company.name}, grouped by round, role, and level.`,
+    description: `Real ${company.name} interview experiences, grouped by round, across roles and levels.`,
   };
 }
 
@@ -35,18 +30,25 @@ export default async function CompanyPage({ params, searchParams }: PageProps) {
   const company = await getCompanyBySlug(slug);
   if (!company) notFound();
 
-  const allQuestions = await getQuestionsForCompany(company.id);
-  const facets = facetsOf(allQuestions);
+  const interviews = await getInterviewsForCompany(company.id);
+  const facets = {
+    roles: ROLES.filter((r) => interviews.some((i) => i.role === r)),
+    levels: LEVELS.filter((l) => interviews.some((i) => i.level === l)),
+    rounds: [],
+  };
 
   const sp = await searchParams;
   const active = {
     role: asRole(sp.role),
     level: asLevel(sp.level),
-    round: asRound(sp.round),
+    round: undefined,
   };
 
-  const filtered = filterQuestions(allQuestions, active);
-  const groups = groupQuestionsByRound(filtered);
+  const filtered = interviews.filter(
+    (i) =>
+      (!active.role || i.role === active.role) &&
+      (!active.level || i.level === active.level),
+  );
 
   return (
     <Container className="py-12">
@@ -69,6 +71,10 @@ export default async function CompanyPage({ params, searchParams }: PageProps) {
           {company.description ? (
             <p className="mt-2 max-w-2xl text-muted">{company.description}</p>
           ) : null}
+          <p className="mt-3 font-mono text-xs text-faint">
+            {interviews.length} interview
+            {interviews.length === 1 ? '' : 's'} shared — read how each round went.
+          </p>
         </div>
       </header>
 
@@ -76,20 +82,24 @@ export default async function CompanyPage({ params, searchParams }: PageProps) {
         {/* Filters */}
         <aside className="lg:sticky lg:top-24 lg:self-start">
           <p className="mb-4 font-mono text-xs text-faint">
-            {filtered.length} of {allQuestions.length} shown
+            {filtered.length} of {interviews.length} shown
           </p>
           <Filters facets={facets} active={active} />
         </aside>
 
-        {/* Rounds */}
+        {/* Interviews */}
         <div>
-          {groups.length > 0 ? (
-            <RoundRail groups={groups} />
+          {filtered.length > 0 ? (
+            <div className="grid gap-4 sm:grid-cols-2">
+              {filtered.map((interview) => (
+                <InterviewCard key={interview.id} interview={interview} />
+              ))}
+            </div>
           ) : (
             <div className="rounded-xl border border-line bg-surface p-8 text-center">
-              <p className="text-fg">No questions match these filters.</p>
+              <p className="text-fg">No interviews match these filters.</p>
               <p className="mt-1 text-sm text-muted">
-                Try clearing a filter to see more rounds.
+                Try clearing a filter to see more experiences.
               </p>
             </div>
           )}

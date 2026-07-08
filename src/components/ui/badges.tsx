@@ -3,10 +3,12 @@ import {
   LEVEL_LABELS,
   DIFFICULTY_LABELS,
   SOURCE_LABELS,
+  OUTCOME_LABELS,
   type Role,
   type Level,
   type Difficulty,
   type SourceType,
+  type Outcome,
 } from '@/lib/constants';
 
 const baseChip =
@@ -87,9 +89,17 @@ export function SourceBadge({
   sourceUrl?: string | null;
 }) {
   const label = SOURCE_LABELS[sourceType];
+  const glyph =
+    sourceType === 'ai'
+      ? '✦ '
+      : sourceType === 'github'
+        ? '⎇ '
+        : sourceType === 'curated'
+          ? '◆ '
+          : '❝ ';
   const inner = (
     <span className={`${baseChip} border-line text-faint`}>
-      {sourceType === 'ai' ? '✦ ' : sourceType === 'github' ? '⎇ ' : '❝ '}
+      {glyph}
       {label}
     </span>
   );
@@ -106,6 +116,30 @@ export function SourceBadge({
     );
   }
   return inner;
+}
+
+export function OutcomeBadge({ outcome }: { outcome: Outcome }) {
+  if (outcome === 'unknown') {
+    return (
+      <span className={`${baseChip} border-line text-faint`}>
+        {OUTCOME_LABELS.unknown}
+      </span>
+    );
+  }
+  const color =
+    outcome === 'offer'
+      ? 'var(--easy)'
+      : outcome === 'rejected' || outcome === 'no_offer'
+        ? 'var(--hard)'
+        : 'var(--medium)';
+  return (
+    <span
+      className={baseChip}
+      style={{ color, borderColor: `${color}55`, backgroundColor: `${color}14` }}
+    >
+      {OUTCOME_LABELS[outcome]}
+    </span>
+  );
 }
 
 export function Tag({ children }: { children: string }) {
