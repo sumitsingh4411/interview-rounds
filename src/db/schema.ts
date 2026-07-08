@@ -18,7 +18,7 @@ import {
   DIFFICULTIES,
   SOURCE_TYPES,
   type Round,
-} from '@/lib/constants';
+} from '../lib/constants';
 
 // ---------------------------------------------------------------------------
 // Enums
