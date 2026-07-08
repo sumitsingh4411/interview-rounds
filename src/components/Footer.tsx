@@ -24,12 +24,6 @@ export function Footer() {
               Search
             </Link>
           </div>
-          <div className="space-y-2">
-            <p className="eyebrow">Contribute</p>
-            <Link href="/submit" className="block text-muted hover:text-fg">
-              Share an interview
-            </Link>
-          </div>
         </nav>
       </Container>
       <Container className="border-t border-line py-5">

@@ -79,11 +79,8 @@ export default async function QuestionPage({ params }: PageProps) {
         </div>
       ) : (
         <p className="mt-8 rounded-xl border border-line bg-surface p-5 text-muted">
-          No write-up yet for this one. Know how it was asked or a good approach?{' '}
-          <Link href="/submit" className="text-brand hover:underline">
-            Add your notes
-          </Link>
-          .
+          No write-up yet for this one — the question itself is what came up in
+          this round.
         </p>
       )}
 

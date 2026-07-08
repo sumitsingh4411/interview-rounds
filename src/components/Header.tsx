@@ -2,12 +2,10 @@ import Link from 'next/link';
 import { Container } from './ui/Container';
 import { Logo } from './Logo';
 import { ThemeToggle } from './ThemeToggle';
-import { AuthNav } from './AuthNav';
 
 const NAV = [
   { href: '/companies', label: 'Companies' },
   { href: '/search', label: 'Search' },
-  { href: '/submit', label: 'Share yours' },
 ];
 
 export function Header() {
@@ -28,7 +26,6 @@ export function Header() {
         </nav>
         <div className="flex items-center gap-2">
           <ThemeToggle />
-          <AuthNav />
         </div>
       </Container>
     </header>

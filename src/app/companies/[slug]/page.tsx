@@ -89,11 +89,7 @@ export default async function CompanyPage({ params, searchParams }: PageProps) {
             <div className="rounded-xl border border-line bg-surface p-8 text-center">
               <p className="text-fg">No questions match these filters.</p>
               <p className="mt-1 text-sm text-muted">
-                Try clearing a filter, or{' '}
-                <a href="/submit" className="text-brand hover:underline">
-                  share a question you were asked
-                </a>
-                .
+                Try clearing a filter to see more rounds.
               </p>
             </div>
           )}

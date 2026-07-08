@@ -10,7 +10,6 @@ import {
   primaryKey,
   index,
 } from 'drizzle-orm/pg-core';
-import type { AdapterAccountType } from 'next-auth/adapters';
 import {
   ROLES,
   LEVELS,
@@ -19,6 +18,10 @@ import {
   SOURCE_TYPES,
   type Round,
 } from '../lib/constants';
+
+// Standard OAuth account type. Auth wiring is deferred, so this is inlined
+// rather than imported from an auth library.
+type AdapterAccountType = 'oauth' | 'oidc' | 'email' | 'webauthn';
 
 // ---------------------------------------------------------------------------
 // Enums
