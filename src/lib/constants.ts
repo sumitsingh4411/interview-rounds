@@ -75,3 +75,14 @@ export const SOURCE_LABELS: Record<SourceType, string> = {
   github: 'GitHub',
   community: 'Community',
 };
+
+// Coerce untrusted URL params to a valid enum value (or undefined).
+export function asRole(v?: string | null): Role | undefined {
+  return ROLES.includes(v as Role) ? (v as Role) : undefined;
+}
+export function asLevel(v?: string | null): Level | undefined {
+  return LEVELS.includes(v as Level) ? (v as Level) : undefined;
+}
+export function asRound(v?: string | null): Round | undefined {
+  return ROUNDS.includes(v as Round) ? (v as Round) : undefined;
+}

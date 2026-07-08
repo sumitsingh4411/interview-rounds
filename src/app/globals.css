@@ -162,6 +162,60 @@
     color: var(--brand);
     box-shadow: 0 0 0 4px rgb(var(--glow) / 0.15);
   }
+
+  /* Lightweight prose styling for markdown question write-ups. */
+  .prose-loop {
+    color: var(--muted);
+    line-height: 1.7;
+  }
+  .prose-loop p {
+    margin-block: 0.9em;
+  }
+  .prose-loop h2,
+  .prose-loop h3 {
+    color: var(--fg);
+    margin-top: 1.4em;
+    margin-bottom: 0.5em;
+  }
+  .prose-loop a {
+    color: var(--brand);
+    text-decoration: underline;
+  }
+  .prose-loop ul,
+  .prose-loop ol {
+    margin-block: 0.9em;
+    padding-left: 1.4em;
+  }
+  .prose-loop ul {
+    list-style: disc;
+  }
+  .prose-loop ol {
+    list-style: decimal;
+  }
+  .prose-loop li {
+    margin-block: 0.35em;
+  }
+  .prose-loop code {
+    font-family: var(--font-mono);
+    font-size: 0.85em;
+    background: var(--surface-2);
+    border: 1px solid var(--line);
+    border-radius: 5px;
+    padding: 0.1em 0.4em;
+  }
+  .prose-loop pre {
+    background: var(--surface-2);
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    padding: 1em;
+    overflow-x: auto;
+    margin-block: 1em;
+  }
+  .prose-loop pre code {
+    background: none;
+    border: none;
+    padding: 0;
+  }
 }
 
 @media (prefers-reduced-motion: reduce) {
