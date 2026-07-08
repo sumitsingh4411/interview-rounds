@@ -1,26 +1,177 @@
 @import "tailwindcss";
 
+/* ------------------------------------------------------------------ *
+ * "The Loop" design tokens
+ * Dark-first. Light theme via [data-theme="light"] on <html>.
+ * ------------------------------------------------------------------ */
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --canvas: #0b0e14;
+  --surface: #10141d;
+  --surface-2: #161b27;
+  --elevated: #1e2534;
+  --line: #232b3b;
+  --line-2: #313b50;
+  --fg: #e7eaf0;
+  --muted: #9aa4b6;
+  --faint: #626d82;
+  --brand: #818cf8;
+  --brand-2: #6e79f0;
+  --on-brand: #0b0e14;
+  --frontend: #22d3ee;
+  --backend: #a78bfa;
+  --easy: #34d399;
+  --medium: #fbbf24;
+  --hard: #f87171;
+  --glow: 129 140 248; /* brand rgb for translucent glows */
+}
+
+:root[data-theme="light"] {
+  --canvas: #f7f8fb;
+  --surface: #ffffff;
+  --surface-2: #f1f3f8;
+  --elevated: #ffffff;
+  --line: #e4e8f0;
+  --line-2: #d2d8e4;
+  --fg: #141824;
+  --muted: #55607a;
+  --faint: #8a93a6;
+  --brand: #5a63e8;
+  --brand-2: #4a53d8;
+  --on-brand: #ffffff;
+  --frontend: #0891b2;
+  --backend: #7c3aed;
+  --easy: #059669;
+  --medium: #b45309;
+  --hard: #dc2626;
+  --glow: 90 99 232;
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-canvas: var(--canvas);
+  --color-surface: var(--surface);
+  --color-surface-2: var(--surface-2);
+  --color-elevated: var(--elevated);
+  --color-line: var(--line);
+  --color-line-2: var(--line-2);
+  --color-fg: var(--fg);
+  --color-muted: var(--muted);
+  --color-faint: var(--faint);
+  --color-brand: var(--brand);
+  --color-brand-2: var(--brand-2);
+  --color-on-brand: var(--on-brand);
+  --color-frontend: var(--frontend);
+  --color-backend: var(--backend);
+  --color-easy: var(--easy);
+  --color-medium: var(--medium);
+  --color-hard: var(--hard);
+
+  --font-display: var(--font-space-grotesk), ui-sans-serif, system-ui, sans-serif;
+  --font-sans: var(--font-plex-sans), ui-sans-serif, system-ui, sans-serif;
+  --font-mono: var(--font-plex-mono), ui-monospace, "SF Mono", monospace;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+@layer base {
+  * {
+    border-color: var(--line);
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background-color: var(--canvas);
+    color: var(--fg);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+    /* Ambient brand glow at the top — restrained, single source. */
+    background-image: radial-gradient(
+      60rem 30rem at 50% -12rem,
+      rgb(var(--glow) / 0.14),
+      transparent 70%
+    );
+    background-repeat: no-repeat;
+  }
+
+  h1, h2, h3, h4 {
+    font-family: var(--font-display);
+    font-weight: 600;
+    letter-spacing: -0.02em;
+  }
+
+  ::selection {
+    background: rgb(var(--glow) / 0.3);
+    color: var(--fg);
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--brand);
+    outline-offset: 2px;
+    border-radius: 4px;
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+/* ------------------------------------------------------------------ *
+ * Reusable primitives
+ * ------------------------------------------------------------------ */
+@layer components {
+  /* Monospace eyebrow / label — the "terminal" voice of the UI. */
+  .eyebrow {
+    font-family: var(--font-mono);
+    font-size: 0.72rem;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: var(--faint);
+  }
+
+  /* The Round Rail spine + nodes (signature element). */
+  .rail {
+    position: relative;
+  }
+  .rail::before {
+    content: "";
+    position: absolute;
+    left: 15px;
+    top: 8px;
+    bottom: 8px;
+    width: 2px;
+    background: linear-gradient(
+      to bottom,
+      var(--brand),
+      var(--line-2) 40%,
+      var(--line)
+    );
+  }
+  .rail-node {
+    position: relative;
+    z-index: 1;
+    display: grid;
+    place-items: center;
+    width: 32px;
+    height: 32px;
+    border-radius: 999px;
+    background: var(--surface);
+    border: 2px solid var(--line-2);
+    font-family: var(--font-mono);
+    font-size: 0.8rem;
+    color: var(--muted);
+    flex: none;
+  }
+  .rail-node[data-active="true"] {
+    border-color: var(--brand);
+    color: var(--brand);
+    box-shadow: 0 0 0 4px rgb(var(--glow) / 0.15);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
 }
