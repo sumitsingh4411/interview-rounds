@@ -101,7 +101,13 @@ export function Columns({ data, height = 176 }: { data: Column[]; height?: numbe
             >
               <div
                 className="absolute inset-x-0 bottom-0 rounded-md transition-[height] duration-700 ease-out"
-                style={{ height: `${pct}%`, backgroundColor: d.color }}
+                style={{
+                  height: `${pct}%`,
+                  // Guarantee a visible sliver once anything is solved, even
+                  // when the true percentage rounds down to nothing.
+                  minHeight: d.solved > 0 ? '0.3rem' : undefined,
+                  backgroundColor: d.color,
+                }}
               />
             </div>
             <span className="w-full truncate text-center font-mono text-[0.6rem] text-muted">
