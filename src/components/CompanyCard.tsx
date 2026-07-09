@@ -23,7 +23,7 @@ export function CompanyCard({ company }: { company: CompanyWithStats }) {
   return (
     <Link
       href={`/companies/${company.slug}`}
-      className="surface-card group relative flex flex-col overflow-hidden rounded-2xl border border-line bg-surface p-5 hover:-translate-y-0.5 hover:border-brand/30 hover:bg-surface-2"
+      className="glass-card group relative flex flex-col overflow-hidden rounded-2xl p-5 hover:-translate-y-0.5"
     >
       {/* corner glow on hover */}
       <span

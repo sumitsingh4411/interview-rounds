@@ -3,8 +3,16 @@ import { Container } from '@/components/ui/Container';
 import { SearchInput } from '@/components/SearchInput';
 import { RoundRailPreview } from '@/components/RoundRailPreview';
 import { CompanyCard } from '@/components/CompanyCard';
-import { getPopularCompanies, getRoundCounts } from '@/content/loader';
-import { ROLE_LABELS } from '@/lib/constants';
+import {
+  getPopularCompanies,
+  getRoundCounts,
+  getTotals,
+} from '@/content/loader';
+import { ROLE_LABELS, ROUND_ORDER } from '@/lib/constants';
+
+function compact(n: number): string {
+  return n >= 1000 ? `${(n / 1000).toFixed(1)}k` : String(n);
+}
 
 const VALUE_PROPS = [
   {
@@ -27,6 +35,13 @@ const VALUE_PROPS = [
 export default function HomePage() {
   const companies = getPopularCompanies(6);
   const roundCounts = getRoundCounts();
+  const totals = getTotals();
+  const stats = [
+    { n: String(totals.companies), label: 'companies' },
+    { n: String(totals.interviews), label: 'interviews' },
+    { n: compact(totals.questions), label: 'questions' },
+    { n: String(ROUND_ORDER.length), label: 'round types' },
+  ];
 
   return (
     <>
@@ -57,6 +72,20 @@ export default function HomePage() {
               {ROLE_LABELS.fullstack}
             </span>
           </div>
+
+          {/* Stats strip */}
+          <dl className="mt-9 grid max-w-xl grid-cols-2 gap-3 sm:grid-cols-4">
+            {stats.map((s) => (
+              <div key={s.label} className="glass rounded-2xl px-4 py-3">
+                <dt className="font-display text-2xl font-bold text-fg">
+                  {s.n}
+                </dt>
+                <dd className="mt-0.5 font-mono text-[0.7rem] tracking-wide text-faint">
+                  {s.label}
+                </dd>
+              </div>
+            ))}
+          </dl>
         </div>
         <div className="lg:pl-6">
           <RoundRailPreview counts={roundCounts} />

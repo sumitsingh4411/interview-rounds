@@ -17,7 +17,7 @@ export function QuestionCard({
   href?: string;
 }) {
   return (
-    <article className="group relative rounded-xl border border-line bg-surface p-4 transition-colors hover:border-line-2 hover:bg-surface-2">
+    <article className="glass-card group relative rounded-xl p-4">
       <div className="flex items-start justify-between gap-3">
         {href ? (
           <Link

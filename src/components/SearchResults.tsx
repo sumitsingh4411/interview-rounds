@@ -94,7 +94,7 @@ export function SearchResults() {
           <li key={e.id}>
             <Link
               href={`/interviews/${e.interviewId}`}
-              className="surface-card block rounded-xl border border-line bg-surface p-4 hover:border-line-2 hover:bg-surface-2"
+              className="glass-card block rounded-xl p-4"
             >
               <div className="mb-1.5 flex items-center gap-2 font-mono text-xs text-faint">
                 {e.company}

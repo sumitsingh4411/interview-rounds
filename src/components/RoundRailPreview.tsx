@@ -23,8 +23,8 @@ export function RoundRailPreview({
   const activeCount = counts?.[activeRound];
 
   return (
-    <div className="rounded-[1.75rem] bg-gradient-to-b from-line-2/60 to-line/40 p-px shadow-[0_30px_80px_-40px_rgba(0,0,0,0.7)]">
-      <div className="rounded-[calc(1.75rem-1px)] bg-gradient-to-b from-surface to-surface/70 p-6 backdrop-blur-xl">
+    <div className="glass rounded-[1.75rem] p-6">
+      <div>
         <div className="mb-5 flex items-center justify-between">
           <p className="eyebrow">A typical loop</p>
           <span className="hidden font-mono text-[0.65rem] text-faint sm:inline">

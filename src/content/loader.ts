@@ -258,6 +258,19 @@ export function getQuestionsByRound(
   return out;
 }
 
+export function getTotals(): {
+  companies: number;
+  interviews: number;
+  questions: number;
+} {
+  const d = data();
+  return {
+    companies: d.companies.length,
+    interviews: d.interviews.length,
+    questions: d.questions.length,
+  };
+}
+
 export function getRoundCounts(): Partial<Record<Round, number>> {
   const map: Partial<Record<Round, number>> = {};
   for (const q of data().questions) {

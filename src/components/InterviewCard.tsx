@@ -22,7 +22,7 @@ export function InterviewCard({
   return (
     <Link
       href={`/interviews/${interview.id}`}
-      className="surface-card group flex flex-col rounded-2xl border border-line bg-surface p-5 hover:-translate-y-0.5 hover:border-line-2 hover:bg-surface-2"
+      className="glass-card group flex flex-col rounded-2xl p-5 hover:-translate-y-0.5"
     >
       <div className="flex flex-wrap items-center gap-1.5">
         <RoleBadge role={role} />
