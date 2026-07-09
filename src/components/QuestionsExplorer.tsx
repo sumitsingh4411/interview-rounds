@@ -17,7 +17,6 @@ import {
   type Difficulty,
 } from '@/lib/constants';
 import { useSolved } from '@/lib/solved';
-import { withBasePath } from '@/lib/base-path';
 import { SolvedCheckbox } from './SolvedCheckbox';
 import { RoundBadge, LevelBadge, DifficultyBadge } from './ui/badges';
 
@@ -93,7 +92,7 @@ export function QuestionsExplorer() {
 
   useEffect(() => {
     let alive = true;
-    fetch(withBasePath('/search-index.json'))
+    fetch('/search-index.json')
       .then((r) => r.json())
       .then((d: Entry[]) => {
         if (alive) setEntries(d);

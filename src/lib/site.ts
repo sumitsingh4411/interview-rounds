@@ -3,6 +3,6 @@ export const SITE = {
   tagline: 'Know every round before you walk in.',
   description:
     'Real interview questions from top companies, organized by round, role, and level — so you prep for exactly what you will face.',
-  url: 'https://nextjoblist.com/interview-rounds',
+  url: 'https://interview-rounds.nextjoblist.com',
   repo: 'https://github.com/sumitsingh4411/interview-rounds',
 };
