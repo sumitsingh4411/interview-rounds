@@ -1,30 +1,45 @@
 'use client';
 
-import { useEffect, useState } from 'react';
+import { useSyncExternalStore } from 'react';
+
+type Theme = 'dark' | 'light';
+
+// The theme lives on <html data-theme>, set by an inline script before paint.
+// useSyncExternalStore reads it without a setState-in-effect or a hydration mismatch.
+const listeners = new Set<() => void>();
+
+function subscribe(onChange: () => void) {
+  listeners.add(onChange);
+  return () => {
+    listeners.delete(onChange);
+  };
+}
+
+function getSnapshot(): Theme {
+  return document.documentElement.dataset.theme === 'light' ? 'light' : 'dark';
+}
+
+function getServerSnapshot(): Theme {
+  return 'dark';
+}
+
+function setTheme(next: Theme) {
+  document.documentElement.dataset.theme = next;
+  try {
+    localStorage.setItem('theme', next);
+  } catch {
+    /* ignore private-mode storage errors */
+  }
+  listeners.forEach((l) => l());
+}
 
 export function ThemeToggle() {
-  const [theme, setTheme] = useState<'dark' | 'light'>('dark');
-
-  useEffect(() => {
-    const current = document.documentElement.dataset.theme;
-    if (current === 'light' || current === 'dark') setTheme(current);
-  }, []);
-
-  function toggle() {
-    const next = theme === 'dark' ? 'light' : 'dark';
-    setTheme(next);
-    document.documentElement.dataset.theme = next;
-    try {
-      localStorage.setItem('theme', next);
-    } catch {
-      /* ignore private-mode storage errors */
-    }
-  }
+  const theme = useSyncExternalStore(subscribe, getSnapshot, getServerSnapshot);
 
   return (
     <button
       type="button"
-      onClick={toggle}
+      onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}
       className="grid h-9 w-9 place-items-center rounded-lg border border-line text-muted transition-colors hover:border-line-2 hover:text-fg"
       aria-label={`Switch to ${theme === 'dark' ? 'light' : 'dark'} theme`}
     >

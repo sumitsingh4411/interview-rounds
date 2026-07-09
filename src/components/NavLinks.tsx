@@ -25,8 +25,8 @@ export function NavLinks() {
             className={
               'rounded-lg px-3 py-1.5 text-sm font-medium transition-colors ' +
               (active
-                ? 'bg-white/[0.07] text-fg'
-                : 'text-muted hover:bg-white/[0.04] hover:text-fg')
+                ? 'bg-fg/[0.08] text-fg'
+                : 'text-muted hover:bg-fg/[0.05] hover:text-fg')
             }
           >
             {item.label}
