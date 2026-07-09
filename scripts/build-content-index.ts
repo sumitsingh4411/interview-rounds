@@ -32,7 +32,13 @@ type Company = {
   industry: string;
   featured: boolean;
 };
-type Interview = { id: string; company: string; role: string; level: string };
+type Interview = {
+  id: string;
+  company: string;
+  role: string;
+  level: string;
+  questionCount: number;
+};
 
 function mdFiles(dir: string): string[] {
   if (!existsSync(dir)) return [];
@@ -52,8 +58,17 @@ function main() {
 
   const interviews: Interview[] = mdFiles(INTERVIEWS_DIR).map((f) => {
     const { data } = matter(readFileSync(join(INTERVIEWS_DIR, f), 'utf8'));
-    return { id: data.id, company: data.company, role: data.role, level: data.level };
+    const rounds: { questions: unknown[] }[] = data.rounds ?? [];
+    return {
+      id: data.id,
+      company: data.company,
+      role: data.role,
+      level: data.level,
+      questionCount: rounds.reduce((n, r) => n + (r.questions?.length ?? 0), 0),
+    };
   });
+
+  const questionTotal = interviews.reduce((n, iv) => n + iv.questionCount, 0);
 
   const byCompany = new Map<string, Interview[]>();
   for (const iv of interviews) {
@@ -111,11 +126,21 @@ function main() {
     process.exit(1);
   }
 
-  const next =
+  let next =
     readme.slice(0, startIdx) + block + readme.slice(endIdx + END.length);
+
+  // Keep the count badges in sync so they can never drift from the content.
+  next = next
+    .replace(/badge\/interviews-\d+-/, `badge/interviews-${interviews.length}-`)
+    .replace(/badge\/companies-\d+-/, `badge/companies-${companies.length}-`)
+    .replace(
+      /badge\/questions-[\d%C,]+-/,
+      `badge/questions-${questionTotal.toLocaleString('en-US').replace(/,/g, '%2C')}-`,
+    );
+
   writeFileSync(README, next);
   console.log(
-    `✔ README index rebuilt: ${companies.length} companies, ${interviews.length} interviews.`,
+    `✔ README rebuilt: ${companies.length} companies, ${interviews.length} interviews, ${questionTotal} questions.`,
   );
 }
 
