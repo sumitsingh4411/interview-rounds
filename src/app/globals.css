@@ -257,6 +257,40 @@
   }
 }
 
+/* Slow, eye-catching pulse for the active round node. */
+@keyframes railGlow {
+  0%,
+  100% {
+    box-shadow:
+      0 0 0 4px rgb(var(--glow) / 0.12),
+      0 8px 22px -6px rgb(var(--glow) / 0.55);
+  }
+  50% {
+    box-shadow:
+      0 0 0 8px rgb(var(--glow) / 0.05),
+      0 10px 26px -6px rgb(var(--glow) / 0.7);
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(4px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.rail-node-glow {
+  animation: railGlow 2.6s ease-in-out infinite;
+}
+
+.animate-fade-in {
+  animation: fadeInUp 0.45s ease both;
+}
+
 @media (prefers-reduced-motion: reduce) {
   html {
     scroll-behavior: auto;
