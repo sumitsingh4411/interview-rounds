@@ -73,6 +73,24 @@ export const ROUND_DESCRIPTIONS: Record<Round, string> = {
 // Canonical display order for interview rounds (earliest → latest stage).
 export const ROUND_ORDER: readonly Round[] = ROUNDS;
 
+/**
+ * A distinct accent per round. Only one is ever shown at a time (the active /
+ * hovered round), so this reads as a single changing accent, not a rainbow.
+ * `rgb` is a space-separated triple for use inside rgb(... / <alpha>).
+ */
+export type RoundColor = { from: string; to: string; rgb: string };
+
+export const ROUND_COLORS: Record<Round, RoundColor> = {
+  oa: { from: '#38bdf8', to: '#22d3ee', rgb: '56 189 248' },
+  dsa: { from: '#818cf8', to: '#6366f1', rgb: '129 140 248' },
+  machine_coding: { from: '#a78bfa', to: '#8b5cf6', rgb: '167 139 250' },
+  lld: { from: '#e879f9', to: '#c026d3', rgb: '232 121 249' },
+  system_design: { from: '#fb7185', to: '#f43f5e', rgb: '251 113 133' },
+  tech_deep_dive: { from: '#fbbf24', to: '#f59e0b', rgb: '251 191 36' },
+  hiring_manager: { from: '#34d399', to: '#10b981', rgb: '52 211 153' },
+  behavioral: { from: '#2dd4bf', to: '#14b8a6', rgb: '45 212 191' },
+};
+
 export const DIFFICULTY_LABELS: Record<Difficulty, string> = {
   easy: 'Easy',
   medium: 'Medium',

@@ -1,16 +1,14 @@
 'use client';
 
 import Link from 'next/link';
-import { useState } from 'react';
+import { useState, type CSSProperties } from 'react';
 import {
   ROUND_ORDER,
   ROUND_LABELS,
   ROUND_DESCRIPTIONS,
+  ROUND_COLORS,
   type Round,
 } from '@/lib/constants';
-
-// Eye-catching, cohesive accent gradient for the active round.
-const ACTIVE_GRADIENT = 'linear-gradient(135deg, #22d3ee, #818cf8 55%, #c084fc)';
 
 export function RoundRailPreview({
   counts,
@@ -21,6 +19,7 @@ export function RoundRailPreview({
   const n = ROUND_ORDER.length;
   const activeRound = ROUND_ORDER[active];
   const activeCount = counts?.[activeRound];
+  const color = ROUND_COLORS[activeRound];
 
   return (
     <div className="glass rounded-[1.75rem] p-6">
@@ -40,27 +39,33 @@ export function RoundRailPreview({
             className="absolute top-6 bottom-6 w-px bg-line"
             style={{ left: '30px' }}
           />
-          {/* progress spine — single smooth element, no popping */}
+          {/* progress spine — intensifies toward the active round */}
           <span
             aria-hidden
-            className="absolute top-6 w-px transition-[height] duration-700 ease-out"
+            className="absolute top-6 w-px transition-all duration-700 ease-out"
             style={{
               left: '30px',
               height: `calc((100% - 48px) * ${active / (n - 1)})`,
-              backgroundImage: ACTIVE_GRADIENT,
+              backgroundImage: `linear-gradient(to bottom, rgb(${color.rgb} / 0.25), ${color.from})`,
             }}
           />
 
           <ol className="relative space-y-0.5">
             {ROUND_ORDER.map((round, i) => {
               const isActive = i === active;
+              const c = ROUND_COLORS[round];
               return (
                 <li key={round}>
                   <Link
                     href={`/rounds/${round}`}
                     onMouseEnter={() => setActive(i)}
                     onFocus={() => setActive(i)}
-                    className="group flex items-center gap-4 rounded-xl px-3 py-1.5 transition-colors hover:bg-surface-2/60"
+                    className="group flex items-center gap-4 rounded-xl px-3 py-1.5 transition-colors"
+                    style={
+                      isActive
+                        ? { backgroundColor: `rgb(${c.rgb} / 0.07)` }
+                        : undefined
+                    }
                   >
                     <span
                       aria-hidden
@@ -68,14 +73,20 @@ export function RoundRailPreview({
                         'relative grid h-9 w-9 shrink-0 place-items-center rounded-full border bg-surface font-mono text-xs transition-colors duration-300 ' +
                         (isActive
                           ? 'rail-node-glow border-transparent'
-                          : 'border-line-2 text-faint group-hover:border-brand/50')
+                          : 'border-line-2 text-faint')
+                      }
+                      // Drive the pulse keyframe with this round's colour.
+                      style={
+                        isActive
+                          ? ({ ['--glow']: c.rgb } as CSSProperties)
+                          : undefined
                       }
                     >
                       {/* gradient fill fades in only for the active node */}
                       <span
                         className="pointer-events-none absolute inset-0 rounded-full transition-opacity duration-500 ease-out"
                         style={{
-                          backgroundImage: ACTIVE_GRADIENT,
+                          backgroundImage: `linear-gradient(135deg, ${c.from}, ${c.to})`,
                           opacity: isActive ? 1 : 0,
                         }}
                       />
@@ -86,6 +97,7 @@ export function RoundRailPreview({
                         {String(i + 1).padStart(2, '0')}
                       </span>
                     </span>
+
                     <span
                       className={
                         'flex-1 text-[0.95rem] transition-colors duration-300 ' +
@@ -96,12 +108,13 @@ export function RoundRailPreview({
                     >
                       {ROUND_LABELS[round]}
                     </span>
+
                     {counts?.[round] !== undefined ? (
                       <span
-                        className={
-                          'font-mono text-xs transition-colors duration-300 ' +
-                          (isActive ? 'text-brand' : 'text-faint')
-                        }
+                        className="font-mono text-xs transition-colors duration-300"
+                        style={{
+                          color: isActive ? c.from : 'var(--faint)',
+                        }}
                       >
                         {counts[round]}
                       </span>
@@ -113,12 +126,30 @@ export function RoundRailPreview({
           </ol>
         </div>
 
-        {/* Detail panel — fixed min-height so scrubbing never shifts layout */}
-        <div className="mt-5 min-h-[7rem] rounded-2xl border border-line bg-canvas/40 p-4">
+        {/*
+          Fixed height, and every child is width-stable:
+            - title truncates to one line
+            - description is clamped to two lines (space always reserved)
+            - the CTA text is constant, so it can never wrap
+          Any growth here would resize the hero grid and shove the left column
+          around as you scrub the rail. Locked so that can't happen.
+        */}
+        <div
+          className="mt-5 h-[8.5rem] overflow-hidden rounded-2xl border bg-canvas/40 p-4 transition-colors duration-300"
+          style={{ borderColor: `rgb(${color.rgb} / 0.28)` }}
+        >
           <div key={activeRound} className="animate-fade-in">
             <div className="flex items-baseline justify-between gap-3">
-              <h3 className="font-display text-sm font-semibold text-fg">
-                {ROUND_LABELS[activeRound]}
+              <h3 className="flex min-w-0 items-center gap-2 font-display text-sm font-semibold text-fg">
+                <span
+                  aria-hidden
+                  className="h-1.5 w-1.5 shrink-0 rounded-full"
+                  style={{
+                    backgroundColor: color.from,
+                    boxShadow: `0 0 8px 1px rgb(${color.rgb} / 0.7)`,
+                  }}
+                />
+                <span className="truncate">{ROUND_LABELS[activeRound]}</span>
               </h3>
               {activeCount !== undefined ? (
                 <span className="shrink-0 font-mono text-[0.65rem] text-faint">
@@ -126,14 +157,18 @@ export function RoundRailPreview({
                 </span>
               ) : null}
             </div>
-            <p className="mt-1.5 text-sm text-muted">
+
+            <p className="mt-1.5 line-clamp-2 h-10 text-sm text-muted">
               {ROUND_DESCRIPTIONS[activeRound]}
             </p>
+
             <Link
               href={`/rounds/${activeRound}`}
-              className="mt-3 inline-flex items-center gap-1 text-sm font-medium text-brand transition-all hover:gap-2 hover:underline"
+              aria-label={`Explore ${ROUND_LABELS[activeRound]} questions`}
+              className="mt-3 inline-flex items-center gap-1 whitespace-nowrap text-sm font-medium transition-all hover:gap-2 hover:underline"
+              style={{ color: color.from }}
             >
-              Explore {ROUND_LABELS[activeRound]} questions
+              Explore questions
               <span aria-hidden>→</span>
             </Link>
           </div>

@@ -224,6 +224,11 @@
       0 26px 60px -30px rgb(var(--glow) / 0.3);
   }
 
+  /* Hovering a round section tints its title with that round's colour. */
+  .round-section:hover .round-title {
+    color: var(--round-color);
+  }
+
   /* The Round Rail spine + nodes (signature element). */
   .rail {
     position: relative;
