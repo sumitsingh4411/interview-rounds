@@ -37,7 +37,7 @@ const VALUE_PROPS = [
 ];
 
 export default function HomePage() {
-  const companies = getPopularCompanies(6);
+  const companies = getPopularCompanies(9);
   const roundCounts = getRoundCounts();
   const totals = getTotals();
   const stats = [

@@ -1,6 +1,7 @@
 ---
 name: Microsoft
 slug: microsoft
+featured: true
 industry: Big Tech
 hq: 'Redmond, WA'
 description: 'Azure, Windows, Office, GitHub. Balanced loops across coding and design.'

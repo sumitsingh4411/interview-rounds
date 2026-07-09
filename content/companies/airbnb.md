@@ -1,6 +1,7 @@
 ---
 name: Airbnb
 slug: airbnb
+featured: true
 industry: Marketplace
 hq: 'San Francisco, CA'
 description: Travel marketplace with a famously strong frontend and design culture.

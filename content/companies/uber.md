@@ -1,6 +1,7 @@
 ---
 name: Uber
 slug: uber
+featured: true
 industry: Marketplace
 hq: 'San Francisco, CA'
 description: 'Ride-hailing and delivery. Real-time, geospatial systems feature heavily.'
