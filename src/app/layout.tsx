@@ -52,6 +52,10 @@ export default function RootLayout({
     <html
       lang="en"
       data-theme="dark"
+      // themeScript rewrites data-theme before React hydrates, so the server
+      // ("dark") and client (the saved theme) attributes differ by design.
+      // suppressHydrationWarning is scoped to this element's own attributes.
+      suppressHydrationWarning
       className={`${display.variable} ${sans.variable} ${mono.variable} h-full`}
     >
       <head>
