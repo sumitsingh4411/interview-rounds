@@ -3,22 +3,22 @@ id: uber-1
 company: uber
 role: fullstack
 level: senior
-outcome: unknown
-year: 2024
+outcome: offer
+year: 2023
 source: curated
 summary: >-
-  6-round senior fullstack process. Coding-heavy early, design and behavioral
-  later.
+  6-round senior fullstack process. Fast-paced; expect follow-ups that push on
+  depth.
 ---
 # Senior Full-stack — Uber
 
 ![role](https://img.shields.io/badge/role-Full--stack-a78bfa?style=flat-square)
 ![level](https://img.shields.io/badge/level-Senior-818cf8?style=flat-square)
-![outcome](https://img.shields.io/badge/outcome-Unknown-6b7280?style=flat-square)
-![year](https://img.shields.io/badge/year-2024-6b7280?style=flat-square)
+![outcome](https://img.shields.io/badge/outcome-Offer-34d399?style=flat-square)
+![year](https://img.shields.io/badge/year-2023-6b7280?style=flat-square)
 ![source](https://img.shields.io/badge/source-Commonly%20asked-2dd4bf?style=flat-square)
 
-> 6-round senior fullstack process. Coding-heavy early, design and behavioral later.
+> 6-round senior fullstack process. Fast-paced; expect follow-ups that push on depth.
 
 **6 rounds · 10 questions**
 
@@ -31,8 +31,8 @@ _Data structures & algorithms on a whiteboard or shared editor._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Median of two sorted arrays. | 🔴 Hard | `binary-search` | [LC](https://leetcode.com/problemset/?search=Median%20of%20two%20sorted%20arrays) · [NC](https://neetcode.io/practice) · [GfG](https://www.geeksforgeeks.org/search/?gq=Median%20of%20two%20sorted%20arrays) |
-| Trapping rain water. | 🔴 Hard | `two-pointers` `array` | [LC](https://leetcode.com/problemset/?search=Trapping%20rain%20water) · [NC](https://neetcode.io/practice) · [GfG](https://www.geeksforgeeks.org/search/?gq=Trapping%20rain%20water) |
+| Longest increasing subsequence. | 🔴 Hard | `dp` `binary-search` | [LC](https://leetcode.com/problemset/?search=Longest%20increasing%20subsequence) · [NC](https://neetcode.io/practice) · [GfG](https://www.geeksforgeeks.org/search/?gq=Longest%20increasing%20subsequence) |
+| Group anagrams from a list of strings. | 🟡 Medium | `hashmap` `string` | [LC](https://leetcode.com/problemset/?search=Group%20anagrams%20from%20a%20list%20of%20strings) · [NC](https://neetcode.io/practice) · [GfG](https://www.geeksforgeeks.org/search/?gq=Group%20anagrams%20from%20a%20list%20of%20strings) |
 
 ## Round 2 · Machine Coding
 <!-- round: machine_coding -->
@@ -41,8 +41,8 @@ _Build a working component or service under time pressure._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Build a key-value store with TTL expiry. | 🟡 Medium | `cache` `ttl` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20a%20key-value%20store%20with%20TTL%20expiry) · [Search](https://www.google.com/search?q=Build%20a%20key-value%20store%20with%20TTL%20expiry) |
-| Build a data table with sorting, filtering and pagination. | 🔴 Hard | `react` `table` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20a%20data%20table%20with%20sorting%2C%20filtering%20and%20pagination) · [Search](https://www.google.com/search?q=Build%20a%20data%20table%20with%20sorting%2C%20filtering%20and%20pagination) |
+| Build a kanban board with drag and drop. | 🔴 Hard | `react` `dnd` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20a%20kanban%20board%20with%20drag%20and%20drop) · [Search](https://www.google.com/search?q=Build%20a%20kanban%20board%20with%20drag%20and%20drop) |
+| Implement a job queue with retries and backoff. | 🔴 Hard | `queue` `reliability` | [GfG](https://www.geeksforgeeks.org/search/?gq=Implement%20a%20job%20queue%20with%20retries%20and%20backoff) · [Search](https://www.google.com/search?q=Implement%20a%20job%20queue%20with%20retries%20and%20backoff) |
 
 ## Round 3 · System Design
 <!-- round: system_design -->
@@ -51,8 +51,8 @@ _High-level architecture of a large-scale system._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Design a component/design-system architecture for many teams. | 🟡 Medium | `frontend` `design-system` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20component%2Fdesign-system%20architecture%20for%20many%20teams) · [Search](https://www.google.com/search?q=Design%20a%20component%2Fdesign-system%20architecture%20for%20many%20teams) |
-| Design a ride-matching backend (riders ↔ nearby drivers). | 🔴 Hard | `geospatial` `matching` `realtime` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20ride-matching%20backend%20(riders%20%E2%86%94%20nearby%20drivers)) · [Search](https://www.google.com/search?q=Design%20a%20ride-matching%20backend%20(riders%20%E2%86%94%20nearby%20drivers)) |
+| Design a distributed cache. | 🔴 Hard | `cache` `consistency` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20distributed%20cache) · [Search](https://www.google.com/search?q=Design%20a%20distributed%20cache) |
+| Design a real-time collaborative editor (client side). | 🔴 Hard | `frontend` `crdt` `realtime` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20real-time%20collaborative%20editor%20(client%20side)) · [Search](https://www.google.com/search?q=Design%20a%20real-time%20collaborative%20editor%20(client%20side)) |
 
 ## Round 4 · Tech Deep-Dive
 <!-- round: tech_deep_dive -->
@@ -61,8 +61,8 @@ _Deep questions on your core stack and fundamentals._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Debounce vs throttle — implement one from scratch. | 🟡 Medium | `javascript` `perf` | [GfG](https://www.geeksforgeeks.org/search/?gq=Debounce%20vs%20throttle%20%E2%80%94%20implement%20one%20from%20scratch) · [Search](https://www.google.com/search?q=Debounce%20vs%20throttle%20%E2%80%94%20implement%20one%20from%20scratch) |
-| Idempotency in APIs — why and how. | 🟡 Medium | `api-design` `idempotency` | [GfG](https://www.geeksforgeeks.org/search/?gq=Idempotency%20in%20APIs%20%E2%80%94%20why%20and%20how) · [Search](https://www.google.com/search?q=Idempotency%20in%20APIs%20%E2%80%94%20why%20and%20how) |
+| How does a load balancer choose a backend? | 🟡 Medium | `networking` | [GfG](https://www.geeksforgeeks.org/search/?gq=How%20does%20a%20load%20balancer%20choose%20a%20backend) · [Search](https://www.google.com/search?q=How%20does%20a%20load%20balancer%20choose%20a%20backend) |
+| Explain connection pooling and why it matters. | 🟡 Medium | `databases` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20connection%20pooling%20and%20why%20it%20matters) · [Search](https://www.google.com/search?q=Explain%20connection%20pooling%20and%20why%20it%20matters) |
 
 ## Round 5 · Hiring Manager
 <!-- round: hiring_manager -->
@@ -71,7 +71,7 @@ _Scope, ownership, and role-fit discussion with the manager._
 
 | Question | Difficulty | Tags |
 | --- | --- | --- |
-| How do you scope and staff a multi-month project? | — | `planning` `leadership` |
+| Walk me through the architecture of a system you owned end to end. | — | `ownership` `architecture` |
 
 ## Round 6 · Behavioral / HR
 <!-- round: behavioral -->

@@ -21,10 +21,10 @@ description: E-commerce and AWS. Every round is weighed against the Leadership P
 
 | Interview | Outcome | Rounds | Questions |
 | --- | --- | --- | --- |
-| [Junior · Full-stack](../interviews/amazon-1.md) | Rejected | 5 | 8 |
-| [Senior · Backend](../interviews/amazon-2.md) | Offer | 6 | 10 |
-| [Mid · Frontend](../interviews/amazon-3.md) | Withdrew | 5 | 8 |
-| [Junior · Frontend](../interviews/amazon-4.md) | No offer | 5 | 8 |
+| [Junior · Full-stack](../interviews/amazon-1.md) | Offer | 5 | 8 |
+| [Senior · Backend](../interviews/amazon-2.md) | Rejected | 6 | 10 |
+| [Mid · Frontend](../interviews/amazon-3.md) | Offer | 5 | 8 |
+| [Junior · Frontend](../interviews/amazon-4.md) | Rejected | 5 | 8 |
 
 ---
 

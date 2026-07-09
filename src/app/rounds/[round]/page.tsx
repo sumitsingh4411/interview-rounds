@@ -3,7 +3,8 @@ import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { Container } from '@/components/ui/Container';
 import { QuestionCard } from '@/components/QuestionCard';
-import { getQuestionsByRound } from '@/content/loader';
+import { getQuestionsByRound, getBanksForRound } from '@/content/loader';
+import { BankSection } from '@/components/BankSection';
 import {
   asRound,
   ROUND_ORDER,
@@ -36,6 +37,7 @@ export default async function RoundPage({ params }: PageProps) {
 
   const stage = ROUND_ORDER.indexOf(valid) + 1;
   const results = getQuestionsByRound(valid);
+  const banks = getBanksForRound(valid);
 
   return (
     <Container className="py-12">
@@ -89,6 +91,8 @@ export default async function RoundPage({ params }: PageProps) {
           No questions recorded for this round yet.
         </p>
       )}
+
+      <BankSection banks={banks} round={valid} />
     </Container>
   );
 }

@@ -6,7 +6,9 @@ level: senior
 outcome: rejected
 year: 2023
 source: curated
-summary: 'A senior fullstack loop. Coding-heavy early, design and behavioral later.'
+summary: >-
+  6-round senior fullstack process. Pragmatic questions — more real-world than
+  pure puzzles.
 ---
 # Senior Full-stack — Stripe
 
@@ -16,7 +18,7 @@ summary: 'A senior fullstack loop. Coding-heavy early, design and behavioral lat
 ![year](https://img.shields.io/badge/year-2023-6b7280?style=flat-square)
 ![source](https://img.shields.io/badge/source-Commonly%20asked-2dd4bf?style=flat-square)
 
-> A senior fullstack loop. Coding-heavy early, design and behavioral later.
+> 6-round senior fullstack process. Pragmatic questions — more real-world than pure puzzles.
 
 **6 rounds · 10 questions**
 
@@ -29,8 +31,8 @@ _Data structures & algorithms on a whiteboard or shared editor._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Best time to buy and sell stock. | 🟢 Easy | `array` `greedy` | [LC](https://leetcode.com/problemset/?search=Best%20time%20to%20buy%20and%20sell%20stock) · [NC](https://neetcode.io/practice) · [GfG](https://www.geeksforgeeks.org/search/?gq=Best%20time%20to%20buy%20and%20sell%20stock) |
-| Merge k sorted lists. | 🔴 Hard | `heap` `linked-list` | [LC](https://leetcode.com/problemset/?search=Merge%20k%20sorted%20lists) · [NC](https://neetcode.io/practice) · [GfG](https://www.geeksforgeeks.org/search/?gq=Merge%20k%20sorted%20lists) |
+| Kth largest element in an array. | 🟡 Medium | `heap` `quickselect` | [LC](https://leetcode.com/problemset/?search=Kth%20largest%20element%20in%20an%20array) · [NC](https://neetcode.io/practice) · [GfG](https://www.geeksforgeeks.org/search/?gq=Kth%20largest%20element%20in%20an%20array) |
+| Validate a binary search tree. | 🟡 Medium | `tree` `dfs` | [LC](https://leetcode.com/problemset/?search=Validate%20a%20binary%20search%20tree) · [NC](https://neetcode.io/practice) · [GfG](https://www.geeksforgeeks.org/search/?gq=Validate%20a%20binary%20search%20tree) |
 
 ## Round 2 · Machine Coding
 <!-- round: machine_coding -->
@@ -39,8 +41,8 @@ _Build a working component or service under time pressure._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Parse and evaluate a simple expression/DSL. | 🟡 Medium | `parsing` | [GfG](https://www.geeksforgeeks.org/search/?gq=Parse%20and%20evaluate%20a%20simple%20expression%2FDSL) · [Search](https://www.google.com/search?q=Parse%20and%20evaluate%20a%20simple%20expression%2FDSL) |
-| Build a "polling" progress UI that updates from an API. | 🟡 Medium | `react` `async` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20a%20%22polling%22%20progress%20UI%20that%20updates%20from%20an%20API) · [Search](https://www.google.com/search?q=Build%20a%20%22polling%22%20progress%20UI%20that%20updates%20from%20an%20API) |
+| Build auth middleware that verifies a JWT. | 🟡 Medium | `auth` `security` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20auth%20middleware%20that%20verifies%20a%20JWT) · [Search](https://www.google.com/search?q=Build%20auth%20middleware%20that%20verifies%20a%20JWT) |
+| Implement an idempotent "charge" endpoint. | 🔴 Hard | `idempotency` `payments` | [GfG](https://www.geeksforgeeks.org/search/?gq=Implement%20an%20idempotent%20%22charge%22%20endpoint) · [Search](https://www.google.com/search?q=Implement%20an%20idempotent%20%22charge%22%20endpoint) |
 
 ## Round 3 · System Design
 <!-- round: system_design -->
@@ -49,8 +51,8 @@ _High-level architecture of a large-scale system._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Design a rate limiter for a public API. | 🟡 Medium | `token-bucket` `redis` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20rate%20limiter%20for%20a%20public%20API) · [Search](https://www.google.com/search?q=Design%20a%20rate%20limiter%20for%20a%20public%20API) |
-| Design a news feed / timeline. | 🔴 Hard | `fanout` `ranking` `cache` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20news%20feed%20%2F%20timeline) · [Search](https://www.google.com/search?q=Design%20a%20news%20feed%20%2F%20timeline) |
+| Design a file-sharing service with permissions. | 🟡 Medium | `storage` `acl` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20file-sharing%20service%20with%20permissions) · [Search](https://www.google.com/search?q=Design%20a%20file-sharing%20service%20with%20permissions) |
+| Design an image-heavy gallery with lazy loading and a CDN. | 🟡 Medium | `frontend` `perf` `cdn` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20an%20image-heavy%20gallery%20with%20lazy%20loading%20and%20a%20CDN) · [Search](https://www.google.com/search?q=Design%20an%20image-heavy%20gallery%20with%20lazy%20loading%20and%20a%20CDN) |
 
 ## Round 4 · Tech Deep-Dive
 <!-- round: tech_deep_dive -->
@@ -60,7 +62,7 @@ _Deep questions on your core stack and fundamentals._
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
 | How would you design and version a public REST API? | 🟡 Medium | `api-design` | [GfG](https://www.geeksforgeeks.org/search/?gq=How%20would%20you%20design%20and%20version%20a%20public%20REST%20API) · [Search](https://www.google.com/search?q=How%20would%20you%20design%20and%20version%20a%20public%20REST%20API) |
-| How does the browser critical rendering path work? | 🟡 Medium | `browser` `perf` | [GfG](https://www.geeksforgeeks.org/search/?gq=How%20does%20the%20browser%20critical%20rendering%20path%20work) · [Search](https://www.google.com/search?q=How%20does%20the%20browser%20critical%20rendering%20path%20work) |
+| Idempotency in APIs — why and how. | 🟡 Medium | `api-design` `idempotency` | [GfG](https://www.geeksforgeeks.org/search/?gq=Idempotency%20in%20APIs%20%E2%80%94%20why%20and%20how) · [Search](https://www.google.com/search?q=Idempotency%20in%20APIs%20%E2%80%94%20why%20and%20how) |
 
 ## Round 5 · Hiring Manager
 <!-- round: hiring_manager -->
@@ -69,7 +71,7 @@ _Scope, ownership, and role-fit discussion with the manager._
 
 | Question | Difficulty | Tags |
 | --- | --- | --- |
-| What does a great engineering culture look like to you? | — | `values` |
+| Tell me about a technical bet that did not pay off. | — | `risk` `judgment` |
 
 ## Round 6 · Behavioral / HR
 <!-- round: behavioral -->
@@ -78,7 +80,7 @@ _Values, collaboration, and past-experience (STAR) questions._
 
 | Question | Difficulty | Tags |
 | --- | --- | --- |
-| Tell me about a time you failed and what you learned. | — | `growth` `star` |
+| Tell me about a time you had to say no to a stakeholder. | — | `influence` `star` |
 
 ---
 

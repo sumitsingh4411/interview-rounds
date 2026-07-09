@@ -22,9 +22,9 @@ description: 'Hardware and software at scale. Deep, team-specific technical roun
 | Interview | Outcome | Rounds | Questions |
 | --- | --- | --- | --- |
 | [Staff · Backend](../interviews/apple-1.md) | Offer | 5 | 7 |
-| [Junior · Full-stack](../interviews/apple-2.md) | Offer | 5 | 8 |
+| [Junior · Full-stack](../interviews/apple-2.md) | No offer | 5 | 8 |
 | [Senior · Backend](../interviews/apple-3.md) | Unknown | 6 | 10 |
-| [Mid · Frontend](../interviews/apple-4.md) | Unknown | 5 | 8 |
+| [Mid · Frontend](../interviews/apple-4.md) | Rejected | 5 | 8 |
 
 ---
 

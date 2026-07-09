@@ -21,9 +21,9 @@ description: File sync and storage. Strong systems design and practical coding.
 | Interview | Outcome | Rounds | Questions |
 | --- | --- | --- | --- |
 | [Staff · Backend](../interviews/dropbox-1.md) | Offer | 5 | 7 |
-| [Junior · Full-stack](../interviews/dropbox-2.md) | Offer | 5 | 8 |
-| [Senior · Backend](../interviews/dropbox-3.md) | Offer | 6 | 10 |
-| [Mid · Frontend](../interviews/dropbox-4.md) | No offer | 5 | 8 |
+| [Junior · Full-stack](../interviews/dropbox-2.md) | Unknown | 5 | 8 |
+| [Senior · Backend](../interviews/dropbox-3.md) | Rejected | 6 | 10 |
+| [Mid · Frontend](../interviews/dropbox-4.md) | Withdrew | 5 | 8 |
 
 ---
 

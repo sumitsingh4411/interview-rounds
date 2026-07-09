@@ -4,21 +4,21 @@ company: roblox
 role: backend
 level: senior
 outcome: rejected
-year: 2023
+year: 2025
 source: curated
 summary: >-
-  Senior backend interview. Fundamentals mattered as much as getting to an
-  answer.
+  6-round senior backend process. Pragmatic questions — more real-world than
+  pure puzzles.
 ---
 # Senior Backend — Roblox
 
 ![role](https://img.shields.io/badge/role-Backend-8b93ff?style=flat-square)
 ![level](https://img.shields.io/badge/level-Senior-818cf8?style=flat-square)
 ![outcome](https://img.shields.io/badge/outcome-Rejected-f87171?style=flat-square)
-![year](https://img.shields.io/badge/year-2023-6b7280?style=flat-square)
+![year](https://img.shields.io/badge/year-2025-6b7280?style=flat-square)
 ![source](https://img.shields.io/badge/source-Commonly%20asked-2dd4bf?style=flat-square)
 
-> Senior backend interview. Fundamentals mattered as much as getting to an answer.
+> 6-round senior backend process. Pragmatic questions — more real-world than pure puzzles.
 
 **6 rounds · 10 questions**
 
@@ -31,8 +31,8 @@ _Data structures & algorithms on a whiteboard or shared editor._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Kth largest element in an array. | 🟡 Medium | `heap` `quickselect` | [LC](https://leetcode.com/problemset/?search=Kth%20largest%20element%20in%20an%20array) · [NC](https://neetcode.io/practice) · [GfG](https://www.geeksforgeeks.org/search/?gq=Kth%20largest%20element%20in%20an%20array) |
-| Merge k sorted lists. | 🔴 Hard | `heap` `linked-list` | [LC](https://leetcode.com/problemset/?search=Merge%20k%20sorted%20lists) · [NC](https://neetcode.io/practice) · [GfG](https://www.geeksforgeeks.org/search/?gq=Merge%20k%20sorted%20lists) |
+| Trapping rain water. | 🔴 Hard | `two-pointers` `array` | [LC](https://leetcode.com/problemset/?search=Trapping%20rain%20water) · [NC](https://neetcode.io/practice) · [GfG](https://www.geeksforgeeks.org/search/?gq=Trapping%20rain%20water) |
+| Group anagrams from a list of strings. | 🟡 Medium | `hashmap` `string` | [LC](https://leetcode.com/problemset/?search=Group%20anagrams%20from%20a%20list%20of%20strings) · [NC](https://neetcode.io/practice) · [GfG](https://www.geeksforgeeks.org/search/?gq=Group%20anagrams%20from%20a%20list%20of%20strings) |
 
 ## Round 2 · Machine Coding
 <!-- round: machine_coding -->
@@ -41,8 +41,8 @@ _Build a working component or service under time pressure._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Build a REST endpoint with pagination, filtering and sorting. | 🟡 Medium | `api` `pagination` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20a%20REST%20endpoint%20with%20pagination%2C%20filtering%20and%20sorting) · [Search](https://www.google.com/search?q=Build%20a%20REST%20endpoint%20with%20pagination%2C%20filtering%20and%20sorting) |
-| Build a CSV importer that streams and validates rows. | 🟡 Medium | `streaming` `validation` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20a%20CSV%20importer%20that%20streams%20and%20validates%20rows) · [Search](https://www.google.com/search?q=Build%20a%20CSV%20importer%20that%20streams%20and%20validates%20rows) |
+| Implement an exponential-backoff HTTP client. | 🟡 Medium | `reliability` | [GfG](https://www.geeksforgeeks.org/search/?gq=Implement%20an%20exponential-backoff%20HTTP%20client) · [Search](https://www.google.com/search?q=Implement%20an%20exponential-backoff%20HTTP%20client) |
+| Build a URL health checker with a concurrency limit. | 🟡 Medium | `concurrency` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20a%20URL%20health%20checker%20with%20a%20concurrency%20limit) · [Search](https://www.google.com/search?q=Build%20a%20URL%20health%20checker%20with%20a%20concurrency%20limit) |
 
 ## Round 3 · System Design
 <!-- round: system_design -->
@@ -51,8 +51,8 @@ _High-level architecture of a large-scale system._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Design a metrics/time-series ingestion pipeline. | 🔴 Hard | `time-series` `ingestion` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20metrics%2Ftime-series%20ingestion%20pipeline) · [Search](https://www.google.com/search?q=Design%20a%20metrics%2Ftime-series%20ingestion%20pipeline) |
-| Design a chat/messaging backend with delivery guarantees. | 🔴 Hard | `websocket` `queues` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20chat%2Fmessaging%20backend%20with%20delivery%20guarantees) · [Search](https://www.google.com/search?q=Design%20a%20chat%2Fmessaging%20backend%20with%20delivery%20guarantees) |
+| Design an event-driven order pipeline with retries. | 🔴 Hard | `events` `queues` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20an%20event-driven%20order%20pipeline%20with%20retries) · [Search](https://www.google.com/search?q=Design%20an%20event-driven%20order%20pipeline%20with%20retries) |
+| Design a rate limiter for a public API. | 🟡 Medium | `token-bucket` `redis` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20rate%20limiter%20for%20a%20public%20API) · [Search](https://www.google.com/search?q=Design%20a%20rate%20limiter%20for%20a%20public%20API) |
 
 ## Round 4 · Tech Deep-Dive
 <!-- round: tech_deep_dive -->
@@ -61,8 +61,8 @@ _Deep questions on your core stack and fundamentals._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| How would you design and version a public REST API? | 🟡 Medium | `api-design` | [GfG](https://www.geeksforgeeks.org/search/?gq=How%20would%20you%20design%20and%20version%20a%20public%20REST%20API) · [Search](https://www.google.com/search?q=How%20would%20you%20design%20and%20version%20a%20public%20REST%20API) |
-| ACID vs BASE and transaction isolation levels. | 🔴 Hard | `databases` `transactions` | [GfG](https://www.geeksforgeeks.org/search/?gq=ACID%20vs%20BASE%20and%20transaction%20isolation%20levels) · [Search](https://www.google.com/search?q=ACID%20vs%20BASE%20and%20transaction%20isolation%20levels) |
+| Explain database indexing and when a query uses one. | 🟡 Medium | `databases` `indexing` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20database%20indexing%20and%20when%20a%20query%20uses%20one) · [Search](https://www.google.com/search?q=Explain%20database%20indexing%20and%20when%20a%20query%20uses%20one) |
+| Explain connection pooling and why it matters. | 🟡 Medium | `databases` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20connection%20pooling%20and%20why%20it%20matters) · [Search](https://www.google.com/search?q=Explain%20connection%20pooling%20and%20why%20it%20matters) |
 
 ## Round 5 · Hiring Manager
 <!-- round: hiring_manager -->
@@ -71,7 +71,7 @@ _Scope, ownership, and role-fit discussion with the manager._
 
 | Question | Difficulty | Tags |
 | --- | --- | --- |
-| How do you scope and staff a multi-month project? | — | `planning` `leadership` |
+| Walk me through a technical trade-off you regret. | — | `judgment` |
 
 ## Round 6 · Behavioral / HR
 <!-- round: behavioral -->
@@ -80,7 +80,7 @@ _Values, collaboration, and past-experience (STAR) questions._
 
 | Question | Difficulty | Tags |
 | --- | --- | --- |
-| A time you made a mistake in production — what happened next? | — | `ownership` `star` |
+| Tell me about the hardest bug you have debugged. | — | `debugging` `star` |
 
 ---
 

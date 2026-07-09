@@ -20,10 +20,10 @@ description: Where the world builds software. Practical coding and collaboration
 
 | Interview | Outcome | Rounds | Questions |
 | --- | --- | --- | --- |
-| [Senior · Frontend](../interviews/github-1.md) | Offer | 6 | 10 |
-| [Staff · Backend](../interviews/github-2.md) | Rejected | 5 | 7 |
-| [Junior · Full-stack](../interviews/github-3.md) | Withdrew | 5 | 8 |
-| [Senior · Backend](../interviews/github-4.md) | No offer | 6 | 10 |
+| [Senior · Frontend](../interviews/github-1.md) | Withdrew | 6 | 10 |
+| [Staff · Backend](../interviews/github-2.md) | Unknown | 5 | 7 |
+| [Junior · Full-stack](../interviews/github-3.md) | Offer | 5 | 8 |
+| [Senior · Backend](../interviews/github-4.md) | Unknown | 6 | 10 |
 
 ---
 

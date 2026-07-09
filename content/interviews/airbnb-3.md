@@ -3,20 +3,22 @@ id: airbnb-3
 company: airbnb
 role: frontend
 level: junior
-outcome: offer
+outcome: withdrew
 year: 2023
 source: curated
-summary: 'Junior frontend interview. Coding-heavy early, design and behavioral later.'
+summary: >-
+  5-round junior frontend process. Coding-heavy early, design and behavioral
+  later.
 ---
 # Junior Frontend — Airbnb
 
 ![role](https://img.shields.io/badge/role-Frontend-22d3ee?style=flat-square)
 ![level](https://img.shields.io/badge/level-Junior-818cf8?style=flat-square)
-![outcome](https://img.shields.io/badge/outcome-Offer-34d399?style=flat-square)
+![outcome](https://img.shields.io/badge/outcome-Withdrew-fbbf24?style=flat-square)
 ![year](https://img.shields.io/badge/year-2023-6b7280?style=flat-square)
 ![source](https://img.shields.io/badge/source-Commonly%20asked-2dd4bf?style=flat-square)
 
-> Junior frontend interview. Coding-heavy early, design and behavioral later.
+> 5-round junior frontend process. Coding-heavy early, design and behavioral later.
 
 **5 rounds · 8 questions**
 
@@ -29,7 +31,7 @@ _Timed online coding / aptitude screen, usually the first filter._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Count pairs with a given sum in an array. | 🟢 Easy | `hashmap` | [LC](https://leetcode.com/problemset/?search=Count%20pairs%20with%20a%20given%20sum%20in%20an%20array) · [NC](https://neetcode.io/practice) · [GfG](https://www.geeksforgeeks.org/search/?gq=Count%20pairs%20with%20a%20given%20sum%20in%20an%20array) |
+| Longest common prefix among strings. | 🟢 Easy | `string` | [LC](https://leetcode.com/problemset/?search=Longest%20common%20prefix%20among%20strings) · [NC](https://neetcode.io/practice) · [GfG](https://www.geeksforgeeks.org/search/?gq=Longest%20common%20prefix%20among%20strings) |
 
 ## Round 2 · DSA / Coding
 <!-- round: dsa -->
@@ -38,8 +40,8 @@ _Data structures & algorithms on a whiteboard or shared editor._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Valid Parentheses — check balanced brackets. | 🟢 Easy | `stack` `string` | [LC](https://leetcode.com/problemset/?search=Valid%20Parentheses%20%E2%80%94%20check%20balanced%20brackets) · [NC](https://neetcode.io/practice) · [GfG](https://www.geeksforgeeks.org/search/?gq=Valid%20Parentheses%20%E2%80%94%20check%20balanced%20brackets) |
-| Best time to buy and sell stock. | 🟢 Easy | `array` `greedy` | [LC](https://leetcode.com/problemset/?search=Best%20time%20to%20buy%20and%20sell%20stock) · [NC](https://neetcode.io/practice) · [GfG](https://www.geeksforgeeks.org/search/?gq=Best%20time%20to%20buy%20and%20sell%20stock) |
+| Clone a graph. | 🟡 Medium | `graph` `dfs` | [LC](https://leetcode.com/problemset/?search=Clone%20a%20graph) · [NC](https://neetcode.io/practice) · [GfG](https://www.geeksforgeeks.org/search/?gq=Clone%20a%20graph) |
+| Number of islands in a 2D grid. | 🟡 Medium | `bfs` `dfs` `grid` | [LC](https://leetcode.com/problemset/?search=Number%20of%20islands%20in%20a%202D%20grid) · [NC](https://neetcode.io/practice) · [GfG](https://www.geeksforgeeks.org/search/?gq=Number%20of%20islands%20in%20a%202D%20grid) |
 
 ## Round 3 · Machine Coding
 <!-- round: machine_coding -->
@@ -48,8 +50,8 @@ _Build a working component or service under time pressure._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Build a carousel/image slider. | 🟡 Medium | `react` `ui` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20a%20carousel%2Fimage%20slider) · [Search](https://www.google.com/search?q=Build%20a%20carousel%2Fimage%20slider) |
-| Build a tic-tac-toe game with win detection. | 🟢 Easy | `react` `state` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20a%20tic-tac-toe%20game%20with%20win%20detection) · [Search](https://www.google.com/search?q=Build%20a%20tic-tac-toe%20game%20with%20win%20detection) |
+| Build an accessible tabs component with keyboard nav. | 🟡 Medium | `react` `a11y` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20an%20accessible%20tabs%20component%20with%20keyboard%20nav) · [Search](https://www.google.com/search?q=Build%20an%20accessible%20tabs%20component%20with%20keyboard%20nav) |
+| Build a typeahead with in-flight request cancellation. | 🟡 Medium | `react` `async` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20a%20typeahead%20with%20in-flight%20request%20cancellation) · [Search](https://www.google.com/search?q=Build%20a%20typeahead%20with%20in-flight%20request%20cancellation) |
 
 ## Round 4 · Tech Deep-Dive
 <!-- round: tech_deep_dive -->
@@ -58,8 +60,8 @@ _Deep questions on your core stack and fundamentals._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Explain the JS event loop: microtasks vs macrotasks. | 🟡 Medium | `javascript` `event-loop` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20the%20JS%20event%20loop%3A%20microtasks%20vs%20macrotasks) · [Search](https://www.google.com/search?q=Explain%20the%20JS%20event%20loop%3A%20microtasks%20vs%20macrotasks) |
-| Closures and the module pattern — with an example. | 🟢 Easy | `javascript` `closures` | [GfG](https://www.geeksforgeeks.org/search/?gq=Closures%20and%20the%20module%20pattern%20%E2%80%94%20with%20an%20example) · [Search](https://www.google.com/search?q=Closures%20and%20the%20module%20pattern%20%E2%80%94%20with%20an%20example) |
+| What is the difference between var, let and const? | 🟢 Easy | `javascript` | [GfG](https://www.geeksforgeeks.org/search/?gq=What%20is%20the%20difference%20between%20var%2C%20let%20and%20const) · [Search](https://www.google.com/search?q=What%20is%20the%20difference%20between%20var%2C%20let%20and%20const) |
+| localStorage vs sessionStorage vs cookies — when to use each? | 🟢 Easy | `browser` | [GfG](https://www.geeksforgeeks.org/search/?gq=localStorage%20vs%20sessionStorage%20vs%20cookies%20%E2%80%94%20when%20to%20use%20each) · [Search](https://www.google.com/search?q=localStorage%20vs%20sessionStorage%20vs%20cookies%20%E2%80%94%20when%20to%20use%20each) |
 
 ## Round 5 · Behavioral / HR
 <!-- round: behavioral -->
@@ -68,7 +70,7 @@ _Values, collaboration, and past-experience (STAR) questions._
 
 | Question | Difficulty | Tags |
 | --- | --- | --- |
-| Describe mentoring or unblocking another engineer. | — | `mentorship` `star` |
+| Tell me about the hardest bug you have debugged. | — | `debugging` `star` |
 
 ---
 

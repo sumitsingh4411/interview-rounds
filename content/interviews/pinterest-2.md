@@ -3,22 +3,20 @@ id: pinterest-2
 company: pinterest
 role: frontend
 level: junior
-outcome: withdrew
+outcome: no_offer
 year: 2023
 source: curated
-summary: >-
-  Junior frontend interview. Fundamentals mattered as much as getting to an
-  answer.
+summary: 'A junior frontend loop. Coding-heavy early, design and behavioral later.'
 ---
 # Junior Frontend — Pinterest
 
 ![role](https://img.shields.io/badge/role-Frontend-22d3ee?style=flat-square)
 ![level](https://img.shields.io/badge/level-Junior-818cf8?style=flat-square)
-![outcome](https://img.shields.io/badge/outcome-Withdrew-fbbf24?style=flat-square)
+![outcome](https://img.shields.io/badge/outcome-No%20offer-f87171?style=flat-square)
 ![year](https://img.shields.io/badge/year-2023-6b7280?style=flat-square)
 ![source](https://img.shields.io/badge/source-Commonly%20asked-2dd4bf?style=flat-square)
 
-> Junior frontend interview. Fundamentals mattered as much as getting to an answer.
+> A junior frontend loop. Coding-heavy early, design and behavioral later.
 
 **5 rounds · 8 questions**
 
@@ -31,7 +29,7 @@ _Timed online coding / aptitude screen, usually the first filter._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Debugging + output-prediction multiple choice section. | 🟢 Easy | `fundamentals` | [LC](https://leetcode.com/problemset/?search=Debugging%20%2B%20output-prediction%20multiple%20choice%20section) · [NC](https://neetcode.io/practice) · [GfG](https://www.geeksforgeeks.org/search/?gq=Debugging%20%2B%20output-prediction%20multiple%20choice%20section) |
+| Spiral order traversal of a matrix. | 🟡 Medium | `matrix` | [LC](https://leetcode.com/problemset/?search=Spiral%20order%20traversal%20of%20a%20matrix) · [NC](https://neetcode.io/practice) · [GfG](https://www.geeksforgeeks.org/search/?gq=Spiral%20order%20traversal%20of%20a%20matrix) |
 
 ## Round 2 · DSA / Coding
 <!-- round: dsa -->
@@ -40,8 +38,8 @@ _Data structures & algorithms on a whiteboard or shared editor._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Merge two sorted linked lists. | 🟢 Easy | `linked-list` | [LC](https://leetcode.com/problemset/?search=Merge%20two%20sorted%20linked%20lists) · [NC](https://neetcode.io/practice) · [GfG](https://www.geeksforgeeks.org/search/?gq=Merge%20two%20sorted%20linked%20lists) |
-| Two Sum — return indices of numbers adding to a target. | 🟢 Easy | `array` `hashmap` | [LC](https://leetcode.com/problemset/?search=Two%20Sum%20%E2%80%94%20return%20indices%20of%20numbers%20adding%20to%20a%20target) · [NC](https://neetcode.io/practice) · [GfG](https://www.geeksforgeeks.org/search/?gq=Two%20Sum%20%E2%80%94%20return%20indices%20of%20numbers%20adding%20to%20a%20target) |
+| Valid Parentheses — check balanced brackets. | 🟢 Easy | `stack` `string` | [LC](https://leetcode.com/problemset/?search=Valid%20Parentheses%20%E2%80%94%20check%20balanced%20brackets) · [NC](https://neetcode.io/practice) · [GfG](https://www.geeksforgeeks.org/search/?gq=Valid%20Parentheses%20%E2%80%94%20check%20balanced%20brackets) |
+| Container with most water. | 🟡 Medium | `two-pointers` `array` | [LC](https://leetcode.com/problemset/?search=Container%20with%20most%20water) · [NC](https://neetcode.io/practice) · [GfG](https://www.geeksforgeeks.org/search/?gq=Container%20with%20most%20water) |
 
 ## Round 3 · Machine Coding
 <!-- round: machine_coding -->
@@ -50,8 +48,8 @@ _Build a working component or service under time pressure._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Build a tic-tac-toe game with win detection. | 🟢 Easy | `react` `state` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20a%20tic-tac-toe%20game%20with%20win%20detection) · [Search](https://www.google.com/search?q=Build%20a%20tic-tac-toe%20game%20with%20win%20detection) |
-| Build a nested, collapsible comment thread. | 🟡 Medium | `react` `recursion` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20a%20nested%2C%20collapsible%20comment%20thread) · [Search](https://www.google.com/search?q=Build%20a%20nested%2C%20collapsible%20comment%20thread) |
+| Build a nested checkbox tree with indeterminate state. | 🔴 Hard | `react` `recursion` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20a%20nested%20checkbox%20tree%20with%20indeterminate%20state) · [Search](https://www.google.com/search?q=Build%20a%20nested%20checkbox%20tree%20with%20indeterminate%20state) |
+| Build a toast / notification queue. | 🟡 Medium | `react` `state` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20a%20toast%20%2F%20notification%20queue) · [Search](https://www.google.com/search?q=Build%20a%20toast%20%2F%20notification%20queue) |
 
 ## Round 4 · Tech Deep-Dive
 <!-- round: tech_deep_dive -->
@@ -60,8 +58,8 @@ _Deep questions on your core stack and fundamentals._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| How does the browser critical rendering path work? | 🟡 Medium | `browser` `perf` | [GfG](https://www.geeksforgeeks.org/search/?gq=How%20does%20the%20browser%20critical%20rendering%20path%20work) · [Search](https://www.google.com/search?q=How%20does%20the%20browser%20critical%20rendering%20path%20work) |
-| How do you optimize a slow React app? (profiling → fixes) | 🔴 Hard | `react` `perf` | [GfG](https://www.geeksforgeeks.org/search/?gq=How%20do%20you%20optimize%20a%20slow%20React%20app%3F%20(profiling%20%E2%86%92%20fixes)) · [Search](https://www.google.com/search?q=How%20do%20you%20optimize%20a%20slow%20React%20app%3F%20(profiling%20%E2%86%92%20fixes)) |
+| Explain `this` binding and the call/apply/bind trio. | 🟡 Medium | `javascript` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20%60this%60%20binding%20and%20the%20call%2Fapply%2Fbind%20trio) · [Search](https://www.google.com/search?q=Explain%20%60this%60%20binding%20and%20the%20call%2Fapply%2Fbind%20trio) |
+| Difference between CSS Grid and Flexbox — when to use each. | 🟢 Easy | `css` `layout` | [GfG](https://www.geeksforgeeks.org/search/?gq=Difference%20between%20CSS%20Grid%20and%20Flexbox%20%E2%80%94%20when%20to%20use%20each) · [Search](https://www.google.com/search?q=Difference%20between%20CSS%20Grid%20and%20Flexbox%20%E2%80%94%20when%20to%20use%20each) |
 
 ## Round 5 · Behavioral / HR
 <!-- round: behavioral -->
@@ -70,7 +68,7 @@ _Values, collaboration, and past-experience (STAR) questions._
 
 | Question | Difficulty | Tags |
 | --- | --- | --- |
-| Describe a time you disagreed with a teammate. How did it resolve? | — | `conflict` `star` |
+| Why this company, and why this role? | — | `motivation` |
 
 ---
 

@@ -21,6 +21,25 @@ const DSA: BankQ[] = [
   { title: 'Median of two sorted arrays.', difficulty: 'hard', tags: ['binary-search'] },
   { title: 'Serialize and deserialize a binary tree.', difficulty: 'hard', tags: ['tree', 'dfs'] },
   { title: 'Trapping rain water.', difficulty: 'hard', tags: ['two-pointers', 'array'] },
+  { title: 'Container with most water.', difficulty: 'medium', tags: ['two-pointers', 'array'] },
+  { title: 'Product of array except self.', difficulty: 'medium', tags: ['array', 'prefix-sum'] },
+  { title: 'Longest palindromic substring.', difficulty: 'medium', tags: ['string', 'dp'] },
+  { title: 'Search in a rotated sorted array.', difficulty: 'medium', tags: ['binary-search'] },
+  { title: 'Coin change — fewest coins to make an amount.', difficulty: 'medium', tags: ['dp'] },
+  { title: 'Climbing stairs.', difficulty: 'easy', tags: ['dp'] },
+  { title: 'Maximum subarray (Kadane).', difficulty: 'medium', tags: ['array', 'dp'] },
+  { title: 'Validate a binary search tree.', difficulty: 'medium', tags: ['tree', 'dfs'] },
+  { title: 'Lowest common ancestor of a binary tree.', difficulty: 'medium', tags: ['tree'] },
+  { title: 'Clone a graph.', difficulty: 'medium', tags: ['graph', 'dfs'] },
+  { title: 'Implement a trie (prefix tree).', difficulty: 'medium', tags: ['trie'] },
+  { title: 'Top K frequent elements.', difficulty: 'medium', tags: ['heap', 'hashmap'] },
+  { title: 'Meeting rooms II — minimum rooms required.', difficulty: 'medium', tags: ['heap', 'intervals'] },
+  { title: 'Longest increasing subsequence.', difficulty: 'hard', tags: ['dp', 'binary-search'] },
+  { title: 'Sliding window maximum.', difficulty: 'hard', tags: ['deque', 'sliding-window'] },
+  { title: 'Word search in a grid.', difficulty: 'medium', tags: ['backtracking', 'grid'] },
+  { title: 'Rotting oranges.', difficulty: 'medium', tags: ['bfs', 'grid'] },
+  { title: 'Reverse nodes in k-group.', difficulty: 'hard', tags: ['linked-list'] },
+  { title: 'Edit distance.', difficulty: 'hard', tags: ['dp', 'string'] },
 ];
 
 const OA: BankQ[] = [
@@ -30,6 +49,12 @@ const OA: BankQ[] = [
   { title: 'Rotate a matrix 90 degrees in place.', difficulty: 'medium', tags: ['matrix'] },
   { title: 'Debugging + output-prediction multiple choice section.', difficulty: 'easy', tags: ['fundamentals'] },
   { title: 'Simulate a simple inventory system from a spec.', difficulty: 'medium', tags: ['simulation'] },
+  { title: 'Find the missing number in 1..n.', difficulty: 'easy', tags: ['math'] },
+  { title: 'Longest common prefix among strings.', difficulty: 'easy', tags: ['string'] },
+  { title: 'Move zeroes to the end in place.', difficulty: 'easy', tags: ['two-pointers'] },
+  { title: 'Implement a rate-limited counter.', difficulty: 'medium', tags: ['simulation'] },
+  { title: 'Aptitude and logical-reasoning section.', difficulty: 'easy', tags: ['aptitude'] },
+  { title: 'Spiral order traversal of a matrix.', difficulty: 'medium', tags: ['matrix'] },
 ];
 
 const BEHAVIORAL: BankQ[] = [
@@ -45,6 +70,14 @@ const BEHAVIORAL: BankQ[] = [
   { title: 'Why this company, and why this role?', tags: ['motivation'] },
   { title: 'Tell me about a time you simplified something overly complex.', tags: ['judgment', 'star'] },
   { title: 'Describe working with an ambiguous or shifting requirement.', tags: ['ambiguity', 'star'] },
+  { title: 'Tell me about a time you had to say no to a stakeholder.', tags: ['influence', 'star'] },
+  { title: 'Describe a disagreement on a code review and how it ended.', tags: ['conflict', 'star'] },
+  { title: 'When did you change your mind after seeing new evidence?', tags: ['judgment', 'star'] },
+  { title: 'Tell me about the hardest bug you have debugged.', tags: ['debugging', 'star'] },
+  { title: 'How do you handle being blocked for several days?', tags: ['ownership', 'star'] },
+  { title: 'Describe something you shipped that you were not proud of.', tags: ['tradeoffs', 'star'] },
+  { title: 'How do you get up to speed on an unfamiliar codebase?', tags: ['learning'] },
+  { title: 'Tell me about a time you disagreed and committed.', tags: ['teamwork', 'star'] },
 ];
 
 const HIRING_MANAGER: BankQ[] = [
@@ -56,6 +89,12 @@ const HIRING_MANAGER: BankQ[] = [
   { title: 'What does a great engineering culture look like to you?', tags: ['values'] },
   { title: 'How do you keep a team unblocked and shipping?', tags: ['leadership'] },
   { title: 'Where do you want to grow in the next two years?', tags: ['growth'] },
+  { title: 'How do you measure the success of a project after launch?', tags: ['metrics'] },
+  { title: 'Walk me through a technical trade-off you regret.', tags: ['judgment'] },
+  { title: 'How do you balance tech debt against feature work?', tags: ['prioritization'] },
+  { title: 'What would your first 90 days here look like?', tags: ['planning'] },
+  { title: 'How do you give difficult feedback to a peer?', tags: ['leadership'] },
+  { title: 'Tell me about a project that slipped. What did you do?', tags: ['delivery'] },
 ];
 
 const SYSTEM_DESIGN_GENERAL: BankQ[] = [
@@ -67,6 +106,12 @@ const SYSTEM_DESIGN_GENERAL: BankQ[] = [
   { title: 'Design a web crawler.', difficulty: 'hard', tags: ['queues', 'dedup', 'scale'] },
   { title: 'Design a pastebin with expiring links.', difficulty: 'medium', tags: ['storage', 'ttl'] },
   { title: 'Design a typeahead / autocomplete service.', difficulty: 'hard', tags: ['trie', 'cache', 'ranking'] },
+  { title: 'Design a ticket booking system (inventory + concurrency).', difficulty: 'hard', tags: ['concurrency', 'transactions'] },
+  { title: 'Design an object storage service like S3.', difficulty: 'hard', tags: ['storage', 'scale'] },
+  { title: 'Design a leaderboard for millions of players.', difficulty: 'medium', tags: ['redis', 'ranking'] },
+  { title: 'Design a job scheduler / cron service.', difficulty: 'medium', tags: ['queues', 'scheduling'] },
+  { title: 'Design a distributed cache.', difficulty: 'hard', tags: ['cache', 'consistency'] },
+  { title: 'Design a file-sharing service with permissions.', difficulty: 'medium', tags: ['storage', 'acl'] },
 ];
 
 const SYSTEM_DESIGN_FRONTEND: BankQ[] = [
@@ -74,6 +119,10 @@ const SYSTEM_DESIGN_FRONTEND: BankQ[] = [
   { title: 'Design a component/design-system architecture for many teams.', difficulty: 'medium', tags: ['frontend', 'design-system'] },
   { title: 'Design client-side state and data-fetching for a large SPA.', difficulty: 'hard', tags: ['frontend', 'state', 'caching'] },
   { title: 'Design an offline-capable web app with sync.', difficulty: 'hard', tags: ['frontend', 'offline', 'sync'] },
+  { title: 'Design a real-time collaborative editor (client side).', difficulty: 'hard', tags: ['frontend', 'crdt', 'realtime'] },
+  { title: 'Design an image-heavy gallery with lazy loading and a CDN.', difficulty: 'medium', tags: ['frontend', 'perf', 'cdn'] },
+  { title: 'Design a micro-frontend architecture.', difficulty: 'hard', tags: ['frontend', 'architecture'] },
+  { title: 'Design a client-side error and telemetry pipeline.', difficulty: 'medium', tags: ['frontend', 'observability'] },
 ];
 
 const SYSTEM_DESIGN_BACKEND: BankQ[] = [
@@ -81,6 +130,10 @@ const SYSTEM_DESIGN_BACKEND: BankQ[] = [
   { title: 'Design a payment processing + idempotency system.', difficulty: 'hard', tags: ['idempotency', 'consistency'] },
   { title: 'Design a chat/messaging backend with delivery guarantees.', difficulty: 'hard', tags: ['websocket', 'queues'] },
   { title: 'Design a metrics/time-series ingestion pipeline.', difficulty: 'hard', tags: ['time-series', 'ingestion'] },
+  { title: 'Design a multi-tenant SaaS data model.', difficulty: 'hard', tags: ['multi-tenancy', 'databases'] },
+  { title: 'Design an event-driven order pipeline with retries.', difficulty: 'hard', tags: ['events', 'queues'] },
+  { title: 'Design a feature-flag service.', difficulty: 'medium', tags: ['config', 'rollout'] },
+  { title: 'Design a webhook delivery system with retries.', difficulty: 'medium', tags: ['reliability', 'queues'] },
 ];
 
 const MACHINE_CODING_FRONTEND: BankQ[] = [
@@ -94,6 +147,12 @@ const MACHINE_CODING_FRONTEND: BankQ[] = [
   { title: 'Build a modal/dialog with focus trapping.', difficulty: 'medium', tags: ['react', 'a11y'] },
   { title: 'Build a carousel/image slider.', difficulty: 'medium', tags: ['react', 'ui'] },
   { title: 'Build a "polling" progress UI that updates from an API.', difficulty: 'medium', tags: ['react', 'async'] },
+  { title: 'Build a kanban board with drag and drop.', difficulty: 'hard', tags: ['react', 'dnd'] },
+  { title: 'Build a typeahead with in-flight request cancellation.', difficulty: 'medium', tags: ['react', 'async'] },
+  { title: 'Build an accessible tabs component with keyboard nav.', difficulty: 'medium', tags: ['react', 'a11y'] },
+  { title: 'Build a toast / notification queue.', difficulty: 'medium', tags: ['react', 'state'] },
+  { title: 'Build a countdown timer with pause and resume.', difficulty: 'easy', tags: ['react', 'state'] },
+  { title: 'Build a nested checkbox tree with indeterminate state.', difficulty: 'hard', tags: ['react', 'recursion'] },
 ];
 
 const MACHINE_CODING_BACKEND: BankQ[] = [
@@ -105,6 +164,12 @@ const MACHINE_CODING_BACKEND: BankQ[] = [
   { title: 'Implement a job queue with retries and backoff.', difficulty: 'hard', tags: ['queue', 'reliability'] },
   { title: 'Design and build a URL-shortener service (API + storage).', difficulty: 'medium', tags: ['api', 'hashing'] },
   { title: 'Build a CSV importer that streams and validates rows.', difficulty: 'medium', tags: ['streaming', 'validation'] },
+  { title: 'Build a URL health checker with a concurrency limit.', difficulty: 'medium', tags: ['concurrency'] },
+  { title: 'Implement cursor-based pagination over a sorted dataset.', difficulty: 'medium', tags: ['pagination', 'api'] },
+  { title: 'Build auth middleware that verifies a JWT.', difficulty: 'medium', tags: ['auth', 'security'] },
+  { title: 'Build a webhook receiver with signature verification.', difficulty: 'medium', tags: ['security', 'api'] },
+  { title: 'Implement a bulk-upsert endpoint with validation.', difficulty: 'medium', tags: ['api', 'validation'] },
+  { title: 'Implement an exponential-backoff HTTP client.', difficulty: 'medium', tags: ['reliability'] },
 ];
 
 const LLD_FRONTEND: BankQ[] = [
@@ -112,6 +177,10 @@ const LLD_FRONTEND: BankQ[] = [
   { title: 'Design a reusable form-validation library API.', difficulty: 'medium', tags: ['oop', 'api-design'] },
   { title: 'Model the state machine for a checkout flow.', difficulty: 'medium', tags: ['state-machine'] },
   { title: 'Design a client-side event bus / pub-sub.', difficulty: 'medium', tags: ['pub-sub', 'oop'] },
+  { title: 'Design an undo/redo stack for an editor.', difficulty: 'medium', tags: ['oop', 'command'] },
+  { title: 'Design a client-side router.', difficulty: 'medium', tags: ['oop', 'routing'] },
+  { title: 'Design a design-token theming system.', difficulty: 'medium', tags: ['design-system'] },
+  { title: 'Design a data-fetching cache with invalidation.', difficulty: 'hard', tags: ['cache', 'oop'] },
 ];
 
 const LLD_BACKEND: BankQ[] = [
@@ -123,6 +192,10 @@ const LLD_BACKEND: BankQ[] = [
   { title: 'Design a splitwise-style expense sharer.', difficulty: 'medium', tags: ['oop', 'graph'] },
   { title: 'Design a vending machine.', difficulty: 'easy', tags: ['oop', 'state-machine'] },
   { title: 'Design a booking/reservation system core.', difficulty: 'medium', tags: ['oop', 'concurrency'] },
+  { title: 'Design a chess game (pieces, moves, board).', difficulty: 'hard', tags: ['oop'] },
+  { title: 'Design a logging library with levels and sinks.', difficulty: 'medium', tags: ['oop'] },
+  { title: 'Design an ATM / cash dispenser.', difficulty: 'medium', tags: ['oop', 'state-machine'] },
+  { title: 'Design a notification service (channels + templates).', difficulty: 'medium', tags: ['oop'] },
 ];
 
 const TECH_FRONTEND: BankQ[] = [
@@ -138,6 +211,16 @@ const TECH_FRONTEND: BankQ[] = [
   { title: 'How does the browser critical rendering path work?', difficulty: 'medium', tags: ['browser', 'perf'] },
   { title: 'Accessibility: how do you make a custom widget usable?', difficulty: 'medium', tags: ['a11y'] },
   { title: 'Explain `useEffect` dependencies and common pitfalls.', difficulty: 'medium', tags: ['react', 'hooks'] },
+  { title: 'Explain the CSS box model and box-sizing.', difficulty: 'easy', tags: ['css'] },
+  { title: 'What is the difference between var, let and const?', difficulty: 'easy', tags: ['javascript'] },
+  { title: 'Explain prototypal inheritance.', difficulty: 'medium', tags: ['javascript'] },
+  { title: 'What are React keys and why do they matter?', difficulty: 'easy', tags: ['react'] },
+  { title: 'Explain CORS and how a preflight request works.', difficulty: 'medium', tags: ['browser', 'security'] },
+  { title: 'How do you prevent XSS in a React app?', difficulty: 'medium', tags: ['security', 'react'] },
+  { title: 'Explain memoization: useMemo, useCallback and React.memo.', difficulty: 'medium', tags: ['react', 'perf'] },
+  { title: 'What is tree shaking and when does it fail?', difficulty: 'medium', tags: ['bundling'] },
+  { title: 'How do CSS specificity and the cascade resolve conflicts?', difficulty: 'medium', tags: ['css'] },
+  { title: 'localStorage vs sessionStorage vs cookies — when to use each?', difficulty: 'easy', tags: ['browser'] },
 ];
 
 const TECH_BACKEND: BankQ[] = [
@@ -153,6 +236,16 @@ const TECH_BACKEND: BankQ[] = [
   { title: 'How do you prevent and detect N+1 queries?', difficulty: 'medium', tags: ['databases', 'orm'] },
   { title: 'Explain eventual consistency with a real example.', difficulty: 'hard', tags: ['distributed'] },
   { title: 'How do you secure secrets and handle auth tokens?', difficulty: 'medium', tags: ['security'] },
+  { title: 'Explain connection pooling and why it matters.', difficulty: 'medium', tags: ['databases'] },
+  { title: 'What is a deadlock and how do you avoid one?', difficulty: 'hard', tags: ['concurrency'] },
+  { title: 'Explain optimistic vs pessimistic locking.', difficulty: 'hard', tags: ['databases'] },
+  { title: 'How does a load balancer choose a backend?', difficulty: 'medium', tags: ['networking'] },
+  { title: 'Explain the CAP theorem with a practical example.', difficulty: 'hard', tags: ['distributed'] },
+  { title: 'How do you run a zero-downtime database migration?', difficulty: 'hard', tags: ['databases'] },
+  { title: 'Compare rate-limiting algorithms and their trade-offs.', difficulty: 'medium', tags: ['rate-limit'] },
+  { title: 'How do you retry without amplifying load?', difficulty: 'hard', tags: ['reliability'] },
+  { title: 'Sharding vs partitioning vs replication.', difficulty: 'hard', tags: ['databases', 'scale'] },
+  { title: 'Trade-offs of gRPC vs REST vs GraphQL.', difficulty: 'medium', tags: ['api-design'] },
 ];
 
 function poolFor(role: Role, round: Round): BankQ[] {
@@ -265,6 +358,31 @@ function pickN<T>(pool: T[], n: number, rng: () => number): T[] {
   return copy.slice(0, Math.min(n, copy.length));
 }
 
+/**
+ * Pick `n` questions the company hasn't used yet. Without this, two interviews
+ * at the same company could both surface "Why this company, and why this role?".
+ * Falls back to the whole pool only if the fresh set is too small.
+ */
+function pickUnique(
+  pool: BankQ[],
+  n: number,
+  rng: () => number,
+  used: Set<string>,
+): BankQ[] {
+  const fresh = pool.filter((q) => !used.has(q.title));
+  const chosen = pickN(fresh.length >= n ? fresh : pool, n, rng);
+
+  const out: BankQ[] = [];
+  const seen = new Set<string>();
+  for (const q of chosen) {
+    if (seen.has(q.title)) continue;
+    seen.add(q.title);
+    out.push(q);
+  }
+  out.forEach((q) => used.add(q.title));
+  return out;
+}
+
 export type ComposedRound = { round: Round; questions: BankQ[] };
 export type ComposedInterview = {
   role: Role;
@@ -298,6 +416,7 @@ export function composeInterviews(
 ): ComposedInterview[] {
   const rng = mulberry32(hashStr(slug));
   const start = hashStr(slug) % PROFILES.length;
+  const used = new Set<string>();
 
   const interviews: ComposedInterview[] = [];
   for (let i = 0; i < count; i += 1) {
@@ -306,7 +425,7 @@ export function composeInterviews(
     const rounds: ComposedRound[] = plan
       .map((round) => {
         const quota = ROUND_QUOTA[round] ?? 1;
-        const questions = pickN(poolFor(role, round), quota, rng);
+        const questions = pickUnique(poolFor(role, round), quota, rng, used);
         return { round, questions };
       })
       .filter((r) => r.questions.length > 0);

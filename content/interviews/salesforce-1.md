@@ -4,19 +4,21 @@ company: salesforce
 role: fullstack
 level: senior
 outcome: no_offer
-year: 2024
+year: 2025
 source: curated
-summary: 'A senior fullstack loop. Balanced across coding, design, and collaboration.'
+summary: >-
+  A senior fullstack loop. Pragmatic questions — more real-world than pure
+  puzzles.
 ---
 # Senior Full-stack — Salesforce
 
 ![role](https://img.shields.io/badge/role-Full--stack-a78bfa?style=flat-square)
 ![level](https://img.shields.io/badge/level-Senior-818cf8?style=flat-square)
 ![outcome](https://img.shields.io/badge/outcome-No%20offer-f87171?style=flat-square)
-![year](https://img.shields.io/badge/year-2024-6b7280?style=flat-square)
+![year](https://img.shields.io/badge/year-2025-6b7280?style=flat-square)
 ![source](https://img.shields.io/badge/source-Commonly%20asked-2dd4bf?style=flat-square)
 
-> A senior fullstack loop. Balanced across coding, design, and collaboration.
+> A senior fullstack loop. Pragmatic questions — more real-world than pure puzzles.
 
 **6 rounds · 10 questions**
 
@@ -29,8 +31,8 @@ _Data structures & algorithms on a whiteboard or shared editor._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Merge k sorted lists. | 🔴 Hard | `heap` `linked-list` | [LC](https://leetcode.com/problemset/?search=Merge%20k%20sorted%20lists) · [NC](https://neetcode.io/practice) · [GfG](https://www.geeksforgeeks.org/search/?gq=Merge%20k%20sorted%20lists) |
-| Trapping rain water. | 🔴 Hard | `two-pointers` `array` | [LC](https://leetcode.com/problemset/?search=Trapping%20rain%20water) · [NC](https://neetcode.io/practice) · [GfG](https://www.geeksforgeeks.org/search/?gq=Trapping%20rain%20water) |
+| Number of islands in a 2D grid. | 🟡 Medium | `bfs` `dfs` `grid` | [LC](https://leetcode.com/problemset/?search=Number%20of%20islands%20in%20a%202D%20grid) · [NC](https://neetcode.io/practice) · [GfG](https://www.geeksforgeeks.org/search/?gq=Number%20of%20islands%20in%20a%202D%20grid) |
+| LRU cache with O(1) get and put. | 🟡 Medium | `hashmap` `linked-list` | [LC](https://leetcode.com/problemset/?search=LRU%20cache%20with%20O(1)%20get%20and%20put) · [NC](https://neetcode.io/practice) · [GfG](https://www.geeksforgeeks.org/search/?gq=LRU%20cache%20with%20O(1)%20get%20and%20put) |
 
 ## Round 2 · Machine Coding
 <!-- round: machine_coding -->
@@ -39,8 +41,8 @@ _Build a working component or service under time pressure._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Build a key-value store with TTL expiry. | 🟡 Medium | `cache` `ttl` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20a%20key-value%20store%20with%20TTL%20expiry) · [Search](https://www.google.com/search?q=Build%20a%20key-value%20store%20with%20TTL%20expiry) |
-| Build a star-rating component (controlled + accessible). | 🟢 Easy | `react` `a11y` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20a%20star-rating%20component%20(controlled%20%2B%20accessible)) · [Search](https://www.google.com/search?q=Build%20a%20star-rating%20component%20(controlled%20%2B%20accessible)) |
+| Build a REST endpoint with pagination, filtering and sorting. | 🟡 Medium | `api` `pagination` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20a%20REST%20endpoint%20with%20pagination%2C%20filtering%20and%20sorting) · [Search](https://www.google.com/search?q=Build%20a%20REST%20endpoint%20with%20pagination%2C%20filtering%20and%20sorting) |
+| Build a CSV importer that streams and validates rows. | 🟡 Medium | `streaming` `validation` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20a%20CSV%20importer%20that%20streams%20and%20validates%20rows) · [Search](https://www.google.com/search?q=Build%20a%20CSV%20importer%20that%20streams%20and%20validates%20rows) |
 
 ## Round 3 · System Design
 <!-- round: system_design -->
@@ -49,8 +51,8 @@ _High-level architecture of a large-scale system._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Design a pastebin with expiring links. | 🟡 Medium | `storage` `ttl` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20pastebin%20with%20expiring%20links) · [Search](https://www.google.com/search?q=Design%20a%20pastebin%20with%20expiring%20links) |
-| Design a component/design-system architecture for many teams. | 🟡 Medium | `frontend` `design-system` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20component%2Fdesign-system%20architecture%20for%20many%20teams) · [Search](https://www.google.com/search?q=Design%20a%20component%2Fdesign-system%20architecture%20for%20many%20teams) |
+| Design client-side state and data-fetching for a large SPA. | 🔴 Hard | `frontend` `state` `caching` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20client-side%20state%20and%20data-fetching%20for%20a%20large%20SPA) · [Search](https://www.google.com/search?q=Design%20client-side%20state%20and%20data-fetching%20for%20a%20large%20SPA) |
+| Design a rate limiter for a public API. | 🟡 Medium | `token-bucket` `redis` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20rate%20limiter%20for%20a%20public%20API) · [Search](https://www.google.com/search?q=Design%20a%20rate%20limiter%20for%20a%20public%20API) |
 
 ## Round 4 · Tech Deep-Dive
 <!-- round: tech_deep_dive -->
@@ -59,8 +61,8 @@ _Deep questions on your core stack and fundamentals._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Closures and the module pattern — with an example. | 🟢 Easy | `javascript` `closures` | [GfG](https://www.geeksforgeeks.org/search/?gq=Closures%20and%20the%20module%20pattern%20%E2%80%94%20with%20an%20example) · [Search](https://www.google.com/search?q=Closures%20and%20the%20module%20pattern%20%E2%80%94%20with%20an%20example) |
-| Explain how you handle concurrency / race conditions. | 🔴 Hard | `concurrency` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20how%20you%20handle%20concurrency%20%2F%20race%20conditions) · [Search](https://www.google.com/search?q=Explain%20how%20you%20handle%20concurrency%20%2F%20race%20conditions) |
+| What is a deadlock and how do you avoid one? | 🔴 Hard | `concurrency` | [GfG](https://www.geeksforgeeks.org/search/?gq=What%20is%20a%20deadlock%20and%20how%20do%20you%20avoid%20one) · [Search](https://www.google.com/search?q=What%20is%20a%20deadlock%20and%20how%20do%20you%20avoid%20one) |
+| What is the difference between var, let and const? | 🟢 Easy | `javascript` | [GfG](https://www.geeksforgeeks.org/search/?gq=What%20is%20the%20difference%20between%20var%2C%20let%20and%20const) · [Search](https://www.google.com/search?q=What%20is%20the%20difference%20between%20var%2C%20let%20and%20const) |
 
 ## Round 5 · Hiring Manager
 <!-- round: hiring_manager -->
@@ -69,7 +71,7 @@ _Scope, ownership, and role-fit discussion with the manager._
 
 | Question | Difficulty | Tags |
 | --- | --- | --- |
-| Walk me through the architecture of a system you owned end to end. | — | `ownership` `architecture` |
+| How do you decide what to build vs. buy vs. defer? | — | `judgment` |
 
 ## Round 6 · Behavioral / HR
 <!-- round: behavioral -->
@@ -78,7 +80,7 @@ _Values, collaboration, and past-experience (STAR) questions._
 
 | Question | Difficulty | Tags |
 | --- | --- | --- |
-| Describe handling a tight deadline with competing priorities. | — | `prioritization` `star` |
+| Tell me about a time you disagreed and committed. | — | `teamwork` `star` |
 
 ---
 

@@ -3,22 +3,20 @@ id: oracle-3
 company: oracle
 role: frontend
 level: mid
-outcome: unknown
-year: 2025
+outcome: withdrew
+year: 2023
 source: curated
-summary: >-
-  5-round mid frontend process. Pragmatic questions — more real-world than pure
-  puzzles.
+summary: 'A mid frontend loop. Balanced across coding, design, and collaboration.'
 ---
 # Mid Frontend — Oracle
 
 ![role](https://img.shields.io/badge/role-Frontend-22d3ee?style=flat-square)
 ![level](https://img.shields.io/badge/level-Mid-818cf8?style=flat-square)
-![outcome](https://img.shields.io/badge/outcome-Unknown-6b7280?style=flat-square)
-![year](https://img.shields.io/badge/year-2025-6b7280?style=flat-square)
+![outcome](https://img.shields.io/badge/outcome-Withdrew-fbbf24?style=flat-square)
+![year](https://img.shields.io/badge/year-2023-6b7280?style=flat-square)
 ![source](https://img.shields.io/badge/source-Commonly%20asked-2dd4bf?style=flat-square)
 
-> 5-round mid frontend process. Pragmatic questions — more real-world than pure puzzles.
+> A mid frontend loop. Balanced across coding, design, and collaboration.
 
 **5 rounds · 8 questions**
 
@@ -31,8 +29,8 @@ _Data structures & algorithms on a whiteboard or shared editor._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| LRU cache with O(1) get and put. | 🟡 Medium | `hashmap` `linked-list` | [LC](https://leetcode.com/problemset/?search=LRU%20cache%20with%20O(1)%20get%20and%20put) · [NC](https://neetcode.io/practice) · [GfG](https://www.geeksforgeeks.org/search/?gq=LRU%20cache%20with%20O(1)%20get%20and%20put) |
-| Kth largest element in an array. | 🟡 Medium | `heap` `quickselect` | [LC](https://leetcode.com/problemset/?search=Kth%20largest%20element%20in%20an%20array) · [NC](https://neetcode.io/practice) · [GfG](https://www.geeksforgeeks.org/search/?gq=Kth%20largest%20element%20in%20an%20array) |
+| Course Schedule — detect a cycle / topological sort. | 🟡 Medium | `graph` `topo-sort` | [LC](https://leetcode.com/problemset/?search=Course%20Schedule%20%E2%80%94%20detect%20a%20cycle%20%2F%20topological%20sort) · [NC](https://neetcode.io/practice) · [GfG](https://www.geeksforgeeks.org/search/?gq=Course%20Schedule%20%E2%80%94%20detect%20a%20cycle%20%2F%20topological%20sort) |
+| Reverse nodes in k-group. | 🔴 Hard | `linked-list` | [LC](https://leetcode.com/problemset/?search=Reverse%20nodes%20in%20k-group) · [NC](https://neetcode.io/practice) · [GfG](https://www.geeksforgeeks.org/search/?gq=Reverse%20nodes%20in%20k-group) |
 
 ## Round 2 · Machine Coding
 <!-- round: machine_coding -->
@@ -41,8 +39,8 @@ _Build a working component or service under time pressure._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Build a multi-step form with validation. | 🟡 Medium | `react` `forms` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20a%20multi-step%20form%20with%20validation) · [Search](https://www.google.com/search?q=Build%20a%20multi-step%20form%20with%20validation) |
-| Build a data table with sorting, filtering and pagination. | 🔴 Hard | `react` `table` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20a%20data%20table%20with%20sorting%2C%20filtering%20and%20pagination) · [Search](https://www.google.com/search?q=Build%20a%20data%20table%20with%20sorting%2C%20filtering%20and%20pagination) |
+| Build a modal/dialog with focus trapping. | 🟡 Medium | `react` `a11y` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20a%20modal%2Fdialog%20with%20focus%20trapping) · [Search](https://www.google.com/search?q=Build%20a%20modal%2Fdialog%20with%20focus%20trapping) |
+| Build an infinite-scrolling list with virtualization. | 🔴 Hard | `react` `virtualization` `perf` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20an%20infinite-scrolling%20list%20with%20virtualization) · [Search](https://www.google.com/search?q=Build%20an%20infinite-scrolling%20list%20with%20virtualization) |
 
 ## Round 3 · Low-Level Design
 <!-- round: lld -->
@@ -60,8 +58,8 @@ _Deep questions on your core stack and fundamentals._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Difference between CSS Grid and Flexbox — when to use each. | 🟢 Easy | `css` `layout` | [GfG](https://www.geeksforgeeks.org/search/?gq=Difference%20between%20CSS%20Grid%20and%20Flexbox%20%E2%80%94%20when%20to%20use%20each) · [Search](https://www.google.com/search?q=Difference%20between%20CSS%20Grid%20and%20Flexbox%20%E2%80%94%20when%20to%20use%20each) |
-| How do you optimize a slow React app? (profiling → fixes) | 🔴 Hard | `react` `perf` | [GfG](https://www.geeksforgeeks.org/search/?gq=How%20do%20you%20optimize%20a%20slow%20React%20app%3F%20(profiling%20%E2%86%92%20fixes)) · [Search](https://www.google.com/search?q=How%20do%20you%20optimize%20a%20slow%20React%20app%3F%20(profiling%20%E2%86%92%20fixes)) |
+| Explain the CSS box model and box-sizing. | 🟢 Easy | `css` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20the%20CSS%20box%20model%20and%20box-sizing) · [Search](https://www.google.com/search?q=Explain%20the%20CSS%20box%20model%20and%20box-sizing) |
+| What is the difference between var, let and const? | 🟢 Easy | `javascript` | [GfG](https://www.geeksforgeeks.org/search/?gq=What%20is%20the%20difference%20between%20var%2C%20let%20and%20const) · [Search](https://www.google.com/search?q=What%20is%20the%20difference%20between%20var%2C%20let%20and%20const) |
 
 ## Round 5 · Behavioral / HR
 <!-- round: behavioral -->
@@ -70,7 +68,7 @@ _Values, collaboration, and past-experience (STAR) questions._
 
 | Question | Difficulty | Tags |
 | --- | --- | --- |
-| Tell me about a project you are most proud of. | — | `star` |
+| Describe something you shipped that you were not proud of. | — | `tradeoffs` `star` |
 
 ---
 

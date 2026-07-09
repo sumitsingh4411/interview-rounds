@@ -21,7 +21,7 @@ description: AI research and products. Strong coding and applied systems design.
 | Interview | Outcome | Rounds | Questions |
 | --- | --- | --- | --- |
 | [Senior · Frontend](../interviews/openai-1.md) | Offer | 6 | 10 |
-| [Staff · Backend](../interviews/openai-2.md) | Withdrew | 5 | 7 |
+| [Staff · Backend](../interviews/openai-2.md) | Offer | 5 | 7 |
 | [Junior · Full-stack](../interviews/openai-3.md) | Rejected | 5 | 8 |
 | [Senior · Backend](../interviews/openai-4.md) | Rejected | 6 | 10 |
 

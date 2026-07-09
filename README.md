@@ -40,8 +40,12 @@ difficulty, and topic tags.
 
 **Difficulty** is `easy` · `medium` · `hard`.
 **Source** tells you where a question came from — `curated` (commonly reported),
-`community` (shared first-hand), `github`, or `ai` (a *likely* question, not a
-verified experience).
+`community` (shared first-hand), `github` (imported from a permissively licensed
+open-source repo, with a link), or `ai` (a *likely* question, not a verified
+experience).
+
+Each round page also carries a **Topic bank**: extra practice questions imported
+from MIT-licensed repos. Those are topic questions — never attributed to a company.
 
 ---
 

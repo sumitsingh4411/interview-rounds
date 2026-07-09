@@ -4,19 +4,21 @@ company: gitlab
 role: fullstack
 level: senior
 outcome: withdrew
-year: 2024
+year: 2023
 source: curated
-summary: 'Senior fullstack interview. Coding-heavy early, design and behavioral later.'
+summary: >-
+  A senior fullstack loop. Pragmatic questions — more real-world than pure
+  puzzles.
 ---
 # Senior Full-stack — GitLab
 
 ![role](https://img.shields.io/badge/role-Full--stack-a78bfa?style=flat-square)
 ![level](https://img.shields.io/badge/level-Senior-818cf8?style=flat-square)
 ![outcome](https://img.shields.io/badge/outcome-Withdrew-fbbf24?style=flat-square)
-![year](https://img.shields.io/badge/year-2024-6b7280?style=flat-square)
+![year](https://img.shields.io/badge/year-2023-6b7280?style=flat-square)
 ![source](https://img.shields.io/badge/source-Commonly%20asked-2dd4bf?style=flat-square)
 
-> Senior fullstack interview. Coding-heavy early, design and behavioral later.
+> A senior fullstack loop. Pragmatic questions — more real-world than pure puzzles.
 
 **6 rounds · 10 questions**
 
@@ -29,8 +31,8 @@ _Data structures & algorithms on a whiteboard or shared editor._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Median of two sorted arrays. | 🔴 Hard | `binary-search` | [LC](https://leetcode.com/problemset/?search=Median%20of%20two%20sorted%20arrays) · [NC](https://neetcode.io/practice) · [GfG](https://www.geeksforgeeks.org/search/?gq=Median%20of%20two%20sorted%20arrays) |
-| LRU cache with O(1) get and put. | 🟡 Medium | `hashmap` `linked-list` | [LC](https://leetcode.com/problemset/?search=LRU%20cache%20with%20O(1)%20get%20and%20put) · [NC](https://neetcode.io/practice) · [GfG](https://www.geeksforgeeks.org/search/?gq=LRU%20cache%20with%20O(1)%20get%20and%20put) |
+| Merge k sorted lists. | 🔴 Hard | `heap` `linked-list` | [LC](https://leetcode.com/problemset/?search=Merge%20k%20sorted%20lists) · [NC](https://neetcode.io/practice) · [GfG](https://www.geeksforgeeks.org/search/?gq=Merge%20k%20sorted%20lists) |
+| Container with most water. | 🟡 Medium | `two-pointers` `array` | [LC](https://leetcode.com/problemset/?search=Container%20with%20most%20water) · [NC](https://neetcode.io/practice) · [GfG](https://www.geeksforgeeks.org/search/?gq=Container%20with%20most%20water) |
 
 ## Round 2 · Machine Coding
 <!-- round: machine_coding -->
@@ -39,8 +41,8 @@ _Build a working component or service under time pressure._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Build a key-value store with TTL expiry. | 🟡 Medium | `cache` `ttl` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20a%20key-value%20store%20with%20TTL%20expiry) · [Search](https://www.google.com/search?q=Build%20a%20key-value%20store%20with%20TTL%20expiry) |
-| Build a multi-step form with validation. | 🟡 Medium | `react` `forms` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20a%20multi-step%20form%20with%20validation) · [Search](https://www.google.com/search?q=Build%20a%20multi-step%20form%20with%20validation) |
+| Build a countdown timer with pause and resume. | 🟢 Easy | `react` `state` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20a%20countdown%20timer%20with%20pause%20and%20resume) · [Search](https://www.google.com/search?q=Build%20a%20countdown%20timer%20with%20pause%20and%20resume) |
+| Build a tic-tac-toe game with win detection. | 🟢 Easy | `react` `state` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20a%20tic-tac-toe%20game%20with%20win%20detection) · [Search](https://www.google.com/search?q=Build%20a%20tic-tac-toe%20game%20with%20win%20detection) |
 
 ## Round 3 · System Design
 <!-- round: system_design -->
@@ -49,8 +51,8 @@ _High-level architecture of a large-scale system._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Design a scalable frontend for an infinite feed (data, caching, rendering). | 🔴 Hard | `frontend` `virtualization` `cache` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20scalable%20frontend%20for%20an%20infinite%20feed%20(data%2C%20caching%2C%20rendering)) · [Search](https://www.google.com/search?q=Design%20a%20scalable%20frontend%20for%20an%20infinite%20feed%20(data%2C%20caching%2C%20rendering)) |
-| Design a pastebin with expiring links. | 🟡 Medium | `storage` `ttl` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20pastebin%20with%20expiring%20links) · [Search](https://www.google.com/search?q=Design%20a%20pastebin%20with%20expiring%20links) |
+| Design a component/design-system architecture for many teams. | 🟡 Medium | `frontend` `design-system` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20component%2Fdesign-system%20architecture%20for%20many%20teams) · [Search](https://www.google.com/search?q=Design%20a%20component%2Fdesign-system%20architecture%20for%20many%20teams) |
+| Design a rate limiter for a public API. | 🟡 Medium | `token-bucket` `redis` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20rate%20limiter%20for%20a%20public%20API) · [Search](https://www.google.com/search?q=Design%20a%20rate%20limiter%20for%20a%20public%20API) |
 
 ## Round 4 · Tech Deep-Dive
 <!-- round: tech_deep_dive -->
@@ -59,8 +61,8 @@ _Deep questions on your core stack and fundamentals._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| How would you design and version a public REST API? | 🟡 Medium | `api-design` | [GfG](https://www.geeksforgeeks.org/search/?gq=How%20would%20you%20design%20and%20version%20a%20public%20REST%20API) · [Search](https://www.google.com/search?q=How%20would%20you%20design%20and%20version%20a%20public%20REST%20API) |
-| Explain eventual consistency with a real example. | 🔴 Hard | `distributed` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20eventual%20consistency%20with%20a%20real%20example) · [Search](https://www.google.com/search?q=Explain%20eventual%20consistency%20with%20a%20real%20example) |
+| How do you optimize a slow React app? (profiling → fixes) | 🔴 Hard | `react` `perf` | [GfG](https://www.geeksforgeeks.org/search/?gq=How%20do%20you%20optimize%20a%20slow%20React%20app%3F%20(profiling%20%E2%86%92%20fixes)) · [Search](https://www.google.com/search?q=How%20do%20you%20optimize%20a%20slow%20React%20app%3F%20(profiling%20%E2%86%92%20fixes)) |
+| How do you retry without amplifying load? | 🔴 Hard | `reliability` | [GfG](https://www.geeksforgeeks.org/search/?gq=How%20do%20you%20retry%20without%20amplifying%20load) · [Search](https://www.google.com/search?q=How%20do%20you%20retry%20without%20amplifying%20load) |
 
 ## Round 5 · Hiring Manager
 <!-- round: hiring_manager -->
@@ -69,7 +71,7 @@ _Scope, ownership, and role-fit discussion with the manager._
 
 | Question | Difficulty | Tags |
 | --- | --- | --- |
-| What does a great engineering culture look like to you? | — | `values` |
+| How do you keep a team unblocked and shipping? | — | `leadership` |
 
 ## Round 6 · Behavioral / HR
 <!-- round: behavioral -->
@@ -78,7 +80,7 @@ _Values, collaboration, and past-experience (STAR) questions._
 
 | Question | Difficulty | Tags |
 | --- | --- | --- |
-| A time you made a mistake in production — what happened next? | — | `ownership` `star` |
+| Tell me about the hardest bug you have debugged. | — | `debugging` `star` |
 
 ---
 

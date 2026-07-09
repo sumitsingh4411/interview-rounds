@@ -20,10 +20,10 @@ description: Creative Cloud and document tools. Practical coding plus product se
 
 | Interview | Outcome | Rounds | Questions |
 | --- | --- | --- | --- |
-| [Junior · Frontend](../interviews/adobe-1.md) | Withdrew | 5 | 8 |
-| [Mid · Backend](../interviews/adobe-2.md) | Unknown | 5 | 8 |
+| [Junior · Frontend](../interviews/adobe-1.md) | No offer | 5 | 8 |
+| [Mid · Backend](../interviews/adobe-2.md) | No offer | 5 | 8 |
 | [Senior · Full-stack](../interviews/adobe-3.md) | Unknown | 6 | 10 |
-| [Senior · Frontend](../interviews/adobe-4.md) | Rejected | 6 | 10 |
+| [Senior · Frontend](../interviews/adobe-4.md) | Unknown | 6 | 10 |
 
 ---
 

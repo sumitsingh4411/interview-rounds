@@ -3,22 +3,20 @@ id: brex-4
 company: brex
 role: frontend
 level: junior
-outcome: offer
+outcome: withdrew
 year: 2023
 source: curated
-summary: >-
-  A junior frontend loop. Pragmatic questions — more real-world than pure
-  puzzles.
+summary: A junior frontend loop. Fast-paced; expect follow-ups that push on depth.
 ---
 # Junior Frontend — Brex
 
 ![role](https://img.shields.io/badge/role-Frontend-22d3ee?style=flat-square)
 ![level](https://img.shields.io/badge/level-Junior-818cf8?style=flat-square)
-![outcome](https://img.shields.io/badge/outcome-Offer-34d399?style=flat-square)
+![outcome](https://img.shields.io/badge/outcome-Withdrew-fbbf24?style=flat-square)
 ![year](https://img.shields.io/badge/year-2023-6b7280?style=flat-square)
 ![source](https://img.shields.io/badge/source-Commonly%20asked-2dd4bf?style=flat-square)
 
-> A junior frontend loop. Pragmatic questions — more real-world than pure puzzles.
+> A junior frontend loop. Fast-paced; expect follow-ups that push on depth.
 
 **5 rounds · 8 questions**
 
@@ -40,8 +38,8 @@ _Data structures & algorithms on a whiteboard or shared editor._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Valid Parentheses — check balanced brackets. | 🟢 Easy | `stack` `string` | [LC](https://leetcode.com/problemset/?search=Valid%20Parentheses%20%E2%80%94%20check%20balanced%20brackets) · [NC](https://neetcode.io/practice) · [GfG](https://www.geeksforgeeks.org/search/?gq=Valid%20Parentheses%20%E2%80%94%20check%20balanced%20brackets) |
-| Word ladder — shortest transformation sequence. | 🔴 Hard | `bfs` `graph` | [LC](https://leetcode.com/problemset/?search=Word%20ladder%20%E2%80%94%20shortest%20transformation%20sequence) · [NC](https://neetcode.io/practice) · [GfG](https://www.geeksforgeeks.org/search/?gq=Word%20ladder%20%E2%80%94%20shortest%20transformation%20sequence) |
+| Coin change — fewest coins to make an amount. | 🟡 Medium | `dp` | [LC](https://leetcode.com/problemset/?search=Coin%20change%20%E2%80%94%20fewest%20coins%20to%20make%20an%20amount) · [NC](https://neetcode.io/practice) · [GfG](https://www.geeksforgeeks.org/search/?gq=Coin%20change%20%E2%80%94%20fewest%20coins%20to%20make%20an%20amount) |
+| Kth largest element in an array. | 🟡 Medium | `heap` `quickselect` | [LC](https://leetcode.com/problemset/?search=Kth%20largest%20element%20in%20an%20array) · [NC](https://neetcode.io/practice) · [GfG](https://www.geeksforgeeks.org/search/?gq=Kth%20largest%20element%20in%20an%20array) |
 
 ## Round 3 · Machine Coding
 <!-- round: machine_coding -->
@@ -50,8 +48,8 @@ _Build a working component or service under time pressure._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Build a nested, collapsible comment thread. | 🟡 Medium | `react` `recursion` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20a%20nested%2C%20collapsible%20comment%20thread) · [Search](https://www.google.com/search?q=Build%20a%20nested%2C%20collapsible%20comment%20thread) |
-| Build a data table with sorting, filtering and pagination. | 🔴 Hard | `react` `table` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20a%20data%20table%20with%20sorting%2C%20filtering%20and%20pagination) · [Search](https://www.google.com/search?q=Build%20a%20data%20table%20with%20sorting%2C%20filtering%20and%20pagination) |
+| Build a tic-tac-toe game with win detection. | 🟢 Easy | `react` `state` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20a%20tic-tac-toe%20game%20with%20win%20detection) · [Search](https://www.google.com/search?q=Build%20a%20tic-tac-toe%20game%20with%20win%20detection) |
+| Build a kanban board with drag and drop. | 🔴 Hard | `react` `dnd` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20a%20kanban%20board%20with%20drag%20and%20drop) · [Search](https://www.google.com/search?q=Build%20a%20kanban%20board%20with%20drag%20and%20drop) |
 
 ## Round 4 · Tech Deep-Dive
 <!-- round: tech_deep_dive -->
@@ -60,8 +58,8 @@ _Deep questions on your core stack and fundamentals._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Accessibility: how do you make a custom widget usable? | 🟡 Medium | `a11y` | [GfG](https://www.geeksforgeeks.org/search/?gq=Accessibility%3A%20how%20do%20you%20make%20a%20custom%20widget%20usable) · [Search](https://www.google.com/search?q=Accessibility%3A%20how%20do%20you%20make%20a%20custom%20widget%20usable) |
-| How does React reconciliation / the diffing algorithm work? | 🟡 Medium | `react` `fiber` | [GfG](https://www.geeksforgeeks.org/search/?gq=How%20does%20React%20reconciliation%20%2F%20the%20diffing%20algorithm%20work) · [Search](https://www.google.com/search?q=How%20does%20React%20reconciliation%20%2F%20the%20diffing%20algorithm%20work) |
+| localStorage vs sessionStorage vs cookies — when to use each? | 🟢 Easy | `browser` | [GfG](https://www.geeksforgeeks.org/search/?gq=localStorage%20vs%20sessionStorage%20vs%20cookies%20%E2%80%94%20when%20to%20use%20each) · [Search](https://www.google.com/search?q=localStorage%20vs%20sessionStorage%20vs%20cookies%20%E2%80%94%20when%20to%20use%20each) |
+| Difference between CSS Grid and Flexbox — when to use each. | 🟢 Easy | `css` `layout` | [GfG](https://www.geeksforgeeks.org/search/?gq=Difference%20between%20CSS%20Grid%20and%20Flexbox%20%E2%80%94%20when%20to%20use%20each) · [Search](https://www.google.com/search?q=Difference%20between%20CSS%20Grid%20and%20Flexbox%20%E2%80%94%20when%20to%20use%20each) |
 
 ## Round 5 · Behavioral / HR
 <!-- round: behavioral -->
@@ -70,7 +68,7 @@ _Values, collaboration, and past-experience (STAR) questions._
 
 | Question | Difficulty | Tags |
 | --- | --- | --- |
-| Tell me about a time you simplified something overly complex. | — | `judgment` `star` |
+| Describe mentoring or unblocking another engineer. | — | `mentorship` `star` |
 
 ---
 

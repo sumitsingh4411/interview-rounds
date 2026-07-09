@@ -20,10 +20,10 @@ description: 'Real-time 3D engine. Performance, graphics, and systems questions.
 
 | Interview | Outcome | Rounds | Questions |
 | --- | --- | --- | --- |
-| [Junior · Full-stack](../interviews/unity-1.md) | Withdrew | 5 | 8 |
-| [Senior · Backend](../interviews/unity-2.md) | Unknown | 6 | 10 |
-| [Mid · Frontend](../interviews/unity-3.md) | No offer | 5 | 8 |
-| [Junior · Frontend](../interviews/unity-4.md) | Rejected | 5 | 8 |
+| [Junior · Full-stack](../interviews/unity-1.md) | Unknown | 5 | 8 |
+| [Senior · Backend](../interviews/unity-2.md) | No offer | 6 | 10 |
+| [Mid · Frontend](../interviews/unity-3.md) | Offer | 5 | 8 |
+| [Junior · Frontend](../interviews/unity-4.md) | No offer | 5 | 8 |
 
 ---
 

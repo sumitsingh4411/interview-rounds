@@ -3,22 +3,22 @@ id: amazon-1
 company: amazon
 role: fullstack
 level: junior
-outcome: rejected
-year: 2023
+outcome: offer
+year: 2024
 source: curated
 summary: >-
-  A junior fullstack loop. Fundamentals mattered as much as getting to an
-  answer.
+  5-round junior fullstack process. Pragmatic questions — more real-world than
+  pure puzzles.
 ---
 # Junior Full-stack — Amazon
 
 ![role](https://img.shields.io/badge/role-Full--stack-a78bfa?style=flat-square)
 ![level](https://img.shields.io/badge/level-Junior-818cf8?style=flat-square)
-![outcome](https://img.shields.io/badge/outcome-Rejected-f87171?style=flat-square)
-![year](https://img.shields.io/badge/year-2023-6b7280?style=flat-square)
+![outcome](https://img.shields.io/badge/outcome-Offer-34d399?style=flat-square)
+![year](https://img.shields.io/badge/year-2024-6b7280?style=flat-square)
 ![source](https://img.shields.io/badge/source-Commonly%20asked-2dd4bf?style=flat-square)
 
-> A junior fullstack loop. Fundamentals mattered as much as getting to an answer.
+> 5-round junior fullstack process. Pragmatic questions — more real-world than pure puzzles.
 
 **5 rounds · 8 questions**
 
@@ -31,7 +31,7 @@ _Timed online coding / aptitude screen, usually the first filter._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Debugging + output-prediction multiple choice section. | 🟢 Easy | `fundamentals` | [LC](https://leetcode.com/problemset/?search=Debugging%20%2B%20output-prediction%20multiple%20choice%20section) · [NC](https://neetcode.io/practice) · [GfG](https://www.geeksforgeeks.org/search/?gq=Debugging%20%2B%20output-prediction%20multiple%20choice%20section) |
+| Longest common prefix among strings. | 🟢 Easy | `string` | [LC](https://leetcode.com/problemset/?search=Longest%20common%20prefix%20among%20strings) · [NC](https://neetcode.io/practice) · [GfG](https://www.geeksforgeeks.org/search/?gq=Longest%20common%20prefix%20among%20strings) |
 
 ## Round 2 · DSA / Coding
 <!-- round: dsa -->
@@ -40,8 +40,8 @@ _Data structures & algorithms on a whiteboard or shared editor._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Serialize and deserialize a binary tree. | 🔴 Hard | `tree` `dfs` | [LC](https://leetcode.com/problemset/?search=Serialize%20and%20deserialize%20a%20binary%20tree) · [NC](https://neetcode.io/practice) · [GfG](https://www.geeksforgeeks.org/search/?gq=Serialize%20and%20deserialize%20a%20binary%20tree) |
-| Trapping rain water. | 🔴 Hard | `two-pointers` `array` | [LC](https://leetcode.com/problemset/?search=Trapping%20rain%20water) · [NC](https://neetcode.io/practice) · [GfG](https://www.geeksforgeeks.org/search/?gq=Trapping%20rain%20water) |
+| Lowest common ancestor of a binary tree. | 🟡 Medium | `tree` | [LC](https://leetcode.com/problemset/?search=Lowest%20common%20ancestor%20of%20a%20binary%20tree) · [NC](https://neetcode.io/practice) · [GfG](https://www.geeksforgeeks.org/search/?gq=Lowest%20common%20ancestor%20of%20a%20binary%20tree) |
+| Longest increasing subsequence. | 🔴 Hard | `dp` `binary-search` | [LC](https://leetcode.com/problemset/?search=Longest%20increasing%20subsequence) · [NC](https://neetcode.io/practice) · [GfG](https://www.geeksforgeeks.org/search/?gq=Longest%20increasing%20subsequence) |
 
 ## Round 3 · Machine Coding
 <!-- round: machine_coding -->
@@ -50,8 +50,8 @@ _Build a working component or service under time pressure._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Build a multi-step form with validation. | 🟡 Medium | `react` `forms` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20a%20multi-step%20form%20with%20validation) · [Search](https://www.google.com/search?q=Build%20a%20multi-step%20form%20with%20validation) |
-| Build a nested, collapsible comment thread. | 🟡 Medium | `react` `recursion` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20a%20nested%2C%20collapsible%20comment%20thread) · [Search](https://www.google.com/search?q=Build%20a%20nested%2C%20collapsible%20comment%20thread) |
+| Implement a job queue with retries and backoff. | 🔴 Hard | `queue` `reliability` | [GfG](https://www.geeksforgeeks.org/search/?gq=Implement%20a%20job%20queue%20with%20retries%20and%20backoff) · [Search](https://www.google.com/search?q=Implement%20a%20job%20queue%20with%20retries%20and%20backoff) |
+| Build a toast / notification queue. | 🟡 Medium | `react` `state` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20a%20toast%20%2F%20notification%20queue) · [Search](https://www.google.com/search?q=Build%20a%20toast%20%2F%20notification%20queue) |
 
 ## Round 4 · Tech Deep-Dive
 <!-- round: tech_deep_dive -->
@@ -60,8 +60,8 @@ _Deep questions on your core stack and fundamentals._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| SQL vs NoSQL — how do you choose for a given workload? | 🟡 Medium | `databases` | [GfG](https://www.geeksforgeeks.org/search/?gq=SQL%20vs%20NoSQL%20%E2%80%94%20how%20do%20you%20choose%20for%20a%20given%20workload) · [Search](https://www.google.com/search?q=SQL%20vs%20NoSQL%20%E2%80%94%20how%20do%20you%20choose%20for%20a%20given%20workload) |
-| How would you design and version a public REST API? | 🟡 Medium | `api-design` | [GfG](https://www.geeksforgeeks.org/search/?gq=How%20would%20you%20design%20and%20version%20a%20public%20REST%20API) · [Search](https://www.google.com/search?q=How%20would%20you%20design%20and%20version%20a%20public%20REST%20API) |
+| localStorage vs sessionStorage vs cookies — when to use each? | 🟢 Easy | `browser` | [GfG](https://www.geeksforgeeks.org/search/?gq=localStorage%20vs%20sessionStorage%20vs%20cookies%20%E2%80%94%20when%20to%20use%20each) · [Search](https://www.google.com/search?q=localStorage%20vs%20sessionStorage%20vs%20cookies%20%E2%80%94%20when%20to%20use%20each) |
+| What is the difference between var, let and const? | 🟢 Easy | `javascript` | [GfG](https://www.geeksforgeeks.org/search/?gq=What%20is%20the%20difference%20between%20var%2C%20let%20and%20const) · [Search](https://www.google.com/search?q=What%20is%20the%20difference%20between%20var%2C%20let%20and%20const) |
 
 ## Round 5 · Behavioral / HR
 <!-- round: behavioral -->
@@ -70,7 +70,7 @@ _Values, collaboration, and past-experience (STAR) questions._
 
 | Question | Difficulty | Tags |
 | --- | --- | --- |
-| When did you take ownership of something outside your scope? | — | `ownership` `star` |
+| Describe mentoring or unblocking another engineer. | — | `mentorship` `star` |
 
 ---
 

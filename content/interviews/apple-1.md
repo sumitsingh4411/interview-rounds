@@ -7,8 +7,8 @@ outcome: offer
 year: 2024
 source: curated
 summary: >-
-  5-round staff backend process. Coding-heavy early, design and behavioral
-  later.
+  5-round staff backend process. Pragmatic questions — more real-world than pure
+  puzzles.
 ---
 # Staff Backend — Apple
 
@@ -18,7 +18,7 @@ summary: >-
 ![year](https://img.shields.io/badge/year-2024-6b7280?style=flat-square)
 ![source](https://img.shields.io/badge/source-Commonly%20asked-2dd4bf?style=flat-square)
 
-> 5-round staff backend process. Coding-heavy early, design and behavioral later.
+> 5-round staff backend process. Pragmatic questions — more real-world than pure puzzles.
 
 **5 rounds · 7 questions**
 
@@ -31,8 +31,8 @@ _Data structures & algorithms on a whiteboard or shared editor._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Longest substring without repeating characters. | 🟡 Medium | `sliding-window` `string` | [LC](https://leetcode.com/problemset/?search=Longest%20substring%20without%20repeating%20characters) · [NC](https://neetcode.io/practice) · [GfG](https://www.geeksforgeeks.org/search/?gq=Longest%20substring%20without%20repeating%20characters) |
-| Merge k sorted lists. | 🔴 Hard | `heap` `linked-list` | [LC](https://leetcode.com/problemset/?search=Merge%20k%20sorted%20lists) · [NC](https://neetcode.io/practice) · [GfG](https://www.geeksforgeeks.org/search/?gq=Merge%20k%20sorted%20lists) |
+| Top K frequent elements. | 🟡 Medium | `heap` `hashmap` | [LC](https://leetcode.com/problemset/?search=Top%20K%20frequent%20elements) · [NC](https://neetcode.io/practice) · [GfG](https://www.geeksforgeeks.org/search/?gq=Top%20K%20frequent%20elements) |
+| Trapping rain water. | 🔴 Hard | `two-pointers` `array` | [LC](https://leetcode.com/problemset/?search=Trapping%20rain%20water) · [NC](https://neetcode.io/practice) · [GfG](https://www.geeksforgeeks.org/search/?gq=Trapping%20rain%20water) |
 
 ## Round 2 · System Design
 <!-- round: system_design -->
@@ -41,8 +41,8 @@ _High-level architecture of a large-scale system._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Design a rate limiter for a public API. | 🟡 Medium | `token-bucket` `redis` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20rate%20limiter%20for%20a%20public%20API) · [Search](https://www.google.com/search?q=Design%20a%20rate%20limiter%20for%20a%20public%20API) |
-| Design a chat/messaging backend with delivery guarantees. | 🔴 Hard | `websocket` `queues` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20chat%2Fmessaging%20backend%20with%20delivery%20guarantees) · [Search](https://www.google.com/search?q=Design%20a%20chat%2Fmessaging%20backend%20with%20delivery%20guarantees) |
+| Design a ticket booking system (inventory + concurrency). | 🔴 Hard | `concurrency` `transactions` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20ticket%20booking%20system%20(inventory%20%2B%20concurrency)) · [Search](https://www.google.com/search?q=Design%20a%20ticket%20booking%20system%20(inventory%20%2B%20concurrency)) |
+| Design a pastebin with expiring links. | 🟡 Medium | `storage` `ttl` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20pastebin%20with%20expiring%20links) · [Search](https://www.google.com/search?q=Design%20a%20pastebin%20with%20expiring%20links) |
 
 ## Round 3 · Low-Level Design
 <!-- round: lld -->
@@ -51,7 +51,7 @@ _Object-oriented / low-level design of a focused module._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Design a deck of cards + a card game. | 🟢 Easy | `oop` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20deck%20of%20cards%20%2B%20a%20card%20game) · [Search](https://www.google.com/search?q=Design%20a%20deck%20of%20cards%20%2B%20a%20card%20game) |
+| Design a rate limiter (classes + interfaces). | 🟡 Medium | `oop` `rate-limit` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20rate%20limiter%20(classes%20%2B%20interfaces)) · [Search](https://www.google.com/search?q=Design%20a%20rate%20limiter%20(classes%20%2B%20interfaces)) |
 
 ## Round 4 · Hiring Manager
 <!-- round: hiring_manager -->
@@ -60,7 +60,7 @@ _Scope, ownership, and role-fit discussion with the manager._
 
 | Question | Difficulty | Tags |
 | --- | --- | --- |
-| How do you keep a team unblocked and shipping? | — | `leadership` |
+| How do you decide what to build vs. buy vs. defer? | — | `judgment` |
 
 ## Round 5 · Behavioral / HR
 <!-- round: behavioral -->
@@ -69,7 +69,7 @@ _Values, collaboration, and past-experience (STAR) questions._
 
 | Question | Difficulty | Tags |
 | --- | --- | --- |
-| Describe working with an ambiguous or shifting requirement. | — | `ambiguity` `star` |
+| When did you take ownership of something outside your scope? | — | `ownership` `star` |
 
 ---
 

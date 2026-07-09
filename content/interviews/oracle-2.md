@@ -3,20 +3,22 @@ id: oracle-2
 company: oracle
 role: backend
 level: senior
-outcome: no_offer
-year: 2025
+outcome: unknown
+year: 2024
 source: curated
-summary: 'A senior backend loop. Coding-heavy early, design and behavioral later.'
+summary: >-
+  6-round senior backend process. Balanced across coding, design, and
+  collaboration.
 ---
 # Senior Backend — Oracle
 
 ![role](https://img.shields.io/badge/role-Backend-8b93ff?style=flat-square)
 ![level](https://img.shields.io/badge/level-Senior-818cf8?style=flat-square)
-![outcome](https://img.shields.io/badge/outcome-No%20offer-f87171?style=flat-square)
-![year](https://img.shields.io/badge/year-2025-6b7280?style=flat-square)
+![outcome](https://img.shields.io/badge/outcome-Unknown-6b7280?style=flat-square)
+![year](https://img.shields.io/badge/year-2024-6b7280?style=flat-square)
 ![source](https://img.shields.io/badge/source-Commonly%20asked-2dd4bf?style=flat-square)
 
-> A senior backend loop. Coding-heavy early, design and behavioral later.
+> 6-round senior backend process. Balanced across coding, design, and collaboration.
 
 **6 rounds · 10 questions**
 
@@ -29,8 +31,8 @@ _Data structures & algorithms on a whiteboard or shared editor._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Number of islands in a 2D grid. | 🟡 Medium | `bfs` `dfs` `grid` | [LC](https://leetcode.com/problemset/?search=Number%20of%20islands%20in%20a%202D%20grid) · [NC](https://neetcode.io/practice) · [GfG](https://www.geeksforgeeks.org/search/?gq=Number%20of%20islands%20in%20a%202D%20grid) |
-| Longest substring without repeating characters. | 🟡 Medium | `sliding-window` `string` | [LC](https://leetcode.com/problemset/?search=Longest%20substring%20without%20repeating%20characters) · [NC](https://neetcode.io/practice) · [GfG](https://www.geeksforgeeks.org/search/?gq=Longest%20substring%20without%20repeating%20characters) |
+| Word ladder — shortest transformation sequence. | 🔴 Hard | `bfs` `graph` | [LC](https://leetcode.com/problemset/?search=Word%20ladder%20%E2%80%94%20shortest%20transformation%20sequence) · [NC](https://neetcode.io/practice) · [GfG](https://www.geeksforgeeks.org/search/?gq=Word%20ladder%20%E2%80%94%20shortest%20transformation%20sequence) |
+| Meeting rooms II — minimum rooms required. | 🟡 Medium | `heap` `intervals` | [LC](https://leetcode.com/problemset/?search=Meeting%20rooms%20II%20%E2%80%94%20minimum%20rooms%20required) · [NC](https://neetcode.io/practice) · [GfG](https://www.geeksforgeeks.org/search/?gq=Meeting%20rooms%20II%20%E2%80%94%20minimum%20rooms%20required) |
 
 ## Round 2 · Machine Coding
 <!-- round: machine_coding -->
@@ -39,8 +41,8 @@ _Build a working component or service under time pressure._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Build a CSV importer that streams and validates rows. | 🟡 Medium | `streaming` `validation` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20a%20CSV%20importer%20that%20streams%20and%20validates%20rows) · [Search](https://www.google.com/search?q=Build%20a%20CSV%20importer%20that%20streams%20and%20validates%20rows) |
-| Implement a job queue with retries and backoff. | 🔴 Hard | `queue` `reliability` | [GfG](https://www.geeksforgeeks.org/search/?gq=Implement%20a%20job%20queue%20with%20retries%20and%20backoff) · [Search](https://www.google.com/search?q=Implement%20a%20job%20queue%20with%20retries%20and%20backoff) |
+| Implement an idempotent "charge" endpoint. | 🔴 Hard | `idempotency` `payments` | [GfG](https://www.geeksforgeeks.org/search/?gq=Implement%20an%20idempotent%20%22charge%22%20endpoint) · [Search](https://www.google.com/search?q=Implement%20an%20idempotent%20%22charge%22%20endpoint) |
+| Build an in-memory rate limiter as a middleware. | 🟡 Medium | `rate-limit` `middleware` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20an%20in-memory%20rate%20limiter%20as%20a%20middleware) · [Search](https://www.google.com/search?q=Build%20an%20in-memory%20rate%20limiter%20as%20a%20middleware) |
 
 ## Round 3 · System Design
 <!-- round: system_design -->
@@ -49,8 +51,8 @@ _High-level architecture of a large-scale system._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Design a web crawler. | 🔴 Hard | `queues` `dedup` `scale` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20web%20crawler) · [Search](https://www.google.com/search?q=Design%20a%20web%20crawler) |
-| Design a news feed / timeline. | 🔴 Hard | `fanout` `ranking` `cache` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20news%20feed%20%2F%20timeline) · [Search](https://www.google.com/search?q=Design%20a%20news%20feed%20%2F%20timeline) |
+| Design a distributed cache. | 🔴 Hard | `cache` `consistency` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20distributed%20cache) · [Search](https://www.google.com/search?q=Design%20a%20distributed%20cache) |
+| Design a payment processing + idempotency system. | 🔴 Hard | `idempotency` `consistency` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20payment%20processing%20%2B%20idempotency%20system) · [Search](https://www.google.com/search?q=Design%20a%20payment%20processing%20%2B%20idempotency%20system) |
 
 ## Round 4 · Tech Deep-Dive
 <!-- round: tech_deep_dive -->
@@ -59,8 +61,8 @@ _Deep questions on your core stack and fundamentals._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Idempotency in APIs — why and how. | 🟡 Medium | `api-design` `idempotency` | [GfG](https://www.geeksforgeeks.org/search/?gq=Idempotency%20in%20APIs%20%E2%80%94%20why%20and%20how) · [Search](https://www.google.com/search?q=Idempotency%20in%20APIs%20%E2%80%94%20why%20and%20how) |
-| How do you prevent and detect N+1 queries? | 🟡 Medium | `databases` `orm` | [GfG](https://www.geeksforgeeks.org/search/?gq=How%20do%20you%20prevent%20and%20detect%20N%2B1%20queries) · [Search](https://www.google.com/search?q=How%20do%20you%20prevent%20and%20detect%20N%2B1%20queries) |
+| Explain optimistic vs pessimistic locking. | 🔴 Hard | `databases` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20optimistic%20vs%20pessimistic%20locking) · [Search](https://www.google.com/search?q=Explain%20optimistic%20vs%20pessimistic%20locking) |
+| Sharding vs partitioning vs replication. | 🔴 Hard | `databases` `scale` | [GfG](https://www.geeksforgeeks.org/search/?gq=Sharding%20vs%20partitioning%20vs%20replication) · [Search](https://www.google.com/search?q=Sharding%20vs%20partitioning%20vs%20replication) |
 
 ## Round 5 · Hiring Manager
 <!-- round: hiring_manager -->
@@ -69,7 +71,7 @@ _Scope, ownership, and role-fit discussion with the manager._
 
 | Question | Difficulty | Tags |
 | --- | --- | --- |
-| How do you decide what to build vs. buy vs. defer? | — | `judgment` |
+| Tell me about a project that slipped. What did you do? | — | `delivery` |
 
 ## Round 6 · Behavioral / HR
 <!-- round: behavioral -->
@@ -78,7 +80,7 @@ _Values, collaboration, and past-experience (STAR) questions._
 
 | Question | Difficulty | Tags |
 | --- | --- | --- |
-| A time you made a mistake in production — what happened next? | — | `ownership` `star` |
+| Describe working with an ambiguous or shifting requirement. | — | `ambiguity` `star` |
 
 ---
 

@@ -65,3 +65,21 @@ export type InterviewDetail = {
 };
 
 export type QuestionWithCompany = { question: Question; company: Company };
+
+/** An open-source topic question bank (never attributed to a company). */
+export type BankQuestion = {
+  id: string;
+  title: string;
+  round: Round;
+};
+
+export type Bank = {
+  id: string;
+  title: string;
+  round: Round;
+  role: Role;
+  sourceRepo: string;
+  sourceUrl: string;
+  license: string;
+  questions: BankQuestion[];
+};

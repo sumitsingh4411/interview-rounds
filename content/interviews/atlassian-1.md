@@ -3,22 +3,22 @@ id: atlassian-1
 company: atlassian
 role: fullstack
 level: senior
-outcome: rejected
+outcome: offer
 year: 2025
 source: curated
 summary: >-
-  Senior fullstack interview. Fundamentals mattered as much as getting to an
-  answer.
+  6-round senior fullstack process. Fundamentals mattered as much as getting to
+  an answer.
 ---
 # Senior Full-stack — Atlassian
 
 ![role](https://img.shields.io/badge/role-Full--stack-a78bfa?style=flat-square)
 ![level](https://img.shields.io/badge/level-Senior-818cf8?style=flat-square)
-![outcome](https://img.shields.io/badge/outcome-Rejected-f87171?style=flat-square)
+![outcome](https://img.shields.io/badge/outcome-Offer-34d399?style=flat-square)
 ![year](https://img.shields.io/badge/year-2025-6b7280?style=flat-square)
 ![source](https://img.shields.io/badge/source-Commonly%20asked-2dd4bf?style=flat-square)
 
-> Senior fullstack interview. Fundamentals mattered as much as getting to an answer.
+> 6-round senior fullstack process. Fundamentals mattered as much as getting to an answer.
 
 **6 rounds · 10 questions**
 
@@ -31,8 +31,8 @@ _Data structures & algorithms on a whiteboard or shared editor._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Merge two sorted linked lists. | 🟢 Easy | `linked-list` | [LC](https://leetcode.com/problemset/?search=Merge%20two%20sorted%20linked%20lists) · [NC](https://neetcode.io/practice) · [GfG](https://www.geeksforgeeks.org/search/?gq=Merge%20two%20sorted%20linked%20lists) |
-| Longest substring without repeating characters. | 🟡 Medium | `sliding-window` `string` | [LC](https://leetcode.com/problemset/?search=Longest%20substring%20without%20repeating%20characters) · [NC](https://neetcode.io/practice) · [GfG](https://www.geeksforgeeks.org/search/?gq=Longest%20substring%20without%20repeating%20characters) |
+| Top K frequent elements. | 🟡 Medium | `heap` `hashmap` | [LC](https://leetcode.com/problemset/?search=Top%20K%20frequent%20elements) · [NC](https://neetcode.io/practice) · [GfG](https://www.geeksforgeeks.org/search/?gq=Top%20K%20frequent%20elements) |
+| Search in a rotated sorted array. | 🟡 Medium | `binary-search` | [LC](https://leetcode.com/problemset/?search=Search%20in%20a%20rotated%20sorted%20array) · [NC](https://neetcode.io/practice) · [GfG](https://www.geeksforgeeks.org/search/?gq=Search%20in%20a%20rotated%20sorted%20array) |
 
 ## Round 2 · Machine Coding
 <!-- round: machine_coding -->
@@ -41,8 +41,8 @@ _Build a working component or service under time pressure._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Build a modal/dialog with focus trapping. | 🟡 Medium | `react` `a11y` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20a%20modal%2Fdialog%20with%20focus%20trapping) · [Search](https://www.google.com/search?q=Build%20a%20modal%2Fdialog%20with%20focus%20trapping) |
-| Build a key-value store with TTL expiry. | 🟡 Medium | `cache` `ttl` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20a%20key-value%20store%20with%20TTL%20expiry) · [Search](https://www.google.com/search?q=Build%20a%20key-value%20store%20with%20TTL%20expiry) |
+| Build a debounced autocomplete/search box with keyboard nav. | 🟡 Medium | `react` `debounce` `a11y` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20a%20debounced%20autocomplete%2Fsearch%20box%20with%20keyboard%20nav) · [Search](https://www.google.com/search?q=Build%20a%20debounced%20autocomplete%2Fsearch%20box%20with%20keyboard%20nav) |
+| Implement an exponential-backoff HTTP client. | 🟡 Medium | `reliability` | [GfG](https://www.geeksforgeeks.org/search/?gq=Implement%20an%20exponential-backoff%20HTTP%20client) · [Search](https://www.google.com/search?q=Implement%20an%20exponential-backoff%20HTTP%20client) |
 
 ## Round 3 · System Design
 <!-- round: system_design -->
@@ -51,8 +51,8 @@ _High-level architecture of a large-scale system._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Design a distributed key-value store. | 🔴 Hard | `replication` `consistency` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20distributed%20key-value%20store) · [Search](https://www.google.com/search?q=Design%20a%20distributed%20key-value%20store) |
-| Design a ride-matching backend (riders ↔ nearby drivers). | 🔴 Hard | `geospatial` `matching` `realtime` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20ride-matching%20backend%20(riders%20%E2%86%94%20nearby%20drivers)) · [Search](https://www.google.com/search?q=Design%20a%20ride-matching%20backend%20(riders%20%E2%86%94%20nearby%20drivers)) |
+| Design a typeahead / autocomplete service. | 🔴 Hard | `trie` `cache` `ranking` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20typeahead%20%2F%20autocomplete%20service) · [Search](https://www.google.com/search?q=Design%20a%20typeahead%20%2F%20autocomplete%20service) |
+| Design a scalable frontend for an infinite feed (data, caching, rendering). | 🔴 Hard | `frontend` `virtualization` `cache` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20scalable%20frontend%20for%20an%20infinite%20feed%20(data%2C%20caching%2C%20rendering)) · [Search](https://www.google.com/search?q=Design%20a%20scalable%20frontend%20for%20an%20infinite%20feed%20(data%2C%20caching%2C%20rendering)) |
 
 ## Round 4 · Tech Deep-Dive
 <!-- round: tech_deep_dive -->
@@ -61,8 +61,8 @@ _Deep questions on your core stack and fundamentals._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Closures and the module pattern — with an example. | 🟢 Easy | `javascript` `closures` | [GfG](https://www.geeksforgeeks.org/search/?gq=Closures%20and%20the%20module%20pattern%20%E2%80%94%20with%20an%20example) · [Search](https://www.google.com/search?q=Closures%20and%20the%20module%20pattern%20%E2%80%94%20with%20an%20example) |
-| How does React reconciliation / the diffing algorithm work? | 🟡 Medium | `react` `fiber` | [GfG](https://www.geeksforgeeks.org/search/?gq=How%20does%20React%20reconciliation%20%2F%20the%20diffing%20algorithm%20work) · [Search](https://www.google.com/search?q=How%20does%20React%20reconciliation%20%2F%20the%20diffing%20algorithm%20work) |
+| How do you optimize a slow React app? (profiling → fixes) | 🔴 Hard | `react` `perf` | [GfG](https://www.geeksforgeeks.org/search/?gq=How%20do%20you%20optimize%20a%20slow%20React%20app%3F%20(profiling%20%E2%86%92%20fixes)) · [Search](https://www.google.com/search?q=How%20do%20you%20optimize%20a%20slow%20React%20app%3F%20(profiling%20%E2%86%92%20fixes)) |
+| How would you design and version a public REST API? | 🟡 Medium | `api-design` | [GfG](https://www.geeksforgeeks.org/search/?gq=How%20would%20you%20design%20and%20version%20a%20public%20REST%20API) · [Search](https://www.google.com/search?q=How%20would%20you%20design%20and%20version%20a%20public%20REST%20API) |
 
 ## Round 5 · Hiring Manager
 <!-- round: hiring_manager -->
@@ -71,7 +71,7 @@ _Scope, ownership, and role-fit discussion with the manager._
 
 | Question | Difficulty | Tags |
 | --- | --- | --- |
-| Walk me through the architecture of a system you owned end to end. | — | `ownership` `architecture` |
+| Tell me about a project that slipped. What did you do? | — | `delivery` |
 
 ## Round 6 · Behavioral / HR
 <!-- round: behavioral -->
@@ -80,7 +80,7 @@ _Values, collaboration, and past-experience (STAR) questions._
 
 | Question | Difficulty | Tags |
 | --- | --- | --- |
-| Describe handling a tight deadline with competing priorities. | — | `prioritization` `star` |
+| How do you handle being blocked for several days? | — | `ownership` `star` |
 
 ---
 

@@ -4,19 +4,21 @@ company: figma
 role: backend
 level: staff
 outcome: rejected
-year: 2023
+year: 2024
 source: curated
-summary: A staff backend loop. Fundamentals mattered as much as getting to an answer.
+summary: >-
+  5-round staff backend process. Fundamentals mattered as much as getting to an
+  answer.
 ---
 # Staff Backend — Figma
 
 ![role](https://img.shields.io/badge/role-Backend-8b93ff?style=flat-square)
 ![level](https://img.shields.io/badge/level-Staff-818cf8?style=flat-square)
 ![outcome](https://img.shields.io/badge/outcome-Rejected-f87171?style=flat-square)
-![year](https://img.shields.io/badge/year-2023-6b7280?style=flat-square)
+![year](https://img.shields.io/badge/year-2024-6b7280?style=flat-square)
 ![source](https://img.shields.io/badge/source-Commonly%20asked-2dd4bf?style=flat-square)
 
-> A staff backend loop. Fundamentals mattered as much as getting to an answer.
+> 5-round staff backend process. Fundamentals mattered as much as getting to an answer.
 
 **5 rounds · 7 questions**
 
@@ -29,8 +31,8 @@ _Data structures & algorithms on a whiteboard or shared editor._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Word ladder — shortest transformation sequence. | 🔴 Hard | `bfs` `graph` | [LC](https://leetcode.com/problemset/?search=Word%20ladder%20%E2%80%94%20shortest%20transformation%20sequence) · [NC](https://neetcode.io/practice) · [GfG](https://www.geeksforgeeks.org/search/?gq=Word%20ladder%20%E2%80%94%20shortest%20transformation%20sequence) |
-| Group anagrams from a list of strings. | 🟡 Medium | `hashmap` `string` | [LC](https://leetcode.com/problemset/?search=Group%20anagrams%20from%20a%20list%20of%20strings) · [NC](https://neetcode.io/practice) · [GfG](https://www.geeksforgeeks.org/search/?gq=Group%20anagrams%20from%20a%20list%20of%20strings) |
+| Word search in a grid. | 🟡 Medium | `backtracking` `grid` | [LC](https://leetcode.com/problemset/?search=Word%20search%20in%20a%20grid) · [NC](https://neetcode.io/practice) · [GfG](https://www.geeksforgeeks.org/search/?gq=Word%20search%20in%20a%20grid) |
+| Number of islands in a 2D grid. | 🟡 Medium | `bfs` `dfs` `grid` | [LC](https://leetcode.com/problemset/?search=Number%20of%20islands%20in%20a%202D%20grid) · [NC](https://neetcode.io/practice) · [GfG](https://www.geeksforgeeks.org/search/?gq=Number%20of%20islands%20in%20a%202D%20grid) |
 
 ## Round 2 · System Design
 <!-- round: system_design -->
@@ -39,8 +41,8 @@ _High-level architecture of a large-scale system._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Design a news feed / timeline. | 🔴 Hard | `fanout` `ranking` `cache` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20news%20feed%20%2F%20timeline) · [Search](https://www.google.com/search?q=Design%20a%20news%20feed%20%2F%20timeline) |
-| Design a notification system (push/email/SMS). | 🟡 Medium | `queues` `fanout` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20notification%20system%20(push%2Femail%2FSMS)) · [Search](https://www.google.com/search?q=Design%20a%20notification%20system%20(push%2Femail%2FSMS)) |
+| Design a multi-tenant SaaS data model. | 🔴 Hard | `multi-tenancy` `databases` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20multi-tenant%20SaaS%20data%20model) · [Search](https://www.google.com/search?q=Design%20a%20multi-tenant%20SaaS%20data%20model) |
+| Design an object storage service like S3. | 🔴 Hard | `storage` `scale` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20an%20object%20storage%20service%20like%20S3) · [Search](https://www.google.com/search?q=Design%20an%20object%20storage%20service%20like%20S3) |
 
 ## Round 3 · Low-Level Design
 <!-- round: lld -->
@@ -49,7 +51,7 @@ _Object-oriented / low-level design of a focused module._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Design an in-memory file system. | 🔴 Hard | `oop` `trees` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20an%20in-memory%20file%20system) · [Search](https://www.google.com/search?q=Design%20an%20in-memory%20file%20system) |
+| Design a logging library with levels and sinks. | 🟡 Medium | `oop` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20logging%20library%20with%20levels%20and%20sinks) · [Search](https://www.google.com/search?q=Design%20a%20logging%20library%20with%20levels%20and%20sinks) |
 
 ## Round 4 · Hiring Manager
 <!-- round: hiring_manager -->
@@ -67,7 +69,7 @@ _Values, collaboration, and past-experience (STAR) questions._
 
 | Question | Difficulty | Tags |
 | --- | --- | --- |
-| Describe a time you disagreed with a teammate. How did it resolve? | — | `conflict` `star` |
+| Tell me about a time you had to say no to a stakeholder. | — | `influence` `star` |
 
 ---
 

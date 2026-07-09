@@ -3,20 +3,22 @@ id: mongodb-1
 company: mongodb
 role: frontend
 level: mid
-outcome: unknown
-year: 2024
+outcome: withdrew
+year: 2023
 source: curated
-summary: 'A mid frontend loop. Coding-heavy early, design and behavioral later.'
+summary: >-
+  5-round mid frontend process. Pragmatic questions — more real-world than pure
+  puzzles.
 ---
 # Mid Frontend — MongoDB
 
 ![role](https://img.shields.io/badge/role-Frontend-22d3ee?style=flat-square)
 ![level](https://img.shields.io/badge/level-Mid-818cf8?style=flat-square)
-![outcome](https://img.shields.io/badge/outcome-Unknown-6b7280?style=flat-square)
-![year](https://img.shields.io/badge/year-2024-6b7280?style=flat-square)
+![outcome](https://img.shields.io/badge/outcome-Withdrew-fbbf24?style=flat-square)
+![year](https://img.shields.io/badge/year-2023-6b7280?style=flat-square)
 ![source](https://img.shields.io/badge/source-Commonly%20asked-2dd4bf?style=flat-square)
 
-> A mid frontend loop. Coding-heavy early, design and behavioral later.
+> 5-round mid frontend process. Pragmatic questions — more real-world than pure puzzles.
 
 **5 rounds · 8 questions**
 
@@ -29,8 +31,8 @@ _Data structures & algorithms on a whiteboard or shared editor._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| LRU cache with O(1) get and put. | 🟡 Medium | `hashmap` `linked-list` | [LC](https://leetcode.com/problemset/?search=LRU%20cache%20with%20O(1)%20get%20and%20put) · [NC](https://neetcode.io/practice) · [GfG](https://www.geeksforgeeks.org/search/?gq=LRU%20cache%20with%20O(1)%20get%20and%20put) |
-| Two Sum — return indices of numbers adding to a target. | 🟢 Easy | `array` `hashmap` | [LC](https://leetcode.com/problemset/?search=Two%20Sum%20%E2%80%94%20return%20indices%20of%20numbers%20adding%20to%20a%20target) · [NC](https://neetcode.io/practice) · [GfG](https://www.geeksforgeeks.org/search/?gq=Two%20Sum%20%E2%80%94%20return%20indices%20of%20numbers%20adding%20to%20a%20target) |
+| Valid Parentheses — check balanced brackets. | 🟢 Easy | `stack` `string` | [LC](https://leetcode.com/problemset/?search=Valid%20Parentheses%20%E2%80%94%20check%20balanced%20brackets) · [NC](https://neetcode.io/practice) · [GfG](https://www.geeksforgeeks.org/search/?gq=Valid%20Parentheses%20%E2%80%94%20check%20balanced%20brackets) |
+| Coin change — fewest coins to make an amount. | 🟡 Medium | `dp` | [LC](https://leetcode.com/problemset/?search=Coin%20change%20%E2%80%94%20fewest%20coins%20to%20make%20an%20amount) · [NC](https://neetcode.io/practice) · [GfG](https://www.geeksforgeeks.org/search/?gq=Coin%20change%20%E2%80%94%20fewest%20coins%20to%20make%20an%20amount) |
 
 ## Round 2 · Machine Coding
 <!-- round: machine_coding -->
@@ -39,8 +41,8 @@ _Build a working component or service under time pressure._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Build a data table with sorting, filtering and pagination. | 🔴 Hard | `react` `table` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20a%20data%20table%20with%20sorting%2C%20filtering%20and%20pagination) · [Search](https://www.google.com/search?q=Build%20a%20data%20table%20with%20sorting%2C%20filtering%20and%20pagination) |
-| Build a nested, collapsible comment thread. | 🟡 Medium | `react` `recursion` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20a%20nested%2C%20collapsible%20comment%20thread) · [Search](https://www.google.com/search?q=Build%20a%20nested%2C%20collapsible%20comment%20thread) |
+| Build a tic-tac-toe game with win detection. | 🟢 Easy | `react` `state` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20a%20tic-tac-toe%20game%20with%20win%20detection) · [Search](https://www.google.com/search?q=Build%20a%20tic-tac-toe%20game%20with%20win%20detection) |
+| Build an infinite-scrolling list with virtualization. | 🔴 Hard | `react` `virtualization` `perf` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20an%20infinite-scrolling%20list%20with%20virtualization) · [Search](https://www.google.com/search?q=Build%20an%20infinite-scrolling%20list%20with%20virtualization) |
 
 ## Round 3 · Low-Level Design
 <!-- round: lld -->
@@ -58,8 +60,8 @@ _Deep questions on your core stack and fundamentals._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| How do you optimize a slow React app? (profiling → fixes) | 🔴 Hard | `react` `perf` | [GfG](https://www.geeksforgeeks.org/search/?gq=How%20do%20you%20optimize%20a%20slow%20React%20app%3F%20(profiling%20%E2%86%92%20fixes)) · [Search](https://www.google.com/search?q=How%20do%20you%20optimize%20a%20slow%20React%20app%3F%20(profiling%20%E2%86%92%20fixes)) |
-| Explain `this` binding and the call/apply/bind trio. | 🟡 Medium | `javascript` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20%60this%60%20binding%20and%20the%20call%2Fapply%2Fbind%20trio) · [Search](https://www.google.com/search?q=Explain%20%60this%60%20binding%20and%20the%20call%2Fapply%2Fbind%20trio) |
+| How does React reconciliation / the diffing algorithm work? | 🟡 Medium | `react` `fiber` | [GfG](https://www.geeksforgeeks.org/search/?gq=How%20does%20React%20reconciliation%20%2F%20the%20diffing%20algorithm%20work) · [Search](https://www.google.com/search?q=How%20does%20React%20reconciliation%20%2F%20the%20diffing%20algorithm%20work) |
+| Explain memoization: useMemo, useCallback and React.memo. | 🟡 Medium | `react` `perf` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20memoization%3A%20useMemo%2C%20useCallback%20and%20React.memo) · [Search](https://www.google.com/search?q=Explain%20memoization%3A%20useMemo%2C%20useCallback%20and%20React.memo) |
 
 ## Round 5 · Behavioral / HR
 <!-- round: behavioral -->
@@ -68,7 +70,7 @@ _Values, collaboration, and past-experience (STAR) questions._
 
 | Question | Difficulty | Tags |
 | --- | --- | --- |
-| Tell me about receiving hard feedback and acting on it. | — | `feedback` `star` |
+| Describe a disagreement on a code review and how it ended. | — | `conflict` `star` |
 
 ---
 

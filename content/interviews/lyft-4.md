@@ -3,20 +3,20 @@ id: lyft-4
 company: lyft
 role: frontend
 level: mid
-outcome: unknown
+outcome: withdrew
 year: 2023
 source: curated
-summary: A mid frontend loop. Pragmatic questions — more real-world than pure puzzles.
+summary: A mid frontend loop. Fast-paced; expect follow-ups that push on depth.
 ---
 # Mid Frontend — Lyft
 
 ![role](https://img.shields.io/badge/role-Frontend-22d3ee?style=flat-square)
 ![level](https://img.shields.io/badge/level-Mid-818cf8?style=flat-square)
-![outcome](https://img.shields.io/badge/outcome-Unknown-6b7280?style=flat-square)
+![outcome](https://img.shields.io/badge/outcome-Withdrew-fbbf24?style=flat-square)
 ![year](https://img.shields.io/badge/year-2023-6b7280?style=flat-square)
 ![source](https://img.shields.io/badge/source-Commonly%20asked-2dd4bf?style=flat-square)
 
-> A mid frontend loop. Pragmatic questions — more real-world than pure puzzles.
+> A mid frontend loop. Fast-paced; expect follow-ups that push on depth.
 
 **5 rounds · 8 questions**
 
@@ -29,8 +29,8 @@ _Data structures & algorithms on a whiteboard or shared editor._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Best time to buy and sell stock. | 🟢 Easy | `array` `greedy` | [LC](https://leetcode.com/problemset/?search=Best%20time%20to%20buy%20and%20sell%20stock) · [NC](https://neetcode.io/practice) · [GfG](https://www.geeksforgeeks.org/search/?gq=Best%20time%20to%20buy%20and%20sell%20stock) |
-| Word ladder — shortest transformation sequence. | 🔴 Hard | `bfs` `graph` | [LC](https://leetcode.com/problemset/?search=Word%20ladder%20%E2%80%94%20shortest%20transformation%20sequence) · [NC](https://neetcode.io/practice) · [GfG](https://www.geeksforgeeks.org/search/?gq=Word%20ladder%20%E2%80%94%20shortest%20transformation%20sequence) |
+| Number of islands in a 2D grid. | 🟡 Medium | `bfs` `dfs` `grid` | [LC](https://leetcode.com/problemset/?search=Number%20of%20islands%20in%20a%202D%20grid) · [NC](https://neetcode.io/practice) · [GfG](https://www.geeksforgeeks.org/search/?gq=Number%20of%20islands%20in%20a%202D%20grid) |
+| Climbing stairs. | 🟢 Easy | `dp` | [LC](https://leetcode.com/problemset/?search=Climbing%20stairs) · [NC](https://neetcode.io/practice) · [GfG](https://www.geeksforgeeks.org/search/?gq=Climbing%20stairs) |
 
 ## Round 2 · Machine Coding
 <!-- round: machine_coding -->
@@ -39,8 +39,8 @@ _Build a working component or service under time pressure._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Build a debounced autocomplete/search box with keyboard nav. | 🟡 Medium | `react` `debounce` `a11y` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20a%20debounced%20autocomplete%2Fsearch%20box%20with%20keyboard%20nav) · [Search](https://www.google.com/search?q=Build%20a%20debounced%20autocomplete%2Fsearch%20box%20with%20keyboard%20nav) |
 | Build a modal/dialog with focus trapping. | 🟡 Medium | `react` `a11y` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20a%20modal%2Fdialog%20with%20focus%20trapping) · [Search](https://www.google.com/search?q=Build%20a%20modal%2Fdialog%20with%20focus%20trapping) |
+| Build a data table with sorting, filtering and pagination. | 🔴 Hard | `react` `table` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20a%20data%20table%20with%20sorting%2C%20filtering%20and%20pagination) · [Search](https://www.google.com/search?q=Build%20a%20data%20table%20with%20sorting%2C%20filtering%20and%20pagination) |
 
 ## Round 3 · Low-Level Design
 <!-- round: lld -->
@@ -49,7 +49,7 @@ _Object-oriented / low-level design of a focused module._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Design a reusable form-validation library API. | 🟡 Medium | `oop` `api-design` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20reusable%20form-validation%20library%20API) · [Search](https://www.google.com/search?q=Design%20a%20reusable%20form-validation%20library%20API) |
+| Design a data-fetching cache with invalidation. | 🔴 Hard | `cache` `oop` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20data-fetching%20cache%20with%20invalidation) · [Search](https://www.google.com/search?q=Design%20a%20data-fetching%20cache%20with%20invalidation) |
 
 ## Round 4 · Tech Deep-Dive
 <!-- round: tech_deep_dive -->
@@ -58,8 +58,8 @@ _Deep questions on your core stack and fundamentals._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| How does React reconciliation / the diffing algorithm work? | 🟡 Medium | `react` `fiber` | [GfG](https://www.geeksforgeeks.org/search/?gq=How%20does%20React%20reconciliation%20%2F%20the%20diffing%20algorithm%20work) · [Search](https://www.google.com/search?q=How%20does%20React%20reconciliation%20%2F%20the%20diffing%20algorithm%20work) |
-| How do you optimize a slow React app? (profiling → fixes) | 🔴 Hard | `react` `perf` | [GfG](https://www.geeksforgeeks.org/search/?gq=How%20do%20you%20optimize%20a%20slow%20React%20app%3F%20(profiling%20%E2%86%92%20fixes)) · [Search](https://www.google.com/search?q=How%20do%20you%20optimize%20a%20slow%20React%20app%3F%20(profiling%20%E2%86%92%20fixes)) |
+| Closures and the module pattern — with an example. | 🟢 Easy | `javascript` `closures` | [GfG](https://www.geeksforgeeks.org/search/?gq=Closures%20and%20the%20module%20pattern%20%E2%80%94%20with%20an%20example) · [Search](https://www.google.com/search?q=Closures%20and%20the%20module%20pattern%20%E2%80%94%20with%20an%20example) |
+| Difference between CSS Grid and Flexbox — when to use each. | 🟢 Easy | `css` `layout` | [GfG](https://www.geeksforgeeks.org/search/?gq=Difference%20between%20CSS%20Grid%20and%20Flexbox%20%E2%80%94%20when%20to%20use%20each) · [Search](https://www.google.com/search?q=Difference%20between%20CSS%20Grid%20and%20Flexbox%20%E2%80%94%20when%20to%20use%20each) |
 
 ## Round 5 · Behavioral / HR
 <!-- round: behavioral -->
@@ -68,7 +68,7 @@ _Values, collaboration, and past-experience (STAR) questions._
 
 | Question | Difficulty | Tags |
 | --- | --- | --- |
-| Describe a time you disagreed with a teammate. How did it resolve? | — | `conflict` `star` |
+| When did you change your mind after seeing new evidence? | — | `judgment` `star` |
 
 ---
 

@@ -21,9 +21,9 @@ description: Gaming platform. Performance systems and engine-adjacent coding.
 | Interview | Outcome | Rounds | Questions |
 | --- | --- | --- | --- |
 | [Senior · Backend](../interviews/roblox-1.md) | Rejected | 6 | 10 |
-| [Mid · Frontend](../interviews/roblox-2.md) | No offer | 5 | 8 |
-| [Junior · Frontend](../interviews/roblox-3.md) | Rejected | 5 | 8 |
-| [Mid · Backend](../interviews/roblox-4.md) | No offer | 5 | 8 |
+| [Mid · Frontend](../interviews/roblox-2.md) | Offer | 5 | 8 |
+| [Junior · Frontend](../interviews/roblox-3.md) | Offer | 5 | 8 |
+| [Mid · Backend](../interviews/roblox-4.md) | Withdrew | 5 | 8 |
 
 ---
 

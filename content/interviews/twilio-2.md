@@ -3,20 +3,20 @@ id: twilio-2
 company: twilio
 role: frontend
 level: senior
-outcome: no_offer
-year: 2025
+outcome: unknown
+year: 2024
 source: curated
-summary: Senior frontend interview. Fast-paced; expect follow-ups that push on depth.
+summary: A senior frontend loop. Fundamentals mattered as much as getting to an answer.
 ---
 # Senior Frontend — Twilio
 
 ![role](https://img.shields.io/badge/role-Frontend-22d3ee?style=flat-square)
 ![level](https://img.shields.io/badge/level-Senior-818cf8?style=flat-square)
-![outcome](https://img.shields.io/badge/outcome-No%20offer-f87171?style=flat-square)
-![year](https://img.shields.io/badge/year-2025-6b7280?style=flat-square)
+![outcome](https://img.shields.io/badge/outcome-Unknown-6b7280?style=flat-square)
+![year](https://img.shields.io/badge/year-2024-6b7280?style=flat-square)
 ![source](https://img.shields.io/badge/source-Commonly%20asked-2dd4bf?style=flat-square)
 
-> Senior frontend interview. Fast-paced; expect follow-ups that push on depth.
+> A senior frontend loop. Fundamentals mattered as much as getting to an answer.
 
 **6 rounds · 10 questions**
 
@@ -30,7 +30,7 @@ _Data structures & algorithms on a whiteboard or shared editor._
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
 | Median of two sorted arrays. | 🔴 Hard | `binary-search` | [LC](https://leetcode.com/problemset/?search=Median%20of%20two%20sorted%20arrays) · [NC](https://neetcode.io/practice) · [GfG](https://www.geeksforgeeks.org/search/?gq=Median%20of%20two%20sorted%20arrays) |
-| Valid Parentheses — check balanced brackets. | 🟢 Easy | `stack` `string` | [LC](https://leetcode.com/problemset/?search=Valid%20Parentheses%20%E2%80%94%20check%20balanced%20brackets) · [NC](https://neetcode.io/practice) · [GfG](https://www.geeksforgeeks.org/search/?gq=Valid%20Parentheses%20%E2%80%94%20check%20balanced%20brackets) |
+| Rotting oranges. | 🟡 Medium | `bfs` `grid` | [LC](https://leetcode.com/problemset/?search=Rotting%20oranges) · [NC](https://neetcode.io/practice) · [GfG](https://www.geeksforgeeks.org/search/?gq=Rotting%20oranges) |
 
 ## Round 2 · Machine Coding
 <!-- round: machine_coding -->
@@ -39,8 +39,8 @@ _Build a working component or service under time pressure._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Build a star-rating component (controlled + accessible). | 🟢 Easy | `react` `a11y` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20a%20star-rating%20component%20(controlled%20%2B%20accessible)) · [Search](https://www.google.com/search?q=Build%20a%20star-rating%20component%20(controlled%20%2B%20accessible)) |
-| Build a nested, collapsible comment thread. | 🟡 Medium | `react` `recursion` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20a%20nested%2C%20collapsible%20comment%20thread) · [Search](https://www.google.com/search?q=Build%20a%20nested%2C%20collapsible%20comment%20thread) |
+| Build a debounced autocomplete/search box with keyboard nav. | 🟡 Medium | `react` `debounce` `a11y` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20a%20debounced%20autocomplete%2Fsearch%20box%20with%20keyboard%20nav) · [Search](https://www.google.com/search?q=Build%20a%20debounced%20autocomplete%2Fsearch%20box%20with%20keyboard%20nav) |
+| Build a typeahead with in-flight request cancellation. | 🟡 Medium | `react` `async` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20a%20typeahead%20with%20in-flight%20request%20cancellation) · [Search](https://www.google.com/search?q=Build%20a%20typeahead%20with%20in-flight%20request%20cancellation) |
 
 ## Round 3 · System Design
 <!-- round: system_design -->
@@ -49,8 +49,8 @@ _High-level architecture of a large-scale system._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Design a web crawler. | 🔴 Hard | `queues` `dedup` `scale` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20web%20crawler) · [Search](https://www.google.com/search?q=Design%20a%20web%20crawler) |
-| Design a scalable frontend for an infinite feed (data, caching, rendering). | 🔴 Hard | `frontend` `virtualization` `cache` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20scalable%20frontend%20for%20an%20infinite%20feed%20(data%2C%20caching%2C%20rendering)) · [Search](https://www.google.com/search?q=Design%20a%20scalable%20frontend%20for%20an%20infinite%20feed%20(data%2C%20caching%2C%20rendering)) |
+| Design a distributed cache. | 🔴 Hard | `cache` `consistency` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20distributed%20cache) · [Search](https://www.google.com/search?q=Design%20a%20distributed%20cache) |
+| Design a pastebin with expiring links. | 🟡 Medium | `storage` `ttl` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20pastebin%20with%20expiring%20links) · [Search](https://www.google.com/search?q=Design%20a%20pastebin%20with%20expiring%20links) |
 
 ## Round 4 · Tech Deep-Dive
 <!-- round: tech_deep_dive -->
@@ -59,8 +59,8 @@ _Deep questions on your core stack and fundamentals._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Explain the JS event loop: microtasks vs macrotasks. | 🟡 Medium | `javascript` `event-loop` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20the%20JS%20event%20loop%3A%20microtasks%20vs%20macrotasks) · [Search](https://www.google.com/search?q=Explain%20the%20JS%20event%20loop%3A%20microtasks%20vs%20macrotasks) |
-| Event delegation and how bubbling/capturing work. | 🟢 Easy | `dom` | [GfG](https://www.geeksforgeeks.org/search/?gq=Event%20delegation%20and%20how%20bubbling%2Fcapturing%20work) · [Search](https://www.google.com/search?q=Event%20delegation%20and%20how%20bubbling%2Fcapturing%20work) |
+| How do CSS specificity and the cascade resolve conflicts? | 🟡 Medium | `css` | [GfG](https://www.geeksforgeeks.org/search/?gq=How%20do%20CSS%20specificity%20and%20the%20cascade%20resolve%20conflicts) · [Search](https://www.google.com/search?q=How%20do%20CSS%20specificity%20and%20the%20cascade%20resolve%20conflicts) |
+| Explain the CSS box model and box-sizing. | 🟢 Easy | `css` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20the%20CSS%20box%20model%20and%20box-sizing) · [Search](https://www.google.com/search?q=Explain%20the%20CSS%20box%20model%20and%20box-sizing) |
 
 ## Round 5 · Hiring Manager
 <!-- round: hiring_manager -->
@@ -69,7 +69,7 @@ _Scope, ownership, and role-fit discussion with the manager._
 
 | Question | Difficulty | Tags |
 | --- | --- | --- |
-| How do you decide what to build vs. buy vs. defer? | — | `judgment` |
+| How do you keep a team unblocked and shipping? | — | `leadership` |
 
 ## Round 6 · Behavioral / HR
 <!-- round: behavioral -->
@@ -78,7 +78,7 @@ _Values, collaboration, and past-experience (STAR) questions._
 
 | Question | Difficulty | Tags |
 | --- | --- | --- |
-| Tell me about a project you are most proud of. | — | `star` |
+| A time you influenced a decision without authority. | — | `influence` `star` |
 
 ---
 

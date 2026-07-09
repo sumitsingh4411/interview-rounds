@@ -20,10 +20,10 @@ description: Video communications. Media systems and fundamentals-focused coding
 
 | Interview | Outcome | Rounds | Questions |
 | --- | --- | --- | --- |
-| [Junior · Frontend](../interviews/zoom-1.md) | Offer | 5 | 8 |
-| [Mid · Backend](../interviews/zoom-2.md) | Withdrew | 5 | 8 |
-| [Senior · Full-stack](../interviews/zoom-3.md) | Offer | 6 | 10 |
-| [Senior · Frontend](../interviews/zoom-4.md) | Offer | 6 | 10 |
+| [Junior · Frontend](../interviews/zoom-1.md) | Withdrew | 5 | 8 |
+| [Mid · Backend](../interviews/zoom-2.md) | Unknown | 5 | 8 |
+| [Senior · Full-stack](../interviews/zoom-3.md) | Rejected | 6 | 10 |
+| [Senior · Frontend](../interviews/zoom-4.md) | Withdrew | 6 | 10 |
 
 ---
 

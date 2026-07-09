@@ -21,10 +21,10 @@ description: Streaming at massive scale. Senior-heavy bar with a strong culture 
 
 | Interview | Outcome | Rounds | Questions |
 | --- | --- | --- | --- |
-| [Mid · Frontend](../interviews/netflix-1.md) | Offer | 5 | 8 |
-| [Junior · Frontend](../interviews/netflix-2.md) | No offer | 5 | 8 |
+| [Mid · Frontend](../interviews/netflix-1.md) | Unknown | 5 | 8 |
+| [Junior · Frontend](../interviews/netflix-2.md) | Offer | 5 | 8 |
 | [Mid · Backend](../interviews/netflix-3.md) | Rejected | 5 | 8 |
-| [Senior · Full-stack](../interviews/netflix-4.md) | Offer | 6 | 10 |
+| [Senior · Full-stack](../interviews/netflix-4.md) | No offer | 6 | 10 |
 
 ---
 

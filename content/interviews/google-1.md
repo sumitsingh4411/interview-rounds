@@ -3,20 +3,20 @@ id: google-1
 company: google
 role: backend
 level: senior
-outcome: withdrew
-year: 2025
+outcome: rejected
+year: 2024
 source: curated
-summary: A senior backend loop. Fundamentals mattered as much as getting to an answer.
+summary: 'Senior backend interview. Coding-heavy early, design and behavioral later.'
 ---
 # Senior Backend — Google
 
 ![role](https://img.shields.io/badge/role-Backend-8b93ff?style=flat-square)
 ![level](https://img.shields.io/badge/level-Senior-818cf8?style=flat-square)
-![outcome](https://img.shields.io/badge/outcome-Withdrew-fbbf24?style=flat-square)
-![year](https://img.shields.io/badge/year-2025-6b7280?style=flat-square)
+![outcome](https://img.shields.io/badge/outcome-Rejected-f87171?style=flat-square)
+![year](https://img.shields.io/badge/year-2024-6b7280?style=flat-square)
 ![source](https://img.shields.io/badge/source-Commonly%20asked-2dd4bf?style=flat-square)
 
-> A senior backend loop. Fundamentals mattered as much as getting to an answer.
+> Senior backend interview. Coding-heavy early, design and behavioral later.
 
 **6 rounds · 10 questions**
 
@@ -29,8 +29,8 @@ _Data structures & algorithms on a whiteboard or shared editor._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Trapping rain water. | 🔴 Hard | `two-pointers` `array` | [LC](https://leetcode.com/problemset/?search=Trapping%20rain%20water) · [NC](https://neetcode.io/practice) · [GfG](https://www.geeksforgeeks.org/search/?gq=Trapping%20rain%20water) |
-| Number of islands in a 2D grid. | 🟡 Medium | `bfs` `dfs` `grid` | [LC](https://leetcode.com/problemset/?search=Number%20of%20islands%20in%20a%202D%20grid) · [NC](https://neetcode.io/practice) · [GfG](https://www.geeksforgeeks.org/search/?gq=Number%20of%20islands%20in%20a%202D%20grid) |
+| Container with most water. | 🟡 Medium | `two-pointers` `array` | [LC](https://leetcode.com/problemset/?search=Container%20with%20most%20water) · [NC](https://neetcode.io/practice) · [GfG](https://www.geeksforgeeks.org/search/?gq=Container%20with%20most%20water) |
+| Two Sum — return indices of numbers adding to a target. | 🟢 Easy | `array` `hashmap` | [LC](https://leetcode.com/problemset/?search=Two%20Sum%20%E2%80%94%20return%20indices%20of%20numbers%20adding%20to%20a%20target) · [NC](https://neetcode.io/practice) · [GfG](https://www.geeksforgeeks.org/search/?gq=Two%20Sum%20%E2%80%94%20return%20indices%20of%20numbers%20adding%20to%20a%20target) |
 
 ## Round 2 · Machine Coding
 <!-- round: machine_coding -->
@@ -39,8 +39,8 @@ _Build a working component or service under time pressure._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Build a CSV importer that streams and validates rows. | 🟡 Medium | `streaming` `validation` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20a%20CSV%20importer%20that%20streams%20and%20validates%20rows) · [Search](https://www.google.com/search?q=Build%20a%20CSV%20importer%20that%20streams%20and%20validates%20rows) |
-| Implement a job queue with retries and backoff. | 🔴 Hard | `queue` `reliability` | [GfG](https://www.geeksforgeeks.org/search/?gq=Implement%20a%20job%20queue%20with%20retries%20and%20backoff) · [Search](https://www.google.com/search?q=Implement%20a%20job%20queue%20with%20retries%20and%20backoff) |
+| Implement an exponential-backoff HTTP client. | 🟡 Medium | `reliability` | [GfG](https://www.geeksforgeeks.org/search/?gq=Implement%20an%20exponential-backoff%20HTTP%20client) · [Search](https://www.google.com/search?q=Implement%20an%20exponential-backoff%20HTTP%20client) |
+| Build an in-memory rate limiter as a middleware. | 🟡 Medium | `rate-limit` `middleware` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20an%20in-memory%20rate%20limiter%20as%20a%20middleware) · [Search](https://www.google.com/search?q=Build%20an%20in-memory%20rate%20limiter%20as%20a%20middleware) |
 
 ## Round 3 · System Design
 <!-- round: system_design -->
@@ -49,8 +49,8 @@ _High-level architecture of a large-scale system._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Design a payment processing + idempotency system. | 🔴 Hard | `idempotency` `consistency` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20payment%20processing%20%2B%20idempotency%20system) · [Search](https://www.google.com/search?q=Design%20a%20payment%20processing%20%2B%20idempotency%20system) |
-| Design a news feed / timeline. | 🔴 Hard | `fanout` `ranking` `cache` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20news%20feed%20%2F%20timeline) · [Search](https://www.google.com/search?q=Design%20a%20news%20feed%20%2F%20timeline) |
+| Design a pastebin with expiring links. | 🟡 Medium | `storage` `ttl` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20pastebin%20with%20expiring%20links) · [Search](https://www.google.com/search?q=Design%20a%20pastebin%20with%20expiring%20links) |
+| Design a ride-matching backend (riders ↔ nearby drivers). | 🔴 Hard | `geospatial` `matching` `realtime` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20ride-matching%20backend%20(riders%20%E2%86%94%20nearby%20drivers)) · [Search](https://www.google.com/search?q=Design%20a%20ride-matching%20backend%20(riders%20%E2%86%94%20nearby%20drivers)) |
 
 ## Round 4 · Tech Deep-Dive
 <!-- round: tech_deep_dive -->
@@ -59,8 +59,8 @@ _Deep questions on your core stack and fundamentals._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Explain database indexing and when a query uses one. | 🟡 Medium | `databases` `indexing` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20database%20indexing%20and%20when%20a%20query%20uses%20one) · [Search](https://www.google.com/search?q=Explain%20database%20indexing%20and%20when%20a%20query%20uses%20one) |
-| Idempotency in APIs — why and how. | 🟡 Medium | `api-design` `idempotency` | [GfG](https://www.geeksforgeeks.org/search/?gq=Idempotency%20in%20APIs%20%E2%80%94%20why%20and%20how) · [Search](https://www.google.com/search?q=Idempotency%20in%20APIs%20%E2%80%94%20why%20and%20how) |
+| Compare rate-limiting algorithms and their trade-offs. | 🟡 Medium | `rate-limit` | [GfG](https://www.geeksforgeeks.org/search/?gq=Compare%20rate-limiting%20algorithms%20and%20their%20trade-offs) · [Search](https://www.google.com/search?q=Compare%20rate-limiting%20algorithms%20and%20their%20trade-offs) |
+| How do you prevent and detect N+1 queries? | 🟡 Medium | `databases` `orm` | [GfG](https://www.geeksforgeeks.org/search/?gq=How%20do%20you%20prevent%20and%20detect%20N%2B1%20queries) · [Search](https://www.google.com/search?q=How%20do%20you%20prevent%20and%20detect%20N%2B1%20queries) |
 
 ## Round 5 · Hiring Manager
 <!-- round: hiring_manager -->
@@ -69,7 +69,7 @@ _Scope, ownership, and role-fit discussion with the manager._
 
 | Question | Difficulty | Tags |
 | --- | --- | --- |
-| How do you handle disagreement with a product partner? | — | `collaboration` |
+| How do you balance tech debt against feature work? | — | `prioritization` |
 
 ## Round 6 · Behavioral / HR
 <!-- round: behavioral -->
@@ -78,7 +78,7 @@ _Values, collaboration, and past-experience (STAR) questions._
 
 | Question | Difficulty | Tags |
 | --- | --- | --- |
-| Tell me about a time you simplified something overly complex. | — | `judgment` `star` |
+| Tell me about the hardest bug you have debugged. | — | `debugging` `star` |
 
 ---
 

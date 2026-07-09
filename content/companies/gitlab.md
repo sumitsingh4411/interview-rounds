@@ -20,10 +20,10 @@ description: 'DevOps platform. Async-friendly, practical, values-based interview
 
 | Interview | Outcome | Rounds | Questions |
 | --- | --- | --- | --- |
-| [Junior · Frontend](../interviews/gitlab-1.md) | No offer | 5 | 8 |
-| [Mid · Backend](../interviews/gitlab-2.md) | No offer | 5 | 8 |
+| [Junior · Frontend](../interviews/gitlab-1.md) | Rejected | 5 | 8 |
+| [Mid · Backend](../interviews/gitlab-2.md) | Withdrew | 5 | 8 |
 | [Senior · Full-stack](../interviews/gitlab-3.md) | Withdrew | 6 | 10 |
-| [Senior · Frontend](../interviews/gitlab-4.md) | No offer | 6 | 10 |
+| [Senior · Frontend](../interviews/gitlab-4.md) | Offer | 6 | 10 |
 
 ---
 

@@ -3,20 +3,20 @@ id: asana-3
 company: asana
 role: backend
 level: senior
-outcome: unknown
-year: 2025
+outcome: no_offer
+year: 2024
 source: curated
-summary: 'A senior backend loop. Balanced across coding, design, and collaboration.'
+summary: 'Senior backend interview. Balanced across coding, design, and collaboration.'
 ---
 # Senior Backend — Asana
 
 ![role](https://img.shields.io/badge/role-Backend-8b93ff?style=flat-square)
 ![level](https://img.shields.io/badge/level-Senior-818cf8?style=flat-square)
-![outcome](https://img.shields.io/badge/outcome-Unknown-6b7280?style=flat-square)
-![year](https://img.shields.io/badge/year-2025-6b7280?style=flat-square)
+![outcome](https://img.shields.io/badge/outcome-No%20offer-f87171?style=flat-square)
+![year](https://img.shields.io/badge/year-2024-6b7280?style=flat-square)
 ![source](https://img.shields.io/badge/source-Commonly%20asked-2dd4bf?style=flat-square)
 
-> A senior backend loop. Balanced across coding, design, and collaboration.
+> Senior backend interview. Balanced across coding, design, and collaboration.
 
 **6 rounds · 10 questions**
 
@@ -29,8 +29,8 @@ _Data structures & algorithms on a whiteboard or shared editor._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| LRU cache with O(1) get and put. | 🟡 Medium | `hashmap` `linked-list` | [LC](https://leetcode.com/problemset/?search=LRU%20cache%20with%20O(1)%20get%20and%20put) · [NC](https://neetcode.io/practice) · [GfG](https://www.geeksforgeeks.org/search/?gq=LRU%20cache%20with%20O(1)%20get%20and%20put) |
-| Two Sum — return indices of numbers adding to a target. | 🟢 Easy | `array` `hashmap` | [LC](https://leetcode.com/problemset/?search=Two%20Sum%20%E2%80%94%20return%20indices%20of%20numbers%20adding%20to%20a%20target) · [NC](https://neetcode.io/practice) · [GfG](https://www.geeksforgeeks.org/search/?gq=Two%20Sum%20%E2%80%94%20return%20indices%20of%20numbers%20adding%20to%20a%20target) |
+| Trapping rain water. | 🔴 Hard | `two-pointers` `array` | [LC](https://leetcode.com/problemset/?search=Trapping%20rain%20water) · [NC](https://neetcode.io/practice) · [GfG](https://www.geeksforgeeks.org/search/?gq=Trapping%20rain%20water) |
+| Longest substring without repeating characters. | 🟡 Medium | `sliding-window` `string` | [LC](https://leetcode.com/problemset/?search=Longest%20substring%20without%20repeating%20characters) · [NC](https://neetcode.io/practice) · [GfG](https://www.geeksforgeeks.org/search/?gq=Longest%20substring%20without%20repeating%20characters) |
 
 ## Round 2 · Machine Coding
 <!-- round: machine_coding -->
@@ -39,8 +39,8 @@ _Build a working component or service under time pressure._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Build a CSV importer that streams and validates rows. | 🟡 Medium | `streaming` `validation` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20a%20CSV%20importer%20that%20streams%20and%20validates%20rows) · [Search](https://www.google.com/search?q=Build%20a%20CSV%20importer%20that%20streams%20and%20validates%20rows) |
-| Implement a job queue with retries and backoff. | 🔴 Hard | `queue` `reliability` | [GfG](https://www.geeksforgeeks.org/search/?gq=Implement%20a%20job%20queue%20with%20retries%20and%20backoff) · [Search](https://www.google.com/search?q=Implement%20a%20job%20queue%20with%20retries%20and%20backoff) |
+| Build a URL health checker with a concurrency limit. | 🟡 Medium | `concurrency` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20a%20URL%20health%20checker%20with%20a%20concurrency%20limit) · [Search](https://www.google.com/search?q=Build%20a%20URL%20health%20checker%20with%20a%20concurrency%20limit) |
+| Implement an idempotent "charge" endpoint. | 🔴 Hard | `idempotency` `payments` | [GfG](https://www.geeksforgeeks.org/search/?gq=Implement%20an%20idempotent%20%22charge%22%20endpoint) · [Search](https://www.google.com/search?q=Implement%20an%20idempotent%20%22charge%22%20endpoint) |
 
 ## Round 3 · System Design
 <!-- round: system_design -->
@@ -49,8 +49,8 @@ _High-level architecture of a large-scale system._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Design a typeahead / autocomplete service. | 🔴 Hard | `trie` `cache` `ranking` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20typeahead%20%2F%20autocomplete%20service) · [Search](https://www.google.com/search?q=Design%20a%20typeahead%20%2F%20autocomplete%20service) |
-| Design a web crawler. | 🔴 Hard | `queues` `dedup` `scale` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20web%20crawler) · [Search](https://www.google.com/search?q=Design%20a%20web%20crawler) |
+| Design a distributed cache. | 🔴 Hard | `cache` `consistency` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20distributed%20cache) · [Search](https://www.google.com/search?q=Design%20a%20distributed%20cache) |
+| Design a payment processing + idempotency system. | 🔴 Hard | `idempotency` `consistency` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20payment%20processing%20%2B%20idempotency%20system) · [Search](https://www.google.com/search?q=Design%20a%20payment%20processing%20%2B%20idempotency%20system) |
 
 ## Round 4 · Tech Deep-Dive
 <!-- round: tech_deep_dive -->
@@ -59,8 +59,8 @@ _Deep questions on your core stack and fundamentals._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| How does HTTPS/TLS establish a secure connection? | 🟡 Medium | `networking` `security` | [GfG](https://www.geeksforgeeks.org/search/?gq=How%20does%20HTTPS%2FTLS%20establish%20a%20secure%20connection) · [Search](https://www.google.com/search?q=How%20does%20HTTPS%2FTLS%20establish%20a%20secure%20connection) |
-| Caching strategies: cache-aside, write-through, TTLs. | 🟡 Medium | `cache` | [GfG](https://www.geeksforgeeks.org/search/?gq=Caching%20strategies%3A%20cache-aside%2C%20write-through%2C%20TTLs) · [Search](https://www.google.com/search?q=Caching%20strategies%3A%20cache-aside%2C%20write-through%2C%20TTLs) |
+| How do you secure secrets and handle auth tokens? | 🟡 Medium | `security` | [GfG](https://www.geeksforgeeks.org/search/?gq=How%20do%20you%20secure%20secrets%20and%20handle%20auth%20tokens) · [Search](https://www.google.com/search?q=How%20do%20you%20secure%20secrets%20and%20handle%20auth%20tokens) |
+| How does a load balancer choose a backend? | 🟡 Medium | `networking` | [GfG](https://www.geeksforgeeks.org/search/?gq=How%20does%20a%20load%20balancer%20choose%20a%20backend) · [Search](https://www.google.com/search?q=How%20does%20a%20load%20balancer%20choose%20a%20backend) |
 
 ## Round 5 · Hiring Manager
 <!-- round: hiring_manager -->
@@ -69,7 +69,7 @@ _Scope, ownership, and role-fit discussion with the manager._
 
 | Question | Difficulty | Tags |
 | --- | --- | --- |
-| Where do you want to grow in the next two years? | — | `growth` |
+| How do you measure the success of a project after launch? | — | `metrics` |
 
 ## Round 6 · Behavioral / HR
 <!-- round: behavioral -->
@@ -78,7 +78,7 @@ _Values, collaboration, and past-experience (STAR) questions._
 
 | Question | Difficulty | Tags |
 | --- | --- | --- |
-| Describe mentoring or unblocking another engineer. | — | `mentorship` `star` |
+| A time you made a mistake in production — what happened next? | — | `ownership` `star` |
 
 ---
 

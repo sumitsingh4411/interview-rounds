@@ -21,9 +21,9 @@ description: Databases and cloud. Fundamentals-heavy coding and systems question
 | Interview | Outcome | Rounds | Questions |
 | --- | --- | --- | --- |
 | [Junior · Full-stack](../interviews/oracle-1.md) | No offer | 5 | 8 |
-| [Senior · Backend](../interviews/oracle-2.md) | No offer | 6 | 10 |
-| [Mid · Frontend](../interviews/oracle-3.md) | Unknown | 5 | 8 |
-| [Junior · Frontend](../interviews/oracle-4.md) | Rejected | 5 | 8 |
+| [Senior · Backend](../interviews/oracle-2.md) | Unknown | 6 | 10 |
+| [Mid · Frontend](../interviews/oracle-3.md) | Withdrew | 5 | 8 |
+| [Junior · Frontend](../interviews/oracle-4.md) | Withdrew | 5 | 8 |
 
 ---
 

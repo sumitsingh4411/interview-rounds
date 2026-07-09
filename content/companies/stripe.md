@@ -21,10 +21,10 @@ description: 'Payments infrastructure. Practical, real-world coding over pure al
 
 | Interview | Outcome | Rounds | Questions |
 | --- | --- | --- | --- |
-| [Mid · Backend](../interviews/stripe-1.md) | Rejected | 5 | 8 |
+| [Mid · Backend](../interviews/stripe-1.md) | Unknown | 5 | 8 |
 | [Senior · Full-stack](../interviews/stripe-2.md) | Rejected | 6 | 10 |
-| [Senior · Frontend](../interviews/stripe-3.md) | No offer | 6 | 10 |
-| [Staff · Backend](../interviews/stripe-4.md) | Rejected | 5 | 7 |
+| [Senior · Frontend](../interviews/stripe-3.md) | Withdrew | 6 | 10 |
+| [Staff · Backend](../interviews/stripe-4.md) | Offer | 5 | 7 |
 
 ---
 

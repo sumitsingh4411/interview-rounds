@@ -3,20 +3,22 @@ id: brex-1
 company: brex
 role: fullstack
 level: junior
-outcome: withdrew
+outcome: unknown
 year: 2025
 source: curated
-summary: Junior fullstack interview. Fast-paced; expect follow-ups that push on depth.
+summary: >-
+  5-round junior fullstack process. Balanced across coding, design, and
+  collaboration.
 ---
 # Junior Full-stack — Brex
 
 ![role](https://img.shields.io/badge/role-Full--stack-a78bfa?style=flat-square)
 ![level](https://img.shields.io/badge/level-Junior-818cf8?style=flat-square)
-![outcome](https://img.shields.io/badge/outcome-Withdrew-fbbf24?style=flat-square)
+![outcome](https://img.shields.io/badge/outcome-Unknown-6b7280?style=flat-square)
 ![year](https://img.shields.io/badge/year-2025-6b7280?style=flat-square)
 ![source](https://img.shields.io/badge/source-Commonly%20asked-2dd4bf?style=flat-square)
 
-> Junior fullstack interview. Fast-paced; expect follow-ups that push on depth.
+> 5-round junior fullstack process. Balanced across coding, design, and collaboration.
 
 **5 rounds · 8 questions**
 
@@ -29,7 +31,7 @@ _Timed online coding / aptitude screen, usually the first filter._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Count pairs with a given sum in an array. | 🟢 Easy | `hashmap` | [LC](https://leetcode.com/problemset/?search=Count%20pairs%20with%20a%20given%20sum%20in%20an%20array) · [NC](https://neetcode.io/practice) · [GfG](https://www.geeksforgeeks.org/search/?gq=Count%20pairs%20with%20a%20given%20sum%20in%20an%20array) |
+| Aptitude and logical-reasoning section. | 🟢 Easy | `aptitude` | [LC](https://leetcode.com/problemset/?search=Aptitude%20and%20logical-reasoning%20section) · [NC](https://neetcode.io/practice) · [GfG](https://www.geeksforgeeks.org/search/?gq=Aptitude%20and%20logical-reasoning%20section) |
 
 ## Round 2 · DSA / Coding
 <!-- round: dsa -->
@@ -38,8 +40,8 @@ _Data structures & algorithms on a whiteboard or shared editor._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Group anagrams from a list of strings. | 🟡 Medium | `hashmap` `string` | [LC](https://leetcode.com/problemset/?search=Group%20anagrams%20from%20a%20list%20of%20strings) · [NC](https://neetcode.io/practice) · [GfG](https://www.geeksforgeeks.org/search/?gq=Group%20anagrams%20from%20a%20list%20of%20strings) |
-| Merge k sorted lists. | 🔴 Hard | `heap` `linked-list` | [LC](https://leetcode.com/problemset/?search=Merge%20k%20sorted%20lists) · [NC](https://neetcode.io/practice) · [GfG](https://www.geeksforgeeks.org/search/?gq=Merge%20k%20sorted%20lists) |
+| Search in a rotated sorted array. | 🟡 Medium | `binary-search` | [LC](https://leetcode.com/problemset/?search=Search%20in%20a%20rotated%20sorted%20array) · [NC](https://neetcode.io/practice) · [GfG](https://www.geeksforgeeks.org/search/?gq=Search%20in%20a%20rotated%20sorted%20array) |
+| Product of array except self. | 🟡 Medium | `array` `prefix-sum` | [LC](https://leetcode.com/problemset/?search=Product%20of%20array%20except%20self) · [NC](https://neetcode.io/practice) · [GfG](https://www.geeksforgeeks.org/search/?gq=Product%20of%20array%20except%20self) |
 
 ## Round 3 · Machine Coding
 <!-- round: machine_coding -->
@@ -48,8 +50,8 @@ _Build a working component or service under time pressure._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Build a carousel/image slider. | 🟡 Medium | `react` `ui` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20a%20carousel%2Fimage%20slider) · [Search](https://www.google.com/search?q=Build%20a%20carousel%2Fimage%20slider) |
-| Build an in-memory rate limiter as a middleware. | 🟡 Medium | `rate-limit` `middleware` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20an%20in-memory%20rate%20limiter%20as%20a%20middleware) · [Search](https://www.google.com/search?q=Build%20an%20in-memory%20rate%20limiter%20as%20a%20middleware) |
+| Build a debounced autocomplete/search box with keyboard nav. | 🟡 Medium | `react` `debounce` `a11y` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20a%20debounced%20autocomplete%2Fsearch%20box%20with%20keyboard%20nav) · [Search](https://www.google.com/search?q=Build%20a%20debounced%20autocomplete%2Fsearch%20box%20with%20keyboard%20nav) |
+| Build a typeahead with in-flight request cancellation. | 🟡 Medium | `react` `async` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20a%20typeahead%20with%20in-flight%20request%20cancellation) · [Search](https://www.google.com/search?q=Build%20a%20typeahead%20with%20in-flight%20request%20cancellation) |
 
 ## Round 4 · Tech Deep-Dive
 <!-- round: tech_deep_dive -->
@@ -58,8 +60,8 @@ _Deep questions on your core stack and fundamentals._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Closures and the module pattern — with an example. | 🟢 Easy | `javascript` `closures` | [GfG](https://www.geeksforgeeks.org/search/?gq=Closures%20and%20the%20module%20pattern%20%E2%80%94%20with%20an%20example) · [Search](https://www.google.com/search?q=Closures%20and%20the%20module%20pattern%20%E2%80%94%20with%20an%20example) |
-| How does React reconciliation / the diffing algorithm work? | 🟡 Medium | `react` `fiber` | [GfG](https://www.geeksforgeeks.org/search/?gq=How%20does%20React%20reconciliation%20%2F%20the%20diffing%20algorithm%20work) · [Search](https://www.google.com/search?q=How%20does%20React%20reconciliation%20%2F%20the%20diffing%20algorithm%20work) |
+| What are React keys and why do they matter? | 🟢 Easy | `react` | [GfG](https://www.geeksforgeeks.org/search/?gq=What%20are%20React%20keys%20and%20why%20do%20they%20matter) · [Search](https://www.google.com/search?q=What%20are%20React%20keys%20and%20why%20do%20they%20matter) |
+| Explain optimistic vs pessimistic locking. | 🔴 Hard | `databases` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20optimistic%20vs%20pessimistic%20locking) · [Search](https://www.google.com/search?q=Explain%20optimistic%20vs%20pessimistic%20locking) |
 
 ## Round 5 · Behavioral / HR
 <!-- round: behavioral -->
@@ -68,7 +70,7 @@ _Values, collaboration, and past-experience (STAR) questions._
 
 | Question | Difficulty | Tags |
 | --- | --- | --- |
-| A time you made a mistake in production — what happened next? | — | `ownership` `star` |
+| Tell me about a time you simplified something overly complex. | — | `judgment` `star` |
 
 ---
 

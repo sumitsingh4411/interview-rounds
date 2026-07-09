@@ -20,9 +20,9 @@ description: Cloud data platform. Systems-heavy design and solid coding.
 
 | Interview | Outcome | Rounds | Questions |
 | --- | --- | --- | --- |
-| [Junior · Full-stack](../interviews/snowflake-1.md) | Offer | 5 | 8 |
-| [Senior · Backend](../interviews/snowflake-2.md) | Withdrew | 6 | 10 |
-| [Mid · Frontend](../interviews/snowflake-3.md) | Offer | 5 | 8 |
+| [Junior · Full-stack](../interviews/snowflake-1.md) | Withdrew | 5 | 8 |
+| [Senior · Backend](../interviews/snowflake-2.md) | Unknown | 6 | 10 |
+| [Mid · Frontend](../interviews/snowflake-3.md) | Withdrew | 5 | 8 |
 | [Junior · Frontend](../interviews/snowflake-4.md) | Offer | 5 | 8 |
 
 ---

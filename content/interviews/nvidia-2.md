@@ -4,19 +4,19 @@ company: nvidia
 role: frontend
 level: junior
 outcome: withdrew
-year: 2025
+year: 2023
 source: curated
-summary: Junior frontend interview. Fast-paced; expect follow-ups that push on depth.
+summary: A junior frontend loop. Fundamentals mattered as much as getting to an answer.
 ---
 # Junior Frontend — Nvidia
 
 ![role](https://img.shields.io/badge/role-Frontend-22d3ee?style=flat-square)
 ![level](https://img.shields.io/badge/level-Junior-818cf8?style=flat-square)
 ![outcome](https://img.shields.io/badge/outcome-Withdrew-fbbf24?style=flat-square)
-![year](https://img.shields.io/badge/year-2025-6b7280?style=flat-square)
+![year](https://img.shields.io/badge/year-2023-6b7280?style=flat-square)
 ![source](https://img.shields.io/badge/source-Commonly%20asked-2dd4bf?style=flat-square)
 
-> Junior frontend interview. Fast-paced; expect follow-ups that push on depth.
+> A junior frontend loop. Fundamentals mattered as much as getting to an answer.
 
 **5 rounds · 8 questions**
 
@@ -38,8 +38,8 @@ _Data structures & algorithms on a whiteboard or shared editor._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Serialize and deserialize a binary tree. | 🔴 Hard | `tree` `dfs` | [LC](https://leetcode.com/problemset/?search=Serialize%20and%20deserialize%20a%20binary%20tree) · [NC](https://neetcode.io/practice) · [GfG](https://www.geeksforgeeks.org/search/?gq=Serialize%20and%20deserialize%20a%20binary%20tree) |
-| Merge k sorted lists. | 🔴 Hard | `heap` `linked-list` | [LC](https://leetcode.com/problemset/?search=Merge%20k%20sorted%20lists) · [NC](https://neetcode.io/practice) · [GfG](https://www.geeksforgeeks.org/search/?gq=Merge%20k%20sorted%20lists) |
+| Group anagrams from a list of strings. | 🟡 Medium | `hashmap` `string` | [LC](https://leetcode.com/problemset/?search=Group%20anagrams%20from%20a%20list%20of%20strings) · [NC](https://neetcode.io/practice) · [GfG](https://www.geeksforgeeks.org/search/?gq=Group%20anagrams%20from%20a%20list%20of%20strings) |
+| LRU cache with O(1) get and put. | 🟡 Medium | `hashmap` `linked-list` | [LC](https://leetcode.com/problemset/?search=LRU%20cache%20with%20O(1)%20get%20and%20put) · [NC](https://neetcode.io/practice) · [GfG](https://www.geeksforgeeks.org/search/?gq=LRU%20cache%20with%20O(1)%20get%20and%20put) |
 
 ## Round 3 · Machine Coding
 <!-- round: machine_coding -->
@@ -48,8 +48,8 @@ _Build a working component or service under time pressure._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Build a "polling" progress UI that updates from an API. | 🟡 Medium | `react` `async` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20a%20%22polling%22%20progress%20UI%20that%20updates%20from%20an%20API) · [Search](https://www.google.com/search?q=Build%20a%20%22polling%22%20progress%20UI%20that%20updates%20from%20an%20API) |
-| Build a data table with sorting, filtering and pagination. | 🔴 Hard | `react` `table` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20a%20data%20table%20with%20sorting%2C%20filtering%20and%20pagination) · [Search](https://www.google.com/search?q=Build%20a%20data%20table%20with%20sorting%2C%20filtering%20and%20pagination) |
+| Build a carousel/image slider. | 🟡 Medium | `react` `ui` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20a%20carousel%2Fimage%20slider) · [Search](https://www.google.com/search?q=Build%20a%20carousel%2Fimage%20slider) |
+| Build a nested, collapsible comment thread. | 🟡 Medium | `react` `recursion` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20a%20nested%2C%20collapsible%20comment%20thread) · [Search](https://www.google.com/search?q=Build%20a%20nested%2C%20collapsible%20comment%20thread) |
 
 ## Round 4 · Tech Deep-Dive
 <!-- round: tech_deep_dive -->
@@ -59,7 +59,7 @@ _Deep questions on your core stack and fundamentals._
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
 | Closures and the module pattern — with an example. | 🟢 Easy | `javascript` `closures` | [GfG](https://www.geeksforgeeks.org/search/?gq=Closures%20and%20the%20module%20pattern%20%E2%80%94%20with%20an%20example) · [Search](https://www.google.com/search?q=Closures%20and%20the%20module%20pattern%20%E2%80%94%20with%20an%20example) |
-| Explain the JS event loop: microtasks vs macrotasks. | 🟡 Medium | `javascript` `event-loop` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20the%20JS%20event%20loop%3A%20microtasks%20vs%20macrotasks) · [Search](https://www.google.com/search?q=Explain%20the%20JS%20event%20loop%3A%20microtasks%20vs%20macrotasks) |
+| Explain CORS and how a preflight request works. | 🟡 Medium | `browser` `security` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20CORS%20and%20how%20a%20preflight%20request%20works) · [Search](https://www.google.com/search?q=Explain%20CORS%20and%20how%20a%20preflight%20request%20works) |
 
 ## Round 5 · Behavioral / HR
 <!-- round: behavioral -->
@@ -68,7 +68,7 @@ _Values, collaboration, and past-experience (STAR) questions._
 
 | Question | Difficulty | Tags |
 | --- | --- | --- |
-| A time you influenced a decision without authority. | — | `influence` `star` |
+| Describe working with an ambiguous or shifting requirement. | — | `ambiguity` `star` |
 
 ---
 

@@ -20,10 +20,10 @@ description: Data platforms. Applied problem-solving and product engineering.
 
 | Interview | Outcome | Rounds | Questions |
 | --- | --- | --- | --- |
-| [Senior · Backend](../interviews/palantir-1.md) | No offer | 6 | 10 |
-| [Mid · Frontend](../interviews/palantir-2.md) | Rejected | 5 | 8 |
-| [Junior · Frontend](../interviews/palantir-3.md) | Rejected | 5 | 8 |
-| [Mid · Backend](../interviews/palantir-4.md) | Unknown | 5 | 8 |
+| [Senior · Backend](../interviews/palantir-1.md) | Withdrew | 6 | 10 |
+| [Mid · Frontend](../interviews/palantir-2.md) | No offer | 5 | 8 |
+| [Junior · Frontend](../interviews/palantir-3.md) | Offer | 5 | 8 |
+| [Mid · Backend](../interviews/palantir-4.md) | Offer | 5 | 8 |
 
 ---
 

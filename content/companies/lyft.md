@@ -20,10 +20,10 @@ description: Ride-share platform. Practical coding and pragmatic system design.
 
 | Interview | Outcome | Rounds | Questions |
 | --- | --- | --- | --- |
-| [Staff · Backend](../interviews/lyft-1.md) | Rejected | 5 | 7 |
-| [Junior · Full-stack](../interviews/lyft-2.md) | Unknown | 5 | 8 |
-| [Senior · Backend](../interviews/lyft-3.md) | Rejected | 6 | 10 |
-| [Mid · Frontend](../interviews/lyft-4.md) | Unknown | 5 | 8 |
+| [Staff · Backend](../interviews/lyft-1.md) | No offer | 5 | 7 |
+| [Junior · Full-stack](../interviews/lyft-2.md) | Offer | 5 | 8 |
+| [Senior · Backend](../interviews/lyft-3.md) | Offer | 6 | 10 |
+| [Mid · Frontend](../interviews/lyft-4.md) | Withdrew | 5 | 8 |
 
 ---
 

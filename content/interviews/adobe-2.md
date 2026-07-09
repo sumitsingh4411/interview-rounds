@@ -3,20 +3,22 @@ id: adobe-2
 company: adobe
 role: backend
 level: mid
-outcome: unknown
-year: 2024
+outcome: no_offer
+year: 2025
 source: curated
-summary: '5-round mid backend process. Coding-heavy early, design and behavioral later.'
+summary: >-
+  5-round mid backend process. Pragmatic questions — more real-world than pure
+  puzzles.
 ---
 # Mid Backend — Adobe
 
 ![role](https://img.shields.io/badge/role-Backend-8b93ff?style=flat-square)
 ![level](https://img.shields.io/badge/level-Mid-818cf8?style=flat-square)
-![outcome](https://img.shields.io/badge/outcome-Unknown-6b7280?style=flat-square)
-![year](https://img.shields.io/badge/year-2024-6b7280?style=flat-square)
+![outcome](https://img.shields.io/badge/outcome-No%20offer-f87171?style=flat-square)
+![year](https://img.shields.io/badge/year-2025-6b7280?style=flat-square)
 ![source](https://img.shields.io/badge/source-Commonly%20asked-2dd4bf?style=flat-square)
 
-> 5-round mid backend process. Coding-heavy early, design and behavioral later.
+> 5-round mid backend process. Pragmatic questions — more real-world than pure puzzles.
 
 **5 rounds · 8 questions**
 
@@ -29,8 +31,8 @@ _Data structures & algorithms on a whiteboard or shared editor._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Number of islands in a 2D grid. | 🟡 Medium | `bfs` `dfs` `grid` | [LC](https://leetcode.com/problemset/?search=Number%20of%20islands%20in%20a%202D%20grid) · [NC](https://neetcode.io/practice) · [GfG](https://www.geeksforgeeks.org/search/?gq=Number%20of%20islands%20in%20a%202D%20grid) |
-| Word ladder — shortest transformation sequence. | 🔴 Hard | `bfs` `graph` | [LC](https://leetcode.com/problemset/?search=Word%20ladder%20%E2%80%94%20shortest%20transformation%20sequence) · [NC](https://neetcode.io/practice) · [GfG](https://www.geeksforgeeks.org/search/?gq=Word%20ladder%20%E2%80%94%20shortest%20transformation%20sequence) |
+| Reverse nodes in k-group. | 🔴 Hard | `linked-list` | [LC](https://leetcode.com/problemset/?search=Reverse%20nodes%20in%20k-group) · [NC](https://neetcode.io/practice) · [GfG](https://www.geeksforgeeks.org/search/?gq=Reverse%20nodes%20in%20k-group) |
+| Merge k sorted lists. | 🔴 Hard | `heap` `linked-list` | [LC](https://leetcode.com/problemset/?search=Merge%20k%20sorted%20lists) · [NC](https://neetcode.io/practice) · [GfG](https://www.geeksforgeeks.org/search/?gq=Merge%20k%20sorted%20lists) |
 
 ## Round 2 · Machine Coding
 <!-- round: machine_coding -->
@@ -49,7 +51,7 @@ _Object-oriented / low-level design of a focused module._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Design a deck of cards + a card game. | 🟢 Easy | `oop` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20deck%20of%20cards%20%2B%20a%20card%20game) · [Search](https://www.google.com/search?q=Design%20a%20deck%20of%20cards%20%2B%20a%20card%20game) |
+| Design an ATM / cash dispenser. | 🟡 Medium | `oop` `state-machine` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20an%20ATM%20%2F%20cash%20dispenser) · [Search](https://www.google.com/search?q=Design%20an%20ATM%20%2F%20cash%20dispenser) |
 
 ## Round 4 · Tech Deep-Dive
 <!-- round: tech_deep_dive -->
@@ -58,8 +60,8 @@ _Deep questions on your core stack and fundamentals._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Explain eventual consistency with a real example. | 🔴 Hard | `distributed` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20eventual%20consistency%20with%20a%20real%20example) · [Search](https://www.google.com/search?q=Explain%20eventual%20consistency%20with%20a%20real%20example) |
-| Explain database indexing and when a query uses one. | 🟡 Medium | `databases` `indexing` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20database%20indexing%20and%20when%20a%20query%20uses%20one) · [Search](https://www.google.com/search?q=Explain%20database%20indexing%20and%20when%20a%20query%20uses%20one) |
+| Explain the CAP theorem with a practical example. | 🔴 Hard | `distributed` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20the%20CAP%20theorem%20with%20a%20practical%20example) · [Search](https://www.google.com/search?q=Explain%20the%20CAP%20theorem%20with%20a%20practical%20example) |
+| How does HTTPS/TLS establish a secure connection? | 🟡 Medium | `networking` `security` | [GfG](https://www.geeksforgeeks.org/search/?gq=How%20does%20HTTPS%2FTLS%20establish%20a%20secure%20connection) · [Search](https://www.google.com/search?q=How%20does%20HTTPS%2FTLS%20establish%20a%20secure%20connection) |
 
 ## Round 5 · Behavioral / HR
 <!-- round: behavioral -->
@@ -68,7 +70,7 @@ _Values, collaboration, and past-experience (STAR) questions._
 
 | Question | Difficulty | Tags |
 | --- | --- | --- |
-| Why this company, and why this role? | — | `motivation` |
+| Tell me about a project you are most proud of. | — | `star` |
 
 ---
 

@@ -3,22 +3,22 @@ id: doordash-3
 company: doordash
 role: frontend
 level: junior
-outcome: withdrew
-year: 2025
+outcome: unknown
+year: 2023
 source: curated
 summary: >-
-  5-round junior frontend process. Fundamentals mattered as much as getting to
-  an answer.
+  A junior frontend loop. Pragmatic questions — more real-world than pure
+  puzzles.
 ---
 # Junior Frontend — DoorDash
 
 ![role](https://img.shields.io/badge/role-Frontend-22d3ee?style=flat-square)
 ![level](https://img.shields.io/badge/level-Junior-818cf8?style=flat-square)
-![outcome](https://img.shields.io/badge/outcome-Withdrew-fbbf24?style=flat-square)
-![year](https://img.shields.io/badge/year-2025-6b7280?style=flat-square)
+![outcome](https://img.shields.io/badge/outcome-Unknown-6b7280?style=flat-square)
+![year](https://img.shields.io/badge/year-2023-6b7280?style=flat-square)
 ![source](https://img.shields.io/badge/source-Commonly%20asked-2dd4bf?style=flat-square)
 
-> 5-round junior frontend process. Fundamentals mattered as much as getting to an answer.
+> A junior frontend loop. Pragmatic questions — more real-world than pure puzzles.
 
 **5 rounds · 8 questions**
 
@@ -31,7 +31,7 @@ _Timed online coding / aptitude screen, usually the first filter._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Count pairs with a given sum in an array. | 🟢 Easy | `hashmap` | [LC](https://leetcode.com/problemset/?search=Count%20pairs%20with%20a%20given%20sum%20in%20an%20array) · [NC](https://neetcode.io/practice) · [GfG](https://www.geeksforgeeks.org/search/?gq=Count%20pairs%20with%20a%20given%20sum%20in%20an%20array) |
+| Rotate a matrix 90 degrees in place. | 🟡 Medium | `matrix` | [LC](https://leetcode.com/problemset/?search=Rotate%20a%20matrix%2090%20degrees%20in%20place) · [NC](https://neetcode.io/practice) · [GfG](https://www.geeksforgeeks.org/search/?gq=Rotate%20a%20matrix%2090%20degrees%20in%20place) |
 
 ## Round 2 · DSA / Coding
 <!-- round: dsa -->
@@ -40,8 +40,8 @@ _Data structures & algorithms on a whiteboard or shared editor._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Median of two sorted arrays. | 🔴 Hard | `binary-search` | [LC](https://leetcode.com/problemset/?search=Median%20of%20two%20sorted%20arrays) · [NC](https://neetcode.io/practice) · [GfG](https://www.geeksforgeeks.org/search/?gq=Median%20of%20two%20sorted%20arrays) |
-| Two Sum — return indices of numbers adding to a target. | 🟢 Easy | `array` `hashmap` | [LC](https://leetcode.com/problemset/?search=Two%20Sum%20%E2%80%94%20return%20indices%20of%20numbers%20adding%20to%20a%20target) · [NC](https://neetcode.io/practice) · [GfG](https://www.geeksforgeeks.org/search/?gq=Two%20Sum%20%E2%80%94%20return%20indices%20of%20numbers%20adding%20to%20a%20target) |
+| Coin change — fewest coins to make an amount. | 🟡 Medium | `dp` | [LC](https://leetcode.com/problemset/?search=Coin%20change%20%E2%80%94%20fewest%20coins%20to%20make%20an%20amount) · [NC](https://neetcode.io/practice) · [GfG](https://www.geeksforgeeks.org/search/?gq=Coin%20change%20%E2%80%94%20fewest%20coins%20to%20make%20an%20amount) |
+| Word ladder — shortest transformation sequence. | 🔴 Hard | `bfs` `graph` | [LC](https://leetcode.com/problemset/?search=Word%20ladder%20%E2%80%94%20shortest%20transformation%20sequence) · [NC](https://neetcode.io/practice) · [GfG](https://www.geeksforgeeks.org/search/?gq=Word%20ladder%20%E2%80%94%20shortest%20transformation%20sequence) |
 
 ## Round 3 · Machine Coding
 <!-- round: machine_coding -->
@@ -50,8 +50,8 @@ _Build a working component or service under time pressure._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Build a multi-step form with validation. | 🟡 Medium | `react` `forms` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20a%20multi-step%20form%20with%20validation) · [Search](https://www.google.com/search?q=Build%20a%20multi-step%20form%20with%20validation) |
-| Build a star-rating component (controlled + accessible). | 🟢 Easy | `react` `a11y` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20a%20star-rating%20component%20(controlled%20%2B%20accessible)) · [Search](https://www.google.com/search?q=Build%20a%20star-rating%20component%20(controlled%20%2B%20accessible)) |
+| Build a typeahead with in-flight request cancellation. | 🟡 Medium | `react` `async` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20a%20typeahead%20with%20in-flight%20request%20cancellation) · [Search](https://www.google.com/search?q=Build%20a%20typeahead%20with%20in-flight%20request%20cancellation) |
+| Build a debounced autocomplete/search box with keyboard nav. | 🟡 Medium | `react` `debounce` `a11y` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20a%20debounced%20autocomplete%2Fsearch%20box%20with%20keyboard%20nav) · [Search](https://www.google.com/search?q=Build%20a%20debounced%20autocomplete%2Fsearch%20box%20with%20keyboard%20nav) |
 
 ## Round 4 · Tech Deep-Dive
 <!-- round: tech_deep_dive -->
@@ -60,8 +60,8 @@ _Deep questions on your core stack and fundamentals._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| How does React reconciliation / the diffing algorithm work? | 🟡 Medium | `react` `fiber` | [GfG](https://www.geeksforgeeks.org/search/?gq=How%20does%20React%20reconciliation%20%2F%20the%20diffing%20algorithm%20work) · [Search](https://www.google.com/search?q=How%20does%20React%20reconciliation%20%2F%20the%20diffing%20algorithm%20work) |
-| Difference between CSS Grid and Flexbox — when to use each. | 🟢 Easy | `css` `layout` | [GfG](https://www.geeksforgeeks.org/search/?gq=Difference%20between%20CSS%20Grid%20and%20Flexbox%20%E2%80%94%20when%20to%20use%20each) · [Search](https://www.google.com/search?q=Difference%20between%20CSS%20Grid%20and%20Flexbox%20%E2%80%94%20when%20to%20use%20each) |
+| Explain hydration and the cost of client vs server rendering. | 🔴 Hard | `ssr` `perf` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20hydration%20and%20the%20cost%20of%20client%20vs%20server%20rendering) · [Search](https://www.google.com/search?q=Explain%20hydration%20and%20the%20cost%20of%20client%20vs%20server%20rendering) |
+| What is tree shaking and when does it fail? | 🟡 Medium | `bundling` | [GfG](https://www.geeksforgeeks.org/search/?gq=What%20is%20tree%20shaking%20and%20when%20does%20it%20fail) · [Search](https://www.google.com/search?q=What%20is%20tree%20shaking%20and%20when%20does%20it%20fail) |
 
 ## Round 5 · Behavioral / HR
 <!-- round: behavioral -->
@@ -70,7 +70,7 @@ _Values, collaboration, and past-experience (STAR) questions._
 
 | Question | Difficulty | Tags |
 | --- | --- | --- |
-| Describe handling a tight deadline with competing priorities. | — | `prioritization` `star` |
+| Tell me about the hardest bug you have debugged. | — | `debugging` `star` |
 
 ---
 

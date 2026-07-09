@@ -20,9 +20,9 @@ description: 'The front page of the internet. Feed, ranking, and moderation syst
 
 | Interview | Outcome | Rounds | Questions |
 | --- | --- | --- | --- |
-| [Mid · Frontend](../interviews/reddit-1.md) | No offer | 5 | 8 |
+| [Mid · Frontend](../interviews/reddit-1.md) | Offer | 5 | 8 |
 | [Junior · Frontend](../interviews/reddit-2.md) | Rejected | 5 | 8 |
-| [Mid · Backend](../interviews/reddit-3.md) | Unknown | 5 | 8 |
+| [Mid · Backend](../interviews/reddit-3.md) | No offer | 5 | 8 |
 | [Senior · Full-stack](../interviews/reddit-4.md) | Offer | 6 | 10 |
 
 ---

@@ -29,8 +29,8 @@ _Data structures & algorithms on a whiteboard or shared editor._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Longest substring without repeating characters. | 🟡 Medium | `sliding-window` `string` | [LC](https://leetcode.com/problemset/?search=Longest%20substring%20without%20repeating%20characters) · [NC](https://neetcode.io/practice) · [GfG](https://www.geeksforgeeks.org/search/?gq=Longest%20substring%20without%20repeating%20characters) |
-| Serialize and deserialize a binary tree. | 🔴 Hard | `tree` `dfs` | [LC](https://leetcode.com/problemset/?search=Serialize%20and%20deserialize%20a%20binary%20tree) · [NC](https://neetcode.io/practice) · [GfG](https://www.geeksforgeeks.org/search/?gq=Serialize%20and%20deserialize%20a%20binary%20tree) |
+| Merge two sorted linked lists. | 🟢 Easy | `linked-list` | [LC](https://leetcode.com/problemset/?search=Merge%20two%20sorted%20linked%20lists) · [NC](https://neetcode.io/practice) · [GfG](https://www.geeksforgeeks.org/search/?gq=Merge%20two%20sorted%20linked%20lists) |
+| Group anagrams from a list of strings. | 🟡 Medium | `hashmap` `string` | [LC](https://leetcode.com/problemset/?search=Group%20anagrams%20from%20a%20list%20of%20strings) · [NC](https://neetcode.io/practice) · [GfG](https://www.geeksforgeeks.org/search/?gq=Group%20anagrams%20from%20a%20list%20of%20strings) |
 
 ## Round 2 · System Design
 <!-- round: system_design -->
@@ -39,8 +39,8 @@ _High-level architecture of a large-scale system._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Design a news feed / timeline. | 🔴 Hard | `fanout` `ranking` `cache` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20news%20feed%20%2F%20timeline) · [Search](https://www.google.com/search?q=Design%20a%20news%20feed%20%2F%20timeline) |
-| Design a ride-matching backend (riders ↔ nearby drivers). | 🔴 Hard | `geospatial` `matching` `realtime` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20ride-matching%20backend%20(riders%20%E2%86%94%20nearby%20drivers)) · [Search](https://www.google.com/search?q=Design%20a%20ride-matching%20backend%20(riders%20%E2%86%94%20nearby%20drivers)) |
+| Design a multi-tenant SaaS data model. | 🔴 Hard | `multi-tenancy` `databases` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20multi-tenant%20SaaS%20data%20model) · [Search](https://www.google.com/search?q=Design%20a%20multi-tenant%20SaaS%20data%20model) |
+| Design a distributed cache. | 🔴 Hard | `cache` `consistency` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20distributed%20cache) · [Search](https://www.google.com/search?q=Design%20a%20distributed%20cache) |
 
 ## Round 3 · Low-Level Design
 <!-- round: lld -->
@@ -49,7 +49,7 @@ _Object-oriented / low-level design of a focused module._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Design a splitwise-style expense sharer. | 🟡 Medium | `oop` `graph` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20splitwise-style%20expense%20sharer) · [Search](https://www.google.com/search?q=Design%20a%20splitwise-style%20expense%20sharer) |
+| Design a booking/reservation system core. | 🟡 Medium | `oop` `concurrency` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20booking%2Freservation%20system%20core) · [Search](https://www.google.com/search?q=Design%20a%20booking%2Freservation%20system%20core) |
 
 ## Round 4 · Hiring Manager
 <!-- round: hiring_manager -->
@@ -67,7 +67,7 @@ _Values, collaboration, and past-experience (STAR) questions._
 
 | Question | Difficulty | Tags |
 | --- | --- | --- |
-| Describe working with an ambiguous or shifting requirement. | — | `ambiguity` `star` |
+| Why this company, and why this role? | — | `motivation` |
 
 ---
 

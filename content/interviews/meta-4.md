@@ -4,7 +4,7 @@ company: meta
 role: backend
 level: mid
 outcome: offer
-year: 2024
+year: 2023
 source: curated
 summary: 'Mid backend interview. Coding-heavy early, design and behavioral later.'
 ---
@@ -13,7 +13,7 @@ summary: 'Mid backend interview. Coding-heavy early, design and behavioral later
 ![role](https://img.shields.io/badge/role-Backend-8b93ff?style=flat-square)
 ![level](https://img.shields.io/badge/level-Mid-818cf8?style=flat-square)
 ![outcome](https://img.shields.io/badge/outcome-Offer-34d399?style=flat-square)
-![year](https://img.shields.io/badge/year-2024-6b7280?style=flat-square)
+![year](https://img.shields.io/badge/year-2023-6b7280?style=flat-square)
 ![source](https://img.shields.io/badge/source-Commonly%20asked-2dd4bf?style=flat-square)
 
 > Mid backend interview. Coding-heavy early, design and behavioral later.
@@ -29,8 +29,8 @@ _Data structures & algorithms on a whiteboard or shared editor._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Number of islands in a 2D grid. | 🟡 Medium | `bfs` `dfs` `grid` | [LC](https://leetcode.com/problemset/?search=Number%20of%20islands%20in%20a%202D%20grid) · [NC](https://neetcode.io/practice) · [GfG](https://www.geeksforgeeks.org/search/?gq=Number%20of%20islands%20in%20a%202D%20grid) |
-| Merge k sorted lists. | 🔴 Hard | `heap` `linked-list` | [LC](https://leetcode.com/problemset/?search=Merge%20k%20sorted%20lists) · [NC](https://neetcode.io/practice) · [GfG](https://www.geeksforgeeks.org/search/?gq=Merge%20k%20sorted%20lists) |
+| Coin change — fewest coins to make an amount. | 🟡 Medium | `dp` | [LC](https://leetcode.com/problemset/?search=Coin%20change%20%E2%80%94%20fewest%20coins%20to%20make%20an%20amount) · [NC](https://neetcode.io/practice) · [GfG](https://www.geeksforgeeks.org/search/?gq=Coin%20change%20%E2%80%94%20fewest%20coins%20to%20make%20an%20amount) |
+| Longest substring without repeating characters. | 🟡 Medium | `sliding-window` `string` | [LC](https://leetcode.com/problemset/?search=Longest%20substring%20without%20repeating%20characters) · [NC](https://neetcode.io/practice) · [GfG](https://www.geeksforgeeks.org/search/?gq=Longest%20substring%20without%20repeating%20characters) |
 
 ## Round 2 · Machine Coding
 <!-- round: machine_coding -->
@@ -39,8 +39,8 @@ _Build a working component or service under time pressure._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Build a CSV importer that streams and validates rows. | 🟡 Medium | `streaming` `validation` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20a%20CSV%20importer%20that%20streams%20and%20validates%20rows) · [Search](https://www.google.com/search?q=Build%20a%20CSV%20importer%20that%20streams%20and%20validates%20rows) |
-| Design and build a URL-shortener service (API + storage). | 🟡 Medium | `api` `hashing` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20and%20build%20a%20URL-shortener%20service%20(API%20%2B%20storage)) · [Search](https://www.google.com/search?q=Design%20and%20build%20a%20URL-shortener%20service%20(API%20%2B%20storage)) |
+| Implement an idempotent "charge" endpoint. | 🔴 Hard | `idempotency` `payments` | [GfG](https://www.geeksforgeeks.org/search/?gq=Implement%20an%20idempotent%20%22charge%22%20endpoint) · [Search](https://www.google.com/search?q=Implement%20an%20idempotent%20%22charge%22%20endpoint) |
+| Build a webhook receiver with signature verification. | 🟡 Medium | `security` `api` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20a%20webhook%20receiver%20with%20signature%20verification) · [Search](https://www.google.com/search?q=Build%20a%20webhook%20receiver%20with%20signature%20verification) |
 
 ## Round 3 · Low-Level Design
 <!-- round: lld -->
@@ -49,7 +49,7 @@ _Object-oriented / low-level design of a focused module._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Design a deck of cards + a card game. | 🟢 Easy | `oop` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20deck%20of%20cards%20%2B%20a%20card%20game) · [Search](https://www.google.com/search?q=Design%20a%20deck%20of%20cards%20%2B%20a%20card%20game) |
+| Design a chess game (pieces, moves, board). | 🔴 Hard | `oop` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20chess%20game%20(pieces%2C%20moves%2C%20board)) · [Search](https://www.google.com/search?q=Design%20a%20chess%20game%20(pieces%2C%20moves%2C%20board)) |
 
 ## Round 4 · Tech Deep-Dive
 <!-- round: tech_deep_dive -->
@@ -58,8 +58,8 @@ _Deep questions on your core stack and fundamentals._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Message queues vs pub/sub — when to use each. | 🟡 Medium | `messaging` | [GfG](https://www.geeksforgeeks.org/search/?gq=Message%20queues%20vs%20pub%2Fsub%20%E2%80%94%20when%20to%20use%20each) · [Search](https://www.google.com/search?q=Message%20queues%20vs%20pub%2Fsub%20%E2%80%94%20when%20to%20use%20each) |
-| Explain how you handle concurrency / race conditions. | 🔴 Hard | `concurrency` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20how%20you%20handle%20concurrency%20%2F%20race%20conditions) · [Search](https://www.google.com/search?q=Explain%20how%20you%20handle%20concurrency%20%2F%20race%20conditions) |
+| How does a load balancer choose a backend? | 🟡 Medium | `networking` | [GfG](https://www.geeksforgeeks.org/search/?gq=How%20does%20a%20load%20balancer%20choose%20a%20backend) · [Search](https://www.google.com/search?q=How%20does%20a%20load%20balancer%20choose%20a%20backend) |
+| SQL vs NoSQL — how do you choose for a given workload? | 🟡 Medium | `databases` | [GfG](https://www.geeksforgeeks.org/search/?gq=SQL%20vs%20NoSQL%20%E2%80%94%20how%20do%20you%20choose%20for%20a%20given%20workload) · [Search](https://www.google.com/search?q=SQL%20vs%20NoSQL%20%E2%80%94%20how%20do%20you%20choose%20for%20a%20given%20workload) |
 
 ## Round 5 · Behavioral / HR
 <!-- round: behavioral -->
@@ -68,7 +68,7 @@ _Values, collaboration, and past-experience (STAR) questions._
 
 | Question | Difficulty | Tags |
 | --- | --- | --- |
-| Tell me about a time you failed and what you learned. | — | `growth` `star` |
+| Tell me about receiving hard feedback and acting on it. | — | `feedback` `star` |
 
 ---
 

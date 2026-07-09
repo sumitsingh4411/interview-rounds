@@ -21,8 +21,8 @@ description: Connected workspace. Frontend depth and data-model design.
 | Interview | Outcome | Rounds | Questions |
 | --- | --- | --- | --- |
 | [Senior · Frontend](../interviews/notion-1.md) | Unknown | 6 | 10 |
-| [Staff · Backend](../interviews/notion-2.md) | Offer | 5 | 7 |
-| [Junior · Full-stack](../interviews/notion-3.md) | Rejected | 5 | 8 |
+| [Staff · Backend](../interviews/notion-2.md) | Unknown | 5 | 7 |
+| [Junior · Full-stack](../interviews/notion-3.md) | Offer | 5 | 8 |
 | [Senior · Backend](../interviews/notion-4.md) | Unknown | 6 | 10 |
 
 ---

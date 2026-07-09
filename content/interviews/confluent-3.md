@@ -3,20 +3,22 @@ id: confluent-3
 company: confluent
 role: fullstack
 level: senior
-outcome: rejected
-year: 2025
+outcome: offer
+year: 2023
 source: curated
-summary: A senior fullstack loop. Fast-paced; expect follow-ups that push on depth.
+summary: >-
+  A senior fullstack loop. Pragmatic questions — more real-world than pure
+  puzzles.
 ---
 # Senior Full-stack — Confluent
 
 ![role](https://img.shields.io/badge/role-Full--stack-a78bfa?style=flat-square)
 ![level](https://img.shields.io/badge/level-Senior-818cf8?style=flat-square)
-![outcome](https://img.shields.io/badge/outcome-Rejected-f87171?style=flat-square)
-![year](https://img.shields.io/badge/year-2025-6b7280?style=flat-square)
+![outcome](https://img.shields.io/badge/outcome-Offer-34d399?style=flat-square)
+![year](https://img.shields.io/badge/year-2023-6b7280?style=flat-square)
 ![source](https://img.shields.io/badge/source-Commonly%20asked-2dd4bf?style=flat-square)
 
-> A senior fullstack loop. Fast-paced; expect follow-ups that push on depth.
+> A senior fullstack loop. Pragmatic questions — more real-world than pure puzzles.
 
 **6 rounds · 10 questions**
 
@@ -29,8 +31,8 @@ _Data structures & algorithms on a whiteboard or shared editor._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Merge two sorted linked lists. | 🟢 Easy | `linked-list` | [LC](https://leetcode.com/problemset/?search=Merge%20two%20sorted%20linked%20lists) · [NC](https://neetcode.io/practice) · [GfG](https://www.geeksforgeeks.org/search/?gq=Merge%20two%20sorted%20linked%20lists) |
-| Merge k sorted lists. | 🔴 Hard | `heap` `linked-list` | [LC](https://leetcode.com/problemset/?search=Merge%20k%20sorted%20lists) · [NC](https://neetcode.io/practice) · [GfG](https://www.geeksforgeeks.org/search/?gq=Merge%20k%20sorted%20lists) |
+| Meeting rooms II — minimum rooms required. | 🟡 Medium | `heap` `intervals` | [LC](https://leetcode.com/problemset/?search=Meeting%20rooms%20II%20%E2%80%94%20minimum%20rooms%20required) · [NC](https://neetcode.io/practice) · [GfG](https://www.geeksforgeeks.org/search/?gq=Meeting%20rooms%20II%20%E2%80%94%20minimum%20rooms%20required) |
+| Course Schedule — detect a cycle / topological sort. | 🟡 Medium | `graph` `topo-sort` | [LC](https://leetcode.com/problemset/?search=Course%20Schedule%20%E2%80%94%20detect%20a%20cycle%20%2F%20topological%20sort) · [NC](https://neetcode.io/practice) · [GfG](https://www.geeksforgeeks.org/search/?gq=Course%20Schedule%20%E2%80%94%20detect%20a%20cycle%20%2F%20topological%20sort) |
 
 ## Round 2 · Machine Coding
 <!-- round: machine_coding -->
@@ -39,8 +41,8 @@ _Build a working component or service under time pressure._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Build a "polling" progress UI that updates from an API. | 🟡 Medium | `react` `async` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20a%20%22polling%22%20progress%20UI%20that%20updates%20from%20an%20API) · [Search](https://www.google.com/search?q=Build%20a%20%22polling%22%20progress%20UI%20that%20updates%20from%20an%20API) |
-| Build a modal/dialog with focus trapping. | 🟡 Medium | `react` `a11y` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20a%20modal%2Fdialog%20with%20focus%20trapping) · [Search](https://www.google.com/search?q=Build%20a%20modal%2Fdialog%20with%20focus%20trapping) |
+| Build an infinite-scrolling list with virtualization. | 🔴 Hard | `react` `virtualization` `perf` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20an%20infinite-scrolling%20list%20with%20virtualization) · [Search](https://www.google.com/search?q=Build%20an%20infinite-scrolling%20list%20with%20virtualization) |
+| Build a key-value store with TTL expiry. | 🟡 Medium | `cache` `ttl` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20a%20key-value%20store%20with%20TTL%20expiry) · [Search](https://www.google.com/search?q=Build%20a%20key-value%20store%20with%20TTL%20expiry) |
 
 ## Round 3 · System Design
 <!-- round: system_design -->
@@ -49,8 +51,8 @@ _High-level architecture of a large-scale system._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Design a ride-matching backend (riders ↔ nearby drivers). | 🔴 Hard | `geospatial` `matching` `realtime` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20ride-matching%20backend%20(riders%20%E2%86%94%20nearby%20drivers)) · [Search](https://www.google.com/search?q=Design%20a%20ride-matching%20backend%20(riders%20%E2%86%94%20nearby%20drivers)) |
-| Design client-side state and data-fetching for a large SPA. | 🔴 Hard | `frontend` `state` `caching` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20client-side%20state%20and%20data-fetching%20for%20a%20large%20SPA) · [Search](https://www.google.com/search?q=Design%20client-side%20state%20and%20data-fetching%20for%20a%20large%20SPA) |
+| Design a scalable frontend for an infinite feed (data, caching, rendering). | 🔴 Hard | `frontend` `virtualization` `cache` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20scalable%20frontend%20for%20an%20infinite%20feed%20(data%2C%20caching%2C%20rendering)) · [Search](https://www.google.com/search?q=Design%20a%20scalable%20frontend%20for%20an%20infinite%20feed%20(data%2C%20caching%2C%20rendering)) |
+| Design an event-driven order pipeline with retries. | 🔴 Hard | `events` `queues` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20an%20event-driven%20order%20pipeline%20with%20retries) · [Search](https://www.google.com/search?q=Design%20an%20event-driven%20order%20pipeline%20with%20retries) |
 
 ## Round 4 · Tech Deep-Dive
 <!-- round: tech_deep_dive -->
@@ -59,8 +61,8 @@ _Deep questions on your core stack and fundamentals._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Explain `useEffect` dependencies and common pitfalls. | 🟡 Medium | `react` `hooks` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20%60useEffect%60%20dependencies%20and%20common%20pitfalls) · [Search](https://www.google.com/search?q=Explain%20%60useEffect%60%20dependencies%20and%20common%20pitfalls) |
-| Explain `this` binding and the call/apply/bind trio. | 🟡 Medium | `javascript` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20%60this%60%20binding%20and%20the%20call%2Fapply%2Fbind%20trio) · [Search](https://www.google.com/search?q=Explain%20%60this%60%20binding%20and%20the%20call%2Fapply%2Fbind%20trio) |
+| Explain hydration and the cost of client vs server rendering. | 🔴 Hard | `ssr` `perf` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20hydration%20and%20the%20cost%20of%20client%20vs%20server%20rendering) · [Search](https://www.google.com/search?q=Explain%20hydration%20and%20the%20cost%20of%20client%20vs%20server%20rendering) |
+| Compare rate-limiting algorithms and their trade-offs. | 🟡 Medium | `rate-limit` | [GfG](https://www.geeksforgeeks.org/search/?gq=Compare%20rate-limiting%20algorithms%20and%20their%20trade-offs) · [Search](https://www.google.com/search?q=Compare%20rate-limiting%20algorithms%20and%20their%20trade-offs) |
 
 ## Round 5 · Hiring Manager
 <!-- round: hiring_manager -->
@@ -69,7 +71,7 @@ _Scope, ownership, and role-fit discussion with the manager._
 
 | Question | Difficulty | Tags |
 | --- | --- | --- |
-| How do you decide what to build vs. buy vs. defer? | — | `judgment` |
+| Tell me about a technical bet that did not pay off. | — | `risk` `judgment` |
 
 ## Round 6 · Behavioral / HR
 <!-- round: behavioral -->
@@ -78,7 +80,7 @@ _Values, collaboration, and past-experience (STAR) questions._
 
 | Question | Difficulty | Tags |
 | --- | --- | --- |
-| Describe working with an ambiguous or shifting requirement. | — | `ambiguity` `star` |
+| When did you take ownership of something outside your scope? | — | `ownership` `star` |
 
 ---
 

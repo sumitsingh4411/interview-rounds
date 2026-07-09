@@ -20,10 +20,10 @@ description: Corporate cards and spend. Product-minded full-stack rounds.
 
 | Interview | Outcome | Rounds | Questions |
 | --- | --- | --- | --- |
-| [Junior · Full-stack](../interviews/brex-1.md) | Withdrew | 5 | 8 |
-| [Senior · Backend](../interviews/brex-2.md) | Unknown | 6 | 10 |
+| [Junior · Full-stack](../interviews/brex-1.md) | Unknown | 5 | 8 |
+| [Senior · Backend](../interviews/brex-2.md) | No offer | 6 | 10 |
 | [Mid · Frontend](../interviews/brex-3.md) | Offer | 5 | 8 |
-| [Junior · Frontend](../interviews/brex-4.md) | Offer | 5 | 8 |
+| [Junior · Frontend](../interviews/brex-4.md) | Withdrew | 5 | 8 |
 
 ---
 

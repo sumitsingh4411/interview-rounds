@@ -20,10 +20,10 @@ description: Visual discovery. Frontend craft and recommendation-system design.
 
 | Interview | Outcome | Rounds | Questions |
 | --- | --- | --- | --- |
-| [Mid · Frontend](../interviews/pinterest-1.md) | Withdrew | 5 | 8 |
-| [Junior · Frontend](../interviews/pinterest-2.md) | Withdrew | 5 | 8 |
-| [Mid · Backend](../interviews/pinterest-3.md) | Offer | 5 | 8 |
-| [Senior · Full-stack](../interviews/pinterest-4.md) | Withdrew | 6 | 10 |
+| [Mid · Frontend](../interviews/pinterest-1.md) | Offer | 5 | 8 |
+| [Junior · Frontend](../interviews/pinterest-2.md) | No offer | 5 | 8 |
+| [Mid · Backend](../interviews/pinterest-3.md) | Withdrew | 5 | 8 |
+| [Senior · Full-stack](../interviews/pinterest-4.md) | No offer | 6 | 10 |
 
 ---
 

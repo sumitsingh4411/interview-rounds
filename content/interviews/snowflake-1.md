@@ -3,22 +3,20 @@ id: snowflake-1
 company: snowflake
 role: fullstack
 level: junior
-outcome: offer
+outcome: withdrew
 year: 2025
 source: curated
-summary: >-
-  A junior fullstack loop. Fundamentals mattered as much as getting to an
-  answer.
+summary: 'A junior fullstack loop. Balanced across coding, design, and collaboration.'
 ---
 # Junior Full-stack — Snowflake
 
 ![role](https://img.shields.io/badge/role-Full--stack-a78bfa?style=flat-square)
 ![level](https://img.shields.io/badge/level-Junior-818cf8?style=flat-square)
-![outcome](https://img.shields.io/badge/outcome-Offer-34d399?style=flat-square)
+![outcome](https://img.shields.io/badge/outcome-Withdrew-fbbf24?style=flat-square)
 ![year](https://img.shields.io/badge/year-2025-6b7280?style=flat-square)
 ![source](https://img.shields.io/badge/source-Commonly%20asked-2dd4bf?style=flat-square)
 
-> A junior fullstack loop. Fundamentals mattered as much as getting to an answer.
+> A junior fullstack loop. Balanced across coding, design, and collaboration.
 
 **5 rounds · 8 questions**
 
@@ -31,7 +29,7 @@ _Timed online coding / aptitude screen, usually the first filter._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Two timed medium array/string problems in 70 minutes. | 🟡 Medium | `arrays` `strings` | [LC](https://leetcode.com/problemset/?search=Two%20timed%20medium%20array%2Fstring%20problems%20in%2070%20minutes) · [NC](https://neetcode.io/practice) · [GfG](https://www.geeksforgeeks.org/search/?gq=Two%20timed%20medium%20array%2Fstring%20problems%20in%2070%20minutes) |
+| Simulate a simple inventory system from a spec. | 🟡 Medium | `simulation` | [LC](https://leetcode.com/problemset/?search=Simulate%20a%20simple%20inventory%20system%20from%20a%20spec) · [NC](https://neetcode.io/practice) · [GfG](https://www.geeksforgeeks.org/search/?gq=Simulate%20a%20simple%20inventory%20system%20from%20a%20spec) |
 
 ## Round 2 · DSA / Coding
 <!-- round: dsa -->
@@ -40,8 +38,8 @@ _Data structures & algorithms on a whiteboard or shared editor._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Merge two sorted linked lists. | 🟢 Easy | `linked-list` | [LC](https://leetcode.com/problemset/?search=Merge%20two%20sorted%20linked%20lists) · [NC](https://neetcode.io/practice) · [GfG](https://www.geeksforgeeks.org/search/?gq=Merge%20two%20sorted%20linked%20lists) |
-| LRU cache with O(1) get and put. | 🟡 Medium | `hashmap` `linked-list` | [LC](https://leetcode.com/problemset/?search=LRU%20cache%20with%20O(1)%20get%20and%20put) · [NC](https://neetcode.io/practice) · [GfG](https://www.geeksforgeeks.org/search/?gq=LRU%20cache%20with%20O(1)%20get%20and%20put) |
+| Edit distance. | 🔴 Hard | `dp` `string` | [LC](https://leetcode.com/problemset/?search=Edit%20distance) · [NC](https://neetcode.io/practice) · [GfG](https://www.geeksforgeeks.org/search/?gq=Edit%20distance) |
+| Implement a trie (prefix tree). | 🟡 Medium | `trie` | [LC](https://leetcode.com/problemset/?search=Implement%20a%20trie%20(prefix%20tree)) · [NC](https://neetcode.io/practice) · [GfG](https://www.geeksforgeeks.org/search/?gq=Implement%20a%20trie%20(prefix%20tree)) |
 
 ## Round 3 · Machine Coding
 <!-- round: machine_coding -->
@@ -50,8 +48,8 @@ _Build a working component or service under time pressure._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Build a key-value store with TTL expiry. | 🟡 Medium | `cache` `ttl` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20a%20key-value%20store%20with%20TTL%20expiry) · [Search](https://www.google.com/search?q=Build%20a%20key-value%20store%20with%20TTL%20expiry) |
-| Build a modal/dialog with focus trapping. | 🟡 Medium | `react` `a11y` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20a%20modal%2Fdialog%20with%20focus%20trapping) · [Search](https://www.google.com/search?q=Build%20a%20modal%2Fdialog%20with%20focus%20trapping) |
+| Parse and evaluate a simple expression/DSL. | 🟡 Medium | `parsing` | [GfG](https://www.geeksforgeeks.org/search/?gq=Parse%20and%20evaluate%20a%20simple%20expression%2FDSL) · [Search](https://www.google.com/search?q=Parse%20and%20evaluate%20a%20simple%20expression%2FDSL) |
+| Build a tic-tac-toe game with win detection. | 🟢 Easy | `react` `state` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20a%20tic-tac-toe%20game%20with%20win%20detection) · [Search](https://www.google.com/search?q=Build%20a%20tic-tac-toe%20game%20with%20win%20detection) |
 
 ## Round 4 · Tech Deep-Dive
 <!-- round: tech_deep_dive -->
@@ -60,8 +58,8 @@ _Deep questions on your core stack and fundamentals._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| How would you design and version a public REST API? | 🟡 Medium | `api-design` | [GfG](https://www.geeksforgeeks.org/search/?gq=How%20would%20you%20design%20and%20version%20a%20public%20REST%20API) · [Search](https://www.google.com/search?q=How%20would%20you%20design%20and%20version%20a%20public%20REST%20API) |
-| Explain `useEffect` dependencies and common pitfalls. | 🟡 Medium | `react` `hooks` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20%60useEffect%60%20dependencies%20and%20common%20pitfalls) · [Search](https://www.google.com/search?q=Explain%20%60useEffect%60%20dependencies%20and%20common%20pitfalls) |
+| How do CSS specificity and the cascade resolve conflicts? | 🟡 Medium | `css` | [GfG](https://www.geeksforgeeks.org/search/?gq=How%20do%20CSS%20specificity%20and%20the%20cascade%20resolve%20conflicts) · [Search](https://www.google.com/search?q=How%20do%20CSS%20specificity%20and%20the%20cascade%20resolve%20conflicts) |
+| ACID vs BASE and transaction isolation levels. | 🔴 Hard | `databases` `transactions` | [GfG](https://www.geeksforgeeks.org/search/?gq=ACID%20vs%20BASE%20and%20transaction%20isolation%20levels) · [Search](https://www.google.com/search?q=ACID%20vs%20BASE%20and%20transaction%20isolation%20levels) |
 
 ## Round 5 · Behavioral / HR
 <!-- round: behavioral -->
@@ -70,7 +68,7 @@ _Values, collaboration, and past-experience (STAR) questions._
 
 | Question | Difficulty | Tags |
 | --- | --- | --- |
-| Describe working with an ambiguous or shifting requirement. | — | `ambiguity` `star` |
+| Describe a disagreement on a code review and how it ended. | — | `conflict` `star` |
 
 ---
 

@@ -20,10 +20,10 @@ description: 'Digital payments. Fundamentals, APIs, and reliability-focused desi
 
 | Interview | Outcome | Rounds | Questions |
 | --- | --- | --- | --- |
-| [Junior · Frontend](../interviews/paypal-1.md) | Unknown | 5 | 8 |
-| [Mid · Backend](../interviews/paypal-2.md) | Withdrew | 5 | 8 |
-| [Senior · Full-stack](../interviews/paypal-3.md) | Rejected | 6 | 10 |
-| [Senior · Frontend](../interviews/paypal-4.md) | Rejected | 6 | 10 |
+| [Junior · Frontend](../interviews/paypal-1.md) | Offer | 5 | 8 |
+| [Mid · Backend](../interviews/paypal-2.md) | Unknown | 5 | 8 |
+| [Senior · Full-stack](../interviews/paypal-3.md) | Withdrew | 6 | 10 |
+| [Senior · Frontend](../interviews/paypal-4.md) | No offer | 6 | 10 |
 
 ---
 

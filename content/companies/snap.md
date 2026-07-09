@@ -20,10 +20,10 @@ description: Snapchat and AR. Media-heavy frontend and large-scale backends.
 
 | Interview | Outcome | Rounds | Questions |
 | --- | --- | --- | --- |
-| [Senior · Backend](../interviews/snap-1.md) | Offer | 6 | 10 |
-| [Mid · Frontend](../interviews/snap-2.md) | Withdrew | 5 | 8 |
-| [Junior · Frontend](../interviews/snap-3.md) | Unknown | 5 | 8 |
-| [Mid · Backend](../interviews/snap-4.md) | Withdrew | 5 | 8 |
+| [Senior · Backend](../interviews/snap-1.md) | Rejected | 6 | 10 |
+| [Mid · Frontend](../interviews/snap-2.md) | Rejected | 5 | 8 |
+| [Junior · Frontend](../interviews/snap-3.md) | Offer | 5 | 8 |
+| [Mid · Backend](../interviews/snap-4.md) | Offer | 5 | 8 |
 
 ---
 

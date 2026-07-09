@@ -3,22 +3,22 @@ id: plaid-2
 company: plaid
 role: fullstack
 level: senior
-outcome: no_offer
+outcome: offer
 year: 2023
 source: curated
 summary: >-
-  6-round senior fullstack process. Fundamentals mattered as much as getting to
-  an answer.
+  6-round senior fullstack process. Pragmatic questions — more real-world than
+  pure puzzles.
 ---
 # Senior Full-stack — Plaid
 
 ![role](https://img.shields.io/badge/role-Full--stack-a78bfa?style=flat-square)
 ![level](https://img.shields.io/badge/level-Senior-818cf8?style=flat-square)
-![outcome](https://img.shields.io/badge/outcome-No%20offer-f87171?style=flat-square)
+![outcome](https://img.shields.io/badge/outcome-Offer-34d399?style=flat-square)
 ![year](https://img.shields.io/badge/year-2023-6b7280?style=flat-square)
 ![source](https://img.shields.io/badge/source-Commonly%20asked-2dd4bf?style=flat-square)
 
-> 6-round senior fullstack process. Fundamentals mattered as much as getting to an answer.
+> 6-round senior fullstack process. Pragmatic questions — more real-world than pure puzzles.
 
 **6 rounds · 10 questions**
 
@@ -31,8 +31,8 @@ _Data structures & algorithms on a whiteboard or shared editor._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Best time to buy and sell stock. | 🟢 Easy | `array` `greedy` | [LC](https://leetcode.com/problemset/?search=Best%20time%20to%20buy%20and%20sell%20stock) · [NC](https://neetcode.io/practice) · [GfG](https://www.geeksforgeeks.org/search/?gq=Best%20time%20to%20buy%20and%20sell%20stock) |
-| Two Sum — return indices of numbers adding to a target. | 🟢 Easy | `array` `hashmap` | [LC](https://leetcode.com/problemset/?search=Two%20Sum%20%E2%80%94%20return%20indices%20of%20numbers%20adding%20to%20a%20target) · [NC](https://neetcode.io/practice) · [GfG](https://www.geeksforgeeks.org/search/?gq=Two%20Sum%20%E2%80%94%20return%20indices%20of%20numbers%20adding%20to%20a%20target) |
+| Coin change — fewest coins to make an amount. | 🟡 Medium | `dp` | [LC](https://leetcode.com/problemset/?search=Coin%20change%20%E2%80%94%20fewest%20coins%20to%20make%20an%20amount) · [NC](https://neetcode.io/practice) · [GfG](https://www.geeksforgeeks.org/search/?gq=Coin%20change%20%E2%80%94%20fewest%20coins%20to%20make%20an%20amount) |
+| Trapping rain water. | 🔴 Hard | `two-pointers` `array` | [LC](https://leetcode.com/problemset/?search=Trapping%20rain%20water) · [NC](https://neetcode.io/practice) · [GfG](https://www.geeksforgeeks.org/search/?gq=Trapping%20rain%20water) |
 
 ## Round 2 · Machine Coding
 <!-- round: machine_coding -->
@@ -41,8 +41,8 @@ _Build a working component or service under time pressure._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Build a tic-tac-toe game with win detection. | 🟢 Easy | `react` `state` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20a%20tic-tac-toe%20game%20with%20win%20detection) · [Search](https://www.google.com/search?q=Build%20a%20tic-tac-toe%20game%20with%20win%20detection) |
-| Build an in-memory rate limiter as a middleware. | 🟡 Medium | `rate-limit` `middleware` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20an%20in-memory%20rate%20limiter%20as%20a%20middleware) · [Search](https://www.google.com/search?q=Build%20an%20in-memory%20rate%20limiter%20as%20a%20middleware) |
+| Build a typeahead with in-flight request cancellation. | 🟡 Medium | `react` `async` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20a%20typeahead%20with%20in-flight%20request%20cancellation) · [Search](https://www.google.com/search?q=Build%20a%20typeahead%20with%20in-flight%20request%20cancellation) |
+| Build a "polling" progress UI that updates from an API. | 🟡 Medium | `react` `async` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20a%20%22polling%22%20progress%20UI%20that%20updates%20from%20an%20API) · [Search](https://www.google.com/search?q=Build%20a%20%22polling%22%20progress%20UI%20that%20updates%20from%20an%20API) |
 
 ## Round 3 · System Design
 <!-- round: system_design -->
@@ -51,8 +51,8 @@ _High-level architecture of a large-scale system._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Design a ride-matching backend (riders ↔ nearby drivers). | 🔴 Hard | `geospatial` `matching` `realtime` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20ride-matching%20backend%20(riders%20%E2%86%94%20nearby%20drivers)) · [Search](https://www.google.com/search?q=Design%20a%20ride-matching%20backend%20(riders%20%E2%86%94%20nearby%20drivers)) |
-| Design client-side state and data-fetching for a large SPA. | 🔴 Hard | `frontend` `state` `caching` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20client-side%20state%20and%20data-fetching%20for%20a%20large%20SPA) · [Search](https://www.google.com/search?q=Design%20client-side%20state%20and%20data-fetching%20for%20a%20large%20SPA) |
+| Design a client-side error and telemetry pipeline. | 🟡 Medium | `frontend` `observability` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20client-side%20error%20and%20telemetry%20pipeline) · [Search](https://www.google.com/search?q=Design%20a%20client-side%20error%20and%20telemetry%20pipeline) |
+| Design a file-sharing service with permissions. | 🟡 Medium | `storage` `acl` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20file-sharing%20service%20with%20permissions) · [Search](https://www.google.com/search?q=Design%20a%20file-sharing%20service%20with%20permissions) |
 
 ## Round 4 · Tech Deep-Dive
 <!-- round: tech_deep_dive -->
@@ -61,8 +61,8 @@ _Deep questions on your core stack and fundamentals._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Event delegation and how bubbling/capturing work. | 🟢 Easy | `dom` | [GfG](https://www.geeksforgeeks.org/search/?gq=Event%20delegation%20and%20how%20bubbling%2Fcapturing%20work) · [Search](https://www.google.com/search?q=Event%20delegation%20and%20how%20bubbling%2Fcapturing%20work) |
-| Accessibility: how do you make a custom widget usable? | 🟡 Medium | `a11y` | [GfG](https://www.geeksforgeeks.org/search/?gq=Accessibility%3A%20how%20do%20you%20make%20a%20custom%20widget%20usable) · [Search](https://www.google.com/search?q=Accessibility%3A%20how%20do%20you%20make%20a%20custom%20widget%20usable) |
+| What is a deadlock and how do you avoid one? | 🔴 Hard | `concurrency` | [GfG](https://www.geeksforgeeks.org/search/?gq=What%20is%20a%20deadlock%20and%20how%20do%20you%20avoid%20one) · [Search](https://www.google.com/search?q=What%20is%20a%20deadlock%20and%20how%20do%20you%20avoid%20one) |
+| localStorage vs sessionStorage vs cookies — when to use each? | 🟢 Easy | `browser` | [GfG](https://www.geeksforgeeks.org/search/?gq=localStorage%20vs%20sessionStorage%20vs%20cookies%20%E2%80%94%20when%20to%20use%20each) · [Search](https://www.google.com/search?q=localStorage%20vs%20sessionStorage%20vs%20cookies%20%E2%80%94%20when%20to%20use%20each) |
 
 ## Round 5 · Hiring Manager
 <!-- round: hiring_manager -->
@@ -71,7 +71,7 @@ _Scope, ownership, and role-fit discussion with the manager._
 
 | Question | Difficulty | Tags |
 | --- | --- | --- |
-| Tell me about a technical bet that did not pay off. | — | `risk` `judgment` |
+| How do you balance tech debt against feature work? | — | `prioritization` |
 
 ## Round 6 · Behavioral / HR
 <!-- round: behavioral -->

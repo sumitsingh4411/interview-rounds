@@ -3,22 +3,20 @@ id: pinterest-3
 company: pinterest
 role: backend
 level: mid
-outcome: offer
-year: 2024
+outcome: withdrew
+year: 2025
 source: curated
-summary: >-
-  5-round mid backend process. Balanced across coding, design, and
-  collaboration.
+summary: 'Mid backend interview. Coding-heavy early, design and behavioral later.'
 ---
 # Mid Backend — Pinterest
 
 ![role](https://img.shields.io/badge/role-Backend-8b93ff?style=flat-square)
 ![level](https://img.shields.io/badge/level-Mid-818cf8?style=flat-square)
-![outcome](https://img.shields.io/badge/outcome-Offer-34d399?style=flat-square)
-![year](https://img.shields.io/badge/year-2024-6b7280?style=flat-square)
+![outcome](https://img.shields.io/badge/outcome-Withdrew-fbbf24?style=flat-square)
+![year](https://img.shields.io/badge/year-2025-6b7280?style=flat-square)
 ![source](https://img.shields.io/badge/source-Commonly%20asked-2dd4bf?style=flat-square)
 
-> 5-round mid backend process. Balanced across coding, design, and collaboration.
+> Mid backend interview. Coding-heavy early, design and behavioral later.
 
 **5 rounds · 8 questions**
 
@@ -31,8 +29,8 @@ _Data structures & algorithms on a whiteboard or shared editor._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Merge two sorted linked lists. | 🟢 Easy | `linked-list` | [LC](https://leetcode.com/problemset/?search=Merge%20two%20sorted%20linked%20lists) · [NC](https://neetcode.io/practice) · [GfG](https://www.geeksforgeeks.org/search/?gq=Merge%20two%20sorted%20linked%20lists) |
-| Serialize and deserialize a binary tree. | 🔴 Hard | `tree` `dfs` | [LC](https://leetcode.com/problemset/?search=Serialize%20and%20deserialize%20a%20binary%20tree) · [NC](https://neetcode.io/practice) · [GfG](https://www.geeksforgeeks.org/search/?gq=Serialize%20and%20deserialize%20a%20binary%20tree) |
+| LRU cache with O(1) get and put. | 🟡 Medium | `hashmap` `linked-list` | [LC](https://leetcode.com/problemset/?search=LRU%20cache%20with%20O(1)%20get%20and%20put) · [NC](https://neetcode.io/practice) · [GfG](https://www.geeksforgeeks.org/search/?gq=LRU%20cache%20with%20O(1)%20get%20and%20put) |
+| Median of two sorted arrays. | 🔴 Hard | `binary-search` | [LC](https://leetcode.com/problemset/?search=Median%20of%20two%20sorted%20arrays) · [NC](https://neetcode.io/practice) · [GfG](https://www.geeksforgeeks.org/search/?gq=Median%20of%20two%20sorted%20arrays) |
 
 ## Round 2 · Machine Coding
 <!-- round: machine_coding -->
@@ -41,8 +39,8 @@ _Build a working component or service under time pressure._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Build a REST endpoint with pagination, filtering and sorting. | 🟡 Medium | `api` `pagination` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20a%20REST%20endpoint%20with%20pagination%2C%20filtering%20and%20sorting) · [Search](https://www.google.com/search?q=Build%20a%20REST%20endpoint%20with%20pagination%2C%20filtering%20and%20sorting) |
-| Build a key-value store with TTL expiry. | 🟡 Medium | `cache` `ttl` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20a%20key-value%20store%20with%20TTL%20expiry) · [Search](https://www.google.com/search?q=Build%20a%20key-value%20store%20with%20TTL%20expiry) |
+| Implement a job queue with retries and backoff. | 🔴 Hard | `queue` `reliability` | [GfG](https://www.geeksforgeeks.org/search/?gq=Implement%20a%20job%20queue%20with%20retries%20and%20backoff) · [Search](https://www.google.com/search?q=Implement%20a%20job%20queue%20with%20retries%20and%20backoff) |
+| Implement an idempotent "charge" endpoint. | 🔴 Hard | `idempotency` `payments` | [GfG](https://www.geeksforgeeks.org/search/?gq=Implement%20an%20idempotent%20%22charge%22%20endpoint) · [Search](https://www.google.com/search?q=Implement%20an%20idempotent%20%22charge%22%20endpoint) |
 
 ## Round 3 · Low-Level Design
 <!-- round: lld -->
@@ -51,7 +49,7 @@ _Object-oriented / low-level design of a focused module._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Design an in-memory file system. | 🔴 Hard | `oop` `trees` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20an%20in-memory%20file%20system) · [Search](https://www.google.com/search?q=Design%20an%20in-memory%20file%20system) |
+| Design a logging library with levels and sinks. | 🟡 Medium | `oop` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20logging%20library%20with%20levels%20and%20sinks) · [Search](https://www.google.com/search?q=Design%20a%20logging%20library%20with%20levels%20and%20sinks) |
 
 ## Round 4 · Tech Deep-Dive
 <!-- round: tech_deep_dive -->
@@ -60,8 +58,8 @@ _Deep questions on your core stack and fundamentals._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Caching strategies: cache-aside, write-through, TTLs. | 🟡 Medium | `cache` | [GfG](https://www.geeksforgeeks.org/search/?gq=Caching%20strategies%3A%20cache-aside%2C%20write-through%2C%20TTLs) · [Search](https://www.google.com/search?q=Caching%20strategies%3A%20cache-aside%2C%20write-through%2C%20TTLs) |
-| How do you prevent and detect N+1 queries? | 🟡 Medium | `databases` `orm` | [GfG](https://www.geeksforgeeks.org/search/?gq=How%20do%20you%20prevent%20and%20detect%20N%2B1%20queries) · [Search](https://www.google.com/search?q=How%20do%20you%20prevent%20and%20detect%20N%2B1%20queries) |
+| How do you secure secrets and handle auth tokens? | 🟡 Medium | `security` | [GfG](https://www.geeksforgeeks.org/search/?gq=How%20do%20you%20secure%20secrets%20and%20handle%20auth%20tokens) · [Search](https://www.google.com/search?q=How%20do%20you%20secure%20secrets%20and%20handle%20auth%20tokens) |
+| Explain connection pooling and why it matters. | 🟡 Medium | `databases` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20connection%20pooling%20and%20why%20it%20matters) · [Search](https://www.google.com/search?q=Explain%20connection%20pooling%20and%20why%20it%20matters) |
 
 ## Round 5 · Behavioral / HR
 <!-- round: behavioral -->
@@ -70,7 +68,7 @@ _Values, collaboration, and past-experience (STAR) questions._
 
 | Question | Difficulty | Tags |
 | --- | --- | --- |
-| Tell me about receiving hard feedback and acting on it. | — | `feedback` `star` |
+| Tell me about the hardest bug you have debugged. | — | `debugging` `star` |
 
 ---
 

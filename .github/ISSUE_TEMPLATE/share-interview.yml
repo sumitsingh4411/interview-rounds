@@ -1,0 +1,84 @@
+name: 📝 Share an interview experience
+description: Add a real interview you went through. No coding required — we'll turn it into a file.
+title: "[Interview] <Company> — <Level> <Role>"
+labels: ["interview", "content"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for sharing! This is how The Loop gets real, first-hand content.
+
+        **Please only share questions you were actually asked.** Never post anything
+        covered by an NDA, and never include an interviewer's name or personal details.
+
+  - type: input
+    id: company
+    attributes:
+      label: Company
+      placeholder: Google
+    validations:
+      required: true
+
+  - type: dropdown
+    id: role
+    attributes:
+      label: Role
+      options: [Frontend, Backend, Full-stack]
+    validations:
+      required: true
+
+  - type: dropdown
+    id: level
+    attributes:
+      label: Level
+      options: [Intern, Junior / New Grad, Mid, Senior, Staff+]
+    validations:
+      required: true
+
+  - type: dropdown
+    id: outcome
+    attributes:
+      label: Outcome
+      options: [Offer, Rejected, No offer, Withdrew, Prefer not to say]
+    validations:
+      required: true
+
+  - type: input
+    id: year
+    attributes:
+      label: Year
+      placeholder: "2026"
+
+  - type: textarea
+    id: rounds
+    attributes:
+      label: The rounds, and what you were asked
+      description: One round per block. Round types: OA, DSA, Machine Coding, Low-Level Design, System Design, Tech Deep-Dive, Hiring Manager, Behavioral.
+      placeholder: |
+        Round 1 — DSA
+        - Trapping rain water (hard)
+        - Number of islands (medium)
+
+        Round 2 — System Design
+        - Design a rate limiter
+
+        Round 3 — Behavioral
+        - Tell me about a time you disagreed with a manager
+    validations:
+      required: true
+
+  - type: textarea
+    id: summary
+    attributes:
+      label: One-line summary of the loop
+      placeholder: Coding-heavy early, design and behavioural later. Fast turnaround.
+
+  - type: checkboxes
+    id: consent
+    attributes:
+      label: Confirmation
+      options:
+        - label: These are questions I was genuinely asked, and nothing here is under NDA.
+          required: true
+        - label: I have not included any interviewer's name or personal details.
+          required: true

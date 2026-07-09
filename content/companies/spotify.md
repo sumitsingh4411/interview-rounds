@@ -21,9 +21,9 @@ description: 'Audio streaming. Playback, recommendations, and clean frontend rou
 | Interview | Outcome | Rounds | Questions |
 | --- | --- | --- | --- |
 | [Mid · Backend](../interviews/spotify-1.md) | Rejected | 5 | 8 |
-| [Senior · Full-stack](../interviews/spotify-2.md) | Rejected | 6 | 10 |
-| [Senior · Frontend](../interviews/spotify-3.md) | Withdrew | 6 | 10 |
-| [Staff · Backend](../interviews/spotify-4.md) | Offer | 5 | 7 |
+| [Senior · Full-stack](../interviews/spotify-2.md) | Offer | 6 | 10 |
+| [Senior · Frontend](../interviews/spotify-3.md) | Rejected | 6 | 10 |
+| [Staff · Backend](../interviews/spotify-4.md) | Rejected | 5 | 7 |
 
 ---
 

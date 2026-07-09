@@ -20,10 +20,10 @@ description: 'Investing app. Real-time data, correctness, and clean frontends.'
 
 | Interview | Outcome | Rounds | Questions |
 | --- | --- | --- | --- |
-| [Senior · Full-stack](../interviews/robinhood-1.md) | Rejected | 6 | 10 |
-| [Senior · Frontend](../interviews/robinhood-2.md) | Rejected | 6 | 10 |
-| [Staff · Backend](../interviews/robinhood-3.md) | Offer | 5 | 7 |
-| [Junior · Full-stack](../interviews/robinhood-4.md) | Rejected | 5 | 8 |
+| [Senior · Full-stack](../interviews/robinhood-1.md) | Withdrew | 6 | 10 |
+| [Senior · Frontend](../interviews/robinhood-2.md) | Unknown | 6 | 10 |
+| [Staff · Backend](../interviews/robinhood-3.md) | Withdrew | 5 | 7 |
+| [Junior · Full-stack](../interviews/robinhood-4.md) | Unknown | 5 | 8 |
 
 ---
 

@@ -3,20 +3,22 @@ id: stripe-4
 company: stripe
 role: backend
 level: staff
-outcome: rejected
-year: 2024
+outcome: offer
+year: 2023
 source: curated
-summary: 'A staff backend loop. Balanced across coding, design, and collaboration.'
+summary: >-
+  5-round staff backend process. Pragmatic questions — more real-world than pure
+  puzzles.
 ---
 # Staff Backend — Stripe
 
 ![role](https://img.shields.io/badge/role-Backend-8b93ff?style=flat-square)
 ![level](https://img.shields.io/badge/level-Staff-818cf8?style=flat-square)
-![outcome](https://img.shields.io/badge/outcome-Rejected-f87171?style=flat-square)
-![year](https://img.shields.io/badge/year-2024-6b7280?style=flat-square)
+![outcome](https://img.shields.io/badge/outcome-Offer-34d399?style=flat-square)
+![year](https://img.shields.io/badge/year-2023-6b7280?style=flat-square)
 ![source](https://img.shields.io/badge/source-Commonly%20asked-2dd4bf?style=flat-square)
 
-> A staff backend loop. Balanced across coding, design, and collaboration.
+> 5-round staff backend process. Pragmatic questions — more real-world than pure puzzles.
 
 **5 rounds · 7 questions**
 
@@ -29,8 +31,8 @@ _Data structures & algorithms on a whiteboard or shared editor._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Kth largest element in an array. | 🟡 Medium | `heap` `quickselect` | [LC](https://leetcode.com/problemset/?search=Kth%20largest%20element%20in%20an%20array) · [NC](https://neetcode.io/practice) · [GfG](https://www.geeksforgeeks.org/search/?gq=Kth%20largest%20element%20in%20an%20array) |
-| Valid Parentheses — check balanced brackets. | 🟢 Easy | `stack` `string` | [LC](https://leetcode.com/problemset/?search=Valid%20Parentheses%20%E2%80%94%20check%20balanced%20brackets) · [NC](https://neetcode.io/practice) · [GfG](https://www.geeksforgeeks.org/search/?gq=Valid%20Parentheses%20%E2%80%94%20check%20balanced%20brackets) |
+| Two Sum — return indices of numbers adding to a target. | 🟢 Easy | `array` `hashmap` | [LC](https://leetcode.com/problemset/?search=Two%20Sum%20%E2%80%94%20return%20indices%20of%20numbers%20adding%20to%20a%20target) · [NC](https://neetcode.io/practice) · [GfG](https://www.geeksforgeeks.org/search/?gq=Two%20Sum%20%E2%80%94%20return%20indices%20of%20numbers%20adding%20to%20a%20target) |
+| Longest palindromic substring. | 🟡 Medium | `string` `dp` | [LC](https://leetcode.com/problemset/?search=Longest%20palindromic%20substring) · [NC](https://neetcode.io/practice) · [GfG](https://www.geeksforgeeks.org/search/?gq=Longest%20palindromic%20substring) |
 
 ## Round 2 · System Design
 <!-- round: system_design -->
@@ -39,7 +41,7 @@ _High-level architecture of a large-scale system._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Design a payment processing + idempotency system. | 🔴 Hard | `idempotency` `consistency` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20payment%20processing%20%2B%20idempotency%20system) · [Search](https://www.google.com/search?q=Design%20a%20payment%20processing%20%2B%20idempotency%20system) |
+| Design an object storage service like S3. | 🔴 Hard | `storage` `scale` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20an%20object%20storage%20service%20like%20S3) · [Search](https://www.google.com/search?q=Design%20an%20object%20storage%20service%20like%20S3) |
 | Design a metrics/time-series ingestion pipeline. | 🔴 Hard | `time-series` `ingestion` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20metrics%2Ftime-series%20ingestion%20pipeline) · [Search](https://www.google.com/search?q=Design%20a%20metrics%2Ftime-series%20ingestion%20pipeline) |
 
 ## Round 3 · Low-Level Design
@@ -49,7 +51,7 @@ _Object-oriented / low-level design of a focused module._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Design a booking/reservation system core. | 🟡 Medium | `oop` `concurrency` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20booking%2Freservation%20system%20core) · [Search](https://www.google.com/search?q=Design%20a%20booking%2Freservation%20system%20core) |
+| Design a logging library with levels and sinks. | 🟡 Medium | `oop` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20logging%20library%20with%20levels%20and%20sinks) · [Search](https://www.google.com/search?q=Design%20a%20logging%20library%20with%20levels%20and%20sinks) |
 
 ## Round 4 · Hiring Manager
 <!-- round: hiring_manager -->
@@ -58,7 +60,7 @@ _Scope, ownership, and role-fit discussion with the manager._
 
 | Question | Difficulty | Tags |
 | --- | --- | --- |
-| Where do you want to grow in the next two years? | — | `growth` |
+| How do you keep a team unblocked and shipping? | — | `leadership` |
 
 ## Round 5 · Behavioral / HR
 <!-- round: behavioral -->
@@ -67,7 +69,7 @@ _Values, collaboration, and past-experience (STAR) questions._
 
 | Question | Difficulty | Tags |
 | --- | --- | --- |
-| Tell me about receiving hard feedback and acting on it. | — | `feedback` `star` |
+| Describe a time you disagreed with a teammate. How did it resolve? | — | `conflict` `star` |
 
 ---
 

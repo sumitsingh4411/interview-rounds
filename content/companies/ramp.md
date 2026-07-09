@@ -20,10 +20,10 @@ description: 'Finance automation. Fast, practical full-stack interviews.'
 
 | Interview | Outcome | Rounds | Questions |
 | --- | --- | --- | --- |
-| [Junior · Full-stack](../interviews/ramp-1.md) | Rejected | 5 | 8 |
-| [Senior · Backend](../interviews/ramp-2.md) | Offer | 6 | 10 |
-| [Mid · Frontend](../interviews/ramp-3.md) | Withdrew | 5 | 8 |
-| [Junior · Frontend](../interviews/ramp-4.md) | Rejected | 5 | 8 |
+| [Junior · Full-stack](../interviews/ramp-1.md) | Offer | 5 | 8 |
+| [Senior · Backend](../interviews/ramp-2.md) | Rejected | 6 | 10 |
+| [Mid · Frontend](../interviews/ramp-3.md) | Offer | 5 | 8 |
+| [Junior · Frontend](../interviews/ramp-4.md) | Unknown | 5 | 8 |
 
 ---
 

@@ -20,10 +20,10 @@ description: Financial data APIs. Integration-heavy backend and API design.
 
 | Interview | Outcome | Rounds | Questions |
 | --- | --- | --- | --- |
-| [Mid · Backend](../interviews/plaid-1.md) | Rejected | 5 | 8 |
-| [Senior · Full-stack](../interviews/plaid-2.md) | No offer | 6 | 10 |
-| [Senior · Frontend](../interviews/plaid-3.md) | Offer | 6 | 10 |
-| [Staff · Backend](../interviews/plaid-4.md) | No offer | 5 | 7 |
+| [Mid · Backend](../interviews/plaid-1.md) | No offer | 5 | 8 |
+| [Senior · Full-stack](../interviews/plaid-2.md) | Offer | 6 | 10 |
+| [Senior · Frontend](../interviews/plaid-3.md) | No offer | 6 | 10 |
+| [Staff · Backend](../interviews/plaid-4.md) | Unknown | 5 | 7 |
 
 ---
 

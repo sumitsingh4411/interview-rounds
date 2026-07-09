@@ -20,10 +20,10 @@ description: 'Ride-hailing and delivery. Real-time, geospatial systems feature h
 
 | Interview | Outcome | Rounds | Questions |
 | --- | --- | --- | --- |
-| [Senior · Full-stack](../interviews/uber-1.md) | Unknown | 6 | 10 |
-| [Senior · Frontend](../interviews/uber-2.md) | Unknown | 6 | 10 |
-| [Staff · Backend](../interviews/uber-3.md) | Withdrew | 5 | 7 |
-| [Junior · Full-stack](../interviews/uber-4.md) | Unknown | 5 | 8 |
+| [Senior · Full-stack](../interviews/uber-1.md) | Offer | 6 | 10 |
+| [Senior · Frontend](../interviews/uber-2.md) | No offer | 6 | 10 |
+| [Staff · Backend](../interviews/uber-3.md) | Unknown | 5 | 7 |
+| [Junior · Full-stack](../interviews/uber-4.md) | Rejected | 5 | 8 |
 
 ---
 

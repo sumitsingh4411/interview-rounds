@@ -20,10 +20,10 @@ description: 'Azure, Windows, Office, GitHub. Balanced loops across coding and d
 
 | Interview | Outcome | Rounds | Questions |
 | --- | --- | --- | --- |
-| [Senior · Full-stack](../interviews/microsoft-1.md) | Withdrew | 6 | 10 |
-| [Senior · Frontend](../interviews/microsoft-2.md) | Rejected | 6 | 10 |
+| [Senior · Full-stack](../interviews/microsoft-1.md) | Offer | 6 | 10 |
+| [Senior · Frontend](../interviews/microsoft-2.md) | Withdrew | 6 | 10 |
 | [Staff · Backend](../interviews/microsoft-3.md) | Offer | 5 | 7 |
-| [Junior · Full-stack](../interviews/microsoft-4.md) | Rejected | 5 | 8 |
+| [Junior · Full-stack](../interviews/microsoft-4.md) | Withdrew | 5 | 8 |
 
 ---
 

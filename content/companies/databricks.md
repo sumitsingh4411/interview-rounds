@@ -20,9 +20,9 @@ description: Data and AI platform. Strong DSA and large-scale data systems.
 
 | Interview | Outcome | Rounds | Questions |
 | --- | --- | --- | --- |
-| [Senior · Frontend](../interviews/databricks-1.md) | Unknown | 6 | 10 |
-| [Staff · Backend](../interviews/databricks-2.md) | No offer | 5 | 7 |
-| [Junior · Full-stack](../interviews/databricks-3.md) | No offer | 5 | 8 |
+| [Senior · Frontend](../interviews/databricks-1.md) | No offer | 6 | 10 |
+| [Staff · Backend](../interviews/databricks-2.md) | Offer | 5 | 7 |
+| [Junior · Full-stack](../interviews/databricks-3.md) | Rejected | 5 | 8 |
 | [Senior · Backend](../interviews/databricks-4.md) | No offer | 6 | 10 |
 
 ---

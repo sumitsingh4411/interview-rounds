@@ -3,22 +3,20 @@ id: databricks-1
 company: databricks
 role: frontend
 level: senior
-outcome: unknown
-year: 2025
+outcome: no_offer
+year: 2024
 source: curated
-summary: >-
-  A senior frontend loop. Pragmatic questions — more real-world than pure
-  puzzles.
+summary: A senior frontend loop. Fundamentals mattered as much as getting to an answer.
 ---
 # Senior Frontend — Databricks
 
 ![role](https://img.shields.io/badge/role-Frontend-22d3ee?style=flat-square)
 ![level](https://img.shields.io/badge/level-Senior-818cf8?style=flat-square)
-![outcome](https://img.shields.io/badge/outcome-Unknown-6b7280?style=flat-square)
-![year](https://img.shields.io/badge/year-2025-6b7280?style=flat-square)
+![outcome](https://img.shields.io/badge/outcome-No%20offer-f87171?style=flat-square)
+![year](https://img.shields.io/badge/year-2024-6b7280?style=flat-square)
 ![source](https://img.shields.io/badge/source-Commonly%20asked-2dd4bf?style=flat-square)
 
-> A senior frontend loop. Pragmatic questions — more real-world than pure puzzles.
+> A senior frontend loop. Fundamentals mattered as much as getting to an answer.
 
 **6 rounds · 10 questions**
 
@@ -32,7 +30,7 @@ _Data structures & algorithms on a whiteboard or shared editor._
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
 | Two Sum — return indices of numbers adding to a target. | 🟢 Easy | `array` `hashmap` | [LC](https://leetcode.com/problemset/?search=Two%20Sum%20%E2%80%94%20return%20indices%20of%20numbers%20adding%20to%20a%20target) · [NC](https://neetcode.io/practice) · [GfG](https://www.geeksforgeeks.org/search/?gq=Two%20Sum%20%E2%80%94%20return%20indices%20of%20numbers%20adding%20to%20a%20target) |
-| Group anagrams from a list of strings. | 🟡 Medium | `hashmap` `string` | [LC](https://leetcode.com/problemset/?search=Group%20anagrams%20from%20a%20list%20of%20strings) · [NC](https://neetcode.io/practice) · [GfG](https://www.geeksforgeeks.org/search/?gq=Group%20anagrams%20from%20a%20list%20of%20strings) |
+| Word ladder — shortest transformation sequence. | 🔴 Hard | `bfs` `graph` | [LC](https://leetcode.com/problemset/?search=Word%20ladder%20%E2%80%94%20shortest%20transformation%20sequence) · [NC](https://neetcode.io/practice) · [GfG](https://www.geeksforgeeks.org/search/?gq=Word%20ladder%20%E2%80%94%20shortest%20transformation%20sequence) |
 
 ## Round 2 · Machine Coding
 <!-- round: machine_coding -->
@@ -41,8 +39,8 @@ _Build a working component or service under time pressure._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
+| Build a countdown timer with pause and resume. | 🟢 Easy | `react` `state` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20a%20countdown%20timer%20with%20pause%20and%20resume) · [Search](https://www.google.com/search?q=Build%20a%20countdown%20timer%20with%20pause%20and%20resume) |
 | Build a nested, collapsible comment thread. | 🟡 Medium | `react` `recursion` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20a%20nested%2C%20collapsible%20comment%20thread) · [Search](https://www.google.com/search?q=Build%20a%20nested%2C%20collapsible%20comment%20thread) |
-| Build a debounced autocomplete/search box with keyboard nav. | 🟡 Medium | `react` `debounce` `a11y` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20a%20debounced%20autocomplete%2Fsearch%20box%20with%20keyboard%20nav) · [Search](https://www.google.com/search?q=Build%20a%20debounced%20autocomplete%2Fsearch%20box%20with%20keyboard%20nav) |
 
 ## Round 3 · System Design
 <!-- round: system_design -->
@@ -51,8 +49,8 @@ _High-level architecture of a large-scale system._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Design a scalable frontend for an infinite feed (data, caching, rendering). | 🔴 Hard | `frontend` `virtualization` `cache` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20scalable%20frontend%20for%20an%20infinite%20feed%20(data%2C%20caching%2C%20rendering)) · [Search](https://www.google.com/search?q=Design%20a%20scalable%20frontend%20for%20an%20infinite%20feed%20(data%2C%20caching%2C%20rendering)) |
-| Design a pastebin with expiring links. | 🟡 Medium | `storage` `ttl` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20pastebin%20with%20expiring%20links) · [Search](https://www.google.com/search?q=Design%20a%20pastebin%20with%20expiring%20links) |
+| Design a client-side error and telemetry pipeline. | 🟡 Medium | `frontend` `observability` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20client-side%20error%20and%20telemetry%20pipeline) · [Search](https://www.google.com/search?q=Design%20a%20client-side%20error%20and%20telemetry%20pipeline) |
+| Design a leaderboard for millions of players. | 🟡 Medium | `redis` `ranking` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20leaderboard%20for%20millions%20of%20players) · [Search](https://www.google.com/search?q=Design%20a%20leaderboard%20for%20millions%20of%20players) |
 
 ## Round 4 · Tech Deep-Dive
 <!-- round: tech_deep_dive -->
@@ -61,8 +59,8 @@ _Deep questions on your core stack and fundamentals._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Explain `this` binding and the call/apply/bind trio. | 🟡 Medium | `javascript` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20%60this%60%20binding%20and%20the%20call%2Fapply%2Fbind%20trio) · [Search](https://www.google.com/search?q=Explain%20%60this%60%20binding%20and%20the%20call%2Fapply%2Fbind%20trio) |
-| Accessibility: how do you make a custom widget usable? | 🟡 Medium | `a11y` | [GfG](https://www.geeksforgeeks.org/search/?gq=Accessibility%3A%20how%20do%20you%20make%20a%20custom%20widget%20usable) · [Search](https://www.google.com/search?q=Accessibility%3A%20how%20do%20you%20make%20a%20custom%20widget%20usable) |
+| How do you prevent XSS in a React app? | 🟡 Medium | `security` `react` | [GfG](https://www.geeksforgeeks.org/search/?gq=How%20do%20you%20prevent%20XSS%20in%20a%20React%20app) · [Search](https://www.google.com/search?q=How%20do%20you%20prevent%20XSS%20in%20a%20React%20app) |
+| Explain the JS event loop: microtasks vs macrotasks. | 🟡 Medium | `javascript` `event-loop` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20the%20JS%20event%20loop%3A%20microtasks%20vs%20macrotasks) · [Search](https://www.google.com/search?q=Explain%20the%20JS%20event%20loop%3A%20microtasks%20vs%20macrotasks) |
 
 ## Round 5 · Hiring Manager
 <!-- round: hiring_manager -->

@@ -21,9 +21,9 @@ description: Communications APIs. API design and reliable backend systems.
 | Interview | Outcome | Rounds | Questions |
 | --- | --- | --- | --- |
 | [Senior · Full-stack](../interviews/twilio-1.md) | No offer | 6 | 10 |
-| [Senior · Frontend](../interviews/twilio-2.md) | No offer | 6 | 10 |
-| [Staff · Backend](../interviews/twilio-3.md) | Offer | 5 | 7 |
-| [Junior · Full-stack](../interviews/twilio-4.md) | Offer | 5 | 8 |
+| [Senior · Frontend](../interviews/twilio-2.md) | Unknown | 6 | 10 |
+| [Staff · Backend](../interviews/twilio-3.md) | Withdrew | 5 | 7 |
+| [Junior · Full-stack](../interviews/twilio-4.md) | Unknown | 5 | 8 |
 
 ---
 

@@ -13,6 +13,7 @@ import {
   type Outcome,
 } from '@/lib/constants';
 import type {
+  Bank,
   Company,
   Interview,
   Question,
@@ -25,6 +26,7 @@ import type {
 const CONTENT = join(process.cwd(), 'content');
 const COMPANIES_DIR = join(CONTENT, 'companies');
 const INTERVIEWS_DIR = join(CONTENT, 'interviews');
+const BANKS_DIR = join(CONTENT, 'banks');
 
 type Dataset = {
   companies: Company[];
@@ -272,6 +274,40 @@ export function getTotals(): {
     interviews: d.interviews.length,
     questions: d.questions.length,
   };
+}
+
+/** Open-source topic banks, loaded once. */
+let bankCache: Bank[] | null = null;
+
+function banks(): Bank[] {
+  if (bankCache) return bankCache;
+  bankCache = mdFiles(BANKS_DIR).map((file) => {
+    const { data, content } = matter(readFileSync(join(BANKS_DIR, file), 'utf8'));
+    const parsed = parseRounds(content);
+    const questions = (parsed[0]?.questions ?? []).map((q, i) => ({
+      id: `${data.id}-q${i}`,
+      title: q.title,
+      round: data.round as Round,
+    }));
+    return {
+      id: data.id,
+      title: data.title,
+      round: data.round as Round,
+      role: data.role as Role,
+      sourceRepo: data.sourceRepo,
+      sourceUrl: data.sourceUrl,
+      license: data.license,
+      questions,
+    };
+  });
+  return bankCache;
+}
+
+/** Topic banks that practise a given round. */
+export function getBanksForRound(round: Round): Bank[] {
+  return banks()
+    .filter((b) => b.round === round)
+    .sort((a, b) => b.questions.length - a.questions.length);
 }
 
 export function getRoundCounts(): Partial<Record<Round, number>> {

@@ -3,20 +3,20 @@ id: doordash-1
 company: doordash
 role: backend
 level: senior
-outcome: unknown
-year: 2023
+outcome: offer
+year: 2024
 source: curated
-summary: A senior backend loop. Fast-paced; expect follow-ups that push on depth.
+summary: 'A senior backend loop. Balanced across coding, design, and collaboration.'
 ---
 # Senior Backend — DoorDash
 
 ![role](https://img.shields.io/badge/role-Backend-8b93ff?style=flat-square)
 ![level](https://img.shields.io/badge/level-Senior-818cf8?style=flat-square)
-![outcome](https://img.shields.io/badge/outcome-Unknown-6b7280?style=flat-square)
-![year](https://img.shields.io/badge/year-2023-6b7280?style=flat-square)
+![outcome](https://img.shields.io/badge/outcome-Offer-34d399?style=flat-square)
+![year](https://img.shields.io/badge/year-2024-6b7280?style=flat-square)
 ![source](https://img.shields.io/badge/source-Commonly%20asked-2dd4bf?style=flat-square)
 
-> A senior backend loop. Fast-paced; expect follow-ups that push on depth.
+> A senior backend loop. Balanced across coding, design, and collaboration.
 
 **6 rounds · 10 questions**
 
@@ -29,8 +29,8 @@ _Data structures & algorithms on a whiteboard or shared editor._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Best time to buy and sell stock. | 🟢 Easy | `array` `greedy` | [LC](https://leetcode.com/problemset/?search=Best%20time%20to%20buy%20and%20sell%20stock) · [NC](https://neetcode.io/practice) · [GfG](https://www.geeksforgeeks.org/search/?gq=Best%20time%20to%20buy%20and%20sell%20stock) |
-| Group anagrams from a list of strings. | 🟡 Medium | `hashmap` `string` | [LC](https://leetcode.com/problemset/?search=Group%20anagrams%20from%20a%20list%20of%20strings) · [NC](https://neetcode.io/practice) · [GfG](https://www.geeksforgeeks.org/search/?gq=Group%20anagrams%20from%20a%20list%20of%20strings) |
+| Container with most water. | 🟡 Medium | `two-pointers` `array` | [LC](https://leetcode.com/problemset/?search=Container%20with%20most%20water) · [NC](https://neetcode.io/practice) · [GfG](https://www.geeksforgeeks.org/search/?gq=Container%20with%20most%20water) |
+| Longest substring without repeating characters. | 🟡 Medium | `sliding-window` `string` | [LC](https://leetcode.com/problemset/?search=Longest%20substring%20without%20repeating%20characters) · [NC](https://neetcode.io/practice) · [GfG](https://www.geeksforgeeks.org/search/?gq=Longest%20substring%20without%20repeating%20characters) |
 
 ## Round 2 · Machine Coding
 <!-- round: machine_coding -->
@@ -39,8 +39,8 @@ _Build a working component or service under time pressure._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Build a key-value store with TTL expiry. | 🟡 Medium | `cache` `ttl` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20a%20key-value%20store%20with%20TTL%20expiry) · [Search](https://www.google.com/search?q=Build%20a%20key-value%20store%20with%20TTL%20expiry) |
-| Parse and evaluate a simple expression/DSL. | 🟡 Medium | `parsing` | [GfG](https://www.geeksforgeeks.org/search/?gq=Parse%20and%20evaluate%20a%20simple%20expression%2FDSL) · [Search](https://www.google.com/search?q=Parse%20and%20evaluate%20a%20simple%20expression%2FDSL) |
+| Implement an idempotent "charge" endpoint. | 🔴 Hard | `idempotency` `payments` | [GfG](https://www.geeksforgeeks.org/search/?gq=Implement%20an%20idempotent%20%22charge%22%20endpoint) · [Search](https://www.google.com/search?q=Implement%20an%20idempotent%20%22charge%22%20endpoint) |
+| Implement a bulk-upsert endpoint with validation. | 🟡 Medium | `api` `validation` | [GfG](https://www.geeksforgeeks.org/search/?gq=Implement%20a%20bulk-upsert%20endpoint%20with%20validation) · [Search](https://www.google.com/search?q=Implement%20a%20bulk-upsert%20endpoint%20with%20validation) |
 
 ## Round 3 · System Design
 <!-- round: system_design -->
@@ -49,8 +49,8 @@ _High-level architecture of a large-scale system._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Design a news feed / timeline. | 🔴 Hard | `fanout` `ranking` `cache` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20news%20feed%20%2F%20timeline) · [Search](https://www.google.com/search?q=Design%20a%20news%20feed%20%2F%20timeline) |
-| Design a ride-matching backend (riders ↔ nearby drivers). | 🔴 Hard | `geospatial` `matching` `realtime` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20ride-matching%20backend%20(riders%20%E2%86%94%20nearby%20drivers)) · [Search](https://www.google.com/search?q=Design%20a%20ride-matching%20backend%20(riders%20%E2%86%94%20nearby%20drivers)) |
+| Design an object storage service like S3. | 🔴 Hard | `storage` `scale` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20an%20object%20storage%20service%20like%20S3) · [Search](https://www.google.com/search?q=Design%20an%20object%20storage%20service%20like%20S3) |
+| Design a feature-flag service. | 🟡 Medium | `config` `rollout` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20feature-flag%20service) · [Search](https://www.google.com/search?q=Design%20a%20feature-flag%20service) |
 
 ## Round 4 · Tech Deep-Dive
 <!-- round: tech_deep_dive -->
@@ -59,8 +59,8 @@ _Deep questions on your core stack and fundamentals._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Caching strategies: cache-aside, write-through, TTLs. | 🟡 Medium | `cache` | [GfG](https://www.geeksforgeeks.org/search/?gq=Caching%20strategies%3A%20cache-aside%2C%20write-through%2C%20TTLs) · [Search](https://www.google.com/search?q=Caching%20strategies%3A%20cache-aside%2C%20write-through%2C%20TTLs) |
-| How do you secure secrets and handle auth tokens? | 🟡 Medium | `security` | [GfG](https://www.geeksforgeeks.org/search/?gq=How%20do%20you%20secure%20secrets%20and%20handle%20auth%20tokens) · [Search](https://www.google.com/search?q=How%20do%20you%20secure%20secrets%20and%20handle%20auth%20tokens) |
+| Explain eventual consistency with a real example. | 🔴 Hard | `distributed` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20eventual%20consistency%20with%20a%20real%20example) · [Search](https://www.google.com/search?q=Explain%20eventual%20consistency%20with%20a%20real%20example) |
+| Message queues vs pub/sub — when to use each. | 🟡 Medium | `messaging` | [GfG](https://www.geeksforgeeks.org/search/?gq=Message%20queues%20vs%20pub%2Fsub%20%E2%80%94%20when%20to%20use%20each) · [Search](https://www.google.com/search?q=Message%20queues%20vs%20pub%2Fsub%20%E2%80%94%20when%20to%20use%20each) |
 
 ## Round 5 · Hiring Manager
 <!-- round: hiring_manager -->
@@ -69,7 +69,7 @@ _Scope, ownership, and role-fit discussion with the manager._
 
 | Question | Difficulty | Tags |
 | --- | --- | --- |
-| How do you decide what to build vs. buy vs. defer? | — | `judgment` |
+| What would your first 90 days here look like? | — | `planning` |
 
 ## Round 6 · Behavioral / HR
 <!-- round: behavioral -->
@@ -78,7 +78,7 @@ _Values, collaboration, and past-experience (STAR) questions._
 
 | Question | Difficulty | Tags |
 | --- | --- | --- |
-| A time you influenced a decision without authority. | — | `influence` `star` |
+| Describe mentoring or unblocking another engineer. | — | `mentorship` `star` |
 
 ---
 

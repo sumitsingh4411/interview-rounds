@@ -36,8 +36,13 @@ every page (267 of them).
 ```
 content/
 ├── companies/            one file per company   → google.md
-└── interviews/           one file per interview → google-1.md
+├── interviews/           one file per interview → google-1.md
+└── banks/                open-source topic banks → faqguru-react.md
 ```
+
+`content/banks/` holds **topic** questions imported from MIT-licensed repos.
+They are never attributed to a company — they render in a separate "Topic banks"
+section on each round page, with a link back to the upstream file and its licence.
 
 Two derived artifacts are generated *from* `content/` and never edited by hand:
 
@@ -78,20 +83,31 @@ level: senior            # intern | junior | mid | senior | staff
 outcome: offer           # offer | rejected | no_offer | withdrew | unknown
 year: 2025
 source: curated          # curated | community | github | ai
-rounds:
-  - round: dsa
-    questions:
-      - title: Trapping rain water.
-        difficulty: hard          # easy | medium | hard
-        tags: [two-pointers, array]
-  - round: system_design
-    questions:
-      - title: Design a URL shortener like TinyURL.
-        difficulty: medium
-        tags: [hashing, cache, sharding]
+summary: A senior backend loop. Coding-heavy early, design later.
 ---
-A senior backend loop. Coding-heavy early, design and behavioral later.
+# Senior Backend — Google
+
+> A senior backend loop. Coding-heavy early, design later.
+
+## Round 1 · DSA / Coding
+<!-- round: dsa -->
+
+| Question | Difficulty | Tags | Practice |
+| --- | --- | --- | --- |
+| Trapping rain water. | 🔴 Hard | `two-pointers` `array` | [LC](...) |
+
+## Round 2 · System Design
+<!-- round: system_design -->
+
+| Question | Difficulty | Tags | Practice |
+| --- | --- | --- | --- |
+| Design a URL shortener like TinyURL. | 🟡 Medium | `hashing` `cache` | [GfG](...) |
 ```
+
+**Rounds live in the body, not the frontmatter.** Each round is anchored by an
+invisible `<!-- round: KEY -->` marker followed by a table — that is what the
+parser reads, so the file stays readable on GitHub. The heading text above the
+marker is free-form.
 
 Round keys: `oa`, `dsa`, `machine_coding`, `lld`, `system_design`,
 `tech_deep_dive`, `hiring_manager`, `behavioral`.
@@ -129,6 +145,7 @@ src/
 | `npm run lint` | Lint |
 | `npm run search-index` | Rebuild `public/search-index.json` from `content/` |
 | `npm run readme-index` | Rebuild the interview index **and count badges** in `README.md` from `content/` |
+| `npm run import:bank` | Re-import the open-source topic banks (overwrites `content/banks/`) |
 | `npm run content:bootstrap` | ⚠️ Regenerate all content — **overwrites `content/`** |
 
 ---

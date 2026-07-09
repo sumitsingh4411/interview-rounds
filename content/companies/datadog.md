@@ -22,7 +22,7 @@ description: Monitoring at scale. Time-series systems and pragmatic coding.
 | --- | --- | --- | --- |
 | [Staff · Backend](../interviews/datadog-1.md) | No offer | 5 | 7 |
 | [Junior · Full-stack](../interviews/datadog-2.md) | No offer | 5 | 8 |
-| [Senior · Backend](../interviews/datadog-3.md) | No offer | 6 | 10 |
+| [Senior · Backend](../interviews/datadog-3.md) | Withdrew | 6 | 10 |
 | [Mid · Frontend](../interviews/datadog-4.md) | Offer | 5 | 8 |
 
 ---

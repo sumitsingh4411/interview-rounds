@@ -20,10 +20,10 @@ description: The document database. Data modeling and distributed-systems design
 
 | Interview | Outcome | Rounds | Questions |
 | --- | --- | --- | --- |
-| [Mid · Frontend](../interviews/mongodb-1.md) | Unknown | 5 | 8 |
-| [Junior · Frontend](../interviews/mongodb-2.md) | Unknown | 5 | 8 |
-| [Mid · Backend](../interviews/mongodb-3.md) | Offer | 5 | 8 |
-| [Senior · Full-stack](../interviews/mongodb-4.md) | Offer | 6 | 10 |
+| [Mid · Frontend](../interviews/mongodb-1.md) | Withdrew | 5 | 8 |
+| [Junior · Frontend](../interviews/mongodb-2.md) | Rejected | 5 | 8 |
+| [Mid · Backend](../interviews/mongodb-3.md) | Unknown | 5 | 8 |
+| [Senior · Full-stack](../interviews/mongodb-4.md) | Withdrew | 6 | 10 |
 
 ---
 

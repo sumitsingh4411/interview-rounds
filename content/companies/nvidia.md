@@ -20,10 +20,10 @@ description: GPUs and AI infrastructure. Performance-minded systems and coding r
 
 | Interview | Outcome | Rounds | Questions |
 | --- | --- | --- | --- |
-| [Mid · Frontend](../interviews/nvidia-1.md) | Withdrew | 5 | 8 |
+| [Mid · Frontend](../interviews/nvidia-1.md) | Offer | 5 | 8 |
 | [Junior · Frontend](../interviews/nvidia-2.md) | Withdrew | 5 | 8 |
-| [Mid · Backend](../interviews/nvidia-3.md) | No offer | 5 | 8 |
-| [Senior · Full-stack](../interviews/nvidia-4.md) | Unknown | 6 | 10 |
+| [Mid · Backend](../interviews/nvidia-3.md) | Rejected | 5 | 8 |
+| [Senior · Full-stack](../interviews/nvidia-4.md) | Offer | 6 | 10 |
 
 ---
 

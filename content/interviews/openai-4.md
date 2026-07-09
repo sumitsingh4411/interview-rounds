@@ -6,9 +6,7 @@ level: senior
 outcome: rejected
 year: 2025
 source: curated
-summary: >-
-  6-round senior backend process. Coding-heavy early, design and behavioral
-  later.
+summary: A senior backend loop. Fundamentals mattered as much as getting to an answer.
 ---
 # Senior Backend — OpenAI
 
@@ -18,7 +16,7 @@ summary: >-
 ![year](https://img.shields.io/badge/year-2025-6b7280?style=flat-square)
 ![source](https://img.shields.io/badge/source-Commonly%20asked-2dd4bf?style=flat-square)
 
-> 6-round senior backend process. Coding-heavy early, design and behavioral later.
+> A senior backend loop. Fundamentals mattered as much as getting to an answer.
 
 **6 rounds · 10 questions**
 
@@ -31,8 +29,8 @@ _Data structures & algorithms on a whiteboard or shared editor._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Valid Parentheses — check balanced brackets. | 🟢 Easy | `stack` `string` | [LC](https://leetcode.com/problemset/?search=Valid%20Parentheses%20%E2%80%94%20check%20balanced%20brackets) · [NC](https://neetcode.io/practice) · [GfG](https://www.geeksforgeeks.org/search/?gq=Valid%20Parentheses%20%E2%80%94%20check%20balanced%20brackets) |
-| LRU cache with O(1) get and put. | 🟡 Medium | `hashmap` `linked-list` | [LC](https://leetcode.com/problemset/?search=LRU%20cache%20with%20O(1)%20get%20and%20put) · [NC](https://neetcode.io/practice) · [GfG](https://www.geeksforgeeks.org/search/?gq=LRU%20cache%20with%20O(1)%20get%20and%20put) |
+| Serialize and deserialize a binary tree. | 🔴 Hard | `tree` `dfs` | [LC](https://leetcode.com/problemset/?search=Serialize%20and%20deserialize%20a%20binary%20tree) · [NC](https://neetcode.io/practice) · [GfG](https://www.geeksforgeeks.org/search/?gq=Serialize%20and%20deserialize%20a%20binary%20tree) |
+| Coin change — fewest coins to make an amount. | 🟡 Medium | `dp` | [LC](https://leetcode.com/problemset/?search=Coin%20change%20%E2%80%94%20fewest%20coins%20to%20make%20an%20amount) · [NC](https://neetcode.io/practice) · [GfG](https://www.geeksforgeeks.org/search/?gq=Coin%20change%20%E2%80%94%20fewest%20coins%20to%20make%20an%20amount) |
 
 ## Round 2 · Machine Coding
 <!-- round: machine_coding -->
@@ -41,8 +39,8 @@ _Build a working component or service under time pressure._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Implement an idempotent "charge" endpoint. | 🔴 Hard | `idempotency` `payments` | [GfG](https://www.geeksforgeeks.org/search/?gq=Implement%20an%20idempotent%20%22charge%22%20endpoint) · [Search](https://www.google.com/search?q=Implement%20an%20idempotent%20%22charge%22%20endpoint) |
-| Implement a job queue with retries and backoff. | 🔴 Hard | `queue` `reliability` | [GfG](https://www.geeksforgeeks.org/search/?gq=Implement%20a%20job%20queue%20with%20retries%20and%20backoff) · [Search](https://www.google.com/search?q=Implement%20a%20job%20queue%20with%20retries%20and%20backoff) |
+| Design and build a URL-shortener service (API + storage). | 🟡 Medium | `api` `hashing` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20and%20build%20a%20URL-shortener%20service%20(API%20%2B%20storage)) · [Search](https://www.google.com/search?q=Design%20and%20build%20a%20URL-shortener%20service%20(API%20%2B%20storage)) |
+| Implement cursor-based pagination over a sorted dataset. | 🟡 Medium | `pagination` `api` | [GfG](https://www.geeksforgeeks.org/search/?gq=Implement%20cursor-based%20pagination%20over%20a%20sorted%20dataset) · [Search](https://www.google.com/search?q=Implement%20cursor-based%20pagination%20over%20a%20sorted%20dataset) |
 
 ## Round 3 · System Design
 <!-- round: system_design -->
@@ -51,8 +49,8 @@ _High-level architecture of a large-scale system._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Design a notification system (push/email/SMS). | 🟡 Medium | `queues` `fanout` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20notification%20system%20(push%2Femail%2FSMS)) · [Search](https://www.google.com/search?q=Design%20a%20notification%20system%20(push%2Femail%2FSMS)) |
-| Design a metrics/time-series ingestion pipeline. | 🔴 Hard | `time-series` `ingestion` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20metrics%2Ftime-series%20ingestion%20pipeline) · [Search](https://www.google.com/search?q=Design%20a%20metrics%2Ftime-series%20ingestion%20pipeline) |
+| Design a rate limiter for a public API. | 🟡 Medium | `token-bucket` `redis` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20rate%20limiter%20for%20a%20public%20API) · [Search](https://www.google.com/search?q=Design%20a%20rate%20limiter%20for%20a%20public%20API) |
+| Design a webhook delivery system with retries. | 🟡 Medium | `reliability` `queues` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20webhook%20delivery%20system%20with%20retries) · [Search](https://www.google.com/search?q=Design%20a%20webhook%20delivery%20system%20with%20retries) |
 
 ## Round 4 · Tech Deep-Dive
 <!-- round: tech_deep_dive -->
@@ -61,8 +59,8 @@ _Deep questions on your core stack and fundamentals._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Caching strategies: cache-aside, write-through, TTLs. | 🟡 Medium | `cache` | [GfG](https://www.geeksforgeeks.org/search/?gq=Caching%20strategies%3A%20cache-aside%2C%20write-through%2C%20TTLs) · [Search](https://www.google.com/search?q=Caching%20strategies%3A%20cache-aside%2C%20write-through%2C%20TTLs) |
-| Explain database indexing and when a query uses one. | 🟡 Medium | `databases` `indexing` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20database%20indexing%20and%20when%20a%20query%20uses%20one) · [Search](https://www.google.com/search?q=Explain%20database%20indexing%20and%20when%20a%20query%20uses%20one) |
+| Trade-offs of gRPC vs REST vs GraphQL. | 🟡 Medium | `api-design` | [GfG](https://www.geeksforgeeks.org/search/?gq=Trade-offs%20of%20gRPC%20vs%20REST%20vs%20GraphQL) · [Search](https://www.google.com/search?q=Trade-offs%20of%20gRPC%20vs%20REST%20vs%20GraphQL) |
+| Explain optimistic vs pessimistic locking. | 🔴 Hard | `databases` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20optimistic%20vs%20pessimistic%20locking) · [Search](https://www.google.com/search?q=Explain%20optimistic%20vs%20pessimistic%20locking) |
 
 ## Round 5 · Hiring Manager
 <!-- round: hiring_manager -->
@@ -71,7 +69,7 @@ _Scope, ownership, and role-fit discussion with the manager._
 
 | Question | Difficulty | Tags |
 | --- | --- | --- |
-| How do you keep a team unblocked and shipping? | — | `leadership` |
+| What does a great engineering culture look like to you? | — | `values` |
 
 ## Round 6 · Behavioral / HR
 <!-- round: behavioral -->
@@ -80,7 +78,7 @@ _Values, collaboration, and past-experience (STAR) questions._
 
 | Question | Difficulty | Tags |
 | --- | --- | --- |
-| A time you influenced a decision without authority. | — | `influence` `star` |
+| Describe something you shipped that you were not proud of. | — | `tradeoffs` `star` |
 
 ---
 

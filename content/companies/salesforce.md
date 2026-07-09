@@ -21,9 +21,9 @@ description: 'The CRM platform. Loops mix DSA, design, and values-based rounds.'
 | Interview | Outcome | Rounds | Questions |
 | --- | --- | --- | --- |
 | [Senior · Full-stack](../interviews/salesforce-1.md) | No offer | 6 | 10 |
-| [Senior · Frontend](../interviews/salesforce-2.md) | Withdrew | 6 | 10 |
-| [Staff · Backend](../interviews/salesforce-3.md) | No offer | 5 | 7 |
-| [Junior · Full-stack](../interviews/salesforce-4.md) | Offer | 5 | 8 |
+| [Senior · Frontend](../interviews/salesforce-2.md) | Offer | 6 | 10 |
+| [Staff · Backend](../interviews/salesforce-3.md) | Unknown | 5 | 7 |
+| [Junior · Full-stack](../interviews/salesforce-4.md) | No offer | 5 | 8 |
 
 ---
 

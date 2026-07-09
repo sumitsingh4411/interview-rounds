@@ -21,7 +21,7 @@ description: 'Collaborative design. Deep frontend, canvas, and CRDT-style system
 | Interview | Outcome | Rounds | Questions |
 | --- | --- | --- | --- |
 | [Staff · Backend](../interviews/figma-1.md) | Rejected | 5 | 7 |
-| [Junior · Full-stack](../interviews/figma-2.md) | No offer | 5 | 8 |
+| [Junior · Full-stack](../interviews/figma-2.md) | Withdrew | 5 | 8 |
 | [Senior · Backend](../interviews/figma-3.md) | Offer | 6 | 10 |
 | [Mid · Frontend](../interviews/figma-4.md) | Withdrew | 5 | 8 |
 

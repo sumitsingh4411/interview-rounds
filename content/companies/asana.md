@@ -21,8 +21,8 @@ description: Work management. Clean coding and product-oriented design rounds.
 | Interview | Outcome | Rounds | Questions |
 | --- | --- | --- | --- |
 | [Staff · Backend](../interviews/asana-1.md) | Unknown | 5 | 7 |
-| [Junior · Full-stack](../interviews/asana-2.md) | No offer | 5 | 8 |
-| [Senior · Backend](../interviews/asana-3.md) | Unknown | 6 | 10 |
+| [Junior · Full-stack](../interviews/asana-2.md) | Rejected | 5 | 8 |
+| [Senior · Backend](../interviews/asana-3.md) | No offer | 6 | 10 |
 | [Mid · Frontend](../interviews/asana-4.md) | Offer | 5 | 8 |
 
 ---

@@ -20,10 +20,10 @@ description: Team messaging. Real-time systems and thoughtful frontend rounds.
 
 | Interview | Outcome | Rounds | Questions |
 | --- | --- | --- | --- |
-| [Senior · Frontend](../interviews/slack-1.md) | Offer | 6 | 10 |
-| [Staff · Backend](../interviews/slack-2.md) | Withdrew | 5 | 7 |
-| [Junior · Full-stack](../interviews/slack-3.md) | Withdrew | 5 | 8 |
-| [Senior · Backend](../interviews/slack-4.md) | Offer | 6 | 10 |
+| [Senior · Frontend](../interviews/slack-1.md) | Withdrew | 6 | 10 |
+| [Staff · Backend](../interviews/slack-2.md) | Offer | 5 | 7 |
+| [Junior · Full-stack](../interviews/slack-3.md) | Unknown | 5 | 8 |
+| [Senior · Backend](../interviews/slack-4.md) | Rejected | 6 | 10 |
 
 ---
 

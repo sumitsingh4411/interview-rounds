@@ -23,9 +23,9 @@ description: >-
 
 | Interview | Outcome | Rounds | Questions |
 | --- | --- | --- | --- |
-| [Senior · Backend](../interviews/meta-1.md) | Rejected | 6 | 10 |
-| [Mid · Frontend](../interviews/meta-2.md) | No offer | 5 | 8 |
-| [Junior · Frontend](../interviews/meta-3.md) | Withdrew | 5 | 8 |
+| [Senior · Backend](../interviews/meta-1.md) | Offer | 6 | 10 |
+| [Mid · Frontend](../interviews/meta-2.md) | Unknown | 5 | 8 |
+| [Junior · Frontend](../interviews/meta-3.md) | Rejected | 5 | 8 |
 | [Mid · Backend](../interviews/meta-4.md) | Offer | 5 | 8 |
 
 ---

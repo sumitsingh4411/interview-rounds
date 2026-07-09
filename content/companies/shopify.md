@@ -20,10 +20,10 @@ description: Commerce platform. Real-world coding and a life-story/values round.
 
 | Interview | Outcome | Rounds | Questions |
 | --- | --- | --- | --- |
-| [Staff · Backend](../interviews/shopify-1.md) | Unknown | 5 | 7 |
-| [Junior · Full-stack](../interviews/shopify-2.md) | Offer | 5 | 8 |
+| [Staff · Backend](../interviews/shopify-1.md) | No offer | 5 | 7 |
+| [Junior · Full-stack](../interviews/shopify-2.md) | No offer | 5 | 8 |
 | [Senior · Backend](../interviews/shopify-3.md) | Unknown | 6 | 10 |
-| [Mid · Frontend](../interviews/shopify-4.md) | Withdrew | 5 | 8 |
+| [Mid · Frontend](../interviews/shopify-4.md) | Unknown | 5 | 8 |
 
 ---
 

@@ -20,9 +20,9 @@ description: 'TikTok and more. Fast, DSA-heavy loops with large-scale systems.'
 
 | Interview | Outcome | Rounds | Questions |
 | --- | --- | --- | --- |
-| [Mid · Backend](../interviews/bytedance-1.md) | Rejected | 5 | 8 |
-| [Senior · Full-stack](../interviews/bytedance-2.md) | Unknown | 6 | 10 |
-| [Senior · Frontend](../interviews/bytedance-3.md) | Unknown | 6 | 10 |
+| [Mid · Backend](../interviews/bytedance-1.md) | Withdrew | 5 | 8 |
+| [Senior · Full-stack](../interviews/bytedance-2.md) | Offer | 6 | 10 |
+| [Senior · Frontend](../interviews/bytedance-3.md) | No offer | 6 | 10 |
 | [Staff · Backend](../interviews/bytedance-4.md) | Rejected | 5 | 7 |
 
 ---

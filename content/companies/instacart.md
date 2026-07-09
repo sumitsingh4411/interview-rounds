@@ -20,10 +20,10 @@ description: Grocery delivery. Product-focused coding and data-heavy design.
 
 | Interview | Outcome | Rounds | Questions |
 | --- | --- | --- | --- |
-| [Junior · Full-stack](../interviews/instacart-1.md) | No offer | 5 | 8 |
-| [Senior · Backend](../interviews/instacart-2.md) | Offer | 6 | 10 |
-| [Mid · Frontend](../interviews/instacart-3.md) | Offer | 5 | 8 |
-| [Junior · Frontend](../interviews/instacart-4.md) | Withdrew | 5 | 8 |
+| [Junior · Full-stack](../interviews/instacart-1.md) | Offer | 5 | 8 |
+| [Senior · Backend](../interviews/instacart-2.md) | Withdrew | 6 | 10 |
+| [Mid · Frontend](../interviews/instacart-3.md) | No offer | 5 | 8 |
+| [Junior · Frontend](../interviews/instacart-4.md) | No offer | 5 | 8 |
 
 ---
 

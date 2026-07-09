@@ -20,10 +20,10 @@ description: Travel marketplace with a famously strong frontend and design cultu
 
 | Interview | Outcome | Rounds | Questions |
 | --- | --- | --- | --- |
-| [Senior · Backend](../interviews/airbnb-1.md) | Offer | 6 | 10 |
-| [Mid · Frontend](../interviews/airbnb-2.md) | Unknown | 5 | 8 |
-| [Junior · Frontend](../interviews/airbnb-3.md) | Offer | 5 | 8 |
-| [Mid · Backend](../interviews/airbnb-4.md) | Withdrew | 5 | 8 |
+| [Senior · Backend](../interviews/airbnb-1.md) | No offer | 6 | 10 |
+| [Mid · Frontend](../interviews/airbnb-2.md) | Offer | 5 | 8 |
+| [Junior · Frontend](../interviews/airbnb-3.md) | Withdrew | 5 | 8 |
+| [Mid · Backend](../interviews/airbnb-4.md) | Rejected | 5 | 8 |
 
 ---
 

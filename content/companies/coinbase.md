@@ -20,10 +20,10 @@ description: 'Crypto exchange. Correctness, security, and high-throughput system
 
 | Interview | Outcome | Rounds | Questions |
 | --- | --- | --- | --- |
-| [Senior · Backend](../interviews/coinbase-1.md) | Unknown | 6 | 10 |
+| [Senior · Backend](../interviews/coinbase-1.md) | Offer | 6 | 10 |
 | [Mid · Frontend](../interviews/coinbase-2.md) | Offer | 5 | 8 |
-| [Junior · Frontend](../interviews/coinbase-3.md) | Unknown | 5 | 8 |
-| [Mid · Backend](../interviews/coinbase-4.md) | Offer | 5 | 8 |
+| [Junior · Frontend](../interviews/coinbase-3.md) | Offer | 5 | 8 |
+| [Mid · Backend](../interviews/coinbase-4.md) | Unknown | 5 | 8 |
 
 ---
 

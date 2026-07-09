@@ -20,10 +20,10 @@ description: AI safety and Claude. Thoughtful coding and product engineering.
 
 | Interview | Outcome | Rounds | Questions |
 | --- | --- | --- | --- |
-| [Junior · Frontend](../interviews/anthropic-1.md) | Offer | 5 | 8 |
-| [Mid · Backend](../interviews/anthropic-2.md) | Rejected | 5 | 8 |
-| [Senior · Full-stack](../interviews/anthropic-3.md) | No offer | 6 | 10 |
-| [Senior · Frontend](../interviews/anthropic-4.md) | Offer | 6 | 10 |
+| [Junior · Frontend](../interviews/anthropic-1.md) | Rejected | 5 | 8 |
+| [Mid · Backend](../interviews/anthropic-2.md) | No offer | 5 | 8 |
+| [Senior · Full-stack](../interviews/anthropic-3.md) | Rejected | 6 | 10 |
+| [Senior · Frontend](../interviews/anthropic-4.md) | No offer | 6 | 10 |
 
 ---
 

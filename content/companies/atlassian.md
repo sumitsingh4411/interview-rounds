@@ -20,10 +20,10 @@ description: 'Jira, Confluence, Trello. Values-driven loop with strong frontend 
 
 | Interview | Outcome | Rounds | Questions |
 | --- | --- | --- | --- |
-| [Senior · Full-stack](../interviews/atlassian-1.md) | Rejected | 6 | 10 |
-| [Senior · Frontend](../interviews/atlassian-2.md) | Withdrew | 6 | 10 |
-| [Staff · Backend](../interviews/atlassian-3.md) | Rejected | 5 | 7 |
-| [Junior · Full-stack](../interviews/atlassian-4.md) | Withdrew | 5 | 8 |
+| [Senior · Full-stack](../interviews/atlassian-1.md) | Offer | 6 | 10 |
+| [Senior · Frontend](../interviews/atlassian-2.md) | Unknown | 6 | 10 |
+| [Staff · Backend](../interviews/atlassian-3.md) | Unknown | 5 | 7 |
+| [Junior · Full-stack](../interviews/atlassian-4.md) | Rejected | 5 | 8 |
 
 ---
 

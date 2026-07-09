@@ -22,8 +22,8 @@ description: Kafka and streaming. Distributed systems and backend depth.
 | --- | --- | --- | --- |
 | [Junior · Frontend](../interviews/confluent-1.md) | No offer | 5 | 8 |
 | [Mid · Backend](../interviews/confluent-2.md) | Offer | 5 | 8 |
-| [Senior · Full-stack](../interviews/confluent-3.md) | Rejected | 6 | 10 |
-| [Senior · Frontend](../interviews/confluent-4.md) | Rejected | 6 | 10 |
+| [Senior · Full-stack](../interviews/confluent-3.md) | Offer | 6 | 10 |
+| [Senior · Frontend](../interviews/confluent-4.md) | Withdrew | 6 | 10 |
 
 ---
 

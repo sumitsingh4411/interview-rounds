@@ -20,9 +20,9 @@ description: Terraform and infra tooling. Systems coding and API design.
 
 | Interview | Outcome | Rounds | Questions |
 | --- | --- | --- | --- |
-| [Senior · Backend](../interviews/hashicorp-1.md) | Rejected | 6 | 10 |
+| [Senior · Backend](../interviews/hashicorp-1.md) | Offer | 6 | 10 |
 | [Mid · Frontend](../interviews/hashicorp-2.md) | Unknown | 5 | 8 |
-| [Junior · Frontend](../interviews/hashicorp-3.md) | Offer | 5 | 8 |
+| [Junior · Frontend](../interviews/hashicorp-3.md) | Unknown | 5 | 8 |
 | [Mid · Backend](../interviews/hashicorp-4.md) | Offer | 5 | 8 |
 
 ---

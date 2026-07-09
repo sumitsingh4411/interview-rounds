@@ -4,21 +4,19 @@ company: datadog
 role: backend
 level: staff
 outcome: no_offer
-year: 2025
+year: 2023
 source: curated
-summary: >-
-  Staff backend interview. Fundamentals mattered as much as getting to an
-  answer.
+summary: Staff backend interview. Fast-paced; expect follow-ups that push on depth.
 ---
 # Staff Backend — Datadog
 
 ![role](https://img.shields.io/badge/role-Backend-8b93ff?style=flat-square)
 ![level](https://img.shields.io/badge/level-Staff-818cf8?style=flat-square)
 ![outcome](https://img.shields.io/badge/outcome-No%20offer-f87171?style=flat-square)
-![year](https://img.shields.io/badge/year-2025-6b7280?style=flat-square)
+![year](https://img.shields.io/badge/year-2023-6b7280?style=flat-square)
 ![source](https://img.shields.io/badge/source-Commonly%20asked-2dd4bf?style=flat-square)
 
-> Staff backend interview. Fundamentals mattered as much as getting to an answer.
+> Staff backend interview. Fast-paced; expect follow-ups that push on depth.
 
 **5 rounds · 7 questions**
 
@@ -31,8 +29,8 @@ _Data structures & algorithms on a whiteboard or shared editor._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| LRU cache with O(1) get and put. | 🟡 Medium | `hashmap` `linked-list` | [LC](https://leetcode.com/problemset/?search=LRU%20cache%20with%20O(1)%20get%20and%20put) · [NC](https://neetcode.io/practice) · [GfG](https://www.geeksforgeeks.org/search/?gq=LRU%20cache%20with%20O(1)%20get%20and%20put) |
-| Two Sum — return indices of numbers adding to a target. | 🟢 Easy | `array` `hashmap` | [LC](https://leetcode.com/problemset/?search=Two%20Sum%20%E2%80%94%20return%20indices%20of%20numbers%20adding%20to%20a%20target) · [NC](https://neetcode.io/practice) · [GfG](https://www.geeksforgeeks.org/search/?gq=Two%20Sum%20%E2%80%94%20return%20indices%20of%20numbers%20adding%20to%20a%20target) |
+| Kth largest element in an array. | 🟡 Medium | `heap` `quickselect` | [LC](https://leetcode.com/problemset/?search=Kth%20largest%20element%20in%20an%20array) · [NC](https://neetcode.io/practice) · [GfG](https://www.geeksforgeeks.org/search/?gq=Kth%20largest%20element%20in%20an%20array) |
+| Container with most water. | 🟡 Medium | `two-pointers` `array` | [LC](https://leetcode.com/problemset/?search=Container%20with%20most%20water) · [NC](https://neetcode.io/practice) · [GfG](https://www.geeksforgeeks.org/search/?gq=Container%20with%20most%20water) |
 
 ## Round 2 · System Design
 <!-- round: system_design -->
@@ -42,7 +40,7 @@ _High-level architecture of a large-scale system._
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
 | Design a typeahead / autocomplete service. | 🔴 Hard | `trie` `cache` `ranking` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20typeahead%20%2F%20autocomplete%20service) · [Search](https://www.google.com/search?q=Design%20a%20typeahead%20%2F%20autocomplete%20service) |
-| Design a payment processing + idempotency system. | 🔴 Hard | `idempotency` `consistency` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20payment%20processing%20%2B%20idempotency%20system) · [Search](https://www.google.com/search?q=Design%20a%20payment%20processing%20%2B%20idempotency%20system) |
+| Design a URL shortener like TinyURL. | 🟡 Medium | `hashing` `cache` `sharding` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20URL%20shortener%20like%20TinyURL) · [Search](https://www.google.com/search?q=Design%20a%20URL%20shortener%20like%20TinyURL) |
 
 ## Round 3 · Low-Level Design
 <!-- round: lld -->
@@ -51,7 +49,7 @@ _Object-oriented / low-level design of a focused module._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Design an elevator control system. | 🟡 Medium | `oop` `state-machine` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20an%20elevator%20control%20system) · [Search](https://www.google.com/search?q=Design%20an%20elevator%20control%20system) |
+| Design classes for a parking lot. | 🟡 Medium | `oop` `design-patterns` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20classes%20for%20a%20parking%20lot) · [Search](https://www.google.com/search?q=Design%20classes%20for%20a%20parking%20lot) |
 
 ## Round 4 · Hiring Manager
 <!-- round: hiring_manager -->
@@ -60,7 +58,7 @@ _Scope, ownership, and role-fit discussion with the manager._
 
 | Question | Difficulty | Tags |
 | --- | --- | --- |
-| How do you handle disagreement with a product partner? | — | `collaboration` |
+| What does a great engineering culture look like to you? | — | `values` |
 
 ## Round 5 · Behavioral / HR
 <!-- round: behavioral -->
@@ -69,7 +67,7 @@ _Values, collaboration, and past-experience (STAR) questions._
 
 | Question | Difficulty | Tags |
 | --- | --- | --- |
-| Describe working with an ambiguous or shifting requirement. | — | `ambiguity` `star` |
+| Describe mentoring or unblocking another engineer. | — | `mentorship` `star` |
 
 ---
 

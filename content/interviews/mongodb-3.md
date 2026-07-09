@@ -3,20 +3,20 @@ id: mongodb-3
 company: mongodb
 role: backend
 level: mid
-outcome: offer
-year: 2024
+outcome: unknown
+year: 2023
 source: curated
-summary: A mid backend loop. Fundamentals mattered as much as getting to an answer.
+summary: 5-round mid backend process. Fast-paced; expect follow-ups that push on depth.
 ---
 # Mid Backend — MongoDB
 
 ![role](https://img.shields.io/badge/role-Backend-8b93ff?style=flat-square)
 ![level](https://img.shields.io/badge/level-Mid-818cf8?style=flat-square)
-![outcome](https://img.shields.io/badge/outcome-Offer-34d399?style=flat-square)
-![year](https://img.shields.io/badge/year-2024-6b7280?style=flat-square)
+![outcome](https://img.shields.io/badge/outcome-Unknown-6b7280?style=flat-square)
+![year](https://img.shields.io/badge/year-2023-6b7280?style=flat-square)
 ![source](https://img.shields.io/badge/source-Commonly%20asked-2dd4bf?style=flat-square)
 
-> A mid backend loop. Fundamentals mattered as much as getting to an answer.
+> 5-round mid backend process. Fast-paced; expect follow-ups that push on depth.
 
 **5 rounds · 8 questions**
 
@@ -29,8 +29,8 @@ _Data structures & algorithms on a whiteboard or shared editor._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Group anagrams from a list of strings. | 🟡 Medium | `hashmap` `string` | [LC](https://leetcode.com/problemset/?search=Group%20anagrams%20from%20a%20list%20of%20strings) · [NC](https://neetcode.io/practice) · [GfG](https://www.geeksforgeeks.org/search/?gq=Group%20anagrams%20from%20a%20list%20of%20strings) |
-| Merge k sorted lists. | 🔴 Hard | `heap` `linked-list` | [LC](https://leetcode.com/problemset/?search=Merge%20k%20sorted%20lists) · [NC](https://neetcode.io/practice) · [GfG](https://www.geeksforgeeks.org/search/?gq=Merge%20k%20sorted%20lists) |
+| Climbing stairs. | 🟢 Easy | `dp` | [LC](https://leetcode.com/problemset/?search=Climbing%20stairs) · [NC](https://neetcode.io/practice) · [GfG](https://www.geeksforgeeks.org/search/?gq=Climbing%20stairs) |
+| Reverse nodes in k-group. | 🔴 Hard | `linked-list` | [LC](https://leetcode.com/problemset/?search=Reverse%20nodes%20in%20k-group) · [NC](https://neetcode.io/practice) · [GfG](https://www.geeksforgeeks.org/search/?gq=Reverse%20nodes%20in%20k-group) |
 
 ## Round 2 · Machine Coding
 <!-- round: machine_coding -->
@@ -39,8 +39,8 @@ _Build a working component or service under time pressure._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Build a CSV importer that streams and validates rows. | 🟡 Medium | `streaming` `validation` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20a%20CSV%20importer%20that%20streams%20and%20validates%20rows) · [Search](https://www.google.com/search?q=Build%20a%20CSV%20importer%20that%20streams%20and%20validates%20rows) |
-| Build a REST endpoint with pagination, filtering and sorting. | 🟡 Medium | `api` `pagination` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20a%20REST%20endpoint%20with%20pagination%2C%20filtering%20and%20sorting) · [Search](https://www.google.com/search?q=Build%20a%20REST%20endpoint%20with%20pagination%2C%20filtering%20and%20sorting) |
+| Implement cursor-based pagination over a sorted dataset. | 🟡 Medium | `pagination` `api` | [GfG](https://www.geeksforgeeks.org/search/?gq=Implement%20cursor-based%20pagination%20over%20a%20sorted%20dataset) · [Search](https://www.google.com/search?q=Implement%20cursor-based%20pagination%20over%20a%20sorted%20dataset) |
+| Implement an exponential-backoff HTTP client. | 🟡 Medium | `reliability` | [GfG](https://www.geeksforgeeks.org/search/?gq=Implement%20an%20exponential-backoff%20HTTP%20client) · [Search](https://www.google.com/search?q=Implement%20an%20exponential-backoff%20HTTP%20client) |
 
 ## Round 3 · Low-Level Design
 <!-- round: lld -->
@@ -49,7 +49,7 @@ _Object-oriented / low-level design of a focused module._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Design an in-memory file system. | 🔴 Hard | `oop` `trees` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20an%20in-memory%20file%20system) · [Search](https://www.google.com/search?q=Design%20an%20in-memory%20file%20system) |
+| Design a deck of cards + a card game. | 🟢 Easy | `oop` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20deck%20of%20cards%20%2B%20a%20card%20game) · [Search](https://www.google.com/search?q=Design%20a%20deck%20of%20cards%20%2B%20a%20card%20game) |
 
 ## Round 4 · Tech Deep-Dive
 <!-- round: tech_deep_dive -->
@@ -59,7 +59,7 @@ _Deep questions on your core stack and fundamentals._
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
 | Message queues vs pub/sub — when to use each. | 🟡 Medium | `messaging` | [GfG](https://www.geeksforgeeks.org/search/?gq=Message%20queues%20vs%20pub%2Fsub%20%E2%80%94%20when%20to%20use%20each) · [Search](https://www.google.com/search?q=Message%20queues%20vs%20pub%2Fsub%20%E2%80%94%20when%20to%20use%20each) |
-| Explain how you handle concurrency / race conditions. | 🔴 Hard | `concurrency` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20how%20you%20handle%20concurrency%20%2F%20race%20conditions) · [Search](https://www.google.com/search?q=Explain%20how%20you%20handle%20concurrency%20%2F%20race%20conditions) |
+| Trade-offs of gRPC vs REST vs GraphQL. | 🟡 Medium | `api-design` | [GfG](https://www.geeksforgeeks.org/search/?gq=Trade-offs%20of%20gRPC%20vs%20REST%20vs%20GraphQL) · [Search](https://www.google.com/search?q=Trade-offs%20of%20gRPC%20vs%20REST%20vs%20GraphQL) |
 
 ## Round 5 · Behavioral / HR
 <!-- round: behavioral -->
@@ -68,7 +68,7 @@ _Values, collaboration, and past-experience (STAR) questions._
 
 | Question | Difficulty | Tags |
 | --- | --- | --- |
-| Tell me about a time you simplified something overly complex. | — | `judgment` `star` |
+| Tell me about the hardest bug you have debugged. | — | `debugging` `star` |
 
 ---
 

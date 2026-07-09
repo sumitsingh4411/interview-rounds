@@ -21,9 +21,9 @@ description: Square and Cash App. Payments coding and pragmatic system design.
 | Interview | Outcome | Rounds | Questions |
 | --- | --- | --- | --- |
 | [Junior · Full-stack](../interviews/block-1.md) | Offer | 5 | 8 |
-| [Senior · Backend](../interviews/block-2.md) | Offer | 6 | 10 |
+| [Senior · Backend](../interviews/block-2.md) | Unknown | 6 | 10 |
 | [Mid · Frontend](../interviews/block-3.md) | Offer | 5 | 8 |
-| [Junior · Frontend](../interviews/block-4.md) | Rejected | 5 | 8 |
+| [Junior · Frontend](../interviews/block-4.md) | Offer | 5 | 8 |
 
 ---
 
