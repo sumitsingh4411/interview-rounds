@@ -66,6 +66,21 @@ export function clearSolved() {
   write(new Set());
 }
 
+/** Read outside React — used for exporting a backup. */
+export function getSolvedIds(): string[] {
+  return [...parse(getSnapshot())];
+}
+
+/** Merge a backup back in. Progress lives only in this browser, so this is
+ *  the only way to move it to another device. */
+export function importSolved(ids: string[]): number {
+  const merged = parse(getSnapshot());
+  const before = merged.size;
+  for (const id of ids) if (typeof id === 'string') merged.add(id);
+  write(merged);
+  return merged.size - before;
+}
+
 /** The set of solved question ids. Empty during SSR and first hydration pass. */
 export function useSolved(): Set<string> {
   const raw = useSyncExternalStore(subscribe, getSnapshot, getServerSnapshot);

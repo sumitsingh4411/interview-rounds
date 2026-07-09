@@ -7,6 +7,7 @@ const NAV = [
   { href: '/companies', label: 'Companies' },
   { href: '/rounds/dsa', label: 'Rounds', match: '/rounds' },
   { href: '/search', label: 'Search' },
+  { href: '/progress', label: 'Progress' },
 ];
 
 export function NavLinks() {
