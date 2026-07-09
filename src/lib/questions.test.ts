@@ -1,12 +1,13 @@
 import { describe, it, expect } from 'vitest';
 import { groupQuestionsByRound, filterQuestions, facetsOf } from './questions';
-import type { Question } from '@/db/schema';
+import type { Question } from '@/content/types';
 
 // Minimal question factory — only the fields the pure helpers read.
 function q(partial: Partial<Question>): Question {
   return {
-    id: 1,
-    companyId: 1,
+    id: 'q1',
+    companyId: 'google',
+    interviewId: 'google-1',
     title: 'Q',
     body: null,
     role: 'frontend',
@@ -14,15 +15,9 @@ function q(partial: Partial<Question>): Question {
     round: 'dsa',
     difficulty: null,
     tags: [],
-    sourceType: 'ai',
+    sourceType: 'curated',
     sourceUrl: null,
     sourceAuthor: null,
-    isVerified: false,
-    status: 'published',
-    upvotes: 0,
-    contentHash: null,
-    createdAt: new Date(),
-    updatedAt: new Date(),
     ...partial,
   } as Question;
 }
@@ -33,7 +28,7 @@ describe('groupQuestionsByRound', () => {
   });
 
   it('groups a single round', () => {
-    const groups = groupQuestionsByRound([q({ id: 1, round: 'dsa' })]);
+    const groups = groupQuestionsByRound([q({ id: '1', round: 'dsa' })]);
     expect(groups).toHaveLength(1);
     expect(groups[0].round).toBe('dsa');
     expect(groups[0].questions).toHaveLength(1);
@@ -41,9 +36,9 @@ describe('groupQuestionsByRound', () => {
 
   it('orders rounds by canonical stage order regardless of input order', () => {
     const groups = groupQuestionsByRound([
-      q({ id: 1, round: 'behavioral' }),
-      q({ id: 2, round: 'oa' }),
-      q({ id: 3, round: 'system_design' }),
+      q({ id: '1', round: 'behavioral' }),
+      q({ id: '2', round: 'oa' }),
+      q({ id: '3', round: 'system_design' }),
     ]);
     expect(groups.map((g) => g.round)).toEqual([
       'oa',
@@ -54,19 +49,19 @@ describe('groupQuestionsByRound', () => {
 
   it('collects multiple questions into the same round bucket', () => {
     const groups = groupQuestionsByRound([
-      q({ id: 1, round: 'dsa' }),
-      q({ id: 2, round: 'dsa' }),
+      q({ id: '1', round: 'dsa' }),
+      q({ id: '2', round: 'dsa' }),
     ]);
     expect(groups).toHaveLength(1);
-    expect(groups[0].questions.map((x) => x.id)).toEqual([1, 2]);
+    expect(groups[0].questions.map((x) => x.id)).toEqual(['1', '2']);
   });
 });
 
 describe('filterQuestions', () => {
   const data = [
-    q({ id: 1, role: 'frontend', level: 'junior', round: 'dsa' }),
-    q({ id: 2, role: 'backend', level: 'senior', round: 'system_design' }),
-    q({ id: 3, role: 'frontend', level: 'senior', round: 'machine_coding' }),
+    q({ id: '1', role: 'frontend', level: 'junior', round: 'dsa' }),
+    q({ id: '2', role: 'backend', level: 'senior', round: 'system_design' }),
+    q({ id: '3', role: 'frontend', level: 'senior', round: 'machine_coding' }),
   ];
 
   it('returns all when no filter set', () => {
@@ -75,7 +70,7 @@ describe('filterQuestions', () => {
 
   it('filters by role', () => {
     expect(filterQuestions(data, { role: 'frontend' }).map((x) => x.id)).toEqual([
-      1, 3,
+      '1', '3',
     ]);
   });
 
@@ -84,7 +79,7 @@ describe('filterQuestions', () => {
       filterQuestions(data, { role: 'frontend', level: 'senior' }).map(
         (x) => x.id,
       ),
-    ).toEqual([3]);
+    ).toEqual(['3']);
   });
 });
 

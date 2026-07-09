@@ -1,5 +1,5 @@
 import { ROUND_ORDER, type Role, type Level, type Round } from './constants';
-import type { Question } from '@/db/schema';
+import type { Question } from '@/content/types';
 
 export type QuestionFilter = {
   role?: Role;

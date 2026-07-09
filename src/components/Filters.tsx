@@ -1,6 +1,5 @@
 'use client';
 
-import { useRouter, usePathname, useSearchParams } from 'next/navigation';
 import {
   ROLE_LABELS,
   LEVEL_LABELS,
@@ -11,32 +10,25 @@ import {
 } from '@/lib/constants';
 import type { Facets } from '@/lib/questions';
 
-type Active = { role?: Role; level?: Level; round?: Round };
+export type ActiveFilter = { role?: Role; level?: Level; round?: Round };
 
 export function Filters({
   facets,
   active,
+  onChange,
 }: {
   facets: Facets;
-  active: Active;
+  active: ActiveFilter;
+  onChange: (next: ActiveFilter) => void;
 }) {
-  const router = useRouter();
-  const pathname = usePathname();
-  const params = useSearchParams();
-
-  function toggle(key: string, value: string) {
-    const next = new URLSearchParams(params.toString());
-    if (next.get(key) === value) next.delete(key);
-    else next.set(key, value);
-    const qs = next.toString();
-    router.push(qs ? `${pathname}?${qs}` : pathname, { scroll: false });
-  }
-
-  function clearAll() {
-    router.push(pathname, { scroll: false });
-  }
-
   const hasActive = Boolean(active.role || active.level || active.round);
+
+  function toggle<K extends keyof ActiveFilter>(
+    key: K,
+    value: ActiveFilter[K],
+  ) {
+    onChange({ ...active, [key]: active[key] === value ? undefined : value });
+  }
 
   return (
     <div className="space-y-4">
@@ -44,7 +36,7 @@ export function Filters({
         label="Role"
         options={facets.roles.map((r) => ({ value: r, label: ROLE_LABELS[r] }))}
         activeValue={active.role}
-        onToggle={(v) => toggle('role', v)}
+        onToggle={(v) => toggle('role', v as Role)}
       />
       <FilterGroup
         label="Level"
@@ -53,7 +45,7 @@ export function Filters({
           label: LEVEL_LABELS[l],
         }))}
         activeValue={active.level}
-        onToggle={(v) => toggle('level', v)}
+        onToggle={(v) => toggle('level', v as Level)}
       />
       <FilterGroup
         label="Round"
@@ -62,12 +54,12 @@ export function Filters({
           label: ROUND_LABELS[r],
         }))}
         activeValue={active.round}
-        onToggle={(v) => toggle('round', v)}
+        onToggle={(v) => toggle('round', v as Round)}
       />
       {hasActive ? (
         <button
           type="button"
-          onClick={clearAll}
+          onClick={() => onChange({})}
           className="font-mono text-xs text-brand hover:underline"
         >
           × Clear filters

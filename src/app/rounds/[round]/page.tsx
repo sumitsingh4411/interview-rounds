@@ -3,7 +3,7 @@ import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { Container } from '@/components/ui/Container';
 import { QuestionCard } from '@/components/QuestionCard';
-import { getQuestionsByRound } from '@/db/queries';
+import { getQuestionsByRound } from '@/content/loader';
 import {
   asRound,
   ROUND_ORDER,
@@ -11,9 +11,11 @@ import {
   ROUND_DESCRIPTIONS,
 } from '@/lib/constants';
 
-export const dynamic = 'force-dynamic';
-
 type PageProps = { params: Promise<{ round: string }> };
+
+export function generateStaticParams() {
+  return ROUND_ORDER.map((round) => ({ round }));
+}
 
 export async function generateMetadata({
   params,
@@ -33,11 +35,10 @@ export default async function RoundPage({ params }: PageProps) {
   if (!valid) notFound();
 
   const stage = ROUND_ORDER.indexOf(valid) + 1;
-  const results = await getQuestionsByRound(valid);
+  const results = getQuestionsByRound(valid);
 
   return (
     <Container className="py-12">
-      {/* Round hopper */}
       <div className="mb-8 flex flex-wrap gap-1.5">
         {ROUND_ORDER.map((r) => (
           <Link
@@ -76,7 +77,10 @@ export default async function RoundPage({ params }: PageProps) {
               >
                 {company.name}
               </Link>
-              <QuestionCard question={question} />
+              <QuestionCard
+                question={question}
+                href={`/interviews/${question.interviewId}`}
+              />
             </li>
           ))}
         </ul>

@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import type { InterviewWithCounts } from '@/db/queries';
+import type { InterviewWithCounts } from '@/content/types';
 import {
   ROLE_LABELS,
   LEVEL_LABELS,

@@ -9,31 +9,22 @@
     "lint": "eslint",
     "test": "vitest run",
     "test:watch": "vitest",
-    "db:generate": "drizzle-kit generate",
-    "db:push": "drizzle-kit push",
-    "db:migrate": "tsx scripts/db-migrate.ts",
-    "db:studio": "drizzle-kit studio",
-    "seed:sample": "tsx scripts/seed-sample.ts",
-    "seed:ai": "tsx scripts/generate-ai.ts",
-    "seed:github": "tsx scripts/import-github.ts"
+    "content:bootstrap": "tsx scripts/generate-content.ts",
+    "search-index": "tsx scripts/build-search-index.ts",
+    "prebuild": "tsx scripts/build-search-index.ts"
   },
   "dependencies": {
-    "@anthropic-ai/sdk": "^0.110.0",
-    "@neondatabase/serverless": "^1.1.0",
-    "drizzle-orm": "^0.45.2",
+    "gray-matter": "^4.0.3",
     "next": "16.2.10",
     "react": "19.2.4",
     "react-dom": "19.2.4",
-    "react-markdown": "^10.1.0",
-    "zod": "^4.4.3"
+    "react-markdown": "^10.1.0"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
-    "dotenv": "^17.4.2",
-    "drizzle-kit": "^0.31.10",
     "eslint": "^9",
     "eslint-config-next": "16.2.10",
     "tailwindcss": "^4",

@@ -3,10 +3,8 @@ import { Container } from '@/components/ui/Container';
 import { SearchInput } from '@/components/SearchInput';
 import { RoundRailPreview } from '@/components/RoundRailPreview';
 import { CompanyCard } from '@/components/CompanyCard';
-import { getPopularCompanies, getRoundCounts } from '@/db/queries';
+import { getPopularCompanies, getRoundCounts } from '@/content/loader';
 import { ROLE_LABELS } from '@/lib/constants';
-
-export const dynamic = 'force-dynamic';
 
 const VALUE_PROPS = [
   {
@@ -26,11 +24,9 @@ const VALUE_PROPS = [
   },
 ];
 
-export default async function HomePage() {
-  const [companies, roundCounts] = await Promise.all([
-    getPopularCompanies(6),
-    getRoundCounts(),
-  ]);
+export default function HomePage() {
+  const companies = getPopularCompanies(6);
+  const roundCounts = getRoundCounts();
 
   return (
     <>

@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import type { CompanyWithStats } from '@/db/queries';
+import type { CompanyWithStats } from '@/content/types';
 
 // Cool-toned gradients; each company gets a stable one for a distinct monogram.
 const GRADIENTS = [

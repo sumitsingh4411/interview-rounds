@@ -1,22 +1,10 @@
 import type { MetadataRoute } from 'next';
 import { SITE } from '@/lib/site';
-import { getAllCompanySlugs, getAllInterviewIds } from '@/db/queries';
+import { getAllCompanySlugs, getAllInterviewIds } from '@/content/loader';
+import { ROUND_ORDER } from '@/lib/constants';
 
-export const dynamic = 'force-dynamic';
-
-export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
+export default function sitemap(): MetadataRoute.Sitemap {
   const base = SITE.url;
-
-  let slugs: string[] = [];
-  let interviewIds: number[] = [];
-  try {
-    [slugs, interviewIds] = await Promise.all([
-      getAllCompanySlugs(),
-      getAllInterviewIds(),
-    ]);
-  } catch {
-    // Sitemap should still render if the DB is briefly unavailable.
-  }
 
   const staticRoutes: MetadataRoute.Sitemap = [
     { url: `${base}/`, priority: 1 },
@@ -26,8 +14,12 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
 
   return [
     ...staticRoutes,
-    ...slugs.map((slug) => ({ url: `${base}/companies/${slug}`, priority: 0.8 })),
-    ...interviewIds.map((id) => ({
+    ...ROUND_ORDER.map((r) => ({ url: `${base}/rounds/${r}`, priority: 0.7 })),
+    ...getAllCompanySlugs().map((slug) => ({
+      url: `${base}/companies/${slug}`,
+      priority: 0.8,
+    })),
+    ...getAllInterviewIds().map((id) => ({
       url: `${base}/interviews/${id}`,
       priority: 0.6,
     })),

@@ -1,4 +1,10 @@
-import type { SeedCompany } from '../_shared';
+export type SeedCompany = {
+  name: string;
+  slug: string;
+  description?: string;
+  industry?: string;
+  hq?: string;
+};
 
 // Top companies commonly targeted for frontend / backend / full-stack roles.
 export const COMPANIES: SeedCompany[] = [

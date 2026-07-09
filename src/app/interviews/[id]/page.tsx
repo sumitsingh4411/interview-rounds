@@ -10,7 +10,7 @@ import {
   OutcomeBadge,
   SourceBadge,
 } from '@/components/ui/badges';
-import { getInterviewById } from '@/db/queries';
+import { getInterviewById, getAllInterviewIds } from '@/content/loader';
 import { groupQuestionsByRound } from '@/lib/questions';
 import {
   ROLE_LABELS,
@@ -20,9 +20,11 @@ import {
   type Outcome,
 } from '@/lib/constants';
 
-export const dynamic = 'force-dynamic';
-
 type PageProps = { params: Promise<{ id: string }> };
+
+export function generateStaticParams() {
+  return getAllInterviewIds().map((id) => ({ id }));
+}
 
 function interviewTitle(
   title: string | null,
@@ -37,7 +39,7 @@ export async function generateMetadata({
   params,
 }: PageProps): Promise<Metadata> {
   const { id } = await params;
-  const detail = await getInterviewById(Number(id));
+  const detail = getInterviewById(id);
   if (!detail) return { title: 'Interview not found' };
   const { interview, company } = detail;
   return {
@@ -53,10 +55,7 @@ export async function generateMetadata({
 
 export default async function InterviewPage({ params }: PageProps) {
   const { id } = await params;
-  const numericId = Number(id);
-  if (!Number.isInteger(numericId)) notFound();
-
-  const detail = await getInterviewById(numericId);
+  const detail = getInterviewById(id);
   if (!detail) notFound();
 
   const { interview, company, questions } = detail;

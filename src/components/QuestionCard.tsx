@@ -1,6 +1,5 @@
 import Link from 'next/link';
-import { type ReactNode } from 'react';
-import type { Question } from '@/db/schema';
+import type { Question } from '@/content/types';
 import type { Role, Level, Difficulty } from '@/lib/constants';
 import {
   RoleBadge,
@@ -12,23 +11,26 @@ import {
 
 export function QuestionCard({
   question,
-  actions,
+  href,
 }: {
   question: Question;
-  actions?: ReactNode;
+  href?: string;
 }) {
   return (
     <article className="group relative rounded-xl border border-line bg-surface p-4 transition-colors hover:border-line-2 hover:bg-surface-2">
       <div className="flex items-start justify-between gap-3">
-        <Link
-          href={`/questions/${question.id}`}
-          className="font-medium leading-snug text-fg after:absolute after:inset-0"
-        >
-          {question.title}
-        </Link>
-        {actions ? (
-          <div className="relative z-10 shrink-0">{actions}</div>
-        ) : null}
+        {href ? (
+          <Link
+            href={href}
+            className="font-medium leading-snug text-fg after:absolute after:inset-0"
+          >
+            {question.title}
+          </Link>
+        ) : (
+          <span className="font-medium leading-snug text-fg">
+            {question.title}
+          </span>
+        )}
       </div>
 
       <div className="mt-3 flex flex-wrap items-center gap-1.5">
