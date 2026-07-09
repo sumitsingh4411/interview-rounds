@@ -20,16 +20,19 @@ const VALUE_PROPS = [
     k: 'round',
     title: 'Mapped to the round',
     body: 'Every question is tagged to the exact stage it shows up in — OA, DSA, machine coding, system design, behavioral.',
+    color: { from: '#22d3ee', rgb: '34 211 238' },
   },
   {
     k: 'role',
     title: 'Filtered to you',
     body: 'Narrow to frontend, backend, or full-stack and your target level, from intern to staff.',
+    color: { from: '#818cf8', rgb: '129 140 248' },
   },
   {
     k: 'source',
     title: 'Sourced honestly',
-    body: 'Community-shared experiences and curated repos, with AI-generated likely questions always labeled as such.',
+    body: 'Every question carries its source. Curated, community-shared, or AI-generated — always labeled, never guessed.',
+    color: { from: '#c084fc', rgb: '192 132 252' },
   },
 ];
 
@@ -153,17 +156,36 @@ export default function HomePage() {
       </Container>
 
       {/* Value props */}
-      <Container className="py-16">
-        <div className="grid gap-8 sm:grid-cols-3 sm:gap-6">
+      <Container className="py-14">
+        <div className="grid gap-4 sm:grid-cols-3">
           {VALUE_PROPS.map((v, i) => (
-            <div key={v.k} className="flex gap-3">
-              <span className="rail-node" data-active={i === 0} aria-hidden>
+            <div
+              key={v.k}
+              className="glass-card group relative overflow-hidden rounded-2xl p-5"
+              style={{ ['--glow']: v.color.rgb } as React.CSSProperties}
+            >
+              <span
+                aria-hidden
+                className="pointer-events-none absolute -right-12 -top-12 h-28 w-28 rounded-full opacity-0 blur-2xl transition-opacity duration-500 group-hover:opacity-25"
+                style={{ backgroundColor: v.color.from }}
+              />
+              <span
+                aria-hidden
+                className="grid h-9 w-9 place-items-center rounded-full font-mono text-xs font-medium"
+                style={{
+                  color: '#0b0e14',
+                  backgroundImage: `linear-gradient(135deg, ${v.color.from}, rgb(${v.color.rgb} / 0.75))`,
+                  boxShadow: `0 6px 18px -8px rgb(${v.color.rgb} / 0.7)`,
+                }}
+              >
                 {String(i + 1).padStart(2, '0')}
               </span>
-              <div className="pt-1">
-                <h3 className="text-base text-fg">{v.title}</h3>
-                <p className="mt-1 text-sm text-muted">{v.body}</p>
-              </div>
+              <h3 className="mt-4 font-display text-base font-semibold text-fg">
+                {v.title}
+              </h3>
+              <p className="mt-1.5 text-sm leading-relaxed text-muted">
+                {v.body}
+              </p>
             </div>
           ))}
         </div>
