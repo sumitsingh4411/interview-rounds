@@ -9,7 +9,7 @@ import {
   getRoundCounts,
   getTotals,
 } from '@/content/loader';
-import { ROLE_LABELS, ROUND_ORDER } from '@/lib/constants';
+import { ROUND_ORDER } from '@/lib/constants';
 
 function compact(n: number): string {
   return n >= 1000 ? `${(n / 1000).toFixed(1)}k` : String(n);
@@ -81,16 +81,18 @@ export default function HomePage() {
 
             <div className="mt-5 flex flex-wrap items-center gap-x-5 gap-y-2 text-sm text-faint">
               <Link
-                href="/companies"
+                href="/questions"
                 className="font-medium text-brand hover:underline"
               >
-                Browse all companies →
+                Browse all {compact(totals.questions)} questions →
               </Link>
               <span aria-hidden>·</span>
-              <span className="font-mono text-xs">
-                {ROLE_LABELS.frontend} · {ROLE_LABELS.backend} ·{' '}
-                {ROLE_LABELS.fullstack}
-              </span>
+              <Link
+                href="/companies"
+                className="font-medium text-muted hover:text-fg"
+              >
+                All companies →
+              </Link>
             </div>
 
             {/* Stats strip */}

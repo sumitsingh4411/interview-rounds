@@ -62,6 +62,24 @@ const SHORT_LEVEL: Record<Level, string> = {
   staff: 'Staff+',
 };
 
+function FunnelIcon() {
+  return (
+    <svg
+      width="15"
+      height="15"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="1.8"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      aria-hidden
+    >
+      <path d="M3 5h18l-7 8.2V20l-4 1.5v-8.3z" />
+    </svg>
+  );
+}
+
 export function QuestionsExplorer() {
   const solved = useSolved();
   const [entries, setEntries] = useState<Entry[] | null>(null);
@@ -70,6 +88,7 @@ export function QuestionsExplorer() {
   const [solvedView, setSolvedView] = useState<SolvedView>('all');
   const [sort, setSort] = useState<Sort>('default');
   const [visible, setVisible] = useState(PAGE);
+  const [open, setOpen] = useState(false);
 
   useEffect(() => {
     let alive = true;
@@ -83,6 +102,21 @@ export function QuestionsExplorer() {
       alive = false;
     };
   }, []);
+
+  // While the filter modal is open, close it on Escape and lock body scroll.
+  useEffect(() => {
+    if (!open) return;
+    const onKey = (e: KeyboardEvent) => {
+      if (e.key === 'Escape') setOpen(false);
+    };
+    window.addEventListener('keydown', onKey);
+    const prev = document.body.style.overflow;
+    document.body.style.overflow = 'hidden';
+    return () => {
+      window.removeEventListener('keydown', onKey);
+      document.body.style.overflow = prev;
+    };
+  }, [open]);
 
   const companyCount = useMemo(
     () => (entries ? new Set(entries.map((e) => e.companySlug)).size : 0),
@@ -133,12 +167,12 @@ export function QuestionsExplorer() {
   );
 
   const shown = filtered.slice(0, visible);
-  const activeFilters =
+  const facetCount =
     facets.round.length +
     facets.role.length +
     facets.level.length +
-    facets.difficulty.length +
-    (query.trim() ? 1 : 0);
+    facets.difficulty.length;
+  const activeFilters = facetCount + (query.trim() ? 1 : 0);
 
   function toggle<K extends keyof Facets>(key: K, value: Facets[K][number]) {
     setVisible(PAGE);
@@ -160,9 +194,9 @@ export function QuestionsExplorer() {
 
   return (
     <div>
-      {/* ── Filter header ─────────────────────────────────────────── */}
-      <div className="glass rounded-2xl p-4 sm:p-5">
-        <div className="flex items-center gap-2 rounded-xl border border-line-2 bg-surface px-3.5 py-2.5 focus-within:border-brand">
+      {/* ── Toolbar ───────────────────────────────────────────────── */}
+      <div className="glass flex flex-wrap items-center gap-2.5 rounded-2xl p-3 sm:p-3.5">
+        <div className="flex min-w-[12rem] flex-1 items-center gap-2 rounded-xl border border-line-2 bg-surface px-3.5 py-2.5 focus-within:border-brand">
           <span aria-hidden className="font-mono text-brand">
             /
           </span>
@@ -173,72 +207,150 @@ export function QuestionsExplorer() {
               setVisible(PAGE);
               setQuery(e.target.value);
             }}
-            placeholder="Filter questions… (e.g. “tree”, “design”, “react”)"
+            placeholder="Filter questions…"
             aria-label="Filter questions"
             className="min-w-0 flex-1 bg-transparent font-mono text-sm text-fg placeholder:text-faint focus:outline-none"
           />
         </div>
 
-        <div className="mt-4 grid gap-3 sm:grid-cols-2">
-          <FacetGroup
-            label="Round"
-            options={ROUNDS.map((r) => ({ value: r, label: ROUND_LABELS[r] }))}
-            active={facets.round}
-            onToggle={(v) => toggle('round', v as Round)}
-          />
-          <FacetGroup
-            label="Difficulty"
-            options={DIFFICULTIES.map((d) => ({
-              value: d,
-              label: DIFFICULTY_LABELS[d],
-            }))}
-            active={facets.difficulty}
-            onToggle={(v) => toggle('difficulty', v as Difficulty)}
-          />
-          <FacetGroup
-            label="Role"
-            options={ROLES.map((r) => ({ value: r, label: ROLE_LABELS[r] }))}
-            active={facets.role}
-            onToggle={(v) => toggle('role', v as Role)}
-          />
-          <FacetGroup
-            label="Level"
-            options={LEVELS.map((l) => ({ value: l, label: LEVEL_LABELS[l] }))}
-            active={facets.level}
-            onToggle={(v) => toggle('level', v as Level)}
-          />
-        </div>
+        <button
+          type="button"
+          onClick={() => setOpen(true)}
+          aria-haspopup="dialog"
+          className={
+            'inline-flex items-center gap-2 rounded-xl border px-3.5 py-2.5 text-sm transition-colors ' +
+            (facetCount > 0
+              ? 'border-brand bg-brand/10 text-brand'
+              : 'border-line-2 bg-surface text-muted hover:border-brand hover:text-fg')
+          }
+        >
+          <FunnelIcon />
+          Filters
+          {facetCount > 0 ? (
+            <span className="grid h-5 min-w-[1.25rem] place-items-center rounded-full bg-brand px-1 font-mono text-[0.65rem] text-canvas">
+              {facetCount}
+            </span>
+          ) : null}
+        </button>
 
-        <div className="mt-4 flex flex-wrap items-center justify-between gap-3 border-t border-line pt-4">
+        <Segmented
+          options={[
+            { value: 'all', label: 'All' },
+            { value: 'unsolved', label: 'Unsolved' },
+            { value: 'solved', label: 'Solved' },
+          ]}
+          value={solvedView}
+          onChange={(v) => {
+            setVisible(PAGE);
+            setSolvedView(v as SolvedView);
+          }}
+        />
+        <div className="flex items-center gap-2">
+          <span className="eyebrow hidden lg:inline">Sort</span>
           <Segmented
             options={[
-              { value: 'all', label: 'All' },
-              { value: 'unsolved', label: 'Unsolved' },
-              { value: 'solved', label: 'Solved' },
+              { value: 'default', label: 'Default' },
+              { value: 'az', label: 'A–Z' },
+              { value: 'difficulty', label: 'Difficulty' },
             ]}
-            value={solvedView}
+            value={sort}
             onChange={(v) => {
               setVisible(PAGE);
-              setSolvedView(v as SolvedView);
+              setSort(v as Sort);
             }}
           />
-          <div className="flex items-center gap-2">
-            <span className="eyebrow hidden sm:inline">Sort</span>
-            <Segmented
-              options={[
-                { value: 'default', label: 'Default' },
-                { value: 'az', label: 'A–Z' },
-                { value: 'difficulty', label: 'Difficulty' },
-              ]}
-              value={sort}
-              onChange={(v) => {
-                setVisible(PAGE);
-                setSort(v as Sort);
-              }}
-            />
-          </div>
         </div>
       </div>
+
+      {/* ── Filters modal ─────────────────────────────────────────── */}
+      {open ? (
+        <div
+          role="dialog"
+          aria-modal="true"
+          aria-label="Filter questions"
+          className="fixed inset-0 z-50 flex items-end justify-center sm:items-center sm:p-4"
+        >
+          <button
+            type="button"
+            aria-label="Close filters"
+            onClick={() => setOpen(false)}
+            className="absolute inset-0 cursor-default bg-black/60 backdrop-blur-sm"
+          />
+          <div className="relative flex max-h-[88vh] w-full flex-col rounded-t-2xl border border-line-2 bg-canvas/95 shadow-2xl backdrop-blur-xl sm:max-w-2xl sm:rounded-2xl">
+            <div className="flex items-center justify-between border-b border-line px-5 py-4">
+              <div className="flex items-center gap-2 text-fg">
+                <FunnelIcon />
+                <h2 className="font-display text-lg font-semibold">Filters</h2>
+                {facetCount > 0 ? (
+                  <span className="font-mono text-xs text-faint">
+                    ({facetCount} active)
+                  </span>
+                ) : null}
+              </div>
+              <button
+                type="button"
+                onClick={() => setOpen(false)}
+                aria-label="Close"
+                className="grid h-8 w-8 place-items-center rounded-lg border border-line text-muted transition-colors hover:border-line-2 hover:text-fg"
+              >
+                ✕
+              </button>
+            </div>
+
+            <div className="grid gap-5 overflow-y-auto px-5 py-5 sm:grid-cols-2">
+              <FacetGroup
+                label="Round"
+                options={ROUNDS.map((r) => ({ value: r, label: ROUND_LABELS[r] }))}
+                active={facets.round}
+                onToggle={(v) => toggle('round', v as Round)}
+              />
+              <FacetGroup
+                label="Difficulty"
+                options={DIFFICULTIES.map((d) => ({
+                  value: d,
+                  label: DIFFICULTY_LABELS[d],
+                }))}
+                active={facets.difficulty}
+                onToggle={(v) => toggle('difficulty', v as Difficulty)}
+              />
+              <FacetGroup
+                label="Role"
+                options={ROLES.map((r) => ({ value: r, label: ROLE_LABELS[r] }))}
+                active={facets.role}
+                onToggle={(v) => toggle('role', v as Role)}
+              />
+              <FacetGroup
+                label="Level"
+                options={LEVELS.map((l) => ({ value: l, label: LEVEL_LABELS[l] }))}
+                active={facets.level}
+                onToggle={(v) => toggle('level', v as Level)}
+              />
+            </div>
+
+            <div className="flex items-center justify-between gap-3 border-t border-line px-5 py-4">
+              <button
+                type="button"
+                onClick={() => {
+                  setVisible(PAGE);
+                  setFacets(EMPTY_FACETS);
+                }}
+                disabled={facetCount === 0}
+                className="font-mono text-xs text-faint transition-colors hover:text-fg disabled:opacity-40"
+              >
+                × Clear all
+              </button>
+              <button
+                type="button"
+                onClick={() => setOpen(false)}
+                className="rounded-lg bg-brand px-4 py-2 text-sm font-medium text-canvas transition-opacity hover:opacity-90"
+              >
+                Show {filtered.length.toLocaleString()} result
+                {filtered.length === 1 ? '' : 's'}
+              </button>
+            </div>
+          </div>
+        </div>
+      ) : null}
 
       {/* ── Tally ─────────────────────────────────────────────────── */}
       <div className="mt-5 flex flex-wrap items-baseline justify-between gap-x-4 gap-y-1">
