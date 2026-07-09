@@ -77,7 +77,7 @@ export function NavLinks() {
   const pathname = usePathname();
 
   return (
-    <nav className="hidden items-center gap-1 sm:flex">
+    <nav className="nav-shell hidden items-center gap-0.5 sm:flex">
       {NAV.map((item) => {
         const base = item.match ?? item.href;
         const active = pathname === base || pathname.startsWith(`${base}/`);
@@ -85,13 +85,9 @@ export function NavLinks() {
           <Link
             key={item.label}
             href={item.href}
+            data-active={active}
             aria-current={active ? 'page' : undefined}
-            className={
-              'group flex items-center gap-2 rounded-lg px-2.5 py-1.5 text-sm font-medium transition-colors ' +
-              (active
-                ? 'bg-fg/[0.08] text-fg'
-                : 'text-muted hover:bg-fg/[0.05] hover:text-fg')
-            }
+            className="nav-item group"
           >
             <span
               className={
