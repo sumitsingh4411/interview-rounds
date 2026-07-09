@@ -1,26 +1,26 @@
 ---
 id: mongodb-1
 company: mongodb
-role: frontend
-level: mid
-outcome: withdrew
-year: 2023
+role: fullstack
+level: staff
+outcome: no_offer
+year: 2025
 source: curated
 summary: >-
-  5-round mid frontend process. Pragmatic questions — more real-world than pure
+  A staff fullstack loop. Pragmatic questions — more real-world than pure
   puzzles.
 ---
-# Mid Frontend — MongoDB
+# Staff Full-stack — MongoDB
 
-![role](https://img.shields.io/badge/role-Frontend-22d3ee?style=flat-square)
-![level](https://img.shields.io/badge/level-Mid-818cf8?style=flat-square)
-![outcome](https://img.shields.io/badge/outcome-Withdrew-fbbf24?style=flat-square)
-![year](https://img.shields.io/badge/year-2023-6b7280?style=flat-square)
+![role](https://img.shields.io/badge/role-Full--stack-a78bfa?style=flat-square)
+![level](https://img.shields.io/badge/level-Staff-818cf8?style=flat-square)
+![outcome](https://img.shields.io/badge/outcome-No%20offer-f87171?style=flat-square)
+![year](https://img.shields.io/badge/year-2025-6b7280?style=flat-square)
 ![source](https://img.shields.io/badge/source-Commonly%20asked-2dd4bf?style=flat-square)
 
-> 5-round mid frontend process. Pragmatic questions — more real-world than pure puzzles.
+> A staff fullstack loop. Pragmatic questions — more real-world than pure puzzles.
 
-**5 rounds · 8 questions**
+**5 rounds · 9 questions**
 
 ---
 
@@ -31,18 +31,19 @@ _Data structures & algorithms on a whiteboard or shared editor._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Valid Parentheses — check balanced brackets. | 🟢 Easy | `stack` `string` | [LC](https://leetcode.com/problems/valid-parentheses/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Valid%20Parentheses%20%E2%80%94%20check%20balanced%20brackets) |
-| Coin change — fewest coins to make an amount. | 🟡 Medium | `dp` | [LC](https://leetcode.com/problems/coin-change/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Coin%20change%20%E2%80%94%20fewest%20coins%20to%20make%20an%20amount) |
+| Number of islands in a 2D grid. | 🟡 Medium | `bfs` `dfs` `grid` | [LC](https://leetcode.com/problems/number-of-islands/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Number%20of%20islands%20in%20a%202D%20grid) |
+| 3Sum. | 🟡 Medium | `two-pointers` `array` | [LC](https://leetcode.com/problems/3sum/) · [GfG](https://www.geeksforgeeks.org/search/?gq=3Sum) |
+| Median of two sorted arrays. | 🔴 Hard | `binary-search` | [LC](https://leetcode.com/problems/median-of-two-sorted-arrays/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Median%20of%20two%20sorted%20arrays) |
 
-## Round 2 · Machine Coding
-<!-- round: machine_coding -->
+## Round 2 · System Design
+<!-- round: system_design -->
 
-_Build a working component or service under time pressure._
+_High-level architecture of a large-scale system._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Build a tic-tac-toe game with win detection. | 🟢 Easy | `react` `state` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20a%20tic-tac-toe%20game%20with%20win%20detection) · [Search](https://www.google.com/search?q=Build%20a%20tic-tac-toe%20game%20with%20win%20detection) |
-| Build an infinite-scrolling list with virtualization. | 🔴 Hard | `react` `virtualization` `perf` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20an%20infinite-scrolling%20list%20with%20virtualization) · [Search](https://www.google.com/search?q=Build%20an%20infinite-scrolling%20list%20with%20virtualization) |
+| Design a client-side error and telemetry pipeline. | 🟡 Medium | `frontend` `observability` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20client-side%20error%20and%20telemetry%20pipeline) · [Search](https://www.google.com/search?q=Design%20a%20client-side%20error%20and%20telemetry%20pipeline) |
+| Design a distributed cache. | 🔴 Hard | `cache` `consistency` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20distributed%20cache) · [Search](https://www.google.com/search?q=Design%20a%20distributed%20cache) |
 
 ## Round 3 · Low-Level Design
 <!-- round: lld -->
@@ -51,17 +52,16 @@ _Object-oriented / low-level design of a focused module._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Design a reusable form-validation library API. | 🟡 Medium | `oop` `api-design` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20reusable%20form-validation%20library%20API) · [Search](https://www.google.com/search?q=Design%20a%20reusable%20form-validation%20library%20API) |
+| Design a client-side event bus / pub-sub. | 🟡 Medium | `pub-sub` `oop` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20client-side%20event%20bus%20%2F%20pub-sub) · [Search](https://www.google.com/search?q=Design%20a%20client-side%20event%20bus%20%2F%20pub-sub) |
 
-## Round 4 · Tech Deep-Dive
-<!-- round: tech_deep_dive -->
+## Round 4 · Hiring Manager
+<!-- round: hiring_manager -->
 
-_Deep questions on your core stack and fundamentals._
+_Scope, ownership, and role-fit discussion with the manager._
 
-| Question | Difficulty | Tags | Practice |
-| --- | --- | --- | --- |
-| How does React reconciliation / the diffing algorithm work? | 🟡 Medium | `react` `fiber` | [GfG](https://www.geeksforgeeks.org/search/?gq=How%20does%20React%20reconciliation%20%2F%20the%20diffing%20algorithm%20work) · [Search](https://www.google.com/search?q=How%20does%20React%20reconciliation%20%2F%20the%20diffing%20algorithm%20work) |
-| Explain memoization: useMemo, useCallback and React.memo. | 🟡 Medium | `react` `perf` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20memoization%3A%20useMemo%2C%20useCallback%20and%20React.memo) · [Search](https://www.google.com/search?q=Explain%20memoization%3A%20useMemo%2C%20useCallback%20and%20React.memo) |
+| Question | Difficulty | Tags |
+| --- | --- | --- |
+| How do you decide when a project is done enough to ship? | — | `delivery` `judgment` |
 
 ## Round 5 · Behavioral / HR
 <!-- round: behavioral -->
@@ -70,6 +70,7 @@ _Values, collaboration, and past-experience (STAR) questions._
 
 | Question | Difficulty | Tags |
 | --- | --- | --- |
+| Tell me about a time you simplified something overly complex. | — | `judgment` `star` |
 | Describe a disagreement on a code review and how it ended. | — | `conflict` `star` |
 
 ---

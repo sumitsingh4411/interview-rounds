@@ -4,23 +4,21 @@ company: mongodb
 role: fullstack
 level: senior
 outcome: withdrew
-year: 2023
+year: 2025
 source: curated
-summary: >-
-  6-round senior fullstack process. Pragmatic questions — more real-world than
-  pure puzzles.
+summary: 'A senior fullstack loop. Balanced across coding, design, and collaboration.'
 ---
 # Senior Full-stack — MongoDB
 
 ![role](https://img.shields.io/badge/role-Full--stack-a78bfa?style=flat-square)
 ![level](https://img.shields.io/badge/level-Senior-818cf8?style=flat-square)
 ![outcome](https://img.shields.io/badge/outcome-Withdrew-fbbf24?style=flat-square)
-![year](https://img.shields.io/badge/year-2023-6b7280?style=flat-square)
+![year](https://img.shields.io/badge/year-2025-6b7280?style=flat-square)
 ![source](https://img.shields.io/badge/source-Commonly%20asked-2dd4bf?style=flat-square)
 
-> 6-round senior fullstack process. Pragmatic questions — more real-world than pure puzzles.
+> A senior fullstack loop. Balanced across coding, design, and collaboration.
 
-**6 rounds · 10 questions**
+**6 rounds · 13 questions**
 
 ---
 
@@ -31,8 +29,9 @@ _Data structures & algorithms on a whiteboard or shared editor._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Serialize and deserialize a binary tree. | 🔴 Hard | `tree` `dfs` | [LC](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Serialize%20and%20deserialize%20a%20binary%20tree) |
-| Longest increasing subsequence. | 🔴 Hard | `dp` `binary-search` | [LC](https://leetcode.com/problems/longest-increasing-subsequence/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Longest%20increasing%20subsequence) |
+| Two Sum — return indices of numbers adding to a target. | 🟢 Easy | `array` `hashmap` | [LC](https://leetcode.com/problems/two-sum/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Two%20Sum%20%E2%80%94%20return%20indices%20of%20numbers%20adding%20to%20a%20target) |
+| Permutations. | 🟡 Medium | `backtracking` | [LC](https://leetcode.com/problems/permutations/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Permutations) |
+| Merge two sorted linked lists. | 🟢 Easy | `linked-list` | [LC](https://leetcode.com/problems/merge-two-sorted-lists/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Merge%20two%20sorted%20linked%20lists) |
 
 ## Round 2 · Machine Coding
 <!-- round: machine_coding -->
@@ -41,8 +40,8 @@ _Build a working component or service under time pressure._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Parse and evaluate a simple expression/DSL. | 🟡 Medium | `parsing` | [GfG](https://www.geeksforgeeks.org/search/?gq=Parse%20and%20evaluate%20a%20simple%20expression%2FDSL) · [Search](https://www.google.com/search?q=Parse%20and%20evaluate%20a%20simple%20expression%2FDSL) |
-| Build a kanban board with drag and drop. | 🔴 Hard | `react` `dnd` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20a%20kanban%20board%20with%20drag%20and%20drop) · [Search](https://www.google.com/search?q=Build%20a%20kanban%20board%20with%20drag%20and%20drop) |
+| Design and build a URL-shortener service (API + storage). | 🟡 Medium | `api` `hashing` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20and%20build%20a%20URL-shortener%20service%20(API%20%2B%20storage)) · [Search](https://www.google.com/search?q=Design%20and%20build%20a%20URL-shortener%20service%20(API%20%2B%20storage)) |
+| Build auth middleware that verifies a JWT. | 🟡 Medium | `auth` `security` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20auth%20middleware%20that%20verifies%20a%20JWT) · [Search](https://www.google.com/search?q=Build%20auth%20middleware%20that%20verifies%20a%20JWT) |
 
 ## Round 3 · System Design
 <!-- round: system_design -->
@@ -51,8 +50,8 @@ _High-level architecture of a large-scale system._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Design an offline-capable web app with sync. | 🔴 Hard | `frontend` `offline` `sync` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20an%20offline-capable%20web%20app%20with%20sync) · [Search](https://www.google.com/search?q=Design%20an%20offline-capable%20web%20app%20with%20sync) |
-| Design an event-driven order pipeline with retries. | 🔴 Hard | `events` `queues` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20an%20event-driven%20order%20pipeline%20with%20retries) · [Search](https://www.google.com/search?q=Design%20an%20event-driven%20order%20pipeline%20with%20retries) |
+| Design a leaderboard for millions of players. | 🟡 Medium | `redis` `ranking` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20leaderboard%20for%20millions%20of%20players) · [Search](https://www.google.com/search?q=Design%20a%20leaderboard%20for%20millions%20of%20players) |
+| Design a micro-frontend architecture. | 🔴 Hard | `frontend` `architecture` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20micro-frontend%20architecture) · [Search](https://www.google.com/search?q=Design%20a%20micro-frontend%20architecture) |
 
 ## Round 4 · Tech Deep-Dive
 <!-- round: tech_deep_dive -->
@@ -61,8 +60,9 @@ _Deep questions on your core stack and fundamentals._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Compare rate-limiting algorithms and their trade-offs. | 🟡 Medium | `rate-limit` | [GfG](https://www.geeksforgeeks.org/search/?gq=Compare%20rate-limiting%20algorithms%20and%20their%20trade-offs) · [Search](https://www.google.com/search?q=Compare%20rate-limiting%20algorithms%20and%20their%20trade-offs) |
-| What is tree shaking and when does it fail? | 🟡 Medium | `bundling` | [GfG](https://www.geeksforgeeks.org/search/?gq=What%20is%20tree%20shaking%20and%20when%20does%20it%20fail) · [Search](https://www.google.com/search?q=What%20is%20tree%20shaking%20and%20when%20does%20it%20fail) |
+| What is the difference between var, let and const? | 🟢 Easy | `javascript` | [GfG](https://www.geeksforgeeks.org/search/?gq=What%20is%20the%20difference%20between%20var%2C%20let%20and%20const) · [Search](https://www.google.com/search?q=What%20is%20the%20difference%20between%20var%2C%20let%20and%20const) |
+| How do you design a schema for a multi-currency ledger? | 🔴 Hard | `databases` `money` | [GfG](https://www.geeksforgeeks.org/search/?gq=How%20do%20you%20design%20a%20schema%20for%20a%20multi-currency%20ledger) · [Search](https://www.google.com/search?q=How%20do%20you%20design%20a%20schema%20for%20a%20multi-currency%20ledger) |
+| ACID vs BASE and transaction isolation levels. | 🔴 Hard | `databases` `transactions` | [GfG](https://www.geeksforgeeks.org/search/?gq=ACID%20vs%20BASE%20and%20transaction%20isolation%20levels) · [Search](https://www.google.com/search?q=ACID%20vs%20BASE%20and%20transaction%20isolation%20levels) |
 
 ## Round 5 · Hiring Manager
 <!-- round: hiring_manager -->
@@ -71,7 +71,7 @@ _Scope, ownership, and role-fit discussion with the manager._
 
 | Question | Difficulty | Tags |
 | --- | --- | --- |
-| How do you keep a team unblocked and shipping? | — | `leadership` |
+| How do you evaluate and adopt a new technology? | — | `judgment` |
 
 ## Round 6 · Behavioral / HR
 <!-- round: behavioral -->
@@ -80,7 +80,8 @@ _Values, collaboration, and past-experience (STAR) questions._
 
 | Question | Difficulty | Tags |
 | --- | --- | --- |
-| When did you change your mind after seeing new evidence? | — | `judgment` `star` |
+| A time you made a mistake in production — what happened next? | — | `ownership` `star` |
+| Describe a time you had to deliver bad news. | — | `communication` `star` |
 
 ---
 

@@ -40,6 +40,46 @@ const DSA: BankQ[] = [
   { title: 'Rotting oranges.', difficulty: 'medium', tags: ['bfs', 'grid'] },
   { title: 'Reverse nodes in k-group.', difficulty: 'hard', tags: ['linked-list'] },
   { title: 'Edit distance.', difficulty: 'hard', tags: ['dp', 'string'] },
+  { title: 'Reverse a linked list.', difficulty: 'easy', tags: ['linked-list'] },
+  { title: 'Valid anagram.', difficulty: 'easy', tags: ['string', 'hashmap'] },
+  { title: 'Contains duplicate.', difficulty: 'easy', tags: ['array', 'hashmap'] },
+  { title: 'Maximum depth of a binary tree.', difficulty: 'easy', tags: ['tree', 'dfs'] },
+  { title: 'Invert a binary tree.', difficulty: 'easy', tags: ['tree'] },
+  { title: 'Diameter of a binary tree.', difficulty: 'easy', tags: ['tree', 'dfs'] },
+  { title: 'Same tree.', difficulty: 'easy', tags: ['tree'] },
+  { title: 'Subtree of another tree.', difficulty: 'easy', tags: ['tree', 'dfs'] },
+  { title: '3Sum.', difficulty: 'medium', tags: ['two-pointers', 'array'] },
+  { title: 'Merge intervals.', difficulty: 'medium', tags: ['intervals', 'sorting'] },
+  { title: 'Insert interval.', difficulty: 'medium', tags: ['intervals'] },
+  { title: 'Binary tree level order traversal.', difficulty: 'medium', tags: ['tree', 'bfs'] },
+  { title: 'Kth smallest element in a BST.', difficulty: 'medium', tags: ['tree', 'bst'] },
+  { title: 'Construct binary tree from preorder and inorder traversal.', difficulty: 'medium', tags: ['tree', 'recursion'] },
+  { title: 'Subsets.', difficulty: 'medium', tags: ['backtracking'] },
+  { title: 'Permutations.', difficulty: 'medium', tags: ['backtracking'] },
+  { title: 'Combination sum.', difficulty: 'medium', tags: ['backtracking'] },
+  { title: 'House robber.', difficulty: 'medium', tags: ['dp'] },
+  { title: 'House robber II.', difficulty: 'medium', tags: ['dp'] },
+  { title: 'Word break.', difficulty: 'medium', tags: ['dp', 'string'] },
+  { title: 'Unique paths.', difficulty: 'medium', tags: ['dp', 'grid'] },
+  { title: 'Jump game.', difficulty: 'medium', tags: ['greedy', 'dp'] },
+  { title: 'Rotate array.', difficulty: 'medium', tags: ['array'] },
+  { title: 'Find minimum in rotated sorted array.', difficulty: 'medium', tags: ['binary-search'] },
+  { title: 'Daily temperatures.', difficulty: 'medium', tags: ['stack', 'monotonic-stack'] },
+  { title: 'Decode ways.', difficulty: 'medium', tags: ['dp', 'string'] },
+  { title: 'Pacific Atlantic water flow.', difficulty: 'medium', tags: ['dfs', 'grid'] },
+  { title: 'Course Schedule II.', difficulty: 'medium', tags: ['graph', 'topo-sort'] },
+  { title: 'Longest consecutive sequence.', difficulty: 'medium', tags: ['hashmap', 'array'] },
+  { title: 'Maximum product subarray.', difficulty: 'medium', tags: ['array', 'dp'] },
+  { title: 'Set matrix zeroes.', difficulty: 'medium', tags: ['matrix'] },
+  { title: 'Sort colors.', difficulty: 'medium', tags: ['two-pointers', 'array'] },
+  { title: 'Pow(x, n).', difficulty: 'medium', tags: ['math', 'recursion'] },
+  { title: 'Min cost to connect all points.', difficulty: 'medium', tags: ['graph', 'mst'] },
+  { title: 'Find median from data stream.', difficulty: 'hard', tags: ['heap', 'design'] },
+  { title: 'Largest rectangle in histogram.', difficulty: 'hard', tags: ['stack', 'monotonic-stack'] },
+  { title: 'Minimum window substring.', difficulty: 'hard', tags: ['sliding-window', 'string'] },
+  { title: 'Binary tree maximum path sum.', difficulty: 'hard', tags: ['tree', 'dfs'] },
+  { title: 'Word search II.', difficulty: 'hard', tags: ['trie', 'backtracking'] },
+  { title: 'Regular expression matching.', difficulty: 'hard', tags: ['dp', 'string'] },
 ];
 
 const OA: BankQ[] = [
@@ -55,6 +95,14 @@ const OA: BankQ[] = [
   { title: 'Implement a rate-limited counter.', difficulty: 'medium', tags: ['simulation'] },
   { title: 'Aptitude and logical-reasoning section.', difficulty: 'easy', tags: ['aptitude'] },
   { title: 'Spiral order traversal of a matrix.', difficulty: 'medium', tags: ['matrix'] },
+  { title: 'Group items by frequency and return the top K.', difficulty: 'medium', tags: ['hashmap', 'heap'] },
+  { title: 'Validate an IP address (IPv4 / IPv6).', difficulty: 'medium', tags: ['string', 'parsing'] },
+  { title: 'Compute the running median of a stream.', difficulty: 'hard', tags: ['heap'] },
+  { title: 'Find the number of distinct substrings of length k.', difficulty: 'medium', tags: ['sliding-window', 'string'] },
+  { title: 'Reformat a log file by timestamp.', difficulty: 'easy', tags: ['sorting', 'parsing'] },
+  { title: 'Simulate a simplified card game and score it.', difficulty: 'medium', tags: ['simulation'] },
+  { title: 'Given a list of transactions, detect fraudulent patterns.', difficulty: 'medium', tags: ['hashmap', 'simulation'] },
+  { title: 'Merge overlapping meeting intervals from a calendar.', difficulty: 'medium', tags: ['intervals', 'sorting'] },
 ];
 
 const BEHAVIORAL: BankQ[] = [
@@ -78,6 +126,16 @@ const BEHAVIORAL: BankQ[] = [
   { title: 'Describe something you shipped that you were not proud of.', tags: ['tradeoffs', 'star'] },
   { title: 'How do you get up to speed on an unfamiliar codebase?', tags: ['learning'] },
   { title: 'Tell me about a time you disagreed and committed.', tags: ['teamwork', 'star'] },
+  { title: 'Tell me about a time you led without a title.', tags: ['leadership', 'star'] },
+  { title: 'Describe a goal you set and how you achieved it.', tags: ['ownership', 'star'] },
+  { title: 'Tell me about a time you had to learn something quickly.', tags: ['learning', 'star'] },
+  { title: 'Describe a conflict with your manager and the outcome.', tags: ['conflict', 'star'] },
+  { title: 'Tell me about a time you went above and beyond for a customer.', tags: ['customer', 'star'] },
+  { title: 'When did you have to make a decision with incomplete data?', tags: ['judgment', 'star'] },
+  { title: 'Describe a time you improved a process or tool for your team.', tags: ['ownership', 'star'] },
+  { title: 'Tell me about the most impactful project of your career.', tags: ['impact', 'star'] },
+  { title: 'Describe a time you had to deliver bad news.', tags: ['communication', 'star'] },
+  { title: 'How do you handle competing priorities from two managers?', tags: ['prioritization', 'star'] },
 ];
 
 const HIRING_MANAGER: BankQ[] = [
@@ -95,6 +153,14 @@ const HIRING_MANAGER: BankQ[] = [
   { title: 'What would your first 90 days here look like?', tags: ['planning'] },
   { title: 'How do you give difficult feedback to a peer?', tags: ['leadership'] },
   { title: 'Tell me about a project that slipped. What did you do?', tags: ['delivery'] },
+  { title: 'How do you set technical direction for a team?', tags: ['leadership', 'strategy'] },
+  { title: 'How do you run an incident and the postmortem after?', tags: ['reliability', 'process'] },
+  { title: 'How do you evaluate and adopt a new technology?', tags: ['judgment'] },
+  { title: 'How do you grow junior engineers on your team?', tags: ['mentorship', 'leadership'] },
+  { title: 'Describe how you drove alignment across multiple teams.', tags: ['collaboration', 'influence'] },
+  { title: 'How do you handle an underperforming teammate?', tags: ['leadership'] },
+  { title: 'What is the biggest system you have designed, and why those choices?', tags: ['architecture'] },
+  { title: 'How do you decide when a project is done enough to ship?', tags: ['delivery', 'judgment'] },
 ];
 
 const SYSTEM_DESIGN_GENERAL: BankQ[] = [
@@ -112,6 +178,14 @@ const SYSTEM_DESIGN_GENERAL: BankQ[] = [
   { title: 'Design a job scheduler / cron service.', difficulty: 'medium', tags: ['queues', 'scheduling'] },
   { title: 'Design a distributed cache.', difficulty: 'hard', tags: ['cache', 'consistency'] },
   { title: 'Design a file-sharing service with permissions.', difficulty: 'medium', tags: ['storage', 'acl'] },
+  { title: 'Design a chat application like WhatsApp.', difficulty: 'hard', tags: ['websocket', 'fanout', 'storage'] },
+  { title: 'Design a video streaming service like YouTube.', difficulty: 'hard', tags: ['cdn', 'storage', 'transcoding'] },
+  { title: 'Design a ride-sharing service like Uber.', difficulty: 'hard', tags: ['geospatial', 'matching'] },
+  { title: 'Design a search autocomplete at Google scale.', difficulty: 'hard', tags: ['trie', 'ranking', 'cache'] },
+  { title: 'Design an online code judge / evaluator.', difficulty: 'hard', tags: ['sandboxing', 'queues'] },
+  { title: 'Design a distributed unique ID generator.', difficulty: 'medium', tags: ['snowflake', 'distributed'] },
+  { title: 'Design a content delivery network (CDN).', difficulty: 'hard', tags: ['cdn', 'cache', 'edge'] },
+  { title: 'Design an analytics / metrics dashboard backend.', difficulty: 'hard', tags: ['time-series', 'aggregation'] },
 ];
 
 const SYSTEM_DESIGN_FRONTEND: BankQ[] = [
@@ -123,6 +197,12 @@ const SYSTEM_DESIGN_FRONTEND: BankQ[] = [
   { title: 'Design an image-heavy gallery with lazy loading and a CDN.', difficulty: 'medium', tags: ['frontend', 'perf', 'cdn'] },
   { title: 'Design a micro-frontend architecture.', difficulty: 'hard', tags: ['frontend', 'architecture'] },
   { title: 'Design a client-side error and telemetry pipeline.', difficulty: 'medium', tags: ['frontend', 'observability'] },
+  { title: 'Design a Google Docs-style collaborative editor (frontend).', difficulty: 'hard', tags: ['frontend', 'crdt', 'realtime'] },
+  { title: 'Design a design-system component library shared across apps.', difficulty: 'medium', tags: ['frontend', 'design-system'] },
+  { title: 'Design a video-call UI with grid and speaker views.', difficulty: 'hard', tags: ['frontend', 'webrtc', 'perf'] },
+  { title: 'Design a large dashboard with many live widgets.', difficulty: 'hard', tags: ['frontend', 'realtime', 'perf'] },
+  { title: 'Design an accessible internationalized form system.', difficulty: 'medium', tags: ['frontend', 'a11y', 'i18n'] },
+  { title: 'Design a client-side feature-flag and experiment SDK.', difficulty: 'medium', tags: ['frontend', 'experiments'] },
 ];
 
 const SYSTEM_DESIGN_BACKEND: BankQ[] = [
@@ -134,6 +214,12 @@ const SYSTEM_DESIGN_BACKEND: BankQ[] = [
   { title: 'Design an event-driven order pipeline with retries.', difficulty: 'hard', tags: ['events', 'queues'] },
   { title: 'Design a feature-flag service.', difficulty: 'medium', tags: ['config', 'rollout'] },
   { title: 'Design a webhook delivery system with retries.', difficulty: 'medium', tags: ['reliability', 'queues'] },
+  { title: 'Design a distributed task queue like Celery.', difficulty: 'hard', tags: ['queues', 'workers'] },
+  { title: 'Design an inventory reservation system for checkout.', difficulty: 'hard', tags: ['concurrency', 'transactions'] },
+  { title: 'Design a rate-limited, multi-tenant public API gateway.', difficulty: 'hard', tags: ['gateway', 'rate-limit'] },
+  { title: 'Design a search indexing pipeline (crawl to index to serve).', difficulty: 'hard', tags: ['indexing', 'pipeline'] },
+  { title: 'Design an append-only, queryable audit-log service.', difficulty: 'medium', tags: ['storage', 'immutability'] },
+  { title: 'Design a real-time fraud-detection pipeline.', difficulty: 'hard', tags: ['streaming', 'ml'] },
 ];
 
 const MACHINE_CODING_FRONTEND: BankQ[] = [
@@ -153,6 +239,15 @@ const MACHINE_CODING_FRONTEND: BankQ[] = [
   { title: 'Build a toast / notification queue.', difficulty: 'medium', tags: ['react', 'state'] },
   { title: 'Build a countdown timer with pause and resume.', difficulty: 'easy', tags: ['react', 'state'] },
   { title: 'Build a nested checkbox tree with indeterminate state.', difficulty: 'hard', tags: ['react', 'recursion'] },
+  { title: 'Build a "connect four" game with win detection.', difficulty: 'medium', tags: ['react', 'state'] },
+  { title: 'Build an image carousel with autoplay and swipe.', difficulty: 'medium', tags: ['react', 'ui'] },
+  { title: 'Build a to-do app with filters and localStorage persistence.', difficulty: 'easy', tags: ['react', 'state'] },
+  { title: 'Build a color-picker with hex/rgb sync.', difficulty: 'medium', tags: ['react', 'ui'] },
+  { title: 'Build a virtualized chat window that loads older messages.', difficulty: 'hard', tags: ['react', 'virtualization'] },
+  { title: 'Build a form builder that renders from a JSON schema.', difficulty: 'hard', tags: ['react', 'forms'] },
+  { title: 'Build a stopwatch with lap times.', difficulty: 'easy', tags: ['react', 'state'] },
+  { title: 'Build an accessible accordion with single/multi open.', difficulty: 'medium', tags: ['react', 'a11y'] },
+  { title: 'Build a "Wordle" clone with keyboard input.', difficulty: 'medium', tags: ['react', 'state'] },
 ];
 
 const MACHINE_CODING_BACKEND: BankQ[] = [
@@ -170,6 +265,14 @@ const MACHINE_CODING_BACKEND: BankQ[] = [
   { title: 'Build a webhook receiver with signature verification.', difficulty: 'medium', tags: ['security', 'api'] },
   { title: 'Implement a bulk-upsert endpoint with validation.', difficulty: 'medium', tags: ['api', 'validation'] },
   { title: 'Implement an exponential-backoff HTTP client.', difficulty: 'medium', tags: ['reliability'] },
+  { title: 'Build an in-memory pub/sub with topic subscriptions.', difficulty: 'medium', tags: ['pub-sub'] },
+  { title: 'Implement a token-bucket rate limiter as a service.', difficulty: 'medium', tags: ['rate-limit'] },
+  { title: 'Implement an LRU + TTL cache library.', difficulty: 'hard', tags: ['cache', 'ttl'] },
+  { title: 'Build a mini ORM query builder (select/where/join).', difficulty: 'hard', tags: ['parsing', 'sql'] },
+  { title: 'Build a file-upload service with chunking and resume.', difficulty: 'hard', tags: ['streaming', 'storage'] },
+  { title: 'Implement a leaderboard API backed by a sorted set.', difficulty: 'medium', tags: ['redis', 'ranking'] },
+  { title: 'Build a background job runner with priorities.', difficulty: 'medium', tags: ['queue', 'workers'] },
+  { title: 'Implement a JSON config loader with env overrides.', difficulty: 'easy', tags: ['config'] },
 ];
 
 const LLD_FRONTEND: BankQ[] = [
@@ -181,6 +284,12 @@ const LLD_FRONTEND: BankQ[] = [
   { title: 'Design a client-side router.', difficulty: 'medium', tags: ['oop', 'routing'] },
   { title: 'Design a design-token theming system.', difficulty: 'medium', tags: ['design-system'] },
   { title: 'Design a data-fetching cache with invalidation.', difficulty: 'hard', tags: ['cache', 'oop'] },
+  { title: 'Design a toast/notification manager API.', difficulty: 'medium', tags: ['oop', 'pub-sub'] },
+  { title: 'Design a form-state library with validation rules.', difficulty: 'medium', tags: ['oop', 'api-design'] },
+  { title: 'Design a virtual DOM diffing model.', difficulty: 'hard', tags: ['oop', 'algorithms'] },
+  { title: 'Design a drag-and-drop framework abstraction.', difficulty: 'hard', tags: ['oop', 'dnd'] },
+  { title: 'Design an analytics event-tracking client.', difficulty: 'medium', tags: ['oop', 'observability'] },
+  { title: 'Design a keyboard-shortcut registry.', difficulty: 'medium', tags: ['oop'] },
 ];
 
 const LLD_BACKEND: BankQ[] = [
@@ -196,6 +305,12 @@ const LLD_BACKEND: BankQ[] = [
   { title: 'Design a logging library with levels and sinks.', difficulty: 'medium', tags: ['oop'] },
   { title: 'Design an ATM / cash dispenser.', difficulty: 'medium', tags: ['oop', 'state-machine'] },
   { title: 'Design a notification service (channels + templates).', difficulty: 'medium', tags: ['oop'] },
+  { title: 'Design a rate limiter with multiple strategies.', difficulty: 'medium', tags: ['oop', 'rate-limit'] },
+  { title: 'Design a movie-ticket booking system (BookMyShow).', difficulty: 'hard', tags: ['oop', 'concurrency'] },
+  { title: 'Design a food-delivery order/dispatch model.', difficulty: 'hard', tags: ['oop', 'state-machine'] },
+  { title: 'Design a library management system.', difficulty: 'medium', tags: ['oop'] },
+  { title: 'Design a hotel-reservation system core.', difficulty: 'medium', tags: ['oop', 'concurrency'] },
+  { title: 'Design a ride-hailing dispatch model (classes).', difficulty: 'hard', tags: ['oop', 'matching'] },
 ];
 
 const TECH_FRONTEND: BankQ[] = [
@@ -221,6 +336,21 @@ const TECH_FRONTEND: BankQ[] = [
   { title: 'What is tree shaking and when does it fail?', difficulty: 'medium', tags: ['bundling'] },
   { title: 'How do CSS specificity and the cascade resolve conflicts?', difficulty: 'medium', tags: ['css'] },
   { title: 'localStorage vs sessionStorage vs cookies — when to use each?', difficulty: 'easy', tags: ['browser'] },
+  { title: 'Explain how Promises work and implement Promise.all.', difficulty: 'medium', tags: ['javascript', 'async'] },
+  { title: 'What is the virtual DOM and why does it help?', difficulty: 'medium', tags: ['react'] },
+  { title: 'Explain server components vs client components.', difficulty: 'hard', tags: ['react', 'ssr'] },
+  { title: 'How does React batching and the render phase work?', difficulty: 'hard', tags: ['react'] },
+  { title: 'Difference between controlled and uncontrolled inputs.', difficulty: 'easy', tags: ['react', 'forms'] },
+  { title: 'How do you code-split and lazy-load a route?', difficulty: 'medium', tags: ['bundling', 'perf'] },
+  { title: 'Explain Core Web Vitals (LCP, CLS, INP) and how to improve them.', difficulty: 'hard', tags: ['perf'] },
+  { title: 'How does a service worker enable offline support?', difficulty: 'medium', tags: ['pwa', 'offline'] },
+  { title: 'Explain the difference between SSR, SSG, and ISR.', difficulty: 'medium', tags: ['ssr', 'rendering'] },
+  { title: 'Explain how CSS-in-JS differs from utility CSS.', difficulty: 'easy', tags: ['css'] },
+  { title: 'What causes layout thrashing and how do you avoid it?', difficulty: 'hard', tags: ['perf', 'dom'] },
+  { title: 'How do you implement dark mode without a flash?', difficulty: 'medium', tags: ['css', 'ssr'] },
+  { title: 'Explain WeakMap/WeakSet and when to use them.', difficulty: 'medium', tags: ['javascript'] },
+  { title: 'What are Web Workers and when would you use one?', difficulty: 'medium', tags: ['browser', 'perf'] },
+  { title: 'Explain the difference between == and === and coercion.', difficulty: 'easy', tags: ['javascript'] },
 ];
 
 const TECH_BACKEND: BankQ[] = [
@@ -246,6 +376,21 @@ const TECH_BACKEND: BankQ[] = [
   { title: 'How do you retry without amplifying load?', difficulty: 'hard', tags: ['reliability'] },
   { title: 'Sharding vs partitioning vs replication.', difficulty: 'hard', tags: ['databases', 'scale'] },
   { title: 'Trade-offs of gRPC vs REST vs GraphQL.', difficulty: 'medium', tags: ['api-design'] },
+  { title: 'Explain how a hash index differs from a B-tree index.', difficulty: 'hard', tags: ['databases', 'indexing'] },
+  { title: 'How does a write-ahead log guarantee durability?', difficulty: 'hard', tags: ['databases'] },
+  { title: 'Explain leader election and consensus (Raft) at a high level.', difficulty: 'hard', tags: ['distributed', 'consensus'] },
+  { title: 'How do you design an idempotency-key system for payments?', difficulty: 'hard', tags: ['idempotency', 'payments'] },
+  { title: 'Difference between at-least-once and exactly-once delivery.', difficulty: 'hard', tags: ['messaging'] },
+  { title: 'How does the OAuth 2.0 authorization-code flow work?', difficulty: 'medium', tags: ['auth', 'security'] },
+  { title: 'Explain JWT structure and common pitfalls.', difficulty: 'medium', tags: ['auth', 'security'] },
+  { title: 'How do you design a schema for a multi-currency ledger?', difficulty: 'hard', tags: ['databases', 'money'] },
+  { title: 'Explain database replication lag and how to mitigate it.', difficulty: 'medium', tags: ['databases', 'replication'] },
+  { title: 'What is backpressure and how do you handle it?', difficulty: 'hard', tags: ['streaming', 'reliability'] },
+  { title: 'How do circuit breakers and bulkheads improve resilience?', difficulty: 'medium', tags: ['reliability'] },
+  { title: 'Explain how DNS resolution works end to end.', difficulty: 'medium', tags: ['networking'] },
+  { title: 'Explain the difference between horizontal and vertical scaling.', difficulty: 'easy', tags: ['scale'] },
+  { title: 'How does a bloom filter work and when would you use one?', difficulty: 'medium', tags: ['data-structures', 'probabilistic'] },
+  { title: 'How do you design a public API for backward compatibility?', difficulty: 'medium', tags: ['api-design'] },
 ];
 
 function poolFor(role: Role, round: Round): BankQ[] {
@@ -300,10 +445,11 @@ const ROUND_PLANS: Record<Level, Round[]> = {
 
 // How many questions to draw per round.
 const ROUND_QUOTA: Partial<Record<Round, number>> = {
-  dsa: 2,
+  dsa: 3,
   system_design: 2,
   machine_coding: 2,
-  tech_deep_dive: 2,
+  tech_deep_dive: 3,
+  behavioral: 2,
 };
 
 export const PROFILES: { role: Role; level: Level }[] = [
@@ -315,6 +461,10 @@ export const PROFILES: { role: Role; level: Level }[] = [
   { role: 'fullstack', level: 'junior' },
   { role: 'backend', level: 'senior' },
   { role: 'frontend', level: 'mid' },
+  { role: 'fullstack', level: 'mid' },
+  { role: 'backend', level: 'junior' },
+  { role: 'frontend', level: 'staff' },
+  { role: 'fullstack', level: 'staff' },
 ];
 
 const OUTCOMES_WEIGHTED = [

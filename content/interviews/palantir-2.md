@@ -1,24 +1,26 @@
 ---
 id: palantir-2
 company: palantir
-role: frontend
-level: mid
-outcome: no_offer
+role: fullstack
+level: staff
+outcome: withdrew
 year: 2025
 source: curated
-summary: Mid frontend interview. Fundamentals mattered as much as getting to an answer.
+summary: >-
+  5-round staff fullstack process. Fundamentals mattered as much as getting to
+  an answer.
 ---
-# Mid Frontend — Palantir
+# Staff Full-stack — Palantir
 
-![role](https://img.shields.io/badge/role-Frontend-22d3ee?style=flat-square)
-![level](https://img.shields.io/badge/level-Mid-818cf8?style=flat-square)
-![outcome](https://img.shields.io/badge/outcome-No%20offer-f87171?style=flat-square)
+![role](https://img.shields.io/badge/role-Full--stack-a78bfa?style=flat-square)
+![level](https://img.shields.io/badge/level-Staff-818cf8?style=flat-square)
+![outcome](https://img.shields.io/badge/outcome-Withdrew-fbbf24?style=flat-square)
 ![year](https://img.shields.io/badge/year-2025-6b7280?style=flat-square)
 ![source](https://img.shields.io/badge/source-Commonly%20asked-2dd4bf?style=flat-square)
 
-> Mid frontend interview. Fundamentals mattered as much as getting to an answer.
+> 5-round staff fullstack process. Fundamentals mattered as much as getting to an answer.
 
-**5 rounds · 8 questions**
+**5 rounds · 9 questions**
 
 ---
 
@@ -29,18 +31,19 @@ _Data structures & algorithms on a whiteboard or shared editor._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Sliding window maximum. | 🔴 Hard | `deque` `sliding-window` | [LC](https://leetcode.com/problems/sliding-window-maximum/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Sliding%20window%20maximum) |
-| Word search in a grid. | 🟡 Medium | `backtracking` `grid` | [LC](https://leetcode.com/problems/word-search/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Word%20search%20in%20a%20grid) |
+| Course Schedule — detect a cycle / topological sort. | 🟡 Medium | `graph` `topo-sort` | [LC](https://leetcode.com/problems/course-schedule/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Course%20Schedule%20%E2%80%94%20detect%20a%20cycle%20%2F%20topological%20sort) |
+| Rotate array. | 🟡 Medium | `array` | [LC](https://leetcode.com/problems/rotate-array/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Rotate%20array) |
+| Best time to buy and sell stock. | 🟢 Easy | `array` `greedy` | [LC](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Best%20time%20to%20buy%20and%20sell%20stock) |
 
-## Round 2 · Machine Coding
-<!-- round: machine_coding -->
+## Round 2 · System Design
+<!-- round: system_design -->
 
-_Build a working component or service under time pressure._
+_High-level architecture of a large-scale system._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Build a toast / notification queue. | 🟡 Medium | `react` `state` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20a%20toast%20%2F%20notification%20queue) · [Search](https://www.google.com/search?q=Build%20a%20toast%20%2F%20notification%20queue) |
-| Build an infinite-scrolling list with virtualization. | 🔴 Hard | `react` `virtualization` `perf` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20an%20infinite-scrolling%20list%20with%20virtualization) · [Search](https://www.google.com/search?q=Build%20an%20infinite-scrolling%20list%20with%20virtualization) |
+| Design a payment processing + idempotency system. | 🔴 Hard | `idempotency` `consistency` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20payment%20processing%20%2B%20idempotency%20system) · [Search](https://www.google.com/search?q=Design%20a%20payment%20processing%20%2B%20idempotency%20system) |
+| Design a micro-frontend architecture. | 🔴 Hard | `frontend` `architecture` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20micro-frontend%20architecture) · [Search](https://www.google.com/search?q=Design%20a%20micro-frontend%20architecture) |
 
 ## Round 3 · Low-Level Design
 <!-- round: lld -->
@@ -49,17 +52,16 @@ _Object-oriented / low-level design of a focused module._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Design a data-fetching cache with invalidation. | 🔴 Hard | `cache` `oop` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20data-fetching%20cache%20with%20invalidation) · [Search](https://www.google.com/search?q=Design%20a%20data-fetching%20cache%20with%20invalidation) |
+| Design an in-memory file system. | 🔴 Hard | `oop` `trees` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20an%20in-memory%20file%20system) · [Search](https://www.google.com/search?q=Design%20an%20in-memory%20file%20system) |
 
-## Round 4 · Tech Deep-Dive
-<!-- round: tech_deep_dive -->
+## Round 4 · Hiring Manager
+<!-- round: hiring_manager -->
 
-_Deep questions on your core stack and fundamentals._
+_Scope, ownership, and role-fit discussion with the manager._
 
-| Question | Difficulty | Tags | Practice |
-| --- | --- | --- | --- |
-| Explain `useEffect` dependencies and common pitfalls. | 🟡 Medium | `react` `hooks` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20%60useEffect%60%20dependencies%20and%20common%20pitfalls) · [Search](https://www.google.com/search?q=Explain%20%60useEffect%60%20dependencies%20and%20common%20pitfalls) |
-| Event delegation and how bubbling/capturing work. | 🟢 Easy | `dom` | [GfG](https://www.geeksforgeeks.org/search/?gq=Event%20delegation%20and%20how%20bubbling%2Fcapturing%20work) · [Search](https://www.google.com/search?q=Event%20delegation%20and%20how%20bubbling%2Fcapturing%20work) |
+| Question | Difficulty | Tags |
+| --- | --- | --- |
+| How do you evaluate and adopt a new technology? | — | `judgment` |
 
 ## Round 5 · Behavioral / HR
 <!-- round: behavioral -->
@@ -68,7 +70,8 @@ _Values, collaboration, and past-experience (STAR) questions._
 
 | Question | Difficulty | Tags |
 | --- | --- | --- |
-| Tell me about a project you are most proud of. | — | `star` |
+| Why this company, and why this role? | — | `motivation` |
+| Tell me about a time you had to say no to a stakeholder. | — | `influence` `star` |
 
 ---
 

@@ -1,64 +1,69 @@
 ---
 id: salesforce-3
 company: salesforce
-role: backend
-level: staff
-outcome: unknown
-year: 2024
+role: frontend
+level: junior
+outcome: offer
+year: 2025
 source: curated
-summary: Staff backend interview. Fast-paced; expect follow-ups that push on depth.
+summary: >-
+  5-round junior frontend process. Coding-heavy early, design and behavioral
+  later.
 ---
-# Staff Backend — Salesforce
+# Junior Frontend — Salesforce
 
-![role](https://img.shields.io/badge/role-Backend-8b93ff?style=flat-square)
-![level](https://img.shields.io/badge/level-Staff-818cf8?style=flat-square)
-![outcome](https://img.shields.io/badge/outcome-Unknown-6b7280?style=flat-square)
-![year](https://img.shields.io/badge/year-2024-6b7280?style=flat-square)
+![role](https://img.shields.io/badge/role-Frontend-22d3ee?style=flat-square)
+![level](https://img.shields.io/badge/level-Junior-818cf8?style=flat-square)
+![outcome](https://img.shields.io/badge/outcome-Offer-34d399?style=flat-square)
+![year](https://img.shields.io/badge/year-2025-6b7280?style=flat-square)
 ![source](https://img.shields.io/badge/source-Commonly%20asked-2dd4bf?style=flat-square)
 
-> Staff backend interview. Fast-paced; expect follow-ups that push on depth.
+> 5-round junior frontend process. Coding-heavy early, design and behavioral later.
 
-**5 rounds · 7 questions**
+**5 rounds · 11 questions**
 
 ---
 
-## Round 1 · DSA / Coding
+## Round 1 · Online Assessment
+<!-- round: oa -->
+
+_Timed online coding / aptitude screen, usually the first filter._
+
+| Question | Difficulty | Tags | Practice |
+| --- | --- | --- | --- |
+| Spiral order traversal of a matrix. | 🟡 Medium | `matrix` | [LC](https://leetcode.com/problems/spiral-matrix/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Spiral%20order%20traversal%20of%20a%20matrix) |
+
+## Round 2 · DSA / Coding
 <!-- round: dsa -->
 
 _Data structures & algorithms on a whiteboard or shared editor._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Word search in a grid. | 🟡 Medium | `backtracking` `grid` | [LC](https://leetcode.com/problems/word-search/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Word%20search%20in%20a%20grid) |
-| Edit distance. | 🔴 Hard | `dp` `string` | [LC](https://leetcode.com/problems/edit-distance/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Edit%20distance) |
+| Unique paths. | 🟡 Medium | `dp` `grid` | [LC](https://leetcode.com/problems/unique-paths/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Unique%20paths) |
+| Kth smallest element in a BST. | 🟡 Medium | `tree` `bst` | [LC](https://leetcode.com/problems/kth-smallest-element-in-a-bst/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Kth%20smallest%20element%20in%20a%20BST) |
+| Permutations. | 🟡 Medium | `backtracking` | [LC](https://leetcode.com/problems/permutations/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Permutations) |
 
-## Round 2 · System Design
-<!-- round: system_design -->
+## Round 3 · Machine Coding
+<!-- round: machine_coding -->
 
-_High-level architecture of a large-scale system._
-
-| Question | Difficulty | Tags | Practice |
-| --- | --- | --- | --- |
-| Design a webhook delivery system with retries. | 🟡 Medium | `reliability` `queues` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20webhook%20delivery%20system%20with%20retries) · [Search](https://www.google.com/search?q=Design%20a%20webhook%20delivery%20system%20with%20retries) |
-| Design a job scheduler / cron service. | 🟡 Medium | `queues` `scheduling` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20job%20scheduler%20%2F%20cron%20service) · [Search](https://www.google.com/search?q=Design%20a%20job%20scheduler%20%2F%20cron%20service) |
-
-## Round 3 · Low-Level Design
-<!-- round: lld -->
-
-_Object-oriented / low-level design of a focused module._
+_Build a working component or service under time pressure._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Design an elevator control system. | 🟡 Medium | `oop` `state-machine` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20an%20elevator%20control%20system) · [Search](https://www.google.com/search?q=Design%20an%20elevator%20control%20system) |
+| Build a debounced autocomplete/search box with keyboard nav. | 🟡 Medium | `react` `debounce` `a11y` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20a%20debounced%20autocomplete%2Fsearch%20box%20with%20keyboard%20nav) · [Search](https://www.google.com/search?q=Build%20a%20debounced%20autocomplete%2Fsearch%20box%20with%20keyboard%20nav) |
+| Build a form builder that renders from a JSON schema. | 🔴 Hard | `react` `forms` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20a%20form%20builder%20that%20renders%20from%20a%20JSON%20schema) · [Search](https://www.google.com/search?q=Build%20a%20form%20builder%20that%20renders%20from%20a%20JSON%20schema) |
 
-## Round 4 · Hiring Manager
-<!-- round: hiring_manager -->
+## Round 4 · Tech Deep-Dive
+<!-- round: tech_deep_dive -->
 
-_Scope, ownership, and role-fit discussion with the manager._
+_Deep questions on your core stack and fundamentals._
 
-| Question | Difficulty | Tags |
-| --- | --- | --- |
-| Where do you want to grow in the next two years? | — | `growth` |
+| Question | Difficulty | Tags | Practice |
+| --- | --- | --- | --- |
+| How do CSS specificity and the cascade resolve conflicts? | 🟡 Medium | `css` | [GfG](https://www.geeksforgeeks.org/search/?gq=How%20do%20CSS%20specificity%20and%20the%20cascade%20resolve%20conflicts) · [Search](https://www.google.com/search?q=How%20do%20CSS%20specificity%20and%20the%20cascade%20resolve%20conflicts) |
+| How does the browser critical rendering path work? | 🟡 Medium | `browser` `perf` | [GfG](https://www.geeksforgeeks.org/search/?gq=How%20does%20the%20browser%20critical%20rendering%20path%20work) · [Search](https://www.google.com/search?q=How%20does%20the%20browser%20critical%20rendering%20path%20work) |
+| Explain `this` binding and the call/apply/bind trio. | 🟡 Medium | `javascript` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20%60this%60%20binding%20and%20the%20call%2Fapply%2Fbind%20trio) · [Search](https://www.google.com/search?q=Explain%20%60this%60%20binding%20and%20the%20call%2Fapply%2Fbind%20trio) |
 
 ## Round 5 · Behavioral / HR
 <!-- round: behavioral -->
@@ -67,7 +72,8 @@ _Values, collaboration, and past-experience (STAR) questions._
 
 | Question | Difficulty | Tags |
 | --- | --- | --- |
-| A time you influenced a decision without authority. | — | `influence` `star` |
+| When did you change your mind after seeing new evidence? | — | `judgment` `star` |
+| Tell me about a project you are most proud of. | — | `star` |
 
 ---
 

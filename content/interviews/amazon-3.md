@@ -1,26 +1,26 @@
 ---
 id: amazon-3
 company: amazon
-role: frontend
-level: mid
+role: fullstack
+level: staff
 outcome: offer
-year: 2025
+year: 2023
 source: curated
 summary: >-
-  5-round mid frontend process. Pragmatic questions — more real-world than pure
-  puzzles.
+  5-round staff fullstack process. Coding-heavy early, design and behavioral
+  later.
 ---
-# Mid Frontend — Amazon
+# Staff Full-stack — Amazon
 
-![role](https://img.shields.io/badge/role-Frontend-22d3ee?style=flat-square)
-![level](https://img.shields.io/badge/level-Mid-818cf8?style=flat-square)
+![role](https://img.shields.io/badge/role-Full--stack-a78bfa?style=flat-square)
+![level](https://img.shields.io/badge/level-Staff-818cf8?style=flat-square)
 ![outcome](https://img.shields.io/badge/outcome-Offer-34d399?style=flat-square)
-![year](https://img.shields.io/badge/year-2025-6b7280?style=flat-square)
+![year](https://img.shields.io/badge/year-2023-6b7280?style=flat-square)
 ![source](https://img.shields.io/badge/source-Commonly%20asked-2dd4bf?style=flat-square)
 
-> 5-round mid frontend process. Pragmatic questions — more real-world than pure puzzles.
+> 5-round staff fullstack process. Coding-heavy early, design and behavioral later.
 
-**5 rounds · 8 questions**
+**5 rounds · 9 questions**
 
 ---
 
@@ -31,18 +31,19 @@ _Data structures & algorithms on a whiteboard or shared editor._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Best time to buy and sell stock. | 🟢 Easy | `array` `greedy` | [LC](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Best%20time%20to%20buy%20and%20sell%20stock) |
-| Rotting oranges. | 🟡 Medium | `bfs` `grid` | [LC](https://leetcode.com/problems/rotting-oranges/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Rotting%20oranges) |
+| Top K frequent elements. | 🟡 Medium | `heap` `hashmap` | [LC](https://leetcode.com/problems/top-k-frequent-elements/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Top%20K%20frequent%20elements) |
+| House robber. | 🟡 Medium | `dp` | [LC](https://leetcode.com/problems/house-robber/) · [GfG](https://www.geeksforgeeks.org/search/?gq=House%20robber) |
+| Unique paths. | 🟡 Medium | `dp` `grid` | [LC](https://leetcode.com/problems/unique-paths/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Unique%20paths) |
 
-## Round 2 · Machine Coding
-<!-- round: machine_coding -->
+## Round 2 · System Design
+<!-- round: system_design -->
 
-_Build a working component or service under time pressure._
+_High-level architecture of a large-scale system._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Build a "polling" progress UI that updates from an API. | 🟡 Medium | `react` `async` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20a%20%22polling%22%20progress%20UI%20that%20updates%20from%20an%20API) · [Search](https://www.google.com/search?q=Build%20a%20%22polling%22%20progress%20UI%20that%20updates%20from%20an%20API) |
-| Build a tic-tac-toe game with win detection. | 🟢 Easy | `react` `state` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20a%20tic-tac-toe%20game%20with%20win%20detection) · [Search](https://www.google.com/search?q=Build%20a%20tic-tac-toe%20game%20with%20win%20detection) |
+| Design a chat/messaging backend with delivery guarantees. | 🔴 Hard | `websocket` `queues` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20chat%2Fmessaging%20backend%20with%20delivery%20guarantees) · [Search](https://www.google.com/search?q=Design%20a%20chat%2Fmessaging%20backend%20with%20delivery%20guarantees) |
+| Design a search autocomplete at Google scale. | 🔴 Hard | `trie` `ranking` `cache` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20search%20autocomplete%20at%20Google%20scale) · [Search](https://www.google.com/search?q=Design%20a%20search%20autocomplete%20at%20Google%20scale) |
 
 ## Round 3 · Low-Level Design
 <!-- round: lld -->
@@ -51,17 +52,16 @@ _Object-oriented / low-level design of a focused module._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Design a design-token theming system. | 🟡 Medium | `design-system` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20design-token%20theming%20system) · [Search](https://www.google.com/search?q=Design%20a%20design-token%20theming%20system) |
+| Design a ride-hailing dispatch model (classes). | 🔴 Hard | `oop` `matching` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20ride-hailing%20dispatch%20model%20(classes)) · [Search](https://www.google.com/search?q=Design%20a%20ride-hailing%20dispatch%20model%20(classes)) |
 
-## Round 4 · Tech Deep-Dive
-<!-- round: tech_deep_dive -->
+## Round 4 · Hiring Manager
+<!-- round: hiring_manager -->
 
-_Deep questions on your core stack and fundamentals._
+_Scope, ownership, and role-fit discussion with the manager._
 
-| Question | Difficulty | Tags | Practice |
-| --- | --- | --- | --- |
-| How does the browser critical rendering path work? | 🟡 Medium | `browser` `perf` | [GfG](https://www.geeksforgeeks.org/search/?gq=How%20does%20the%20browser%20critical%20rendering%20path%20work) · [Search](https://www.google.com/search?q=How%20does%20the%20browser%20critical%20rendering%20path%20work) |
-| How do you optimize a slow React app? (profiling → fixes) | 🔴 Hard | `react` `perf` | [GfG](https://www.geeksforgeeks.org/search/?gq=How%20do%20you%20optimize%20a%20slow%20React%20app%3F%20(profiling%20%E2%86%92%20fixes)) · [Search](https://www.google.com/search?q=How%20do%20you%20optimize%20a%20slow%20React%20app%3F%20(profiling%20%E2%86%92%20fixes)) |
+| Question | Difficulty | Tags |
+| --- | --- | --- |
+| What would your first 90 days here look like? | — | `planning` |
 
 ## Round 5 · Behavioral / HR
 <!-- round: behavioral -->
@@ -70,7 +70,8 @@ _Values, collaboration, and past-experience (STAR) questions._
 
 | Question | Difficulty | Tags |
 | --- | --- | --- |
-| Describe handling a tight deadline with competing priorities. | — | `prioritization` `star` |
+| A time you made a mistake in production — what happened next? | — | `ownership` `star` |
+| Describe something you shipped that you were not proud of. | — | `tradeoffs` `star` |
 
 ---
 

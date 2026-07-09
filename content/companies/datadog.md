@@ -9,8 +9,8 @@ description: Monitoring at scale. Time-series systems and pragmatic coding.
 
 ![industry](https://img.shields.io/badge/industry-Observability-8b93ff?style=flat-square)
 ![hq](https://img.shields.io/badge/hq-New%20York,%20NY-6b7280?style=flat-square)
-![interviews](https://img.shields.io/badge/interviews-4-22d3ee?style=flat-square)
-![questions](https://img.shields.io/badge/questions-33-a78bfa?style=flat-square)
+![interviews](https://img.shields.io/badge/interviews-5-22d3ee?style=flat-square)
+![questions](https://img.shields.io/badge/questions-51-a78bfa?style=flat-square)
 
 > Monitoring at scale. Time-series systems and pragmatic coding.
 
@@ -20,10 +20,11 @@ description: Monitoring at scale. Time-series systems and pragmatic coding.
 
 | Interview | Outcome | Rounds | Questions |
 | --- | --- | --- | --- |
-| [Staff · Backend](../interviews/datadog-1.md) | No offer | 5 | 7 |
-| [Junior · Full-stack](../interviews/datadog-2.md) | No offer | 5 | 8 |
-| [Senior · Backend](../interviews/datadog-3.md) | Withdrew | 6 | 10 |
-| [Mid · Frontend](../interviews/datadog-4.md) | Offer | 5 | 8 |
+| [Mid · Full-stack](../interviews/datadog-1.md) | Unknown | 5 | 11 |
+| [Junior · Backend](../interviews/datadog-2.md) | Offer | 5 | 11 |
+| [Staff · Frontend](../interviews/datadog-3.md) | No offer | 5 | 9 |
+| [Staff · Full-stack](../interviews/datadog-4.md) | Offer | 5 | 9 |
+| [Junior · Frontend](../interviews/datadog-5.md) | Withdrew | 5 | 11 |
 
 ---
 

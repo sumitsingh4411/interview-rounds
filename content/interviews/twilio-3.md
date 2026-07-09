@@ -1,66 +1,67 @@
 ---
 id: twilio-3
 company: twilio
-role: backend
-level: staff
-outcome: withdrew
-year: 2023
+role: frontend
+level: junior
+outcome: offer
+year: 2024
 source: curated
-summary: >-
-  5-round staff backend process. Coding-heavy early, design and behavioral
-  later.
+summary: 'Junior frontend interview. Balanced across coding, design, and collaboration.'
 ---
-# Staff Backend — Twilio
+# Junior Frontend — Twilio
 
-![role](https://img.shields.io/badge/role-Backend-8b93ff?style=flat-square)
-![level](https://img.shields.io/badge/level-Staff-818cf8?style=flat-square)
-![outcome](https://img.shields.io/badge/outcome-Withdrew-fbbf24?style=flat-square)
-![year](https://img.shields.io/badge/year-2023-6b7280?style=flat-square)
+![role](https://img.shields.io/badge/role-Frontend-22d3ee?style=flat-square)
+![level](https://img.shields.io/badge/level-Junior-818cf8?style=flat-square)
+![outcome](https://img.shields.io/badge/outcome-Offer-34d399?style=flat-square)
+![year](https://img.shields.io/badge/year-2024-6b7280?style=flat-square)
 ![source](https://img.shields.io/badge/source-Commonly%20asked-2dd4bf?style=flat-square)
 
-> 5-round staff backend process. Coding-heavy early, design and behavioral later.
+> Junior frontend interview. Balanced across coding, design, and collaboration.
 
-**5 rounds · 7 questions**
+**5 rounds · 11 questions**
 
 ---
 
-## Round 1 · DSA / Coding
+## Round 1 · Online Assessment
+<!-- round: oa -->
+
+_Timed online coding / aptitude screen, usually the first filter._
+
+| Question | Difficulty | Tags | Practice |
+| --- | --- | --- | --- |
+| Find the number of distinct substrings of length k. | 🟡 Medium | `sliding-window` `string` | [GfG](https://www.geeksforgeeks.org/search/?gq=Find%20the%20number%20of%20distinct%20substrings%20of%20length%20k) · [Search](https://www.google.com/search?q=Find%20the%20number%20of%20distinct%20substrings%20of%20length%20k) |
+
+## Round 2 · DSA / Coding
 <!-- round: dsa -->
 
 _Data structures & algorithms on a whiteboard or shared editor._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Top K frequent elements. | 🟡 Medium | `heap` `hashmap` | [LC](https://leetcode.com/problems/top-k-frequent-elements/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Top%20K%20frequent%20elements) |
-| Search in a rotated sorted array. | 🟡 Medium | `binary-search` | [LC](https://leetcode.com/problems/search-in-rotated-sorted-array/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Search%20in%20a%20rotated%20sorted%20array) |
+| Minimum window substring. | 🔴 Hard | `sliding-window` `string` | [LC](https://leetcode.com/problems/minimum-window-substring/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Minimum%20window%20substring) |
+| Container with most water. | 🟡 Medium | `two-pointers` `array` | [LC](https://leetcode.com/problems/container-with-most-water/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Container%20with%20most%20water) |
+| Permutations. | 🟡 Medium | `backtracking` | [LC](https://leetcode.com/problems/permutations/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Permutations) |
 
-## Round 2 · System Design
-<!-- round: system_design -->
+## Round 3 · Machine Coding
+<!-- round: machine_coding -->
 
-_High-level architecture of a large-scale system._
-
-| Question | Difficulty | Tags | Practice |
-| --- | --- | --- | --- |
-| Design an event-driven order pipeline with retries. | 🔴 Hard | `events` `queues` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20an%20event-driven%20order%20pipeline%20with%20retries) · [Search](https://www.google.com/search?q=Design%20an%20event-driven%20order%20pipeline%20with%20retries) |
-| Design a distributed key-value store. | 🔴 Hard | `replication` `consistency` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20distributed%20key-value%20store) · [Search](https://www.google.com/search?q=Design%20a%20distributed%20key-value%20store) |
-
-## Round 3 · Low-Level Design
-<!-- round: lld -->
-
-_Object-oriented / low-level design of a focused module._
+_Build a working component or service under time pressure._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Design an ATM / cash dispenser. | 🟡 Medium | `oop` `state-machine` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20an%20ATM%20%2F%20cash%20dispenser) · [Search](https://www.google.com/search?q=Design%20an%20ATM%20%2F%20cash%20dispenser) |
+| Build an infinite-scrolling list with virtualization. | 🔴 Hard | `react` `virtualization` `perf` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20an%20infinite-scrolling%20list%20with%20virtualization) · [Search](https://www.google.com/search?q=Build%20an%20infinite-scrolling%20list%20with%20virtualization) |
+| Build an image carousel with autoplay and swipe. | 🟡 Medium | `react` `ui` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20an%20image%20carousel%20with%20autoplay%20and%20swipe) · [Search](https://www.google.com/search?q=Build%20an%20image%20carousel%20with%20autoplay%20and%20swipe) |
 
-## Round 4 · Hiring Manager
-<!-- round: hiring_manager -->
+## Round 4 · Tech Deep-Dive
+<!-- round: tech_deep_dive -->
 
-_Scope, ownership, and role-fit discussion with the manager._
+_Deep questions on your core stack and fundamentals._
 
-| Question | Difficulty | Tags |
-| --- | --- | --- |
-| What does a great engineering culture look like to you? | — | `values` |
+| Question | Difficulty | Tags | Practice |
+| --- | --- | --- | --- |
+| Explain how CSS-in-JS differs from utility CSS. | 🟢 Easy | `css` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20how%20CSS-in-JS%20differs%20from%20utility%20CSS) · [Search](https://www.google.com/search?q=Explain%20how%20CSS-in-JS%20differs%20from%20utility%20CSS) |
+| Difference between CSS Grid and Flexbox — when to use each. | 🟢 Easy | `css` `layout` | [GfG](https://www.geeksforgeeks.org/search/?gq=Difference%20between%20CSS%20Grid%20and%20Flexbox%20%E2%80%94%20when%20to%20use%20each) · [Search](https://www.google.com/search?q=Difference%20between%20CSS%20Grid%20and%20Flexbox%20%E2%80%94%20when%20to%20use%20each) |
+| Explain the JS event loop: microtasks vs macrotasks. | 🟡 Medium | `javascript` `event-loop` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20the%20JS%20event%20loop%3A%20microtasks%20vs%20macrotasks) · [Search](https://www.google.com/search?q=Explain%20the%20JS%20event%20loop%3A%20microtasks%20vs%20macrotasks) |
 
 ## Round 5 · Behavioral / HR
 <!-- round: behavioral -->
@@ -69,7 +70,8 @@ _Values, collaboration, and past-experience (STAR) questions._
 
 | Question | Difficulty | Tags |
 | --- | --- | --- |
-| Describe working with an ambiguous or shifting requirement. | — | `ambiguity` `star` |
+| Describe a disagreement on a code review and how it ended. | — | `conflict` `star` |
+| How do you handle being blocked for several days? | — | `ownership` `star` |
 
 ---
 

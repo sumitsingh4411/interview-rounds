@@ -1,24 +1,26 @@
 ---
 id: meta-1
 company: meta
-role: backend
+role: fullstack
 level: senior
-outcome: offer
-year: 2023
+outcome: withdrew
+year: 2024
 source: curated
-summary: A senior backend loop. Fast-paced; expect follow-ups that push on depth.
+summary: >-
+  Senior fullstack interview. Fundamentals mattered as much as getting to an
+  answer.
 ---
-# Senior Backend — Meta
+# Senior Full-stack — Meta
 
-![role](https://img.shields.io/badge/role-Backend-8b93ff?style=flat-square)
+![role](https://img.shields.io/badge/role-Full--stack-a78bfa?style=flat-square)
 ![level](https://img.shields.io/badge/level-Senior-818cf8?style=flat-square)
-![outcome](https://img.shields.io/badge/outcome-Offer-34d399?style=flat-square)
-![year](https://img.shields.io/badge/year-2023-6b7280?style=flat-square)
+![outcome](https://img.shields.io/badge/outcome-Withdrew-fbbf24?style=flat-square)
+![year](https://img.shields.io/badge/year-2024-6b7280?style=flat-square)
 ![source](https://img.shields.io/badge/source-Commonly%20asked-2dd4bf?style=flat-square)
 
-> A senior backend loop. Fast-paced; expect follow-ups that push on depth.
+> Senior fullstack interview. Fundamentals mattered as much as getting to an answer.
 
-**6 rounds · 10 questions**
+**6 rounds · 13 questions**
 
 ---
 
@@ -29,8 +31,9 @@ _Data structures & algorithms on a whiteboard or shared editor._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Merge k sorted lists. | 🔴 Hard | `heap` `linked-list` | [LC](https://leetcode.com/problems/merge-k-sorted-lists/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Merge%20k%20sorted%20lists) |
-| Climbing stairs. | 🟢 Easy | `dp` | [LC](https://leetcode.com/problems/climbing-stairs/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Climbing%20stairs) |
+| 3Sum. | 🟡 Medium | `two-pointers` `array` | [LC](https://leetcode.com/problems/3sum/) · [GfG](https://www.geeksforgeeks.org/search/?gq=3Sum) |
+| Median of two sorted arrays. | 🔴 Hard | `binary-search` | [LC](https://leetcode.com/problems/median-of-two-sorted-arrays/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Median%20of%20two%20sorted%20arrays) |
+| Sliding window maximum. | 🔴 Hard | `deque` `sliding-window` | [LC](https://leetcode.com/problems/sliding-window-maximum/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Sliding%20window%20maximum) |
 
 ## Round 2 · Machine Coding
 <!-- round: machine_coding -->
@@ -39,8 +42,8 @@ _Build a working component or service under time pressure._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Implement a job queue with retries and backoff. | 🔴 Hard | `queue` `reliability` | [GfG](https://www.geeksforgeeks.org/search/?gq=Implement%20a%20job%20queue%20with%20retries%20and%20backoff) · [Search](https://www.google.com/search?q=Implement%20a%20job%20queue%20with%20retries%20and%20backoff) |
-| Build a CSV importer that streams and validates rows. | 🟡 Medium | `streaming` `validation` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20a%20CSV%20importer%20that%20streams%20and%20validates%20rows) · [Search](https://www.google.com/search?q=Build%20a%20CSV%20importer%20that%20streams%20and%20validates%20rows) |
+| Build an infinite-scrolling list with virtualization. | 🔴 Hard | `react` `virtualization` `perf` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20an%20infinite-scrolling%20list%20with%20virtualization) · [Search](https://www.google.com/search?q=Build%20an%20infinite-scrolling%20list%20with%20virtualization) |
+| Implement a JSON config loader with env overrides. | 🟢 Easy | `config` | [GfG](https://www.geeksforgeeks.org/search/?gq=Implement%20a%20JSON%20config%20loader%20with%20env%20overrides) · [Search](https://www.google.com/search?q=Implement%20a%20JSON%20config%20loader%20with%20env%20overrides) |
 
 ## Round 3 · System Design
 <!-- round: system_design -->
@@ -49,7 +52,7 @@ _High-level architecture of a large-scale system._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Design a ticket booking system (inventory + concurrency). | 🔴 Hard | `concurrency` `transactions` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20ticket%20booking%20system%20(inventory%20%2B%20concurrency)) · [Search](https://www.google.com/search?q=Design%20a%20ticket%20booking%20system%20(inventory%20%2B%20concurrency)) |
+| Design a video-call UI with grid and speaker views. | 🔴 Hard | `frontend` `webrtc` `perf` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20video-call%20UI%20with%20grid%20and%20speaker%20views) · [Search](https://www.google.com/search?q=Design%20a%20video-call%20UI%20with%20grid%20and%20speaker%20views) |
 | Design a distributed cache. | 🔴 Hard | `cache` `consistency` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20distributed%20cache) · [Search](https://www.google.com/search?q=Design%20a%20distributed%20cache) |
 
 ## Round 4 · Tech Deep-Dive
@@ -59,8 +62,9 @@ _Deep questions on your core stack and fundamentals._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Explain how you handle concurrency / race conditions. | 🔴 Hard | `concurrency` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20how%20you%20handle%20concurrency%20%2F%20race%20conditions) · [Search](https://www.google.com/search?q=Explain%20how%20you%20handle%20concurrency%20%2F%20race%20conditions) |
-| Compare rate-limiting algorithms and their trade-offs. | 🟡 Medium | `rate-limit` | [GfG](https://www.geeksforgeeks.org/search/?gq=Compare%20rate-limiting%20algorithms%20and%20their%20trade-offs) · [Search](https://www.google.com/search?q=Compare%20rate-limiting%20algorithms%20and%20their%20trade-offs) |
+| Message queues vs pub/sub — when to use each. | 🟡 Medium | `messaging` | [GfG](https://www.geeksforgeeks.org/search/?gq=Message%20queues%20vs%20pub%2Fsub%20%E2%80%94%20when%20to%20use%20each) · [Search](https://www.google.com/search?q=Message%20queues%20vs%20pub%2Fsub%20%E2%80%94%20when%20to%20use%20each) |
+| Sharding vs partitioning vs replication. | 🔴 Hard | `databases` `scale` | [GfG](https://www.geeksforgeeks.org/search/?gq=Sharding%20vs%20partitioning%20vs%20replication) · [Search](https://www.google.com/search?q=Sharding%20vs%20partitioning%20vs%20replication) |
+| Explain database replication lag and how to mitigate it. | 🟡 Medium | `databases` `replication` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20database%20replication%20lag%20and%20how%20to%20mitigate%20it) · [Search](https://www.google.com/search?q=Explain%20database%20replication%20lag%20and%20how%20to%20mitigate%20it) |
 
 ## Round 5 · Hiring Manager
 <!-- round: hiring_manager -->
@@ -69,7 +73,7 @@ _Scope, ownership, and role-fit discussion with the manager._
 
 | Question | Difficulty | Tags |
 | --- | --- | --- |
-| What would your first 90 days here look like? | — | `planning` |
+| What does a great engineering culture look like to you? | — | `values` |
 
 ## Round 6 · Behavioral / HR
 <!-- round: behavioral -->
@@ -78,7 +82,8 @@ _Values, collaboration, and past-experience (STAR) questions._
 
 | Question | Difficulty | Tags |
 | --- | --- | --- |
-| How do you handle being blocked for several days? | — | `ownership` `star` |
+| Describe a time you disagreed with a teammate. How did it resolve? | — | `conflict` `star` |
+| Tell me about the hardest bug you have debugged. | — | `debugging` `star` |
 
 ---
 

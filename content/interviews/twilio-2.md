@@ -1,24 +1,24 @@
 ---
 id: twilio-2
 company: twilio
-role: frontend
-level: senior
-outcome: unknown
-year: 2024
+role: fullstack
+level: staff
+outcome: offer
+year: 2025
 source: curated
-summary: A senior frontend loop. Fundamentals mattered as much as getting to an answer.
+summary: 'A staff fullstack loop. Coding-heavy early, design and behavioral later.'
 ---
-# Senior Frontend — Twilio
+# Staff Full-stack — Twilio
 
-![role](https://img.shields.io/badge/role-Frontend-22d3ee?style=flat-square)
-![level](https://img.shields.io/badge/level-Senior-818cf8?style=flat-square)
-![outcome](https://img.shields.io/badge/outcome-Unknown-6b7280?style=flat-square)
-![year](https://img.shields.io/badge/year-2024-6b7280?style=flat-square)
+![role](https://img.shields.io/badge/role-Full--stack-a78bfa?style=flat-square)
+![level](https://img.shields.io/badge/level-Staff-818cf8?style=flat-square)
+![outcome](https://img.shields.io/badge/outcome-Offer-34d399?style=flat-square)
+![year](https://img.shields.io/badge/year-2025-6b7280?style=flat-square)
 ![source](https://img.shields.io/badge/source-Commonly%20asked-2dd4bf?style=flat-square)
 
-> A senior frontend loop. Fundamentals mattered as much as getting to an answer.
+> A staff fullstack loop. Coding-heavy early, design and behavioral later.
 
-**6 rounds · 10 questions**
+**5 rounds · 9 questions**
 
 ---
 
@@ -29,56 +29,47 @@ _Data structures & algorithms on a whiteboard or shared editor._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Median of two sorted arrays. | 🔴 Hard | `binary-search` | [LC](https://leetcode.com/problems/median-of-two-sorted-arrays/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Median%20of%20two%20sorted%20arrays) |
-| Rotting oranges. | 🟡 Medium | `bfs` `grid` | [LC](https://leetcode.com/problems/rotting-oranges/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Rotting%20oranges) |
+| Word ladder — shortest transformation sequence. | 🔴 Hard | `bfs` `graph` | [LC](https://leetcode.com/problems/word-ladder/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Word%20ladder%20%E2%80%94%20shortest%20transformation%20sequence) |
+| Set matrix zeroes. | 🟡 Medium | `matrix` | [LC](https://leetcode.com/problems/set-matrix-zeroes/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Set%20matrix%20zeroes) |
+| Longest consecutive sequence. | 🟡 Medium | `hashmap` `array` | [LC](https://leetcode.com/problems/longest-consecutive-sequence/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Longest%20consecutive%20sequence) |
 
-## Round 2 · Machine Coding
-<!-- round: machine_coding -->
-
-_Build a working component or service under time pressure._
-
-| Question | Difficulty | Tags | Practice |
-| --- | --- | --- | --- |
-| Build a debounced autocomplete/search box with keyboard nav. | 🟡 Medium | `react` `debounce` `a11y` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20a%20debounced%20autocomplete%2Fsearch%20box%20with%20keyboard%20nav) · [Search](https://www.google.com/search?q=Build%20a%20debounced%20autocomplete%2Fsearch%20box%20with%20keyboard%20nav) |
-| Build a typeahead with in-flight request cancellation. | 🟡 Medium | `react` `async` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20a%20typeahead%20with%20in-flight%20request%20cancellation) · [Search](https://www.google.com/search?q=Build%20a%20typeahead%20with%20in-flight%20request%20cancellation) |
-
-## Round 3 · System Design
+## Round 2 · System Design
 <!-- round: system_design -->
 
 _High-level architecture of a large-scale system._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Design a distributed cache. | 🔴 Hard | `cache` `consistency` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20distributed%20cache) · [Search](https://www.google.com/search?q=Design%20a%20distributed%20cache) |
-| Design a pastebin with expiring links. | 🟡 Medium | `storage` `ttl` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20pastebin%20with%20expiring%20links) · [Search](https://www.google.com/search?q=Design%20a%20pastebin%20with%20expiring%20links) |
+| Design a webhook delivery system with retries. | 🟡 Medium | `reliability` `queues` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20webhook%20delivery%20system%20with%20retries) · [Search](https://www.google.com/search?q=Design%20a%20webhook%20delivery%20system%20with%20retries) |
+| Design an analytics / metrics dashboard backend. | 🔴 Hard | `time-series` `aggregation` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20an%20analytics%20%2F%20metrics%20dashboard%20backend) · [Search](https://www.google.com/search?q=Design%20an%20analytics%20%2F%20metrics%20dashboard%20backend) |
 
-## Round 4 · Tech Deep-Dive
-<!-- round: tech_deep_dive -->
+## Round 3 · Low-Level Design
+<!-- round: lld -->
 
-_Deep questions on your core stack and fundamentals._
+_Object-oriented / low-level design of a focused module._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| How do CSS specificity and the cascade resolve conflicts? | 🟡 Medium | `css` | [GfG](https://www.geeksforgeeks.org/search/?gq=How%20do%20CSS%20specificity%20and%20the%20cascade%20resolve%20conflicts) · [Search](https://www.google.com/search?q=How%20do%20CSS%20specificity%20and%20the%20cascade%20resolve%20conflicts) |
-| Explain the CSS box model and box-sizing. | 🟢 Easy | `css` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20the%20CSS%20box%20model%20and%20box-sizing) · [Search](https://www.google.com/search?q=Explain%20the%20CSS%20box%20model%20and%20box-sizing) |
+| Design a keyboard-shortcut registry. | 🟡 Medium | `oop` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20keyboard-shortcut%20registry) · [Search](https://www.google.com/search?q=Design%20a%20keyboard-shortcut%20registry) |
 
-## Round 5 · Hiring Manager
+## Round 4 · Hiring Manager
 <!-- round: hiring_manager -->
 
 _Scope, ownership, and role-fit discussion with the manager._
 
 | Question | Difficulty | Tags |
 | --- | --- | --- |
-| How do you keep a team unblocked and shipping? | — | `leadership` |
+| How do you balance tech debt against feature work? | — | `prioritization` |
 
-## Round 6 · Behavioral / HR
+## Round 5 · Behavioral / HR
 <!-- round: behavioral -->
 
 _Values, collaboration, and past-experience (STAR) questions._
 
 | Question | Difficulty | Tags |
 | --- | --- | --- |
-| A time you influenced a decision without authority. | — | `influence` `star` |
+| Tell me about the most impactful project of your career. | — | `impact` `star` |
+| Tell me about receiving hard feedback and acting on it. | — | `feedback` `star` |
 
 ---
 

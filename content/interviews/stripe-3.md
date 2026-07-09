@@ -1,26 +1,26 @@
 ---
 id: stripe-3
 company: stripe
-role: frontend
-level: senior
-outcome: withdrew
-year: 2024
+role: fullstack
+level: staff
+outcome: no_offer
+year: 2023
 source: curated
 summary: >-
-  Senior frontend interview. Pragmatic questions — more real-world than pure
-  puzzles.
+  5-round staff fullstack process. Fast-paced; expect follow-ups that push on
+  depth.
 ---
-# Senior Frontend — Stripe
+# Staff Full-stack — Stripe
 
-![role](https://img.shields.io/badge/role-Frontend-22d3ee?style=flat-square)
-![level](https://img.shields.io/badge/level-Senior-818cf8?style=flat-square)
-![outcome](https://img.shields.io/badge/outcome-Withdrew-fbbf24?style=flat-square)
-![year](https://img.shields.io/badge/year-2024-6b7280?style=flat-square)
+![role](https://img.shields.io/badge/role-Full--stack-a78bfa?style=flat-square)
+![level](https://img.shields.io/badge/level-Staff-818cf8?style=flat-square)
+![outcome](https://img.shields.io/badge/outcome-No%20offer-f87171?style=flat-square)
+![year](https://img.shields.io/badge/year-2023-6b7280?style=flat-square)
 ![source](https://img.shields.io/badge/source-Commonly%20asked-2dd4bf?style=flat-square)
 
-> Senior frontend interview. Pragmatic questions — more real-world than pure puzzles.
+> 5-round staff fullstack process. Fast-paced; expect follow-ups that push on depth.
 
-**6 rounds · 10 questions**
+**5 rounds · 9 questions**
 
 ---
 
@@ -31,56 +31,47 @@ _Data structures & algorithms on a whiteboard or shared editor._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Sliding window maximum. | 🔴 Hard | `deque` `sliding-window` | [LC](https://leetcode.com/problems/sliding-window-maximum/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Sliding%20window%20maximum) |
-| Rotting oranges. | 🟡 Medium | `bfs` `grid` | [LC](https://leetcode.com/problems/rotting-oranges/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Rotting%20oranges) |
+| 3Sum. | 🟡 Medium | `two-pointers` `array` | [LC](https://leetcode.com/problems/3sum/) · [GfG](https://www.geeksforgeeks.org/search/?gq=3Sum) |
+| Construct binary tree from preorder and inorder traversal. | 🟡 Medium | `tree` `recursion` | [LC](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Construct%20binary%20tree%20from%20preorder%20and%20inorder%20traversal) |
+| Longest increasing subsequence. | 🔴 Hard | `dp` `binary-search` | [LC](https://leetcode.com/problems/longest-increasing-subsequence/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Longest%20increasing%20subsequence) |
 
-## Round 2 · Machine Coding
-<!-- round: machine_coding -->
-
-_Build a working component or service under time pressure._
-
-| Question | Difficulty | Tags | Practice |
-| --- | --- | --- | --- |
-| Build a data table with sorting, filtering and pagination. | 🔴 Hard | `react` `table` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20a%20data%20table%20with%20sorting%2C%20filtering%20and%20pagination) · [Search](https://www.google.com/search?q=Build%20a%20data%20table%20with%20sorting%2C%20filtering%20and%20pagination) |
-| Build a tic-tac-toe game with win detection. | 🟢 Easy | `react` `state` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20a%20tic-tac-toe%20game%20with%20win%20detection) · [Search](https://www.google.com/search?q=Build%20a%20tic-tac-toe%20game%20with%20win%20detection) |
-
-## Round 3 · System Design
+## Round 2 · System Design
 <!-- round: system_design -->
 
 _High-level architecture of a large-scale system._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Design a web crawler. | 🔴 Hard | `queues` `dedup` `scale` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20web%20crawler) · [Search](https://www.google.com/search?q=Design%20a%20web%20crawler) |
-| Design a news feed / timeline. | 🔴 Hard | `fanout` `ranking` `cache` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20news%20feed%20%2F%20timeline) · [Search](https://www.google.com/search?q=Design%20a%20news%20feed%20%2F%20timeline) |
+| Design a video-call UI with grid and speaker views. | 🔴 Hard | `frontend` `webrtc` `perf` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20video-call%20UI%20with%20grid%20and%20speaker%20views) · [Search](https://www.google.com/search?q=Design%20a%20video-call%20UI%20with%20grid%20and%20speaker%20views) |
+| Design a metrics/time-series ingestion pipeline. | 🔴 Hard | `time-series` `ingestion` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20metrics%2Ftime-series%20ingestion%20pipeline) · [Search](https://www.google.com/search?q=Design%20a%20metrics%2Ftime-series%20ingestion%20pipeline) |
 
-## Round 4 · Tech Deep-Dive
-<!-- round: tech_deep_dive -->
+## Round 3 · Low-Level Design
+<!-- round: lld -->
 
-_Deep questions on your core stack and fundamentals._
+_Object-oriented / low-level design of a focused module._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Accessibility: how do you make a custom widget usable? | 🟡 Medium | `a11y` | [GfG](https://www.geeksforgeeks.org/search/?gq=Accessibility%3A%20how%20do%20you%20make%20a%20custom%20widget%20usable) · [Search](https://www.google.com/search?q=Accessibility%3A%20how%20do%20you%20make%20a%20custom%20widget%20usable) |
-| Explain prototypal inheritance. | 🟡 Medium | `javascript` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20prototypal%20inheritance) · [Search](https://www.google.com/search?q=Explain%20prototypal%20inheritance) |
+| Design a splitwise-style expense sharer. | 🟡 Medium | `oop` `graph` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20splitwise-style%20expense%20sharer) · [Search](https://www.google.com/search?q=Design%20a%20splitwise-style%20expense%20sharer) |
 
-## Round 5 · Hiring Manager
+## Round 4 · Hiring Manager
 <!-- round: hiring_manager -->
 
 _Scope, ownership, and role-fit discussion with the manager._
 
 | Question | Difficulty | Tags |
 | --- | --- | --- |
-| What would your first 90 days here look like? | — | `planning` |
+| How do you handle disagreement with a product partner? | — | `collaboration` |
 
-## Round 6 · Behavioral / HR
+## Round 5 · Behavioral / HR
 <!-- round: behavioral -->
 
 _Values, collaboration, and past-experience (STAR) questions._
 
 | Question | Difficulty | Tags |
 | --- | --- | --- |
-| Tell me about a time you failed and what you learned. | — | `growth` `star` |
+| Describe a time you improved a process or tool for your team. | — | `ownership` `star` |
+| Tell me about receiving hard feedback and acting on it. | — | `feedback` `star` |
 
 ---
 

@@ -3,24 +3,22 @@ id: mongodb-2
 company: mongodb
 role: frontend
 level: junior
-outcome: rejected
-year: 2023
+outcome: no_offer
+year: 2025
 source: curated
-summary: >-
-  5-round junior frontend process. Coding-heavy early, design and behavioral
-  later.
+summary: A junior frontend loop. Fast-paced; expect follow-ups that push on depth.
 ---
 # Junior Frontend — MongoDB
 
 ![role](https://img.shields.io/badge/role-Frontend-22d3ee?style=flat-square)
 ![level](https://img.shields.io/badge/level-Junior-818cf8?style=flat-square)
-![outcome](https://img.shields.io/badge/outcome-Rejected-f87171?style=flat-square)
-![year](https://img.shields.io/badge/year-2023-6b7280?style=flat-square)
+![outcome](https://img.shields.io/badge/outcome-No%20offer-f87171?style=flat-square)
+![year](https://img.shields.io/badge/year-2025-6b7280?style=flat-square)
 ![source](https://img.shields.io/badge/source-Commonly%20asked-2dd4bf?style=flat-square)
 
-> 5-round junior frontend process. Coding-heavy early, design and behavioral later.
+> A junior frontend loop. Fast-paced; expect follow-ups that push on depth.
 
-**5 rounds · 8 questions**
+**5 rounds · 11 questions**
 
 ---
 
@@ -31,7 +29,7 @@ _Timed online coding / aptitude screen, usually the first filter._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Debugging + output-prediction multiple choice section. | 🟢 Easy | `fundamentals` | [GfG](https://www.geeksforgeeks.org/search/?gq=Debugging%20%2B%20output-prediction%20multiple%20choice%20section) · [Search](https://www.google.com/search?q=Debugging%20%2B%20output-prediction%20multiple%20choice%20section) |
+| Find the number of distinct substrings of length k. | 🟡 Medium | `sliding-window` `string` | [GfG](https://www.geeksforgeeks.org/search/?gq=Find%20the%20number%20of%20distinct%20substrings%20of%20length%20k) · [Search](https://www.google.com/search?q=Find%20the%20number%20of%20distinct%20substrings%20of%20length%20k) |
 
 ## Round 2 · DSA / Coding
 <!-- round: dsa -->
@@ -40,8 +38,9 @@ _Data structures & algorithms on a whiteboard or shared editor._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Trapping rain water. | 🔴 Hard | `two-pointers` `array` | [LC](https://leetcode.com/problems/trapping-rain-water/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Trapping%20rain%20water) |
-| Top K frequent elements. | 🟡 Medium | `heap` `hashmap` | [LC](https://leetcode.com/problems/top-k-frequent-elements/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Top%20K%20frequent%20elements) |
+| Sort colors. | 🟡 Medium | `two-pointers` `array` | [LC](https://leetcode.com/problems/sort-colors/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Sort%20colors) |
+| Maximum product subarray. | 🟡 Medium | `array` `dp` | [LC](https://leetcode.com/problems/maximum-product-subarray/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Maximum%20product%20subarray) |
+| Longest substring without repeating characters. | 🟡 Medium | `sliding-window` `string` | [LC](https://leetcode.com/problems/longest-substring-without-repeating-characters/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Longest%20substring%20without%20repeating%20characters) |
 
 ## Round 3 · Machine Coding
 <!-- round: machine_coding -->
@@ -50,8 +49,8 @@ _Build a working component or service under time pressure._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
+| Build a multi-step form with validation. | 🟡 Medium | `react` `forms` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20a%20multi-step%20form%20with%20validation) · [Search](https://www.google.com/search?q=Build%20a%20multi-step%20form%20with%20validation) |
 | Build a debounced autocomplete/search box with keyboard nav. | 🟡 Medium | `react` `debounce` `a11y` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20a%20debounced%20autocomplete%2Fsearch%20box%20with%20keyboard%20nav) · [Search](https://www.google.com/search?q=Build%20a%20debounced%20autocomplete%2Fsearch%20box%20with%20keyboard%20nav) |
-| Build a nested checkbox tree with indeterminate state. | 🔴 Hard | `react` `recursion` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20a%20nested%20checkbox%20tree%20with%20indeterminate%20state) · [Search](https://www.google.com/search?q=Build%20a%20nested%20checkbox%20tree%20with%20indeterminate%20state) |
 
 ## Round 4 · Tech Deep-Dive
 <!-- round: tech_deep_dive -->
@@ -60,8 +59,9 @@ _Deep questions on your core stack and fundamentals._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Explain the CSS box model and box-sizing. | 🟢 Easy | `css` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20the%20CSS%20box%20model%20and%20box-sizing) · [Search](https://www.google.com/search?q=Explain%20the%20CSS%20box%20model%20and%20box-sizing) |
-| Explain prototypal inheritance. | 🟡 Medium | `javascript` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20prototypal%20inheritance) · [Search](https://www.google.com/search?q=Explain%20prototypal%20inheritance) |
+| What are Web Workers and when would you use one? | 🟡 Medium | `browser` `perf` | [GfG](https://www.geeksforgeeks.org/search/?gq=What%20are%20Web%20Workers%20and%20when%20would%20you%20use%20one) · [Search](https://www.google.com/search?q=What%20are%20Web%20Workers%20and%20when%20would%20you%20use%20one) |
+| How does React batching and the render phase work? | 🔴 Hard | `react` | [GfG](https://www.geeksforgeeks.org/search/?gq=How%20does%20React%20batching%20and%20the%20render%20phase%20work) · [Search](https://www.google.com/search?q=How%20does%20React%20batching%20and%20the%20render%20phase%20work) |
+| Explain the difference between == and === and coercion. | 🟢 Easy | `javascript` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20the%20difference%20between%20%3D%3D%20and%20%3D%3D%3D%20and%20coercion) · [Search](https://www.google.com/search?q=Explain%20the%20difference%20between%20%3D%3D%20and%20%3D%3D%3D%20and%20coercion) |
 
 ## Round 5 · Behavioral / HR
 <!-- round: behavioral -->
@@ -70,7 +70,8 @@ _Values, collaboration, and past-experience (STAR) questions._
 
 | Question | Difficulty | Tags |
 | --- | --- | --- |
-| Describe working with an ambiguous or shifting requirement. | — | `ambiguity` `star` |
+| When did you have to make a decision with incomplete data? | — | `judgment` `star` |
+| Describe a time you improved a process or tool for your team. | — | `ownership` `star` |
 
 ---
 

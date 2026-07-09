@@ -1,67 +1,65 @@
 ---
 id: unity-4
 company: unity
-role: frontend
-level: junior
-outcome: no_offer
-year: 2024
+role: backend
+level: staff
+outcome: offer
+year: 2025
 source: curated
-summary: >-
-  5-round junior frontend process. Pragmatic questions — more real-world than
-  pure puzzles.
+summary: 'A staff backend loop. Coding-heavy early, design and behavioral later.'
 ---
-# Junior Frontend — Unity
+# Staff Backend — Unity
 
-![role](https://img.shields.io/badge/role-Frontend-22d3ee?style=flat-square)
-![level](https://img.shields.io/badge/level-Junior-818cf8?style=flat-square)
-![outcome](https://img.shields.io/badge/outcome-No%20offer-f87171?style=flat-square)
-![year](https://img.shields.io/badge/year-2024-6b7280?style=flat-square)
+![role](https://img.shields.io/badge/role-Backend-8b93ff?style=flat-square)
+![level](https://img.shields.io/badge/level-Staff-818cf8?style=flat-square)
+![outcome](https://img.shields.io/badge/outcome-Offer-34d399?style=flat-square)
+![year](https://img.shields.io/badge/year-2025-6b7280?style=flat-square)
 ![source](https://img.shields.io/badge/source-Commonly%20asked-2dd4bf?style=flat-square)
 
-> 5-round junior frontend process. Pragmatic questions — more real-world than pure puzzles.
+> A staff backend loop. Coding-heavy early, design and behavioral later.
 
-**5 rounds · 8 questions**
+**5 rounds · 9 questions**
 
 ---
 
-## Round 1 · Online Assessment
-<!-- round: oa -->
-
-_Timed online coding / aptitude screen, usually the first filter._
-
-| Question | Difficulty | Tags | Practice |
-| --- | --- | --- | --- |
-| Move zeroes to the end in place. | 🟢 Easy | `two-pointers` | [LC](https://leetcode.com/problems/move-zeroes/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Move%20zeroes%20to%20the%20end%20in%20place) |
-
-## Round 2 · DSA / Coding
+## Round 1 · DSA / Coding
 <!-- round: dsa -->
 
 _Data structures & algorithms on a whiteboard or shared editor._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Implement a trie (prefix tree). | 🟡 Medium | `trie` | [LC](https://leetcode.com/problems/implement-trie-prefix-tree/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Implement%20a%20trie%20(prefix%20tree)) |
-| Course Schedule — detect a cycle / topological sort. | 🟡 Medium | `graph` `topo-sort` | [LC](https://leetcode.com/problems/course-schedule/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Course%20Schedule%20%E2%80%94%20detect%20a%20cycle%20%2F%20topological%20sort) |
+| Reverse nodes in k-group. | 🔴 Hard | `linked-list` | [LC](https://leetcode.com/problems/reverse-nodes-in-k-group/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Reverse%20nodes%20in%20k-group) |
+| Binary tree level order traversal. | 🟡 Medium | `tree` `bfs` | [LC](https://leetcode.com/problems/binary-tree-level-order-traversal/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Binary%20tree%20level%20order%20traversal) |
+| Group anagrams from a list of strings. | 🟡 Medium | `hashmap` `string` | [LC](https://leetcode.com/problems/group-anagrams/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Group%20anagrams%20from%20a%20list%20of%20strings) |
 
-## Round 3 · Machine Coding
-<!-- round: machine_coding -->
+## Round 2 · System Design
+<!-- round: system_design -->
 
-_Build a working component or service under time pressure._
-
-| Question | Difficulty | Tags | Practice |
-| --- | --- | --- | --- |
-| Build an accessible tabs component with keyboard nav. | 🟡 Medium | `react` `a11y` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20an%20accessible%20tabs%20component%20with%20keyboard%20nav) · [Search](https://www.google.com/search?q=Build%20an%20accessible%20tabs%20component%20with%20keyboard%20nav) |
-| Build a typeahead with in-flight request cancellation. | 🟡 Medium | `react` `async` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20a%20typeahead%20with%20in-flight%20request%20cancellation) · [Search](https://www.google.com/search?q=Build%20a%20typeahead%20with%20in-flight%20request%20cancellation) |
-
-## Round 4 · Tech Deep-Dive
-<!-- round: tech_deep_dive -->
-
-_Deep questions on your core stack and fundamentals._
+_High-level architecture of a large-scale system._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| How do you optimize a slow React app? (profiling → fixes) | 🔴 Hard | `react` `perf` | [GfG](https://www.geeksforgeeks.org/search/?gq=How%20do%20you%20optimize%20a%20slow%20React%20app%3F%20(profiling%20%E2%86%92%20fixes)) · [Search](https://www.google.com/search?q=How%20do%20you%20optimize%20a%20slow%20React%20app%3F%20(profiling%20%E2%86%92%20fixes)) |
-| What are React keys and why do they matter? | 🟢 Easy | `react` | [GfG](https://www.geeksforgeeks.org/search/?gq=What%20are%20React%20keys%20and%20why%20do%20they%20matter) · [Search](https://www.google.com/search?q=What%20are%20React%20keys%20and%20why%20do%20they%20matter) |
+| Design a job scheduler / cron service. | 🟡 Medium | `queues` `scheduling` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20job%20scheduler%20%2F%20cron%20service) · [Search](https://www.google.com/search?q=Design%20a%20job%20scheduler%20%2F%20cron%20service) |
+| Design a distributed unique ID generator. | 🟡 Medium | `snowflake` `distributed` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20distributed%20unique%20ID%20generator) · [Search](https://www.google.com/search?q=Design%20a%20distributed%20unique%20ID%20generator) |
+
+## Round 3 · Low-Level Design
+<!-- round: lld -->
+
+_Object-oriented / low-level design of a focused module._
+
+| Question | Difficulty | Tags | Practice |
+| --- | --- | --- | --- |
+| Design a food-delivery order/dispatch model. | 🔴 Hard | `oop` `state-machine` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20food-delivery%20order%2Fdispatch%20model) · [Search](https://www.google.com/search?q=Design%20a%20food-delivery%20order%2Fdispatch%20model) |
+
+## Round 4 · Hiring Manager
+<!-- round: hiring_manager -->
+
+_Scope, ownership, and role-fit discussion with the manager._
+
+| Question | Difficulty | Tags |
+| --- | --- | --- |
+| Walk me through a technical trade-off you regret. | — | `judgment` |
 
 ## Round 5 · Behavioral / HR
 <!-- round: behavioral -->
@@ -70,7 +68,8 @@ _Values, collaboration, and past-experience (STAR) questions._
 
 | Question | Difficulty | Tags |
 | --- | --- | --- |
-| Why this company, and why this role? | — | `motivation` |
+| Describe a time you improved a process or tool for your team. | — | `ownership` `star` |
+| Tell me about a time you had to learn something quickly. | — | `learning` `star` |
 
 ---
 

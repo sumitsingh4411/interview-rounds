@@ -1,26 +1,26 @@
 ---
 id: apple-2
 company: apple
-role: fullstack
+role: backend
 level: junior
-outcome: no_offer
+outcome: rejected
 year: 2023
 source: curated
 summary: >-
-  5-round junior fullstack process. Coding-heavy early, design and behavioral
-  later.
+  5-round junior backend process. Balanced across coding, design, and
+  collaboration.
 ---
-# Junior Full-stack — Apple
+# Junior Backend — Apple
 
-![role](https://img.shields.io/badge/role-Full--stack-a78bfa?style=flat-square)
+![role](https://img.shields.io/badge/role-Backend-8b93ff?style=flat-square)
 ![level](https://img.shields.io/badge/level-Junior-818cf8?style=flat-square)
-![outcome](https://img.shields.io/badge/outcome-No%20offer-f87171?style=flat-square)
+![outcome](https://img.shields.io/badge/outcome-Rejected-f87171?style=flat-square)
 ![year](https://img.shields.io/badge/year-2023-6b7280?style=flat-square)
 ![source](https://img.shields.io/badge/source-Commonly%20asked-2dd4bf?style=flat-square)
 
-> 5-round junior fullstack process. Coding-heavy early, design and behavioral later.
+> 5-round junior backend process. Balanced across coding, design, and collaboration.
 
-**5 rounds · 8 questions**
+**5 rounds · 11 questions**
 
 ---
 
@@ -31,7 +31,7 @@ _Timed online coding / aptitude screen, usually the first filter._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Simulate a simple inventory system from a spec. | 🟡 Medium | `simulation` | [GfG](https://www.geeksforgeeks.org/search/?gq=Simulate%20a%20simple%20inventory%20system%20from%20a%20spec) · [Search](https://www.google.com/search?q=Simulate%20a%20simple%20inventory%20system%20from%20a%20spec) |
+| Reformat a log file by timestamp. | 🟢 Easy | `sorting` `parsing` | [GfG](https://www.geeksforgeeks.org/search/?gq=Reformat%20a%20log%20file%20by%20timestamp) · [Search](https://www.google.com/search?q=Reformat%20a%20log%20file%20by%20timestamp) |
 
 ## Round 2 · DSA / Coding
 <!-- round: dsa -->
@@ -40,8 +40,9 @@ _Data structures & algorithms on a whiteboard or shared editor._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Coin change — fewest coins to make an amount. | 🟡 Medium | `dp` | [LC](https://leetcode.com/problems/coin-change/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Coin%20change%20%E2%80%94%20fewest%20coins%20to%20make%20an%20amount) |
-| Kth largest element in an array. | 🟡 Medium | `heap` `quickselect` | [LC](https://leetcode.com/problems/kth-largest-element-in-an-array/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Kth%20largest%20element%20in%20an%20array) |
+| Merge k sorted lists. | 🔴 Hard | `heap` `linked-list` | [LC](https://leetcode.com/problems/merge-k-sorted-lists/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Merge%20k%20sorted%20lists) |
+| Subsets. | 🟡 Medium | `backtracking` | [LC](https://leetcode.com/problems/subsets/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Subsets) |
+| Minimum window substring. | 🔴 Hard | `sliding-window` `string` | [LC](https://leetcode.com/problems/minimum-window-substring/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Minimum%20window%20substring) |
 
 ## Round 3 · Machine Coding
 <!-- round: machine_coding -->
@@ -50,8 +51,8 @@ _Build a working component or service under time pressure._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Build an accessible tabs component with keyboard nav. | 🟡 Medium | `react` `a11y` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20an%20accessible%20tabs%20component%20with%20keyboard%20nav) · [Search](https://www.google.com/search?q=Build%20an%20accessible%20tabs%20component%20with%20keyboard%20nav) |
-| Build an infinite-scrolling list with virtualization. | 🔴 Hard | `react` `virtualization` `perf` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20an%20infinite-scrolling%20list%20with%20virtualization) · [Search](https://www.google.com/search?q=Build%20an%20infinite-scrolling%20list%20with%20virtualization) |
+| Implement a job queue with retries and backoff. | 🔴 Hard | `queue` `reliability` | [GfG](https://www.geeksforgeeks.org/search/?gq=Implement%20a%20job%20queue%20with%20retries%20and%20backoff) · [Search](https://www.google.com/search?q=Implement%20a%20job%20queue%20with%20retries%20and%20backoff) |
+| Implement a bulk-upsert endpoint with validation. | 🟡 Medium | `api` `validation` | [GfG](https://www.geeksforgeeks.org/search/?gq=Implement%20a%20bulk-upsert%20endpoint%20with%20validation) · [Search](https://www.google.com/search?q=Implement%20a%20bulk-upsert%20endpoint%20with%20validation) |
 
 ## Round 4 · Tech Deep-Dive
 <!-- round: tech_deep_dive -->
@@ -60,8 +61,9 @@ _Deep questions on your core stack and fundamentals._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Explain the CSS box model and box-sizing. | 🟢 Easy | `css` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20the%20CSS%20box%20model%20and%20box-sizing) · [Search](https://www.google.com/search?q=Explain%20the%20CSS%20box%20model%20and%20box-sizing) |
-| Explain `this` binding and the call/apply/bind trio. | 🟡 Medium | `javascript` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20%60this%60%20binding%20and%20the%20call%2Fapply%2Fbind%20trio) · [Search](https://www.google.com/search?q=Explain%20%60this%60%20binding%20and%20the%20call%2Fapply%2Fbind%20trio) |
+| What is backpressure and how do you handle it? | 🔴 Hard | `streaming` `reliability` | [GfG](https://www.geeksforgeeks.org/search/?gq=What%20is%20backpressure%20and%20how%20do%20you%20handle%20it) · [Search](https://www.google.com/search?q=What%20is%20backpressure%20and%20how%20do%20you%20handle%20it) |
+| How would you design and version a public REST API? | 🟡 Medium | `api-design` | [GfG](https://www.geeksforgeeks.org/search/?gq=How%20would%20you%20design%20and%20version%20a%20public%20REST%20API) · [Search](https://www.google.com/search?q=How%20would%20you%20design%20and%20version%20a%20public%20REST%20API) |
+| How do circuit breakers and bulkheads improve resilience? | 🟡 Medium | `reliability` | [GfG](https://www.geeksforgeeks.org/search/?gq=How%20do%20circuit%20breakers%20and%20bulkheads%20improve%20resilience) · [Search](https://www.google.com/search?q=How%20do%20circuit%20breakers%20and%20bulkheads%20improve%20resilience) |
 
 ## Round 5 · Behavioral / HR
 <!-- round: behavioral -->
@@ -71,6 +73,7 @@ _Values, collaboration, and past-experience (STAR) questions._
 | Question | Difficulty | Tags |
 | --- | --- | --- |
 | Tell me about a time you disagreed and committed. | — | `teamwork` `star` |
+| Tell me about a time you went above and beyond for a customer. | — | `customer` `star` |
 
 ---
 

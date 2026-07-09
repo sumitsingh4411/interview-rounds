@@ -6,7 +6,7 @@ level: mid
 outcome: withdrew
 year: 2023
 source: curated
-summary: A mid backend loop. Pragmatic questions — more real-world than pure puzzles.
+summary: 'A mid backend loop. Coding-heavy early, design and behavioral later.'
 ---
 # Mid Backend — Google
 
@@ -16,9 +16,9 @@ summary: A mid backend loop. Pragmatic questions — more real-world than pure p
 ![year](https://img.shields.io/badge/year-2023-6b7280?style=flat-square)
 ![source](https://img.shields.io/badge/source-Commonly%20asked-2dd4bf?style=flat-square)
 
-> A mid backend loop. Pragmatic questions — more real-world than pure puzzles.
+> A mid backend loop. Coding-heavy early, design and behavioral later.
 
-**5 rounds · 8 questions**
+**5 rounds · 11 questions**
 
 ---
 
@@ -29,8 +29,9 @@ _Data structures & algorithms on a whiteboard or shared editor._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Group anagrams from a list of strings. | 🟡 Medium | `hashmap` `string` | [LC](https://leetcode.com/problems/group-anagrams/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Group%20anagrams%20from%20a%20list%20of%20strings) |
-| Serialize and deserialize a binary tree. | 🔴 Hard | `tree` `dfs` | [LC](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Serialize%20and%20deserialize%20a%20binary%20tree) |
+| Pacific Atlantic water flow. | 🟡 Medium | `dfs` `grid` | [LC](https://leetcode.com/problems/pacific-atlantic-water-flow/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Pacific%20Atlantic%20water%20flow) |
+| Maximum product subarray. | 🟡 Medium | `array` `dp` | [LC](https://leetcode.com/problems/maximum-product-subarray/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Maximum%20product%20subarray) |
+| Clone a graph. | 🟡 Medium | `graph` `dfs` | [LC](https://leetcode.com/problems/clone-graph/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Clone%20a%20graph) |
 
 ## Round 2 · Machine Coding
 <!-- round: machine_coding -->
@@ -39,8 +40,8 @@ _Build a working component or service under time pressure._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Build a CSV importer that streams and validates rows. | 🟡 Medium | `streaming` `validation` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20a%20CSV%20importer%20that%20streams%20and%20validates%20rows) · [Search](https://www.google.com/search?q=Build%20a%20CSV%20importer%20that%20streams%20and%20validates%20rows) |
-| Build a REST endpoint with pagination, filtering and sorting. | 🟡 Medium | `api` `pagination` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20a%20REST%20endpoint%20with%20pagination%2C%20filtering%20and%20sorting) · [Search](https://www.google.com/search?q=Build%20a%20REST%20endpoint%20with%20pagination%2C%20filtering%20and%20sorting) |
+| Build a key-value store with TTL expiry. | 🟡 Medium | `cache` `ttl` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20a%20key-value%20store%20with%20TTL%20expiry) · [Search](https://www.google.com/search?q=Build%20a%20key-value%20store%20with%20TTL%20expiry) |
+| Implement cursor-based pagination over a sorted dataset. | 🟡 Medium | `pagination` `api` | [GfG](https://www.geeksforgeeks.org/search/?gq=Implement%20cursor-based%20pagination%20over%20a%20sorted%20dataset) · [Search](https://www.google.com/search?q=Implement%20cursor-based%20pagination%20over%20a%20sorted%20dataset) |
 
 ## Round 3 · Low-Level Design
 <!-- round: lld -->
@@ -49,7 +50,7 @@ _Object-oriented / low-level design of a focused module._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Design a splitwise-style expense sharer. | 🟡 Medium | `oop` `graph` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20splitwise-style%20expense%20sharer) · [Search](https://www.google.com/search?q=Design%20a%20splitwise-style%20expense%20sharer) |
+| Design a deck of cards + a card game. | 🟢 Easy | `oop` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20deck%20of%20cards%20%2B%20a%20card%20game) · [Search](https://www.google.com/search?q=Design%20a%20deck%20of%20cards%20%2B%20a%20card%20game) |
 
 ## Round 4 · Tech Deep-Dive
 <!-- round: tech_deep_dive -->
@@ -58,8 +59,9 @@ _Deep questions on your core stack and fundamentals._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Trade-offs of gRPC vs REST vs GraphQL. | 🟡 Medium | `api-design` | [GfG](https://www.geeksforgeeks.org/search/?gq=Trade-offs%20of%20gRPC%20vs%20REST%20vs%20GraphQL) · [Search](https://www.google.com/search?q=Trade-offs%20of%20gRPC%20vs%20REST%20vs%20GraphQL) |
-| ACID vs BASE and transaction isolation levels. | 🔴 Hard | `databases` `transactions` | [GfG](https://www.geeksforgeeks.org/search/?gq=ACID%20vs%20BASE%20and%20transaction%20isolation%20levels) · [Search](https://www.google.com/search?q=ACID%20vs%20BASE%20and%20transaction%20isolation%20levels) |
+| How do you design an idempotency-key system for payments? | 🔴 Hard | `idempotency` `payments` | [GfG](https://www.geeksforgeeks.org/search/?gq=How%20do%20you%20design%20an%20idempotency-key%20system%20for%20payments) · [Search](https://www.google.com/search?q=How%20do%20you%20design%20an%20idempotency-key%20system%20for%20payments) |
+| What is backpressure and how do you handle it? | 🔴 Hard | `streaming` `reliability` | [GfG](https://www.geeksforgeeks.org/search/?gq=What%20is%20backpressure%20and%20how%20do%20you%20handle%20it) · [Search](https://www.google.com/search?q=What%20is%20backpressure%20and%20how%20do%20you%20handle%20it) |
+| How does a write-ahead log guarantee durability? | 🔴 Hard | `databases` | [GfG](https://www.geeksforgeeks.org/search/?gq=How%20does%20a%20write-ahead%20log%20guarantee%20durability) · [Search](https://www.google.com/search?q=How%20does%20a%20write-ahead%20log%20guarantee%20durability) |
 
 ## Round 5 · Behavioral / HR
 <!-- round: behavioral -->
@@ -68,7 +70,8 @@ _Values, collaboration, and past-experience (STAR) questions._
 
 | Question | Difficulty | Tags |
 | --- | --- | --- |
-| Tell me about a project you are most proud of. | — | `star` |
+| How do you get up to speed on an unfamiliar codebase? | — | `learning` |
+| When did you take ownership of something outside your scope? | — | `ownership` `star` |
 
 ---
 

@@ -3,22 +3,22 @@ id: block-3
 company: block
 role: frontend
 level: mid
-outcome: offer
+outcome: unknown
 year: 2024
 source: curated
-summary: 'A mid frontend loop. Balanced across coding, design, and collaboration.'
+summary: A mid frontend loop. Fast-paced; expect follow-ups that push on depth.
 ---
 # Mid Frontend — Block
 
 ![role](https://img.shields.io/badge/role-Frontend-22d3ee?style=flat-square)
 ![level](https://img.shields.io/badge/level-Mid-818cf8?style=flat-square)
-![outcome](https://img.shields.io/badge/outcome-Offer-34d399?style=flat-square)
+![outcome](https://img.shields.io/badge/outcome-Unknown-6b7280?style=flat-square)
 ![year](https://img.shields.io/badge/year-2024-6b7280?style=flat-square)
 ![source](https://img.shields.io/badge/source-Commonly%20asked-2dd4bf?style=flat-square)
 
-> A mid frontend loop. Balanced across coding, design, and collaboration.
+> A mid frontend loop. Fast-paced; expect follow-ups that push on depth.
 
-**5 rounds · 8 questions**
+**5 rounds · 11 questions**
 
 ---
 
@@ -29,8 +29,9 @@ _Data structures & algorithms on a whiteboard or shared editor._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Implement a trie (prefix tree). | 🟡 Medium | `trie` | [LC](https://leetcode.com/problems/implement-trie-prefix-tree/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Implement%20a%20trie%20(prefix%20tree)) |
-| Merge k sorted lists. | 🔴 Hard | `heap` `linked-list` | [LC](https://leetcode.com/problems/merge-k-sorted-lists/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Merge%20k%20sorted%20lists) |
+| Valid anagram. | 🟢 Easy | `string` `hashmap` | [LC](https://leetcode.com/problems/valid-anagram/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Valid%20anagram) |
+| Product of array except self. | 🟡 Medium | `array` `prefix-sum` | [LC](https://leetcode.com/problems/product-of-array-except-self/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Product%20of%20array%20except%20self) |
+| Contains duplicate. | 🟢 Easy | `array` `hashmap` | [LC](https://leetcode.com/problems/contains-duplicate/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Contains%20duplicate) |
 
 ## Round 2 · Machine Coding
 <!-- round: machine_coding -->
@@ -39,8 +40,8 @@ _Build a working component or service under time pressure._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Build a toast / notification queue. | 🟡 Medium | `react` `state` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20a%20toast%20%2F%20notification%20queue) · [Search](https://www.google.com/search?q=Build%20a%20toast%20%2F%20notification%20queue) |
-| Build a data table with sorting, filtering and pagination. | 🔴 Hard | `react` `table` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20a%20data%20table%20with%20sorting%2C%20filtering%20and%20pagination) · [Search](https://www.google.com/search?q=Build%20a%20data%20table%20with%20sorting%2C%20filtering%20and%20pagination) |
+| Build a typeahead with in-flight request cancellation. | 🟡 Medium | `react` `async` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20a%20typeahead%20with%20in-flight%20request%20cancellation) · [Search](https://www.google.com/search?q=Build%20a%20typeahead%20with%20in-flight%20request%20cancellation) |
+| Build a form builder that renders from a JSON schema. | 🔴 Hard | `react` `forms` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20a%20form%20builder%20that%20renders%20from%20a%20JSON%20schema) · [Search](https://www.google.com/search?q=Build%20a%20form%20builder%20that%20renders%20from%20a%20JSON%20schema) |
 
 ## Round 3 · Low-Level Design
 <!-- round: lld -->
@@ -49,7 +50,7 @@ _Object-oriented / low-level design of a focused module._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Design the component model for a rich text editor. | 🔴 Hard | `oop` `editor` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20the%20component%20model%20for%20a%20rich%20text%20editor) · [Search](https://www.google.com/search?q=Design%20the%20component%20model%20for%20a%20rich%20text%20editor) |
+| Design a virtual DOM diffing model. | 🔴 Hard | `oop` `algorithms` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20virtual%20DOM%20diffing%20model) · [Search](https://www.google.com/search?q=Design%20a%20virtual%20DOM%20diffing%20model) |
 
 ## Round 4 · Tech Deep-Dive
 <!-- round: tech_deep_dive -->
@@ -58,8 +59,9 @@ _Deep questions on your core stack and fundamentals._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Explain `useEffect` dependencies and common pitfalls. | 🟡 Medium | `react` `hooks` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20%60useEffect%60%20dependencies%20and%20common%20pitfalls) · [Search](https://www.google.com/search?q=Explain%20%60useEffect%60%20dependencies%20and%20common%20pitfalls) |
-| Explain memoization: useMemo, useCallback and React.memo. | 🟡 Medium | `react` `perf` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20memoization%3A%20useMemo%2C%20useCallback%20and%20React.memo) · [Search](https://www.google.com/search?q=Explain%20memoization%3A%20useMemo%2C%20useCallback%20and%20React.memo) |
+| Difference between controlled and uncontrolled inputs. | 🟢 Easy | `react` `forms` | [GfG](https://www.geeksforgeeks.org/search/?gq=Difference%20between%20controlled%20and%20uncontrolled%20inputs) · [Search](https://www.google.com/search?q=Difference%20between%20controlled%20and%20uncontrolled%20inputs) |
+| Explain the difference between == and === and coercion. | 🟢 Easy | `javascript` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20the%20difference%20between%20%3D%3D%20and%20%3D%3D%3D%20and%20coercion) · [Search](https://www.google.com/search?q=Explain%20the%20difference%20between%20%3D%3D%20and%20%3D%3D%3D%20and%20coercion) |
+| How does the browser critical rendering path work? | 🟡 Medium | `browser` `perf` | [GfG](https://www.geeksforgeeks.org/search/?gq=How%20does%20the%20browser%20critical%20rendering%20path%20work) · [Search](https://www.google.com/search?q=How%20does%20the%20browser%20critical%20rendering%20path%20work) |
 
 ## Round 5 · Behavioral / HR
 <!-- round: behavioral -->
@@ -68,7 +70,8 @@ _Values, collaboration, and past-experience (STAR) questions._
 
 | Question | Difficulty | Tags |
 | --- | --- | --- |
-| Tell me about a time you disagreed and committed. | — | `teamwork` `star` |
+| Describe a conflict with your manager and the outcome. | — | `conflict` `star` |
+| A time you made a mistake in production — what happened next? | — | `ownership` `star` |
 
 ---
 

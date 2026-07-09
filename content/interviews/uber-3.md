@@ -3,24 +3,22 @@ id: uber-3
 company: uber
 role: backend
 level: staff
-outcome: unknown
+outcome: no_offer
 year: 2024
 source: curated
-summary: >-
-  5-round staff backend process. Pragmatic questions — more real-world than pure
-  puzzles.
+summary: A staff backend loop. Fundamentals mattered as much as getting to an answer.
 ---
 # Staff Backend — Uber
 
 ![role](https://img.shields.io/badge/role-Backend-8b93ff?style=flat-square)
 ![level](https://img.shields.io/badge/level-Staff-818cf8?style=flat-square)
-![outcome](https://img.shields.io/badge/outcome-Unknown-6b7280?style=flat-square)
+![outcome](https://img.shields.io/badge/outcome-No%20offer-f87171?style=flat-square)
 ![year](https://img.shields.io/badge/year-2024-6b7280?style=flat-square)
 ![source](https://img.shields.io/badge/source-Commonly%20asked-2dd4bf?style=flat-square)
 
-> 5-round staff backend process. Pragmatic questions — more real-world than pure puzzles.
+> A staff backend loop. Fundamentals mattered as much as getting to an answer.
 
-**5 rounds · 7 questions**
+**5 rounds · 9 questions**
 
 ---
 
@@ -31,8 +29,9 @@ _Data structures & algorithms on a whiteboard or shared editor._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Reverse nodes in k-group. | 🔴 Hard | `linked-list` | [LC](https://leetcode.com/problems/reverse-nodes-in-k-group/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Reverse%20nodes%20in%20k-group) |
-| Median of two sorted arrays. | 🔴 Hard | `binary-search` | [LC](https://leetcode.com/problems/median-of-two-sorted-arrays/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Median%20of%20two%20sorted%20arrays) |
+| Lowest common ancestor of a binary tree. | 🟡 Medium | `tree` | [LC](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Lowest%20common%20ancestor%20of%20a%20binary%20tree) |
+| Valid anagram. | 🟢 Easy | `string` `hashmap` | [LC](https://leetcode.com/problems/valid-anagram/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Valid%20anagram) |
+| Merge two sorted linked lists. | 🟢 Easy | `linked-list` | [LC](https://leetcode.com/problems/merge-two-sorted-lists/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Merge%20two%20sorted%20linked%20lists) |
 
 ## Round 2 · System Design
 <!-- round: system_design -->
@@ -41,8 +40,8 @@ _High-level architecture of a large-scale system._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Design a feature-flag service. | 🟡 Medium | `config` `rollout` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20feature-flag%20service) · [Search](https://www.google.com/search?q=Design%20a%20feature-flag%20service) |
-| Design a payment processing + idempotency system. | 🔴 Hard | `idempotency` `consistency` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20payment%20processing%20%2B%20idempotency%20system) · [Search](https://www.google.com/search?q=Design%20a%20payment%20processing%20%2B%20idempotency%20system) |
+| Design a chat/messaging backend with delivery guarantees. | 🔴 Hard | `websocket` `queues` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20chat%2Fmessaging%20backend%20with%20delivery%20guarantees) · [Search](https://www.google.com/search?q=Design%20a%20chat%2Fmessaging%20backend%20with%20delivery%20guarantees) |
+| Design a content delivery network (CDN). | 🔴 Hard | `cdn` `cache` `edge` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20content%20delivery%20network%20(CDN)) · [Search](https://www.google.com/search?q=Design%20a%20content%20delivery%20network%20(CDN)) |
 
 ## Round 3 · Low-Level Design
 <!-- round: lld -->
@@ -51,7 +50,7 @@ _Object-oriented / low-level design of a focused module._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Design an elevator control system. | 🟡 Medium | `oop` `state-machine` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20an%20elevator%20control%20system) · [Search](https://www.google.com/search?q=Design%20an%20elevator%20control%20system) |
+| Design a splitwise-style expense sharer. | 🟡 Medium | `oop` `graph` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20splitwise-style%20expense%20sharer) · [Search](https://www.google.com/search?q=Design%20a%20splitwise-style%20expense%20sharer) |
 
 ## Round 4 · Hiring Manager
 <!-- round: hiring_manager -->
@@ -60,7 +59,7 @@ _Scope, ownership, and role-fit discussion with the manager._
 
 | Question | Difficulty | Tags |
 | --- | --- | --- |
-| How do you balance tech debt against feature work? | — | `prioritization` |
+| What is the biggest system you have designed, and why those choices? | — | `architecture` |
 
 ## Round 5 · Behavioral / HR
 <!-- round: behavioral -->
@@ -69,7 +68,8 @@ _Values, collaboration, and past-experience (STAR) questions._
 
 | Question | Difficulty | Tags |
 | --- | --- | --- |
-| Describe something you shipped that you were not proud of. | — | `tradeoffs` `star` |
+| How do you get up to speed on an unfamiliar codebase? | — | `learning` |
+| Tell me about the most impactful project of your career. | — | `impact` `star` |
 
 ---
 

@@ -1,24 +1,24 @@
 ---
 id: google-1
 company: google
-role: backend
-level: senior
-outcome: rejected
+role: frontend
+level: staff
+outcome: withdrew
 year: 2024
 source: curated
-summary: 'Senior backend interview. Coding-heavy early, design and behavioral later.'
+summary: 'Staff frontend interview. Balanced across coding, design, and collaboration.'
 ---
-# Senior Backend — Google
+# Staff Frontend — Google
 
-![role](https://img.shields.io/badge/role-Backend-8b93ff?style=flat-square)
-![level](https://img.shields.io/badge/level-Senior-818cf8?style=flat-square)
-![outcome](https://img.shields.io/badge/outcome-Rejected-f87171?style=flat-square)
+![role](https://img.shields.io/badge/role-Frontend-22d3ee?style=flat-square)
+![level](https://img.shields.io/badge/level-Staff-818cf8?style=flat-square)
+![outcome](https://img.shields.io/badge/outcome-Withdrew-fbbf24?style=flat-square)
 ![year](https://img.shields.io/badge/year-2024-6b7280?style=flat-square)
 ![source](https://img.shields.io/badge/source-Commonly%20asked-2dd4bf?style=flat-square)
 
-> Senior backend interview. Coding-heavy early, design and behavioral later.
+> Staff frontend interview. Balanced across coding, design, and collaboration.
 
-**6 rounds · 10 questions**
+**5 rounds · 9 questions**
 
 ---
 
@@ -29,56 +29,47 @@ _Data structures & algorithms on a whiteboard or shared editor._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Container with most water. | 🟡 Medium | `two-pointers` `array` | [LC](https://leetcode.com/problems/container-with-most-water/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Container%20with%20most%20water) |
-| Two Sum — return indices of numbers adding to a target. | 🟢 Easy | `array` `hashmap` | [LC](https://leetcode.com/problems/two-sum/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Two%20Sum%20%E2%80%94%20return%20indices%20of%20numbers%20adding%20to%20a%20target) |
+| Unique paths. | 🟡 Medium | `dp` `grid` | [LC](https://leetcode.com/problems/unique-paths/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Unique%20paths) |
+| Longest substring without repeating characters. | 🟡 Medium | `sliding-window` `string` | [LC](https://leetcode.com/problems/longest-substring-without-repeating-characters/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Longest%20substring%20without%20repeating%20characters) |
+| Decode ways. | 🟡 Medium | `dp` `string` | [LC](https://leetcode.com/problems/decode-ways/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Decode%20ways) |
 
-## Round 2 · Machine Coding
-<!-- round: machine_coding -->
-
-_Build a working component or service under time pressure._
-
-| Question | Difficulty | Tags | Practice |
-| --- | --- | --- | --- |
-| Implement an exponential-backoff HTTP client. | 🟡 Medium | `reliability` | [GfG](https://www.geeksforgeeks.org/search/?gq=Implement%20an%20exponential-backoff%20HTTP%20client) · [Search](https://www.google.com/search?q=Implement%20an%20exponential-backoff%20HTTP%20client) |
-| Build an in-memory rate limiter as a middleware. | 🟡 Medium | `rate-limit` `middleware` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20an%20in-memory%20rate%20limiter%20as%20a%20middleware) · [Search](https://www.google.com/search?q=Build%20an%20in-memory%20rate%20limiter%20as%20a%20middleware) |
-
-## Round 3 · System Design
+## Round 2 · System Design
 <!-- round: system_design -->
 
 _High-level architecture of a large-scale system._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Design a pastebin with expiring links. | 🟡 Medium | `storage` `ttl` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20pastebin%20with%20expiring%20links) · [Search](https://www.google.com/search?q=Design%20a%20pastebin%20with%20expiring%20links) |
-| Design a ride-matching backend (riders ↔ nearby drivers). | 🔴 Hard | `geospatial` `matching` `realtime` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20ride-matching%20backend%20(riders%20%E2%86%94%20nearby%20drivers)) · [Search](https://www.google.com/search?q=Design%20a%20ride-matching%20backend%20(riders%20%E2%86%94%20nearby%20drivers)) |
+| Design an accessible internationalized form system. | 🟡 Medium | `frontend` `a11y` `i18n` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20an%20accessible%20internationalized%20form%20system) · [Search](https://www.google.com/search?q=Design%20an%20accessible%20internationalized%20form%20system) |
+| Design a client-side feature-flag and experiment SDK. | 🟡 Medium | `frontend` `experiments` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20client-side%20feature-flag%20and%20experiment%20SDK) · [Search](https://www.google.com/search?q=Design%20a%20client-side%20feature-flag%20and%20experiment%20SDK) |
 
-## Round 4 · Tech Deep-Dive
-<!-- round: tech_deep_dive -->
+## Round 3 · Low-Level Design
+<!-- round: lld -->
 
-_Deep questions on your core stack and fundamentals._
+_Object-oriented / low-level design of a focused module._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Compare rate-limiting algorithms and their trade-offs. | 🟡 Medium | `rate-limit` | [GfG](https://www.geeksforgeeks.org/search/?gq=Compare%20rate-limiting%20algorithms%20and%20their%20trade-offs) · [Search](https://www.google.com/search?q=Compare%20rate-limiting%20algorithms%20and%20their%20trade-offs) |
-| How do you prevent and detect N+1 queries? | 🟡 Medium | `databases` `orm` | [GfG](https://www.geeksforgeeks.org/search/?gq=How%20do%20you%20prevent%20and%20detect%20N%2B1%20queries) · [Search](https://www.google.com/search?q=How%20do%20you%20prevent%20and%20detect%20N%2B1%20queries) |
+| Design a virtual DOM diffing model. | 🔴 Hard | `oop` `algorithms` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20virtual%20DOM%20diffing%20model) · [Search](https://www.google.com/search?q=Design%20a%20virtual%20DOM%20diffing%20model) |
 
-## Round 5 · Hiring Manager
+## Round 4 · Hiring Manager
 <!-- round: hiring_manager -->
 
 _Scope, ownership, and role-fit discussion with the manager._
 
 | Question | Difficulty | Tags |
 | --- | --- | --- |
-| How do you balance tech debt against feature work? | — | `prioritization` |
+| How do you evaluate and adopt a new technology? | — | `judgment` |
 
-## Round 6 · Behavioral / HR
+## Round 5 · Behavioral / HR
 <!-- round: behavioral -->
 
 _Values, collaboration, and past-experience (STAR) questions._
 
 | Question | Difficulty | Tags |
 | --- | --- | --- |
-| Tell me about the hardest bug you have debugged. | — | `debugging` `star` |
+| Describe a conflict with your manager and the outcome. | — | `conflict` `star` |
+| Describe a time you had to deliver bad news. | — | `communication` `star` |
 
 ---
 

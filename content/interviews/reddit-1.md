@@ -1,24 +1,26 @@
 ---
 id: reddit-1
 company: reddit
-role: frontend
-level: mid
-outcome: offer
-year: 2024
+role: fullstack
+level: staff
+outcome: unknown
+year: 2025
 source: curated
-summary: 'A mid frontend loop. Coding-heavy early, design and behavioral later.'
+summary: >-
+  5-round staff fullstack process. Balanced across coding, design, and
+  collaboration.
 ---
-# Mid Frontend — Reddit
+# Staff Full-stack — Reddit
 
-![role](https://img.shields.io/badge/role-Frontend-22d3ee?style=flat-square)
-![level](https://img.shields.io/badge/level-Mid-818cf8?style=flat-square)
-![outcome](https://img.shields.io/badge/outcome-Offer-34d399?style=flat-square)
-![year](https://img.shields.io/badge/year-2024-6b7280?style=flat-square)
+![role](https://img.shields.io/badge/role-Full--stack-a78bfa?style=flat-square)
+![level](https://img.shields.io/badge/level-Staff-818cf8?style=flat-square)
+![outcome](https://img.shields.io/badge/outcome-Unknown-6b7280?style=flat-square)
+![year](https://img.shields.io/badge/year-2025-6b7280?style=flat-square)
 ![source](https://img.shields.io/badge/source-Commonly%20asked-2dd4bf?style=flat-square)
 
-> A mid frontend loop. Coding-heavy early, design and behavioral later.
+> 5-round staff fullstack process. Balanced across coding, design, and collaboration.
 
-**5 rounds · 8 questions**
+**5 rounds · 9 questions**
 
 ---
 
@@ -29,18 +31,19 @@ _Data structures & algorithms on a whiteboard or shared editor._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Longest substring without repeating characters. | 🟡 Medium | `sliding-window` `string` | [LC](https://leetcode.com/problems/longest-substring-without-repeating-characters/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Longest%20substring%20without%20repeating%20characters) |
-| Coin change — fewest coins to make an amount. | 🟡 Medium | `dp` | [LC](https://leetcode.com/problems/coin-change/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Coin%20change%20%E2%80%94%20fewest%20coins%20to%20make%20an%20amount) |
+| Word ladder — shortest transformation sequence. | 🔴 Hard | `bfs` `graph` | [LC](https://leetcode.com/problems/word-ladder/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Word%20ladder%20%E2%80%94%20shortest%20transformation%20sequence) |
+| Lowest common ancestor of a binary tree. | 🟡 Medium | `tree` | [LC](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Lowest%20common%20ancestor%20of%20a%20binary%20tree) |
+| Combination sum. | 🟡 Medium | `backtracking` | [LC](https://leetcode.com/problems/combination-sum/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Combination%20sum) |
 
-## Round 2 · Machine Coding
-<!-- round: machine_coding -->
+## Round 2 · System Design
+<!-- round: system_design -->
 
-_Build a working component or service under time pressure._
+_High-level architecture of a large-scale system._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Build a tic-tac-toe game with win detection. | 🟢 Easy | `react` `state` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20a%20tic-tac-toe%20game%20with%20win%20detection) · [Search](https://www.google.com/search?q=Build%20a%20tic-tac-toe%20game%20with%20win%20detection) |
-| Build a typeahead with in-flight request cancellation. | 🟡 Medium | `react` `async` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20a%20typeahead%20with%20in-flight%20request%20cancellation) · [Search](https://www.google.com/search?q=Build%20a%20typeahead%20with%20in-flight%20request%20cancellation) |
+| Design a component/design-system architecture for many teams. | 🟡 Medium | `frontend` `design-system` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20component%2Fdesign-system%20architecture%20for%20many%20teams) · [Search](https://www.google.com/search?q=Design%20a%20component%2Fdesign-system%20architecture%20for%20many%20teams) |
+| Design a multi-tenant SaaS data model. | 🔴 Hard | `multi-tenancy` `databases` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20multi-tenant%20SaaS%20data%20model) · [Search](https://www.google.com/search?q=Design%20a%20multi-tenant%20SaaS%20data%20model) |
 
 ## Round 3 · Low-Level Design
 <!-- round: lld -->
@@ -49,17 +52,16 @@ _Object-oriented / low-level design of a focused module._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Design a design-token theming system. | 🟡 Medium | `design-system` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20design-token%20theming%20system) · [Search](https://www.google.com/search?q=Design%20a%20design-token%20theming%20system) |
+| Design a client-side event bus / pub-sub. | 🟡 Medium | `pub-sub` `oop` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20client-side%20event%20bus%20%2F%20pub-sub) · [Search](https://www.google.com/search?q=Design%20a%20client-side%20event%20bus%20%2F%20pub-sub) |
 
-## Round 4 · Tech Deep-Dive
-<!-- round: tech_deep_dive -->
+## Round 4 · Hiring Manager
+<!-- round: hiring_manager -->
 
-_Deep questions on your core stack and fundamentals._
+_Scope, ownership, and role-fit discussion with the manager._
 
-| Question | Difficulty | Tags | Practice |
-| --- | --- | --- | --- |
-| How do you optimize a slow React app? (profiling → fixes) | 🔴 Hard | `react` `perf` | [GfG](https://www.geeksforgeeks.org/search/?gq=How%20do%20you%20optimize%20a%20slow%20React%20app%3F%20(profiling%20%E2%86%92%20fixes)) · [Search](https://www.google.com/search?q=How%20do%20you%20optimize%20a%20slow%20React%20app%3F%20(profiling%20%E2%86%92%20fixes)) |
-| What is the difference between var, let and const? | 🟢 Easy | `javascript` | [GfG](https://www.geeksforgeeks.org/search/?gq=What%20is%20the%20difference%20between%20var%2C%20let%20and%20const) · [Search](https://www.google.com/search?q=What%20is%20the%20difference%20between%20var%2C%20let%20and%20const) |
+| Question | Difficulty | Tags |
+| --- | --- | --- |
+| Tell me about a technical bet that did not pay off. | — | `risk` `judgment` |
 
 ## Round 5 · Behavioral / HR
 <!-- round: behavioral -->
@@ -68,7 +70,8 @@ _Values, collaboration, and past-experience (STAR) questions._
 
 | Question | Difficulty | Tags |
 | --- | --- | --- |
-| Tell me about a time you had to say no to a stakeholder. | — | `influence` `star` |
+| Tell me about a time you disagreed and committed. | — | `teamwork` `star` |
+| Tell me about a time you failed and what you learned. | — | `growth` `star` |
 
 ---
 

@@ -18,7 +18,7 @@ const CONTENT = join(ROOT, 'content');
 const COMPANIES_DIR = join(CONTENT, 'companies');
 const INTERVIEWS_DIR = join(CONTENT, 'interviews');
 
-const INTERVIEWS_PER_COMPANY = 4;
+const INTERVIEWS_PER_COMPANY = 5;
 
 function reset() {
   if (existsSync(CONTENT)) rmSync(CONTENT, { recursive: true, force: true });

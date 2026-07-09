@@ -1,26 +1,26 @@
 ---
 id: datadog-4
 company: datadog
-role: frontend
-level: mid
+role: fullstack
+level: staff
 outcome: offer
-year: 2024
+year: 2025
 source: curated
 summary: >-
-  5-round mid frontend process. Balanced across coding, design, and
+  5-round staff fullstack process. Balanced across coding, design, and
   collaboration.
 ---
-# Mid Frontend — Datadog
+# Staff Full-stack — Datadog
 
-![role](https://img.shields.io/badge/role-Frontend-22d3ee?style=flat-square)
-![level](https://img.shields.io/badge/level-Mid-818cf8?style=flat-square)
+![role](https://img.shields.io/badge/role-Full--stack-a78bfa?style=flat-square)
+![level](https://img.shields.io/badge/level-Staff-818cf8?style=flat-square)
 ![outcome](https://img.shields.io/badge/outcome-Offer-34d399?style=flat-square)
-![year](https://img.shields.io/badge/year-2024-6b7280?style=flat-square)
+![year](https://img.shields.io/badge/year-2025-6b7280?style=flat-square)
 ![source](https://img.shields.io/badge/source-Commonly%20asked-2dd4bf?style=flat-square)
 
-> 5-round mid frontend process. Balanced across coding, design, and collaboration.
+> 5-round staff fullstack process. Balanced across coding, design, and collaboration.
 
-**5 rounds · 8 questions**
+**5 rounds · 9 questions**
 
 ---
 
@@ -31,18 +31,19 @@ _Data structures & algorithms on a whiteboard or shared editor._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Maximum subarray (Kadane). | 🟡 Medium | `array` `dp` | [LC](https://leetcode.com/problems/maximum-subarray/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Maximum%20subarray%20(Kadane)) |
-| Edit distance. | 🔴 Hard | `dp` `string` | [LC](https://leetcode.com/problems/edit-distance/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Edit%20distance) |
+| Min cost to connect all points. | 🟡 Medium | `graph` `mst` | [LC](https://leetcode.com/problems/min-cost-to-connect-all-points/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Min%20cost%20to%20connect%20all%20points) |
+| Rotate array. | 🟡 Medium | `array` | [LC](https://leetcode.com/problems/rotate-array/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Rotate%20array) |
+| Top K frequent elements. | 🟡 Medium | `heap` `hashmap` | [LC](https://leetcode.com/problems/top-k-frequent-elements/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Top%20K%20frequent%20elements) |
 
-## Round 2 · Machine Coding
-<!-- round: machine_coding -->
+## Round 2 · System Design
+<!-- round: system_design -->
 
-_Build a working component or service under time pressure._
+_High-level architecture of a large-scale system._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Build a carousel/image slider. | 🟡 Medium | `react` `ui` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20a%20carousel%2Fimage%20slider) · [Search](https://www.google.com/search?q=Build%20a%20carousel%2Fimage%20slider) |
-| Build a toast / notification queue. | 🟡 Medium | `react` `state` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20a%20toast%20%2F%20notification%20queue) · [Search](https://www.google.com/search?q=Build%20a%20toast%20%2F%20notification%20queue) |
+| Design a video-call UI with grid and speaker views. | 🔴 Hard | `frontend` `webrtc` `perf` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20video-call%20UI%20with%20grid%20and%20speaker%20views) · [Search](https://www.google.com/search?q=Design%20a%20video-call%20UI%20with%20grid%20and%20speaker%20views) |
+| Design an event-driven order pipeline with retries. | 🔴 Hard | `events` `queues` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20an%20event-driven%20order%20pipeline%20with%20retries) · [Search](https://www.google.com/search?q=Design%20an%20event-driven%20order%20pipeline%20with%20retries) |
 
 ## Round 3 · Low-Level Design
 <!-- round: lld -->
@@ -51,17 +52,16 @@ _Object-oriented / low-level design of a focused module._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Model the state machine for a checkout flow. | 🟡 Medium | `state-machine` | [GfG](https://www.geeksforgeeks.org/search/?gq=Model%20the%20state%20machine%20for%20a%20checkout%20flow) · [Search](https://www.google.com/search?q=Model%20the%20state%20machine%20for%20a%20checkout%20flow) |
+| Design a rate limiter with multiple strategies. | 🟡 Medium | `oop` `rate-limit` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20rate%20limiter%20with%20multiple%20strategies) · [Search](https://www.google.com/search?q=Design%20a%20rate%20limiter%20with%20multiple%20strategies) |
 
-## Round 4 · Tech Deep-Dive
-<!-- round: tech_deep_dive -->
+## Round 4 · Hiring Manager
+<!-- round: hiring_manager -->
 
-_Deep questions on your core stack and fundamentals._
+_Scope, ownership, and role-fit discussion with the manager._
 
-| Question | Difficulty | Tags | Practice |
-| --- | --- | --- | --- |
-| How do you optimize a slow React app? (profiling → fixes) | 🔴 Hard | `react` `perf` | [GfG](https://www.geeksforgeeks.org/search/?gq=How%20do%20you%20optimize%20a%20slow%20React%20app%3F%20(profiling%20%E2%86%92%20fixes)) · [Search](https://www.google.com/search?q=How%20do%20you%20optimize%20a%20slow%20React%20app%3F%20(profiling%20%E2%86%92%20fixes)) |
-| Debounce vs throttle — implement one from scratch. | 🟡 Medium | `javascript` `perf` | [GfG](https://www.geeksforgeeks.org/search/?gq=Debounce%20vs%20throttle%20%E2%80%94%20implement%20one%20from%20scratch) · [Search](https://www.google.com/search?q=Debounce%20vs%20throttle%20%E2%80%94%20implement%20one%20from%20scratch) |
+| Question | Difficulty | Tags |
+| --- | --- | --- |
+| Tell me about a project that slipped. What did you do? | — | `delivery` |
 
 ## Round 5 · Behavioral / HR
 <!-- round: behavioral -->
@@ -70,7 +70,8 @@ _Values, collaboration, and past-experience (STAR) questions._
 
 | Question | Difficulty | Tags |
 | --- | --- | --- |
-| Describe a time you disagreed with a teammate. How did it resolve? | — | `conflict` `star` |
+| Tell me about a time you had to say no to a stakeholder. | — | `influence` `star` |
+| Tell me about a time you went above and beyond for a customer. | — | `customer` `star` |
 
 ---
 

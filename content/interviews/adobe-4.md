@@ -2,23 +2,23 @@
 id: adobe-4
 company: adobe
 role: frontend
-level: senior
-outcome: unknown
-year: 2025
+level: mid
+outcome: rejected
+year: 2023
 source: curated
-summary: 'A senior frontend loop. Coding-heavy early, design and behavioral later.'
+summary: A mid frontend loop. Pragmatic questions — more real-world than pure puzzles.
 ---
-# Senior Frontend — Adobe
+# Mid Frontend — Adobe
 
 ![role](https://img.shields.io/badge/role-Frontend-22d3ee?style=flat-square)
-![level](https://img.shields.io/badge/level-Senior-818cf8?style=flat-square)
-![outcome](https://img.shields.io/badge/outcome-Unknown-6b7280?style=flat-square)
-![year](https://img.shields.io/badge/year-2025-6b7280?style=flat-square)
+![level](https://img.shields.io/badge/level-Mid-818cf8?style=flat-square)
+![outcome](https://img.shields.io/badge/outcome-Rejected-f87171?style=flat-square)
+![year](https://img.shields.io/badge/year-2023-6b7280?style=flat-square)
 ![source](https://img.shields.io/badge/source-Commonly%20asked-2dd4bf?style=flat-square)
 
-> A senior frontend loop. Coding-heavy early, design and behavioral later.
+> A mid frontend loop. Pragmatic questions — more real-world than pure puzzles.
 
-**6 rounds · 10 questions**
+**5 rounds · 11 questions**
 
 ---
 
@@ -29,8 +29,9 @@ _Data structures & algorithms on a whiteboard or shared editor._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Lowest common ancestor of a binary tree. | 🟡 Medium | `tree` | [LC](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Lowest%20common%20ancestor%20of%20a%20binary%20tree) |
-| Maximum subarray (Kadane). | 🟡 Medium | `array` `dp` | [LC](https://leetcode.com/problems/maximum-subarray/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Maximum%20subarray%20(Kadane)) |
+| Sort colors. | 🟡 Medium | `two-pointers` `array` | [LC](https://leetcode.com/problems/sort-colors/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Sort%20colors) |
+| Binary tree maximum path sum. | 🔴 Hard | `tree` `dfs` | [LC](https://leetcode.com/problems/binary-tree-maximum-path-sum/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Binary%20tree%20maximum%20path%20sum) |
+| Daily temperatures. | 🟡 Medium | `stack` `monotonic-stack` | [LC](https://leetcode.com/problems/daily-temperatures/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Daily%20temperatures) |
 
 ## Round 2 · Machine Coding
 <!-- round: machine_coding -->
@@ -39,18 +40,17 @@ _Build a working component or service under time pressure._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Build a debounced autocomplete/search box with keyboard nav. | 🟡 Medium | `react` `debounce` `a11y` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20a%20debounced%20autocomplete%2Fsearch%20box%20with%20keyboard%20nav) · [Search](https://www.google.com/search?q=Build%20a%20debounced%20autocomplete%2Fsearch%20box%20with%20keyboard%20nav) |
-| Build a tic-tac-toe game with win detection. | 🟢 Easy | `react` `state` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20a%20tic-tac-toe%20game%20with%20win%20detection) · [Search](https://www.google.com/search?q=Build%20a%20tic-tac-toe%20game%20with%20win%20detection) |
+| Build a countdown timer with pause and resume. | 🟢 Easy | `react` `state` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20a%20countdown%20timer%20with%20pause%20and%20resume) · [Search](https://www.google.com/search?q=Build%20a%20countdown%20timer%20with%20pause%20and%20resume) |
+| Build a kanban board with drag and drop. | 🔴 Hard | `react` `dnd` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20a%20kanban%20board%20with%20drag%20and%20drop) · [Search](https://www.google.com/search?q=Build%20a%20kanban%20board%20with%20drag%20and%20drop) |
 
-## Round 3 · System Design
-<!-- round: system_design -->
+## Round 3 · Low-Level Design
+<!-- round: lld -->
 
-_High-level architecture of a large-scale system._
+_Object-oriented / low-level design of a focused module._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Design a real-time collaborative editor (client side). | 🔴 Hard | `frontend` `crdt` `realtime` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20real-time%20collaborative%20editor%20(client%20side)) · [Search](https://www.google.com/search?q=Design%20a%20real-time%20collaborative%20editor%20(client%20side)) |
-| Design client-side state and data-fetching for a large SPA. | 🔴 Hard | `frontend` `state` `caching` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20client-side%20state%20and%20data-fetching%20for%20a%20large%20SPA) · [Search](https://www.google.com/search?q=Design%20client-side%20state%20and%20data-fetching%20for%20a%20large%20SPA) |
+| Design a toast/notification manager API. | 🟡 Medium | `oop` `pub-sub` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20toast%2Fnotification%20manager%20API) · [Search](https://www.google.com/search?q=Design%20a%20toast%2Fnotification%20manager%20API) |
 
 ## Round 4 · Tech Deep-Dive
 <!-- round: tech_deep_dive -->
@@ -59,26 +59,19 @@ _Deep questions on your core stack and fundamentals._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| How do you prevent XSS in a React app? | 🟡 Medium | `security` `react` | [GfG](https://www.geeksforgeeks.org/search/?gq=How%20do%20you%20prevent%20XSS%20in%20a%20React%20app) · [Search](https://www.google.com/search?q=How%20do%20you%20prevent%20XSS%20in%20a%20React%20app) |
-| Debounce vs throttle — implement one from scratch. | 🟡 Medium | `javascript` `perf` | [GfG](https://www.geeksforgeeks.org/search/?gq=Debounce%20vs%20throttle%20%E2%80%94%20implement%20one%20from%20scratch) · [Search](https://www.google.com/search?q=Debounce%20vs%20throttle%20%E2%80%94%20implement%20one%20from%20scratch) |
+| Explain memoization: useMemo, useCallback and React.memo. | 🟡 Medium | `react` `perf` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20memoization%3A%20useMemo%2C%20useCallback%20and%20React.memo) · [Search](https://www.google.com/search?q=Explain%20memoization%3A%20useMemo%2C%20useCallback%20and%20React.memo) |
+| Accessibility: how do you make a custom widget usable? | 🟡 Medium | `a11y` | [GfG](https://www.geeksforgeeks.org/search/?gq=Accessibility%3A%20how%20do%20you%20make%20a%20custom%20widget%20usable) · [Search](https://www.google.com/search?q=Accessibility%3A%20how%20do%20you%20make%20a%20custom%20widget%20usable) |
+| What is tree shaking and when does it fail? | 🟡 Medium | `bundling` | [GfG](https://www.geeksforgeeks.org/search/?gq=What%20is%20tree%20shaking%20and%20when%20does%20it%20fail) · [Search](https://www.google.com/search?q=What%20is%20tree%20shaking%20and%20when%20does%20it%20fail) |
 
-## Round 5 · Hiring Manager
-<!-- round: hiring_manager -->
-
-_Scope, ownership, and role-fit discussion with the manager._
-
-| Question | Difficulty | Tags |
-| --- | --- | --- |
-| Walk me through a technical trade-off you regret. | — | `judgment` |
-
-## Round 6 · Behavioral / HR
+## Round 5 · Behavioral / HR
 <!-- round: behavioral -->
 
 _Values, collaboration, and past-experience (STAR) questions._
 
 | Question | Difficulty | Tags |
 | --- | --- | --- |
-| Describe a time you disagreed with a teammate. How did it resolve? | — | `conflict` `star` |
+| Tell me about the hardest bug you have debugged. | — | `debugging` `star` |
+| Describe handling a tight deadline with competing priorities. | — | `prioritization` `star` |
 
 ---
 

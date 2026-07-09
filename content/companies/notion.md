@@ -9,8 +9,8 @@ description: Connected workspace. Frontend depth and data-model design.
 
 ![industry](https://img.shields.io/badge/industry-Productivity-8b93ff?style=flat-square)
 ![hq](https://img.shields.io/badge/hq-San%20Francisco,%20CA-6b7280?style=flat-square)
-![interviews](https://img.shields.io/badge/interviews-4-22d3ee?style=flat-square)
-![questions](https://img.shields.io/badge/questions-35-a78bfa?style=flat-square)
+![interviews](https://img.shields.io/badge/interviews-5-22d3ee?style=flat-square)
+![questions](https://img.shields.io/badge/questions-51-a78bfa?style=flat-square)
 
 > Connected workspace. Frontend depth and data-model design.
 
@@ -20,10 +20,11 @@ description: Connected workspace. Frontend depth and data-model design.
 
 | Interview | Outcome | Rounds | Questions |
 | --- | --- | --- | --- |
-| [Senior · Frontend](../interviews/notion-1.md) | Unknown | 6 | 10 |
-| [Staff · Backend](../interviews/notion-2.md) | Unknown | 5 | 7 |
-| [Junior · Full-stack](../interviews/notion-3.md) | Offer | 5 | 8 |
-| [Senior · Backend](../interviews/notion-4.md) | Unknown | 6 | 10 |
+| [Mid · Frontend](../interviews/notion-1.md) | No offer | 5 | 11 |
+| [Mid · Full-stack](../interviews/notion-2.md) | Withdrew | 5 | 11 |
+| [Junior · Backend](../interviews/notion-3.md) | Rejected | 5 | 11 |
+| [Staff · Frontend](../interviews/notion-4.md) | No offer | 5 | 9 |
+| [Staff · Full-stack](../interviews/notion-5.md) | No offer | 5 | 9 |
 
 ---
 
