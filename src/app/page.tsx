@@ -1,5 +1,7 @@
+import type { Metadata } from 'next';
 import Link from 'next/link';
 import { Container } from '@/components/ui/Container';
+import { SITE } from '@/lib/site';
 import { SearchInput } from '@/components/SearchInput';
 import { RoundRailPreview } from '@/components/RoundRailPreview';
 import { CompanyCard } from '@/components/CompanyCard';
@@ -13,6 +15,17 @@ import { ROUND_ORDER } from '@/lib/constants';
 
 function compact(n: number): string {
   return n >= 1000 ? `${(n / 1000).toFixed(1)}k` : String(n);
+}
+
+export function generateMetadata(): Metadata {
+  const t = getTotals();
+  return {
+    title: {
+      absolute: `${SITE.name} — Interview questions from ${t.companies} top tech companies, by round`,
+    },
+    description: `Free, open-source interview prep: ${t.questions.toLocaleString()} real questions from ${t.companies} top tech companies (Google, Meta, Amazon, Stripe…), mapped to the exact round, role and level. Track what you've solved — no signup.`,
+    alternates: { canonical: '/' },
+  };
 }
 
 const VALUE_PROPS = [

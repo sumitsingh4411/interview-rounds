@@ -9,6 +9,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const staticRoutes: MetadataRoute.Sitemap = [
     { url: `${base}/`, priority: 1 },
     { url: `${base}/companies`, priority: 0.9 },
+    { url: `${base}/questions`, priority: 0.9 },
+    { url: `${base}/progress`, priority: 0.4 },
     { url: `${base}/search`, priority: 0.5 },
   ];
 

@@ -33,13 +33,85 @@ export const metadata: Metadata = {
     template: `%s · ${SITE.name}`,
   },
   description: SITE.description,
+  applicationName: SITE.name,
+  keywords: [
+    'interview questions',
+    'interview rounds',
+    'coding interview',
+    'system design interview',
+    'behavioral interview',
+    'DSA questions',
+    'LeetCode',
+    'frontend interview questions',
+    'backend interview questions',
+    'full-stack interview',
+    'FAANG interview',
+    'tech interview preparation',
+    'Google interview',
+    'Meta interview',
+    'Amazon interview',
+    'machine coding round',
+    'low-level design',
+  ],
+  authors: [{ name: SITE.name, url: SITE.url }],
+  creator: SITE.name,
+  category: 'education',
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+      'max-video-preview': -1,
+    },
+  },
   openGraph: {
     title: `${SITE.name} — ${SITE.tagline}`,
     description: SITE.description,
     siteName: SITE.name,
+    url: SITE.url,
+    locale: 'en_US',
     type: 'website',
   },
-  twitter: { card: 'summary_large_image' },
+  twitter: {
+    card: 'summary_large_image',
+    title: `${SITE.name} — ${SITE.tagline}`,
+    description: SITE.description,
+  },
+};
+
+// Structured data helps search engines understand the site and can enable a
+// sitelinks search box. Rendered once, in the root layout.
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@graph': [
+    {
+      '@type': 'WebSite',
+      '@id': `${SITE.url}/#website`,
+      name: SITE.name,
+      url: SITE.url,
+      description: SITE.description,
+      inLanguage: 'en',
+      potentialAction: {
+        '@type': 'SearchAction',
+        target: {
+          '@type': 'EntryPoint',
+          urlTemplate: `${SITE.url}/search?q={search_term_string}`,
+        },
+        'query-input': 'required name=search_term_string',
+      },
+    },
+    {
+      '@type': 'Organization',
+      '@id': `${SITE.url}/#organization`,
+      name: SITE.name,
+      url: SITE.url,
+      description: SITE.description,
+      sameAs: [SITE.repo],
+    },
+  ],
 };
 
 // Applies the saved theme before paint so there is no light/dark flash.
@@ -60,6 +132,10 @@ export default function RootLayout({
     >
       <head>
         <script dangerouslySetInnerHTML={{ __html: themeScript }} />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        />
       </head>
       <body className="flex min-h-full flex-col">
         <Header />
