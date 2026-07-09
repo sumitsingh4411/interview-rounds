@@ -3,6 +3,7 @@
 import { readFileSync, readdirSync, writeFileSync, existsSync } from 'node:fs';
 import { join } from 'node:path';
 import matter from 'gray-matter';
+import { parseRounds, countQuestions } from '../src/content/parse-rounds';
 
 const ROOT = process.cwd();
 const COMPANIES_DIR = join(ROOT, 'content', 'companies');
@@ -57,14 +58,13 @@ function main() {
   });
 
   const interviews: Interview[] = mdFiles(INTERVIEWS_DIR).map((f) => {
-    const { data } = matter(readFileSync(join(INTERVIEWS_DIR, f), 'utf8'));
-    const rounds: { questions: unknown[] }[] = data.rounds ?? [];
+    const { data, content } = matter(readFileSync(join(INTERVIEWS_DIR, f), 'utf8'));
     return {
       id: data.id,
       company: data.company,
       role: data.role,
       level: data.level,
-      questionCount: rounds.reduce((n, r) => n + (r.questions?.length ?? 0), 0),
+      questionCount: countQuestions(parseRounds(content)),
     };
   });
 

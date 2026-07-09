@@ -3,6 +3,7 @@ import { Container } from '@/components/ui/Container';
 import { SearchInput } from '@/components/SearchInput';
 import { RoundRailPreview } from '@/components/RoundRailPreview';
 import { CompanyCard } from '@/components/CompanyCard';
+import { ProgressDashboard } from '@/components/ProgressDashboard';
 import {
   getPopularCompanies,
   getRoundCounts,
@@ -121,6 +122,11 @@ export default function HomePage() {
           </div>
         </Container>
       </section>
+
+      {/* Your progress — localStorage only, no account */}
+      <Container className="py-6">
+        <ProgressDashboard />
+      </Container>
 
       {/* Popular companies */}
       <Container className="py-6">

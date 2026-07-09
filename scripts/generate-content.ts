@@ -1,29 +1,24 @@
+/**
+ * ONE-TIME BOOTSTRAP. Regenerates every file in content/ from scripts/data/.
+ * This OVERWRITES content/ — do not run it unless you mean to.
+ */
 import { writeFileSync, mkdirSync, rmSync, existsSync } from 'node:fs';
 import { join } from 'node:path';
-import matter from 'gray-matter';
 import { COMPANIES } from './data/companies';
 import { composeInterviews } from './data/bank';
+import {
+  renderInterview,
+  renderCompany,
+  type CompanyInterviewRow,
+} from './lib/render';
+import type { ParsedRound } from '../src/content/parse-rounds';
 
 const ROOT = process.cwd();
 const CONTENT = join(ROOT, 'content');
 const COMPANIES_DIR = join(CONTENT, 'companies');
 const INTERVIEWS_DIR = join(CONTENT, 'interviews');
-const SEARCH_INDEX = join(ROOT, 'public', 'search-index.json');
 
 const INTERVIEWS_PER_COMPANY = 4;
-
-type SearchEntry = {
-  id: string;
-  title: string;
-  company: string;
-  companySlug: string;
-  interviewId: string;
-  role: string;
-  level: string;
-  round: string;
-  difficulty: string | null;
-  tags: string[];
-};
 
 function reset() {
   if (existsSync(CONTENT)) rmSync(CONTENT, { recursive: true, force: true });
@@ -33,28 +28,16 @@ function reset() {
 
 function main() {
   reset();
-  const searchIndex: SearchEntry[] = [];
   let interviewCount = 0;
   let questionCount = 0;
 
   for (const company of COMPANIES) {
-    // Company file — frontmatter + description as body.
-    const companyMd = matter.stringify(company.description ?? '', {
-      name: company.name,
-      slug: company.slug,
-      ...(company.featured ? { featured: true } : {}),
-      industry: company.industry ?? null,
-      hq: company.hq ?? null,
-    });
-    writeFileSync(join(COMPANIES_DIR, `${company.slug}.md`), companyMd);
-
     const composed = composeInterviews(company.slug, INTERVIEWS_PER_COMPANY);
-    composed.forEach((iv, idx) => {
-      const interviewId = `${company.slug}-${idx + 1}`;
-      interviewCount += 1;
+    const rows: CompanyInterviewRow[] = [];
 
-      // Structured rounds in frontmatter; summary as the markdown body.
-      const rounds = iv.rounds.map((r) => ({
+    composed.forEach((iv, idx) => {
+      const id = `${company.slug}-${idx + 1}`;
+      const rounds: ParsedRound[] = iv.rounds.map((r) => ({
         round: r.round,
         questions: r.questions.map((q) => ({
           title: q.title,
@@ -63,48 +46,53 @@ function main() {
         })),
       }));
 
-      const interviewMd = matter.stringify(iv.summary ?? '', {
-        id: interviewId,
-        company: company.slug,
+      const md = renderInterview(
+        {
+          id,
+          company: company.slug,
+          role: iv.role,
+          level: iv.level,
+          outcome: iv.outcome,
+          year: iv.year,
+          source: 'curated',
+          summary: iv.summary,
+        },
+        company.name,
+        rounds,
+      );
+      writeFileSync(join(INTERVIEWS_DIR, `${id}.md`), md);
+
+      const qCount = rounds.reduce((n, r) => n + r.questions.length, 0);
+      interviewCount += 1;
+      questionCount += qCount;
+
+      rows.push({
+        id,
         role: iv.role,
         level: iv.level,
         outcome: iv.outcome,
-        year: iv.year,
-        source: 'curated',
-        rounds,
+        roundCount: rounds.length,
+        questionCount: qCount,
       });
-      writeFileSync(join(INTERVIEWS_DIR, `${interviewId}.md`), interviewMd);
-
-      let qi = 0;
-      for (const r of rounds) {
-        for (const q of r.questions) {
-          const id = `${interviewId}-q${qi}`;
-          qi += 1;
-          questionCount += 1;
-          searchIndex.push({
-            id,
-            title: q.title,
-            company: company.name,
-            companySlug: company.slug,
-            interviewId,
-            role: iv.role,
-            level: iv.level,
-            round: r.round,
-            difficulty: q.difficulty ?? null,
-            tags: q.tags ?? [],
-          });
-        }
-      }
     });
+
+    const companyMd = renderCompany(
+      {
+        name: company.name,
+        slug: company.slug,
+        featured: company.featured,
+        industry: company.industry ?? null,
+        hq: company.hq ?? null,
+        description: company.description ?? '',
+      },
+      rows,
+    );
+    writeFileSync(join(COMPANIES_DIR, `${company.slug}.md`), companyMd);
   }
 
-  mkdirSync(join(ROOT, 'public'), { recursive: true });
-  writeFileSync(SEARCH_INDEX, JSON.stringify(searchIndex));
-
   console.log(
-    `\n✔ Generated content: ${COMPANIES.length} companies, ${interviewCount} interviews, ${questionCount} questions.`,
+    `\n✔ Generated content: ${COMPANIES.length} companies, ${interviewCount} interviews, ${questionCount} questions.\n`,
   );
-  console.log(`  → content/companies, content/interviews, public/search-index.json\n`);
 }
 
 main();

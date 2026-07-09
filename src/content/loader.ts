@@ -2,13 +2,13 @@ import 'server-only';
 import { readFileSync, readdirSync, existsSync } from 'node:fs';
 import { join } from 'node:path';
 import matter from 'gray-matter';
+import { parseRounds } from './parse-rounds';
 import {
   LEVELS,
   ROUND_ORDER,
   type Role,
   type Level,
   type Round,
-  type Difficulty,
   type SourceType,
   type Outcome,
 } from '@/lib/constants';
@@ -25,11 +25,6 @@ import type {
 const CONTENT = join(process.cwd(), 'content');
 const COMPANIES_DIR = join(CONTENT, 'companies');
 const INTERVIEWS_DIR = join(CONTENT, 'interviews');
-
-type RawRound = {
-  round: Round;
-  questions: { title: string; difficulty: Difficulty | null; tags: string[] }[];
-};
 
 type Dataset = {
   companies: Company[];
@@ -53,12 +48,12 @@ function build(): Dataset {
   const companies: Company[] = [];
   const companyBySlug = new Map<string, Company>();
   for (const file of mdFiles(COMPANIES_DIR)) {
-    const { data, content } = matter(readFileSync(join(COMPANIES_DIR, file), 'utf8'));
+    const { data } = matter(readFileSync(join(COMPANIES_DIR, file), 'utf8'));
     const company: Company = {
       id: data.slug,
       slug: data.slug,
       name: data.name,
-      description: content.trim() || null,
+      description: data.description ?? null,
       industry: data.industry ?? null,
       hq: data.hq ?? null,
       featured: data.featured === true,
@@ -84,7 +79,7 @@ function build(): Dataset {
       level: data.level as Level,
       outcome: data.outcome as Outcome,
       title: data.title ?? null,
-      summary: content.trim() || null,
+      summary: data.summary ?? null,
       year: data.year ?? null,
       sourceType: (data.source ?? 'curated') as SourceType,
       sourceUrl: data.sourceUrl ?? null,
@@ -93,7 +88,7 @@ function build(): Dataset {
     interviews.push(interview);
     interviewById.set(interview.id, interview);
 
-    const rounds: RawRound[] = data.rounds ?? [];
+    const rounds = parseRounds(content);
     const list: Question[] = [];
     let qi = 0;
     for (const r of rounds) {

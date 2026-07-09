@@ -54,8 +54,8 @@ export function RoundRail({ groups }: { groups: RoundGroup[] }) {
               <ul className="mt-4 space-y-3">
                 {group.questions.map((q) => (
                   <li key={q.id}>
-                    {/* Role/level are constant across an interview — omit the noise. */}
-                    <QuestionCard question={q} showRoleLevel={false} />
+                    {/* Role is stated in the page title; level stays visible. */}
+                    <QuestionCard question={q} showRole={false} />
                   </li>
                 ))}
               </ul>

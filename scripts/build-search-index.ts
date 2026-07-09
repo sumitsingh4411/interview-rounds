@@ -3,6 +3,7 @@
 import { readFileSync, readdirSync, writeFileSync, existsSync, mkdirSync } from 'node:fs';
 import { join } from 'node:path';
 import matter from 'gray-matter';
+import { parseRounds } from '../src/content/parse-rounds';
 
 const ROOT = process.cwd();
 const COMPANIES_DIR = join(ROOT, 'content', 'companies');
@@ -36,13 +37,10 @@ function main() {
 
   const entries: Entry[] = [];
   for (const file of mdFiles(INTERVIEWS_DIR)) {
-    const { data } = matter(readFileSync(join(INTERVIEWS_DIR, file), 'utf8'));
+    const { data, content } = matter(readFileSync(join(INTERVIEWS_DIR, file), 'utf8'));
     const interviewId: string = data.id;
     const companySlug: string = data.company;
-    const rounds: {
-      round: string;
-      questions: { title: string; difficulty: string | null; tags: string[] }[];
-    }[] = data.rounds ?? [];
+    const rounds = parseRounds(content);
 
     let qi = 0;
     for (const r of rounds) {
