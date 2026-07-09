@@ -176,6 +176,32 @@ export async function getRelatedQuestions(
     .limit(limit);
 }
 
+/** Published questions for a single round, across all companies. */
+export async function getQuestionsByRound(
+  round: Round,
+  limit = 60,
+): Promise<QuestionWithCompany[]> {
+  return db
+    .select({ question: questions, company: companies })
+    .from(questions)
+    .innerJoin(companies, eq(questions.companyId, companies.id))
+    .where(and(eq(questions.round, round), eq(questions.status, 'published')))
+    .orderBy(desc(questions.upvotes), desc(questions.createdAt))
+    .limit(limit);
+}
+
+/** Count of published questions per round, for the home rail. */
+export async function getRoundCounts(): Promise<Partial<Record<Round, number>>> {
+  const rows = await db
+    .select({ round: questions.round, n: sql<number>`count(*)::int` })
+    .from(questions)
+    .where(eq(questions.status, 'published'))
+    .groupBy(questions.round);
+  const map: Partial<Record<Round, number>> = {};
+  for (const r of rows) map[r.round as Round] = r.n;
+  return map;
+}
+
 export type SearchFilter = { role?: Role; level?: Level; round?: Round };
 
 /** Full-text search across published questions using Postgres tsvector. */

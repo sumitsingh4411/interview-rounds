@@ -5,7 +5,7 @@ export function CompanyCard({ company }: { company: CompanyWithStats }) {
   return (
     <Link
       href={`/companies/${company.slug}`}
-      className="group flex flex-col rounded-2xl border border-line bg-surface p-5 transition-all hover:-translate-y-0.5 hover:border-line-2 hover:bg-surface-2"
+      className="surface-card group flex flex-col rounded-2xl border border-line bg-surface p-5 hover:-translate-y-0.5 hover:border-line-2 hover:bg-surface-2"
     >
       <div className="flex items-center gap-3">
         <span

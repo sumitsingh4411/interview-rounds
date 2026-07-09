@@ -151,16 +151,55 @@
     height: 32px;
     border-radius: 999px;
     background: var(--surface);
-    border: 2px solid var(--line-2);
+    border: 1.5px solid var(--line-2);
     font-family: var(--font-mono);
     font-size: 0.8rem;
     color: var(--muted);
     flex: none;
+    transition:
+      box-shadow 0.3s ease,
+      transform 0.3s ease;
   }
   .rail-node[data-active="true"] {
-    border-color: var(--brand);
-    color: var(--brand);
-    box-shadow: 0 0 0 4px rgb(var(--glow) / 0.15);
+    background: linear-gradient(135deg, var(--brand), var(--brand-2));
+    border-color: transparent;
+    color: var(--on-brand);
+    box-shadow:
+      0 6px 16px -6px rgb(var(--glow) / 0.5),
+      0 0 0 4px rgb(var(--glow) / 0.12);
+  }
+
+  /* Cards lift with a soft brand-tinted glow on hover. */
+  .surface-card {
+    transition:
+      box-shadow 0.28s ease,
+      transform 0.28s ease,
+      border-color 0.28s ease,
+      background-color 0.28s ease;
+    box-shadow: 0 1px 2px rgb(0 0 0 / 0.18);
+  }
+  .surface-card:hover {
+    box-shadow:
+      0 1px 0 rgb(255 255 255 / 0.04) inset,
+      0 24px 55px -30px rgb(var(--glow) / 0.35);
+  }
+
+  /* Premium primary button with a subtle sheen. */
+  .btn-brand {
+    background-image: linear-gradient(135deg, var(--brand), var(--brand-2));
+    color: var(--on-brand);
+    box-shadow: 0 8px 20px -10px rgb(var(--glow) / 0.6);
+    transition:
+      box-shadow 0.2s ease,
+      transform 0.1s ease,
+      filter 0.2s ease;
+  }
+  .btn-brand:hover {
+    filter: brightness(1.06);
+    box-shadow: 0 10px 26px -10px rgb(var(--glow) / 0.75);
+  }
+  .btn-brand:active {
+    transform: translateY(1px);
   }
 
   /* Lightweight prose styling for markdown question write-ups. */

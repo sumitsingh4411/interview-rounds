@@ -40,7 +40,7 @@ export function SearchInput({
       />
       <button
         type="submit"
-        className="rounded-lg bg-brand px-3 py-1.5 text-sm font-medium text-on-brand transition-opacity hover:opacity-90"
+        className="btn-brand rounded-lg px-3.5 py-1.5 text-sm font-medium"
       >
         Search
       </button>

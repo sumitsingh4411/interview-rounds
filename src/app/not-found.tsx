@@ -15,7 +15,7 @@ export default function NotFound() {
       <div className="mt-7 flex gap-3">
         <Link
           href="/companies"
-          className="rounded-xl bg-brand px-4 py-2.5 text-sm font-medium text-on-brand hover:opacity-90"
+          className="btn-brand rounded-xl px-4 py-2.5 text-sm font-medium"
         >
           Browse companies
         </Link>
