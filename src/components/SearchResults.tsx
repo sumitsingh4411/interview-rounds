@@ -5,12 +5,27 @@ import { useEffect, useMemo, useState } from 'react';
 import { useSearchParams } from 'next/navigation';
 import {
   ROUND_LABELS,
+  ROUND_COLORS,
+  ROUND_ORDER,
   type Role,
   type Level,
   type Difficulty,
   type Round,
 } from '@/lib/constants';
 import { RoleBadge, LevelBadge, DifficultyBadge } from './ui/badges';
+
+const POPULAR = [
+  'system design',
+  'react',
+  'two sum',
+  'dynamic programming',
+  'linked list',
+  'sql',
+  'behavioral',
+  'rate limiter',
+  'binary tree',
+  'idempotency',
+];
 
 type Entry = {
   id: string;
@@ -55,6 +70,12 @@ export function SearchResults() {
       .slice(0, 80);
   }, [entries, query]);
 
+  const roundCounts = useMemo(() => {
+    const m = {} as Record<Round, number>;
+    for (const e of entries ?? []) m[e.round] = (m[e.round] ?? 0) + 1;
+    return m;
+  }, [entries]);
+
   const trimmed = query.trim();
 
   return (
@@ -81,13 +102,65 @@ export function SearchResults() {
           {results.length} result{results.length === 1 ? '' : 's'} for “{trimmed}”
         </p>
       ) : (
-        <p className="mt-6 text-muted">
-          Search across every company and round.{' '}
-          <Link href="/companies" className="text-brand hover:underline">
-            Browse companies →
-          </Link>
+        <p className="mt-6 text-sm text-muted">
+          Search across every company and round — or start from a suggestion
+          below.
         </p>
       )}
+
+      {!trimmed && entries ? (
+        <div className="mt-8 space-y-8">
+          <div>
+            <p className="eyebrow mb-3">Popular searches</p>
+            <div className="flex flex-wrap gap-2">
+              {POPULAR.map((q) => (
+                <button
+                  key={q}
+                  type="button"
+                  onClick={() => setQuery(q)}
+                  className="inline-flex items-center gap-1.5 rounded-full border border-line px-3 py-1.5 font-mono text-sm text-muted transition-colors hover:border-brand hover:text-fg"
+                >
+                  <span aria-hidden className="text-faint">
+                    ↗
+                  </span>
+                  {q}
+                </button>
+              ))}
+            </div>
+          </div>
+
+          <div>
+            <p className="eyebrow mb-3">Browse by round</p>
+            <div className="grid gap-2.5 sm:grid-cols-2">
+              {ROUND_ORDER.map((r) => (
+                <Link
+                  key={r}
+                  href={`/rounds/${r}`}
+                  className="glass-card group flex items-center gap-3 rounded-xl px-4 py-3 transition-colors hover:border-line-2"
+                >
+                  <span
+                    aria-hidden
+                    className="h-2.5 w-2.5 shrink-0 rounded-full"
+                    style={{ backgroundColor: ROUND_COLORS[r].from }}
+                  />
+                  <span className="flex-1 text-sm text-fg">
+                    {ROUND_LABELS[r]}
+                  </span>
+                  <span className="font-mono text-xs text-faint">
+                    {(roundCounts[r] ?? 0).toLocaleString()}
+                  </span>
+                  <span
+                    aria-hidden
+                    className="text-faint transition-transform group-hover:translate-x-0.5"
+                  >
+                    →
+                  </span>
+                </Link>
+              ))}
+            </div>
+          </div>
+        </div>
+      ) : null}
 
       <ul className="mt-4 space-y-3">
         {results.map((e) => (

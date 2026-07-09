@@ -3,7 +3,7 @@
 import Link from 'next/link';
 import { useRef } from 'react';
 import { clearSolved, getSolvedIds, importSolved } from '@/lib/solved';
-import { percent, type Bucket } from '@/lib/progress';
+import { percent } from '@/lib/progress';
 import {
   ROUND_LABELS,
   ROUND_COLORS,
@@ -12,9 +12,11 @@ import {
   DIFFICULTY_LABELS,
   type Difficulty,
   type Round,
+  type Role,
 } from '@/lib/constants';
 import { ProgressRing } from './ProgressRing';
 import { useProgressStats } from './useProgressStats';
+import { Donut, Columns, StackedBar, type Segment, type Column } from './charts';
 
 const DIFFICULTY_COLOR: Record<Difficulty, string> = {
   easy: 'var(--easy)',
@@ -22,9 +24,26 @@ const DIFFICULTY_COLOR: Record<Difficulty, string> = {
   hard: 'var(--hard)',
 };
 
+const ROLE_COLOR: Record<Role, string> = {
+  frontend: 'var(--frontend)',
+  backend: 'var(--backend)',
+  fullstack: 'var(--brand)',
+};
+
+const SHORT_ROUND: Record<Round, string> = {
+  oa: 'OA',
+  dsa: 'DSA',
+  machine_coding: 'M.Code',
+  lld: 'LLD',
+  system_design: 'Sys',
+  tech_deep_dive: 'Tech',
+  hiring_manager: 'HM',
+  behavioral: 'Behav',
+};
+
 function Bar({ pct, color }: { pct: number; color: string }) {
   return (
-    <div className="h-1.5 w-full overflow-hidden rounded-full bg-surface-2">
+    <div className="mt-1.5 h-1.5 w-full overflow-hidden rounded-full bg-surface-2">
       <div
         className="h-full rounded-full transition-[width] duration-700 ease-out"
         style={{ width: `${pct}%`, backgroundColor: color }}
@@ -33,33 +52,47 @@ function Bar({ pct, color }: { pct: number; color: string }) {
   );
 }
 
-function BucketRow({
+function LegendRow({
   label,
-  b,
+  solved,
+  total,
   color,
 }: {
   label: string;
-  b: Bucket<string>;
+  solved: number;
+  total: number;
   color: string;
 }) {
-  const pct = percent(b.solved, b.total);
   return (
-    <li className="space-y-1.5">
+    <li>
       <div className="flex items-baseline justify-between gap-3 text-sm">
         <span className="flex items-center gap-2 text-muted">
           <span
             aria-hidden
-            className="h-1.5 w-1.5 shrink-0 rounded-full"
+            className="h-2 w-2 shrink-0 rounded-full"
             style={{ backgroundColor: color }}
           />
           {label}
         </span>
         <span className="font-mono text-xs text-faint">
-          <span className="text-fg">{b.solved}</span> / {b.total}
+          <span className="text-fg">{solved}</span> / {total}
         </span>
       </div>
-      <Bar pct={pct} color={color} />
+      <Bar pct={percent(solved, total)} color={color} />
     </li>
+  );
+}
+
+function StatTile({ value, label }: { value: string; label: string }) {
+  return (
+    <div className="glass-card rounded-xl px-3.5 py-3">
+      <div className="font-display text-xl leading-none font-bold text-fg">
+        {value}
+      </div>
+      <div className="mt-1.5 font-mono text-[0.62rem] tracking-wide text-faint">
+        {label}
+      </div>
+    </div>
   );
 }
 
@@ -72,13 +105,43 @@ export function ProgressView() {
   }
 
   const empty = stats.solved === 0;
-  const rated = stats.byDifficulty.reduce((n, b) => n + b.total, 0);
-  const companiesStarted = stats.byCompany.filter((c) => c.solved > 0);
+  const remaining = stats.total - stats.solved;
 
-  // A bucket with no questions at all (e.g. no intern-level interviews yet) is
-  // noise, not information.
-  const nonEmpty = <T extends string>(bs: Bucket<T>[]) =>
-    bs.filter((b) => b.total > 0);
+  const rated = stats.byDifficulty.reduce((n, b) => n + b.total, 0);
+  const ratedSolved = stats.byDifficulty.reduce((n, b) => n + b.solved, 0);
+
+  const companiesStarted = stats.byCompany.filter((c) => c.solved > 0);
+  const companiesDone = stats.byCompany.filter(
+    (c) => c.total > 0 && c.solved === c.total,
+  ).length;
+
+  // Strongest round = highest completion % among rounds that have questions.
+  const strongest = stats.byRound
+    .filter((b) => b.total > 0 && b.solved > 0)
+    .sort(
+      (a, b) => percent(b.solved, b.total) - percent(a.solved, a.total) || b.solved - a.solved,
+    )[0];
+
+  const difficultySegments: Segment[] = stats.byDifficulty.map((b) => ({
+    label: DIFFICULTY_LABELS[b.key],
+    value: b.total,
+    color: DIFFICULTY_COLOR[b.key],
+  }));
+
+  const roundColumns: Column[] = stats.byRound.map((b) => ({
+    key: b.key,
+    label: SHORT_ROUND[b.key],
+    full: ROUND_LABELS[b.key],
+    total: b.total,
+    solved: b.solved,
+    color: ROUND_COLORS[b.key].from,
+  }));
+
+  const roleSegments: Segment[] = stats.byRole.map((b) => ({
+    label: ROLE_LABELS[b.key],
+    value: b.total,
+    color: ROLE_COLOR[b.key],
+  }));
 
   function onExport() {
     const blob = new Blob([JSON.stringify(getSolvedIds(), null, 2)], {
@@ -103,12 +166,20 @@ export function ProgressView() {
 
   return (
     <div className="space-y-6">
-      {/* Headline */}
-      <section className="glass rounded-2xl p-6">
-        <div className="flex flex-col items-center gap-7 sm:flex-row sm:items-center">
+      {/* ── Hero ──────────────────────────────────────────────────── */}
+      <section className="glass relative overflow-hidden rounded-2xl p-6 sm:p-7">
+        <div
+          aria-hidden
+          className="pointer-events-none absolute -right-16 -top-20 h-56 w-56 rounded-full opacity-60 blur-3xl"
+          style={{
+            background:
+              'radial-gradient(closest-side, rgb(var(--glow) / 0.35), transparent 70%)',
+          }}
+        />
+        <div className="relative flex flex-col items-center gap-7 sm:flex-row sm:items-center">
           <ProgressRing pct={stats.pct} />
-          <div className="min-w-0 flex-1 text-center sm:text-left">
-            <p className="eyebrow">Overall</p>
+          <div className="min-w-0 flex-1">
+            <p className="eyebrow">Overall progress</p>
             <p className="mt-2 font-display text-3xl font-bold text-fg">
               {stats.solved.toLocaleString()}
               <span className="text-faint">
@@ -119,10 +190,23 @@ export function ProgressView() {
             <p className="mt-2 text-sm text-muted">
               {empty
                 ? 'Tick the checkbox on any question to start tracking. Progress is saved in this browser only — no account, no server.'
-                : `${companiesStarted.length} of ${stats.byCompany.length} companies started.`}
+                : `${remaining.toLocaleString()} to go · ${companiesStarted.length} of ${stats.byCompany.length} companies started.`}
             </p>
 
-            <div className="mt-4 flex flex-wrap items-center justify-center gap-2 sm:justify-start">
+            <dl className="mt-5 grid grid-cols-2 gap-2.5 sm:grid-cols-4">
+              <StatTile value={stats.solved.toLocaleString()} label="solved" />
+              <StatTile value={remaining.toLocaleString()} label="remaining" />
+              <StatTile
+                value={`${companiesStarted.length}/${stats.byCompany.length}`}
+                label="companies"
+              />
+              <StatTile
+                value={companiesDone > 0 ? String(companiesDone) : '—'}
+                label="completed"
+              />
+            </dl>
+
+            <div className="mt-5 flex flex-wrap items-center gap-2">
               <button
                 type="button"
                 onClick={onExport}
@@ -162,80 +246,99 @@ export function ProgressView() {
         </div>
       </section>
 
+      {/* ── Difficulty (donut) + Rounds (columns) ─────────────────── */}
       <div className="grid items-start gap-6 lg:grid-cols-2">
-        {/* Difficulty */}
         <section className="glass rounded-2xl p-6">
           <p className="eyebrow">By difficulty</p>
-          <ul className="mt-4 space-y-4">
-            {nonEmpty(stats.byDifficulty).map((b) => (
-              <BucketRow
-                key={b.key}
-                label={DIFFICULTY_LABELS[b.key]}
-                b={b}
-                color={DIFFICULTY_COLOR[b.key]}
-              />
-            ))}
-          </ul>
-          <p className="mt-4 text-xs text-faint">
-            {stats.total - rated} behavioural and hiring-manager questions carry
-            no difficulty, so these three add up to {rated.toLocaleString()}, not{' '}
-            {stats.total.toLocaleString()}.
+          <div className="mt-5 flex flex-col items-center gap-6 sm:flex-row sm:gap-7">
+            <Donut segments={difficultySegments}>
+              <div>
+                <div className="font-display text-2xl font-bold text-fg">
+                  {ratedSolved.toLocaleString()}
+                </div>
+                <div className="mt-0.5 font-mono text-[0.6rem] text-faint">
+                  of {rated.toLocaleString()}
+                </div>
+              </div>
+            </Donut>
+            <ul className="w-full flex-1 space-y-3.5">
+              {stats.byDifficulty.map((b) => (
+                <LegendRow
+                  key={b.key}
+                  label={DIFFICULTY_LABELS[b.key]}
+                  solved={b.solved}
+                  total={b.total}
+                  color={DIFFICULTY_COLOR[b.key]}
+                />
+              ))}
+            </ul>
+          </div>
+          <p className="mt-5 text-xs text-faint">
+            The donut shows how the {rated.toLocaleString()} difficulty-rated
+            questions split. {(stats.total - rated).toLocaleString()} behavioural
+            & hiring-manager questions carry no difficulty.
           </p>
         </section>
 
-        {/* Rounds */}
         <section className="glass rounded-2xl p-6">
-          <p className="eyebrow">By round</p>
-          <ul className="mt-4 space-y-3.5">
-            {nonEmpty(stats.byRound).map((b) => (
-              <BucketRow
-                key={b.key}
-                label={ROUND_LABELS[b.key as Round]}
-                b={b}
-                color={ROUND_COLORS[b.key as Round].from}
-              />
-            ))}
-          </ul>
+          <div className="flex items-baseline justify-between gap-3">
+            <p className="eyebrow">By round</p>
+            {strongest ? (
+              <p className="font-mono text-xs text-faint">
+                strongest ·{' '}
+                <span className="text-fg">{ROUND_LABELS[strongest.key]}</span>
+              </p>
+            ) : null}
+          </div>
+          <div className="mt-6">
+            <Columns data={roundColumns} />
+          </div>
+          <p className="mt-4 text-xs text-faint">
+            Bar height = questions available · fill = solved. Hover a bar for
+            counts.
+          </p>
         </section>
+      </div>
 
-        {/* Role */}
+      {/* ── Role (stacked) + Level (bars) ─────────────────────────── */}
+      <div className="grid items-start gap-6 lg:grid-cols-2">
         <section className="glass rounded-2xl p-6">
           <p className="eyebrow">By role</p>
-          <ul className="mt-4 space-y-4">
-            {nonEmpty(stats.byRole).map((b) => (
-              <BucketRow
+          <div className="mt-5">
+            <StackedBar segments={roleSegments} />
+          </div>
+          <ul className="mt-5 space-y-3.5">
+            {stats.byRole.map((b) => (
+              <LegendRow
                 key={b.key}
                 label={ROLE_LABELS[b.key]}
-                b={b}
-                color={
-                  b.key === 'frontend'
-                    ? 'var(--frontend)'
-                    : b.key === 'backend'
-                      ? 'var(--backend)'
-                      : 'var(--brand)'
-                }
+                solved={b.solved}
+                total={b.total}
+                color={ROLE_COLOR[b.key]}
               />
             ))}
           </ul>
         </section>
 
-        {/* Level */}
         <section className="glass rounded-2xl p-6">
           <p className="eyebrow">By level</p>
-          <ul className="mt-4 space-y-4">
-            {nonEmpty(stats.byLevel).map((b) => (
-              <BucketRow
-                key={b.key}
-                label={LEVEL_LABELS[b.key]}
-                b={b}
-                color="var(--brand)"
-              />
-            ))}
+          <ul className="mt-5 space-y-3.5">
+            {stats.byLevel
+              .filter((b) => b.total > 0)
+              .map((b) => (
+                <LegendRow
+                  key={b.key}
+                  label={LEVEL_LABELS[b.key]}
+                  solved={b.solved}
+                  total={b.total}
+                  color="var(--brand)"
+                />
+              ))}
           </ul>
         </section>
       </div>
 
-      {/* Companies */}
+      {/* ── Companies ─────────────────────────────────────────────── */}
       <section className="glass rounded-2xl p-6">
         <div className="flex items-baseline justify-between gap-3">
           <p className="eyebrow">By company</p>
@@ -246,31 +349,45 @@ export function ProgressView() {
         {empty ? (
           <p className="mt-4 text-sm text-muted">
             Once you solve a question, the companies you have started will show
-            up here.
+            up here — with a badge when you finish one.
           </p>
         ) : (
-          <ul className="mt-4 grid gap-x-8 gap-y-3.5 sm:grid-cols-2">
-            {companiesStarted.slice(0, 12).map((c) => (
-              <li key={c.slug} className="space-y-1.5">
-                <div className="flex items-baseline justify-between gap-3 text-sm">
-                  <Link
-                    href={`/companies/${c.slug}`}
-                    className="text-muted hover:text-fg"
-                  >
-                    {c.name}
-                  </Link>
-                  <span className="font-mono text-xs text-faint">
-                    <span className="text-fg">{c.solved}</span> / {c.total}
-                  </span>
-                </div>
-                <Bar pct={percent(c.solved, c.total)} color="var(--brand)" />
-              </li>
-            ))}
+          <ul className="mt-5 grid gap-x-8 gap-y-4 sm:grid-cols-2">
+            {companiesStarted.slice(0, 12).map((c) => {
+              const done = c.solved === c.total;
+              return (
+                <li key={c.slug} className="space-y-1.5">
+                  <div className="flex items-baseline justify-between gap-3 text-sm">
+                    <Link
+                      href={`/companies/${c.slug}`}
+                      className="flex items-center gap-1.5 text-muted hover:text-fg"
+                    >
+                      {c.name}
+                      {done ? (
+                        <span
+                          className="rounded-full bg-easy/15 px-1.5 py-px font-mono text-[0.6rem] text-easy"
+                          title="Completed"
+                        >
+                          ✓ done
+                        </span>
+                      ) : null}
+                    </Link>
+                    <span className="font-mono text-xs text-faint">
+                      <span className="text-fg">{c.solved}</span> / {c.total}
+                    </span>
+                  </div>
+                  <Bar
+                    pct={percent(c.solved, c.total)}
+                    color={done ? 'var(--easy)' : 'var(--brand)'}
+                  />
+                </li>
+              );
+            })}
           </ul>
         )}
       </section>
 
-      {/* Solved list */}
+      {/* ── Solved list ───────────────────────────────────────────── */}
       <section className="glass rounded-2xl p-6">
         <p className="eyebrow">Solved questions</p>
         {empty ? (
