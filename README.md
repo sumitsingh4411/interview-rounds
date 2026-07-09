@@ -1,55 +1,103 @@
 <div align="center">
 
+<img src=".github/banner.png" alt="The Loop — Know every round before you walk in." width="820">
+
 # The Loop
 
-**Know every round before you walk in.**
+### Know every round before you walk in.
 
-Interview questions from top tech companies — mapped to the exact **round**, **role** and **level** they show up in.
+Real interview questions from **85 top tech companies** — mapped to the exact **round**, **role** and **level** they show up in.
 
-[![Interviews](https://img.shields.io/badge/interviews-425-8b93ff)](#browse-every-interview)
-[![Companies](https://img.shields.io/badge/companies-85-22d3ee)](#browse-every-interview)
-[![Questions](https://img.shields.io/badge/questions-4%2C659-a78bfa)](#browse-every-interview)
+[![Live site](https://img.shields.io/badge/live-interview--rounds.nextjoblist.com-6366f1?logo=vercel&logoColor=white)](https://interview-rounds.nextjoblist.com)
+[![Interviews](https://img.shields.io/badge/interviews-425-8b93ff)](#-browse-every-interview)
+[![Companies](https://img.shields.io/badge/companies-85-22d3ee)](#-browse-every-interview)
+[![Questions](https://img.shields.io/badge/questions-4%2C659-a78bfa)](#-browse-every-interview)
 [![No database](https://img.shields.io/badge/database-none-success)](docs/DEVELOPMENT.md)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
-**Every interview is a Markdown file. Click any link below and read it right here — no website, no setup.**
+**[🌐 Live site](https://interview-rounds.nextjoblist.com) • [❓ All questions](https://interview-rounds.nextjoblist.com/questions) • [🏢 Companies](https://interview-rounds.nextjoblist.com/companies) • [🎯 Rounds](https://interview-rounds.nextjoblist.com/rounds/dsa) • [📊 Progress](https://interview-rounds.nextjoblist.com/progress)**
 
 </div>
 
 ---
 
-## How to read an interview
+## Why The Loop?
 
-Each file is one candidate's loop at one company, at one level. The frontmatter
-gives the **role**, **level**, **outcome** and **year**. The rounds are listed in
-the order they happened, each with the questions that were asked, their
-difficulty, and topic tags.
+Most prep tools hand you a giant pile of problems. But a real interview isn't a pile — it's a **sequence of rounds**, and each round tests something completely different. An online assessment is not a system-design panel. A machine-coding round is not a behavioral chat.
 
-**The eight rounds:**
+**The Loop maps every question to the exact round, role and level it appears in** — so you prepare for what you'll actually face, in the order you'll face it. Free, open-source, no signup.
 
-| Key | Round | What it is |
-|---|---|---|
-| `oa` | Online Assessment | Timed coding / aptitude screen, usually the first filter |
-| `dsa` | DSA / Coding | Data structures & algorithms on a whiteboard or shared editor |
-| `machine_coding` | Machine Coding | Build a working component or service under time pressure |
-| `lld` | Low-Level Design | Object-oriented design of a focused module |
-| `system_design` | System Design | High-level architecture of a large-scale system |
-| `tech_deep_dive` | Tech Deep-Dive | Deep questions on your core stack and fundamentals |
-| `hiring_manager` | Hiring Manager | Scope, ownership and role-fit discussion |
-| `behavioral` | Behavioral / HR | Values, collaboration and past-experience (STAR) questions |
-
-**Difficulty** is `easy` · `medium` · `hard`.
-**Source** tells you where a question came from — `curated` (commonly reported),
-`community` (shared first-hand), `github` (imported from a permissively licensed
-open-source repo, with a link), or `ai` (a *likely* question, not a verified
-experience).
-
-Each round page also carries a **Topic bank**: extra practice questions imported
-from MIT-licensed repos. Those are topic questions — never attributed to a company.
+> Prepping for a **Senior Backend** loop? Open the company, see the real rounds, the questions reported in each, and a practice link for every problem — instead of grinding random questions and hoping.
 
 ---
 
-## Browse every interview
+## ▶️ Try it live
+
+| Page | What's there |
+|---|---|
+| 🏠 **[Home](https://interview-rounds.nextjoblist.com)** | The pitch + an interactive "round rail" |
+| 🏢 **[Companies](https://interview-rounds.nextjoblist.com/companies)** | All 85 companies, filterable by role & level |
+| ❓ **[All questions](https://interview-rounds.nextjoblist.com/questions)** | Every question in one filterable table — tick off what you solve |
+| 📊 **[Progress](https://interview-rounds.nextjoblist.com/progress)** | Your dashboard: charts by round, difficulty, role & level (saved in your browser) |
+| 🔎 **[Search](https://interview-rounds.nextjoblist.com/search)** | Full-text across all 4,659 questions |
+
+*Prefer to stay on GitHub? Every interview is a Markdown file — read them in the [index below](#-browse-every-interview).*
+
+---
+
+## 🎯 How interviews actually work — the 8 rounds
+
+Every question here is tagged to one of these stages. Knowing which round you're in tells you what "good" looks like.
+
+| Round | What it tests | What they're looking for |
+|---|---|---|
+| 🧪 **Online Assessment** — `oa` | Timed coding / aptitude screen, usually the first filter | Speed + correctness under a clock |
+| 🧩 **DSA / Coding** — `dsa` | Data structures & algorithms | Problem-solving and complexity |
+| ⚙️ **Machine Coding** — `machine_coding` | Build a working component or service under time pressure | Clean, working code, fast |
+| 🧱 **Low-Level Design** — `lld` | Object-oriented design of one focused module | Classes, interfaces, patterns |
+| 🌐 **System Design** — `system_design` | High-level architecture of a large-scale system | Trade-offs at scale |
+| 🔬 **Tech Deep-Dive** — `tech_deep_dive` | Deep questions on your core stack & fundamentals | Real depth, not memorization |
+| 👔 **Hiring Manager** — `hiring_manager` | Scope, ownership and role fit | Impact and judgment |
+| 💬 **Behavioral / HR** — `behavioral` | Values, collaboration, past experience (STAR) | Self-awareness and teamwork |
+
+### A typical loop, by level
+
+Which rounds you get depends on the level. The usual shape:
+
+| Level | Rounds you can expect |
+|---|---|
+| **Intern** | OA → DSA → Tech Deep-Dive → Behavioral |
+| **New Grad / Junior** | OA → DSA → Machine Coding → Tech Deep-Dive → Behavioral |
+| **Mid** | DSA → Machine Coding → LLD → Tech Deep-Dive → Behavioral |
+| **Senior** | DSA → Machine Coding → System Design → Tech Deep-Dive → Hiring Manager → Behavioral |
+| **Staff+** | DSA → System Design → LLD → Hiring Manager → Behavioral |
+
+---
+
+## ✨ What you get
+
+- 🎯 **Mapped to the round** — every question tagged to the exact stage it appears in.
+- 🧑‍💻 **Filtered to you** — frontend, backend or full-stack, from intern to staff.
+- 🔗 **Practice links** — jump straight to LeetCode (API-verified problem slugs) or GeeksforGeeks for each coding question.
+- ✅ **Progress tracking** — tick off what you've solved; a dashboard breaks it down by round, difficulty, role and level. Saved in your browser — no account.
+- 🔎 **Instant search** — full-text over all 4,659 questions.
+- 🏷️ **Honest sourcing** — every question is labelled `curated`, `community`, `github` (MIT-licensed, linked) or `ai` (a *likely* question — never a fabricated experience).
+- 📄 **Just Markdown** — every interview is a file you can read right here. No database, no backend, 500+ static pages.
+
+---
+
+## 📖 How to read an interview file
+
+Each file is one candidate's loop at one company, at one level. The **frontmatter** gives the role, level, outcome and year. The rounds are listed in the order they happened, each with the questions asked, their difficulty and topic tags.
+
+- **Difficulty** is `easy` · `medium` · `hard`.
+- **Source** tells you where a question came from — `curated` (commonly reported), `community` (shared first-hand), `github` (imported from a permissively licensed open-source repo, with a link) or `ai` (a *likely* question, not a verified experience).
+
+Each round page also carries a **Topic bank**: extra practice questions imported from MIT-licensed repos. Those are topic questions — never attributed to a company.
+
+---
+
+## 🏢 Browse every interview
 
 <!-- CONTENT_INDEX:START -->
 
@@ -149,42 +197,54 @@ from MIT-licensed repos. Those are topic questions — never attributed to a com
 
 ---
 
-## ✍️ Add your own interview
+## 📚 How to prepare with The Loop
 
-Sharing an experience takes one file and a pull request.
-
-1. Make sure the company exists in `content/companies/`. If not, add one (copy any existing file).
-2. Create `content/interviews/<company-slug>-<n>.md` — bump `<n>` past the highest existing one for that company.
-3. Set `id` to match the filename, and use `source: community`.
-4. Run `npm run readme-index` so the table above picks up your file.
-5. Open a PR.
-
-No schema migration, no admin panel — your interview shows up in the index, on
-the site, and in search automatically.
-
-> **Please keep it honest.** Only share questions you were actually asked, and
-> never post anything covered by an NDA or any interviewer's personal details.
+1. **Pick your target** — role (FE / BE / FS) and level. Filter [All questions](https://interview-rounds.nextjoblist.com/questions) or open a [company](https://interview-rounds.nextjoblist.com/companies).
+2. **Go round by round** — start with the rounds your level actually gets (see the table above). Don't grind system design for an intern loop.
+3. **Practice, don't just read** — use the LeetCode / GfG link on each coding question.
+4. **Track it** — tick off solved questions and watch your [Progress dashboard](https://interview-rounds.nextjoblist.com/progress) fill in. Cover every round, not only DSA.
+5. **Rehearse the soft rounds too** — Hiring Manager and Behavioral rounds decide as many loops as coding does.
 
 ---
 
-## ⚠️ Disclaimer
+## ✍️ Add your own interview
 
-The Loop is **not affiliated with any company listed here.** Content is either
-curated from commonly reported questions or shared by the community, and every
-item is labeled with its source. Questions marked *AI-generated* are likely
-questions, not verified individual experiences.
+Sharing an experience takes one file and a pull request:
+
+1. Make sure the company exists in `content/companies/`. If not, add one (copy any existing file).
+2. Create `content/interviews/<company-slug>-<n>.md` — bump `<n>` past the highest existing one for that company.
+3. Set `id` to match the filename and use `source: community`.
+4. Run `npm run readme-index` so the table above picks up your file.
+5. Open a PR.
+
+No schema migration, no admin panel — your interview shows up in the index, on the site and in search automatically. See [.github/CONTRIBUTING.md](.github/CONTRIBUTING.md) for the details.
+
+> **Please keep it honest.** Only share questions you were actually asked, and never post anything covered by an NDA or any interviewer's personal details.
+
+---
+
+## ⚠️ Sourcing & honesty
+
+The Loop is **not affiliated with any company listed here.** Content is either curated from commonly reported questions, imported from permissively licensed (MIT) open-source repos with attribution, or shared by the community — and **every item is labelled with its source**. Questions marked *AI-generated* are *likely* questions, not verified individual experiences. We don't scrape or republish content from sites whose terms forbid it.
+
+---
+
+## 🛠️ Built with
+
+Next.js 16 · React 19 · Tailwind CSS v4 · TypeScript — **fully static, no database.** All content lives as Markdown in `content/`; the site prerenders 500+ pages, and search + progress run entirely client-side.
+
+**Running it locally or contributing code? → [docs/DEVELOPMENT.md](docs/DEVELOPMENT.md)**
 
 ---
 
 ## 📄 License
 
-[MIT](LICENSE) © Sumit Singh
+[MIT](LICENSE) © Sumit Singh — free to read, use and share with attribution.
 
 ---
 
 <div align="center">
 
-There's also a website for this — searchable, filterable, round by round.<br/>
-**Running it locally or contributing code? → [docs/DEVELOPMENT.md](docs/DEVELOPMENT.md)**
+Built for anyone about to walk into a loop. ⭐ **Star it** if it helps — and [share your own interview](#️-add-your-own-interview).
 
 </div>
