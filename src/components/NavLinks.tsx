@@ -36,6 +36,18 @@ function RoundsIcon() {
   );
 }
 
+/** A stacked list of rows with a leading tick — the all-questions table. */
+function QuestionsIcon() {
+  return (
+    <svg width="16" height="16" viewBox="0 0 24 24" aria-hidden>
+      <path d="m3 6.5 1.6 1.6L7.5 5" {...stroke} />
+      <path d="m3 13 1.6 1.6L7.5 11.5" {...stroke} />
+      <path d="M11 7h10M11 13h10M11 19h6" {...stroke} />
+      <path d="m3 19.5 1.6 1.6L7.5 18" {...stroke} opacity={0.4} />
+    </svg>
+  );
+}
+
 function SearchIcon() {
   return (
     <svg width="16" height="16" viewBox="0 0 24 24" aria-hidden>
@@ -69,6 +81,7 @@ const NAV: {
 }[] = [
   { href: '/companies', label: 'Companies', icon: <CompaniesIcon /> },
   { href: '/rounds/dsa', label: 'Rounds', match: '/rounds', icon: <RoundsIcon /> },
+  { href: '/questions', label: 'Questions', icon: <QuestionsIcon /> },
   { href: '/search', label: 'Search', icon: <SearchIcon /> },
   { href: '/progress', label: 'Progress', icon: <ProgressIcon /> },
 ];

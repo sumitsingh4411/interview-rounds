@@ -2,11 +2,14 @@ import {
   ROLE_LABELS,
   LEVEL_LABELS,
   DIFFICULTY_LABELS,
+  ROUND_LABELS,
+  ROUND_COLORS,
   SOURCE_LABELS,
   OUTCOME_LABELS,
   type Role,
   type Level,
   type Difficulty,
+  type Round,
   type SourceType,
   type Outcome,
 } from '@/lib/constants';
@@ -77,6 +80,27 @@ export function DifficultyBadge({ difficulty }: { difficulty: Difficulty }) {
         style={{ backgroundColor: color }}
       />
       {DIFFICULTY_LABELS[difficulty]}
+    </span>
+  );
+}
+
+export function RoundBadge({ round }: { round: Round }) {
+  const rgb = ROUND_COLORS[round].rgb;
+  return (
+    <span
+      className={baseChip}
+      style={{
+        color: `rgb(${rgb})`,
+        borderColor: `rgb(${rgb} / 0.4)`,
+        backgroundColor: `rgb(${rgb} / 0.1)`,
+      }}
+    >
+      <span
+        aria-hidden
+        className="h-1.5 w-1.5 rounded-full"
+        style={{ backgroundColor: `rgb(${rgb})` }}
+      />
+      {ROUND_LABELS[round]}
     </span>
   );
 }
