@@ -31,8 +31,8 @@ _Data structures & algorithms on a whiteboard or shared editor._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Sliding window maximum. | 🔴 Hard | `deque` `sliding-window` | [LC](https://leetcode.com/problemset/?search=Sliding%20window%20maximum) · [NC](https://neetcode.io/practice) · [GfG](https://www.geeksforgeeks.org/search/?gq=Sliding%20window%20maximum) |
-| Rotting oranges. | 🟡 Medium | `bfs` `grid` | [LC](https://leetcode.com/problemset/?search=Rotting%20oranges) · [NC](https://neetcode.io/practice) · [GfG](https://www.geeksforgeeks.org/search/?gq=Rotting%20oranges) |
+| Sliding window maximum. | 🔴 Hard | `deque` `sliding-window` | [LC](https://leetcode.com/problems/sliding-window-maximum/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Sliding%20window%20maximum) |
+| Rotting oranges. | 🟡 Medium | `bfs` `grid` | [LC](https://leetcode.com/problems/rotting-oranges/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Rotting%20oranges) |
 
 ## Round 2 · Machine Coding
 <!-- round: machine_coding -->

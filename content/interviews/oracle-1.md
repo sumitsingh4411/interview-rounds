@@ -29,7 +29,7 @@ _Timed online coding / aptitude screen, usually the first filter._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Count pairs with a given sum in an array. | 🟢 Easy | `hashmap` | [LC](https://leetcode.com/problemset/?search=Count%20pairs%20with%20a%20given%20sum%20in%20an%20array) · [NC](https://neetcode.io/practice) · [GfG](https://www.geeksforgeeks.org/search/?gq=Count%20pairs%20with%20a%20given%20sum%20in%20an%20array) |
+| Count pairs with a given sum in an array. | 🟢 Easy | `hashmap` | [GfG](https://www.geeksforgeeks.org/search/?gq=Count%20pairs%20with%20a%20given%20sum%20in%20an%20array) · [Search](https://www.google.com/search?q=Count%20pairs%20with%20a%20given%20sum%20in%20an%20array) |
 
 ## Round 2 · DSA / Coding
 <!-- round: dsa -->
@@ -38,8 +38,8 @@ _Data structures & algorithms on a whiteboard or shared editor._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Valid Parentheses — check balanced brackets. | 🟢 Easy | `stack` `string` | [LC](https://leetcode.com/problemset/?search=Valid%20Parentheses%20%E2%80%94%20check%20balanced%20brackets) · [NC](https://neetcode.io/practice) · [GfG](https://www.geeksforgeeks.org/search/?gq=Valid%20Parentheses%20%E2%80%94%20check%20balanced%20brackets) |
-| Rotting oranges. | 🟡 Medium | `bfs` `grid` | [LC](https://leetcode.com/problemset/?search=Rotting%20oranges) · [NC](https://neetcode.io/practice) · [GfG](https://www.geeksforgeeks.org/search/?gq=Rotting%20oranges) |
+| Valid Parentheses — check balanced brackets. | 🟢 Easy | `stack` `string` | [LC](https://leetcode.com/problems/valid-parentheses/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Valid%20Parentheses%20%E2%80%94%20check%20balanced%20brackets) |
+| Rotting oranges. | 🟡 Medium | `bfs` `grid` | [LC](https://leetcode.com/problems/rotting-oranges/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Rotting%20oranges) |
 
 ## Round 3 · Machine Coding
 <!-- round: machine_coding -->

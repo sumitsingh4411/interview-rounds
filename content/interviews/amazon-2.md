@@ -31,8 +31,8 @@ _Data structures & algorithms on a whiteboard or shared editor._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Trapping rain water. | 🔴 Hard | `two-pointers` `array` | [LC](https://leetcode.com/problemset/?search=Trapping%20rain%20water) · [NC](https://neetcode.io/practice) · [GfG](https://www.geeksforgeeks.org/search/?gq=Trapping%20rain%20water) |
-| Longest palindromic substring. | 🟡 Medium | `string` `dp` | [LC](https://leetcode.com/problemset/?search=Longest%20palindromic%20substring) · [NC](https://neetcode.io/practice) · [GfG](https://www.geeksforgeeks.org/search/?gq=Longest%20palindromic%20substring) |
+| Trapping rain water. | 🔴 Hard | `two-pointers` `array` | [LC](https://leetcode.com/problems/trapping-rain-water/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Trapping%20rain%20water) |
+| Longest palindromic substring. | 🟡 Medium | `string` `dp` | [LC](https://leetcode.com/problems/longest-palindromic-substring/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Longest%20palindromic%20substring) |
 
 ## Round 2 · Machine Coding
 <!-- round: machine_coding -->

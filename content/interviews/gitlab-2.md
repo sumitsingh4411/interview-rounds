@@ -29,8 +29,8 @@ _Data structures & algorithms on a whiteboard or shared editor._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Top K frequent elements. | 🟡 Medium | `heap` `hashmap` | [LC](https://leetcode.com/problemset/?search=Top%20K%20frequent%20elements) · [NC](https://neetcode.io/practice) · [GfG](https://www.geeksforgeeks.org/search/?gq=Top%20K%20frequent%20elements) |
-| Rotting oranges. | 🟡 Medium | `bfs` `grid` | [LC](https://leetcode.com/problemset/?search=Rotting%20oranges) · [NC](https://neetcode.io/practice) · [GfG](https://www.geeksforgeeks.org/search/?gq=Rotting%20oranges) |
+| Top K frequent elements. | 🟡 Medium | `heap` `hashmap` | [LC](https://leetcode.com/problems/top-k-frequent-elements/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Top%20K%20frequent%20elements) |
+| Rotting oranges. | 🟡 Medium | `bfs` `grid` | [LC](https://leetcode.com/problems/rotting-oranges/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Rotting%20oranges) |
 
 ## Round 2 · Machine Coding
 <!-- round: machine_coding -->

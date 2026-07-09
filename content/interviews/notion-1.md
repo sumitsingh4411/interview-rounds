@@ -31,8 +31,8 @@ _Data structures & algorithms on a whiteboard or shared editor._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Clone a graph. | 🟡 Medium | `graph` `dfs` | [LC](https://leetcode.com/problemset/?search=Clone%20a%20graph) · [NC](https://neetcode.io/practice) · [GfG](https://www.geeksforgeeks.org/search/?gq=Clone%20a%20graph) |
-| Coin change — fewest coins to make an amount. | 🟡 Medium | `dp` | [LC](https://leetcode.com/problemset/?search=Coin%20change%20%E2%80%94%20fewest%20coins%20to%20make%20an%20amount) · [NC](https://neetcode.io/practice) · [GfG](https://www.geeksforgeeks.org/search/?gq=Coin%20change%20%E2%80%94%20fewest%20coins%20to%20make%20an%20amount) |
+| Clone a graph. | 🟡 Medium | `graph` `dfs` | [LC](https://leetcode.com/problems/clone-graph/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Clone%20a%20graph) |
+| Coin change — fewest coins to make an amount. | 🟡 Medium | `dp` | [LC](https://leetcode.com/problems/coin-change/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Coin%20change%20%E2%80%94%20fewest%20coins%20to%20make%20an%20amount) |
 
 ## Round 2 · Machine Coding
 <!-- round: machine_coding -->

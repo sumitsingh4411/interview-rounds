@@ -31,7 +31,7 @@ _Timed online coding / aptitude screen, usually the first filter._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Two timed medium array/string problems in 70 minutes. | 🟡 Medium | `arrays` `strings` | [LC](https://leetcode.com/problemset/?search=Two%20timed%20medium%20array%2Fstring%20problems%20in%2070%20minutes) · [NC](https://neetcode.io/practice) · [GfG](https://www.geeksforgeeks.org/search/?gq=Two%20timed%20medium%20array%2Fstring%20problems%20in%2070%20minutes) |
+| Two timed medium array/string problems in 70 minutes. | 🟡 Medium | `arrays` `strings` | [GfG](https://www.geeksforgeeks.org/search/?gq=Two%20timed%20medium%20array%2Fstring%20problems%20in%2070%20minutes) · [Search](https://www.google.com/search?q=Two%20timed%20medium%20array%2Fstring%20problems%20in%2070%20minutes) |
 
 ## Round 2 · DSA / Coding
 <!-- round: dsa -->
@@ -40,8 +40,8 @@ _Data structures & algorithms on a whiteboard or shared editor._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Coin change — fewest coins to make an amount. | 🟡 Medium | `dp` | [LC](https://leetcode.com/problemset/?search=Coin%20change%20%E2%80%94%20fewest%20coins%20to%20make%20an%20amount) · [NC](https://neetcode.io/practice) · [GfG](https://www.geeksforgeeks.org/search/?gq=Coin%20change%20%E2%80%94%20fewest%20coins%20to%20make%20an%20amount) |
-| Reverse nodes in k-group. | 🔴 Hard | `linked-list` | [LC](https://leetcode.com/problemset/?search=Reverse%20nodes%20in%20k-group) · [NC](https://neetcode.io/practice) · [GfG](https://www.geeksforgeeks.org/search/?gq=Reverse%20nodes%20in%20k-group) |
+| Coin change — fewest coins to make an amount. | 🟡 Medium | `dp` | [LC](https://leetcode.com/problems/coin-change/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Coin%20change%20%E2%80%94%20fewest%20coins%20to%20make%20an%20amount) |
+| Reverse nodes in k-group. | 🔴 Hard | `linked-list` | [LC](https://leetcode.com/problems/reverse-nodes-in-k-group/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Reverse%20nodes%20in%20k-group) |
 
 ## Round 3 · Machine Coding
 <!-- round: machine_coding -->

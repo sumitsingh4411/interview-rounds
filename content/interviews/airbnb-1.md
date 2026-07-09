@@ -31,8 +31,8 @@ _Data structures & algorithms on a whiteboard or shared editor._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Product of array except self. | 🟡 Medium | `array` `prefix-sum` | [LC](https://leetcode.com/problemset/?search=Product%20of%20array%20except%20self) · [NC](https://neetcode.io/practice) · [GfG](https://www.geeksforgeeks.org/search/?gq=Product%20of%20array%20except%20self) |
-| Climbing stairs. | 🟢 Easy | `dp` | [LC](https://leetcode.com/problemset/?search=Climbing%20stairs) · [NC](https://neetcode.io/practice) · [GfG](https://www.geeksforgeeks.org/search/?gq=Climbing%20stairs) |
+| Product of array except self. | 🟡 Medium | `array` `prefix-sum` | [LC](https://leetcode.com/problems/product-of-array-except-self/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Product%20of%20array%20except%20self) |
+| Climbing stairs. | 🟢 Easy | `dp` | [LC](https://leetcode.com/problems/climbing-stairs/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Climbing%20stairs) |
 
 ## Round 2 · Machine Coding
 <!-- round: machine_coding -->

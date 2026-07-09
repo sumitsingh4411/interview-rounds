@@ -93,7 +93,7 @@ export function SearchResults() {
         {results.map((e) => (
           <li key={e.id}>
             <Link
-              href={`/interviews/${e.interviewId}`}
+              href={`/interviews/${e.interviewId}#${e.id}`}
               className="glass-card block rounded-xl p-4"
             >
               <div className="mb-1.5 flex items-center gap-2 font-mono text-xs text-faint">

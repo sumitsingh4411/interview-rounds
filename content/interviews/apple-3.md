@@ -31,8 +31,8 @@ _Data structures & algorithms on a whiteboard or shared editor._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Reverse nodes in k-group. | 🔴 Hard | `linked-list` | [LC](https://leetcode.com/problemset/?search=Reverse%20nodes%20in%20k-group) · [NC](https://neetcode.io/practice) · [GfG](https://www.geeksforgeeks.org/search/?gq=Reverse%20nodes%20in%20k-group) |
-| Word search in a grid. | 🟡 Medium | `backtracking` `grid` | [LC](https://leetcode.com/problemset/?search=Word%20search%20in%20a%20grid) · [NC](https://neetcode.io/practice) · [GfG](https://www.geeksforgeeks.org/search/?gq=Word%20search%20in%20a%20grid) |
+| Reverse nodes in k-group. | 🔴 Hard | `linked-list` | [LC](https://leetcode.com/problems/reverse-nodes-in-k-group/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Reverse%20nodes%20in%20k-group) |
+| Word search in a grid. | 🟡 Medium | `backtracking` `grid` | [LC](https://leetcode.com/problems/word-search/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Word%20search%20in%20a%20grid) |
 
 ## Round 2 · Machine Coding
 <!-- round: machine_coding -->

@@ -29,7 +29,7 @@ _Timed online coding / aptitude screen, usually the first filter._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Simulate a simple inventory system from a spec. | 🟡 Medium | `simulation` | [LC](https://leetcode.com/problemset/?search=Simulate%20a%20simple%20inventory%20system%20from%20a%20spec) · [NC](https://neetcode.io/practice) · [GfG](https://www.geeksforgeeks.org/search/?gq=Simulate%20a%20simple%20inventory%20system%20from%20a%20spec) |
+| Simulate a simple inventory system from a spec. | 🟡 Medium | `simulation` | [GfG](https://www.geeksforgeeks.org/search/?gq=Simulate%20a%20simple%20inventory%20system%20from%20a%20spec) · [Search](https://www.google.com/search?q=Simulate%20a%20simple%20inventory%20system%20from%20a%20spec) |
 
 ## Round 2 · DSA / Coding
 <!-- round: dsa -->
@@ -38,8 +38,8 @@ _Data structures & algorithms on a whiteboard or shared editor._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Edit distance. | 🔴 Hard | `dp` `string` | [LC](https://leetcode.com/problemset/?search=Edit%20distance) · [NC](https://neetcode.io/practice) · [GfG](https://www.geeksforgeeks.org/search/?gq=Edit%20distance) |
-| Implement a trie (prefix tree). | 🟡 Medium | `trie` | [LC](https://leetcode.com/problemset/?search=Implement%20a%20trie%20(prefix%20tree)) · [NC](https://neetcode.io/practice) · [GfG](https://www.geeksforgeeks.org/search/?gq=Implement%20a%20trie%20(prefix%20tree)) |
+| Edit distance. | 🔴 Hard | `dp` `string` | [LC](https://leetcode.com/problems/edit-distance/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Edit%20distance) |
+| Implement a trie (prefix tree). | 🟡 Medium | `trie` | [LC](https://leetcode.com/problems/implement-trie-prefix-tree/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Implement%20a%20trie%20(prefix%20tree)) |
 
 ## Round 3 · Machine Coding
 <!-- round: machine_coding -->

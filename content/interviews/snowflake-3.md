@@ -31,8 +31,8 @@ _Data structures & algorithms on a whiteboard or shared editor._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Validate a binary search tree. | 🟡 Medium | `tree` `dfs` | [LC](https://leetcode.com/problemset/?search=Validate%20a%20binary%20search%20tree) · [NC](https://neetcode.io/practice) · [GfG](https://www.geeksforgeeks.org/search/?gq=Validate%20a%20binary%20search%20tree) |
-| Product of array except self. | 🟡 Medium | `array` `prefix-sum` | [LC](https://leetcode.com/problemset/?search=Product%20of%20array%20except%20self) · [NC](https://neetcode.io/practice) · [GfG](https://www.geeksforgeeks.org/search/?gq=Product%20of%20array%20except%20self) |
+| Validate a binary search tree. | 🟡 Medium | `tree` `dfs` | [LC](https://leetcode.com/problems/validate-binary-search-tree/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Validate%20a%20binary%20search%20tree) |
+| Product of array except self. | 🟡 Medium | `array` `prefix-sum` | [LC](https://leetcode.com/problems/product-of-array-except-self/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Product%20of%20array%20except%20self) |
 
 ## Round 2 · Machine Coding
 <!-- round: machine_coding -->

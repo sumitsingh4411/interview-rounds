@@ -29,7 +29,7 @@ _Timed online coding / aptitude screen, usually the first filter._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Spiral order traversal of a matrix. | 🟡 Medium | `matrix` | [LC](https://leetcode.com/problemset/?search=Spiral%20order%20traversal%20of%20a%20matrix) · [NC](https://neetcode.io/practice) · [GfG](https://www.geeksforgeeks.org/search/?gq=Spiral%20order%20traversal%20of%20a%20matrix) |
+| Spiral order traversal of a matrix. | 🟡 Medium | `matrix` | [LC](https://leetcode.com/problems/spiral-matrix/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Spiral%20order%20traversal%20of%20a%20matrix) |
 
 ## Round 2 · DSA / Coding
 <!-- round: dsa -->
@@ -38,8 +38,8 @@ _Data structures & algorithms on a whiteboard or shared editor._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Clone a graph. | 🟡 Medium | `graph` `dfs` | [LC](https://leetcode.com/problemset/?search=Clone%20a%20graph) · [NC](https://neetcode.io/practice) · [GfG](https://www.geeksforgeeks.org/search/?gq=Clone%20a%20graph) |
-| Validate a binary search tree. | 🟡 Medium | `tree` `dfs` | [LC](https://leetcode.com/problemset/?search=Validate%20a%20binary%20search%20tree) · [NC](https://neetcode.io/practice) · [GfG](https://www.geeksforgeeks.org/search/?gq=Validate%20a%20binary%20search%20tree) |
+| Clone a graph. | 🟡 Medium | `graph` `dfs` | [LC](https://leetcode.com/problems/clone-graph/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Clone%20a%20graph) |
+| Validate a binary search tree. | 🟡 Medium | `tree` `dfs` | [LC](https://leetcode.com/problems/validate-binary-search-tree/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Validate%20a%20binary%20search%20tree) |
 
 ## Round 3 · Machine Coding
 <!-- round: machine_coding -->

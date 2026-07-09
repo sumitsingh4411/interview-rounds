@@ -31,8 +31,8 @@ _Data structures & algorithms on a whiteboard or shared editor._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Climbing stairs. | 🟢 Easy | `dp` | [LC](https://leetcode.com/problemset/?search=Climbing%20stairs) · [NC](https://neetcode.io/practice) · [GfG](https://www.geeksforgeeks.org/search/?gq=Climbing%20stairs) |
-| Validate a binary search tree. | 🟡 Medium | `tree` `dfs` | [LC](https://leetcode.com/problemset/?search=Validate%20a%20binary%20search%20tree) · [NC](https://neetcode.io/practice) · [GfG](https://www.geeksforgeeks.org/search/?gq=Validate%20a%20binary%20search%20tree) |
+| Climbing stairs. | 🟢 Easy | `dp` | [LC](https://leetcode.com/problems/climbing-stairs/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Climbing%20stairs) |
+| Validate a binary search tree. | 🟡 Medium | `tree` `dfs` | [LC](https://leetcode.com/problems/validate-binary-search-tree/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Validate%20a%20binary%20search%20tree) |
 
 ## Round 2 · Machine Coding
 <!-- round: machine_coding -->

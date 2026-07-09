@@ -29,8 +29,8 @@ _Data structures & algorithms on a whiteboard or shared editor._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Edit distance. | 🔴 Hard | `dp` `string` | [LC](https://leetcode.com/problemset/?search=Edit%20distance) · [NC](https://neetcode.io/practice) · [GfG](https://www.geeksforgeeks.org/search/?gq=Edit%20distance) |
-| Validate a binary search tree. | 🟡 Medium | `tree` `dfs` | [LC](https://leetcode.com/problemset/?search=Validate%20a%20binary%20search%20tree) · [NC](https://neetcode.io/practice) · [GfG](https://www.geeksforgeeks.org/search/?gq=Validate%20a%20binary%20search%20tree) |
+| Edit distance. | 🔴 Hard | `dp` `string` | [LC](https://leetcode.com/problems/edit-distance/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Edit%20distance) |
+| Validate a binary search tree. | 🟡 Medium | `tree` `dfs` | [LC](https://leetcode.com/problems/validate-binary-search-tree/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Validate%20a%20binary%20search%20tree) |
 
 ## Round 2 · Machine Coding
 <!-- round: machine_coding -->

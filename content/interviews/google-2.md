@@ -31,8 +31,8 @@ _Data structures & algorithms on a whiteboard or shared editor._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Word search in a grid. | 🟡 Medium | `backtracking` `grid` | [LC](https://leetcode.com/problemset/?search=Word%20search%20in%20a%20grid) · [NC](https://neetcode.io/practice) · [GfG](https://www.geeksforgeeks.org/search/?gq=Word%20search%20in%20a%20grid) |
-| Implement a trie (prefix tree). | 🟡 Medium | `trie` | [LC](https://leetcode.com/problemset/?search=Implement%20a%20trie%20(prefix%20tree)) · [NC](https://neetcode.io/practice) · [GfG](https://www.geeksforgeeks.org/search/?gq=Implement%20a%20trie%20(prefix%20tree)) |
+| Word search in a grid. | 🟡 Medium | `backtracking` `grid` | [LC](https://leetcode.com/problems/word-search/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Word%20search%20in%20a%20grid) |
+| Implement a trie (prefix tree). | 🟡 Medium | `trie` | [LC](https://leetcode.com/problems/implement-trie-prefix-tree/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Implement%20a%20trie%20(prefix%20tree)) |
 
 ## Round 2 · Machine Coding
 <!-- round: machine_coding -->

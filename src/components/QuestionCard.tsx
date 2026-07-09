@@ -29,9 +29,10 @@ export function QuestionCard({
 
   return (
     <article
+      id={question.id}
       data-solved={isSolved}
       className={
-        'glass-card group relative rounded-xl p-4 ' +
+        'glass-card group relative scroll-mt-24 rounded-xl p-4 ' +
         (isSolved ? 'border-easy/40' : '')
       }
     >

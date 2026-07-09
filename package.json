@@ -13,7 +13,8 @@
     "search-index": "tsx scripts/build-search-index.ts",
     "prebuild": "tsx scripts/build-search-index.ts",
     "readme-index": "tsx scripts/build-content-index.ts",
-    "import:bank": "tsx scripts/import-topic-bank.ts"
+    "import:bank": "tsx scripts/import-topic-bank.ts",
+    "verify:leetcode": "tsx scripts/verify-leetcode-slugs.ts"
   },
   "dependencies": {
     "gray-matter": "^4.0.3",

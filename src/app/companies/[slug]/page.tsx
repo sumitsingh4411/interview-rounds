@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { Container } from '@/components/ui/Container';
 import { CompanyInterviews } from '@/components/CompanyInterviews';
@@ -35,6 +36,18 @@ export default async function CompanyPage({ params }: PageProps) {
 
   return (
     <Container className="py-12">
+      <nav className="mb-6">
+        <Link
+          href="/companies"
+          className="glass-card group inline-flex items-center gap-2 rounded-lg px-3 py-1.5 text-sm text-muted hover:text-fg"
+        >
+          <span aria-hidden className="transition-transform group-hover:-translate-x-0.5">
+            ←
+          </span>
+          All companies
+        </Link>
+      </nav>
+
       <header className="flex items-start gap-4">
         <span
           aria-hidden

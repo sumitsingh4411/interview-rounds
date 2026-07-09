@@ -51,9 +51,37 @@ export function RoundRail({ groups }: { groups: RoundGroup[] }) {
                   {ROUND_DESCRIPTIONS[group.round]}
                 </p>
               </header>
-              <ul className="mt-4 space-y-3">
+              {/*
+                Questions branch off the round: a sub-spine with a dot per
+                question, and a short tick connecting each dot to its card.
+              */}
+              <ul className="relative mt-4 space-y-3 pl-7">
+                <span
+                  aria-hidden
+                  className="absolute top-3 bottom-6 left-[3px] w-px"
+                  style={{
+                    backgroundImage: `linear-gradient(to bottom, rgb(${c.rgb} / 0.55), var(--line))`,
+                  }}
+                />
                 {group.questions.map((q) => (
-                  <li key={q.id}>
+                  <li key={q.id} className="relative">
+                    {/* dot on the sub-spine, aligned with the question title */}
+                    <span
+                      aria-hidden
+                      className="absolute top-[23px] -left-7 h-1.5 w-1.5 rounded-full"
+                      style={{
+                        backgroundColor: c.from,
+                        boxShadow: `0 0 0 3px rgb(${c.rgb} / 0.14)`,
+                      }}
+                    />
+                    {/* tick from the dot across to the card */}
+                    <span
+                      aria-hidden
+                      className="absolute top-[26px] -left-[22px] h-px w-[22px]"
+                      style={{
+                        backgroundImage: `linear-gradient(to right, rgb(${c.rgb} / 0.5), var(--line))`,
+                      }}
+                    />
                     {/* Role is stated in the page title; level stays visible. */}
                     <QuestionCard question={q} showRole={false} />
                   </li>

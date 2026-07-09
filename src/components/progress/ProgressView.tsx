@@ -281,7 +281,7 @@ export function ProgressView() {
               {stats.solvedEntries.slice(0, 50).map((e) => (
                 <li key={e.id}>
                   <Link
-                    href={`/interviews/${e.interviewId}`}
+                    href={`/interviews/${e.interviewId}#${e.id}`}
                     className="flex items-baseline gap-2.5 rounded-lg px-2 py-1.5 text-sm transition-colors hover:bg-surface-2/60"
                   >
                     <span aria-hidden className="text-easy">

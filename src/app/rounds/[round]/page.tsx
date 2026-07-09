@@ -81,7 +81,7 @@ export default async function RoundPage({ params }: PageProps) {
               </Link>
               <QuestionCard
                 question={question}
-                href={`/interviews/${question.interviewId}`}
+                href={`/interviews/${question.interviewId}#${question.id}`}
               />
             </li>
           ))}
