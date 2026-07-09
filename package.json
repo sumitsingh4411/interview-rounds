@@ -11,7 +11,8 @@
     "test:watch": "vitest",
     "content:bootstrap": "tsx scripts/generate-content.ts",
     "search-index": "tsx scripts/build-search-index.ts",
-    "prebuild": "tsx scripts/build-search-index.ts"
+    "prebuild": "tsx scripts/build-search-index.ts",
+    "readme-index": "tsx scripts/build-content-index.ts"
   },
   "dependencies": {
     "gray-matter": "^4.0.3",
