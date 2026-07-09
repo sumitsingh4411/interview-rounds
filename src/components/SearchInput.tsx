@@ -24,7 +24,7 @@ export function SearchInput({
   return (
     <form
       onSubmit={onSubmit}
-      className="flex items-center gap-2 rounded-xl border border-line-2 bg-surface px-3.5 py-2.5 focus-within:border-brand"
+      className="glass flex items-center gap-2.5 rounded-xl px-4 py-2.5 transition-shadow focus-within:border-brand focus-within:shadow-[0_0_0_4px_rgb(var(--glow)/0.15)]"
     >
       <span aria-hidden className="font-mono text-brand">
         $

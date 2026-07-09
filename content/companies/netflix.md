@@ -1,6 +1,7 @@
 ---
 name: Netflix
 slug: netflix
+featured: true
 industry: Streaming
 hq: 'Los Gatos, CA'
 ---

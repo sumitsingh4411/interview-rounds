@@ -14,6 +14,8 @@ export type Company = {
   description: string | null;
   industry: string | null;
   hq: string | null;
+  /** Surfaced first on the home page. Set `featured: true` in frontmatter. */
+  featured: boolean;
 };
 
 export type Question = {

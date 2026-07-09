@@ -12,9 +12,12 @@ import {
 export function QuestionCard({
   question,
   href,
+  showRoleLevel = true,
 }: {
   question: Question;
   href?: string;
+  /** Hide role/level when the surrounding context already states them. */
+  showRoleLevel?: boolean;
 }) {
   return (
     <article className="glass-card group relative rounded-xl p-4">
@@ -34,8 +37,12 @@ export function QuestionCard({
       </div>
 
       <div className="mt-3 flex flex-wrap items-center gap-1.5">
-        <RoleBadge role={question.role as Role} />
-        <LevelBadge level={question.level as Level} />
+        {showRoleLevel ? (
+          <>
+            <RoleBadge role={question.role as Role} />
+            <LevelBadge level={question.level as Level} />
+          </>
+        ) : null}
         {question.difficulty ? (
           <DifficultyBadge difficulty={question.difficulty as Difficulty} />
         ) : null}

@@ -1,6 +1,7 @@
 ---
 name: Stripe
 slug: stripe
+featured: true
 industry: Fintech
 hq: 'South San Francisco, CA'
 ---

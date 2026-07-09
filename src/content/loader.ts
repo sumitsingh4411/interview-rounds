@@ -61,6 +61,7 @@ function build(): Dataset {
       description: content.trim() || null,
       industry: data.industry ?? null,
       hq: data.hq ?? null,
+      featured: data.featured === true,
     };
     companies.push(company);
     companyBySlug.set(company.slug, company);
@@ -177,8 +178,15 @@ export function getCompaniesWithStats(search?: string): CompanyWithStats[] {
     );
 }
 
+/** Featured companies first (marquee names), then the rest by volume. */
 export function getPopularCompanies(limit = 8): CompanyWithStats[] {
-  return getCompaniesWithStats().slice(0, limit);
+  return getCompaniesWithStats()
+    .slice()
+    .sort((a, b) => {
+      if (a.featured !== b.featured) return a.featured ? -1 : 1;
+      return b.interviewCount - a.interviewCount || a.name.localeCompare(b.name);
+    })
+    .slice(0, limit);
 }
 
 export function getCompanyBySlug(slug: string): Company | undefined {

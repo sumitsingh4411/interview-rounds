@@ -9,11 +9,11 @@
   --surface: #0f1219;
   --surface-2: #151922;
   --elevated: #1b2029;
-  --line: rgba(255, 255, 255, 0.09);
-  --line-2: rgba(255, 255, 255, 0.16);
-  --fg: #edeff4;
-  --muted: #a2a9b8;
-  --faint: #6a7283;
+  --line: rgba(255, 255, 255, 0.12);
+  --line-2: rgba(255, 255, 255, 0.2);
+  --fg: #f2f4f8;
+  --muted: #a8afbd;
+  --faint: #737b8c;
   --brand: #8b93ff;
   --brand-2: #6f79f2;
   --on-brand: #080a0f;
@@ -25,12 +25,15 @@
   --glow: 139 147 255; /* brand rgb for translucent glows */
   --glow-2: 52 211 238; /* cyan secondary glow */
 
-  /* Glass surfaces */
-  --glass: rgba(255, 255, 255, 0.045);
-  --glass-2: rgba(255, 255, 255, 0.07);
-  --glass-border: rgba(255, 255, 255, 0.1);
-  --glass-highlight: rgba(255, 255, 255, 0.08);
-  --glass-shadow: rgba(0, 0, 0, 0.85);
+  /* Glass surfaces — must stay visible against a near-black canvas. */
+  --glass: rgba(255, 255, 255, 0.055);
+  --glass-2: rgba(255, 255, 255, 0.09);
+  --glass-border: rgba(255, 255, 255, 0.14);
+  --glass-highlight: rgba(255, 255, 255, 0.11);
+  --glass-shadow: rgba(0, 0, 0, 0.9);
+  --grid-line: rgba(255, 255, 255, 0.055);
+  --headline-from: #ffffff;
+  --headline-to: #dde1ea;
 }
 
 :root[data-theme="light"] {
@@ -54,11 +57,14 @@
   --glow: 90 99 232;
   --glow-2: 8 145 178;
 
-  --glass: rgba(255, 255, 255, 0.6);
-  --glass-2: rgba(255, 255, 255, 0.8);
-  --glass-border: rgba(12, 18, 34, 0.08);
+  --glass: rgba(255, 255, 255, 0.7);
+  --glass-2: rgba(255, 255, 255, 0.9);
+  --glass-border: rgba(12, 18, 34, 0.1);
   --glass-highlight: rgba(255, 255, 255, 0.9);
-  --glass-shadow: rgba(20, 30, 60, 0.16);
+  --glass-shadow: rgba(20, 30, 60, 0.18);
+  --grid-line: rgba(12, 18, 34, 0.06);
+  --headline-from: #0f131c;
+  --headline-to: #2c3344;
 }
 
 @theme inline {
@@ -102,14 +108,14 @@
     /* Layered ambient glows for depth behind the glass. */
     background-image:
       radial-gradient(
-        50rem 26rem at 78% -8rem,
-        rgb(var(--glow) / 0.16),
-        transparent 68%
+        72rem 38rem at 72% 6%,
+        rgb(var(--glow) / 0.2),
+        transparent 62%
       ),
       radial-gradient(
-        44rem 24rem at 8% 4rem,
-        rgb(var(--glow-2) / 0.08),
-        transparent 66%
+        48rem 30rem at -6% 40%,
+        rgb(var(--glow-2) / 0.1),
+        transparent 60%
       );
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -144,6 +150,45 @@
     letter-spacing: 0.16em;
     text-transform: uppercase;
     color: var(--faint);
+  }
+
+  /* Headline with a subtle vertical fade — reads crisp, not flat white. */
+  .text-gradient {
+    background-image: linear-gradient(
+      180deg,
+      var(--headline-from) 0%,
+      var(--headline-to) 100%
+    );
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+
+  /* Faint blueprint grid, masked so it fades out — gives the canvas depth. */
+  .grid-bg {
+    position: relative;
+    isolation: isolate;
+  }
+  .grid-bg::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    background-image:
+      linear-gradient(to right, var(--grid-line) 1px, transparent 1px),
+      linear-gradient(to bottom, var(--grid-line) 1px, transparent 1px);
+    background-size: 68px 68px;
+    -webkit-mask-image: radial-gradient(
+      ellipse 75% 65% at 50% 30%,
+      #000 30%,
+      transparent 100%
+    );
+    mask-image: radial-gradient(
+      ellipse 75% 65% at 50% 30%,
+      #000 30%,
+      transparent 100%
+    );
+    pointer-events: none;
   }
 
   /* Frosted glass panel — the core surface of the sleek dark look. */

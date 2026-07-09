@@ -42,6 +42,7 @@ function main() {
     const companyMd = matter.stringify(company.description ?? '', {
       name: company.name,
       slug: company.slug,
+      ...(company.featured ? { featured: true } : {}),
       industry: company.industry ?? null,
       hq: company.hq ?? null,
     });

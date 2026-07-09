@@ -82,6 +82,7 @@ Frontmatter holds the metadata; the body is the company blurb.
 ---
 name: Google
 slug: google
+featured: true            # optional — surfaces the company on the home page
 industry: Big Tech
 hq: 'Mountain View, CA'
 ---

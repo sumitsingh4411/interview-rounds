@@ -1,6 +1,7 @@
 ---
 name: Amazon
 slug: amazon
+featured: true
 industry: Big Tech
 hq: 'Seattle, WA'
 ---

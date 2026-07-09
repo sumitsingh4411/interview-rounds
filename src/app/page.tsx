@@ -46,51 +46,81 @@ export default function HomePage() {
   return (
     <>
       {/* Hero */}
-      <Container className="grid gap-12 py-16 sm:py-24 lg:grid-cols-[1.1fr_0.9fr] lg:items-center">
-        <div>
-          <p className="eyebrow">Interview prep, by the round</p>
-          <h1 className="mt-4 text-balance font-display text-4xl leading-[1.05] font-bold text-fg sm:text-6xl">
-            Know every round
-            <br />
-            before you walk in.
-          </h1>
-          <p className="mt-5 max-w-xl text-lg text-muted">
-            Real interview questions from top companies, mapped to the exact
-            round, role, and level they show up in — so you prep for what you
-            will actually face.
-          </p>
-          <div className="mt-7 max-w-xl">
-            <SearchInput placeholder="Try “system design” or “react”…" />
-          </div>
-          <div className="mt-5 flex flex-wrap items-center gap-x-5 gap-y-2 text-sm text-faint">
-            <Link href="/companies" className="text-brand hover:underline">
-              Browse all companies →
-            </Link>
-            <span aria-hidden>·</span>
-            <span className="font-mono text-xs">
-              {ROLE_LABELS.frontend} · {ROLE_LABELS.backend} ·{' '}
-              {ROLE_LABELS.fullstack}
+      <section className="grid-bg relative overflow-hidden">
+        <Container className="grid gap-12 py-12 sm:py-16 lg:grid-cols-[1.05fr_0.95fr] lg:items-center lg:gap-16 lg:py-20">
+          <div>
+            <span className="glass inline-flex items-center gap-2 rounded-full px-3 py-1">
+              <span
+                aria-hidden
+                className="h-1.5 w-1.5 rounded-full bg-brand shadow-[0_0_8px_2px_rgb(var(--glow)/0.6)]"
+              />
+              <span className="eyebrow !text-muted">
+                Interview prep, by the round
+              </span>
             </span>
+
+            <h1 className="text-gradient mt-5 text-balance font-display text-[2.75rem] leading-[1.02] font-bold tracking-[-0.035em] sm:text-6xl">
+              Know every round
+              <br />
+              before you walk in.
+            </h1>
+
+            <p className="mt-5 max-w-lg text-[1.05rem] leading-relaxed text-muted">
+              Real interview questions from top companies, mapped to the exact
+              round, role, and level they show up in — so you prep for what you
+              will actually face.
+            </p>
+
+            <div className="mt-7 max-w-lg">
+              <SearchInput placeholder="Try “system design” or “react”…" />
+            </div>
+
+            <div className="mt-5 flex flex-wrap items-center gap-x-5 gap-y-2 text-sm text-faint">
+              <Link
+                href="/companies"
+                className="font-medium text-brand hover:underline"
+              >
+                Browse all companies →
+              </Link>
+              <span aria-hidden>·</span>
+              <span className="font-mono text-xs">
+                {ROLE_LABELS.frontend} · {ROLE_LABELS.backend} ·{' '}
+                {ROLE_LABELS.fullstack}
+              </span>
+            </div>
+
+            {/* Stats strip */}
+            <dl className="mt-10 grid max-w-lg grid-cols-2 gap-2.5 sm:grid-cols-4">
+              {stats.map((s) => (
+                <div
+                  key={s.label}
+                  className="glass-card rounded-xl px-3.5 py-3"
+                >
+                  <dt className="font-display text-[1.6rem] leading-none font-bold text-fg">
+                    {s.n}
+                  </dt>
+                  <dd className="mt-1.5 font-mono text-[0.68rem] tracking-wide text-faint">
+                    {s.label}
+                  </dd>
+                </div>
+              ))}
+            </dl>
           </div>
 
-          {/* Stats strip */}
-          <dl className="mt-9 grid max-w-xl grid-cols-2 gap-3 sm:grid-cols-4">
-            {stats.map((s) => (
-              <div key={s.label} className="glass rounded-2xl px-4 py-3">
-                <dt className="font-display text-2xl font-bold text-fg">
-                  {s.n}
-                </dt>
-                <dd className="mt-0.5 font-mono text-[0.7rem] tracking-wide text-faint">
-                  {s.label}
-                </dd>
-              </div>
-            ))}
-          </dl>
-        </div>
-        <div className="lg:pl-6">
-          <RoundRailPreview counts={roundCounts} />
-        </div>
-      </Container>
+          <div className="relative lg:pl-4">
+            {/* soft glow behind the rail so the glass has something to sit on */}
+            <div
+              aria-hidden
+              className="pointer-events-none absolute -inset-10 -z-10 rounded-full opacity-90 blur-3xl"
+              style={{
+                background:
+                  'radial-gradient(closest-side, rgb(var(--glow) / 0.3), transparent 72%)',
+              }}
+            />
+            <RoundRailPreview counts={roundCounts} />
+          </div>
+        </Container>
+      </section>
 
       {/* Popular companies */}
       <Container className="py-6">

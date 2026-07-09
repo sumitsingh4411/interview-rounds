@@ -4,16 +4,18 @@ export type SeedCompany = {
   description?: string;
   industry?: string;
   hq?: string;
+  /** Surfaced first on the home page. */
+  featured?: boolean;
 };
 
 // Top companies commonly targeted for frontend / backend / full-stack roles.
 export const COMPANIES: SeedCompany[] = [
-  { name: 'Google', slug: 'google', industry: 'Big Tech', hq: 'Mountain View, CA', description: 'Search, Ads, Cloud, Android. A rigorous, algorithm-heavy loop with a high bar.' },
-  { name: 'Meta', slug: 'meta', industry: 'Big Tech', hq: 'Menlo Park, CA', description: 'Facebook, Instagram, WhatsApp. Frontend loops lean hard on React and JS internals.' },
-  { name: 'Amazon', slug: 'amazon', industry: 'Big Tech', hq: 'Seattle, WA', description: 'E-commerce and AWS. Every round is weighed against the Leadership Principles.' },
-  { name: 'Apple', slug: 'apple', industry: 'Big Tech', hq: 'Cupertino, CA', description: 'Hardware and software at scale. Deep, team-specific technical rounds.' },
+  { name: 'Google', slug: 'google', featured: true, industry: 'Big Tech', hq: 'Mountain View, CA', description: 'Search, Ads, Cloud, Android. A rigorous, algorithm-heavy loop with a high bar.' },
+  { name: 'Meta', slug: 'meta', featured: true, industry: 'Big Tech', hq: 'Menlo Park, CA', description: 'Facebook, Instagram, WhatsApp. Frontend loops lean hard on React and JS internals.' },
+  { name: 'Amazon', slug: 'amazon', featured: true, industry: 'Big Tech', hq: 'Seattle, WA', description: 'E-commerce and AWS. Every round is weighed against the Leadership Principles.' },
+  { name: 'Apple', slug: 'apple', featured: true, industry: 'Big Tech', hq: 'Cupertino, CA', description: 'Hardware and software at scale. Deep, team-specific technical rounds.' },
   { name: 'Microsoft', slug: 'microsoft', industry: 'Big Tech', hq: 'Redmond, WA', description: 'Azure, Windows, Office, GitHub. Balanced loops across coding and design.' },
-  { name: 'Netflix', slug: 'netflix', industry: 'Streaming', hq: 'Los Gatos, CA', description: 'Streaming at massive scale. Senior-heavy bar with a strong culture focus.' },
+  { name: 'Netflix', slug: 'netflix', featured: true, industry: 'Streaming', hq: 'Los Gatos, CA', description: 'Streaming at massive scale. Senior-heavy bar with a strong culture focus.' },
   { name: 'Nvidia', slug: 'nvidia', industry: 'Semiconductors', hq: 'Santa Clara, CA', description: 'GPUs and AI infrastructure. Performance-minded systems and coding rounds.' },
   { name: 'Adobe', slug: 'adobe', industry: 'Creative Software', hq: 'San Jose, CA', description: 'Creative Cloud and document tools. Practical coding plus product sense.' },
   { name: 'Salesforce', slug: 'salesforce', industry: 'Enterprise SaaS', hq: 'San Francisco, CA', description: 'The CRM platform. Loops mix DSA, design, and values-based rounds.' },
@@ -28,7 +30,7 @@ export const COMPANIES: SeedCompany[] = [
   { name: 'Reddit', slug: 'reddit', industry: 'Consumer Internet', hq: 'San Francisco, CA', description: 'The front page of the internet. Feed, ranking, and moderation systems.' },
   { name: 'Spotify', slug: 'spotify', industry: 'Streaming', hq: 'Stockholm, Sweden', description: 'Audio streaming. Playback, recommendations, and clean frontend rounds.' },
   { name: 'Dropbox', slug: 'dropbox', industry: 'Cloud Storage', hq: 'San Francisco, CA', description: 'File sync and storage. Strong systems design and practical coding.' },
-  { name: 'Stripe', slug: 'stripe', industry: 'Fintech', hq: 'South San Francisco, CA', description: 'Payments infrastructure. Practical, real-world coding over pure algorithms.' },
+  { name: 'Stripe', slug: 'stripe', featured: true, industry: 'Fintech', hq: 'South San Francisco, CA', description: 'Payments infrastructure. Practical, real-world coding over pure algorithms.' },
   { name: 'PayPal', slug: 'paypal', industry: 'Fintech', hq: 'San Jose, CA', description: 'Digital payments. Fundamentals, APIs, and reliability-focused design.' },
   { name: 'Block', slug: 'block', industry: 'Fintech', hq: 'Oakland, CA', description: 'Square and Cash App. Payments coding and pragmatic system design.' },
   { name: 'Coinbase', slug: 'coinbase', industry: 'Fintech', hq: 'Remote-first', description: 'Crypto exchange. Correctness, security, and high-throughput systems.' },

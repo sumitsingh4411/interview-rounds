@@ -1,6 +1,7 @@
 ---
 name: Apple
 slug: apple
+featured: true
 industry: Big Tech
 hq: 'Cupertino, CA'
 ---

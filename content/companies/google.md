@@ -1,6 +1,7 @@
 ---
 name: Google
 slug: google
+featured: true
 industry: Big Tech
 hq: 'Mountain View, CA'
 ---
