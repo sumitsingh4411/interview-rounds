@@ -13,6 +13,7 @@ import {
   type Round,
 } from '@/lib/constants';
 import { RoleBadge, LevelBadge, DifficultyBadge } from './ui/badges';
+import { withBasePath } from '@/lib/base-path';
 
 const POPULAR = [
   'system design',
@@ -47,7 +48,7 @@ export function SearchResults() {
 
   useEffect(() => {
     let alive = true;
-    fetch('/search-index.json')
+    fetch(withBasePath('/search-index.json'))
       .then((r) => r.json())
       .then((data: Entry[]) => {
         if (alive) setEntries(data);

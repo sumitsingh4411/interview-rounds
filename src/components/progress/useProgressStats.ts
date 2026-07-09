@@ -3,6 +3,7 @@
 import { useEffect, useMemo, useState } from 'react';
 import { useSolved } from '@/lib/solved';
 import { computeStats, type IndexEntry, type ProgressStats } from '@/lib/progress';
+import { withBasePath } from '@/lib/base-path';
 
 /**
  * Loads the static search index once and derives progress from localStorage.
@@ -15,7 +16,7 @@ export function useProgressStats(): { stats: ProgressStats | null } {
 
   useEffect(() => {
     let alive = true;
-    fetch('/search-index.json')
+    fetch(withBasePath('/search-index.json'))
       .then((r) => r.json())
       .then((d: IndexEntry[]) => {
         if (alive) setEntries(d);
