@@ -11,8 +11,8 @@ Everything you need to run, build, and extend the site. If you only want to
 No database, no API keys, no `.env` file.
 
 ```bash
-git clone https://github.com/sumitsingh4411/company-interview.git
-cd company-interview
+git clone https://github.com/sumitsingh4411/interview-rounds.git
+cd interview-rounds
 npm install
 npm run dev
 ```
