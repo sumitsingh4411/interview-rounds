@@ -4,8 +4,10 @@ import { Container } from '@/components/ui/Container';
 import { SearchResults } from '@/components/SearchResults';
 
 export const metadata: Metadata = {
-  title: 'Search',
-  description: 'Search interview questions across companies and rounds.',
+  title: 'Search interview questions',
+  description:
+    'Search 4,659 interview questions across 85 companies and every round — DSA, system design, machine coding, behavioral and more.',
+  alternates: { canonical: '/search' },
 };
 
 export default function SearchPage() {

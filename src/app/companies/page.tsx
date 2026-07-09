@@ -4,8 +4,10 @@ import { CompanyBrowser } from '@/components/CompanyBrowser';
 import { getCompaniesWithStats } from '@/content/loader';
 
 export const metadata: Metadata = {
-  title: 'Companies',
-  description: 'Browse interview experiences by company, mapped to each round.',
+  title: 'All companies',
+  description:
+    'Browse interview questions and experiences from 85 top tech companies — Google, Meta, Amazon, Stripe, Netflix and more — mapped to each round, role and level.',
+  alternates: { canonical: '/companies' },
 };
 
 export default function CompaniesPage() {

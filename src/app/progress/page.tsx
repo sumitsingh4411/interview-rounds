@@ -6,6 +6,7 @@ export const metadata: Metadata = {
   title: 'Your progress',
   description:
     'Track which interview questions you have solved — by round, role, level and company. Stored in your browser, no account needed.',
+  alternates: { canonical: '/progress' },
 };
 
 export default function ProgressPage() {

@@ -5,9 +5,10 @@ import { QuestionsExplorer } from '@/components/QuestionsExplorer';
 import { getTotals } from '@/content/loader';
 
 export const metadata: Metadata = {
-  title: 'All questions',
+  title: 'All interview questions',
   description:
-    'Every interview question in one filterable list — filter by round, role, level and difficulty, and tick off what you have solved.',
+    'Every interview question from 85 top tech companies in one filterable list — filter by round, role, level and difficulty, practice on LeetCode, and tick off what you have solved. Free, no signup.',
+  alternates: { canonical: '/questions' },
 };
 
 export default function QuestionsPage() {

@@ -3,8 +3,14 @@ import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { Container } from '@/components/ui/Container';
 import { QuestionCard } from '@/components/QuestionCard';
-import { getQuestionsByRound, getBanksForRound } from '@/content/loader';
+import {
+  getQuestionsByRound,
+  getBanksForRound,
+  getRoundCounts,
+} from '@/content/loader';
 import { BankSection } from '@/components/BankSection';
+import { JsonLd } from '@/components/JsonLd';
+import { breadcrumbLd } from '@/lib/seo';
 import {
   asRound,
   ROUND_ORDER,
@@ -24,9 +30,18 @@ export async function generateMetadata({
   const { round } = await params;
   const valid = asRound(round);
   if (!valid) return { title: 'Round not found' };
+
+  const total = getRoundCounts()[valid] ?? 0;
+
   return {
     title: `${ROUND_LABELS[valid]} interview questions`,
-    description: ROUND_DESCRIPTIONS[valid],
+    description: `${total.toLocaleString()} ${ROUND_LABELS[valid]} interview questions asked at top tech companies. ${ROUND_DESCRIPTIONS[valid]} Filter by role and level — free, no signup.`,
+    alternates: { canonical: `/rounds/${valid}` },
+    openGraph: {
+      title: `${ROUND_LABELS[valid]} interview questions`,
+      description: `${total.toLocaleString()} ${ROUND_LABELS[valid]} questions from top tech companies.`,
+      type: 'article',
+    },
   };
 }
 
@@ -41,6 +56,12 @@ export default async function RoundPage({ params }: PageProps) {
 
   return (
     <Container className="py-12">
+      <JsonLd
+        data={breadcrumbLd([
+          { name: 'Home', path: '/' },
+          { name: ROUND_LABELS[valid], path: `/rounds/${valid}` },
+        ])}
+      />
       <div className="mb-8 flex flex-wrap gap-1.5">
         {ROUND_ORDER.map((r) => (
           <Link

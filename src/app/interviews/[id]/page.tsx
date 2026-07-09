@@ -11,6 +11,8 @@ import {
   SourceBadge,
 } from '@/components/ui/badges';
 import { getInterviewById, getAllInterviewIds } from '@/content/loader';
+import { JsonLd } from '@/components/JsonLd';
+import { breadcrumbLd } from '@/lib/seo';
 import { groupQuestionsByRound } from '@/lib/questions';
 import {
   ROLE_LABELS,
@@ -42,14 +44,19 @@ export async function generateMetadata({
   const detail = getInterviewById(id);
   if (!detail) return { title: 'Interview not found' };
   const { interview, company } = detail;
+  const title = interviewTitle(
+    interview.title,
+    interview.role as Role,
+    interview.level as Level,
+    company.name,
+  );
+  const description = `A ${LEVEL_LABELS[interview.level as Level]} ${ROLE_LABELS[interview.role as Role]} interview experience at ${company.name}, round by round — the questions asked in each stage.`;
+
   return {
-    title: interviewTitle(
-      interview.title,
-      interview.role as Role,
-      interview.level as Level,
-      company.name,
-    ),
-    description: `A ${LEVEL_LABELS[interview.level as Level]} ${ROLE_LABELS[interview.role as Role]} interview experience at ${company.name}, round by round.`,
+    title,
+    description,
+    alternates: { canonical: `/interviews/${id}` },
+    openGraph: { title, description, type: 'article' },
   };
 }
 
@@ -65,6 +72,17 @@ export default async function InterviewPage({ params }: PageProps) {
 
   return (
     <Container className="max-w-3xl py-12">
+      <JsonLd
+        data={breadcrumbLd([
+          { name: 'Home', path: '/' },
+          { name: 'Companies', path: '/companies' },
+          { name: company.name, path: `/companies/${company.slug}` },
+          {
+            name: interviewTitle(interview.title, role, level, company.name),
+            path: `/interviews/${id}`,
+          },
+        ])}
+      />
       <nav className="mb-6 text-sm">
         <Link
           href={`/companies/${company.slug}`}

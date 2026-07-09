@@ -8,6 +8,8 @@ import {
   getInterviewsForCompany,
   getAllCompanySlugs,
 } from '@/content/loader';
+import { JsonLd } from '@/components/JsonLd';
+import { breadcrumbLd } from '@/lib/seo';
 
 type PageProps = { params: Promise<{ slug: string }> };
 
@@ -21,9 +23,19 @@ export async function generateMetadata({
   const { slug } = await params;
   const company = getCompanyBySlug(slug);
   if (!company) return { title: 'Company not found' };
+
+  const interviews = getInterviewsForCompany(company.id);
+  const questions = interviews.reduce((n, i) => n + i.questionCount, 0);
+
   return {
-    title: `${company.name} interview questions`,
-    description: `Real ${company.name} interview experiences, grouped by round, across roles and levels.`,
+    title: `${company.name} interview questions by round`,
+    description: `${questions} real ${company.name} interview questions from ${interviews.length} experiences, mapped round by round — online assessment, DSA, machine coding, system design, hiring manager and behavioral. Filter by role and level. Free, no signup.`,
+    alternates: { canonical: `/companies/${slug}` },
+    openGraph: {
+      title: `${company.name} interview questions by round`,
+      description: `${questions} ${company.name} interview questions across ${interviews.length} experiences, mapped to every round.`,
+      type: 'article',
+    },
   };
 }
 
@@ -36,6 +48,13 @@ export default async function CompanyPage({ params }: PageProps) {
 
   return (
     <Container className="py-12">
+      <JsonLd
+        data={breadcrumbLd([
+          { name: 'Home', path: '/' },
+          { name: 'Companies', path: '/companies' },
+          { name: company.name, path: `/companies/${slug}` },
+        ])}
+      />
       <nav className="mb-6">
         <Link
           href="/companies"
