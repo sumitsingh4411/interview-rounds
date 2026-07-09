@@ -91,10 +91,11 @@ export function QuestionCard({
               href={l.href}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-1 rounded-md border border-line px-2 py-0.5 font-mono text-xs text-muted transition-colors hover:border-brand/50 hover:text-brand"
+              className={`practice-chip practice-${l.platform}`}
             >
+              <span aria-hidden className="dot" />
               {l.label}
-              <span aria-hidden className="text-[0.6rem]">
+              <span aria-hidden className="text-[0.6rem] opacity-70">
                 ↗
               </span>
             </a>

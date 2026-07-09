@@ -1,7 +1,15 @@
 import type { Round } from './constants';
 import { leetcodeSlug } from './leetcode';
 
-export type PracticeLink = { label: string; short: string; href: string };
+export type PracticePlatform = 'leetcode' | 'gfg' | 'search';
+
+export type PracticeLink = {
+  label: string;
+  short: string;
+  href: string;
+  /** Drives the chip's brand colour (see .practice-* in globals.css). */
+  platform: PracticePlatform;
+};
 
 /** Nothing to practise — linking these anywhere would be noise. */
 const NO_PRACTICE: readonly Round[] = ['behavioral', 'hiring_manager'];
@@ -33,6 +41,7 @@ export function practiceLinks(title: string, round: Round): PracticeLink[] {
       label: 'LeetCode',
       short: 'LC',
       href: `https://leetcode.com/problems/${slug}/`,
+      platform: 'leetcode',
     });
   }
 
@@ -40,6 +49,7 @@ export function practiceLinks(title: string, round: Round): PracticeLink[] {
     label: 'GeeksforGeeks',
     short: 'GfG',
     href: `https://www.geeksforgeeks.org/search/?gq=${query(title)}`,
+    platform: 'gfg',
   });
 
   // Without a known problem page, a plain web search is the honest fallback.
@@ -48,6 +58,7 @@ export function practiceLinks(title: string, round: Round): PracticeLink[] {
       label: 'Search',
       short: 'Search',
       href: `https://www.google.com/search?q=${query(title)}`,
+      platform: 'search',
     });
   }
 

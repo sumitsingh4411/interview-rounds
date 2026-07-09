@@ -224,6 +224,65 @@
       0 26px 60px -30px rgb(var(--glow) / 0.3);
   }
 
+  /*
+   * Practice chips carry each platform's brand colour.
+   * The raw brand hex only works on one background: LeetCode orange is
+   * unreadable on white, GfG green is unreadable on near-black. So each
+   * platform gets a light-theme variant tuned for contrast.
+   */
+  .practice-chip {
+    --pc: var(--faint);
+    display: inline-flex;
+    align-items: center;
+    gap: 0.375rem;
+    border-radius: 0.375rem;
+    border: 1px solid color-mix(in srgb, var(--pc) 32%, transparent);
+    background-color: color-mix(in srgb, var(--pc) 9%, transparent);
+    color: var(--pc);
+    padding: 0.125rem 0.5rem;
+    font-family: var(--font-mono);
+    font-size: 0.75rem;
+    line-height: 1.25rem;
+    transition:
+      background-color 0.2s ease,
+      border-color 0.2s ease,
+      box-shadow 0.2s ease;
+  }
+  .practice-chip:hover {
+    border-color: color-mix(in srgb, var(--pc) 65%, transparent);
+    background-color: color-mix(in srgb, var(--pc) 16%, transparent);
+    box-shadow: 0 0 0 3px color-mix(in srgb, var(--pc) 12%, transparent);
+  }
+  .practice-chip .dot {
+    height: 0.375rem;
+    width: 0.375rem;
+    flex: none;
+    border-radius: 999px;
+    background-color: currentColor;
+  }
+
+  /* Dark theme — brand hues, lifted where the raw brand colour goes muddy. */
+  .practice-leetcode {
+    --pc: #ffa116; /* LeetCode brand orange */
+  }
+  .practice-gfg {
+    --pc: #55c46a; /* GfG green, lifted for a dark canvas */
+  }
+  .practice-search {
+    --pc: #7aa9ff; /* Google blue, lifted */
+  }
+
+  /* Light theme — darkened so the text actually passes on white. */
+  :root[data-theme="light"] .practice-leetcode {
+    --pc: #a35c00;
+  }
+  :root[data-theme="light"] .practice-gfg {
+    --pc: #2f8d46; /* GfG brand green */
+  }
+  :root[data-theme="light"] .practice-search {
+    --pc: #1a73e8; /* Google brand blue */
+  }
+
   /* Landing on a deep-linked question highlights it. */
   article[id]:target {
     border-color: rgb(var(--glow) / 0.6);
