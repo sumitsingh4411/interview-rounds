@@ -273,7 +273,7 @@ Next.js 16 · React 19 · Tailwind CSS v4 · TypeScript — **fully static, no d
 
 ## 📄 License
 
-**[CC BY-NC 4.0](LICENSE)** © Sumit Singh — free to read, share and adapt **with attribution**, for **non-commercial purposes only**.
+**[CC BY-NC 4.0](LICENSE)** © Sumit Singh — free to read, share and adapt **with attribution**, for **non-commercial purposes only**. Full scope and caveats: **[NOTICE.md](NOTICE.md)**.
 
 > **Third-party content:** the topic banks in `content/banks/` are imported from MIT-licensed repositories and **remain under the MIT License** — that licence cannot be revoked here. Their required notices are in **[THIRD-PARTY-NOTICES.md](THIRD-PARTY-NOTICES.md)**.
 >
