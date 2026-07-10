@@ -131,4 +131,63 @@ export const COMPANIES: SeedCompany[] = [
   { name: 'Okta', slug: 'okta', industry: 'Security', hq: 'San Francisco, CA', description: 'Identity and access. Auth protocols, OAuth/OIDC, and reliable APIs.' },
   { name: 'Clerk', slug: 'clerk', industry: 'Developer Platform', hq: 'San Francisco, CA', description: 'Auth for modern apps. Deep frontend, SDKs, and session design.' },
   { name: 'WorkOS', slug: 'workos', industry: 'Developer Platform', hq: 'San Francisco, CA', description: 'Enterprise-ready SSO and SCIM. API design and integration-heavy backends.' },
+
+  // Investment banks and quant/trading firms — heavily searched SWE loops.
+  { name: 'Goldman Sachs', slug: 'goldman-sachs', industry: 'Finance', hq: 'New York, NY', description: 'Global investment bank. Strong DSA, probability, and low-latency systems rounds.' },
+  { name: 'JPMorgan Chase', slug: 'jpmorgan', industry: 'Finance', hq: 'New York, NY', description: 'Banking at scale. Fundamentals-heavy coding and reliability-focused design.' },
+  { name: 'Morgan Stanley', slug: 'morgan-stanley', industry: 'Finance', hq: 'New York, NY', description: 'Wealth and investment banking. Core DSA, OOP, and system design rounds.' },
+  { name: 'Bloomberg', slug: 'bloomberg', industry: 'Finance', hq: 'New York, NY', description: 'The financial data terminal. Famous for DSA and data-structure depth.' },
+  { name: 'Citadel', slug: 'citadel', industry: 'Trading', hq: 'Miami, FL', description: 'Hedge fund and market maker. Brainteasers, probability, and high-performance coding.' },
+  { name: 'Jane Street', slug: 'jane-street', industry: 'Trading', hq: 'New York, NY', description: 'Quant trading in OCaml. Probability, mental math, and deep problem-solving.' },
+  { name: 'Two Sigma', slug: 'two-sigma', industry: 'Trading', hq: 'New York, NY', description: 'Quant investment firm. Strong DSA, statistics, and large-scale data systems.' },
+  { name: 'Capital One', slug: 'capital-one', industry: 'Finance', hq: 'McLean, VA', description: 'A bank built like a tech company. Known coding assessments and case-style design.' },
+
+  // Payment networks — high-volume, correctness-critical loops.
+  { name: 'Visa', slug: 'visa', industry: 'Fintech', hq: 'Foster City, CA', description: 'Global payments network. Reliability, transaction systems, and solid coding.' },
+  { name: 'Mastercard', slug: 'mastercard', industry: 'Fintech', hq: 'Purchase, NY', description: 'Payments technology. Secure, high-throughput systems and fundamentals.' },
+  { name: 'American Express', slug: 'amex', industry: 'Fintech', hq: 'New York, NY', description: 'Cards and travel. Practical coding, APIs, and correctness-focused rounds.' },
+
+  // Enterprise software and SaaS with very high hiring volume.
+  { name: 'SAP', slug: 'sap', industry: 'Enterprise Software', hq: 'Walldorf, Germany', description: 'Enterprise resource planning. Fundamentals-heavy coding and systems design.' },
+  { name: 'ServiceNow', slug: 'servicenow', industry: 'Enterprise SaaS', hq: 'Santa Clara, CA', description: 'Enterprise workflow platform. Practical coding and platform-scale design.' },
+  { name: 'Workday', slug: 'workday', industry: 'Enterprise SaaS', hq: 'Pleasanton, CA', description: 'HR and finance software. Product engineering and data-model design.' },
+  { name: 'Zoho', slug: 'zoho', industry: 'SaaS', hq: 'Chennai, India', description: 'Bootstrapped SaaS suite. Fundamentals, aptitude, and practical coding rounds.' },
+  { name: 'Freshworks', slug: 'freshworks', industry: 'SaaS', hq: 'San Mateo, CA', description: 'Customer-engagement SaaS. Product-minded full-stack and clean coding.' },
+
+  // Infrastructure, observability, and networking.
+  { name: 'Splunk', slug: 'splunk', industry: 'Observability', hq: 'San Francisco, CA', description: 'Machine data and observability. Search systems and pragmatic coding.' },
+  { name: 'Nutanix', slug: 'nutanix', industry: 'Infrastructure', hq: 'San Jose, CA', description: 'Hyperconverged infrastructure. Systems-heavy coding and distributed design.' },
+  { name: 'Akamai', slug: 'akamai', industry: 'Infrastructure', hq: 'Cambridge, MA', description: 'The edge and CDN pioneer. Networking depth and systems-oriented coding.' },
+  { name: 'Arista Networks', slug: 'arista', industry: 'Networking', hq: 'Santa Clara, CA', description: 'Cloud networking. Systems, protocols, and performance-minded coding.' },
+
+  // Semiconductors and hardware — fundamentals-heavy loops.
+  { name: 'Intel', slug: 'intel', industry: 'Semiconductors', hq: 'Santa Clara, CA', description: 'Chips and platforms. Systems, C/C++ depth, and fundamentals-heavy rounds.' },
+  { name: 'AMD', slug: 'amd', industry: 'Semiconductors', hq: 'Santa Clara, CA', description: 'CPUs and GPUs. Performance systems, architecture, and coding fundamentals.' },
+  { name: 'Samsung', slug: 'samsung', industry: 'Semiconductors', hq: 'Suwon, South Korea', description: 'Electronics and chips. Systems, embedded-adjacent coding, and DSA.' },
+  { name: 'Broadcom', slug: 'broadcom', industry: 'Semiconductors', hq: 'Palo Alto, CA', description: 'Semiconductors and software. Fundamentals, systems, and design rounds.' },
+  { name: 'Micron', slug: 'micron', industry: 'Semiconductors', hq: 'Boise, ID', description: 'Memory and storage. Systems, firmware-adjacent coding, and fundamentals.' },
+
+  // Retail, travel, and consumer marketplaces with huge candidate volume.
+  { name: 'Walmart Global Tech', slug: 'walmart', industry: 'E-commerce', hq: 'Bentonville, AR', description: 'Retail at massive scale. DSA, system design, and real-world commerce systems.' },
+  { name: 'Flipkart', slug: 'flipkart', industry: 'E-commerce', hq: 'Bangalore, India', description: "India's commerce leader. Strong DSA, machine coding, and scale-focused design." },
+  { name: 'Swiggy', slug: 'swiggy', industry: 'Marketplace', hq: 'Bangalore, India', description: 'Food and quick delivery. Real-time dispatch systems and practical coding.' },
+  { name: 'Zomato', slug: 'zomato', industry: 'Marketplace', hq: 'Gurugram, India', description: 'Food delivery and dining. Product-minded coding and logistics-scale design.' },
+  { name: 'Booking.com', slug: 'booking', industry: 'Marketplace', hq: 'Amsterdam, Netherlands', description: 'Travel booking at scale. Practical coding, experimentation, and design.' },
+  { name: 'Expedia', slug: 'expedia', industry: 'Marketplace', hq: 'Seattle, WA', description: 'Online travel. Search, pricing, and large-scale booking systems.' },
+
+  // India fintech — very high search volume.
+  { name: 'Paytm', slug: 'paytm', industry: 'Fintech', hq: 'Noida, India', description: 'Payments and financial services. High-throughput systems and practical coding.' },
+  { name: 'PhonePe', slug: 'phonepe', industry: 'Fintech', hq: 'Bangalore, India', description: 'UPI payments at scale. Reliability, low-latency systems, and strong DSA.' },
+  { name: 'Razorpay', slug: 'razorpay', industry: 'Fintech', hq: 'Bangalore, India', description: 'Payments infrastructure. API design, correctness, and full-stack rounds.' },
+
+  // IT services and consulting — the highest-volume "interview questions" searches.
+  { name: 'TCS', slug: 'tcs', industry: 'IT Services', hq: 'Mumbai, India', description: "India's largest IT services firm. Aptitude, core DSA, and fundamentals rounds." },
+  { name: 'Infosys', slug: 'infosys', industry: 'IT Services', hq: 'Bangalore, India', description: 'Global IT services. Aptitude, coding basics, and technical-plus-HR rounds.' },
+  { name: 'Wipro', slug: 'wipro', industry: 'IT Services', hq: 'Bangalore, India', description: 'IT services and consulting. Aptitude, fundamentals, and practical coding.' },
+  { name: 'Cognizant', slug: 'cognizant', industry: 'IT Services', hq: 'Teaneck, NJ', description: 'Digital and IT services. Aptitude, core coding, and communication rounds.' },
+  { name: 'Accenture', slug: 'accenture', industry: 'IT Services', hq: 'Dublin, Ireland', description: 'Global consulting and tech. Cognitive and technical assessment plus coding basics.' },
+  { name: 'Capgemini', slug: 'capgemini', industry: 'IT Services', hq: 'Paris, France', description: 'IT consulting and services. Aptitude, pseudocode, and fundamentals rounds.' },
+  { name: 'HCLTech', slug: 'hcltech', industry: 'IT Services', hq: 'Noida, India', description: 'Global tech services. Aptitude, core coding, and technical-plus-HR rounds.' },
+  { name: 'Tech Mahindra', slug: 'tech-mahindra', industry: 'IT Services', hq: 'Pune, India', description: 'IT and digital services. Aptitude, fundamentals, and communication rounds.' },
+  { name: 'Deloitte', slug: 'deloitte', industry: 'Consulting', hq: 'London, UK', description: 'Consulting and technology. Case-style problem-solving and coding fundamentals.' },
 ];

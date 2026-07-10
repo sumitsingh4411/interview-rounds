@@ -6,12 +6,12 @@
 
 ### Know every round before you walk in.
 
-Real interview questions from **119 top tech companies** — mapped to the exact **round**, **role** and **level** they show up in.
+Real interview questions from **162 top tech companies** — mapped to the exact **round**, **role** and **level** they show up in.
 
 [![Live site](https://img.shields.io/badge/live-interview--rounds.nextjoblist.com-6366f1?logo=vercel&logoColor=white)](https://interview-rounds.nextjoblist.com)
-[![Interviews](https://img.shields.io/badge/interviews-595-8b93ff)](#-browse-every-interview)
-[![Companies](https://img.shields.io/badge/companies-119-22d3ee)](#-browse-every-interview)
-[![Questions](https://img.shields.io/badge/questions-6%2C533-a78bfa)](#-browse-every-interview)
+[![Interviews](https://img.shields.io/badge/interviews-810-8b93ff)](#-browse-every-interview)
+[![Companies](https://img.shields.io/badge/companies-162-22d3ee)](#-browse-every-interview)
+[![Questions](https://img.shields.io/badge/questions-8%2C898-a78bfa)](#-browse-every-interview)
 [![No database](https://img.shields.io/badge/database-none-success)](docs/DEVELOPMENT.md)
 [![License: CC BY-NC 4.0](https://img.shields.io/badge/license-CC%20BY--NC%204.0-blue.svg)](LICENSE)
 
@@ -36,10 +36,10 @@ Most prep tools hand you a giant pile of problems. But a real interview isn't a 
 | Page | What's there |
 |---|---|
 | 🏠 **[Home](https://interview-rounds.nextjoblist.com)** | The pitch + an interactive "round rail" |
-| 🏢 **[Companies](https://interview-rounds.nextjoblist.com/companies)** | All 119 companies, filterable by role & level |
+| 🏢 **[Companies](https://interview-rounds.nextjoblist.com/companies)** | All 162 companies, filterable by role & level |
 | ❓ **[All questions](https://interview-rounds.nextjoblist.com/questions)** | Every question in one filterable table — tick off what you solve |
 | 📊 **[Progress](https://interview-rounds.nextjoblist.com/progress)** | Your dashboard: charts by round, difficulty, role & level (saved in your browser) |
-| 🔎 **[Search](https://interview-rounds.nextjoblist.com/search)** | Full-text across all 6,533 questions |
+| 🔎 **[Search](https://interview-rounds.nextjoblist.com/search)** | Full-text across all 8,898 questions |
 
 *Prefer to stay on GitHub? Every interview is a Markdown file — read them in the [index below](#-browse-every-interview).*
 
@@ -89,20 +89,20 @@ _20 distinct questions in this round — top 15 · 🟢 7 easy · 🟡 12 medium
 | Question | Difficulty |
 |---|---|
 | Validate an IP address (IPv4 / IPv6). | 🟡 Medium |
+| Reformat a log file by timestamp. | 🟢 Easy |
+| [Find the missing number in 1..n.](https://leetcode.com/problems/missing-number/) | 🟢 Easy |
 | Merge overlapping meeting intervals from a calendar. | 🟡 Medium |
 | Find the number of distinct substrings of length k. | 🟡 Medium |
 | Given a list of transactions, detect fraudulent patterns. | 🟡 Medium |
-| Aptitude and logical-reasoning section. | 🟢 Easy |
-| Count pairs with a given sum in an array. | 🟢 Easy |
-| [Find the missing number in 1..n.](https://leetcode.com/problems/missing-number/) | 🟢 Easy |
 | [Move zeroes to the end in place.](https://leetcode.com/problems/move-zeroes/) | 🟢 Easy |
-| Reformat a log file by timestamp. | 🟢 Easy |
-| Simulate a simplified card game and score it. | 🟡 Medium |
+| Aptitude and logical-reasoning section. | 🟢 Easy |
 | Group items by frequency and return the top K. | 🟡 Medium |
 | Implement a rate-limited counter. | 🟡 Medium |
-| Simulate a simple inventory system from a spec. | 🟡 Medium |
-| Two timed medium array/string problems in 70 minutes. | 🟡 Medium |
 | Compute the running median of a stream. | 🔴 Hard |
+| [Implement a min-stack supporting getMin in O(1).](https://leetcode.com/problems/min-stack/) | 🟡 Medium |
+| Simulate a simplified card game and score it. | 🟡 Medium |
+| Count pairs with a given sum in an array. | 🟢 Easy |
+| Debugging + output-prediction multiple choice section. | 🟢 Easy |
 
 ### 🧩 DSA / Coding
 
@@ -110,21 +110,21 @@ _74 distinct questions in this round — top 15 · 🟢 13 easy · 🟡 46 mediu
 
 | Question | Difficulty |
 |---|---|
-| [House robber.](https://leetcode.com/problems/house-robber/) | 🟡 Medium |
-| [Container with most water.](https://leetcode.com/problems/container-with-most-water/) | 🟡 Medium |
-| [Lowest common ancestor of a binary tree.](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) | 🟡 Medium |
 | [Permutations.](https://leetcode.com/problems/permutations/) | 🟡 Medium |
-| [Subsets.](https://leetcode.com/problems/subsets/) | 🟡 Medium |
-| [Valid anagram.](https://leetcode.com/problems/valid-anagram/) | 🟢 Easy |
+| [Lowest common ancestor of a binary tree.](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) | 🟡 Medium |
+| [Meeting rooms II — minimum rooms required.](https://leetcode.com/problems/meeting-rooms-ii/) | 🟡 Medium |
+| [Merge intervals.](https://leetcode.com/problems/merge-intervals/) | 🟡 Medium |
+| [Implement a trie (prefix tree).](https://leetcode.com/problems/implement-trie-prefix-tree/) | 🟡 Medium |
+| [Search in a rotated sorted array.](https://leetcode.com/problems/search-in-rotated-sorted-array/) | 🟡 Medium |
+| [Container with most water.](https://leetcode.com/problems/container-with-most-water/) | 🟡 Medium |
+| [Longest substring without repeating characters.](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | 🟡 Medium |
 | [Word ladder — shortest transformation sequence.](https://leetcode.com/problems/word-ladder/) | 🔴 Hard |
 | [House robber II.](https://leetcode.com/problems/house-robber-ii/) | 🟡 Medium |
-| [Meeting rooms II — minimum rooms required.](https://leetcode.com/problems/meeting-rooms-ii/) | 🟡 Medium |
-| [Reverse a linked list.](https://leetcode.com/problems/reverse-linked-list/) | 🟢 Easy |
-| [Search in a rotated sorted array.](https://leetcode.com/problems/search-in-rotated-sorted-array/) | 🟡 Medium |
-| [Implement a trie (prefix tree).](https://leetcode.com/problems/implement-trie-prefix-tree/) | 🟡 Medium |
-| [Longest palindromic substring.](https://leetcode.com/problems/longest-palindromic-substring/) | 🟡 Medium |
-| [Longest substring without repeating characters.](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | 🟡 Medium |
+| [Subsets.](https://leetcode.com/problems/subsets/) | 🟡 Medium |
 | [3Sum.](https://leetcode.com/problems/3sum/) | 🟡 Medium |
+| [House robber.](https://leetcode.com/problems/house-robber/) | 🟡 Medium |
+| [Longest palindromic substring.](https://leetcode.com/problems/longest-palindromic-substring/) | 🟡 Medium |
+| [Median of two sorted arrays.](https://leetcode.com/problems/median-of-two-sorted-arrays/) | 🔴 Hard |
 
 ### 🔧 Machine Coding
 
@@ -133,20 +133,20 @@ _47 distinct questions in this round — top 15 · 🟢 6 easy · 🟡 30 medium
 | Question | Difficulty |
 |---|---|
 | Implement an LRU + TTL cache library. | 🔴 Hard |
-| Build a "Wordle" clone with keyboard input. | 🟡 Medium |
-| Build a kanban board with drag and drop. | 🔴 Hard |
-| Implement a job queue with retries and backoff. | 🔴 Hard |
 | Build a "polling" progress UI that updates from an API. | 🟡 Medium |
-| Build a star-rating component (controlled + accessible). | 🟢 Easy |
+| Build a "Wordle" clone with keyboard input. | 🟡 Medium |
+| Build a file-upload service with chunking and resume. | 🔴 Hard |
+| Build a kanban board with drag and drop. | 🔴 Hard |
+| Build auth middleware that verifies a JWT. | 🟡 Medium |
+| Implement a bulk-upsert endpoint with validation. | 🟡 Medium |
+| Build a key-value store with TTL expiry. | 🟡 Medium |
+| Implement a job queue with retries and backoff. | 🔴 Hard |
 | Build a CSV importer that streams and validates rows. | 🟡 Medium |
-| Build an accessible accordion with single/multi open. | 🟡 Medium |
-| Build a color-picker with hex/rgb sync. | 🟡 Medium |
+| Build a data table with sorting, filtering and pagination. | 🔴 Hard |
 | Design and build a URL-shortener service (API + storage). | 🟡 Medium |
 | Implement cursor-based pagination over a sorted dataset. | 🟡 Medium |
-| Build a debounced autocomplete/search box with keyboard nav. | 🟡 Medium |
-| Build a file-upload service with chunking and resume. | 🔴 Hard |
-| Build a key-value store with TTL expiry. | 🟡 Medium |
-| Implement a bulk-upsert endpoint with validation. | 🟡 Medium |
+| Build a color-picker with hex/rgb sync. | 🟡 Medium |
+| Build a webhook receiver with signature verification. | 🟡 Medium |
 
 ### 🧱 Low-Level Design
 
@@ -155,20 +155,20 @@ _32 distinct questions in this round — top 15 · 🟢 2 easy · 🟡 21 medium
 | Question | Difficulty |
 |---|---|
 | Design a toast/notification manager API. | 🟡 Medium |
-| Design a design-token theming system. | 🟡 Medium |
-| Design an in-memory file system. | 🔴 Hard |
 | Design a data-fetching cache with invalidation. | 🔴 Hard |
-| Design a form-state library with validation rules. | 🟡 Medium |
 | Design an elevator control system. | 🟡 Medium |
 | Design a booking/reservation system core. | 🟡 Medium |
-| Design an analytics event-tracking client. | 🟡 Medium |
 | Design a client-side router. | 🟡 Medium |
+| Design a design-token theming system. | 🟡 Medium |
 | Design a logging library with levels and sinks. | 🟡 Medium |
+| Design a deck of cards + a card game. | 🟢 Easy |
+| Design an in-memory file system. | 🔴 Hard |
 | Model the state machine for a checkout flow. | 🟡 Medium |
+| Design a form-state library with validation rules. | 🟡 Medium |
+| Design an analytics event-tracking client. | 🟡 Medium |
+| Design a chess game (pieces, moves, board). | 🔴 Hard |
 | Design a hotel-reservation system core. | 🟡 Medium |
-| Design a reusable form-validation library API. | 🟡 Medium |
-| Design a vending machine. | 🟢 Easy |
-| Design a virtual DOM diffing model. | 🔴 Hard |
+| Design a movie-ticket booking system (BookMyShow). | 🔴 Hard |
 
 ### 🌐 System Design
 
@@ -176,21 +176,21 @@ _50 distinct questions in this round — top 15 · 🟡 17 medium · 🔴 33 har
 
 | Question | Difficulty |
 |---|---|
-| Design a video-call UI with grid and speaker views. | 🔴 Hard |
-| Design an object storage service like S3. | 🔴 Hard |
-| Design an analytics / metrics dashboard backend. | 🔴 Hard |
-| Design a job scheduler / cron service. | 🟡 Medium |
-| Design a news feed / timeline. | 🔴 Hard |
-| Design a metrics/time-series ingestion pipeline. | 🔴 Hard |
 | Design a ride-sharing service like Uber. | 🔴 Hard |
-| Design a search indexing pipeline (crawl to index to serve). | 🔴 Hard |
-| Design an online code judge / evaluator. | 🔴 Hard |
-| Design a typeahead / autocomplete service. | 🔴 Hard |
-| Design a chat application like WhatsApp. | 🔴 Hard |
+| Design an object storage service like S3. | 🔴 Hard |
+| Design a news feed / timeline. | 🔴 Hard |
 | Design a content delivery network (CDN). | 🔴 Hard |
+| Design a pastebin with expiring links. | 🟡 Medium |
+| Design an analytics / metrics dashboard backend. | 🔴 Hard |
+| Design a video-call UI with grid and speaker views. | 🔴 Hard |
+| Design a web crawler. | 🔴 Hard |
+| Design a search autocomplete at Google scale. | 🔴 Hard |
+| Design a typeahead / autocomplete service. | 🔴 Hard |
+| Design a job scheduler / cron service. | 🟡 Medium |
+| Design a rate limiter for a public API. | 🟡 Medium |
+| Design a chat application like WhatsApp. | 🔴 Hard |
 | Design a distributed key-value store. | 🔴 Hard |
 | Design a Google Docs-style collaborative editor (frontend). | 🔴 Hard |
-| Design a leaderboard for millions of players. | 🟡 Medium |
 
 ### 🔬 Tech Deep-Dive
 
@@ -198,21 +198,21 @@ _74 distinct questions in this round — top 15 · 🟢 11 easy · 🟡 41 mediu
 
 | Question | Difficulty |
 |---|---|
-| How do you design a schema for a multi-currency ledger? | 🔴 Hard |
 | Difference between at-least-once and exactly-once delivery. | 🔴 Hard |
-| How do circuit breakers and bulkheads improve resilience? | 🟡 Medium |
+| How do you design a schema for a multi-currency ledger? | 🔴 Hard |
 | Explain eventual consistency with a real example. | 🔴 Hard |
-| Closures and the module pattern — with an example. | 🟢 Easy |
-| Explain database indexing and when a query uses one. | 🟡 Medium |
-| Explain how you handle concurrency / race conditions. | 🔴 Hard |
-| Explain server components vs client components. | 🔴 Hard |
-| Explain the CSS box model and box-sizing. | 🟢 Easy |
-| How does a load balancer choose a backend? | 🟡 Medium |
 | What is backpressure and how do you handle it? | 🔴 Hard |
-| Debounce vs throttle — implement one from scratch. | 🟡 Medium |
-| Explain `useEffect` dependencies and common pitfalls. | 🟡 Medium |
-| How do you run a zero-downtime database migration? | 🔴 Hard |
+| How do you retry without amplifying load? | 🔴 Hard |
 | Difference between CSS Grid and Flexbox — when to use each. | 🟢 Easy |
+| How do you run a zero-downtime database migration? | 🔴 Hard |
+| ACID vs BASE and transaction isolation levels. | 🔴 Hard |
+| Explain database indexing and when a query uses one. | 🟡 Medium |
+| How do circuit breakers and bulkheads improve resilience? | 🟡 Medium |
+| How does HTTPS/TLS establish a secure connection? | 🟡 Medium |
+| Explain server components vs client components. | 🔴 Hard |
+| SQL vs NoSQL — how do you choose for a given workload? | 🟡 Medium |
+| Difference between controlled and uncontrolled inputs. | 🟢 Easy |
+| Explain how you handle concurrency / race conditions. | 🔴 Hard |
 
 ### 👔 Hiring Manager
 
@@ -220,20 +220,20 @@ _22 distinct questions in this round — top 15:_
 
 | Question | Difficulty |
 |---|---|
+| How do you handle disagreement with a product partner? | — |
 | How do you measure the success of a project after launch? | — |
 | How do you balance tech debt against feature work? | — |
-| How do you give difficult feedback to a peer? | — |
-| Tell me about a technical bet that did not pay off. | — |
 | What does a great engineering culture look like to you? | — |
 | Where do you want to grow in the next two years? | — |
-| How do you evaluate and adopt a new technology? | — |
-| How do you handle disagreement with a product partner? | — |
-| How do you run an incident and the postmortem after? | — |
-| What is the biggest system you have designed, and why those choices? | — |
-| How do you grow junior engineers on your team? | — |
+| Tell me about a technical bet that did not pay off. | — |
+| How do you give difficult feedback to a peer? | — |
 | How do you handle an underperforming teammate? | — |
+| What is the biggest system you have designed, and why those choices? | — |
+| How do you evaluate and adopt a new technology? | — |
+| How do you run an incident and the postmortem after? | — |
+| How do you grow junior engineers on your team? | — |
 | How do you keep a team unblocked and shipping? | — |
-| How do you decide what to build vs. buy vs. defer? | — |
+| Walk me through a technical trade-off you regret. | — |
 | Walk me through the architecture of a system you owned end to end. | — |
 
 ### 💬 Behavioral / HR
@@ -242,21 +242,21 @@ _30 distinct questions in this round — top 15:_
 
 | Question | Difficulty |
 |---|---|
-| Tell me about a time you failed and what you learned. | — |
-| Describe a conflict with your manager and the outcome. | — |
 | Tell me about a time you simplified something overly complex. | — |
+| Tell me about a time you failed and what you learned. | — |
+| Tell me about a time you led without a title. | — |
+| When did you have to make a decision with incomplete data? | — |
+| Tell me about a time you had to say no to a stakeholder. | — |
+| Describe a conflict with your manager and the outcome. | — |
+| Describe something you shipped that you were not proud of. | — |
 | A time you made a mistake in production — what happened next? | — |
 | Describe a goal you set and how you achieved it. | — |
-| When did you have to make a decision with incomplete data? | — |
-| Describe something you shipped that you were not proud of. | — |
-| Tell me about a time you had to say no to a stakeholder. | — |
-| Describe a time you improved a process or tool for your team. | — |
-| Tell me about a time you led without a title. | — |
+| Tell me about a time you had to learn something quickly. | — |
 | Tell me about a time you went above and beyond for a customer. | — |
+| Describe a time you improved a process or tool for your team. | — |
 | Describe working with an ambiguous or shifting requirement. | — |
-| Tell me about the hardest bug you have debugged. | — |
-| When did you take ownership of something outside your scope? | — |
-| Why this company, and why this role? | — |
+| A time you influenced a decision without authority. | — |
+| Describe mentoring or unblocking another engineer. | — |
 
 <!-- QUESTIONS_BY_ROUND:END -->
 
@@ -268,9 +268,9 @@ _30 distinct questions in this round — top 15:_
 - 🧑‍💻 **Filtered to you** — frontend, backend or full-stack, from intern to staff.
 - 🔗 **Practice links** — jump straight to LeetCode (API-verified problem slugs) or GeeksforGeeks for each coding question.
 - ✅ **Progress tracking** — tick off what you've solved; a dashboard breaks it down by round, difficulty, role and level. Saved in your browser — no account.
-- 🔎 **Instant search** — full-text over all 6,533 questions.
+- 🔎 **Instant search** — full-text over all 8,898 questions.
 - 🏷️ **Honest sourcing** — every question is labelled `curated`, `community`, `github` (MIT-licensed, linked) or `ai` (a *likely* question — never a fabricated experience).
-- 📄 **Just Markdown** — every interview is a file you can read right here. No database, no backend, 700+ static pages.
+- 📄 **Just Markdown** — every interview is a file you can read right here. No database, no backend, 900+ static pages.
 
 ---
 
@@ -289,11 +289,11 @@ Each round page also carries a **Topic bank**: extra practice questions imported
 
 <!-- CONTENT_INDEX:START -->
 
-**119 companies · 595 interview experiences · 6,533 questions.**
+**162 companies · 810 interview experiences · 8,898 questions.**
 
 Every link opens the raw Markdown — no website needed. ⭐ = featured · **`FE`** frontend · **`BE`** backend · **`FS`** full-stack.
 
-**Jump to:** [🏢 Big Tech](#-big-tech) <sup>5</sup> · [🤖 AI](#-ai) <sup>11</sup> · [💳 Fintech](#-fintech) <sup>21</sup> · [🧰 Developer Tools](#-developer-tools) <sup>22</sup> · [🛒 Consumer and Marketplace](#-consumer-and-marketplace) <sup>23</sup> · [💼 Enterprise and SaaS](#-enterprise-and-saas) <sup>19</sup> · [📊 Data and Analytics](#-data-and-analytics) <sup>4</sup> · [🔐 Security](#-security) <sup>5</sup> · [🚀 Hardware and Frontier](#-hardware-and-frontier) <sup>9</sup>
+**Jump to:** [🏢 Big Tech](#-big-tech) <sup>5</sup> · [🤖 AI](#-ai) <sup>11</sup> · [💳 Fintech](#-fintech) <sup>27</sup> · [💹 Finance and Trading](#-finance-and-trading) <sup>8</sup> · [🤝 IT Services and Consulting](#-it-services-and-consulting) <sup>9</sup> · [🧰 Developer Tools](#-developer-tools) <sup>26</sup> · [🛒 Consumer and Marketplace](#-consumer-and-marketplace) <sup>29</sup> · [💼 Enterprise and SaaS](#-enterprise-and-saas) <sup>24</sup> · [📊 Data and Analytics](#-data-and-analytics) <sup>4</sup> · [🔐 Security](#-security) <sup>5</sup> · [🚀 Hardware and Frontier](#-hardware-and-frontier) <sup>14</sup>
 
 ### 🏢 Big Tech
 
@@ -327,6 +327,7 @@ Every link opens the raw Markdown — no website needed. ⭐ = featured · **`FE
 |---|---|---:|---|
 | **[Stripe](content/companies/stripe.md)** ⭐ | Fintech | 51 | [Junior BE](content/interviews/stripe-1.md) · [Junior FE](content/interviews/stripe-4.md) · [Mid BE](content/interviews/stripe-5.md) · [Staff FE](content/interviews/stripe-2.md) · [Staff FS](content/interviews/stripe-3.md) |
 | **[Affirm](content/companies/affirm.md)** | Fintech | 51 | [Junior BE](content/interviews/affirm-3.md) · [Mid FE](content/interviews/affirm-1.md) · [Mid FS](content/interviews/affirm-2.md) · [Staff FE](content/interviews/affirm-4.md) · [Staff FS](content/interviews/affirm-5.md) |
+| **[American Express](content/companies/amex.md)** | Fintech | 55 | [Junior FS](content/interviews/amex-2.md) · [Mid FE](content/interviews/amex-4.md) · [Mid FS](content/interviews/amex-5.md) · [Senior BE](content/interviews/amex-3.md) · [Staff BE](content/interviews/amex-1.md) |
 | **[Block](content/companies/block.md)** | Fintech | 57 | [Junior BE](content/interviews/block-5.md) · [Junior FS](content/interviews/block-1.md) · [Mid FE](content/interviews/block-3.md) · [Mid FS](content/interviews/block-4.md) · [Senior BE](content/interviews/block-2.md) |
 | **[Brex](content/companies/brex.md)** | Fintech | 51 | [Junior BE](content/interviews/brex-1.md) · [Junior FE](content/interviews/brex-4.md) · [Mid BE](content/interviews/brex-5.md) · [Staff FE](content/interviews/brex-2.md) · [Staff FS](content/interviews/brex-3.md) |
 | **[Carta](content/companies/carta.md)** | Fintech | 57 | [Junior BE](content/interviews/carta-5.md) · [Junior FS](content/interviews/carta-1.md) · [Mid FE](content/interviews/carta-3.md) · [Mid FS](content/interviews/carta-4.md) · [Senior BE](content/interviews/carta-2.md) |
@@ -335,23 +336,57 @@ Every link opens the raw Markdown — no website needed. ⭐ = featured · **`FE
 | **[Gusto](content/companies/gusto.md)** | Fintech | 59 | [Junior FS](content/interviews/gusto-4.md) · [Senior BE](content/interviews/gusto-5.md) · [Senior FE](content/interviews/gusto-2.md) · [Senior FS](content/interviews/gusto-1.md) · [Staff BE](content/interviews/gusto-3.md) |
 | **[Intuit](content/companies/intuit.md)** | Fintech | 55 | [Junior BE](content/interviews/intuit-4.md) · [Mid FE](content/interviews/intuit-2.md) · [Mid FS](content/interviews/intuit-3.md) · [Senior BE](content/interviews/intuit-1.md) · [Staff FE](content/interviews/intuit-5.md) |
 | **[Klarna](content/companies/klarna.md)** | Fintech | 57 | [Junior FE](content/interviews/klarna-2.md) · [Mid BE](content/interviews/klarna-3.md) · [Senior FE](content/interviews/klarna-5.md) · [Senior FS](content/interviews/klarna-4.md) · [Staff FS](content/interviews/klarna-1.md) |
+| **[Mastercard](content/companies/mastercard.md)** | Fintech | 53 | [Junior FE](content/interviews/mastercard-3.md) · [Mid BE](content/interviews/mastercard-4.md) · [Senior FS](content/interviews/mastercard-5.md) · [Staff FE](content/interviews/mastercard-1.md) · [Staff FS](content/interviews/mastercard-2.md) |
 | **[Mercury](content/companies/mercury.md)** | Fintech | 51 | [Junior BE](content/interviews/mercury-1.md) · [Junior FE](content/interviews/mercury-4.md) · [Mid BE](content/interviews/mercury-5.md) · [Staff FE](content/interviews/mercury-2.md) · [Staff FS](content/interviews/mercury-3.md) |
 | **[Modern Treasury](content/companies/modern-treasury.md)** | Fintech | 51 | [Junior BE](content/interviews/modern-treasury-1.md) · [Junior FE](content/interviews/modern-treasury-4.md) · [Mid BE](content/interviews/modern-treasury-5.md) · [Staff FE](content/interviews/modern-treasury-2.md) · [Staff FS](content/interviews/modern-treasury-3.md) |
 | **[Monzo](content/companies/monzo.md)** | Fintech | 57 | [Junior FE](content/interviews/monzo-1.md) · [Mid BE](content/interviews/monzo-2.md) · [Senior FE](content/interviews/monzo-4.md) · [Senior FS](content/interviews/monzo-3.md) · [Staff BE](content/interviews/monzo-5.md) |
 | **[Nubank](content/companies/nubank.md)** | Fintech | 51 | [Junior BE](content/interviews/nubank-2.md) · [Junior FE](content/interviews/nubank-5.md) · [Mid FS](content/interviews/nubank-1.md) · [Staff FE](content/interviews/nubank-3.md) · [Staff FS](content/interviews/nubank-4.md) |
 | **[PayPal](content/companies/paypal.md)** | Fintech | 57 | [Junior FE](content/interviews/paypal-1.md) · [Mid BE](content/interviews/paypal-2.md) · [Senior FE](content/interviews/paypal-4.md) · [Senior FS](content/interviews/paypal-3.md) · [Staff BE](content/interviews/paypal-5.md) |
+| **[Paytm](content/companies/paytm.md)** | Fintech | 57 | [Junior FE](content/interviews/paytm-2.md) · [Mid BE](content/interviews/paytm-3.md) · [Senior FE](content/interviews/paytm-5.md) · [Senior FS](content/interviews/paytm-4.md) · [Staff FS](content/interviews/paytm-1.md) |
+| **[PhonePe](content/companies/phonepe.md)** | Fintech | 51 | [Junior BE](content/interviews/phonepe-1.md) · [Junior FE](content/interviews/phonepe-4.md) · [Mid BE](content/interviews/phonepe-5.md) · [Staff FE](content/interviews/phonepe-2.md) · [Staff FS](content/interviews/phonepe-3.md) |
 | **[Plaid](content/companies/plaid.md)** | Fintech | 57 | [Junior FS](content/interviews/plaid-5.md) · [Mid BE](content/interviews/plaid-1.md) · [Senior FE](content/interviews/plaid-3.md) · [Senior FS](content/interviews/plaid-2.md) · [Staff BE](content/interviews/plaid-4.md) |
 | **[Ramp](content/companies/ramp.md)** | Fintech | 57 | [Junior FS](content/interviews/ramp-5.md) · [Mid BE](content/interviews/ramp-1.md) · [Senior FE](content/interviews/ramp-3.md) · [Senior FS](content/interviews/ramp-2.md) · [Staff BE](content/interviews/ramp-4.md) |
+| **[Razorpay](content/companies/razorpay.md)** | Fintech | 59 | [Junior FS](content/interviews/razorpay-4.md) · [Senior BE](content/interviews/razorpay-5.md) · [Senior FE](content/interviews/razorpay-2.md) · [Senior FS](content/interviews/razorpay-1.md) · [Staff BE](content/interviews/razorpay-3.md) |
 | **[Revolut](content/companies/revolut.md)** | Fintech | 51 | [Junior BE](content/interviews/revolut-1.md) · [Junior FE](content/interviews/revolut-4.md) · [Mid BE](content/interviews/revolut-5.md) · [Staff FE](content/interviews/revolut-2.md) · [Staff FS](content/interviews/revolut-3.md) |
 | **[Robinhood](content/companies/robinhood.md)** | Fintech | 55 | [Junior BE](content/interviews/robinhood-4.md) · [Mid FE](content/interviews/robinhood-2.md) · [Mid FS](content/interviews/robinhood-3.md) · [Senior BE](content/interviews/robinhood-1.md) · [Staff FE](content/interviews/robinhood-5.md) |
 | **[Toast](content/companies/toast.md)** | Fintech | 55 | [Junior FS](content/interviews/toast-2.md) · [Mid FE](content/interviews/toast-4.md) · [Mid FS](content/interviews/toast-5.md) · [Senior BE](content/interviews/toast-3.md) · [Staff BE](content/interviews/toast-1.md) |
+| **[Visa](content/companies/visa.md)** | Fintech | 51 | [Junior BE](content/interviews/visa-1.md) · [Junior FE](content/interviews/visa-4.md) · [Mid BE](content/interviews/visa-5.md) · [Staff FE](content/interviews/visa-2.md) · [Staff FS](content/interviews/visa-3.md) |
 | **[Wise](content/companies/wise.md)** | Fintech | 57 | [Junior BE](content/interviews/wise-5.md) · [Junior FS](content/interviews/wise-1.md) · [Mid FE](content/interviews/wise-3.md) · [Mid FS](content/interviews/wise-4.md) · [Senior BE](content/interviews/wise-2.md) |
+
+### 💹 Finance and Trading
+
+| Company | Industry | Qs | Interview experiences |
+|---|---|---:|---|
+| **[Bloomberg](content/companies/bloomberg.md)** | Finance | 59 | [Junior FS](content/interviews/bloomberg-4.md) · [Senior BE](content/interviews/bloomberg-5.md) · [Senior FE](content/interviews/bloomberg-2.md) · [Senior FS](content/interviews/bloomberg-1.md) · [Staff BE](content/interviews/bloomberg-3.md) |
+| **[Capital One](content/companies/capital-one.md)** | Finance | 51 | [Junior BE](content/interviews/capital-one-1.md) · [Junior FE](content/interviews/capital-one-4.md) · [Mid BE](content/interviews/capital-one-5.md) · [Staff FE](content/interviews/capital-one-2.md) · [Staff FS](content/interviews/capital-one-3.md) |
+| **[Citadel](content/companies/citadel.md)** | Trading | 57 | [Junior FE](content/interviews/citadel-2.md) · [Mid BE](content/interviews/citadel-3.md) · [Senior FE](content/interviews/citadel-5.md) · [Senior FS](content/interviews/citadel-4.md) · [Staff FS](content/interviews/citadel-1.md) |
+| **[Goldman Sachs](content/companies/goldman-sachs.md)** | Finance | 51 | [Junior BE](content/interviews/goldman-sachs-1.md) · [Junior FE](content/interviews/goldman-sachs-4.md) · [Mid BE](content/interviews/goldman-sachs-5.md) · [Staff FE](content/interviews/goldman-sachs-2.md) · [Staff FS](content/interviews/goldman-sachs-3.md) |
+| **[Jane Street](content/companies/jane-street.md)** | Trading | 59 | [Junior FS](content/interviews/jane-street-4.md) · [Senior BE](content/interviews/jane-street-5.md) · [Senior FE](content/interviews/jane-street-2.md) · [Senior FS](content/interviews/jane-street-1.md) · [Staff BE](content/interviews/jane-street-3.md) |
+| **[JPMorgan Chase](content/companies/jpmorgan.md)** | Finance | 55 | [Junior FS](content/interviews/jpmorgan-2.md) · [Mid FE](content/interviews/jpmorgan-4.md) · [Mid FS](content/interviews/jpmorgan-5.md) · [Senior BE](content/interviews/jpmorgan-3.md) · [Staff BE](content/interviews/jpmorgan-1.md) |
+| **[Morgan Stanley](content/companies/morgan-stanley.md)** | Finance | 55 | [Junior FS](content/interviews/morgan-stanley-2.md) · [Mid FE](content/interviews/morgan-stanley-4.md) · [Mid FS](content/interviews/morgan-stanley-5.md) · [Senior BE](content/interviews/morgan-stanley-3.md) · [Staff BE](content/interviews/morgan-stanley-1.md) |
+| **[Two Sigma](content/companies/two-sigma.md)** | Trading | 59 | [Junior FS](content/interviews/two-sigma-4.md) · [Senior BE](content/interviews/two-sigma-5.md) · [Senior FE](content/interviews/two-sigma-2.md) · [Senior FS](content/interviews/two-sigma-1.md) · [Staff BE](content/interviews/two-sigma-3.md) |
+
+### 🤝 IT Services and Consulting
+
+| Company | Industry | Qs | Interview experiences |
+|---|---|---:|---|
+| **[Accenture](content/companies/accenture.md)** | IT Services | 51 | [Junior BE](content/interviews/accenture-3.md) · [Mid FE](content/interviews/accenture-1.md) · [Mid FS](content/interviews/accenture-2.md) · [Staff FE](content/interviews/accenture-4.md) · [Staff FS](content/interviews/accenture-5.md) |
+| **[Capgemini](content/companies/capgemini.md)** | IT Services | 57 | [Junior FE](content/interviews/capgemini-1.md) · [Mid BE](content/interviews/capgemini-2.md) · [Senior FE](content/interviews/capgemini-4.md) · [Senior FS](content/interviews/capgemini-3.md) · [Staff BE](content/interviews/capgemini-5.md) |
+| **[Cognizant](content/companies/cognizant.md)** | IT Services | 57 | [Junior FE](content/interviews/cognizant-1.md) · [Mid BE](content/interviews/cognizant-2.md) · [Senior FE](content/interviews/cognizant-4.md) · [Senior FS](content/interviews/cognizant-3.md) · [Staff BE](content/interviews/cognizant-5.md) |
+| **[Deloitte](content/companies/deloitte.md)** | Consulting | 57 | [Junior FS](content/interviews/deloitte-5.md) · [Mid BE](content/interviews/deloitte-1.md) · [Senior FE](content/interviews/deloitte-3.md) · [Senior FS](content/interviews/deloitte-2.md) · [Staff BE](content/interviews/deloitte-4.md) |
+| **[HCLTech](content/companies/hcltech.md)** | IT Services | 59 | [Junior FS](content/interviews/hcltech-4.md) · [Senior BE](content/interviews/hcltech-5.md) · [Senior FE](content/interviews/hcltech-2.md) · [Senior FS](content/interviews/hcltech-1.md) · [Staff BE](content/interviews/hcltech-3.md) |
+| **[Infosys](content/companies/infosys.md)** | IT Services | 55 | [Junior BE](content/interviews/infosys-4.md) · [Mid FE](content/interviews/infosys-2.md) · [Mid FS](content/interviews/infosys-3.md) · [Senior BE](content/interviews/infosys-1.md) · [Staff FE](content/interviews/infosys-5.md) |
+| **[TCS](content/companies/tcs.md)** | IT Services | 51 | [Junior BE](content/interviews/tcs-1.md) · [Junior FE](content/interviews/tcs-4.md) · [Mid BE](content/interviews/tcs-5.md) · [Staff FE](content/interviews/tcs-2.md) · [Staff FS](content/interviews/tcs-3.md) |
+| **[Tech Mahindra](content/companies/tech-mahindra.md)** | IT Services | 57 | [Junior FE](content/interviews/tech-mahindra-2.md) · [Mid BE](content/interviews/tech-mahindra-3.md) · [Senior FE](content/interviews/tech-mahindra-5.md) · [Senior FS](content/interviews/tech-mahindra-4.md) · [Staff FS](content/interviews/tech-mahindra-1.md) |
+| **[Wipro](content/companies/wipro.md)** | IT Services | 57 | [Junior FS](content/interviews/wipro-3.md) · [Mid FE](content/interviews/wipro-5.md) · [Senior BE](content/interviews/wipro-4.md) · [Senior FE](content/interviews/wipro-1.md) · [Staff BE](content/interviews/wipro-2.md) |
 
 ### 🧰 Developer Tools
 
 | Company | Industry | Qs | Interview experiences |
 |---|---|---:|---|
 | **[Cloudflare](content/companies/cloudflare.md)** ⭐ | Infrastructure | 51 | [Junior BE](content/interviews/cloudflare-3.md) · [Mid FE](content/interviews/cloudflare-1.md) · [Mid FS](content/interviews/cloudflare-2.md) · [Staff FE](content/interviews/cloudflare-4.md) · [Staff FS](content/interviews/cloudflare-5.md) |
+| **[Akamai](content/companies/akamai.md)** | Infrastructure | 51 | [Junior BE](content/interviews/akamai-1.md) · [Junior FE](content/interviews/akamai-4.md) · [Mid BE](content/interviews/akamai-5.md) · [Staff FE](content/interviews/akamai-2.md) · [Staff FS](content/interviews/akamai-3.md) |
+| **[Arista Networks](content/companies/arista.md)** | Networking | 51 | [Junior BE](content/interviews/arista-1.md) · [Junior FE](content/interviews/arista-4.md) · [Mid BE](content/interviews/arista-5.md) · [Staff FE](content/interviews/arista-2.md) · [Staff FS](content/interviews/arista-3.md) |
 | **[Cisco](content/companies/cisco.md)** | Networking | 51 | [Junior BE](content/interviews/cisco-3.md) · [Mid FE](content/interviews/cisco-1.md) · [Mid FS](content/interviews/cisco-2.md) · [Staff FE](content/interviews/cisco-4.md) · [Staff FS](content/interviews/cisco-5.md) |
 | **[Clerk](content/companies/clerk.md)** | Developer Platform | 55 | [Junior BE](content/interviews/clerk-4.md) · [Mid FE](content/interviews/clerk-2.md) · [Mid FS](content/interviews/clerk-3.md) · [Senior BE](content/interviews/clerk-1.md) · [Staff FE](content/interviews/clerk-5.md) |
 | **[Confluent](content/companies/confluent.md)** | Data Streaming | 55 | [Junior FS](content/interviews/confluent-2.md) · [Mid FE](content/interviews/confluent-4.md) · [Mid FS](content/interviews/confluent-5.md) · [Senior BE](content/interviews/confluent-3.md) · [Staff BE](content/interviews/confluent-1.md) |
@@ -362,10 +397,12 @@ Every link opens the raw Markdown — no website needed. ⭐ = featured · **`FE
 | **[HashiCorp](content/companies/hashicorp.md)** | Infrastructure | 59 | [Junior FS](content/interviews/hashicorp-4.md) · [Senior BE](content/interviews/hashicorp-5.md) · [Senior FE](content/interviews/hashicorp-2.md) · [Senior FS](content/interviews/hashicorp-1.md) · [Staff BE](content/interviews/hashicorp-3.md) |
 | **[LaunchDarkly](content/companies/launchdarkly.md)** | Developer Platform | 59 | [Junior FS](content/interviews/launchdarkly-4.md) · [Senior BE](content/interviews/launchdarkly-5.md) · [Senior FE](content/interviews/launchdarkly-2.md) · [Senior FS](content/interviews/launchdarkly-1.md) · [Staff BE](content/interviews/launchdarkly-3.md) |
 | **[MongoDB](content/companies/mongodb.md)** | Databases | 57 | [Junior FE](content/interviews/mongodb-2.md) · [Mid BE](content/interviews/mongodb-3.md) · [Senior FE](content/interviews/mongodb-5.md) · [Senior FS](content/interviews/mongodb-4.md) · [Staff FS](content/interviews/mongodb-1.md) |
+| **[Nutanix](content/companies/nutanix.md)** | Infrastructure | 57 | [Junior FS](content/interviews/nutanix-3.md) · [Mid FE](content/interviews/nutanix-5.md) · [Senior BE](content/interviews/nutanix-4.md) · [Senior FE](content/interviews/nutanix-1.md) · [Staff BE](content/interviews/nutanix-2.md) |
 | **[PlanetScale](content/companies/planetscale.md)** | Databases | 59 | [Junior FS](content/interviews/planetscale-4.md) · [Senior BE](content/interviews/planetscale-5.md) · [Senior FE](content/interviews/planetscale-2.md) · [Senior FS](content/interviews/planetscale-1.md) · [Staff BE](content/interviews/planetscale-3.md) |
 | **[Postman](content/companies/postman.md)** | Developer Platform | 55 | [Junior BE](content/interviews/postman-4.md) · [Mid FE](content/interviews/postman-2.md) · [Mid FS](content/interviews/postman-3.md) · [Senior BE](content/interviews/postman-1.md) · [Staff FE](content/interviews/postman-5.md) |
 | **[Retool](content/companies/retool.md)** | Developer Platform | 53 | [Junior FE](content/interviews/retool-3.md) · [Mid BE](content/interviews/retool-4.md) · [Senior FS](content/interviews/retool-5.md) · [Staff FE](content/interviews/retool-1.md) · [Staff FS](content/interviews/retool-2.md) |
 | **[Sentry](content/companies/sentry.md)** | Observability | 57 | [Junior FE](content/interviews/sentry-2.md) · [Mid BE](content/interviews/sentry-3.md) · [Senior FE](content/interviews/sentry-5.md) · [Senior FS](content/interviews/sentry-4.md) · [Staff FS](content/interviews/sentry-1.md) |
+| **[Splunk](content/companies/splunk.md)** | Observability | 57 | [Junior FS](content/interviews/splunk-5.md) · [Mid BE](content/interviews/splunk-1.md) · [Senior FE](content/interviews/splunk-3.md) · [Senior FS](content/interviews/splunk-2.md) · [Staff BE](content/interviews/splunk-4.md) |
 | **[Supabase](content/companies/supabase.md)** | Developer Platform | 51 | [Junior BE](content/interviews/supabase-2.md) · [Junior FE](content/interviews/supabase-5.md) · [Mid FS](content/interviews/supabase-1.md) · [Staff FE](content/interviews/supabase-3.md) · [Staff FS](content/interviews/supabase-4.md) |
 | **[Temporal](content/companies/temporal.md)** | Developer Platform | 55 | [Junior BE](content/interviews/temporal-4.md) · [Mid FE](content/interviews/temporal-2.md) · [Mid FS](content/interviews/temporal-3.md) · [Senior BE](content/interviews/temporal-1.md) · [Staff FE](content/interviews/temporal-5.md) |
 | **[Twilio](content/companies/twilio.md)** | Developer Platform | 53 | [Junior FE](content/interviews/twilio-3.md) · [Mid BE](content/interviews/twilio-4.md) · [Senior FS](content/interviews/twilio-5.md) · [Staff FE](content/interviews/twilio-1.md) · [Staff FS](content/interviews/twilio-2.md) |
@@ -382,12 +419,15 @@ Every link opens the raw Markdown — no website needed. ⭐ = featured · **`FE
 | **[LinkedIn](content/companies/linkedin.md)** ⭐ | Consumer Internet | 51 | [Junior BE](content/interviews/linkedin-2.md) · [Junior FE](content/interviews/linkedin-5.md) · [Mid FS](content/interviews/linkedin-1.md) · [Staff FE](content/interviews/linkedin-3.md) · [Staff FS](content/interviews/linkedin-4.md) |
 | **[Netflix](content/companies/netflix.md)** ⭐ | Streaming | 51 | [Junior BE](content/interviews/netflix-3.md) · [Mid FE](content/interviews/netflix-1.md) · [Mid FS](content/interviews/netflix-2.md) · [Staff FE](content/interviews/netflix-4.md) · [Staff FS](content/interviews/netflix-5.md) |
 | **[Uber](content/companies/uber.md)** ⭐ | Marketplace | 59 | [Junior FS](content/interviews/uber-4.md) · [Senior BE](content/interviews/uber-5.md) · [Senior FE](content/interviews/uber-2.md) · [Senior FS](content/interviews/uber-1.md) · [Staff BE](content/interviews/uber-3.md) |
+| **[Booking.com](content/companies/booking.md)** | Marketplace | 51 | [Junior BE](content/interviews/booking-3.md) · [Mid FE](content/interviews/booking-1.md) · [Mid FS](content/interviews/booking-2.md) · [Staff FE](content/interviews/booking-4.md) · [Staff FS](content/interviews/booking-5.md) |
 | **[ByteDance](content/companies/bytedance.md)** | Consumer Internet | 51 | [Junior BE](content/interviews/bytedance-1.md) · [Junior FE](content/interviews/bytedance-4.md) · [Mid BE](content/interviews/bytedance-5.md) · [Staff FE](content/interviews/bytedance-2.md) · [Staff FS](content/interviews/bytedance-3.md) |
 | **[Coursera](content/companies/coursera.md)** | EdTech | 55 | [Junior FS](content/interviews/coursera-2.md) · [Mid FE](content/interviews/coursera-4.md) · [Mid FS](content/interviews/coursera-5.md) · [Senior BE](content/interviews/coursera-3.md) · [Staff BE](content/interviews/coursera-1.md) |
 | **[Discord](content/companies/discord.md)** | Consumer Internet | 57 | [Junior FE](content/interviews/discord-2.md) · [Mid BE](content/interviews/discord-3.md) · [Senior FE](content/interviews/discord-5.md) · [Senior FS](content/interviews/discord-4.md) · [Staff FS](content/interviews/discord-1.md) |
 | **[DoorDash](content/companies/doordash.md)** | Marketplace | 55 | [Junior BE](content/interviews/doordash-4.md) · [Mid FE](content/interviews/doordash-2.md) · [Mid FS](content/interviews/doordash-3.md) · [Senior BE](content/interviews/doordash-1.md) · [Staff FE](content/interviews/doordash-5.md) |
 | **[eBay](content/companies/ebay.md)** | E-commerce | 57 | [Junior FS](content/interviews/ebay-3.md) · [Mid FE](content/interviews/ebay-5.md) · [Senior BE](content/interviews/ebay-4.md) · [Senior FE](content/interviews/ebay-1.md) · [Staff BE](content/interviews/ebay-2.md) |
 | **[Etsy](content/companies/etsy.md)** | E-commerce | 51 | [Junior BE](content/interviews/etsy-1.md) · [Junior FE](content/interviews/etsy-4.md) · [Mid BE](content/interviews/etsy-5.md) · [Staff FE](content/interviews/etsy-2.md) · [Staff FS](content/interviews/etsy-3.md) |
+| **[Expedia](content/companies/expedia.md)** | Marketplace | 57 | [Junior FE](content/interviews/expedia-2.md) · [Mid BE](content/interviews/expedia-3.md) · [Senior FE](content/interviews/expedia-5.md) · [Senior FS](content/interviews/expedia-4.md) · [Staff FS](content/interviews/expedia-1.md) |
+| **[Flipkart](content/companies/flipkart.md)** | E-commerce | 55 | [Junior BE](content/interviews/flipkart-4.md) · [Mid FE](content/interviews/flipkart-2.md) · [Mid FS](content/interviews/flipkart-3.md) · [Senior BE](content/interviews/flipkart-1.md) · [Staff FE](content/interviews/flipkart-5.md) |
 | **[Instacart](content/companies/instacart.md)** | Marketplace | 57 | [Junior BE](content/interviews/instacart-5.md) · [Junior FS](content/interviews/instacart-1.md) · [Mid FE](content/interviews/instacart-3.md) · [Mid FS](content/interviews/instacart-4.md) · [Senior BE](content/interviews/instacart-2.md) |
 | **[Lyft](content/companies/lyft.md)** | Marketplace | 51 | [Junior BE](content/interviews/lyft-2.md) · [Junior FE](content/interviews/lyft-5.md) · [Mid FS](content/interviews/lyft-1.md) · [Staff FE](content/interviews/lyft-3.md) · [Staff FS](content/interviews/lyft-4.md) |
 | **[Pinterest](content/companies/pinterest.md)** | Consumer Internet | 57 | [Junior FS](content/interviews/pinterest-3.md) · [Mid FE](content/interviews/pinterest-5.md) · [Senior BE](content/interviews/pinterest-4.md) · [Senior FE](content/interviews/pinterest-1.md) · [Staff BE](content/interviews/pinterest-2.md) |
@@ -396,11 +436,14 @@ Every link opens the raw Markdown — no website needed. ⭐ = featured · **`FE
 | **[Shopify](content/companies/shopify.md)** | E-commerce | 55 | [Junior FS](content/interviews/shopify-2.md) · [Mid FE](content/interviews/shopify-4.md) · [Mid FS](content/interviews/shopify-5.md) · [Senior BE](content/interviews/shopify-3.md) · [Staff BE](content/interviews/shopify-1.md) |
 | **[Snap](content/companies/snap.md)** | Consumer Internet | 53 | [Junior FE](content/interviews/snap-3.md) · [Mid BE](content/interviews/snap-4.md) · [Senior FS](content/interviews/snap-5.md) · [Staff FE](content/interviews/snap-1.md) · [Staff FS](content/interviews/snap-2.md) |
 | **[Spotify](content/companies/spotify.md)** | Streaming | 57 | [Junior BE](content/interviews/spotify-5.md) · [Junior FS](content/interviews/spotify-1.md) · [Mid FE](content/interviews/spotify-3.md) · [Mid FS](content/interviews/spotify-4.md) · [Senior BE](content/interviews/spotify-2.md) |
+| **[Swiggy](content/companies/swiggy.md)** | Marketplace | 51 | [Junior BE](content/interviews/swiggy-2.md) · [Junior FE](content/interviews/swiggy-5.md) · [Mid FS](content/interviews/swiggy-1.md) · [Staff FE](content/interviews/swiggy-3.md) · [Staff FS](content/interviews/swiggy-4.md) |
 | **[Twitch](content/companies/twitch.md)** | Streaming | 59 | [Junior FS](content/interviews/twitch-4.md) · [Senior BE](content/interviews/twitch-5.md) · [Senior FE](content/interviews/twitch-2.md) · [Senior FS](content/interviews/twitch-1.md) · [Staff BE](content/interviews/twitch-3.md) |
 | **[Unity](content/companies/unity.md)** | Gaming | 57 | [Junior FS](content/interviews/unity-5.md) · [Mid BE](content/interviews/unity-1.md) · [Senior FE](content/interviews/unity-3.md) · [Senior FS](content/interviews/unity-2.md) · [Staff BE](content/interviews/unity-4.md) |
+| **[Walmart Global Tech](content/companies/walmart.md)** | E-commerce | 51 | [Junior BE](content/interviews/walmart-3.md) · [Mid FE](content/interviews/walmart-1.md) · [Mid FS](content/interviews/walmart-2.md) · [Staff FE](content/interviews/walmart-4.md) · [Staff FS](content/interviews/walmart-5.md) |
 | **[Wayfair](content/companies/wayfair.md)** | E-commerce | 51 | [Junior BE](content/interviews/wayfair-1.md) · [Junior FE](content/interviews/wayfair-4.md) · [Mid BE](content/interviews/wayfair-5.md) · [Staff FE](content/interviews/wayfair-2.md) · [Staff FS](content/interviews/wayfair-3.md) |
 | **[X](content/companies/x.md)** | Consumer Internet | 57 | [Junior FE](content/interviews/x-2.md) · [Mid BE](content/interviews/x-3.md) · [Senior FE](content/interviews/x-5.md) · [Senior FS](content/interviews/x-4.md) · [Staff FS](content/interviews/x-1.md) |
 | **[Yelp](content/companies/yelp.md)** | Consumer Internet | 57 | [Junior FE](content/interviews/yelp-1.md) · [Mid BE](content/interviews/yelp-2.md) · [Senior FE](content/interviews/yelp-4.md) · [Senior FS](content/interviews/yelp-3.md) · [Staff BE](content/interviews/yelp-5.md) |
+| **[Zomato](content/companies/zomato.md)** | Marketplace | 57 | [Junior BE](content/interviews/zomato-5.md) · [Junior FS](content/interviews/zomato-1.md) · [Mid FE](content/interviews/zomato-3.md) · [Mid FS](content/interviews/zomato-4.md) · [Senior BE](content/interviews/zomato-2.md) |
 
 ### 💼 Enterprise and SaaS
 
@@ -414,6 +457,7 @@ Every link opens the raw Markdown — no website needed. ⭐ = featured · **`FE
 | **[Deel](content/companies/deel.md)** | HR Tech | 57 | [Junior FE](content/interviews/deel-2.md) · [Mid BE](content/interviews/deel-3.md) · [Senior FE](content/interviews/deel-5.md) · [Senior FS](content/interviews/deel-4.md) · [Staff FS](content/interviews/deel-1.md) |
 | **[Dropbox](content/companies/dropbox.md)** | Cloud Storage | 55 | [Junior FS](content/interviews/dropbox-2.md) · [Mid FE](content/interviews/dropbox-4.md) · [Mid FS](content/interviews/dropbox-5.md) · [Senior BE](content/interviews/dropbox-3.md) · [Staff BE](content/interviews/dropbox-1.md) |
 | **[Figma](content/companies/figma.md)** | Design Software | 55 | [Junior FS](content/interviews/figma-2.md) · [Mid FE](content/interviews/figma-4.md) · [Mid FS](content/interviews/figma-5.md) · [Senior BE](content/interviews/figma-3.md) · [Staff BE](content/interviews/figma-1.md) |
+| **[Freshworks](content/companies/freshworks.md)** | SaaS | 57 | [Junior BE](content/interviews/freshworks-5.md) · [Junior FS](content/interviews/freshworks-1.md) · [Mid FE](content/interviews/freshworks-3.md) · [Mid FS](content/interviews/freshworks-4.md) · [Senior BE](content/interviews/freshworks-2.md) |
 | **[Grammarly](content/companies/grammarly.md)** | Productivity | 51 | [Junior BE](content/interviews/grammarly-2.md) · [Junior FE](content/interviews/grammarly-5.md) · [Mid FS](content/interviews/grammarly-1.md) · [Staff FE](content/interviews/grammarly-3.md) · [Staff FS](content/interviews/grammarly-4.md) |
 | **[IBM](content/companies/ibm.md)** | Enterprise Software | 57 | [Junior FE](content/interviews/ibm-2.md) · [Mid BE](content/interviews/ibm-3.md) · [Senior FE](content/interviews/ibm-5.md) · [Senior FS](content/interviews/ibm-4.md) · [Staff FS](content/interviews/ibm-1.md) |
 | **[Linear](content/companies/linear.md)** | Productivity | 55 | [Junior BE](content/interviews/linear-4.md) · [Mid FE](content/interviews/linear-2.md) · [Mid FS](content/interviews/linear-3.md) · [Senior BE](content/interviews/linear-1.md) · [Staff FE](content/interviews/linear-5.md) |
@@ -423,7 +467,11 @@ Every link opens the raw Markdown — no website needed. ⭐ = featured · **`FE
 | **[Palantir](content/companies/palantir.md)** | Enterprise Software | 53 | [Junior FE](content/interviews/palantir-3.md) · [Mid BE](content/interviews/palantir-4.md) · [Senior FS](content/interviews/palantir-5.md) · [Staff FE](content/interviews/palantir-1.md) · [Staff FS](content/interviews/palantir-2.md) |
 | **[Rippling](content/companies/rippling.md)** | SaaS | 59 | [Junior FS](content/interviews/rippling-4.md) · [Senior BE](content/interviews/rippling-5.md) · [Senior FE](content/interviews/rippling-2.md) · [Senior FS](content/interviews/rippling-1.md) · [Staff BE](content/interviews/rippling-3.md) |
 | **[Salesforce](content/companies/salesforce.md)** | Enterprise SaaS | 53 | [Junior FE](content/interviews/salesforce-3.md) · [Mid BE](content/interviews/salesforce-4.md) · [Senior FS](content/interviews/salesforce-5.md) · [Staff FE](content/interviews/salesforce-1.md) · [Staff FS](content/interviews/salesforce-2.md) |
+| **[SAP](content/companies/sap.md)** | Enterprise Software | 57 | [Junior FS](content/interviews/sap-5.md) · [Mid BE](content/interviews/sap-1.md) · [Senior FE](content/interviews/sap-3.md) · [Senior FS](content/interviews/sap-2.md) · [Staff BE](content/interviews/sap-4.md) |
+| **[ServiceNow](content/companies/servicenow.md)** | Enterprise SaaS | 57 | [Junior FE](content/interviews/servicenow-1.md) · [Mid BE](content/interviews/servicenow-2.md) · [Senior FE](content/interviews/servicenow-4.md) · [Senior FS](content/interviews/servicenow-3.md) · [Staff BE](content/interviews/servicenow-5.md) |
 | **[Slack](content/companies/slack.md)** | SaaS | 57 | [Junior FS](content/interviews/slack-3.md) · [Mid FE](content/interviews/slack-5.md) · [Senior BE](content/interviews/slack-4.md) · [Senior FE](content/interviews/slack-1.md) · [Staff BE](content/interviews/slack-2.md) |
+| **[Workday](content/companies/workday.md)** | Enterprise SaaS | 55 | [Junior BE](content/interviews/workday-4.md) · [Mid FE](content/interviews/workday-2.md) · [Mid FS](content/interviews/workday-3.md) · [Senior BE](content/interviews/workday-1.md) · [Staff FE](content/interviews/workday-5.md) |
+| **[Zoho](content/companies/zoho.md)** | SaaS | 55 | [Junior BE](content/interviews/zoho-4.md) · [Mid FE](content/interviews/zoho-2.md) · [Mid FS](content/interviews/zoho-3.md) · [Senior BE](content/interviews/zoho-1.md) · [Staff FE](content/interviews/zoho-5.md) |
 | **[Zoom](content/companies/zoom.md)** | SaaS | 55 | [Junior FS](content/interviews/zoom-2.md) · [Mid FE](content/interviews/zoom-4.md) · [Mid FS](content/interviews/zoom-5.md) · [Senior BE](content/interviews/zoom-3.md) · [Staff BE](content/interviews/zoom-1.md) |
 
 ### 📊 Data and Analytics
@@ -450,12 +498,17 @@ Every link opens the raw Markdown — no website needed. ⭐ = featured · **`FE
 | Company | Industry | Qs | Interview experiences |
 |---|---|---:|---|
 | **[Tesla](content/companies/tesla.md)** ⭐ | Automotive | 57 | [Junior FE](content/interviews/tesla-1.md) · [Mid BE](content/interviews/tesla-2.md) · [Senior FE](content/interviews/tesla-4.md) · [Senior FS](content/interviews/tesla-3.md) · [Staff BE](content/interviews/tesla-5.md) |
+| **[AMD](content/companies/amd.md)** | Semiconductors | 57 | [Junior FE](content/interviews/amd-1.md) · [Mid BE](content/interviews/amd-2.md) · [Senior FE](content/interviews/amd-4.md) · [Senior FS](content/interviews/amd-3.md) · [Staff BE](content/interviews/amd-5.md) |
 | **[Anduril](content/companies/anduril.md)** | Defense Tech | 51 | [Junior BE](content/interviews/anduril-1.md) · [Junior FE](content/interviews/anduril-4.md) · [Mid BE](content/interviews/anduril-5.md) · [Staff FE](content/interviews/anduril-2.md) · [Staff FS](content/interviews/anduril-3.md) |
+| **[Broadcom](content/companies/broadcom.md)** | Semiconductors | 53 | [Junior FE](content/interviews/broadcom-3.md) · [Mid BE](content/interviews/broadcom-4.md) · [Senior FS](content/interviews/broadcom-5.md) · [Staff FE](content/interviews/broadcom-1.md) · [Staff FS](content/interviews/broadcom-2.md) |
 | **[Cruise](content/companies/cruise.md)** | Autonomous Vehicles | 57 | [Junior FS](content/interviews/cruise-5.md) · [Mid BE](content/interviews/cruise-1.md) · [Senior FE](content/interviews/cruise-3.md) · [Senior FS](content/interviews/cruise-2.md) · [Staff BE](content/interviews/cruise-4.md) |
 | **[Flexport](content/companies/flexport.md)** | Logistics | 57 | [Junior FE](content/interviews/flexport-1.md) · [Mid BE](content/interviews/flexport-2.md) · [Senior FE](content/interviews/flexport-4.md) · [Senior FS](content/interviews/flexport-3.md) · [Staff BE](content/interviews/flexport-5.md) |
+| **[Intel](content/companies/intel.md)** | Semiconductors | 51 | [Junior BE](content/interviews/intel-1.md) · [Junior FE](content/interviews/intel-4.md) · [Mid BE](content/interviews/intel-5.md) · [Staff FE](content/interviews/intel-2.md) · [Staff FS](content/interviews/intel-3.md) |
+| **[Micron](content/companies/micron.md)** | Semiconductors | 57 | [Junior FE](content/interviews/micron-1.md) · [Mid BE](content/interviews/micron-2.md) · [Senior FE](content/interviews/micron-4.md) · [Senior FS](content/interviews/micron-3.md) · [Staff BE](content/interviews/micron-5.md) |
 | **[Nvidia](content/companies/nvidia.md)** | Semiconductors | 57 | [Junior FS](content/interviews/nvidia-3.md) · [Mid FE](content/interviews/nvidia-5.md) · [Senior BE](content/interviews/nvidia-4.md) · [Senior FE](content/interviews/nvidia-1.md) · [Staff BE](content/interviews/nvidia-2.md) |
 | **[Qualcomm](content/companies/qualcomm.md)** | Semiconductors | 53 | [Junior FE](content/interviews/qualcomm-3.md) · [Mid BE](content/interviews/qualcomm-4.md) · [Senior FS](content/interviews/qualcomm-5.md) · [Staff FE](content/interviews/qualcomm-1.md) · [Staff FS](content/interviews/qualcomm-2.md) |
 | **[Samsara](content/companies/samsara.md)** | IoT | 53 | [Junior FE](content/interviews/samsara-3.md) · [Mid BE](content/interviews/samsara-4.md) · [Senior FS](content/interviews/samsara-5.md) · [Staff FE](content/interviews/samsara-1.md) · [Staff FS](content/interviews/samsara-2.md) |
+| **[Samsung](content/companies/samsung.md)** | Semiconductors | 55 | [Junior BE](content/interviews/samsung-4.md) · [Mid FE](content/interviews/samsung-2.md) · [Mid FS](content/interviews/samsung-3.md) · [Senior BE](content/interviews/samsung-1.md) · [Staff FE](content/interviews/samsung-5.md) |
 | **[SpaceX](content/companies/spacex.md)** | Aerospace | 53 | [Junior FE](content/interviews/spacex-3.md) · [Mid BE](content/interviews/spacex-4.md) · [Senior FS](content/interviews/spacex-5.md) · [Staff FE](content/interviews/spacex-1.md) · [Staff FS](content/interviews/spacex-2.md) |
 | **[Waymo](content/companies/waymo.md)** | Autonomous Vehicles | 55 | [Junior BE](content/interviews/waymo-4.md) · [Mid FE](content/interviews/waymo-2.md) · [Mid FS](content/interviews/waymo-3.md) · [Senior BE](content/interviews/waymo-1.md) · [Staff FE](content/interviews/waymo-5.md) |
 
@@ -497,7 +550,7 @@ The Loop is **not affiliated with any company listed here.** Content is either c
 
 ## 🛠️ Built with
 
-Next.js 16 · React 19 · Tailwind CSS v4 · TypeScript — **fully static, no database.** All content lives as Markdown in `content/`; the site prerenders 700+ pages, and search + progress run entirely client-side.
+Next.js 16 · React 19 · Tailwind CSS v4 · TypeScript — **fully static, no database.** All content lives as Markdown in `content/`; the site prerenders 900+ pages, and search + progress run entirely client-side.
 
 **Running it locally or contributing code? → [docs/DEVELOPMENT.md](docs/DEVELOPMENT.md)**
 

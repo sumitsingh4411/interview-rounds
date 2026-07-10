@@ -80,6 +80,12 @@ const CATEGORIES: { name: string; emoji: string; industries: string[] }[] = [
   { name: 'Big Tech', emoji: '🏢', industries: ['Big Tech'] },
   { name: 'AI', emoji: '🤖', industries: ['AI', 'Data & AI'] },
   { name: 'Fintech', emoji: '💳', industries: ['Fintech'] },
+  { name: 'Finance and Trading', emoji: '💹', industries: ['Finance', 'Trading'] },
+  {
+    name: 'IT Services and Consulting',
+    emoji: '🤝',
+    industries: ['IT Services', 'Consulting'],
+  },
   {
     name: 'Developer Tools',
     emoji: '🧰',
