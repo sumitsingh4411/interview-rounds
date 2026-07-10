@@ -80,7 +80,7 @@ const NAV: {
   icon: ReactNode;
 }[] = [
   { href: '/companies', label: 'Companies', icon: <CompaniesIcon /> },
-  { href: '/rounds/dsa', label: 'Rounds', match: '/rounds', icon: <RoundsIcon /> },
+  { href: '/rounds', label: 'Rounds', match: '/rounds', icon: <RoundsIcon /> },
   { href: '/questions', label: 'Questions', icon: <QuestionsIcon /> },
   { href: '/search', label: 'Search', icon: <SearchIcon /> },
   { href: '/progress', label: 'Progress', icon: <ProgressIcon /> },
