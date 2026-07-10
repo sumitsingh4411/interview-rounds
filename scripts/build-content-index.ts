@@ -28,6 +28,67 @@ const ROLE_ABBR: Record<string, string> = {
 };
 const LEVEL_RANK = ['intern', 'junior', 'mid', 'senior', 'staff'];
 
+/**
+ * 119 companies in one table is a wall. Grouping them into a handful of
+ * sections keeps every company visible while staying scannable.
+ * Any industry missing from this map lands in "More" — nothing is ever dropped.
+ */
+const CATEGORIES: { name: string; emoji: string; industries: string[] }[] = [
+  { name: 'Big Tech', emoji: '🏢', industries: ['Big Tech'] },
+  { name: 'AI', emoji: '🤖', industries: ['AI', 'Data & AI'] },
+  { name: 'Fintech', emoji: '💳', industries: ['Fintech'] },
+  {
+    name: 'Developer Tools',
+    emoji: '🧰',
+    industries: ['Developer Platform', 'Infrastructure', 'Databases', 'Data Streaming', 'Observability', 'Networking', 'Automation'],
+  },
+  {
+    name: 'Consumer and Marketplace',
+    emoji: '🛒',
+    industries: ['Consumer Internet', 'Marketplace', 'E-commerce', 'Streaming', 'Gaming', 'EdTech'],
+  },
+  {
+    name: 'Enterprise and SaaS',
+    emoji: '💼',
+    industries: ['Enterprise Software', 'Enterprise SaaS', 'SaaS', 'Productivity', 'Design Software', 'Creative Software', 'Cloud Storage', 'HR Tech'],
+  },
+  { name: 'Data and Analytics', emoji: '📊', industries: ['Data', 'Analytics'] },
+  { name: 'Security', emoji: '🔐', industries: ['Security'] },
+  {
+    name: 'Hardware and Frontier',
+    emoji: '🚀',
+    industries: ['Semiconductors', 'Automotive', 'Autonomous Vehicles', 'Aerospace', 'Defense Tech', 'IoT', 'Logistics'],
+  },
+];
+
+/**
+ * Reproduces GitHub's heading-slug rule, derived by reading the ids off the
+ * rendered README: the emoji's base character is stripped, but a trailing
+ * VARIATION SELECTOR (U+FE0F) is not — "## ▶️ Try it live" becomes
+ * "️-try-it-live", not "-try-it-live". Category emoji are therefore chosen
+ * without a variation selector (see the guard below) so anchors stay clean.
+ */
+function anchorFor(heading: string): string {
+  return (
+    '#' +
+    heading
+      .toLowerCase()
+      .replace(/[^\w\- ️]/g, '')
+      .replace(/\s/g, '-')
+  );
+}
+
+/** An emoji with U+FE0F would leave an invisible character in every jump link. */
+function assertNoVariationSelectors() {
+  const bad = CATEGORIES.filter((c) => /️/.test(c.emoji)).map((c) => c.name);
+  if (bad.length > 0) {
+    console.error(
+      `✖ Category emoji contain a variation selector (U+FE0F), which corrupts the anchor: ${bad.join(', ')}. Pick an emoji without one.`,
+    );
+    process.exit(1);
+  }
+}
+
 type Company = {
   name: string;
   slug: string;
@@ -111,12 +172,40 @@ function main() {
             `[${LEVEL_SHORT[iv.level] ?? iv.level} ${ROLE_ABBR[iv.role] ?? iv.role}](content/interviews/${iv.id}.md)`,
         )
         .join(' · ');
-      return `| **[${c.name}](content/companies/${c.slug}.md)** | ${c.industry} | ${questionsFor(c.slug)} | ${links || '—'} |`;
+      const star = c.featured ? ' ⭐' : '';
+      return `| **[${c.name}](content/companies/${c.slug}.md)**${star} | ${c.industry} | ${questionsFor(c.slug)} | ${links || '—'} |`;
     });
   }
 
-  const featured = companies.filter((c) => c.featured);
-  const rest = companies.filter((c) => !c.featured);
+  // Bucket every company into exactly one category (featured first, then A–Z).
+  const industryToCategory = new Map<string, string>();
+  for (const c of CATEGORIES) {
+    for (const ind of c.industries) industryToCategory.set(ind, c.name);
+  }
+
+  const buckets = new Map<string, Company[]>();
+  const unmapped = new Set<string>();
+  for (const co of companies) {
+    const cat = industryToCategory.get(co.industry);
+    if (!cat) unmapped.add(co.industry);
+    const key = cat ?? 'More';
+    (buckets.get(key) ?? buckets.set(key, []).get(key)!).push(co);
+  }
+  if (unmapped.size > 0) {
+    console.warn(`  ⚠ industries not in CATEGORIES (grouped under "More"): ${[...unmapped].join(', ')}`);
+  }
+
+  const sections = [
+    ...CATEGORIES.map((c) => ({ ...c, list: buckets.get(c.name) ?? [] })),
+    { name: 'More', emoji: '📦', industries: [], list: buckets.get('More') ?? [] },
+  ].filter((s) => s.list.length > 0);
+
+  // Nothing may be silently dropped.
+  const grouped = sections.reduce((n, s) => n + s.list.length, 0);
+  if (grouped !== companies.length) {
+    console.error(`✖ Grouped ${grouped} companies but have ${companies.length}.`);
+    process.exit(1);
+  }
 
   const lines: string[] = [];
   lines.push(
@@ -124,21 +213,20 @@ function main() {
   );
   lines.push('');
   lines.push(
-    'Every link opens the raw Markdown — no website needed. **`FE`** frontend · **`BE`** backend · **`FS`** full-stack.',
+    'Every link opens the raw Markdown — no website needed. ⭐ = featured · **`FE`** frontend · **`BE`** backend · **`FS`** full-stack.',
   );
   lines.push('');
-  lines.push('### ⭐ Featured');
-  lines.push('');
-  lines.push(...TABLE_HEAD, ...rowsFor(featured));
-  lines.push('');
-  lines.push('<details>');
+  assertNoVariationSelectors();
   lines.push(
-    `<summary><b>📂 Browse all ${companies.length} companies</b> — ${rest.length} more, A–Z</summary>`,
+    `**Jump to:** ${sections.map((s) => `[${s.emoji} ${s.name}](${anchorFor(`${s.emoji} ${s.name}`)}) <sup>${s.list.length}</sup>`).join(' · ')}`,
   );
-  lines.push('');
-  lines.push(...TABLE_HEAD, ...rowsFor(rest));
-  lines.push('');
-  lines.push('</details>');
+
+  for (const s of sections) {
+    lines.push('');
+    lines.push(`### ${s.emoji} ${s.name}`);
+    lines.push('');
+    lines.push(...TABLE_HEAD, ...rowsFor(s.list));
+  }
 
   const block = `${START}\n\n${lines.join('\n')}\n\n${END}`;
 
