@@ -53,7 +53,7 @@ Every question here is tagged to one of these stages. Knowing which round you're
 |---|---|---|
 | 🧪 **Online Assessment** — `oa` | Timed coding / aptitude screen, usually the first filter | Speed + correctness under a clock |
 | 🧩 **DSA / Coding** — `dsa` | Data structures & algorithms | Problem-solving and complexity |
-| ⚙️ **Machine Coding** — `machine_coding` | Build a working component or service under time pressure | Clean, working code, fast |
+| 🔧 **Machine Coding** — `machine_coding` | Build a working component or service under time pressure | Clean, working code, fast |
 | 🧱 **Low-Level Design** — `lld` | Object-oriented design of one focused module | Classes, interfaces, patterns |
 | 🌐 **System Design** — `system_design` | High-level architecture of a large-scale system | Trade-offs at scale |
 | 🔬 **Tech Deep-Dive** — `tech_deep_dive` | Deep questions on your core stack & fundamentals | Real depth, not memorization |
@@ -71,6 +71,170 @@ Which rounds you get depends on the level. The usual shape:
 | **Mid** | DSA → Machine Coding → LLD → Tech Deep-Dive → Behavioral |
 | **Senior** | DSA → Machine Coding → System Design → Tech Deep-Dive → Hiring Manager → Behavioral |
 | **Staff+** | DSA → System Design → LLD → Hiring Manager → Behavioral |
+
+---
+
+## 🧠 Sample questions by round
+
+<!-- QUESTIONS_BY_ROUND:START -->
+
+Real questions pulled straight from the interviews above, most-reported first. Coding questions link to LeetCode where an exact problem exists.
+
+**Jump to:** [🧪 Online Assessment](#-online-assessment) · [🧩 DSA / Coding](#-dsa--coding) · [🔧 Machine Coding](#-machine-coding) · [🧱 Low-Level Design](#-low-level-design) · [🌐 System Design](#-system-design) · [🔬 Tech Deep-Dive](#-tech-deep-dive) · [👔 Hiring Manager](#-hiring-manager) · [💬 Behavioral / HR](#-behavioral--hr)
+
+### 🧪 Online Assessment
+
+_20 distinct questions in this round — top 12:_
+
+| Question | Difficulty |
+|---|---|
+| Validate an IP address (IPv4 / IPv6). | 🟡 Medium |
+| Merge overlapping meeting intervals from a calendar. | 🟡 Medium |
+| Find the number of distinct substrings of length k. | 🟡 Medium |
+| Given a list of transactions, detect fraudulent patterns. | 🟡 Medium |
+| Aptitude and logical-reasoning section. | 🟢 Easy |
+| Count pairs with a given sum in an array. | 🟢 Easy |
+| [Find the missing number in 1..n.](https://leetcode.com/problems/missing-number/) | 🟢 Easy |
+| [Move zeroes to the end in place.](https://leetcode.com/problems/move-zeroes/) | 🟢 Easy |
+| Reformat a log file by timestamp. | 🟢 Easy |
+| Simulate a simplified card game and score it. | 🟡 Medium |
+| Group items by frequency and return the top K. | 🟡 Medium |
+| Implement a rate-limited counter. | 🟡 Medium |
+
+### 🧩 DSA / Coding
+
+_74 distinct questions in this round — top 12:_
+
+| Question | Difficulty |
+|---|---|
+| [House robber.](https://leetcode.com/problems/house-robber/) | 🟡 Medium |
+| [Container with most water.](https://leetcode.com/problems/container-with-most-water/) | 🟡 Medium |
+| [Lowest common ancestor of a binary tree.](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) | 🟡 Medium |
+| [Permutations.](https://leetcode.com/problems/permutations/) | 🟡 Medium |
+| [Subsets.](https://leetcode.com/problems/subsets/) | 🟡 Medium |
+| [Valid anagram.](https://leetcode.com/problems/valid-anagram/) | 🟢 Easy |
+| [Word ladder — shortest transformation sequence.](https://leetcode.com/problems/word-ladder/) | 🔴 Hard |
+| [House robber II.](https://leetcode.com/problems/house-robber-ii/) | 🟡 Medium |
+| [Meeting rooms II — minimum rooms required.](https://leetcode.com/problems/meeting-rooms-ii/) | 🟡 Medium |
+| [Reverse a linked list.](https://leetcode.com/problems/reverse-linked-list/) | 🟢 Easy |
+| [Search in a rotated sorted array.](https://leetcode.com/problems/search-in-rotated-sorted-array/) | 🟡 Medium |
+| [Implement a trie (prefix tree).](https://leetcode.com/problems/implement-trie-prefix-tree/) | 🟡 Medium |
+
+### 🔧 Machine Coding
+
+_47 distinct questions in this round — top 12:_
+
+| Question | Difficulty |
+|---|---|
+| Implement an LRU + TTL cache library. | 🔴 Hard |
+| Build a "Wordle" clone with keyboard input. | 🟡 Medium |
+| Build a kanban board with drag and drop. | 🔴 Hard |
+| Implement a job queue with retries and backoff. | 🔴 Hard |
+| Build a "polling" progress UI that updates from an API. | 🟡 Medium |
+| Build a star-rating component (controlled + accessible). | 🟢 Easy |
+| Build a CSV importer that streams and validates rows. | 🟡 Medium |
+| Build an accessible accordion with single/multi open. | 🟡 Medium |
+| Build a color-picker with hex/rgb sync. | 🟡 Medium |
+| Design and build a URL-shortener service (API + storage). | 🟡 Medium |
+| Implement cursor-based pagination over a sorted dataset. | 🟡 Medium |
+| Build a debounced autocomplete/search box with keyboard nav. | 🟡 Medium |
+
+### 🧱 Low-Level Design
+
+_32 distinct questions in this round — top 12:_
+
+| Question | Difficulty |
+|---|---|
+| Design a toast/notification manager API. | 🟡 Medium |
+| Design a design-token theming system. | 🟡 Medium |
+| Design an in-memory file system. | 🔴 Hard |
+| Design a data-fetching cache with invalidation. | 🔴 Hard |
+| Design a form-state library with validation rules. | 🟡 Medium |
+| Design an elevator control system. | 🟡 Medium |
+| Design a booking/reservation system core. | 🟡 Medium |
+| Design an analytics event-tracking client. | 🟡 Medium |
+| Design a client-side router. | 🟡 Medium |
+| Design a logging library with levels and sinks. | 🟡 Medium |
+| Model the state machine for a checkout flow. | 🟡 Medium |
+| Design a hotel-reservation system core. | 🟡 Medium |
+
+### 🌐 System Design
+
+_50 distinct questions in this round — top 12:_
+
+| Question | Difficulty |
+|---|---|
+| Design a video-call UI with grid and speaker views. | 🔴 Hard |
+| Design an object storage service like S3. | 🔴 Hard |
+| Design an analytics / metrics dashboard backend. | 🔴 Hard |
+| Design a job scheduler / cron service. | 🟡 Medium |
+| Design a news feed / timeline. | 🔴 Hard |
+| Design a metrics/time-series ingestion pipeline. | 🔴 Hard |
+| Design a ride-sharing service like Uber. | 🔴 Hard |
+| Design a search indexing pipeline (crawl to index to serve). | 🔴 Hard |
+| Design an online code judge / evaluator. | 🔴 Hard |
+| Design a typeahead / autocomplete service. | 🔴 Hard |
+| Design a chat application like WhatsApp. | 🔴 Hard |
+| Design a content delivery network (CDN). | 🔴 Hard |
+
+### 🔬 Tech Deep-Dive
+
+_74 distinct questions in this round — top 12:_
+
+| Question | Difficulty |
+|---|---|
+| How do you design a schema for a multi-currency ledger? | 🔴 Hard |
+| Difference between at-least-once and exactly-once delivery. | 🔴 Hard |
+| How do circuit breakers and bulkheads improve resilience? | 🟡 Medium |
+| Explain eventual consistency with a real example. | 🔴 Hard |
+| Closures and the module pattern — with an example. | 🟢 Easy |
+| Explain database indexing and when a query uses one. | 🟡 Medium |
+| Explain how you handle concurrency / race conditions. | 🔴 Hard |
+| Explain server components vs client components. | 🔴 Hard |
+| Explain the CSS box model and box-sizing. | 🟢 Easy |
+| How does a load balancer choose a backend? | 🟡 Medium |
+| What is backpressure and how do you handle it? | 🔴 Hard |
+| Debounce vs throttle — implement one from scratch. | 🟡 Medium |
+
+### 👔 Hiring Manager
+
+_22 distinct questions in this round — top 12:_
+
+| Question | Difficulty |
+|---|---|
+| How do you measure the success of a project after launch? | — |
+| How do you balance tech debt against feature work? | — |
+| How do you give difficult feedback to a peer? | — |
+| Tell me about a technical bet that did not pay off. | — |
+| What does a great engineering culture look like to you? | — |
+| Where do you want to grow in the next two years? | — |
+| How do you evaluate and adopt a new technology? | — |
+| How do you handle disagreement with a product partner? | — |
+| How do you run an incident and the postmortem after? | — |
+| What is the biggest system you have designed, and why those choices? | — |
+| How do you grow junior engineers on your team? | — |
+| How do you handle an underperforming teammate? | — |
+
+### 💬 Behavioral / HR
+
+_30 distinct questions in this round — top 12:_
+
+| Question | Difficulty |
+|---|---|
+| Tell me about a time you failed and what you learned. | — |
+| Describe a conflict with your manager and the outcome. | — |
+| Tell me about a time you simplified something overly complex. | — |
+| A time you made a mistake in production — what happened next? | — |
+| Describe a goal you set and how you achieved it. | — |
+| When did you have to make a decision with incomplete data? | — |
+| Describe something you shipped that you were not proud of. | — |
+| Tell me about a time you had to say no to a stakeholder. | — |
+| Describe a time you improved a process or tool for your team. | — |
+| Tell me about a time you led without a title. | — |
+| Tell me about a time you went above and beyond for a customer. | — |
+| Describe working with an ambiguous or shifting requirement. | — |
+
+<!-- QUESTIONS_BY_ROUND:END -->
 
 ---
 

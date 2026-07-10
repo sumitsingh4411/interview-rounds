@@ -4,6 +4,8 @@ import { readFileSync, readdirSync, writeFileSync, existsSync } from 'node:fs';
 import { join } from 'node:path';
 import matter from 'gray-matter';
 import { parseRounds, countQuestions } from '../src/content/parse-rounds';
+import { leetcodeSlug } from '../src/lib/leetcode';
+import { ROUND_ORDER, ROUND_LABELS, type Round } from '../src/lib/constants';
 
 const ROOT = process.cwd();
 const COMPANIES_DIR = join(ROOT, 'content', 'companies');
@@ -11,6 +13,36 @@ const INTERVIEWS_DIR = join(ROOT, 'content', 'interviews');
 const README = join(ROOT, 'README.md');
 
 const START = '<!-- CONTENT_INDEX:START -->';
+const Q_START = '<!-- QUESTIONS_BY_ROUND:START -->';
+const Q_END = '<!-- QUESTIONS_BY_ROUND:END -->';
+
+/** Emoji WITHOUT a variation selector, so a heading anchor stays clean. */
+const ROUND_EMOJI: Record<Round, string> = {
+  oa: '🧪',
+  dsa: '🧩',
+  machine_coding: '🔧',
+  lld: '🧱',
+  system_design: '🌐',
+  tech_deep_dive: '🔬',
+  hiring_manager: '👔',
+  behavioral: '💬',
+};
+
+const DIFF_BADGE: Record<string, string> = {
+  easy: '🟢 Easy',
+  medium: '🟡 Medium',
+  hard: '🔴 Hard',
+};
+
+/** How many representative questions to show per round in the README. */
+const SAMPLE_PER_ROUND = 12;
+
+type QAgg = { title: string; difficulty: string | null; count: number };
+
+/** Escape a question title for a Markdown table cell. */
+function cell(s: string): string {
+  return s.replace(/\|/g, '\\|');
+}
 const END = '<!-- CONTENT_INDEX:END -->';
 
 const LEVEL_SHORT: Record<string, string> = {
@@ -119,14 +151,34 @@ function main() {
     };
   });
 
+  // Aggregate questions per round across every interview, deduped by title.
+  // `count` = how many interviews asked it, so the sample surfaces the most
+  // commonly reported questions first.
+  const roundQuestions = new Map<Round, Map<string, QAgg>>();
+
   const interviews: Interview[] = mdFiles(INTERVIEWS_DIR).map((f) => {
     const { data, content } = matter(readFileSync(join(INTERVIEWS_DIR, f), 'utf8'));
+    const rounds = parseRounds(content);
+
+    for (const r of rounds) {
+      const round = r.round as Round;
+      const bucket = roundQuestions.get(round) ?? new Map<string, QAgg>();
+      for (const q of r.questions) {
+        const title = q.title.trim();
+        const key = title.toLowerCase();
+        const cur = bucket.get(key);
+        if (cur) cur.count += 1;
+        else bucket.set(key, { title, difficulty: q.difficulty ?? null, count: 1 });
+      }
+      roundQuestions.set(round, bucket);
+    }
+
     return {
       id: data.id,
       company: data.company,
       role: data.role,
       level: data.level,
-      questionCount: countQuestions(parseRounds(content)),
+      questionCount: countQuestions(rounds),
     };
   });
 
@@ -230,6 +282,43 @@ function main() {
 
   const block = `${START}\n\n${lines.join('\n')}\n\n${END}`;
 
+  // ── Sample questions by round ──────────────────────────────────────────────
+  const qLines: string[] = [];
+  qLines.push(
+    'Real questions pulled straight from the interviews above, most-reported first. Coding questions link to LeetCode where an exact problem exists.',
+  );
+  qLines.push('');
+  qLines.push(
+    `**Jump to:** ${ROUND_ORDER.map((r) => `[${ROUND_EMOJI[r]} ${ROUND_LABELS[r]}](${anchorFor(`${ROUND_EMOJI[r]} ${ROUND_LABELS[r]}`)})`).join(' · ')}`,
+  );
+
+  for (const round of ROUND_ORDER) {
+    const bucket = roundQuestions.get(round);
+    const all = [...(bucket?.values() ?? [])].sort(
+      (a, b) => b.count - a.count || a.title.localeCompare(b.title),
+    );
+    const sample = all.slice(0, SAMPLE_PER_ROUND);
+
+    qLines.push('');
+    qLines.push(`### ${ROUND_EMOJI[round]} ${ROUND_LABELS[round]}`);
+    qLines.push('');
+    qLines.push(
+      `_${all.length} distinct questions in this round${all.length > SAMPLE_PER_ROUND ? ` — top ${SAMPLE_PER_ROUND}` : ''}:_`,
+    );
+    qLines.push('');
+    qLines.push('| Question | Difficulty |');
+    qLines.push('|---|---|');
+    for (const q of sample) {
+      const slug = leetcodeSlug(q.title);
+      const title = slug
+        ? `[${cell(q.title)}](https://leetcode.com/problems/${slug}/)`
+        : cell(q.title);
+      const diff = q.difficulty ? (DIFF_BADGE[q.difficulty] ?? q.difficulty) : '—';
+      qLines.push(`| ${title} | ${diff} |`);
+    }
+  }
+  const qBlock = `${Q_START}\n\n${qLines.join('\n')}\n\n${Q_END}`;
+
   const readme = readFileSync(README, 'utf8');
   const startIdx = readme.indexOf(START);
   const endIdx = readme.indexOf(END);
@@ -242,6 +331,18 @@ function main() {
 
   let next =
     readme.slice(0, startIdx) + block + readme.slice(endIdx + END.length);
+
+  // Fill the "sample questions by round" block.
+  const qStartIdx = next.indexOf(Q_START);
+  const qEndIdx = next.indexOf(Q_END);
+  if (qStartIdx === -1 || qEndIdx === -1) {
+    console.error(
+      `✖ Could not find ${Q_START} / ${Q_END} markers in README.md. Add them and re-run.`,
+    );
+    process.exit(1);
+  }
+  next =
+    next.slice(0, qStartIdx) + qBlock + next.slice(qEndIdx + Q_END.length);
 
   // Keep the count badges in sync so they can never drift from the content.
   next = next
