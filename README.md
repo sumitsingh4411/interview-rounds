@@ -84,7 +84,7 @@ Real questions pulled straight from the interviews above, most-reported first. C
 
 ### 🧪 Online Assessment
 
-_20 distinct questions in this round — top 12:_
+_20 distinct questions in this round — top 15 · 🟢 7 easy · 🟡 12 medium · 🔴 1 hard:_
 
 | Question | Difficulty |
 |---|---|
@@ -100,10 +100,13 @@ _20 distinct questions in this round — top 12:_
 | Simulate a simplified card game and score it. | 🟡 Medium |
 | Group items by frequency and return the top K. | 🟡 Medium |
 | Implement a rate-limited counter. | 🟡 Medium |
+| Simulate a simple inventory system from a spec. | 🟡 Medium |
+| Two timed medium array/string problems in 70 minutes. | 🟡 Medium |
+| Compute the running median of a stream. | 🔴 Hard |
 
 ### 🧩 DSA / Coding
 
-_74 distinct questions in this round — top 12:_
+_74 distinct questions in this round — top 15 · 🟢 13 easy · 🟡 46 medium · 🔴 15 hard:_
 
 | Question | Difficulty |
 |---|---|
@@ -119,10 +122,13 @@ _74 distinct questions in this round — top 12:_
 | [Reverse a linked list.](https://leetcode.com/problems/reverse-linked-list/) | 🟢 Easy |
 | [Search in a rotated sorted array.](https://leetcode.com/problems/search-in-rotated-sorted-array/) | 🟡 Medium |
 | [Implement a trie (prefix tree).](https://leetcode.com/problems/implement-trie-prefix-tree/) | 🟡 Medium |
+| [Longest palindromic substring.](https://leetcode.com/problems/longest-palindromic-substring/) | 🟡 Medium |
+| [Longest substring without repeating characters.](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | 🟡 Medium |
+| [3Sum.](https://leetcode.com/problems/3sum/) | 🟡 Medium |
 
 ### 🔧 Machine Coding
 
-_47 distinct questions in this round — top 12:_
+_47 distinct questions in this round — top 15 · 🟢 6 easy · 🟡 30 medium · 🔴 11 hard:_
 
 | Question | Difficulty |
 |---|---|
@@ -138,10 +144,13 @@ _47 distinct questions in this round — top 12:_
 | Design and build a URL-shortener service (API + storage). | 🟡 Medium |
 | Implement cursor-based pagination over a sorted dataset. | 🟡 Medium |
 | Build a debounced autocomplete/search box with keyboard nav. | 🟡 Medium |
+| Build a file-upload service with chunking and resume. | 🔴 Hard |
+| Build a key-value store with TTL expiry. | 🟡 Medium |
+| Implement a bulk-upsert endpoint with validation. | 🟡 Medium |
 
 ### 🧱 Low-Level Design
 
-_32 distinct questions in this round — top 12:_
+_32 distinct questions in this round — top 15 · 🟢 2 easy · 🟡 21 medium · 🔴 9 hard:_
 
 | Question | Difficulty |
 |---|---|
@@ -157,10 +166,13 @@ _32 distinct questions in this round — top 12:_
 | Design a logging library with levels and sinks. | 🟡 Medium |
 | Model the state machine for a checkout flow. | 🟡 Medium |
 | Design a hotel-reservation system core. | 🟡 Medium |
+| Design a reusable form-validation library API. | 🟡 Medium |
+| Design a vending machine. | 🟢 Easy |
+| Design a virtual DOM diffing model. | 🔴 Hard |
 
 ### 🌐 System Design
 
-_50 distinct questions in this round — top 12:_
+_50 distinct questions in this round — top 15 · 🟡 17 medium · 🔴 33 hard:_
 
 | Question | Difficulty |
 |---|---|
@@ -176,10 +188,13 @@ _50 distinct questions in this round — top 12:_
 | Design a typeahead / autocomplete service. | 🔴 Hard |
 | Design a chat application like WhatsApp. | 🔴 Hard |
 | Design a content delivery network (CDN). | 🔴 Hard |
+| Design a distributed key-value store. | 🔴 Hard |
+| Design a Google Docs-style collaborative editor (frontend). | 🔴 Hard |
+| Design a leaderboard for millions of players. | 🟡 Medium |
 
 ### 🔬 Tech Deep-Dive
 
-_74 distinct questions in this round — top 12:_
+_74 distinct questions in this round — top 15 · 🟢 11 easy · 🟡 41 medium · 🔴 22 hard:_
 
 | Question | Difficulty |
 |---|---|
@@ -195,10 +210,13 @@ _74 distinct questions in this round — top 12:_
 | How does a load balancer choose a backend? | 🟡 Medium |
 | What is backpressure and how do you handle it? | 🔴 Hard |
 | Debounce vs throttle — implement one from scratch. | 🟡 Medium |
+| Explain `useEffect` dependencies and common pitfalls. | 🟡 Medium |
+| How do you run a zero-downtime database migration? | 🔴 Hard |
+| Difference between CSS Grid and Flexbox — when to use each. | 🟢 Easy |
 
 ### 👔 Hiring Manager
 
-_22 distinct questions in this round — top 12:_
+_22 distinct questions in this round — top 15:_
 
 | Question | Difficulty |
 |---|---|
@@ -214,10 +232,13 @@ _22 distinct questions in this round — top 12:_
 | What is the biggest system you have designed, and why those choices? | — |
 | How do you grow junior engineers on your team? | — |
 | How do you handle an underperforming teammate? | — |
+| How do you keep a team unblocked and shipping? | — |
+| How do you decide what to build vs. buy vs. defer? | — |
+| Walk me through the architecture of a system you owned end to end. | — |
 
 ### 💬 Behavioral / HR
 
-_30 distinct questions in this round — top 12:_
+_30 distinct questions in this round — top 15:_
 
 | Question | Difficulty |
 |---|---|
@@ -233,6 +254,9 @@ _30 distinct questions in this round — top 12:_
 | Tell me about a time you led without a title. | — |
 | Tell me about a time you went above and beyond for a customer. | — |
 | Describe working with an ambiguous or shifting requirement. | — |
+| Tell me about the hardest bug you have debugged. | — |
+| When did you take ownership of something outside your scope? | — |
+| Why this company, and why this role? | — |
 
 <!-- QUESTIONS_BY_ROUND:END -->
 

@@ -35,7 +35,18 @@ const DIFF_BADGE: Record<string, string> = {
 };
 
 /** How many representative questions to show per round in the README. */
-const SAMPLE_PER_ROUND = 12;
+const SAMPLE_PER_ROUND = 15;
+
+/** A one-line "🟢 x · 🟡 y · 🔴 z" mix, omitting any tier with no questions. */
+function difficultyMix(qs: QAgg[]): string {
+  const n = { easy: 0, medium: 0, hard: 0 };
+  for (const q of qs) if (q.difficulty && q.difficulty in n) n[q.difficulty as keyof typeof n] += 1;
+  const parts: string[] = [];
+  if (n.easy) parts.push(`🟢 ${n.easy} easy`);
+  if (n.medium) parts.push(`🟡 ${n.medium} medium`);
+  if (n.hard) parts.push(`🔴 ${n.hard} hard`);
+  return parts.join(' · ');
+}
 
 type QAgg = { title: string; difficulty: string | null; count: number };
 
@@ -302,8 +313,9 @@ function main() {
     qLines.push('');
     qLines.push(`### ${ROUND_EMOJI[round]} ${ROUND_LABELS[round]}`);
     qLines.push('');
+    const mix = difficultyMix(all);
     qLines.push(
-      `_${all.length} distinct questions in this round${all.length > SAMPLE_PER_ROUND ? ` — top ${SAMPLE_PER_ROUND}` : ''}:_`,
+      `_${all.length} distinct questions in this round${all.length > SAMPLE_PER_ROUND ? ` — top ${SAMPLE_PER_ROUND}` : ''}${mix ? ` · ${mix}` : ''}:_`,
     );
     qLines.push('');
     qLines.push('| Question | Difficulty |');
