@@ -20,10 +20,16 @@ const INTERVIEWS_DIR = join(CONTENT, 'interviews');
 
 const INTERVIEWS_PER_COMPANY = 5;
 
+/**
+ * Wipes ONLY the directories this script generates. `content/banks/` is imported
+ * separately by `npm run import:bank` — deleting the whole content/ tree here
+ * would silently destroy it.
+ */
 function reset() {
-  if (existsSync(CONTENT)) rmSync(CONTENT, { recursive: true, force: true });
-  mkdirSync(COMPANIES_DIR, { recursive: true });
-  mkdirSync(INTERVIEWS_DIR, { recursive: true });
+  for (const dir of [COMPANIES_DIR, INTERVIEWS_DIR]) {
+    if (existsSync(dir)) rmSync(dir, { recursive: true, force: true });
+    mkdirSync(dir, { recursive: true });
+  }
 }
 
 function main() {

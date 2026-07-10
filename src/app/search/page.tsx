@@ -2,13 +2,16 @@ import type { Metadata } from 'next';
 import { Suspense } from 'react';
 import { Container } from '@/components/ui/Container';
 import { SearchResults } from '@/components/SearchResults';
+import { getTotals } from '@/content/loader';
 
-export const metadata: Metadata = {
-  title: 'Search interview questions',
-  description:
-    'Search 4,659 interview questions across 85 companies and every round — DSA, system design, machine coding, behavioral and more.',
-  alternates: { canonical: '/search' },
-};
+export function generateMetadata(): Metadata {
+  const t = getTotals();
+  return {
+    title: 'Search interview questions',
+    description: `Search ${t.questions.toLocaleString()} interview questions across ${t.companies} companies and every round — DSA, system design, machine coding, behavioral and more.`,
+    alternates: { canonical: '/search' },
+  };
+}
 
 export default function SearchPage() {
   return (

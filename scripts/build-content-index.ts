@@ -138,6 +138,13 @@ function main() {
       `badge/questions-${questionTotal.toLocaleString('en-US').replace(/,/g, '%2C')}-`,
     );
 
+  // ...and the counts written into the prose, for the same reason.
+  const questionsPretty = questionTotal.toLocaleString('en-US');
+  next = next
+    .replace(/\*\*\d+ top tech companies\*\*/g, `**${companies.length} top tech companies**`)
+    .replace(/All \d+ companies, filterable/g, `All ${companies.length} companies, filterable`)
+    .replace(/all [\d,]+ questions/g, `all ${questionsPretty} questions`);
+
   writeFileSync(README, next);
   console.log(
     `✔ README rebuilt: ${companies.length} companies, ${interviews.length} interviews, ${questionTotal} questions.`,

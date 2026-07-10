@@ -109,7 +109,7 @@ export function Footer() {
             affiliated with any company listed.
           </p>
           <p className="shrink-0 font-mono text-xs text-faint">
-            MIT · © {new Date().getFullYear()}
+            CC BY-NC 4.0 · © {new Date().getFullYear()}
           </p>
         </Container>
       </div>

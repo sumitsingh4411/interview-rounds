@@ -4,12 +4,14 @@ import { Container } from '@/components/ui/Container';
 import { QuestionsExplorer } from '@/components/QuestionsExplorer';
 import { getTotals } from '@/content/loader';
 
-export const metadata: Metadata = {
-  title: 'All interview questions',
-  description:
-    'Every interview question from 85 top tech companies in one filterable list — filter by round, role, level and difficulty, practice on LeetCode, and tick off what you have solved. Free, no signup.',
-  alternates: { canonical: '/questions' },
-};
+export function generateMetadata(): Metadata {
+  const t = getTotals();
+  return {
+    title: 'All interview questions',
+    description: `All ${t.questions.toLocaleString()} interview questions from ${t.companies} top tech companies in one filterable list — filter by round, role, level and difficulty, practice on LeetCode, and tick off what you have solved. Free, no signup.`,
+    alternates: { canonical: '/questions' },
+  };
+}
 
 export default function QuestionsPage() {
   const totals = getTotals();

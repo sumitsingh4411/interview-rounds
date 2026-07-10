@@ -1,14 +1,16 @@
 import type { Metadata } from 'next';
 import { Container } from '@/components/ui/Container';
 import { CompanyBrowser } from '@/components/CompanyBrowser';
-import { getCompaniesWithStats } from '@/content/loader';
+import { getCompaniesWithStats, getTotals } from '@/content/loader';
 
-export const metadata: Metadata = {
-  title: 'All companies',
-  description:
-    'Browse interview questions and experiences from 85 top tech companies — Google, Meta, Amazon, Stripe, Netflix and more — mapped to each round, role and level.',
-  alternates: { canonical: '/companies' },
-};
+export function generateMetadata(): Metadata {
+  const t = getTotals();
+  return {
+    title: 'All companies',
+    description: `Browse interview questions and experiences from ${t.companies} top tech companies — Google, Meta, Amazon, Stripe, Netflix and more — mapped to each round, role and level.`,
+    alternates: { canonical: '/companies' },
+  };
+}
 
 export default function CompaniesPage() {
   const companies = getCompaniesWithStats();
