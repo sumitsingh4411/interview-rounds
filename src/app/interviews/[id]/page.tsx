@@ -56,7 +56,9 @@ export async function generateMetadata({
     title,
     description,
     alternates: { canonical: `/interviews/${id}` },
-    openGraph: { title, description, type: 'article' },
+    // `images` is required here: defining openGraph replaces the root's object,
+    // which would otherwise drop the app/opengraph-image.tsx card.
+    openGraph: { title, description, type: 'article', images: ['/opengraph-image'] },
   };
 }
 

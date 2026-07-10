@@ -35,6 +35,9 @@ export async function generateMetadata({
       title: `${company.name} interview questions by round`,
       description: `${questions} ${company.name} interview questions across ${interviews.length} experiences, mapped to every round.`,
       type: 'article',
+      // Defining `openGraph` replaces the root's object outright, which drops
+      // the image injected by app/opengraph-image.tsx. Re-attach it.
+      images: ['/opengraph-image'],
     },
   };
 }

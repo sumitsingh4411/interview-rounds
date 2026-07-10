@@ -166,10 +166,15 @@ function main() {
 
   // ...and the counts written into the prose, for the same reason.
   const questionsPretty = questionTotal.toLocaleString('en-US');
+  // company + interview + round + a handful of static routes, floored to a
+  // round number so the claim stays true as content grows.
+  const pages = Math.floor((companies.length + interviews.length + 14) / 100) * 100;
   next = next
     .replace(/\*\*\d+ top tech companies\*\*/g, `**${companies.length} top tech companies**`)
     .replace(/All \d+ companies, filterable/g, `All ${companies.length} companies, filterable`)
-    .replace(/all [\d,]+ questions/g, `all ${questionsPretty} questions`);
+    .replace(/all [\d,]+ questions/g, `all ${questionsPretty} questions`)
+    .replace(/\d+\+ static pages/g, `${pages}+ static pages`)
+    .replace(/prerenders \d+\+ pages/g, `prerenders ${pages}+ pages`);
 
   writeFileSync(README, next);
   console.log(

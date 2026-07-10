@@ -41,6 +41,8 @@ export async function generateMetadata({
       title: `${ROUND_LABELS[valid]} interview questions`,
       description: `${total.toLocaleString()} ${ROUND_LABELS[valid]} questions from top tech companies.`,
       type: 'article',
+      // See companies/[slug]: an openGraph override drops the root's image.
+      images: ['/opengraph-image'],
     },
   };
 }

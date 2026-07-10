@@ -82,7 +82,7 @@ Which rounds you get depends on the level. The usual shape:
 - ✅ **Progress tracking** — tick off what you've solved; a dashboard breaks it down by round, difficulty, role and level. Saved in your browser — no account.
 - 🔎 **Instant search** — full-text over all 6,533 questions.
 - 🏷️ **Honest sourcing** — every question is labelled `curated`, `community`, `github` (MIT-licensed, linked) or `ai` (a *likely* question — never a fabricated experience).
-- 📄 **Just Markdown** — every interview is a file you can read right here. No database, no backend, 500+ static pages.
+- 📄 **Just Markdown** — every interview is a file you can read right here. No database, no backend, 700+ static pages.
 
 ---
 
@@ -275,7 +275,7 @@ The Loop is **not affiliated with any company listed here.** Content is either c
 
 ## 🛠️ Built with
 
-Next.js 16 · React 19 · Tailwind CSS v4 · TypeScript — **fully static, no database.** All content lives as Markdown in `content/`; the site prerenders 500+ pages, and search + progress run entirely client-side.
+Next.js 16 · React 19 · Tailwind CSS v4 · TypeScript — **fully static, no database.** All content lives as Markdown in `content/`; the site prerenders 700+ pages, and search + progress run entirely client-side.
 
 **Running it locally or contributing code? → [docs/DEVELOPMENT.md](docs/DEVELOPMENT.md)**
 
