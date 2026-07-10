@@ -20,10 +20,11 @@ const LEVEL_SHORT: Record<string, string> = {
   senior: 'Senior',
   staff: 'Staff',
 };
-const ROLE_SHORT: Record<string, string> = {
-  frontend: 'Frontend',
-  backend: 'Backend',
-  fullstack: 'Full-stack',
+/** Short enough that a whole loop fits on one line without wrapping. */
+const ROLE_ABBR: Record<string, string> = {
+  frontend: 'FE',
+  backend: 'BE',
+  fullstack: 'FS',
 };
 const LEVEL_RANK = ['intern', 'junior', 'mid', 'senior', 'staff'];
 
@@ -89,30 +90,55 @@ function main() {
     return a.name.localeCompare(b.name);
   });
 
-  const lines: string[] = [];
-  lines.push(
-    `**${companies.length} companies · ${interviews.length} interview experiences.** Every link below opens the raw Markdown — no website needed.`,
-  );
-  lines.push('');
-  lines.push('| Company | Industry | Interview experiences |');
-  lines.push('|---|---|---|');
+  const questionsFor = (slug: string) =>
+    (byCompany.get(slug) ?? []).reduce((n, iv) => n + iv.questionCount, 0);
 
-  for (const c of companies) {
-    const list = byCompany.get(c.slug) ?? [];
-    const links = list
-      .map(
-        (iv) =>
-          `[${LEVEL_SHORT[iv.level] ?? iv.level} · ${ROLE_SHORT[iv.role] ?? iv.role}](content/interviews/${iv.id}.md)`,
-      )
-      .join(' · ');
-    const star = c.featured ? ' ⭐' : '';
-    lines.push(
-      `| **[${c.name}](content/companies/${c.slug}.md)**${star} | ${c.industry} | ${links || '—'} |`,
-    );
+  const TABLE_HEAD = [
+    '| Company | Industry | Qs | Interview experiences |',
+    '|---|---|---:|---|',
+  ];
+
+  /**
+   * Link labels use "Junior FE", never "Junior · Frontend": the separator
+   * BETWEEN links is also " · ", so a dot inside the label makes the whole row
+   * read as one run-on blob.
+   */
+  function rowsFor(list: Company[]): string[] {
+    return list.map((c) => {
+      const links = (byCompany.get(c.slug) ?? [])
+        .map(
+          (iv) =>
+            `[${LEVEL_SHORT[iv.level] ?? iv.level} ${ROLE_ABBR[iv.role] ?? iv.role}](content/interviews/${iv.id}.md)`,
+        )
+        .join(' · ');
+      return `| **[${c.name}](content/companies/${c.slug}.md)** | ${c.industry} | ${questionsFor(c.slug)} | ${links || '—'} |`;
+    });
   }
 
+  const featured = companies.filter((c) => c.featured);
+  const rest = companies.filter((c) => !c.featured);
+
+  const lines: string[] = [];
+  lines.push(
+    `**${companies.length} companies · ${interviews.length} interview experiences · ${questionTotal.toLocaleString('en-US')} questions.**`,
+  );
   lines.push('');
-  lines.push('⭐ = featured on the home page.');
+  lines.push(
+    'Every link opens the raw Markdown — no website needed. **`FE`** frontend · **`BE`** backend · **`FS`** full-stack.',
+  );
+  lines.push('');
+  lines.push('### ⭐ Featured');
+  lines.push('');
+  lines.push(...TABLE_HEAD, ...rowsFor(featured));
+  lines.push('');
+  lines.push('<details>');
+  lines.push(
+    `<summary><b>📂 Browse all ${companies.length} companies</b> — ${rest.length} more, A–Z</summary>`,
+  );
+  lines.push('');
+  lines.push(...TABLE_HEAD, ...rowsFor(rest));
+  lines.push('');
+  lines.push('</details>');
 
   const block = `${START}\n\n${lines.join('\n')}\n\n${END}`;
 
