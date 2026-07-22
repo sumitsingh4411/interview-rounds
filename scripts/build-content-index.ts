@@ -102,6 +102,7 @@ const CATEGORIES: { name: string; emoji: string; industries: string[] }[] = [
     industries: ['Enterprise Software', 'Enterprise SaaS', 'SaaS', 'Productivity', 'Design Software', 'Creative Software', 'Cloud Storage', 'HR Tech'],
   },
   { name: 'Data and Analytics', emoji: '📊', industries: ['Data', 'Analytics'] },
+  { name: 'Health Tech', emoji: '🏥', industries: ['Health Tech'] },
   { name: 'Security', emoji: '🔐', industries: ['Security'] },
   {
     name: 'Hardware and Frontier',

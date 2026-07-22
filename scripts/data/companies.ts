@@ -190,4 +190,108 @@ export const COMPANIES: SeedCompany[] = [
   { name: 'HCLTech', slug: 'hcltech', industry: 'IT Services', hq: 'Noida, India', description: 'Global tech services. Aptitude, core coding, and technical-plus-HR rounds.' },
   { name: 'Tech Mahindra', slug: 'tech-mahindra', industry: 'IT Services', hq: 'Pune, India', description: 'IT and digital services. Aptitude, fundamentals, and communication rounds.' },
   { name: 'Deloitte', slug: 'deloitte', industry: 'Consulting', hq: 'London, UK', description: 'Consulting and technology. Case-style problem-solving and coding fundamentals.' },
+
+  // Frontier AI labs and AI-native startups — the most-searched new names.
+  { name: 'xAI', slug: 'xai', industry: 'AI', hq: 'Palo Alto, CA', description: 'Grok and frontier models. Strong coding, ML systems, and fast-paced rounds.' },
+  { name: 'Mistral AI', slug: 'mistral', industry: 'AI', hq: 'Paris, France', description: 'Open-weight LLMs. Research-adjacent coding and inference-systems depth.' },
+  { name: 'Groq', slug: 'groq', industry: 'AI', hq: 'Mountain View, CA', description: 'LPU inference hardware. Low-level performance, compilers, and systems coding.' },
+  { name: 'Cerebras', slug: 'cerebras', industry: 'AI', hq: 'Sunnyvale, CA', description: 'Wafer-scale AI chips. Systems, parallelism, and performance-heavy rounds.' },
+  { name: 'Character.AI', slug: 'character-ai', industry: 'AI', hq: 'Menlo Park, CA', description: 'Conversational AI companions. Serving at scale and product engineering.' },
+  { name: 'Together AI', slug: 'together-ai', industry: 'AI', hq: 'San Francisco, CA', description: 'Open-model cloud. Inference optimization and distributed-systems coding.' },
+  { name: 'Pinecone', slug: 'pinecone', industry: 'AI', hq: 'New York, NY', description: 'Vector database for AI. Retrieval systems, indexing, and backend depth.' },
+  { name: 'Weights & Biases', slug: 'weights-and-biases', industry: 'AI', hq: 'San Francisco, CA', description: 'ML experiment tracking. Developer tooling and data-pipeline design.' },
+  { name: 'Harvey', slug: 'harvey', industry: 'AI', hq: 'San Francisco, CA', description: 'AI for legal work. Applied LLM engineering and product-minded coding.' },
+  { name: 'Sierra', slug: 'sierra', industry: 'AI', hq: 'San Francisco, CA', description: 'AI customer agents. Applied LLM systems and pragmatic full-stack.' },
+  { name: 'Figure AI', slug: 'figure-ai', industry: 'AI', hq: 'Sunnyvale, CA', description: 'Humanoid robotics. Real-time control, perception, and systems coding.' },
+  { name: 'Synthesia', slug: 'synthesia', industry: 'AI', hq: 'London, UK', description: 'AI video generation. Media pipelines and product engineering.' },
+  { name: 'Deepgram', slug: 'deepgram', industry: 'AI', hq: 'San Francisco, CA', description: 'Speech-to-text APIs. Low-latency audio inference and API design.' },
+  { name: 'Replit', slug: 'replit', industry: 'Developer Platform', hq: 'San Francisco, CA', description: 'Browser IDE and coding agents. Deep frontend, sandboxing, and infra rounds.' },
+
+  // Gaming — consistently high-volume interview searches.
+  { name: 'Riot Games', slug: 'riot-games', industry: 'Gaming', hq: 'Los Angeles, CA', description: 'League of Legends and Valorant. Gameplay systems and live-service backends.' },
+  { name: 'Epic Games', slug: 'epic-games', industry: 'Gaming', hq: 'Cary, NC', description: 'Fortnite and Unreal Engine. Engine internals and large-scale multiplayer.' },
+  { name: 'Electronic Arts', slug: 'ea', industry: 'Gaming', hq: 'Redwood City, CA', description: 'EA Sports and studios. Gameplay coding, engines, and live services.' },
+  { name: 'Activision Blizzard', slug: 'activision-blizzard', industry: 'Gaming', hq: 'Santa Monica, CA', description: 'Call of Duty and Blizzard titles. Engine, tools, and backend systems.' },
+  { name: 'Ubisoft', slug: 'ubisoft', industry: 'Gaming', hq: 'Montreal, Canada', description: "Assassin's Creed and more. Engine programming and gameplay systems." },
+  { name: 'Niantic', slug: 'niantic', industry: 'Gaming', hq: 'San Francisco, CA', description: 'Pokémon GO and AR. Geospatial systems and mobile-scale backends.' },
+
+  // Developer tools, databases, and infrastructure.
+  { name: 'Docker', slug: 'docker', industry: 'Developer Platform', hq: 'Palo Alto, CA', description: 'Containers everywhere. Systems internals, Linux, and tooling design.' },
+  { name: 'Red Hat', slug: 'red-hat', industry: 'Infrastructure', hq: 'Raleigh, NC', description: 'Enterprise Linux and OpenShift. Systems depth and open-source practice.' },
+  { name: 'JetBrains', slug: 'jetbrains', industry: 'Developer Platform', hq: 'Prague, Czechia', description: 'IDEs and Kotlin. Compilers, tooling, and algorithm-heavy rounds.' },
+  { name: 'Elastic', slug: 'elastic', industry: 'Databases', hq: 'Amsterdam, Netherlands', description: 'Elasticsearch and observability. Search internals and distributed systems.' },
+  { name: 'Redis', slug: 'redis', industry: 'Databases', hq: 'Mountain View, CA', description: 'The in-memory data store. Data structures, C depth, and systems design.' },
+  { name: 'Cockroach Labs', slug: 'cockroach-labs', industry: 'Databases', hq: 'New York, NY', description: 'Distributed SQL. Consensus, transactions, and deep systems rounds.' },
+  { name: 'Neo4j', slug: 'neo4j', industry: 'Databases', hq: 'San Mateo, CA', description: 'The graph database. Graph algorithms, query engines, and data modeling.' },
+  { name: 'DigitalOcean', slug: 'digitalocean', industry: 'Infrastructure', hq: 'New York, NY', description: 'Cloud for developers. Systems coding and pragmatic platform design.' },
+  { name: 'Netlify', slug: 'netlify', industry: 'Developer Platform', hq: 'San Francisco, CA', description: 'Frontend cloud. Edge delivery, build systems, and strong frontend rounds.' },
+  { name: 'Fastly', slug: 'fastly', industry: 'Infrastructure', hq: 'San Francisco, CA', description: 'Edge cloud and CDN. Networking, caching, and performance systems.' },
+  { name: 'Algolia', slug: 'algolia', industry: 'Developer Platform', hq: 'Paris, France', description: 'Search as an API. Ranking, indexing, and low-latency systems.' },
+  { name: 'New Relic', slug: 'new-relic', industry: 'Observability', hq: 'San Francisco, CA', description: 'Application monitoring. Telemetry pipelines and backend depth.' },
+  { name: 'PagerDuty', slug: 'pagerduty', industry: 'Observability', hq: 'San Francisco, CA', description: 'Incident response. Event pipelines and reliability-focused design.' },
+  { name: 'BrowserStack', slug: 'browserstack', industry: 'Developer Platform', hq: 'Mumbai, India', description: 'Cross-browser testing cloud. Infrastructure, device farms, and tooling.' },
+
+  // Enterprise SaaS and productivity with high hiring volume.
+  { name: 'Zendesk', slug: 'zendesk', industry: 'SaaS', hq: 'San Francisco, CA', description: 'Customer service software. Practical full-stack and platform design.' },
+  { name: 'HubSpot', slug: 'hubspot', industry: 'SaaS', hq: 'Cambridge, MA', description: 'CRM and marketing. Product engineering and pragmatic coding rounds.' },
+  { name: 'Docusign', slug: 'docusign', industry: 'SaaS', hq: 'San Francisco, CA', description: 'E-signature at scale. Security, workflows, and reliable backends.' },
+  { name: 'Box', slug: 'box', industry: 'Cloud Storage', hq: 'Redwood City, CA', description: 'Enterprise content cloud. Storage systems and API-heavy design.' },
+  { name: 'monday.com', slug: 'monday', industry: 'Productivity', hq: 'Tel Aviv, Israel', description: 'Work OS platform. Frontend depth and flexible data-model design.' },
+  { name: 'Intercom', slug: 'intercom', industry: 'SaaS', hq: 'San Francisco, CA', description: 'Customer messaging. Real-time systems and product-minded full-stack.' },
+  { name: 'Qualtrics', slug: 'qualtrics', industry: 'Enterprise SaaS', hq: 'Provo, UT', description: 'Experience management. Data pipelines and strong coding fundamentals.' },
+  { name: 'Mixpanel', slug: 'mixpanel', industry: 'Analytics', hq: 'San Francisco, CA', description: 'Product analytics. Event ingestion and query-heavy backends.' },
+  { name: 'Calendly', slug: 'calendly', industry: 'Productivity', hq: 'Atlanta, GA', description: 'Scheduling automation. Calendar systems and practical full-stack.' },
+
+  // Consumer internet and marketplaces.
+  { name: 'Duolingo', slug: 'duolingo', industry: 'EdTech', hq: 'Pittsburgh, PA', description: 'Language learning. Gamification systems, A/B testing, and clean coding.' },
+  { name: 'Bumble', slug: 'bumble', industry: 'Consumer Internet', hq: 'Austin, TX', description: 'Dating and connections. Matching systems and mobile-scale backends.' },
+  { name: 'Match Group', slug: 'match-group', industry: 'Consumer Internet', hq: 'Dallas, TX', description: 'Tinder and Hinge. Recommendation systems and high-scale services.' },
+  { name: 'Zillow', slug: 'zillow', industry: 'Marketplace', hq: 'Seattle, WA', description: 'Real-estate marketplace. Search, pricing models, and full-stack rounds.' },
+  { name: 'Indeed', slug: 'indeed', industry: 'Marketplace', hq: 'Austin, TX', description: 'Job search at scale. Search ranking, matching, and practical coding.' },
+  { name: 'Grubhub', slug: 'grubhub', industry: 'Marketplace', hq: 'Chicago, IL', description: 'Food delivery. Logistics systems and pragmatic backend design.' },
+  { name: 'Deliveroo', slug: 'deliveroo', industry: 'Marketplace', hq: 'London, UK', description: 'Food delivery in Europe. Dispatch algorithms and real-time systems.' },
+  { name: 'Grab', slug: 'grab', industry: 'Marketplace', hq: 'Singapore', description: 'Southeast Asia super-app. Real-time geospatial systems and strong DSA.' },
+  { name: 'Peloton', slug: 'peloton', industry: 'Consumer Internet', hq: 'New York, NY', description: 'Connected fitness. Streaming, device software, and full-stack rounds.' },
+  { name: 'Strava', slug: 'strava', industry: 'Consumer Internet', hq: 'San Francisco, CA', description: 'Fitness social network. Geospatial data and mobile-scale backends.' },
+  { name: 'Eventbrite', slug: 'eventbrite', industry: 'Marketplace', hq: 'San Francisco, CA', description: 'Event ticketing. Inventory correctness and high-traffic systems.' },
+
+  // Health tech — large engineering orgs, frequently searched loops.
+  { name: 'Epic Systems', slug: 'epic-systems', industry: 'Health Tech', hq: 'Verona, WI', description: 'Healthcare records software. Fundamentals-heavy coding and a logic-test stage.' },
+  { name: 'Oscar Health', slug: 'oscar-health', industry: 'Health Tech', hq: 'New York, NY', description: 'Tech-driven health insurance. Data modeling and practical full-stack.' },
+  { name: 'Komodo Health', slug: 'komodo-health', industry: 'Health Tech', hq: 'San Francisco, CA', description: 'Healthcare data platform. Large-scale data pipelines and backend depth.' },
+
+  // Global consumer tech outside the US.
+  { name: 'Alibaba', slug: 'alibaba', industry: 'E-commerce', hq: 'Hangzhou, China', description: 'Commerce and cloud at scale. Heavy DSA and large-scale system design.' },
+  { name: 'Tencent', slug: 'tencent', industry: 'Consumer Internet', hq: 'Shenzhen, China', description: 'WeChat and games. Strong algorithms and high-concurrency systems.' },
+  { name: 'Shein', slug: 'shein', industry: 'E-commerce', hq: 'Singapore', description: 'Fast-fashion commerce. Supply-chain systems and high-traffic backends.' },
+  { name: 'Mercado Libre', slug: 'mercado-libre', industry: 'E-commerce', hq: 'Buenos Aires, Argentina', description: "Latin America's commerce leader. Scale-focused design and solid coding." },
+  { name: 'Rakuten', slug: 'rakuten', industry: 'E-commerce', hq: 'Tokyo, Japan', description: 'Commerce, fintech, and media. Practical coding and platform design.' },
+
+  // India's most-searched startups.
+  { name: 'Zerodha', slug: 'zerodha', industry: 'Fintech', hq: 'Bangalore, India', description: "India's largest broker. Low-latency trading systems and lean engineering." },
+  { name: 'Groww', slug: 'groww', industry: 'Fintech', hq: 'Bangalore, India', description: 'Investing for India. High-traffic systems and product-minded full-stack.' },
+  { name: 'CRED', slug: 'cred', industry: 'Fintech', hq: 'Bangalore, India', description: 'Credit-card payments and rewards. Strong craft, DSA, and design rounds.' },
+  { name: 'PolicyBazaar', slug: 'policybazaar', industry: 'Fintech', hq: 'Gurugram, India', description: 'Insurance marketplace. Data-heavy backends and practical coding.' },
+  { name: 'Meesho', slug: 'meesho', industry: 'E-commerce', hq: 'Bangalore, India', description: 'Social commerce at scale. DSA, machine coding, and scale-focused design.' },
+  { name: 'Zepto', slug: 'zepto', industry: 'Marketplace', hq: 'Mumbai, India', description: '10-minute grocery delivery. Real-time dispatch and high-throughput systems.' },
+  { name: 'Nykaa', slug: 'nykaa', industry: 'E-commerce', hq: 'Mumbai, India', description: 'Beauty and fashion commerce. Practical full-stack and catalog systems.' },
+  { name: 'Lenskart', slug: 'lenskart', industry: 'E-commerce', hq: 'Gurugram, India', description: 'Eyewear commerce and retail tech. Full-stack and supply-chain systems.' },
+  { name: 'Delhivery', slug: 'delhivery', industry: 'Logistics', hq: 'Gurugram, India', description: 'Logistics and supply chain. Routing systems and scale-focused backends.' },
+  { name: 'Dream11', slug: 'dream11', industry: 'Gaming', hq: 'Mumbai, India', description: 'Fantasy sports at massive concurrency. Real-time systems and strong DSA.' },
+  { name: 'Unacademy', slug: 'unacademy', industry: 'EdTech', hq: 'Bangalore, India', description: 'Online learning platform. Streaming, scale, and product engineering.' },
+  { name: 'Urban Company', slug: 'urban-company', industry: 'Marketplace', hq: 'Gurugram, India', description: 'Home-services marketplace. Matching systems and practical full-stack.' },
+  { name: 'MakeMyTrip', slug: 'makemytrip', industry: 'Marketplace', hq: 'Gurugram, India', description: "India's travel platform. Search, pricing, and booking-system design." },
+
+  // More US fintech.
+  { name: 'SoFi', slug: 'sofi', industry: 'Fintech', hq: 'San Francisco, CA', description: 'Digital personal finance. Money correctness and practical full-stack.' },
+  { name: 'Kraken', slug: 'kraken', industry: 'Fintech', hq: 'San Francisco, CA', description: 'Crypto exchange. Security, matching engines, and high-throughput systems.' },
+  { name: 'Marqeta', slug: 'marqeta', industry: 'Fintech', hq: 'Oakland, CA', description: 'Card issuing APIs. Payments correctness and reliable backend design.' },
+
+  // Engineering services and consultancies.
+  { name: 'EPAM Systems', slug: 'epam', industry: 'IT Services', hq: 'Newtown, PA', description: 'Global engineering services. Solid DSA, design, and client-facing rounds.' },
+  { name: 'Thoughtworks', slug: 'thoughtworks', industry: 'Consulting', hq: 'Chicago, IL', description: 'Software consultancy. TDD, refactoring, and pairing-style interviews.' },
+  { name: 'Globant', slug: 'globant', industry: 'IT Services', hq: 'Buenos Aires, Argentina', description: 'Digital engineering services. Practical coding and design rounds.' },
+  { name: 'LTIMindtree', slug: 'ltimindtree', industry: 'IT Services', hq: 'Mumbai, India', description: 'IT services and consulting. Aptitude, fundamentals, and technical rounds.' },
+  { name: 'Mphasis', slug: 'mphasis', industry: 'IT Services', hq: 'Bangalore, India', description: 'Applied technology services. Aptitude, core coding, and HR rounds.' },
+  { name: 'Persistent Systems', slug: 'persistent', industry: 'IT Services', hq: 'Pune, India', description: 'Digital engineering services. Fundamentals, coding, and technical rounds.' },
 ];
