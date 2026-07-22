@@ -1,87 +1,82 @@
 ---
 id: sonata-2
 company: sonata
-role: fullstack
-level: senior
-outcome: offer
+role: backend
+level: mid
+outcome: rejected
 year: 2024
 source: curated
-summary: Senior fullstack interview. Fast-paced; expect follow-ups that push on depth.
+summary: >-
+  Campus-style mid backend interview. Breadth of fundamentals mattered more than
+  algorithmic depth.
 ---
-# Senior Full-stack — Sonata Software
+# Mid Backend — Sonata Software
 
-![role](https://img.shields.io/badge/role-Full--stack-a78bfa?style=flat-square)
-![level](https://img.shields.io/badge/level-Senior-818cf8?style=flat-square)
-![outcome](https://img.shields.io/badge/outcome-Offer-34d399?style=flat-square)
+![role](https://img.shields.io/badge/role-Backend-8b93ff?style=flat-square)
+![level](https://img.shields.io/badge/level-Mid-818cf8?style=flat-square)
+![outcome](https://img.shields.io/badge/outcome-Rejected-f87171?style=flat-square)
 ![year](https://img.shields.io/badge/year-2024-6b7280?style=flat-square)
 ![source](https://img.shields.io/badge/source-Commonly%20asked-2dd4bf?style=flat-square)
 
-> Senior fullstack interview. Fast-paced; expect follow-ups that push on depth.
+> Campus-style mid backend interview. Breadth of fundamentals mattered more than algorithmic depth.
 
-**6 rounds · 13 questions**
+**5 rounds · 14 questions**
 
 ---
 
-## Round 1 · DSA / Coding
+## Round 1 · Online Assessment
+<!-- round: oa -->
+
+_Timed online coding / aptitude screen, usually the first filter._
+
+| Question | Difficulty | Tags | Practice |
+| --- | --- | --- | --- |
+| Logical reasoning: blood relations and seating arrangement. | 🟡 Medium | `reasoning` | [GfG](https://www.geeksforgeeks.org/search/?gq=Logical%20reasoning%3A%20blood%20relations%20and%20seating%20arrangement) · [Search](https://www.google.com/search?q=Logical%20reasoning%3A%20blood%20relations%20and%20seating%20arrangement) |
+| Logical reasoning: data interpretation from charts and tables. | 🟡 Medium | `reasoning` | [GfG](https://www.geeksforgeeks.org/search/?gq=Logical%20reasoning%3A%20data%20interpretation%20from%20charts%20and%20tables) · [Search](https://www.google.com/search?q=Logical%20reasoning%3A%20data%20interpretation%20from%20charts%20and%20tables) |
+| Quantitative aptitude: simple and compound interest. | 🟢 Easy | `aptitude` | [GfG](https://www.geeksforgeeks.org/search/?gq=Quantitative%20aptitude%3A%20simple%20and%20compound%20interest) · [Search](https://www.google.com/search?q=Quantitative%20aptitude%3A%20simple%20and%20compound%20interest) |
+
+## Round 2 · DSA / Coding
 <!-- round: dsa -->
 
 _Data structures & algorithms on a whiteboard or shared editor._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Diameter of a binary tree. | 🟢 Easy | `tree` `dfs` | [LC](https://leetcode.com/problems/diameter-of-binary-tree/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Diameter%20of%20a%20binary%20tree) |
-| Course Schedule II. | 🟡 Medium | `graph` `topo-sort` | [LC](https://leetcode.com/problems/course-schedule-ii/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Course%20Schedule%20II) |
-| Clone a graph. | 🟡 Medium | `graph` `dfs` | [LC](https://leetcode.com/problems/clone-graph/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Clone%20a%20graph) |
+| Print the Fibonacci series up to n terms. | 🟢 Easy | `math` | [GfG](https://www.geeksforgeeks.org/search/?gq=Print%20the%20Fibonacci%20series%20up%20to%20n%20terms) · [Search](https://www.google.com/search?q=Print%20the%20Fibonacci%20series%20up%20to%20n%20terms) |
+| Check whether two strings are anagrams. | 🟢 Easy | `string` | [GfG](https://www.geeksforgeeks.org/search/?gq=Check%20whether%20two%20strings%20are%20anagrams) · [Search](https://www.google.com/search?q=Check%20whether%20two%20strings%20are%20anagrams) |
 
-## Round 2 · Machine Coding
-<!-- round: machine_coding -->
-
-_Build a working component or service under time pressure._
-
-| Question | Difficulty | Tags | Practice |
-| --- | --- | --- | --- |
-| Build an in-memory pub/sub with topic subscriptions. | 🟡 Medium | `pub-sub` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20an%20in-memory%20pub%2Fsub%20with%20topic%20subscriptions) · [Search](https://www.google.com/search?q=Build%20an%20in-memory%20pub%2Fsub%20with%20topic%20subscriptions) |
-| Implement a job queue with retries and backoff. | 🔴 Hard | `queue` `reliability` | [GfG](https://www.geeksforgeeks.org/search/?gq=Implement%20a%20job%20queue%20with%20retries%20and%20backoff) · [Search](https://www.google.com/search?q=Implement%20a%20job%20queue%20with%20retries%20and%20backoff) |
-
-## Round 3 · System Design
-<!-- round: system_design -->
-
-_High-level architecture of a large-scale system._
-
-| Question | Difficulty | Tags | Practice |
-| --- | --- | --- | --- |
-| Design a feature-flag service. | 🟡 Medium | `config` `rollout` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20feature-flag%20service) · [Search](https://www.google.com/search?q=Design%20a%20feature-flag%20service) |
-| Design a rate-limited, multi-tenant public API gateway. | 🔴 Hard | `gateway` `rate-limit` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20rate-limited%2C%20multi-tenant%20public%20API%20gateway) · [Search](https://www.google.com/search?q=Design%20a%20rate-limited%2C%20multi-tenant%20public%20API%20gateway) |
-
-## Round 4 · Tech Deep-Dive
+## Round 3 · Tech Deep-Dive
 <!-- round: tech_deep_dive -->
 
 _Deep questions on your core stack and fundamentals._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Explain the CAP theorem with a practical example. | 🔴 Hard | `distributed` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20the%20CAP%20theorem%20with%20a%20practical%20example) · [Search](https://www.google.com/search?q=Explain%20the%20CAP%20theorem%20with%20a%20practical%20example) |
-| Explain the difference between == and === and coercion. | 🟢 Easy | `javascript` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20the%20difference%20between%20%3D%3D%20and%20%3D%3D%3D%20and%20coercion) · [Search](https://www.google.com/search?q=Explain%20the%20difference%20between%20%3D%3D%20and%20%3D%3D%3D%20and%20coercion) |
-| Explain connection pooling and why it matters. | 🟡 Medium | `databases` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20connection%20pooling%20and%20why%20it%20matters) · [Search](https://www.google.com/search?q=Explain%20connection%20pooling%20and%20why%20it%20matters) |
+| What are the JDK, JRE and JVM? | 🟢 Easy | `java` | [GfG](https://www.geeksforgeeks.org/search/?gq=What%20are%20the%20JDK%2C%20JRE%20and%20JVM) · [Search](https://www.google.com/search?q=What%20are%20the%20JDK%2C%20JRE%20and%20JVM) |
+| What is indexing in a database and when does it help? | 🟡 Medium | `dbms` | [GfG](https://www.geeksforgeeks.org/search/?gq=What%20is%20indexing%20in%20a%20database%20and%20when%20does%20it%20help) · [Search](https://www.google.com/search?q=What%20is%20indexing%20in%20a%20database%20and%20when%20does%20it%20help) |
+| What is a pointer? Explain pointer arithmetic in C. | 🟡 Medium | `c` | [GfG](https://www.geeksforgeeks.org/search/?gq=What%20is%20a%20pointer%3F%20Explain%20pointer%20arithmetic%20in%20C) · [Search](https://www.google.com/search?q=What%20is%20a%20pointer%3F%20Explain%20pointer%20arithmetic%20in%20C) |
+| Explain CPU scheduling algorithms: FCFS, SJF and round robin. | 🟡 Medium | `os` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20CPU%20scheduling%20algorithms%3A%20FCFS%2C%20SJF%20and%20round%20robin) · [Search](https://www.google.com/search?q=Explain%20CPU%20scheduling%20algorithms%3A%20FCFS%2C%20SJF%20and%20round%20robin) |
 
-## Round 5 · Hiring Manager
+## Round 4 · Hiring Manager
 <!-- round: hiring_manager -->
 
 _Scope, ownership, and role-fit discussion with the manager._
 
 | Question | Difficulty | Tags |
 | --- | --- | --- |
-| How do you keep a team unblocked and shipping? | — | `leadership` |
+| What would you do if you disagreed with your project lead? | — | — |
+| How do you handle a client changing requirements mid-sprint? | — | — |
 
-## Round 6 · Behavioral / HR
+## Round 5 · Behavioral / HR
 <!-- round: behavioral -->
 
 _Values, collaboration, and past-experience (STAR) questions._
 
 | Question | Difficulty | Tags |
 | --- | --- | --- |
-| Tell me about a time you disagreed and committed. | — | `teamwork` `star` |
-| When did you take ownership of something outside your scope? | — | `ownership` `star` |
+| Why do you want to join our company? | — | — |
+| Where do you see yourself in five years? | — | — |
+| Tell me about a conflict in a team project and how you resolved it. | — | — |
 
 ---
 

@@ -1,58 +1,61 @@
 ---
 id: bajaj-finserv-2
 company: bajaj-finserv
-role: frontend
-level: staff
+role: fullstack
+level: mid
 outcome: rejected
-year: 2025
+year: 2024
 source: curated
 summary: >-
-  Staff frontend interview. Pragmatic questions — more real-world than pure
-  puzzles.
+  Campus-style mid fullstack interview. Breadth of fundamentals mattered more
+  than algorithmic depth.
 ---
-# Staff Frontend — Bajaj Finserv
+# Mid Full-stack — Bajaj Finserv
 
-![role](https://img.shields.io/badge/role-Frontend-22d3ee?style=flat-square)
-![level](https://img.shields.io/badge/level-Staff-818cf8?style=flat-square)
+![role](https://img.shields.io/badge/role-Full--stack-a78bfa?style=flat-square)
+![level](https://img.shields.io/badge/level-Mid-818cf8?style=flat-square)
 ![outcome](https://img.shields.io/badge/outcome-Rejected-f87171?style=flat-square)
-![year](https://img.shields.io/badge/year-2025-6b7280?style=flat-square)
+![year](https://img.shields.io/badge/year-2024-6b7280?style=flat-square)
 ![source](https://img.shields.io/badge/source-Commonly%20asked-2dd4bf?style=flat-square)
 
-> Staff frontend interview. Pragmatic questions — more real-world than pure puzzles.
+> Campus-style mid fullstack interview. Breadth of fundamentals mattered more than algorithmic depth.
 
-**5 rounds · 9 questions**
+**5 rounds · 14 questions**
 
 ---
 
-## Round 1 · DSA / Coding
+## Round 1 · Online Assessment
+<!-- round: oa -->
+
+_Timed online coding / aptitude screen, usually the first filter._
+
+| Question | Difficulty | Tags | Practice |
+| --- | --- | --- | --- |
+| Logical reasoning: blood relations and seating arrangement. | 🟡 Medium | `reasoning` | [GfG](https://www.geeksforgeeks.org/search/?gq=Logical%20reasoning%3A%20blood%20relations%20and%20seating%20arrangement) · [Search](https://www.google.com/search?q=Logical%20reasoning%3A%20blood%20relations%20and%20seating%20arrangement) |
+| Verbal ability: reading comprehension passage. | 🟢 Easy | `verbal` | [GfG](https://www.geeksforgeeks.org/search/?gq=Verbal%20ability%3A%20reading%20comprehension%20passage) · [Search](https://www.google.com/search?q=Verbal%20ability%3A%20reading%20comprehension%20passage) |
+| Logical reasoning: data interpretation from charts and tables. | 🟡 Medium | `reasoning` | [GfG](https://www.geeksforgeeks.org/search/?gq=Logical%20reasoning%3A%20data%20interpretation%20from%20charts%20and%20tables) · [Search](https://www.google.com/search?q=Logical%20reasoning%3A%20data%20interpretation%20from%20charts%20and%20tables) |
+
+## Round 2 · DSA / Coding
 <!-- round: dsa -->
 
 _Data structures & algorithms on a whiteboard or shared editor._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Pow(x, n). | 🟡 Medium | `math` `recursion` | [LC](https://leetcode.com/problems/powx-n/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Pow(x%2C%20n)) |
-| Longest palindromic substring. | 🟡 Medium | `string` `dp` | [LC](https://leetcode.com/problems/longest-palindromic-substring/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Longest%20palindromic%20substring) |
-| Reverse nodes in k-group. | 🔴 Hard | `linked-list` | [LC](https://leetcode.com/problems/reverse-nodes-in-k-group/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Reverse%20nodes%20in%20k-group) |
+| Remove duplicate characters from a string. | 🟢 Easy | `string` | [GfG](https://www.geeksforgeeks.org/search/?gq=Remove%20duplicate%20characters%20from%20a%20string) · [Search](https://www.google.com/search?q=Remove%20duplicate%20characters%20from%20a%20string) |
+| Check whether a number is an Armstrong number. | 🟢 Easy | `math` | [GfG](https://www.geeksforgeeks.org/search/?gq=Check%20whether%20a%20number%20is%20an%20Armstrong%20number) · [Search](https://www.google.com/search?q=Check%20whether%20a%20number%20is%20an%20Armstrong%20number) |
 
-## Round 2 · System Design
-<!-- round: system_design -->
+## Round 3 · Tech Deep-Dive
+<!-- round: tech_deep_dive -->
 
-_High-level architecture of a large-scale system._
-
-| Question | Difficulty | Tags | Practice |
-| --- | --- | --- | --- |
-| Design a rate limiter for a public API. | 🟡 Medium | `token-bucket` `redis` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20rate%20limiter%20for%20a%20public%20API) · [Search](https://www.google.com/search?q=Design%20a%20rate%20limiter%20for%20a%20public%20API) |
-| Design a pastebin with expiring links. | 🟡 Medium | `storage` `ttl` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20pastebin%20with%20expiring%20links) · [Search](https://www.google.com/search?q=Design%20a%20pastebin%20with%20expiring%20links) |
-
-## Round 3 · Low-Level Design
-<!-- round: lld -->
-
-_Object-oriented / low-level design of a focused module._
+_Deep questions on your core stack and fundamentals._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Design a drag-and-drop framework abstraction. | 🔴 Hard | `oop` `dnd` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20drag-and-drop%20framework%20abstraction) · [Search](https://www.google.com/search?q=Design%20a%20drag-and-drop%20framework%20abstraction) |
+| What is a deadlock and how do you prevent it? | 🟡 Medium | `os` | [GfG](https://www.geeksforgeeks.org/search/?gq=What%20is%20a%20deadlock%20and%20how%20do%20you%20prevent%20it) · [Search](https://www.google.com/search?q=What%20is%20a%20deadlock%20and%20how%20do%20you%20prevent%20it) |
+| Explain the ACID properties of a transaction. | 🟡 Medium | `dbms` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20the%20ACID%20properties%20of%20a%20transaction) · [Search](https://www.google.com/search?q=Explain%20the%20ACID%20properties%20of%20a%20transaction) |
+| Explain the layers of the OSI model. | 🟢 Easy | `networking` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20the%20layers%20of%20the%20OSI%20model) · [Search](https://www.google.com/search?q=Explain%20the%20layers%20of%20the%20OSI%20model) |
+| Difference between a structure and a union in C. | 🟢 Easy | `c` | [GfG](https://www.geeksforgeeks.org/search/?gq=Difference%20between%20a%20structure%20and%20a%20union%20in%20C) · [Search](https://www.google.com/search?q=Difference%20between%20a%20structure%20and%20a%20union%20in%20C) |
 
 ## Round 4 · Hiring Manager
 <!-- round: hiring_manager -->
@@ -61,7 +64,8 @@ _Scope, ownership, and role-fit discussion with the manager._
 
 | Question | Difficulty | Tags |
 | --- | --- | --- |
-| Tell me about a project that slipped. What did you do? | — | `delivery` |
+| Which technology stack are you most comfortable with, and why? | — | — |
+| How do you approach learning a technology you have never used? | — | — |
 
 ## Round 5 · Behavioral / HR
 <!-- round: behavioral -->
@@ -70,8 +74,9 @@ _Values, collaboration, and past-experience (STAR) questions._
 
 | Question | Difficulty | Tags |
 | --- | --- | --- |
-| Describe mentoring or unblocking another engineer. | — | `mentorship` `star` |
-| Tell me about a time you simplified something overly complex. | — | `judgment` `star` |
+| Why did you choose this branch of engineering? | — | — |
+| Would you be comfortable working on any technology assigned to you? | — | — |
+| Why should we hire you? | — | — |
 
 ---
 

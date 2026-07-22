@@ -1,58 +1,61 @@
 ---
 id: kotak-2
 company: kotak
-role: backend
-level: staff
-outcome: rejected
+role: fullstack
+level: mid
+outcome: withdrew
 year: 2025
 source: curated
 summary: >-
-  5-round staff backend process. Pragmatic questions — more real-world than pure
-  puzzles.
+  A mid fullstack hiring drive. Breadth of fundamentals mattered more than
+  algorithmic depth.
 ---
-# Staff Backend — Kotak Mahindra Bank
+# Mid Full-stack — Kotak Mahindra Bank
 
-![role](https://img.shields.io/badge/role-Backend-8b93ff?style=flat-square)
-![level](https://img.shields.io/badge/level-Staff-818cf8?style=flat-square)
-![outcome](https://img.shields.io/badge/outcome-Rejected-f87171?style=flat-square)
+![role](https://img.shields.io/badge/role-Full--stack-a78bfa?style=flat-square)
+![level](https://img.shields.io/badge/level-Mid-818cf8?style=flat-square)
+![outcome](https://img.shields.io/badge/outcome-Withdrew-fbbf24?style=flat-square)
 ![year](https://img.shields.io/badge/year-2025-6b7280?style=flat-square)
 ![source](https://img.shields.io/badge/source-Commonly%20asked-2dd4bf?style=flat-square)
 
-> 5-round staff backend process. Pragmatic questions — more real-world than pure puzzles.
+> A mid fullstack hiring drive. Breadth of fundamentals mattered more than algorithmic depth.
 
-**5 rounds · 9 questions**
+**5 rounds · 14 questions**
 
 ---
 
-## Round 1 · DSA / Coding
+## Round 1 · Online Assessment
+<!-- round: oa -->
+
+_Timed online coding / aptitude screen, usually the first filter._
+
+| Question | Difficulty | Tags | Practice |
+| --- | --- | --- | --- |
+| Logical reasoning: number and letter series completion. | 🟢 Easy | `reasoning` | [GfG](https://www.geeksforgeeks.org/search/?gq=Logical%20reasoning%3A%20number%20and%20letter%20series%20completion) · [Search](https://www.google.com/search?q=Logical%20reasoning%3A%20number%20and%20letter%20series%20completion) |
+| Logical reasoning: syllogisms and statement–conclusion. | 🟡 Medium | `reasoning` | [GfG](https://www.geeksforgeeks.org/search/?gq=Logical%20reasoning%3A%20syllogisms%20and%20statement%E2%80%93conclusion) · [Search](https://www.google.com/search?q=Logical%20reasoning%3A%20syllogisms%20and%20statement%E2%80%93conclusion) |
+| Logical reasoning: blood relations and seating arrangement. | 🟡 Medium | `reasoning` | [GfG](https://www.geeksforgeeks.org/search/?gq=Logical%20reasoning%3A%20blood%20relations%20and%20seating%20arrangement) · [Search](https://www.google.com/search?q=Logical%20reasoning%3A%20blood%20relations%20and%20seating%20arrangement) |
+
+## Round 2 · DSA / Coding
 <!-- round: dsa -->
 
 _Data structures & algorithms on a whiteboard or shared editor._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Merge k sorted lists. | 🔴 Hard | `heap` `linked-list` | [LC](https://leetcode.com/problems/merge-k-sorted-lists/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Merge%20k%20sorted%20lists) |
-| Min cost to connect all points. | 🟡 Medium | `graph` `mst` | [LC](https://leetcode.com/problems/min-cost-to-connect-all-points/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Min%20cost%20to%20connect%20all%20points) |
-| Valid Parentheses — check balanced brackets. | 🟢 Easy | `stack` `string` | [LC](https://leetcode.com/problems/valid-parentheses/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Valid%20Parentheses%20%E2%80%94%20check%20balanced%20brackets) |
+| Reverse a string without using library functions. | 🟢 Easy | `string` | [GfG](https://www.geeksforgeeks.org/search/?gq=Reverse%20a%20string%20without%20using%20library%20functions) · [Search](https://www.google.com/search?q=Reverse%20a%20string%20without%20using%20library%20functions) |
+| Print a star / pyramid pattern for n rows. | 🟢 Easy | `patterns` | [GfG](https://www.geeksforgeeks.org/search/?gq=Print%20a%20star%20%2F%20pyramid%20pattern%20for%20n%20rows) · [Search](https://www.google.com/search?q=Print%20a%20star%20%2F%20pyramid%20pattern%20for%20n%20rows) |
 
-## Round 2 · System Design
-<!-- round: system_design -->
+## Round 3 · Tech Deep-Dive
+<!-- round: tech_deep_dive -->
 
-_High-level architecture of a large-scale system._
-
-| Question | Difficulty | Tags | Practice |
-| --- | --- | --- | --- |
-| Design a video streaming service like YouTube. | 🔴 Hard | `cdn` `storage` `transcoding` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20video%20streaming%20service%20like%20YouTube) · [Search](https://www.google.com/search?q=Design%20a%20video%20streaming%20service%20like%20YouTube) |
-| Design an analytics / metrics dashboard backend. | 🔴 Hard | `time-series` `aggregation` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20an%20analytics%20%2F%20metrics%20dashboard%20backend) · [Search](https://www.google.com/search?q=Design%20an%20analytics%20%2F%20metrics%20dashboard%20backend) |
-
-## Round 3 · Low-Level Design
-<!-- round: lld -->
-
-_Object-oriented / low-level design of a focused module._
+_Deep questions on your core stack and fundamentals._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Design an ATM / cash dispenser. | 🟡 Medium | `oop` `state-machine` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20an%20ATM%20%2F%20cash%20dispenser) · [Search](https://www.google.com/search?q=Design%20an%20ATM%20%2F%20cash%20dispenser) |
+| Difference between DBMS and RDBMS. | 🟢 Easy | `dbms` | [GfG](https://www.geeksforgeeks.org/search/?gq=Difference%20between%20DBMS%20and%20RDBMS) · [Search](https://www.google.com/search?q=Difference%20between%20DBMS%20and%20RDBMS) |
+| Explain virtual memory, paging and segmentation. | 🟡 Medium | `os` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20virtual%20memory%2C%20paging%20and%20segmentation) · [Search](https://www.google.com/search?q=Explain%20virtual%20memory%2C%20paging%20and%20segmentation) |
+| What happens when you type a URL into a browser? | 🟡 Medium | `networking` | [GfG](https://www.geeksforgeeks.org/search/?gq=What%20happens%20when%20you%20type%20a%20URL%20into%20a%20browser) · [Search](https://www.google.com/search?q=What%20happens%20when%20you%20type%20a%20URL%20into%20a%20browser) |
+| What is a pointer? Explain pointer arithmetic in C. | 🟡 Medium | `c` | [GfG](https://www.geeksforgeeks.org/search/?gq=What%20is%20a%20pointer%3F%20Explain%20pointer%20arithmetic%20in%20C) · [Search](https://www.google.com/search?q=What%20is%20a%20pointer%3F%20Explain%20pointer%20arithmetic%20in%20C) |
 
 ## Round 4 · Hiring Manager
 <!-- round: hiring_manager -->
@@ -61,7 +64,8 @@ _Scope, ownership, and role-fit discussion with the manager._
 
 | Question | Difficulty | Tags |
 | --- | --- | --- |
-| Where do you want to grow in the next two years? | — | `growth` |
+| Which technology stack are you most comfortable with, and why? | — | — |
+| What would you do if you disagreed with your project lead? | — | — |
 
 ## Round 5 · Behavioral / HR
 <!-- round: behavioral -->
@@ -70,8 +74,9 @@ _Values, collaboration, and past-experience (STAR) questions._
 
 | Question | Difficulty | Tags |
 | --- | --- | --- |
-| Tell me about a time you disagreed and committed. | — | `teamwork` `star` |
-| When did you change your mind after seeing new evidence? | — | `judgment` `star` |
+| What do you know about our company and the services we provide? | — | — |
+| Tell me about yourself. | — | — |
+| Are you comfortable working in rotational or night shifts? | — | — |
 
 ---
 

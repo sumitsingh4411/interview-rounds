@@ -1,26 +1,26 @@
 ---
 id: cyient-1
 company: cyient
-role: fullstack
-level: junior
+role: backend
+level: intern
 outcome: offer
 year: 2025
 source: curated
 summary: >-
-  5-round junior fullstack process. Fast-paced; expect follow-ups that push on
-  depth.
+  A intern backend hiring drive. Basic programming plus core CS; communication
+  mattered throughout.
 ---
-# Junior Full-stack — Cyient
+# Intern Backend — Cyient
 
-![role](https://img.shields.io/badge/role-Full--stack-a78bfa?style=flat-square)
-![level](https://img.shields.io/badge/level-Junior-818cf8?style=flat-square)
+![role](https://img.shields.io/badge/role-Backend-8b93ff?style=flat-square)
+![level](https://img.shields.io/badge/level-Intern-818cf8?style=flat-square)
 ![outcome](https://img.shields.io/badge/outcome-Offer-34d399?style=flat-square)
 ![year](https://img.shields.io/badge/year-2025-6b7280?style=flat-square)
 ![source](https://img.shields.io/badge/source-Commonly%20asked-2dd4bf?style=flat-square)
 
-> 5-round junior fullstack process. Fast-paced; expect follow-ups that push on depth.
+> A intern backend hiring drive. Basic programming plus core CS; communication mattered throughout.
 
-**5 rounds · 11 questions**
+**4 rounds · 12 questions**
 
 ---
 
@@ -31,7 +31,9 @@ _Timed online coding / aptitude screen, usually the first filter._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Aptitude and logical-reasoning section. | 🟢 Easy | `aptitude` | [GfG](https://www.geeksforgeeks.org/search/?gq=Aptitude%20and%20logical-reasoning%20section) · [Search](https://www.google.com/search?q=Aptitude%20and%20logical-reasoning%20section) |
+| Logical reasoning: data interpretation from charts and tables. | 🟡 Medium | `reasoning` | [GfG](https://www.geeksforgeeks.org/search/?gq=Logical%20reasoning%3A%20data%20interpretation%20from%20charts%20and%20tables) · [Search](https://www.google.com/search?q=Logical%20reasoning%3A%20data%20interpretation%20from%20charts%20and%20tables) |
+| Logical reasoning: blood relations and seating arrangement. | 🟡 Medium | `reasoning` | [GfG](https://www.geeksforgeeks.org/search/?gq=Logical%20reasoning%3A%20blood%20relations%20and%20seating%20arrangement) · [Search](https://www.google.com/search?q=Logical%20reasoning%3A%20blood%20relations%20and%20seating%20arrangement) |
+| Pseudocode: predict the output of the given code block. | 🟡 Medium | `pseudocode` | [GfG](https://www.geeksforgeeks.org/search/?gq=Pseudocode%3A%20predict%20the%20output%20of%20the%20given%20code%20block) · [Search](https://www.google.com/search?q=Pseudocode%3A%20predict%20the%20output%20of%20the%20given%20code%20block) |
 
 ## Round 2 · DSA / Coding
 <!-- round: dsa -->
@@ -40,40 +42,31 @@ _Data structures & algorithms on a whiteboard or shared editor._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Implement a trie (prefix tree). | 🟡 Medium | `trie` | [LC](https://leetcode.com/problems/implement-trie-prefix-tree/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Implement%20a%20trie%20(prefix%20tree)) |
-| Binary tree maximum path sum. | 🔴 Hard | `tree` `dfs` | [LC](https://leetcode.com/problems/binary-tree-maximum-path-sum/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Binary%20tree%20maximum%20path%20sum) |
-| Clone a graph. | 🟡 Medium | `graph` `dfs` | [LC](https://leetcode.com/problems/clone-graph/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Clone%20a%20graph) |
+| Sort an array using bubble sort and state its complexity. | 🟢 Easy | `sorting` | [GfG](https://www.geeksforgeeks.org/search/?gq=Sort%20an%20array%20using%20bubble%20sort%20and%20state%20its%20complexity) · [Search](https://www.google.com/search?q=Sort%20an%20array%20using%20bubble%20sort%20and%20state%20its%20complexity) |
+| Swap two numbers without using a temporary variable. | 🟢 Easy | `math` | [GfG](https://www.geeksforgeeks.org/search/?gq=Swap%20two%20numbers%20without%20using%20a%20temporary%20variable) · [Search](https://www.google.com/search?q=Swap%20two%20numbers%20without%20using%20a%20temporary%20variable) |
 
-## Round 3 · Machine Coding
-<!-- round: machine_coding -->
-
-_Build a working component or service under time pressure._
-
-| Question | Difficulty | Tags | Practice |
-| --- | --- | --- | --- |
-| Build an infinite-scrolling list with virtualization. | 🔴 Hard | `react` `virtualization` `perf` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20an%20infinite-scrolling%20list%20with%20virtualization) · [Search](https://www.google.com/search?q=Build%20an%20infinite-scrolling%20list%20with%20virtualization) |
-| Build a debounced autocomplete/search box with keyboard nav. | 🟡 Medium | `react` `debounce` `a11y` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20a%20debounced%20autocomplete%2Fsearch%20box%20with%20keyboard%20nav) · [Search](https://www.google.com/search?q=Build%20a%20debounced%20autocomplete%2Fsearch%20box%20with%20keyboard%20nav) |
-
-## Round 4 · Tech Deep-Dive
+## Round 3 · Tech Deep-Dive
 <!-- round: tech_deep_dive -->
 
 _Deep questions on your core stack and fundamentals._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| How do circuit breakers and bulkheads improve resilience? | 🟡 Medium | `reliability` | [GfG](https://www.geeksforgeeks.org/search/?gq=How%20do%20circuit%20breakers%20and%20bulkheads%20improve%20resilience) · [Search](https://www.google.com/search?q=How%20do%20circuit%20breakers%20and%20bulkheads%20improve%20resilience) |
-| How does HTTPS/TLS establish a secure connection? | 🟡 Medium | `networking` `security` | [GfG](https://www.geeksforgeeks.org/search/?gq=How%20does%20HTTPS%2FTLS%20establish%20a%20secure%20connection) · [Search](https://www.google.com/search?q=How%20does%20HTTPS%2FTLS%20establish%20a%20secure%20connection) |
-| How does React reconciliation / the diffing algorithm work? | 🟡 Medium | `react` `fiber` | [GfG](https://www.geeksforgeeks.org/search/?gq=How%20does%20React%20reconciliation%20%2F%20the%20diffing%20algorithm%20work) · [Search](https://www.google.com/search?q=How%20does%20React%20reconciliation%20%2F%20the%20diffing%20algorithm%20work) |
+| What happens when you type a URL into a browser? | 🟡 Medium | `networking` | [GfG](https://www.geeksforgeeks.org/search/?gq=What%20happens%20when%20you%20type%20a%20URL%20into%20a%20browser) · [Search](https://www.google.com/search?q=What%20happens%20when%20you%20type%20a%20URL%20into%20a%20browser) |
+| Difference between DBMS and RDBMS. | 🟢 Easy | `dbms` | [GfG](https://www.geeksforgeeks.org/search/?gq=Difference%20between%20DBMS%20and%20RDBMS) · [Search](https://www.google.com/search?q=Difference%20between%20DBMS%20and%20RDBMS) |
+| Explain SQL joins: inner, left, right and full outer. | 🟢 Easy | `sql` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20SQL%20joins%3A%20inner%2C%20left%2C%20right%20and%20full%20outer) · [Search](https://www.google.com/search?q=Explain%20SQL%20joins%3A%20inner%2C%20left%2C%20right%20and%20full%20outer) |
+| Explain inheritance and its types. | 🟢 Easy | `oops` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20inheritance%20and%20its%20types) · [Search](https://www.google.com/search?q=Explain%20inheritance%20and%20its%20types) |
 
-## Round 5 · Behavioral / HR
+## Round 4 · Behavioral / HR
 <!-- round: behavioral -->
 
 _Values, collaboration, and past-experience (STAR) questions._
 
 | Question | Difficulty | Tags |
 | --- | --- | --- |
-| Describe handling a tight deadline with competing priorities. | — | `prioritization` `star` |
-| Tell me about the hardest bug you have debugged. | — | `debugging` `star` |
+| What are your interests outside academics? | — | — |
+| What are your strengths and weaknesses? | — | — |
+| What do you know about our company and the services we provide? | — | — |
 
 ---
 

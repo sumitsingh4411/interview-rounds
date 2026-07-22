@@ -1,67 +1,71 @@
 ---
 id: cyient-4
 company: cyient
-role: fullstack
+role: backend
 level: mid
-outcome: rejected
-year: 2025
+outcome: unknown
+year: 2023
 source: curated
-summary: Mid fullstack interview. Fast-paced; expect follow-ups that push on depth.
+summary: >-
+  A mid backend hiring drive. Breadth of fundamentals mattered more than
+  algorithmic depth.
 ---
-# Mid Full-stack — Cyient
+# Mid Backend — Cyient
 
-![role](https://img.shields.io/badge/role-Full--stack-a78bfa?style=flat-square)
+![role](https://img.shields.io/badge/role-Backend-8b93ff?style=flat-square)
 ![level](https://img.shields.io/badge/level-Mid-818cf8?style=flat-square)
-![outcome](https://img.shields.io/badge/outcome-Rejected-f87171?style=flat-square)
-![year](https://img.shields.io/badge/year-2025-6b7280?style=flat-square)
+![outcome](https://img.shields.io/badge/outcome-Unknown-6b7280?style=flat-square)
+![year](https://img.shields.io/badge/year-2023-6b7280?style=flat-square)
 ![source](https://img.shields.io/badge/source-Commonly%20asked-2dd4bf?style=flat-square)
 
-> Mid fullstack interview. Fast-paced; expect follow-ups that push on depth.
+> A mid backend hiring drive. Breadth of fundamentals mattered more than algorithmic depth.
 
-**5 rounds · 11 questions**
+**5 rounds · 14 questions**
 
 ---
 
-## Round 1 · DSA / Coding
+## Round 1 · Online Assessment
+<!-- round: oa -->
+
+_Timed online coding / aptitude screen, usually the first filter._
+
+| Question | Difficulty | Tags | Practice |
+| --- | --- | --- | --- |
+| Logical reasoning: syllogisms and statement–conclusion. | 🟡 Medium | `reasoning` | [GfG](https://www.geeksforgeeks.org/search/?gq=Logical%20reasoning%3A%20syllogisms%20and%20statement%E2%80%93conclusion) · [Search](https://www.google.com/search?q=Logical%20reasoning%3A%20syllogisms%20and%20statement%E2%80%93conclusion) |
+| Verbal ability: reading comprehension passage. | 🟢 Easy | `verbal` | [GfG](https://www.geeksforgeeks.org/search/?gq=Verbal%20ability%3A%20reading%20comprehension%20passage) · [Search](https://www.google.com/search?q=Verbal%20ability%3A%20reading%20comprehension%20passage) |
+| Logical reasoning: number and letter series completion. | 🟢 Easy | `reasoning` | [GfG](https://www.geeksforgeeks.org/search/?gq=Logical%20reasoning%3A%20number%20and%20letter%20series%20completion) · [Search](https://www.google.com/search?q=Logical%20reasoning%3A%20number%20and%20letter%20series%20completion) |
+
+## Round 2 · DSA / Coding
 <!-- round: dsa -->
 
 _Data structures & algorithms on a whiteboard or shared editor._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Merge intervals. | 🟡 Medium | `intervals` `sorting` | [LC](https://leetcode.com/problems/merge-intervals/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Merge%20intervals) |
-| Word search II. | 🔴 Hard | `trie` `backtracking` | [LC](https://leetcode.com/problems/word-search-ii/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Word%20search%20II) |
-| Kth smallest element in a BST. | 🟡 Medium | `tree` `bst` | [LC](https://leetcode.com/problems/kth-smallest-element-in-a-bst/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Kth%20smallest%20element%20in%20a%20BST) |
+| Check whether two strings are anagrams. | 🟢 Easy | `string` | [GfG](https://www.geeksforgeeks.org/search/?gq=Check%20whether%20two%20strings%20are%20anagrams) · [Search](https://www.google.com/search?q=Check%20whether%20two%20strings%20are%20anagrams) |
+| Implement binary search on a sorted array. | 🟢 Easy | `searching` | [GfG](https://www.geeksforgeeks.org/search/?gq=Implement%20binary%20search%20on%20a%20sorted%20array) · [Search](https://www.google.com/search?q=Implement%20binary%20search%20on%20a%20sorted%20array) |
 
-## Round 2 · Machine Coding
-<!-- round: machine_coding -->
-
-_Build a working component or service under time pressure._
-
-| Question | Difficulty | Tags | Practice |
-| --- | --- | --- | --- |
-| Build a "connect four" game with win detection. | 🟡 Medium | `react` `state` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20a%20%22connect%20four%22%20game%20with%20win%20detection) · [Search](https://www.google.com/search?q=Build%20a%20%22connect%20four%22%20game%20with%20win%20detection) |
-| Implement a leaderboard API backed by a sorted set. | 🟡 Medium | `redis` `ranking` | [GfG](https://www.geeksforgeeks.org/search/?gq=Implement%20a%20leaderboard%20API%20backed%20by%20a%20sorted%20set) · [Search](https://www.google.com/search?q=Implement%20a%20leaderboard%20API%20backed%20by%20a%20sorted%20set) |
-
-## Round 3 · Low-Level Design
-<!-- round: lld -->
-
-_Object-oriented / low-level design of a focused module._
-
-| Question | Difficulty | Tags | Practice |
-| --- | --- | --- | --- |
-| Design an analytics event-tracking client. | 🟡 Medium | `oop` `observability` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20an%20analytics%20event-tracking%20client) · [Search](https://www.google.com/search?q=Design%20an%20analytics%20event-tracking%20client) |
-
-## Round 4 · Tech Deep-Dive
+## Round 3 · Tech Deep-Dive
 <!-- round: tech_deep_dive -->
 
 _Deep questions on your core stack and fundamentals._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Explain connection pooling and why it matters. | 🟡 Medium | `databases` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20connection%20pooling%20and%20why%20it%20matters) · [Search](https://www.google.com/search?q=Explain%20connection%20pooling%20and%20why%20it%20matters) |
-| How does a bloom filter work and when would you use one? | 🟡 Medium | `data-structures` `probabilistic` | [GfG](https://www.geeksforgeeks.org/search/?gq=How%20does%20a%20bloom%20filter%20work%20and%20when%20would%20you%20use%20one) · [Search](https://www.google.com/search?q=How%20does%20a%20bloom%20filter%20work%20and%20when%20would%20you%20use%20one) |
-| How does the OAuth 2.0 authorization-code flow work? | 🟡 Medium | `auth` `security` | [GfG](https://www.geeksforgeeks.org/search/?gq=How%20does%20the%20OAuth%202.0%20authorization-code%20flow%20work) · [Search](https://www.google.com/search?q=How%20does%20the%20OAuth%202.0%20authorization-code%20flow%20work) |
+| Explain virtual memory, paging and segmentation. | 🟡 Medium | `os` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20virtual%20memory%2C%20paging%20and%20segmentation) · [Search](https://www.google.com/search?q=Explain%20virtual%20memory%2C%20paging%20and%20segmentation) |
+| What is indexing in a database and when does it help? | 🟡 Medium | `dbms` | [GfG](https://www.geeksforgeeks.org/search/?gq=What%20is%20indexing%20in%20a%20database%20and%20when%20does%20it%20help) · [Search](https://www.google.com/search?q=What%20is%20indexing%20in%20a%20database%20and%20when%20does%20it%20help) |
+| What is a pointer? Explain pointer arithmetic in C. | 🟡 Medium | `c` | [GfG](https://www.geeksforgeeks.org/search/?gq=What%20is%20a%20pointer%3F%20Explain%20pointer%20arithmetic%20in%20C) · [Search](https://www.google.com/search?q=What%20is%20a%20pointer%3F%20Explain%20pointer%20arithmetic%20in%20C) |
+| Write a SQL query to find the second-highest salary. | 🟡 Medium | `sql` | [GfG](https://www.geeksforgeeks.org/search/?gq=Write%20a%20SQL%20query%20to%20find%20the%20second-highest%20salary) · [Search](https://www.google.com/search?q=Write%20a%20SQL%20query%20to%20find%20the%20second-highest%20salary) |
+
+## Round 4 · Hiring Manager
+<!-- round: hiring_manager -->
+
+_Scope, ownership, and role-fit discussion with the manager._
+
+| Question | Difficulty | Tags |
+| --- | --- | --- |
+| How would you approach understanding a client's legacy codebase? | — | — |
+| How do you handle a client changing requirements mid-sprint? | — | — |
 
 ## Round 5 · Behavioral / HR
 <!-- round: behavioral -->
@@ -70,8 +74,9 @@ _Values, collaboration, and past-experience (STAR) questions._
 
 | Question | Difficulty | Tags |
 | --- | --- | --- |
-| Tell me about a project you are most proud of. | — | `star` |
-| How do you handle being blocked for several days? | — | `ownership` `star` |
+| Why should we hire you? | — | — |
+| Tell me about your final-year project. | — | — |
+| Are you comfortable signing the service agreement / bond? | — | — |
 
 ---
 

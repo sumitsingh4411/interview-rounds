@@ -10,7 +10,7 @@ description: IT services and platform engineering. Core coding and technical rou
 ![industry](https://img.shields.io/badge/industry-IT%20Services-8b93ff?style=flat-square)
 ![hq](https://img.shields.io/badge/hq-Bangalore,%20India-6b7280?style=flat-square)
 ![interviews](https://img.shields.io/badge/interviews-5-22d3ee?style=flat-square)
-![questions](https://img.shields.io/badge/questions-57-a78bfa?style=flat-square)
+![questions](https://img.shields.io/badge/questions-65-a78bfa?style=flat-square)
 
 > IT services and platform engineering. Core coding and technical rounds.
 
@@ -20,11 +20,11 @@ description: IT services and platform engineering. Core coding and technical rou
 
 | Interview | Outcome | Rounds | Questions |
 | --- | --- | --- | --- |
-| [Mid · Backend](../interviews/sonata-1.md) | Rejected | 5 | 11 |
-| [Senior · Full-stack](../interviews/sonata-2.md) | Offer | 6 | 13 |
-| [Senior · Frontend](../interviews/sonata-3.md) | Offer | 6 | 13 |
-| [Staff · Backend](../interviews/sonata-4.md) | Unknown | 5 | 9 |
-| [Junior · Full-stack](../interviews/sonata-5.md) | Unknown | 5 | 11 |
+| [Mid · Full-stack](../interviews/sonata-1.md) | Unknown | 5 | 14 |
+| [Mid · Backend](../interviews/sonata-2.md) | Rejected | 5 | 14 |
+| [Mid · Frontend](../interviews/sonata-3.md) | Unknown | 5 | 14 |
+| [Intern · Full-stack](../interviews/sonata-4.md) | Offer | 4 | 12 |
+| [Senior · Backend](../interviews/sonata-5.md) | Rejected | 4 | 11 |
 
 ---
 

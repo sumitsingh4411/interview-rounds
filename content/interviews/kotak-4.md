@@ -1,89 +1,82 @@
 ---
 id: kotak-4
 company: kotak
-role: backend
-level: senior
-outcome: offer
+role: frontend
+level: mid
+outcome: rejected
 year: 2023
 source: curated
 summary: >-
-  A senior backend loop. Pragmatic questions — more real-world than pure
-  puzzles.
+  5-round mid frontend process. Breadth of fundamentals mattered more than
+  algorithmic depth.
 ---
-# Senior Backend — Kotak Mahindra Bank
+# Mid Frontend — Kotak Mahindra Bank
 
-![role](https://img.shields.io/badge/role-Backend-8b93ff?style=flat-square)
-![level](https://img.shields.io/badge/level-Senior-818cf8?style=flat-square)
-![outcome](https://img.shields.io/badge/outcome-Offer-34d399?style=flat-square)
+![role](https://img.shields.io/badge/role-Frontend-22d3ee?style=flat-square)
+![level](https://img.shields.io/badge/level-Mid-818cf8?style=flat-square)
+![outcome](https://img.shields.io/badge/outcome-Rejected-f87171?style=flat-square)
 ![year](https://img.shields.io/badge/year-2023-6b7280?style=flat-square)
 ![source](https://img.shields.io/badge/source-Commonly%20asked-2dd4bf?style=flat-square)
 
-> A senior backend loop. Pragmatic questions — more real-world than pure puzzles.
+> 5-round mid frontend process. Breadth of fundamentals mattered more than algorithmic depth.
 
-**6 rounds · 13 questions**
+**5 rounds · 14 questions**
 
 ---
 
-## Round 1 · DSA / Coding
+## Round 1 · Online Assessment
+<!-- round: oa -->
+
+_Timed online coding / aptitude screen, usually the first filter._
+
+| Question | Difficulty | Tags | Practice |
+| --- | --- | --- | --- |
+| Pseudocode: spot the error in the given snippet. | 🟡 Medium | `pseudocode` | [GfG](https://www.geeksforgeeks.org/search/?gq=Pseudocode%3A%20spot%20the%20error%20in%20the%20given%20snippet) · [Search](https://www.google.com/search?q=Pseudocode%3A%20spot%20the%20error%20in%20the%20given%20snippet) |
+| Verbal ability: error spotting and sentence correction. | 🟢 Easy | `verbal` | [GfG](https://www.geeksforgeeks.org/search/?gq=Verbal%20ability%3A%20error%20spotting%20and%20sentence%20correction) · [Search](https://www.google.com/search?q=Verbal%20ability%3A%20error%20spotting%20and%20sentence%20correction) |
+| Quantitative aptitude: time, speed and distance problems. | 🟢 Easy | `aptitude` | [GfG](https://www.geeksforgeeks.org/search/?gq=Quantitative%20aptitude%3A%20time%2C%20speed%20and%20distance%20problems) · [Search](https://www.google.com/search?q=Quantitative%20aptitude%3A%20time%2C%20speed%20and%20distance%20problems) |
+
+## Round 2 · DSA / Coding
 <!-- round: dsa -->
 
 _Data structures & algorithms on a whiteboard or shared editor._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Longest increasing subsequence. | 🔴 Hard | `dp` `binary-search` | [LC](https://leetcode.com/problems/longest-increasing-subsequence/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Longest%20increasing%20subsequence) |
-| Combination sum. | 🟡 Medium | `backtracking` | [LC](https://leetcode.com/problems/combination-sum/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Combination%20sum) |
-| Lowest common ancestor of a binary tree. | 🟡 Medium | `tree` | [LC](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Lowest%20common%20ancestor%20of%20a%20binary%20tree) |
+| Sort an array using bubble sort and state its complexity. | 🟢 Easy | `sorting` | [GfG](https://www.geeksforgeeks.org/search/?gq=Sort%20an%20array%20using%20bubble%20sort%20and%20state%20its%20complexity) · [Search](https://www.google.com/search?q=Sort%20an%20array%20using%20bubble%20sort%20and%20state%20its%20complexity) |
+| Implement binary search on a sorted array. | 🟢 Easy | `searching` | [GfG](https://www.geeksforgeeks.org/search/?gq=Implement%20binary%20search%20on%20a%20sorted%20array) · [Search](https://www.google.com/search?q=Implement%20binary%20search%20on%20a%20sorted%20array) |
 
-## Round 2 · Machine Coding
-<!-- round: machine_coding -->
-
-_Build a working component or service under time pressure._
-
-| Question | Difficulty | Tags | Practice |
-| --- | --- | --- | --- |
-| Implement an exponential-backoff HTTP client. | 🟡 Medium | `reliability` | [GfG](https://www.geeksforgeeks.org/search/?gq=Implement%20an%20exponential-backoff%20HTTP%20client) · [Search](https://www.google.com/search?q=Implement%20an%20exponential-backoff%20HTTP%20client) |
-| Implement an idempotent "charge" endpoint. | 🔴 Hard | `idempotency` `payments` | [GfG](https://www.geeksforgeeks.org/search/?gq=Implement%20an%20idempotent%20%22charge%22%20endpoint) · [Search](https://www.google.com/search?q=Implement%20an%20idempotent%20%22charge%22%20endpoint) |
-
-## Round 3 · System Design
-<!-- round: system_design -->
-
-_High-level architecture of a large-scale system._
-
-| Question | Difficulty | Tags | Practice |
-| --- | --- | --- | --- |
-| Design a news feed / timeline. | 🔴 Hard | `fanout` `ranking` `cache` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20news%20feed%20%2F%20timeline) · [Search](https://www.google.com/search?q=Design%20a%20news%20feed%20%2F%20timeline) |
-| Design a distributed unique ID generator. | 🟡 Medium | `snowflake` `distributed` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20distributed%20unique%20ID%20generator) · [Search](https://www.google.com/search?q=Design%20a%20distributed%20unique%20ID%20generator) |
-
-## Round 4 · Tech Deep-Dive
+## Round 3 · Tech Deep-Dive
 <!-- round: tech_deep_dive -->
 
 _Deep questions on your core stack and fundamentals._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Explain how DNS resolution works end to end. | 🟡 Medium | `networking` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20how%20DNS%20resolution%20works%20end%20to%20end) · [Search](https://www.google.com/search?q=Explain%20how%20DNS%20resolution%20works%20end%20to%20end) |
-| How do you design a schema for a multi-currency ledger? | 🔴 Hard | `databases` `money` | [GfG](https://www.geeksforgeeks.org/search/?gq=How%20do%20you%20design%20a%20schema%20for%20a%20multi-currency%20ledger) · [Search](https://www.google.com/search?q=How%20do%20you%20design%20a%20schema%20for%20a%20multi-currency%20ledger) |
-| Idempotency in APIs — why and how. | 🟡 Medium | `api-design` `idempotency` | [GfG](https://www.geeksforgeeks.org/search/?gq=Idempotency%20in%20APIs%20%E2%80%94%20why%20and%20how) · [Search](https://www.google.com/search?q=Idempotency%20in%20APIs%20%E2%80%94%20why%20and%20how) |
+| Explain the static and final keywords in Java. | 🟢 Easy | `java` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20the%20static%20and%20final%20keywords%20in%20Java) · [Search](https://www.google.com/search?q=Explain%20the%20static%20and%20final%20keywords%20in%20Java) |
+| What is indexing in a database and when does it help? | 🟡 Medium | `dbms` | [GfG](https://www.geeksforgeeks.org/search/?gq=What%20is%20indexing%20in%20a%20database%20and%20when%20does%20it%20help) · [Search](https://www.google.com/search?q=What%20is%20indexing%20in%20a%20database%20and%20when%20does%20it%20help) |
+| Difference between an array and a linked list. | 🟢 Easy | `data-structures` | [GfG](https://www.geeksforgeeks.org/search/?gq=Difference%20between%20an%20array%20and%20a%20linked%20list) · [Search](https://www.google.com/search?q=Difference%20between%20an%20array%20and%20a%20linked%20list) |
+| Explain database normalization and its normal forms. | 🟡 Medium | `dbms` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20database%20normalization%20and%20its%20normal%20forms) · [Search](https://www.google.com/search?q=Explain%20database%20normalization%20and%20its%20normal%20forms) |
 
-## Round 5 · Hiring Manager
+## Round 4 · Hiring Manager
 <!-- round: hiring_manager -->
 
 _Scope, ownership, and role-fit discussion with the manager._
 
 | Question | Difficulty | Tags |
 | --- | --- | --- |
-| What does a great engineering culture look like to you? | — | `values` |
+| How do you approach learning a technology you have never used? | — | — |
+| How would you approach understanding a client's legacy codebase? | — | — |
 
-## Round 6 · Behavioral / HR
+## Round 5 · Behavioral / HR
 <!-- round: behavioral -->
 
 _Values, collaboration, and past-experience (STAR) questions._
 
 | Question | Difficulty | Tags |
 | --- | --- | --- |
-| Tell me about a project you are most proud of. | — | `star` |
-| Tell me about the most impactful project of your career. | — | `impact` `star` |
+| What are your interests outside academics? | — | — |
+| Why do you want to join our company? | — | — |
+| Are you willing to relocate anywhere in India? | — | — |
 
 ---
 

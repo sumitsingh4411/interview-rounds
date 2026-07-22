@@ -1,58 +1,61 @@
 ---
 id: persistent-1
 company: persistent
-role: fullstack
-level: staff
-outcome: rejected
+role: backend
+level: mid
+outcome: withdrew
 year: 2025
 source: curated
 summary: >-
-  5-round staff fullstack process. Pragmatic questions — more real-world than
-  pure puzzles.
+  5-round mid backend process. Basic programming plus core CS; communication
+  mattered throughout.
 ---
-# Staff Full-stack — Persistent Systems
+# Mid Backend — Persistent Systems
 
-![role](https://img.shields.io/badge/role-Full--stack-a78bfa?style=flat-square)
-![level](https://img.shields.io/badge/level-Staff-818cf8?style=flat-square)
-![outcome](https://img.shields.io/badge/outcome-Rejected-f87171?style=flat-square)
+![role](https://img.shields.io/badge/role-Backend-8b93ff?style=flat-square)
+![level](https://img.shields.io/badge/level-Mid-818cf8?style=flat-square)
+![outcome](https://img.shields.io/badge/outcome-Withdrew-fbbf24?style=flat-square)
 ![year](https://img.shields.io/badge/year-2025-6b7280?style=flat-square)
 ![source](https://img.shields.io/badge/source-Commonly%20asked-2dd4bf?style=flat-square)
 
-> 5-round staff fullstack process. Pragmatic questions — more real-world than pure puzzles.
+> 5-round mid backend process. Basic programming plus core CS; communication mattered throughout.
 
-**5 rounds · 9 questions**
+**5 rounds · 14 questions**
 
 ---
 
-## Round 1 · DSA / Coding
+## Round 1 · Online Assessment
+<!-- round: oa -->
+
+_Timed online coding / aptitude screen, usually the first filter._
+
+| Question | Difficulty | Tags | Practice |
+| --- | --- | --- | --- |
+| Pseudocode: predict the output of the given code block. | 🟡 Medium | `pseudocode` | [GfG](https://www.geeksforgeeks.org/search/?gq=Pseudocode%3A%20predict%20the%20output%20of%20the%20given%20code%20block) · [Search](https://www.google.com/search?q=Pseudocode%3A%20predict%20the%20output%20of%20the%20given%20code%20block) |
+| Quantitative aptitude: time and work problems. | 🟢 Easy | `aptitude` | [GfG](https://www.geeksforgeeks.org/search/?gq=Quantitative%20aptitude%3A%20time%20and%20work%20problems) · [Search](https://www.google.com/search?q=Quantitative%20aptitude%3A%20time%20and%20work%20problems) |
+| Verbal ability: error spotting and sentence correction. | 🟢 Easy | `verbal` | [GfG](https://www.geeksforgeeks.org/search/?gq=Verbal%20ability%3A%20error%20spotting%20and%20sentence%20correction) · [Search](https://www.google.com/search?q=Verbal%20ability%3A%20error%20spotting%20and%20sentence%20correction) |
+
+## Round 2 · DSA / Coding
 <!-- round: dsa -->
 
 _Data structures & algorithms on a whiteboard or shared editor._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Set matrix zeroes. | 🟡 Medium | `matrix` | [LC](https://leetcode.com/problems/set-matrix-zeroes/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Set%20matrix%20zeroes) |
-| Find minimum in rotated sorted array. | 🟡 Medium | `binary-search` | [LC](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Find%20minimum%20in%20rotated%20sorted%20array) |
-| Word search in a grid. | 🟡 Medium | `backtracking` `grid` | [LC](https://leetcode.com/problems/word-search/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Word%20search%20in%20a%20grid) |
+| Check whether two strings are anagrams. | 🟢 Easy | `string` | [GfG](https://www.geeksforgeeks.org/search/?gq=Check%20whether%20two%20strings%20are%20anagrams) · [Search](https://www.google.com/search?q=Check%20whether%20two%20strings%20are%20anagrams) |
+| Reverse a number and check whether it is a palindrome. | 🟢 Easy | `math` | [GfG](https://www.geeksforgeeks.org/search/?gq=Reverse%20a%20number%20and%20check%20whether%20it%20is%20a%20palindrome) · [Search](https://www.google.com/search?q=Reverse%20a%20number%20and%20check%20whether%20it%20is%20a%20palindrome) |
 
-## Round 2 · System Design
-<!-- round: system_design -->
+## Round 3 · Tech Deep-Dive
+<!-- round: tech_deep_dive -->
 
-_High-level architecture of a large-scale system._
-
-| Question | Difficulty | Tags | Practice |
-| --- | --- | --- | --- |
-| Design a rate-limited, multi-tenant public API gateway. | 🔴 Hard | `gateway` `rate-limit` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20rate-limited%2C%20multi-tenant%20public%20API%20gateway) · [Search](https://www.google.com/search?q=Design%20a%20rate-limited%2C%20multi-tenant%20public%20API%20gateway) |
-| Design a ride-matching backend (riders ↔ nearby drivers). | 🔴 Hard | `geospatial` `matching` `realtime` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20ride-matching%20backend%20(riders%20%E2%86%94%20nearby%20drivers)) · [Search](https://www.google.com/search?q=Design%20a%20ride-matching%20backend%20(riders%20%E2%86%94%20nearby%20drivers)) |
-
-## Round 3 · Low-Level Design
-<!-- round: lld -->
-
-_Object-oriented / low-level design of a focused module._
+_Deep questions on your core stack and fundamentals._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Design a notification service (channels + templates). | 🟡 Medium | `oop` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20notification%20service%20(channels%20%2B%20templates)) · [Search](https://www.google.com/search?q=Design%20a%20notification%20service%20(channels%20%2B%20templates)) |
+| What are the JDK, JRE and JVM? | 🟢 Easy | `java` | [GfG](https://www.geeksforgeeks.org/search/?gq=What%20are%20the%20JDK%2C%20JRE%20and%20JVM) · [Search](https://www.google.com/search?q=What%20are%20the%20JDK%2C%20JRE%20and%20JVM) |
+| Difference between C and C++. | 🟢 Easy | `c` | [GfG](https://www.geeksforgeeks.org/search/?gq=Difference%20between%20C%20and%20C%2B%2B) · [Search](https://www.google.com/search?q=Difference%20between%20C%20and%20C%2B%2B) |
+| What happens when you type a URL into a browser? | 🟡 Medium | `networking` | [GfG](https://www.geeksforgeeks.org/search/?gq=What%20happens%20when%20you%20type%20a%20URL%20into%20a%20browser) · [Search](https://www.google.com/search?q=What%20happens%20when%20you%20type%20a%20URL%20into%20a%20browser) |
+| Explain the time complexity of common sorting algorithms. | 🟡 Medium | `data-structures` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20the%20time%20complexity%20of%20common%20sorting%20algorithms) · [Search](https://www.google.com/search?q=Explain%20the%20time%20complexity%20of%20common%20sorting%20algorithms) |
 
 ## Round 4 · Hiring Manager
 <!-- round: hiring_manager -->
@@ -61,7 +64,8 @@ _Scope, ownership, and role-fit discussion with the manager._
 
 | Question | Difficulty | Tags |
 | --- | --- | --- |
-| How do you balance tech debt against feature work? | — | `prioritization` |
+| How do you ensure code quality under a tight delivery timeline? | — | — |
+| Tell me about a production issue you helped resolve. | — | — |
 
 ## Round 5 · Behavioral / HR
 <!-- round: behavioral -->
@@ -70,8 +74,9 @@ _Values, collaboration, and past-experience (STAR) questions._
 
 | Question | Difficulty | Tags |
 | --- | --- | --- |
-| When did you have to make a decision with incomplete data? | — | `judgment` `star` |
-| How do you handle being blocked for several days? | — | `ownership` `star` |
+| Do you have any backlogs or academic gaps? Please explain. | — | — |
+| Would you be comfortable working on any technology assigned to you? | — | — |
+| Why do you want to join our company? | — | — |
 
 ---
 

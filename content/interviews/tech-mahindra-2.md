@@ -1,24 +1,26 @@
 ---
 id: tech-mahindra-2
 company: tech-mahindra
-role: frontend
+role: backend
 level: junior
-outcome: rejected
-year: 2024
+outcome: offer
+year: 2025
 source: curated
-summary: 'Junior frontend interview. Coding-heavy early, design and behavioral later.'
+summary: >-
+  4-round junior backend process. Aptitude screen first, then technical
+  fundamentals and HR.
 ---
-# Junior Frontend — Tech Mahindra
+# Junior Backend — Tech Mahindra
 
-![role](https://img.shields.io/badge/role-Frontend-22d3ee?style=flat-square)
+![role](https://img.shields.io/badge/role-Backend-8b93ff?style=flat-square)
 ![level](https://img.shields.io/badge/level-Junior-818cf8?style=flat-square)
-![outcome](https://img.shields.io/badge/outcome-Rejected-f87171?style=flat-square)
-![year](https://img.shields.io/badge/year-2024-6b7280?style=flat-square)
+![outcome](https://img.shields.io/badge/outcome-Offer-34d399?style=flat-square)
+![year](https://img.shields.io/badge/year-2025-6b7280?style=flat-square)
 ![source](https://img.shields.io/badge/source-Commonly%20asked-2dd4bf?style=flat-square)
 
-> Junior frontend interview. Coding-heavy early, design and behavioral later.
+> 4-round junior backend process. Aptitude screen first, then technical fundamentals and HR.
 
-**5 rounds · 11 questions**
+**4 rounds · 12 questions**
 
 ---
 
@@ -29,7 +31,9 @@ _Timed online coding / aptitude screen, usually the first filter._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Rotate a matrix 90 degrees in place. | 🟡 Medium | `matrix` | [LC](https://leetcode.com/problems/rotate-image/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Rotate%20a%20matrix%2090%20degrees%20in%20place) |
+| Quantitative aptitude: permutations, combinations and probability. | 🟡 Medium | `aptitude` | [GfG](https://www.geeksforgeeks.org/search/?gq=Quantitative%20aptitude%3A%20permutations%2C%20combinations%20and%20probability) · [Search](https://www.google.com/search?q=Quantitative%20aptitude%3A%20permutations%2C%20combinations%20and%20probability) |
+| Verbal ability: synonyms, antonyms and para-jumbles. | 🟢 Easy | `verbal` | [GfG](https://www.geeksforgeeks.org/search/?gq=Verbal%20ability%3A%20synonyms%2C%20antonyms%20and%20para-jumbles) · [Search](https://www.google.com/search?q=Verbal%20ability%3A%20synonyms%2C%20antonyms%20and%20para-jumbles) |
+| Quantitative aptitude: ratio, proportion and averages. | 🟢 Easy | `aptitude` | [GfG](https://www.geeksforgeeks.org/search/?gq=Quantitative%20aptitude%3A%20ratio%2C%20proportion%20and%20averages) · [Search](https://www.google.com/search?q=Quantitative%20aptitude%3A%20ratio%2C%20proportion%20and%20averages) |
 
 ## Round 2 · DSA / Coding
 <!-- round: dsa -->
@@ -38,40 +42,31 @@ _Data structures & algorithms on a whiteboard or shared editor._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Word search in a grid. | 🟡 Medium | `backtracking` `grid` | [LC](https://leetcode.com/problems/word-search/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Word%20search%20in%20a%20grid) |
-| Construct binary tree from preorder and inorder traversal. | 🟡 Medium | `tree` `recursion` | [LC](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Construct%20binary%20tree%20from%20preorder%20and%20inorder%20traversal) |
-| Word ladder — shortest transformation sequence. | 🔴 Hard | `bfs` `graph` | [LC](https://leetcode.com/problems/word-ladder/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Word%20ladder%20%E2%80%94%20shortest%20transformation%20sequence) |
+| Find the sum of digits of a number. | 🟢 Easy | `math` | [GfG](https://www.geeksforgeeks.org/search/?gq=Find%20the%20sum%20of%20digits%20of%20a%20number) · [Search](https://www.google.com/search?q=Find%20the%20sum%20of%20digits%20of%20a%20number) |
+| Check whether a number is an Armstrong number. | 🟢 Easy | `math` | [GfG](https://www.geeksforgeeks.org/search/?gq=Check%20whether%20a%20number%20is%20an%20Armstrong%20number) · [Search](https://www.google.com/search?q=Check%20whether%20a%20number%20is%20an%20Armstrong%20number) |
 
-## Round 3 · Machine Coding
-<!-- round: machine_coding -->
-
-_Build a working component or service under time pressure._
-
-| Question | Difficulty | Tags | Practice |
-| --- | --- | --- | --- |
-| Build an accessible accordion with single/multi open. | 🟡 Medium | `react` `a11y` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20an%20accessible%20accordion%20with%20single%2Fmulti%20open) · [Search](https://www.google.com/search?q=Build%20an%20accessible%20accordion%20with%20single%2Fmulti%20open) |
-| Build an infinite-scrolling list with virtualization. | 🔴 Hard | `react` `virtualization` `perf` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20an%20infinite-scrolling%20list%20with%20virtualization) · [Search](https://www.google.com/search?q=Build%20an%20infinite-scrolling%20list%20with%20virtualization) |
-
-## Round 4 · Tech Deep-Dive
+## Round 3 · Tech Deep-Dive
 <!-- round: tech_deep_dive -->
 
 _Deep questions on your core stack and fundamentals._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| How do CSS specificity and the cascade resolve conflicts? | 🟡 Medium | `css` | [GfG](https://www.geeksforgeeks.org/search/?gq=How%20do%20CSS%20specificity%20and%20the%20cascade%20resolve%20conflicts) · [Search](https://www.google.com/search?q=How%20do%20CSS%20specificity%20and%20the%20cascade%20resolve%20conflicts) |
-| Difference between CSS Grid and Flexbox — when to use each. | 🟢 Easy | `css` `layout` | [GfG](https://www.geeksforgeeks.org/search/?gq=Difference%20between%20CSS%20Grid%20and%20Flexbox%20%E2%80%94%20when%20to%20use%20each) · [Search](https://www.google.com/search?q=Difference%20between%20CSS%20Grid%20and%20Flexbox%20%E2%80%94%20when%20to%20use%20each) |
-| Explain WeakMap/WeakSet and when to use them. | 🟡 Medium | `javascript` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20WeakMap%2FWeakSet%20and%20when%20to%20use%20them) · [Search](https://www.google.com/search?q=Explain%20WeakMap%2FWeakSet%20and%20when%20to%20use%20them) |
+| Explain virtual memory, paging and segmentation. | 🟡 Medium | `os` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20virtual%20memory%2C%20paging%20and%20segmentation) · [Search](https://www.google.com/search?q=Explain%20virtual%20memory%2C%20paging%20and%20segmentation) |
+| What are the JDK, JRE and JVM? | 🟢 Easy | `java` | [GfG](https://www.geeksforgeeks.org/search/?gq=What%20are%20the%20JDK%2C%20JRE%20and%20JVM) · [Search](https://www.google.com/search?q=What%20are%20the%20JDK%2C%20JRE%20and%20JVM) |
+| Explain primary key, foreign key, unique key and candidate key. | 🟢 Easy | `dbms` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20primary%20key%2C%20foreign%20key%2C%20unique%20key%20and%20candidate%20key) · [Search](https://www.google.com/search?q=Explain%20primary%20key%2C%20foreign%20key%2C%20unique%20key%20and%20candidate%20key) |
+| Explain the time complexity of common sorting algorithms. | 🟡 Medium | `data-structures` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20the%20time%20complexity%20of%20common%20sorting%20algorithms) · [Search](https://www.google.com/search?q=Explain%20the%20time%20complexity%20of%20common%20sorting%20algorithms) |
 
-## Round 5 · Behavioral / HR
+## Round 4 · Behavioral / HR
 <!-- round: behavioral -->
 
 _Values, collaboration, and past-experience (STAR) questions._
 
 | Question | Difficulty | Tags |
 | --- | --- | --- |
-| Describe a time you improved a process or tool for your team. | — | `ownership` `star` |
-| Describe a time you disagreed with a teammate. How did it resolve? | — | `conflict` `star` |
+| What are your interests outside academics? | — | — |
+| Tell me about your final-year project. | — | — |
+| What are your strengths and weaknesses? | — | — |
 
 ---
 

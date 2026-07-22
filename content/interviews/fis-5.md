@@ -1,26 +1,26 @@
 ---
 id: fis-5
 company: fis
-role: fullstack
-level: junior
-outcome: rejected
-year: 2023
+role: backend
+level: mid
+outcome: offer
+year: 2024
 source: curated
 summary: >-
-  A junior fullstack loop. Fundamentals mattered as much as getting to an
-  answer.
+  A mid backend hiring drive. Breadth of fundamentals mattered more than
+  algorithmic depth.
 ---
-# Junior Full-stack — FIS
+# Mid Backend — FIS
 
-![role](https://img.shields.io/badge/role-Full--stack-a78bfa?style=flat-square)
-![level](https://img.shields.io/badge/level-Junior-818cf8?style=flat-square)
-![outcome](https://img.shields.io/badge/outcome-Rejected-f87171?style=flat-square)
-![year](https://img.shields.io/badge/year-2023-6b7280?style=flat-square)
+![role](https://img.shields.io/badge/role-Backend-8b93ff?style=flat-square)
+![level](https://img.shields.io/badge/level-Mid-818cf8?style=flat-square)
+![outcome](https://img.shields.io/badge/outcome-Offer-34d399?style=flat-square)
+![year](https://img.shields.io/badge/year-2024-6b7280?style=flat-square)
 ![source](https://img.shields.io/badge/source-Commonly%20asked-2dd4bf?style=flat-square)
 
-> A junior fullstack loop. Fundamentals mattered as much as getting to an answer.
+> A mid backend hiring drive. Breadth of fundamentals mattered more than algorithmic depth.
 
-**5 rounds · 11 questions**
+**5 rounds · 14 questions**
 
 ---
 
@@ -31,7 +31,9 @@ _Timed online coding / aptitude screen, usually the first filter._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Aptitude and logical-reasoning section. | 🟢 Easy | `aptitude` | [GfG](https://www.geeksforgeeks.org/search/?gq=Aptitude%20and%20logical-reasoning%20section) · [Search](https://www.google.com/search?q=Aptitude%20and%20logical-reasoning%20section) |
+| Quantitative aptitude: time, speed and distance problems. | 🟢 Easy | `aptitude` | [GfG](https://www.geeksforgeeks.org/search/?gq=Quantitative%20aptitude%3A%20time%2C%20speed%20and%20distance%20problems) · [Search](https://www.google.com/search?q=Quantitative%20aptitude%3A%20time%2C%20speed%20and%20distance%20problems) |
+| Quantitative aptitude: permutations, combinations and probability. | 🟡 Medium | `aptitude` | [GfG](https://www.geeksforgeeks.org/search/?gq=Quantitative%20aptitude%3A%20permutations%2C%20combinations%20and%20probability) · [Search](https://www.google.com/search?q=Quantitative%20aptitude%3A%20permutations%2C%20combinations%20and%20probability) |
+| Quantitative aptitude: profit, loss and percentages. | 🟢 Easy | `aptitude` | [GfG](https://www.geeksforgeeks.org/search/?gq=Quantitative%20aptitude%3A%20profit%2C%20loss%20and%20percentages) · [Search](https://www.google.com/search?q=Quantitative%20aptitude%3A%20profit%2C%20loss%20and%20percentages) |
 
 ## Round 2 · DSA / Coding
 <!-- round: dsa -->
@@ -40,30 +42,30 @@ _Data structures & algorithms on a whiteboard or shared editor._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Reverse nodes in k-group. | 🔴 Hard | `linked-list` | [LC](https://leetcode.com/problems/reverse-nodes-in-k-group/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Reverse%20nodes%20in%20k-group) |
-| Lowest common ancestor of a binary tree. | 🟡 Medium | `tree` | [LC](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Lowest%20common%20ancestor%20of%20a%20binary%20tree) |
-| Top K frequent elements. | 🟡 Medium | `heap` `hashmap` | [LC](https://leetcode.com/problems/top-k-frequent-elements/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Top%20K%20frequent%20elements) |
+| Print the Fibonacci series up to n terms. | 🟢 Easy | `math` | [GfG](https://www.geeksforgeeks.org/search/?gq=Print%20the%20Fibonacci%20series%20up%20to%20n%20terms) · [Search](https://www.google.com/search?q=Print%20the%20Fibonacci%20series%20up%20to%20n%20terms) |
+| Swap two numbers without using a temporary variable. | 🟢 Easy | `math` | [GfG](https://www.geeksforgeeks.org/search/?gq=Swap%20two%20numbers%20without%20using%20a%20temporary%20variable) · [Search](https://www.google.com/search?q=Swap%20two%20numbers%20without%20using%20a%20temporary%20variable) |
 
-## Round 3 · Machine Coding
-<!-- round: machine_coding -->
-
-_Build a working component or service under time pressure._
-
-| Question | Difficulty | Tags | Practice |
-| --- | --- | --- | --- |
-| Build a toast / notification queue. | 🟡 Medium | `react` `state` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20a%20toast%20%2F%20notification%20queue) · [Search](https://www.google.com/search?q=Build%20a%20toast%20%2F%20notification%20queue) |
-| Implement a bulk-upsert endpoint with validation. | 🟡 Medium | `api` `validation` | [GfG](https://www.geeksforgeeks.org/search/?gq=Implement%20a%20bulk-upsert%20endpoint%20with%20validation) · [Search](https://www.google.com/search?q=Implement%20a%20bulk-upsert%20endpoint%20with%20validation) |
-
-## Round 4 · Tech Deep-Dive
+## Round 3 · Tech Deep-Dive
 <!-- round: tech_deep_dive -->
 
 _Deep questions on your core stack and fundamentals._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Explain how Promises work and implement Promise.all. | 🟡 Medium | `javascript` `async` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20how%20Promises%20work%20and%20implement%20Promise.all) · [Search](https://www.google.com/search?q=Explain%20how%20Promises%20work%20and%20implement%20Promise.all) |
-| ACID vs BASE and transaction isolation levels. | 🔴 Hard | `databases` `transactions` | [GfG](https://www.geeksforgeeks.org/search/?gq=ACID%20vs%20BASE%20and%20transaction%20isolation%20levels) · [Search](https://www.google.com/search?q=ACID%20vs%20BASE%20and%20transaction%20isolation%20levels) |
-| Explain the difference between == and === and coercion. | 🟢 Easy | `javascript` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20the%20difference%20between%20%3D%3D%20and%20%3D%3D%3D%20and%20coercion) · [Search](https://www.google.com/search?q=Explain%20the%20difference%20between%20%3D%3D%20and%20%3D%3D%3D%20and%20coercion) |
+| Explain virtual memory, paging and segmentation. | 🟡 Medium | `os` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20virtual%20memory%2C%20paging%20and%20segmentation) · [Search](https://www.google.com/search?q=Explain%20virtual%20memory%2C%20paging%20and%20segmentation) |
+| Difference between TCP and UDP. | 🟢 Easy | `networking` | [GfG](https://www.geeksforgeeks.org/search/?gq=Difference%20between%20TCP%20and%20UDP) · [Search](https://www.google.com/search?q=Difference%20between%20TCP%20and%20UDP) |
+| What is a constructor? Explain constructor overloading. | 🟢 Easy | `oops` | [GfG](https://www.geeksforgeeks.org/search/?gq=What%20is%20a%20constructor%3F%20Explain%20constructor%20overloading) · [Search](https://www.google.com/search?q=What%20is%20a%20constructor%3F%20Explain%20constructor%20overloading) |
+| Explain the static and final keywords in Java. | 🟢 Easy | `java` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20the%20static%20and%20final%20keywords%20in%20Java) · [Search](https://www.google.com/search?q=Explain%20the%20static%20and%20final%20keywords%20in%20Java) |
+
+## Round 4 · Hiring Manager
+<!-- round: hiring_manager -->
+
+_Scope, ownership, and role-fit discussion with the manager._
+
+| Question | Difficulty | Tags |
+| --- | --- | --- |
+| How do you ensure code quality under a tight delivery timeline? | — | — |
+| How do you estimate the effort for a module assigned to you? | — | — |
 
 ## Round 5 · Behavioral / HR
 <!-- round: behavioral -->
@@ -72,8 +74,9 @@ _Values, collaboration, and past-experience (STAR) questions._
 
 | Question | Difficulty | Tags |
 | --- | --- | --- |
-| Tell me about a project you are most proud of. | — | `star` |
-| How do you handle being blocked for several days? | — | `ownership` `star` |
+| Why should we hire you? | — | — |
+| Tell me about yourself. | — | — |
+| What are your interests outside academics? | — | — |
 
 ---
 

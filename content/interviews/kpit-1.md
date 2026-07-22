@@ -1,67 +1,71 @@
 ---
 id: kpit-1
 company: kpit
-role: backend
+role: fullstack
 level: mid
-outcome: withdrew
+outcome: no_offer
 year: 2023
 source: curated
-summary: A mid backend loop. Pragmatic questions — more real-world than pure puzzles.
+summary: >-
+  Campus-style mid fullstack interview. Breadth of fundamentals mattered more
+  than algorithmic depth.
 ---
-# Mid Backend — KPIT Technologies
+# Mid Full-stack — KPIT Technologies
 
-![role](https://img.shields.io/badge/role-Backend-8b93ff?style=flat-square)
+![role](https://img.shields.io/badge/role-Full--stack-a78bfa?style=flat-square)
 ![level](https://img.shields.io/badge/level-Mid-818cf8?style=flat-square)
-![outcome](https://img.shields.io/badge/outcome-Withdrew-fbbf24?style=flat-square)
+![outcome](https://img.shields.io/badge/outcome-No%20offer-f87171?style=flat-square)
 ![year](https://img.shields.io/badge/year-2023-6b7280?style=flat-square)
 ![source](https://img.shields.io/badge/source-Commonly%20asked-2dd4bf?style=flat-square)
 
-> A mid backend loop. Pragmatic questions — more real-world than pure puzzles.
+> Campus-style mid fullstack interview. Breadth of fundamentals mattered more than algorithmic depth.
 
-**5 rounds · 11 questions**
+**5 rounds · 14 questions**
 
 ---
 
-## Round 1 · DSA / Coding
+## Round 1 · Online Assessment
+<!-- round: oa -->
+
+_Timed online coding / aptitude screen, usually the first filter._
+
+| Question | Difficulty | Tags | Practice |
+| --- | --- | --- | --- |
+| Email writing / essay writing task. | 🟢 Easy | `verbal` | [GfG](https://www.geeksforgeeks.org/search/?gq=Email%20writing%20%2F%20essay%20writing%20task) · [Search](https://www.google.com/search?q=Email%20writing%20%2F%20essay%20writing%20task) |
+| Pseudocode: predict the output of the given code block. | 🟡 Medium | `pseudocode` | [GfG](https://www.geeksforgeeks.org/search/?gq=Pseudocode%3A%20predict%20the%20output%20of%20the%20given%20code%20block) · [Search](https://www.google.com/search?q=Pseudocode%3A%20predict%20the%20output%20of%20the%20given%20code%20block) |
+| Quantitative aptitude: time and work problems. | 🟢 Easy | `aptitude` | [GfG](https://www.geeksforgeeks.org/search/?gq=Quantitative%20aptitude%3A%20time%20and%20work%20problems) · [Search](https://www.google.com/search?q=Quantitative%20aptitude%3A%20time%20and%20work%20problems) |
+
+## Round 2 · DSA / Coding
 <!-- round: dsa -->
 
 _Data structures & algorithms on a whiteboard or shared editor._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Pow(x, n). | 🟡 Medium | `math` `recursion` | [LC](https://leetcode.com/problems/powx-n/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Pow(x%2C%20n)) |
-| Search in a rotated sorted array. | 🟡 Medium | `binary-search` | [LC](https://leetcode.com/problems/search-in-rotated-sorted-array/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Search%20in%20a%20rotated%20sorted%20array) |
-| Diameter of a binary tree. | 🟢 Easy | `tree` `dfs` | [LC](https://leetcode.com/problems/diameter-of-binary-tree/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Diameter%20of%20a%20binary%20tree) |
+| Print a star / pyramid pattern for n rows. | 🟢 Easy | `patterns` | [GfG](https://www.geeksforgeeks.org/search/?gq=Print%20a%20star%20%2F%20pyramid%20pattern%20for%20n%20rows) · [Search](https://www.google.com/search?q=Print%20a%20star%20%2F%20pyramid%20pattern%20for%20n%20rows) |
+| Remove duplicates from an array without using extra space. | 🟡 Medium | `array` | [GfG](https://www.geeksforgeeks.org/search/?gq=Remove%20duplicates%20from%20an%20array%20without%20using%20extra%20space) · [Search](https://www.google.com/search?q=Remove%20duplicates%20from%20an%20array%20without%20using%20extra%20space) |
 
-## Round 2 · Machine Coding
-<!-- round: machine_coding -->
-
-_Build a working component or service under time pressure._
-
-| Question | Difficulty | Tags | Practice |
-| --- | --- | --- | --- |
-| Parse and evaluate a simple expression/DSL. | 🟡 Medium | `parsing` | [GfG](https://www.geeksforgeeks.org/search/?gq=Parse%20and%20evaluate%20a%20simple%20expression%2FDSL) · [Search](https://www.google.com/search?q=Parse%20and%20evaluate%20a%20simple%20expression%2FDSL) |
-| Build a URL health checker with a concurrency limit. | 🟡 Medium | `concurrency` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20a%20URL%20health%20checker%20with%20a%20concurrency%20limit) · [Search](https://www.google.com/search?q=Build%20a%20URL%20health%20checker%20with%20a%20concurrency%20limit) |
-
-## Round 3 · Low-Level Design
-<!-- round: lld -->
-
-_Object-oriented / low-level design of a focused module._
-
-| Question | Difficulty | Tags | Practice |
-| --- | --- | --- | --- |
-| Design a logging library with levels and sinks. | 🟡 Medium | `oop` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20logging%20library%20with%20levels%20and%20sinks) · [Search](https://www.google.com/search?q=Design%20a%20logging%20library%20with%20levels%20and%20sinks) |
-
-## Round 4 · Tech Deep-Dive
+## Round 3 · Tech Deep-Dive
 <!-- round: tech_deep_dive -->
 
 _Deep questions on your core stack and fundamentals._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Explain leader election and consensus (Raft) at a high level. | 🔴 Hard | `distributed` `consensus` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20leader%20election%20and%20consensus%20(Raft)%20at%20a%20high%20level) · [Search](https://www.google.com/search?q=Explain%20leader%20election%20and%20consensus%20(Raft)%20at%20a%20high%20level) |
-| What is a deadlock and how do you avoid one? | 🔴 Hard | `concurrency` | [GfG](https://www.geeksforgeeks.org/search/?gq=What%20is%20a%20deadlock%20and%20how%20do%20you%20avoid%20one) · [Search](https://www.google.com/search?q=What%20is%20a%20deadlock%20and%20how%20do%20you%20avoid%20one) |
-| Explain optimistic vs pessimistic locking. | 🔴 Hard | `databases` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20optimistic%20vs%20pessimistic%20locking) · [Search](https://www.google.com/search?q=Explain%20optimistic%20vs%20pessimistic%20locking) |
+| What is a deadlock and how do you prevent it? | 🟡 Medium | `os` | [GfG](https://www.geeksforgeeks.org/search/?gq=What%20is%20a%20deadlock%20and%20how%20do%20you%20prevent%20it) · [Search](https://www.google.com/search?q=What%20is%20a%20deadlock%20and%20how%20do%20you%20prevent%20it) |
+| What happens when you type a URL into a browser? | 🟡 Medium | `networking` | [GfG](https://www.geeksforgeeks.org/search/?gq=What%20happens%20when%20you%20type%20a%20URL%20into%20a%20browser) · [Search](https://www.google.com/search?q=What%20happens%20when%20you%20type%20a%20URL%20into%20a%20browser) |
+| Explain SQL joins: inner, left, right and full outer. | 🟢 Easy | `sql` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20SQL%20joins%3A%20inner%2C%20left%2C%20right%20and%20full%20outer) · [Search](https://www.google.com/search?q=Explain%20SQL%20joins%3A%20inner%2C%20left%2C%20right%20and%20full%20outer) |
+| Explain the ACID properties of a transaction. | 🟡 Medium | `dbms` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20the%20ACID%20properties%20of%20a%20transaction) · [Search](https://www.google.com/search?q=Explain%20the%20ACID%20properties%20of%20a%20transaction) |
+
+## Round 4 · Hiring Manager
+<!-- round: hiring_manager -->
+
+_Scope, ownership, and role-fit discussion with the manager._
+
+| Question | Difficulty | Tags |
+| --- | --- | --- |
+| How do you estimate the effort for a module assigned to you? | — | — |
+| How would you approach understanding a client's legacy codebase? | — | — |
 
 ## Round 5 · Behavioral / HR
 <!-- round: behavioral -->
@@ -70,8 +74,9 @@ _Values, collaboration, and past-experience (STAR) questions._
 
 | Question | Difficulty | Tags |
 | --- | --- | --- |
-| Describe something you shipped that you were not proud of. | — | `tradeoffs` `star` |
-| A time you made a mistake in production — what happened next? | — | `ownership` `star` |
+| Do you have any backlogs or academic gaps? Please explain. | — | — |
+| Are you willing to relocate anywhere in India? | — | — |
+| Tell me about yourself. | — | — |
 
 ---
 

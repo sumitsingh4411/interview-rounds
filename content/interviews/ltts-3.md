@@ -1,24 +1,26 @@
 ---
 id: ltts-3
 company: ltts
-role: frontend
+role: backend
 level: junior
-outcome: no_offer
-year: 2023
+outcome: unknown
+year: 2024
 source: curated
-summary: 'Junior frontend interview. Coding-heavy early, design and behavioral later.'
+summary: >-
+  Campus-style junior backend interview. Screening test, technical round, then a
+  managerial and HR conversation.
 ---
-# Junior Frontend — L&T Technology Services
+# Junior Backend — L&T Technology Services
 
-![role](https://img.shields.io/badge/role-Frontend-22d3ee?style=flat-square)
+![role](https://img.shields.io/badge/role-Backend-8b93ff?style=flat-square)
 ![level](https://img.shields.io/badge/level-Junior-818cf8?style=flat-square)
-![outcome](https://img.shields.io/badge/outcome-No%20offer-f87171?style=flat-square)
-![year](https://img.shields.io/badge/year-2023-6b7280?style=flat-square)
+![outcome](https://img.shields.io/badge/outcome-Unknown-6b7280?style=flat-square)
+![year](https://img.shields.io/badge/year-2024-6b7280?style=flat-square)
 ![source](https://img.shields.io/badge/source-Commonly%20asked-2dd4bf?style=flat-square)
 
-> Junior frontend interview. Coding-heavy early, design and behavioral later.
+> Campus-style junior backend interview. Screening test, technical round, then a managerial and HR conversation.
 
-**5 rounds · 11 questions**
+**4 rounds · 12 questions**
 
 ---
 
@@ -29,7 +31,9 @@ _Timed online coding / aptitude screen, usually the first filter._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Merge overlapping meeting intervals from a calendar. | 🟡 Medium | `intervals` `sorting` | [GfG](https://www.geeksforgeeks.org/search/?gq=Merge%20overlapping%20meeting%20intervals%20from%20a%20calendar) · [Search](https://www.google.com/search?q=Merge%20overlapping%20meeting%20intervals%20from%20a%20calendar) |
+| Verbal ability: error spotting and sentence correction. | 🟢 Easy | `verbal` | [GfG](https://www.geeksforgeeks.org/search/?gq=Verbal%20ability%3A%20error%20spotting%20and%20sentence%20correction) · [Search](https://www.google.com/search?q=Verbal%20ability%3A%20error%20spotting%20and%20sentence%20correction) |
+| Logical reasoning: blood relations and seating arrangement. | 🟡 Medium | `reasoning` | [GfG](https://www.geeksforgeeks.org/search/?gq=Logical%20reasoning%3A%20blood%20relations%20and%20seating%20arrangement) · [Search](https://www.google.com/search?q=Logical%20reasoning%3A%20blood%20relations%20and%20seating%20arrangement) |
+| Quantitative aptitude: simple and compound interest. | 🟢 Easy | `aptitude` | [GfG](https://www.geeksforgeeks.org/search/?gq=Quantitative%20aptitude%3A%20simple%20and%20compound%20interest) · [Search](https://www.google.com/search?q=Quantitative%20aptitude%3A%20simple%20and%20compound%20interest) |
 
 ## Round 2 · DSA / Coding
 <!-- round: dsa -->
@@ -38,40 +42,31 @@ _Data structures & algorithms on a whiteboard or shared editor._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Coin change — fewest coins to make an amount. | 🟡 Medium | `dp` | [LC](https://leetcode.com/problems/coin-change/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Coin%20change%20%E2%80%94%20fewest%20coins%20to%20make%20an%20amount) |
-| Product of array except self. | 🟡 Medium | `array` `prefix-sum` | [LC](https://leetcode.com/problems/product-of-array-except-self/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Product%20of%20array%20except%20self) |
-| Valid anagram. | 🟢 Easy | `string` `hashmap` | [LC](https://leetcode.com/problems/valid-anagram/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Valid%20anagram) |
+| Find the largest and smallest element in an array. | 🟢 Easy | `array` | [GfG](https://www.geeksforgeeks.org/search/?gq=Find%20the%20largest%20and%20smallest%20element%20in%20an%20array) · [Search](https://www.google.com/search?q=Find%20the%20largest%20and%20smallest%20element%20in%20an%20array) |
+| Reverse a linked list. | 🟡 Medium | `linked-list` | [LC](https://leetcode.com/problems/reverse-linked-list/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Reverse%20a%20linked%20list) |
 
-## Round 3 · Machine Coding
-<!-- round: machine_coding -->
-
-_Build a working component or service under time pressure._
-
-| Question | Difficulty | Tags | Practice |
-| --- | --- | --- | --- |
-| Build an accessible accordion with single/multi open. | 🟡 Medium | `react` `a11y` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20an%20accessible%20accordion%20with%20single%2Fmulti%20open) · [Search](https://www.google.com/search?q=Build%20an%20accessible%20accordion%20with%20single%2Fmulti%20open) |
-| Build a kanban board with drag and drop. | 🔴 Hard | `react` `dnd` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20a%20kanban%20board%20with%20drag%20and%20drop) · [Search](https://www.google.com/search?q=Build%20a%20kanban%20board%20with%20drag%20and%20drop) |
-
-## Round 4 · Tech Deep-Dive
+## Round 3 · Tech Deep-Dive
 <!-- round: tech_deep_dive -->
 
 _Deep questions on your core stack and fundamentals._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Explain the CSS box model and box-sizing. | 🟢 Easy | `css` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20the%20CSS%20box%20model%20and%20box-sizing) · [Search](https://www.google.com/search?q=Explain%20the%20CSS%20box%20model%20and%20box-sizing) |
-| What are React keys and why do they matter? | 🟢 Easy | `react` | [GfG](https://www.geeksforgeeks.org/search/?gq=What%20are%20React%20keys%20and%20why%20do%20they%20matter) · [Search](https://www.google.com/search?q=What%20are%20React%20keys%20and%20why%20do%20they%20matter) |
-| How do you optimize a slow React app? (profiling → fixes) | 🔴 Hard | `react` `perf` | [GfG](https://www.geeksforgeeks.org/search/?gq=How%20do%20you%20optimize%20a%20slow%20React%20app%3F%20(profiling%20%E2%86%92%20fixes)) · [Search](https://www.google.com/search?q=How%20do%20you%20optimize%20a%20slow%20React%20app%3F%20(profiling%20%E2%86%92%20fixes)) |
+| Write a SQL query to find the second-highest salary. | 🟡 Medium | `sql` | [GfG](https://www.geeksforgeeks.org/search/?gq=Write%20a%20SQL%20query%20to%20find%20the%20second-highest%20salary) · [Search](https://www.google.com/search?q=Write%20a%20SQL%20query%20to%20find%20the%20second-highest%20salary) |
+| Explain CPU scheduling algorithms: FCFS, SJF and round robin. | 🟡 Medium | `os` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20CPU%20scheduling%20algorithms%3A%20FCFS%2C%20SJF%20and%20round%20robin) · [Search](https://www.google.com/search?q=Explain%20CPU%20scheduling%20algorithms%3A%20FCFS%2C%20SJF%20and%20round%20robin) |
+| Method overloading vs method overriding. | 🟢 Easy | `oops` | [GfG](https://www.geeksforgeeks.org/search/?gq=Method%20overloading%20vs%20method%20overriding) · [Search](https://www.google.com/search?q=Method%20overloading%20vs%20method%20overriding) |
+| Difference between == and equals() in Java. | 🟢 Easy | `java` | [GfG](https://www.geeksforgeeks.org/search/?gq=Difference%20between%20%3D%3D%20and%20equals()%20in%20Java) · [Search](https://www.google.com/search?q=Difference%20between%20%3D%3D%20and%20equals()%20in%20Java) |
 
-## Round 5 · Behavioral / HR
+## Round 4 · Behavioral / HR
 <!-- round: behavioral -->
 
 _Values, collaboration, and past-experience (STAR) questions._
 
 | Question | Difficulty | Tags |
 | --- | --- | --- |
-| Describe a goal you set and how you achieved it. | — | `ownership` `star` |
-| When did you have to make a decision with incomplete data? | — | `judgment` `star` |
+| Do you have any backlogs or academic gaps? Please explain. | — | — |
+| Tell me about a conflict in a team project and how you resolved it. | — | — |
+| What are your interests outside academics? | — | — |
 
 ---
 

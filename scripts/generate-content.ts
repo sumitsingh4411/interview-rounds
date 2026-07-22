@@ -38,7 +38,11 @@ function main() {
   let questionCount = 0;
 
   for (const company of COMPANIES) {
-    const composed = composeInterviews(company.slug, INTERVIEWS_PER_COMPANY);
+    const composed = composeInterviews(
+      company.slug,
+      INTERVIEWS_PER_COMPANY,
+      company.archetype,
+    );
     const rows: CompanyInterviewRow[] = [];
 
     composed.forEach((iv, idx) => {

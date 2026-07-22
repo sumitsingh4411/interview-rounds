@@ -1,24 +1,26 @@
 ---
 id: hexaware-3
 company: hexaware
-role: fullstack
-level: junior
-outcome: offer
+role: backend
+level: intern
+outcome: unknown
 year: 2025
 source: curated
-summary: 'A junior fullstack loop. Balanced across coding, design, and collaboration.'
+summary: >-
+  Campus-style intern backend interview. Basic programming plus core CS;
+  communication mattered throughout.
 ---
-# Junior Full-stack — Hexaware
+# Intern Backend — Hexaware
 
-![role](https://img.shields.io/badge/role-Full--stack-a78bfa?style=flat-square)
-![level](https://img.shields.io/badge/level-Junior-818cf8?style=flat-square)
-![outcome](https://img.shields.io/badge/outcome-Offer-34d399?style=flat-square)
+![role](https://img.shields.io/badge/role-Backend-8b93ff?style=flat-square)
+![level](https://img.shields.io/badge/level-Intern-818cf8?style=flat-square)
+![outcome](https://img.shields.io/badge/outcome-Unknown-6b7280?style=flat-square)
 ![year](https://img.shields.io/badge/year-2025-6b7280?style=flat-square)
 ![source](https://img.shields.io/badge/source-Commonly%20asked-2dd4bf?style=flat-square)
 
-> A junior fullstack loop. Balanced across coding, design, and collaboration.
+> Campus-style intern backend interview. Basic programming plus core CS; communication mattered throughout.
 
-**5 rounds · 11 questions**
+**4 rounds · 12 questions**
 
 ---
 
@@ -29,7 +31,9 @@ _Timed online coding / aptitude screen, usually the first filter._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Move zeroes to the end in place. | 🟢 Easy | `two-pointers` | [LC](https://leetcode.com/problems/move-zeroes/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Move%20zeroes%20to%20the%20end%20in%20place) |
+| Verbal ability: synonyms, antonyms and para-jumbles. | 🟢 Easy | `verbal` | [GfG](https://www.geeksforgeeks.org/search/?gq=Verbal%20ability%3A%20synonyms%2C%20antonyms%20and%20para-jumbles) · [Search](https://www.google.com/search?q=Verbal%20ability%3A%20synonyms%2C%20antonyms%20and%20para-jumbles) |
+| Logical reasoning: syllogisms and statement–conclusion. | 🟡 Medium | `reasoning` | [GfG](https://www.geeksforgeeks.org/search/?gq=Logical%20reasoning%3A%20syllogisms%20and%20statement%E2%80%93conclusion) · [Search](https://www.google.com/search?q=Logical%20reasoning%3A%20syllogisms%20and%20statement%E2%80%93conclusion) |
+| Quantitative aptitude: time, speed and distance problems. | 🟢 Easy | `aptitude` | [GfG](https://www.geeksforgeeks.org/search/?gq=Quantitative%20aptitude%3A%20time%2C%20speed%20and%20distance%20problems) · [Search](https://www.google.com/search?q=Quantitative%20aptitude%3A%20time%2C%20speed%20and%20distance%20problems) |
 
 ## Round 2 · DSA / Coding
 <!-- round: dsa -->
@@ -38,40 +42,31 @@ _Data structures & algorithms on a whiteboard or shared editor._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Subtree of another tree. | 🟢 Easy | `tree` `dfs` | [LC](https://leetcode.com/problems/subtree-of-another-tree/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Subtree%20of%20another%20tree) |
-| Edit distance. | 🔴 Hard | `dp` `string` | [LC](https://leetcode.com/problems/edit-distance/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Edit%20distance) |
-| Sort colors. | 🟡 Medium | `two-pointers` `array` | [LC](https://leetcode.com/problems/sort-colors/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Sort%20colors) |
+| Check whether a number is prime. | 🟢 Easy | `math` | [GfG](https://www.geeksforgeeks.org/search/?gq=Check%20whether%20a%20number%20is%20prime) · [Search](https://www.google.com/search?q=Check%20whether%20a%20number%20is%20prime) |
+| Find the sum of digits of a number. | 🟢 Easy | `math` | [GfG](https://www.geeksforgeeks.org/search/?gq=Find%20the%20sum%20of%20digits%20of%20a%20number) · [Search](https://www.google.com/search?q=Find%20the%20sum%20of%20digits%20of%20a%20number) |
 
-## Round 3 · Machine Coding
-<!-- round: machine_coding -->
-
-_Build a working component or service under time pressure._
-
-| Question | Difficulty | Tags | Practice |
-| --- | --- | --- | --- |
-| Implement a leaderboard API backed by a sorted set. | 🟡 Medium | `redis` `ranking` | [GfG](https://www.geeksforgeeks.org/search/?gq=Implement%20a%20leaderboard%20API%20backed%20by%20a%20sorted%20set) · [Search](https://www.google.com/search?q=Implement%20a%20leaderboard%20API%20backed%20by%20a%20sorted%20set) |
-| Implement an idempotent "charge" endpoint. | 🔴 Hard | `idempotency` `payments` | [GfG](https://www.geeksforgeeks.org/search/?gq=Implement%20an%20idempotent%20%22charge%22%20endpoint) · [Search](https://www.google.com/search?q=Implement%20an%20idempotent%20%22charge%22%20endpoint) |
-
-## Round 4 · Tech Deep-Dive
+## Round 3 · Tech Deep-Dive
 <!-- round: tech_deep_dive -->
 
 _Deep questions on your core stack and fundamentals._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| How do you code-split and lazy-load a route? | 🟡 Medium | `bundling` `perf` | [GfG](https://www.geeksforgeeks.org/search/?gq=How%20do%20you%20code-split%20and%20lazy-load%20a%20route) · [Search](https://www.google.com/search?q=How%20do%20you%20code-split%20and%20lazy-load%20a%20route) |
-| How do you implement dark mode without a flash? | 🟡 Medium | `css` `ssr` | [GfG](https://www.geeksforgeeks.org/search/?gq=How%20do%20you%20implement%20dark%20mode%20without%20a%20flash) · [Search](https://www.google.com/search?q=How%20do%20you%20implement%20dark%20mode%20without%20a%20flash) |
-| How does the browser critical rendering path work? | 🟡 Medium | `browser` `perf` | [GfG](https://www.geeksforgeeks.org/search/?gq=How%20does%20the%20browser%20critical%20rendering%20path%20work) · [Search](https://www.google.com/search?q=How%20does%20the%20browser%20critical%20rendering%20path%20work) |
+| Difference between an array and a linked list. | 🟢 Easy | `data-structures` | [GfG](https://www.geeksforgeeks.org/search/?gq=Difference%20between%20an%20array%20and%20a%20linked%20list) · [Search](https://www.google.com/search?q=Difference%20between%20an%20array%20and%20a%20linked%20list) |
+| What is a deadlock and how do you prevent it? | 🟡 Medium | `os` | [GfG](https://www.geeksforgeeks.org/search/?gq=What%20is%20a%20deadlock%20and%20how%20do%20you%20prevent%20it) · [Search](https://www.google.com/search?q=What%20is%20a%20deadlock%20and%20how%20do%20you%20prevent%20it) |
+| Difference between C and C++. | 🟢 Easy | `c` | [GfG](https://www.geeksforgeeks.org/search/?gq=Difference%20between%20C%20and%20C%2B%2B) · [Search](https://www.google.com/search?q=Difference%20between%20C%20and%20C%2B%2B) |
+| Explain the four pillars of OOP with examples. | 🟢 Easy | `oops` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20the%20four%20pillars%20of%20OOP%20with%20examples) · [Search](https://www.google.com/search?q=Explain%20the%20four%20pillars%20of%20OOP%20with%20examples) |
 
-## Round 5 · Behavioral / HR
+## Round 4 · Behavioral / HR
 <!-- round: behavioral -->
 
 _Values, collaboration, and past-experience (STAR) questions._
 
 | Question | Difficulty | Tags |
 | --- | --- | --- |
-| Describe a conflict with your manager and the outcome. | — | `conflict` `star` |
-| Describe handling a tight deadline with competing priorities. | — | `prioritization` `star` |
+| Are you comfortable working in rotational or night shifts? | — | — |
+| What are your interests outside academics? | — | — |
+| Are you willing to relocate anywhere in India? | — | — |
 
 ---
 

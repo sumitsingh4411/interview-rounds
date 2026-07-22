@@ -1,87 +1,72 @@
 ---
 id: wns-1
 company: wns
-role: fullstack
-level: senior
-outcome: offer
+role: backend
+level: intern
+outcome: unknown
 year: 2023
 source: curated
-summary: A senior fullstack loop. Fast-paced; expect follow-ups that push on depth.
+summary: >-
+  Campus-style intern backend interview. Basic programming plus core CS;
+  communication mattered throughout.
 ---
-# Senior Full-stack — WNS
+# Intern Backend — WNS
 
-![role](https://img.shields.io/badge/role-Full--stack-a78bfa?style=flat-square)
-![level](https://img.shields.io/badge/level-Senior-818cf8?style=flat-square)
-![outcome](https://img.shields.io/badge/outcome-Offer-34d399?style=flat-square)
+![role](https://img.shields.io/badge/role-Backend-8b93ff?style=flat-square)
+![level](https://img.shields.io/badge/level-Intern-818cf8?style=flat-square)
+![outcome](https://img.shields.io/badge/outcome-Unknown-6b7280?style=flat-square)
 ![year](https://img.shields.io/badge/year-2023-6b7280?style=flat-square)
 ![source](https://img.shields.io/badge/source-Commonly%20asked-2dd4bf?style=flat-square)
 
-> A senior fullstack loop. Fast-paced; expect follow-ups that push on depth.
+> Campus-style intern backend interview. Basic programming plus core CS; communication mattered throughout.
 
-**6 rounds · 13 questions**
+**4 rounds · 12 questions**
 
 ---
 
-## Round 1 · DSA / Coding
+## Round 1 · Online Assessment
+<!-- round: oa -->
+
+_Timed online coding / aptitude screen, usually the first filter._
+
+| Question | Difficulty | Tags | Practice |
+| --- | --- | --- | --- |
+| Logical reasoning: number and letter series completion. | 🟢 Easy | `reasoning` | [GfG](https://www.geeksforgeeks.org/search/?gq=Logical%20reasoning%3A%20number%20and%20letter%20series%20completion) · [Search](https://www.google.com/search?q=Logical%20reasoning%3A%20number%20and%20letter%20series%20completion) |
+| Quantitative aptitude: ratio, proportion and averages. | 🟢 Easy | `aptitude` | [GfG](https://www.geeksforgeeks.org/search/?gq=Quantitative%20aptitude%3A%20ratio%2C%20proportion%20and%20averages) · [Search](https://www.google.com/search?q=Quantitative%20aptitude%3A%20ratio%2C%20proportion%20and%20averages) |
+| Verbal ability: synonyms, antonyms and para-jumbles. | 🟢 Easy | `verbal` | [GfG](https://www.geeksforgeeks.org/search/?gq=Verbal%20ability%3A%20synonyms%2C%20antonyms%20and%20para-jumbles) · [Search](https://www.google.com/search?q=Verbal%20ability%3A%20synonyms%2C%20antonyms%20and%20para-jumbles) |
+
+## Round 2 · DSA / Coding
 <!-- round: dsa -->
 
 _Data structures & algorithms on a whiteboard or shared editor._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Median of two sorted arrays. | 🔴 Hard | `binary-search` | [LC](https://leetcode.com/problems/median-of-two-sorted-arrays/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Median%20of%20two%20sorted%20arrays) |
-| Pacific Atlantic water flow. | 🟡 Medium | `dfs` `grid` | [LC](https://leetcode.com/problems/pacific-atlantic-water-flow/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Pacific%20Atlantic%20water%20flow) |
-| Contains duplicate. | 🟢 Easy | `array` `hashmap` | [LC](https://leetcode.com/problems/contains-duplicate/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Contains%20duplicate) |
+| Check whether two strings are anagrams. | 🟢 Easy | `string` | [GfG](https://www.geeksforgeeks.org/search/?gq=Check%20whether%20two%20strings%20are%20anagrams) · [Search](https://www.google.com/search?q=Check%20whether%20two%20strings%20are%20anagrams) |
+| Check whether a number is prime. | 🟢 Easy | `math` | [GfG](https://www.geeksforgeeks.org/search/?gq=Check%20whether%20a%20number%20is%20prime) · [Search](https://www.google.com/search?q=Check%20whether%20a%20number%20is%20prime) |
 
-## Round 2 · Machine Coding
-<!-- round: machine_coding -->
-
-_Build a working component or service under time pressure._
-
-| Question | Difficulty | Tags | Practice |
-| --- | --- | --- | --- |
-| Build an infinite-scrolling list with virtualization. | 🔴 Hard | `react` `virtualization` `perf` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20an%20infinite-scrolling%20list%20with%20virtualization) · [Search](https://www.google.com/search?q=Build%20an%20infinite-scrolling%20list%20with%20virtualization) |
-| Build a nested, collapsible comment thread. | 🟡 Medium | `react` `recursion` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20a%20nested%2C%20collapsible%20comment%20thread) · [Search](https://www.google.com/search?q=Build%20a%20nested%2C%20collapsible%20comment%20thread) |
-
-## Round 3 · System Design
-<!-- round: system_design -->
-
-_High-level architecture of a large-scale system._
-
-| Question | Difficulty | Tags | Practice |
-| --- | --- | --- | --- |
-| Design a content delivery network (CDN). | 🔴 Hard | `cdn` `cache` `edge` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20content%20delivery%20network%20(CDN)) · [Search](https://www.google.com/search?q=Design%20a%20content%20delivery%20network%20(CDN)) |
-| Design a leaderboard for millions of players. | 🟡 Medium | `redis` `ranking` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20leaderboard%20for%20millions%20of%20players) · [Search](https://www.google.com/search?q=Design%20a%20leaderboard%20for%20millions%20of%20players) |
-
-## Round 4 · Tech Deep-Dive
+## Round 3 · Tech Deep-Dive
 <!-- round: tech_deep_dive -->
 
 _Deep questions on your core stack and fundamentals._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Explain how you handle concurrency / race conditions. | 🔴 Hard | `concurrency` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20how%20you%20handle%20concurrency%20%2F%20race%20conditions) · [Search](https://www.google.com/search?q=Explain%20how%20you%20handle%20concurrency%20%2F%20race%20conditions) |
-| Explain WeakMap/WeakSet and when to use them. | 🟡 Medium | `javascript` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20WeakMap%2FWeakSet%20and%20when%20to%20use%20them) · [Search](https://www.google.com/search?q=Explain%20WeakMap%2FWeakSet%20and%20when%20to%20use%20them) |
-| Explain the difference between SSR, SSG, and ISR. | 🟡 Medium | `ssr` `rendering` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20the%20difference%20between%20SSR%2C%20SSG%2C%20and%20ISR) · [Search](https://www.google.com/search?q=Explain%20the%20difference%20between%20SSR%2C%20SSG%2C%20and%20ISR) |
+| Explain CPU scheduling algorithms: FCFS, SJF and round robin. | 🟡 Medium | `os` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20CPU%20scheduling%20algorithms%3A%20FCFS%2C%20SJF%20and%20round%20robin) · [Search](https://www.google.com/search?q=Explain%20CPU%20scheduling%20algorithms%3A%20FCFS%2C%20SJF%20and%20round%20robin) |
+| Difference between an abstract class and an interface. | 🟡 Medium | `oops` | [GfG](https://www.geeksforgeeks.org/search/?gq=Difference%20between%20an%20abstract%20class%20and%20an%20interface) · [Search](https://www.google.com/search?q=Difference%20between%20an%20abstract%20class%20and%20an%20interface) |
+| Explain the four pillars of OOP with examples. | 🟢 Easy | `oops` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20the%20four%20pillars%20of%20OOP%20with%20examples) · [Search](https://www.google.com/search?q=Explain%20the%20four%20pillars%20of%20OOP%20with%20examples) |
+| Write a SQL query to find the second-highest salary. | 🟡 Medium | `sql` | [GfG](https://www.geeksforgeeks.org/search/?gq=Write%20a%20SQL%20query%20to%20find%20the%20second-highest%20salary) · [Search](https://www.google.com/search?q=Write%20a%20SQL%20query%20to%20find%20the%20second-highest%20salary) |
 
-## Round 5 · Hiring Manager
-<!-- round: hiring_manager -->
-
-_Scope, ownership, and role-fit discussion with the manager._
-
-| Question | Difficulty | Tags |
-| --- | --- | --- |
-| What would your first 90 days here look like? | — | `planning` |
-
-## Round 6 · Behavioral / HR
+## Round 4 · Behavioral / HR
 <!-- round: behavioral -->
 
 _Values, collaboration, and past-experience (STAR) questions._
 
 | Question | Difficulty | Tags |
 | --- | --- | --- |
-| Describe a time you improved a process or tool for your team. | — | `ownership` `star` |
-| Describe handling a tight deadline with competing priorities. | — | `prioritization` `star` |
+| Why did you choose this branch of engineering? | — | — |
+| Where do you see yourself in five years? | — | — |
+| Are you willing to relocate anywhere in India? | — | — |
 
 ---
 

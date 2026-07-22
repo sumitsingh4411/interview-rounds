@@ -1,56 +1,61 @@
 ---
 id: bajaj-finserv-3
 company: bajaj-finserv
-role: fullstack
-level: staff
+role: backend
+level: mid
 outcome: rejected
-year: 2025
+year: 2024
 source: curated
-summary: A staff fullstack loop. Fundamentals mattered as much as getting to an answer.
+summary: >-
+  A mid backend hiring drive. Screening test, technical round, then a managerial
+  and HR conversation.
 ---
-# Staff Full-stack — Bajaj Finserv
+# Mid Backend — Bajaj Finserv
 
-![role](https://img.shields.io/badge/role-Full--stack-a78bfa?style=flat-square)
-![level](https://img.shields.io/badge/level-Staff-818cf8?style=flat-square)
+![role](https://img.shields.io/badge/role-Backend-8b93ff?style=flat-square)
+![level](https://img.shields.io/badge/level-Mid-818cf8?style=flat-square)
 ![outcome](https://img.shields.io/badge/outcome-Rejected-f87171?style=flat-square)
-![year](https://img.shields.io/badge/year-2025-6b7280?style=flat-square)
+![year](https://img.shields.io/badge/year-2024-6b7280?style=flat-square)
 ![source](https://img.shields.io/badge/source-Commonly%20asked-2dd4bf?style=flat-square)
 
-> A staff fullstack loop. Fundamentals mattered as much as getting to an answer.
+> A mid backend hiring drive. Screening test, technical round, then a managerial and HR conversation.
 
-**5 rounds · 9 questions**
+**5 rounds · 14 questions**
 
 ---
 
-## Round 1 · DSA / Coding
+## Round 1 · Online Assessment
+<!-- round: oa -->
+
+_Timed online coding / aptitude screen, usually the first filter._
+
+| Question | Difficulty | Tags | Practice |
+| --- | --- | --- | --- |
+| Quantitative aptitude: profit, loss and percentages. | 🟢 Easy | `aptitude` | [GfG](https://www.geeksforgeeks.org/search/?gq=Quantitative%20aptitude%3A%20profit%2C%20loss%20and%20percentages) · [Search](https://www.google.com/search?q=Quantitative%20aptitude%3A%20profit%2C%20loss%20and%20percentages) |
+| Quantitative aptitude: simple and compound interest. | 🟢 Easy | `aptitude` | [GfG](https://www.geeksforgeeks.org/search/?gq=Quantitative%20aptitude%3A%20simple%20and%20compound%20interest) · [Search](https://www.google.com/search?q=Quantitative%20aptitude%3A%20simple%20and%20compound%20interest) |
+| Quantitative aptitude: permutations, combinations and probability. | 🟡 Medium | `aptitude` | [GfG](https://www.geeksforgeeks.org/search/?gq=Quantitative%20aptitude%3A%20permutations%2C%20combinations%20and%20probability) · [Search](https://www.google.com/search?q=Quantitative%20aptitude%3A%20permutations%2C%20combinations%20and%20probability) |
+
+## Round 2 · DSA / Coding
 <!-- round: dsa -->
 
 _Data structures & algorithms on a whiteboard or shared editor._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Serialize and deserialize a binary tree. | 🔴 Hard | `tree` `dfs` | [LC](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Serialize%20and%20deserialize%20a%20binary%20tree) |
-| Minimum window substring. | 🔴 Hard | `sliding-window` `string` | [LC](https://leetcode.com/problems/minimum-window-substring/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Minimum%20window%20substring) |
-| Word break. | 🟡 Medium | `dp` `string` | [LC](https://leetcode.com/problems/word-break/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Word%20break) |
+| Reverse a string without using library functions. | 🟢 Easy | `string` | [GfG](https://www.geeksforgeeks.org/search/?gq=Reverse%20a%20string%20without%20using%20library%20functions) · [Search](https://www.google.com/search?q=Reverse%20a%20string%20without%20using%20library%20functions) |
+| Check whether a string is a palindrome. | 🟢 Easy | `string` | [GfG](https://www.geeksforgeeks.org/search/?gq=Check%20whether%20a%20string%20is%20a%20palindrome) · [Search](https://www.google.com/search?q=Check%20whether%20a%20string%20is%20a%20palindrome) |
 
-## Round 2 · System Design
-<!-- round: system_design -->
+## Round 3 · Tech Deep-Dive
+<!-- round: tech_deep_dive -->
 
-_High-level architecture of a large-scale system._
-
-| Question | Difficulty | Tags | Practice |
-| --- | --- | --- | --- |
-| Design a design-system component library shared across apps. | 🟡 Medium | `frontend` `design-system` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20design-system%20component%20library%20shared%20across%20apps) · [Search](https://www.google.com/search?q=Design%20a%20design-system%20component%20library%20shared%20across%20apps) |
-| Design a metrics/time-series ingestion pipeline. | 🔴 Hard | `time-series` `ingestion` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20metrics%2Ftime-series%20ingestion%20pipeline) · [Search](https://www.google.com/search?q=Design%20a%20metrics%2Ftime-series%20ingestion%20pipeline) |
-
-## Round 3 · Low-Level Design
-<!-- round: lld -->
-
-_Object-oriented / low-level design of a focused module._
+_Deep questions on your core stack and fundamentals._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Design a logging library with levels and sinks. | 🟡 Medium | `oop` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20logging%20library%20with%20levels%20and%20sinks) · [Search](https://www.google.com/search?q=Design%20a%20logging%20library%20with%20levels%20and%20sinks) |
+| What is polymorphism? Compile-time vs runtime. | 🟢 Easy | `oops` | [GfG](https://www.geeksforgeeks.org/search/?gq=What%20is%20polymorphism%3F%20Compile-time%20vs%20runtime) · [Search](https://www.google.com/search?q=What%20is%20polymorphism%3F%20Compile-time%20vs%20runtime) |
+| What are the JDK, JRE and JVM? | 🟢 Easy | `java` | [GfG](https://www.geeksforgeeks.org/search/?gq=What%20are%20the%20JDK%2C%20JRE%20and%20JVM) · [Search](https://www.google.com/search?q=What%20are%20the%20JDK%2C%20JRE%20and%20JVM) |
+| Difference between DELETE, TRUNCATE and DROP. | 🟢 Easy | `sql` | [GfG](https://www.geeksforgeeks.org/search/?gq=Difference%20between%20DELETE%2C%20TRUNCATE%20and%20DROP) · [Search](https://www.google.com/search?q=Difference%20between%20DELETE%2C%20TRUNCATE%20and%20DROP) |
+| Explain primary key, foreign key, unique key and candidate key. | 🟢 Easy | `dbms` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20primary%20key%2C%20foreign%20key%2C%20unique%20key%20and%20candidate%20key) · [Search](https://www.google.com/search?q=Explain%20primary%20key%2C%20foreign%20key%2C%20unique%20key%20and%20candidate%20key) |
 
 ## Round 4 · Hiring Manager
 <!-- round: hiring_manager -->
@@ -59,7 +64,8 @@ _Scope, ownership, and role-fit discussion with the manager._
 
 | Question | Difficulty | Tags |
 | --- | --- | --- |
-| How do you give difficult feedback to a peer? | — | `leadership` |
+| Tell me about a production issue you helped resolve. | — | — |
+| How do you estimate the effort for a module assigned to you? | — | — |
 
 ## Round 5 · Behavioral / HR
 <!-- round: behavioral -->
@@ -68,8 +74,9 @@ _Values, collaboration, and past-experience (STAR) questions._
 
 | Question | Difficulty | Tags |
 | --- | --- | --- |
-| Describe a goal you set and how you achieved it. | — | `ownership` `star` |
-| Describe working with an ambiguous or shifting requirement. | — | `ambiguity` `star` |
+| Are you comfortable working in rotational or night shifts? | — | — |
+| Are you comfortable signing the service agreement / bond? | — | — |
+| Where do you see yourself in five years? | — | — |
 
 ---
 

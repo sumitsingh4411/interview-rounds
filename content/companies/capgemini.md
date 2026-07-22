@@ -10,7 +10,7 @@ description: 'IT consulting and services. Aptitude, pseudocode, and fundamentals
 ![industry](https://img.shields.io/badge/industry-IT%20Services-8b93ff?style=flat-square)
 ![hq](https://img.shields.io/badge/hq-Paris,%20France-6b7280?style=flat-square)
 ![interviews](https://img.shields.io/badge/interviews-5-22d3ee?style=flat-square)
-![questions](https://img.shields.io/badge/questions-57-a78bfa?style=flat-square)
+![questions](https://img.shields.io/badge/questions-62-a78bfa?style=flat-square)
 
 > IT consulting and services. Aptitude, pseudocode, and fundamentals rounds.
 
@@ -20,11 +20,11 @@ description: 'IT consulting and services. Aptitude, pseudocode, and fundamentals
 
 | Interview | Outcome | Rounds | Questions |
 | --- | --- | --- | --- |
-| [Junior · Frontend](../interviews/capgemini-1.md) | Unknown | 5 | 11 |
-| [Mid · Backend](../interviews/capgemini-2.md) | Offer | 5 | 11 |
-| [Senior · Full-stack](../interviews/capgemini-3.md) | Unknown | 6 | 13 |
-| [Senior · Frontend](../interviews/capgemini-4.md) | Offer | 6 | 13 |
-| [Staff · Backend](../interviews/capgemini-5.md) | Withdrew | 5 | 9 |
+| [Junior · Backend](../interviews/capgemini-1.md) | Offer | 4 | 12 |
+| [Junior · Full-stack](../interviews/capgemini-2.md) | Rejected | 4 | 12 |
+| [Intern · Backend](../interviews/capgemini-3.md) | Offer | 4 | 12 |
+| [Junior · Frontend](../interviews/capgemini-4.md) | No offer | 4 | 12 |
+| [Mid · Full-stack](../interviews/capgemini-5.md) | Offer | 5 | 14 |
 
 ---
 

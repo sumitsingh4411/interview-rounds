@@ -2,6 +2,14 @@ import type { Role, Level, Round, Difficulty } from '../../src/lib/constants';
 
 export type BankQ = { title: string; difficulty?: Difficulty; tags?: string[] };
 
+/**
+ * How a company actually interviews.
+ * `product` — FAANG/startup loop: DSA, machine coding, LLD, system design.
+ * `services` — IT-services / mass-recruiter loop: aptitude screen, basic
+ *   programming, CS-fundamentals technical round, managerial and HR.
+ */
+export type Archetype = 'product' | 'services';
+
 // ---------------------------------------------------------------------------
 // Curated question pools — commonly reported questions by round (and role).
 // ---------------------------------------------------------------------------
@@ -393,6 +401,145 @@ const TECH_BACKEND: BankQ[] = [
   { title: 'How do you design a public API for backward compatibility?', difficulty: 'medium', tags: ['api-design'] },
 ];
 
+// ---------------------------------------------------------------------------
+// Services / mass-recruiter pools.
+//
+// A TCS, Infosys or Capgemini loop looks nothing like a product-company loop:
+// there is no machine-coding or system-design round, the "coding" is classic
+// fresher programs rather than LeetCode-hard, and the technical round is a
+// breadth check on OOP / DBMS / OS / networking. Giving these companies the
+// product bank would be actively misleading, so they get their own pools.
+// ---------------------------------------------------------------------------
+const SERVICES_APTITUDE: BankQ[] = [
+  { title: 'Quantitative aptitude: time, speed and distance problems.', difficulty: 'easy', tags: ['aptitude'] },
+  { title: 'Quantitative aptitude: time and work problems.', difficulty: 'easy', tags: ['aptitude'] },
+  { title: 'Quantitative aptitude: profit, loss and percentages.', difficulty: 'easy', tags: ['aptitude'] },
+  { title: 'Quantitative aptitude: ratio, proportion and averages.', difficulty: 'easy', tags: ['aptitude'] },
+  { title: 'Quantitative aptitude: permutations, combinations and probability.', difficulty: 'medium', tags: ['aptitude'] },
+  { title: 'Quantitative aptitude: simple and compound interest.', difficulty: 'easy', tags: ['aptitude'] },
+  { title: 'Logical reasoning: number and letter series completion.', difficulty: 'easy', tags: ['reasoning'] },
+  { title: 'Logical reasoning: blood relations and seating arrangement.', difficulty: 'medium', tags: ['reasoning'] },
+  { title: 'Logical reasoning: syllogisms and statement–conclusion.', difficulty: 'medium', tags: ['reasoning'] },
+  { title: 'Logical reasoning: data interpretation from charts and tables.', difficulty: 'medium', tags: ['reasoning'] },
+  { title: 'Verbal ability: reading comprehension passage.', difficulty: 'easy', tags: ['verbal'] },
+  { title: 'Verbal ability: error spotting and sentence correction.', difficulty: 'easy', tags: ['verbal'] },
+  { title: 'Verbal ability: synonyms, antonyms and para-jumbles.', difficulty: 'easy', tags: ['verbal'] },
+  { title: 'Email writing / essay writing task.', difficulty: 'easy', tags: ['verbal'] },
+  { title: 'Pseudocode: predict the output of the given code block.', difficulty: 'medium', tags: ['pseudocode'] },
+  { title: 'Pseudocode: spot the error in the given snippet.', difficulty: 'medium', tags: ['pseudocode'] },
+];
+
+const SERVICES_CODING: BankQ[] = [
+  { title: 'Print a star / pyramid pattern for n rows.', difficulty: 'easy', tags: ['patterns'] },
+  { title: 'Reverse a string without using library functions.', difficulty: 'easy', tags: ['string'] },
+  { title: 'Check whether a string is a palindrome.', difficulty: 'easy', tags: ['string'] },
+  { title: 'Check whether a number is prime.', difficulty: 'easy', tags: ['math'] },
+  { title: 'Find the factorial of a number using recursion.', difficulty: 'easy', tags: ['recursion'] },
+  { title: 'Print the Fibonacci series up to n terms.', difficulty: 'easy', tags: ['math'] },
+  { title: 'Swap two numbers without using a temporary variable.', difficulty: 'easy', tags: ['math'] },
+  { title: 'Find the largest and smallest element in an array.', difficulty: 'easy', tags: ['array'] },
+  { title: 'Count vowels, consonants and words in a string.', difficulty: 'easy', tags: ['string'] },
+  { title: 'Check whether a number is an Armstrong number.', difficulty: 'easy', tags: ['math'] },
+  { title: 'Find the sum of digits of a number.', difficulty: 'easy', tags: ['math'] },
+  { title: 'Find the GCD and LCM of two numbers.', difficulty: 'easy', tags: ['math'] },
+  { title: 'Remove duplicate characters from a string.', difficulty: 'easy', tags: ['string'] },
+  { title: 'Sort an array using bubble sort and state its complexity.', difficulty: 'easy', tags: ['sorting'] },
+  { title: 'Implement binary search on a sorted array.', difficulty: 'easy', tags: ['searching'] },
+  { title: 'Find the second-largest element in an array.', difficulty: 'easy', tags: ['array'] },
+  { title: 'Count the frequency of each character in a string.', difficulty: 'easy', tags: ['string'] },
+  { title: 'Check whether two strings are anagrams.', difficulty: 'easy', tags: ['string'] },
+  { title: 'Reverse a number and check whether it is a palindrome.', difficulty: 'easy', tags: ['math'] },
+  { title: 'Matrix operations: transpose and sum of the diagonals.', difficulty: 'medium', tags: ['matrix'] },
+  { title: 'Remove duplicates from an array without using extra space.', difficulty: 'medium', tags: ['array'] },
+  { title: 'Reverse a linked list.', difficulty: 'medium', tags: ['linked-list'] },
+];
+
+const SERVICES_TECH: BankQ[] = [
+  { title: 'Explain the four pillars of OOP with examples.', difficulty: 'easy', tags: ['oops'] },
+  { title: 'Difference between abstraction and encapsulation.', difficulty: 'easy', tags: ['oops'] },
+  { title: 'Method overloading vs method overriding.', difficulty: 'easy', tags: ['oops'] },
+  { title: 'Difference between an abstract class and an interface.', difficulty: 'medium', tags: ['oops'] },
+  { title: 'What is polymorphism? Compile-time vs runtime.', difficulty: 'easy', tags: ['oops'] },
+  { title: 'Explain inheritance and its types.', difficulty: 'easy', tags: ['oops'] },
+  { title: 'What is a constructor? Explain constructor overloading.', difficulty: 'easy', tags: ['oops'] },
+  { title: 'Explain database normalization and its normal forms.', difficulty: 'medium', tags: ['dbms'] },
+  { title: 'Difference between DELETE, TRUNCATE and DROP.', difficulty: 'easy', tags: ['sql'] },
+  { title: 'Explain primary key, foreign key, unique key and candidate key.', difficulty: 'easy', tags: ['dbms'] },
+  { title: 'Write a SQL query to find the second-highest salary.', difficulty: 'medium', tags: ['sql'] },
+  { title: 'Explain SQL joins: inner, left, right and full outer.', difficulty: 'easy', tags: ['sql'] },
+  { title: 'What is indexing in a database and when does it help?', difficulty: 'medium', tags: ['dbms'] },
+  { title: 'Explain the ACID properties of a transaction.', difficulty: 'medium', tags: ['dbms'] },
+  { title: 'Difference between DBMS and RDBMS.', difficulty: 'easy', tags: ['dbms'] },
+  { title: 'Difference between a process and a thread.', difficulty: 'easy', tags: ['os'] },
+  { title: 'What is a deadlock and how do you prevent it?', difficulty: 'medium', tags: ['os'] },
+  { title: 'Explain virtual memory, paging and segmentation.', difficulty: 'medium', tags: ['os'] },
+  { title: 'Explain CPU scheduling algorithms: FCFS, SJF and round robin.', difficulty: 'medium', tags: ['os'] },
+  { title: 'Explain the layers of the OSI model.', difficulty: 'easy', tags: ['networking'] },
+  { title: 'Difference between TCP and UDP.', difficulty: 'easy', tags: ['networking'] },
+  { title: 'What happens when you type a URL into a browser?', difficulty: 'medium', tags: ['networking'] },
+  { title: 'Difference between stack and heap memory.', difficulty: 'easy', tags: ['fundamentals'] },
+  { title: 'Difference between an array and a linked list.', difficulty: 'easy', tags: ['data-structures'] },
+  { title: 'Explain the time complexity of common sorting algorithms.', difficulty: 'medium', tags: ['data-structures'] },
+  { title: 'Explain exception handling with try, catch and finally.', difficulty: 'easy', tags: ['java'] },
+  { title: 'Difference between == and equals() in Java.', difficulty: 'easy', tags: ['java'] },
+  { title: 'What are the JDK, JRE and JVM?', difficulty: 'easy', tags: ['java'] },
+  { title: 'Explain Java collections: List, Set and Map.', difficulty: 'medium', tags: ['java'] },
+  { title: 'Explain the static and final keywords in Java.', difficulty: 'easy', tags: ['java'] },
+  { title: 'What is a pointer? Explain pointer arithmetic in C.', difficulty: 'medium', tags: ['c'] },
+  { title: 'Difference between a structure and a union in C.', difficulty: 'easy', tags: ['c'] },
+  { title: 'Difference between C and C++.', difficulty: 'easy', tags: ['c'] },
+  { title: 'Explain your final-year project architecture and your role in it.', difficulty: 'easy', tags: ['project'] },
+];
+
+const SERVICES_MANAGERIAL: BankQ[] = [
+  { title: 'Walk me through your project and your exact contribution to it.' },
+  { title: 'Which technology stack are you most comfortable with, and why?' },
+  { title: "How would you approach understanding a client's legacy codebase?" },
+  { title: 'How do you handle a client changing requirements mid-sprint?' },
+  { title: 'Describe your experience working with an onsite / offshore team.' },
+  { title: 'How do you ensure code quality under a tight delivery timeline?' },
+  { title: 'What would you do if you disagreed with your project lead?' },
+  { title: 'How do you approach learning a technology you have never used?' },
+  { title: 'Tell me about a production issue you helped resolve.' },
+  { title: 'How do you estimate the effort for a module assigned to you?' },
+];
+
+const SERVICES_HR: BankQ[] = [
+  { title: 'Tell me about yourself.' },
+  { title: 'Why do you want to join our company?' },
+  { title: 'What do you know about our company and the services we provide?' },
+  { title: 'Are you willing to relocate anywhere in India?' },
+  { title: 'Are you comfortable working in rotational or night shifts?' },
+  { title: 'Where do you see yourself in five years?' },
+  { title: 'What are your strengths and weaknesses?' },
+  { title: 'Why should we hire you?' },
+  { title: 'Are you comfortable signing the service agreement / bond?' },
+  { title: 'Tell me about your final-year project.' },
+  { title: 'Do you have any backlogs or academic gaps? Please explain.' },
+  { title: 'How do you handle pressure and tight deadlines?' },
+  { title: 'Would you be comfortable working on any technology assigned to you?' },
+  { title: 'Tell me about a conflict in a team project and how you resolved it.' },
+  { title: 'Why did you choose this branch of engineering?' },
+  { title: 'What are your interests outside academics?' },
+];
+
+function servicesPoolFor(round: Round): BankQ[] {
+  switch (round) {
+    case 'oa':
+      return SERVICES_APTITUDE;
+    case 'dsa':
+      return SERVICES_CODING;
+    case 'tech_deep_dive':
+      return SERVICES_TECH;
+    case 'hiring_manager':
+      return SERVICES_MANAGERIAL;
+    case 'behavioral':
+      return SERVICES_HR;
+    default:
+      return [];
+  }
+}
+
 function poolFor(role: Role, round: Round): BankQ[] {
   switch (round) {
     case 'oa':
@@ -451,6 +598,39 @@ const ROUND_QUOTA: Partial<Record<Round, number>> = {
   tech_deep_dive: 3,
   behavioral: 2,
 };
+
+/**
+ * Services loops have no machine-coding, LLD or system-design stage — it is a
+ * screening test, a technical round on fundamentals, then managerial and HR.
+ */
+const SERVICES_ROUND_PLANS: Record<Level, Round[]> = {
+  intern: ['oa', 'dsa', 'tech_deep_dive', 'behavioral'],
+  junior: ['oa', 'dsa', 'tech_deep_dive', 'behavioral'],
+  mid: ['oa', 'dsa', 'tech_deep_dive', 'hiring_manager', 'behavioral'],
+  senior: ['dsa', 'tech_deep_dive', 'hiring_manager', 'behavioral'],
+  staff: ['tech_deep_dive', 'hiring_manager', 'behavioral'],
+};
+
+const SERVICES_QUOTA: Partial<Record<Round, number>> = {
+  oa: 3,
+  dsa: 2,
+  tech_deep_dive: 4,
+  hiring_manager: 2,
+  behavioral: 3,
+};
+
+/** Services firms hire overwhelmingly at fresher and early-career levels. */
+const SERVICES_PROFILES: { role: Role; level: Level }[] = [
+  { role: 'backend', level: 'junior' },
+  { role: 'fullstack', level: 'junior' },
+  { role: 'backend', level: 'intern' },
+  { role: 'frontend', level: 'junior' },
+  { role: 'fullstack', level: 'mid' },
+  { role: 'backend', level: 'mid' },
+  { role: 'frontend', level: 'mid' },
+  { role: 'fullstack', level: 'intern' },
+  { role: 'backend', level: 'senior' },
+];
 
 export const PROFILES: { role: Role; level: Level }[] = [
   { role: 'frontend', level: 'junior' },
@@ -543,19 +723,42 @@ export type ComposedInterview = {
   rounds: ComposedRound[];
 };
 
-function summaryFor(role: Role, level: Level, rounds: number, rng: () => number): string {
-  const openers = [
-    `A ${level} ${role} loop`,
-    `${rounds}-round ${level} ${role} process`,
-    `${level.charAt(0).toUpperCase()}${level.slice(1)} ${role} interview`,
-  ];
-  const flavors = [
-    'Coding-heavy early, design and behavioral later.',
-    'Pragmatic questions — more real-world than pure puzzles.',
-    'Fast-paced; expect follow-ups that push on depth.',
-    'Balanced across coding, design, and collaboration.',
-    'Fundamentals mattered as much as getting to an answer.',
-  ];
+function summaryFor(
+  role: Role,
+  level: Level,
+  rounds: number,
+  rng: () => number,
+  archetype: Archetype = 'product',
+): string {
+  // Both branches draw exactly twice, so the product output is unchanged.
+  const openers =
+    archetype === 'services'
+      ? [
+          `A ${level} ${role} hiring drive`,
+          `${rounds}-round ${level} ${role} process`,
+          `Campus-style ${level} ${role} interview`,
+        ]
+      : [
+          `A ${level} ${role} loop`,
+          `${rounds}-round ${level} ${role} process`,
+          `${level.charAt(0).toUpperCase()}${level.slice(1)} ${role} interview`,
+        ];
+  const flavors =
+    archetype === 'services'
+      ? [
+          'Aptitude screen first, then technical fundamentals and HR.',
+          'Fundamentals over puzzles — OOP, DBMS and SQL carried the most weight.',
+          'Screening test, technical round, then a managerial and HR conversation.',
+          'Basic programming plus core CS; communication mattered throughout.',
+          'Breadth of fundamentals mattered more than algorithmic depth.',
+        ]
+      : [
+          'Coding-heavy early, design and behavioral later.',
+          'Pragmatic questions — more real-world than pure puzzles.',
+          'Fast-paced; expect follow-ups that push on depth.',
+          'Balanced across coding, design, and collaboration.',
+          'Fundamentals mattered as much as getting to an answer.',
+        ];
   return `${openers[Math.floor(rng() * openers.length)]}. ${flavors[Math.floor(rng() * flavors.length)]}`;
 }
 
@@ -563,19 +766,26 @@ function summaryFor(role: Role, level: Level, rounds: number, rng: () => number)
 export function composeInterviews(
   slug: string,
   count = 4,
+  archetype: Archetype = 'product',
 ): ComposedInterview[] {
+  const services = archetype === 'services';
+  const profiles = services ? SERVICES_PROFILES : PROFILES;
+  const plans = services ? SERVICES_ROUND_PLANS : ROUND_PLANS;
+  const quotas = services ? SERVICES_QUOTA : ROUND_QUOTA;
+
   const rng = mulberry32(hashStr(slug));
-  const start = hashStr(slug) % PROFILES.length;
+  const start = hashStr(slug) % profiles.length;
   const used = new Set<string>();
 
   const interviews: ComposedInterview[] = [];
   for (let i = 0; i < count; i += 1) {
-    const { role, level } = PROFILES[(start + i) % PROFILES.length];
-    const plan = ROUND_PLANS[level];
+    const { role, level } = profiles[(start + i) % profiles.length];
+    const plan = plans[level];
     const rounds: ComposedRound[] = plan
       .map((round) => {
-        const quota = ROUND_QUOTA[round] ?? 1;
-        const questions = pickUnique(poolFor(role, round), quota, rng, used);
+        const quota = quotas[round] ?? 1;
+        const pool = services ? servicesPoolFor(round) : poolFor(role, round);
+        const questions = pickUnique(pool, quota, rng, used);
         return { round, questions };
       })
       .filter((r) => r.questions.length > 0);
@@ -585,7 +795,7 @@ export function composeInterviews(
       level,
       outcome: OUTCOMES_WEIGHTED[Math.floor(rng() * OUTCOMES_WEIGHTED.length)],
       year: YEARS[Math.floor(rng() * YEARS.length)],
-      summary: summaryFor(role, level, rounds.length, rng),
+      summary: summaryFor(role, level, rounds.length, rng, archetype),
       rounds,
     });
   }

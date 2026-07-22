@@ -3,24 +3,24 @@ id: axis-bank-3
 company: axis-bank
 role: frontend
 level: junior
-outcome: unknown
-year: 2023
+outcome: no_offer
+year: 2025
 source: curated
 summary: >-
-  5-round junior frontend process. Pragmatic questions — more real-world than
-  pure puzzles.
+  A junior frontend hiring drive. Screening test, technical round, then a
+  managerial and HR conversation.
 ---
 # Junior Frontend — Axis Bank
 
 ![role](https://img.shields.io/badge/role-Frontend-22d3ee?style=flat-square)
 ![level](https://img.shields.io/badge/level-Junior-818cf8?style=flat-square)
-![outcome](https://img.shields.io/badge/outcome-Unknown-6b7280?style=flat-square)
-![year](https://img.shields.io/badge/year-2023-6b7280?style=flat-square)
+![outcome](https://img.shields.io/badge/outcome-No%20offer-f87171?style=flat-square)
+![year](https://img.shields.io/badge/year-2025-6b7280?style=flat-square)
 ![source](https://img.shields.io/badge/source-Commonly%20asked-2dd4bf?style=flat-square)
 
-> 5-round junior frontend process. Pragmatic questions — more real-world than pure puzzles.
+> A junior frontend hiring drive. Screening test, technical round, then a managerial and HR conversation.
 
-**5 rounds · 11 questions**
+**4 rounds · 12 questions**
 
 ---
 
@@ -31,7 +31,9 @@ _Timed online coding / aptitude screen, usually the first filter._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Move zeroes to the end in place. | 🟢 Easy | `two-pointers` | [LC](https://leetcode.com/problems/move-zeroes/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Move%20zeroes%20to%20the%20end%20in%20place) |
+| Logical reasoning: syllogisms and statement–conclusion. | 🟡 Medium | `reasoning` | [GfG](https://www.geeksforgeeks.org/search/?gq=Logical%20reasoning%3A%20syllogisms%20and%20statement%E2%80%93conclusion) · [Search](https://www.google.com/search?q=Logical%20reasoning%3A%20syllogisms%20and%20statement%E2%80%93conclusion) |
+| Verbal ability: reading comprehension passage. | 🟢 Easy | `verbal` | [GfG](https://www.geeksforgeeks.org/search/?gq=Verbal%20ability%3A%20reading%20comprehension%20passage) · [Search](https://www.google.com/search?q=Verbal%20ability%3A%20reading%20comprehension%20passage) |
+| Pseudocode: predict the output of the given code block. | 🟡 Medium | `pseudocode` | [GfG](https://www.geeksforgeeks.org/search/?gq=Pseudocode%3A%20predict%20the%20output%20of%20the%20given%20code%20block) · [Search](https://www.google.com/search?q=Pseudocode%3A%20predict%20the%20output%20of%20the%20given%20code%20block) |
 
 ## Round 2 · DSA / Coding
 <!-- round: dsa -->
@@ -40,40 +42,31 @@ _Data structures & algorithms on a whiteboard or shared editor._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Word search II. | 🔴 Hard | `trie` `backtracking` | [LC](https://leetcode.com/problems/word-search-ii/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Word%20search%20II) |
-| Longest substring without repeating characters. | 🟡 Medium | `sliding-window` `string` | [LC](https://leetcode.com/problems/longest-substring-without-repeating-characters/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Longest%20substring%20without%20repeating%20characters) |
-| Lowest common ancestor of a binary tree. | 🟡 Medium | `tree` | [LC](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Lowest%20common%20ancestor%20of%20a%20binary%20tree) |
+| Reverse a number and check whether it is a palindrome. | 🟢 Easy | `math` | [GfG](https://www.geeksforgeeks.org/search/?gq=Reverse%20a%20number%20and%20check%20whether%20it%20is%20a%20palindrome) · [Search](https://www.google.com/search?q=Reverse%20a%20number%20and%20check%20whether%20it%20is%20a%20palindrome) |
+| Remove duplicate characters from a string. | 🟢 Easy | `string` | [GfG](https://www.geeksforgeeks.org/search/?gq=Remove%20duplicate%20characters%20from%20a%20string) · [Search](https://www.google.com/search?q=Remove%20duplicate%20characters%20from%20a%20string) |
 
-## Round 3 · Machine Coding
-<!-- round: machine_coding -->
-
-_Build a working component or service under time pressure._
-
-| Question | Difficulty | Tags | Practice |
-| --- | --- | --- | --- |
-| Build a data table with sorting, filtering and pagination. | 🔴 Hard | `react` `table` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20a%20data%20table%20with%20sorting%2C%20filtering%20and%20pagination) · [Search](https://www.google.com/search?q=Build%20a%20data%20table%20with%20sorting%2C%20filtering%20and%20pagination) |
-| Build a star-rating component (controlled + accessible). | 🟢 Easy | `react` `a11y` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20a%20star-rating%20component%20(controlled%20%2B%20accessible)) · [Search](https://www.google.com/search?q=Build%20a%20star-rating%20component%20(controlled%20%2B%20accessible)) |
-
-## Round 4 · Tech Deep-Dive
+## Round 3 · Tech Deep-Dive
 <!-- round: tech_deep_dive -->
 
 _Deep questions on your core stack and fundamentals._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Event delegation and how bubbling/capturing work. | 🟢 Easy | `dom` | [GfG](https://www.geeksforgeeks.org/search/?gq=Event%20delegation%20and%20how%20bubbling%2Fcapturing%20work) · [Search](https://www.google.com/search?q=Event%20delegation%20and%20how%20bubbling%2Fcapturing%20work) |
-| How does React batching and the render phase work? | 🔴 Hard | `react` | [GfG](https://www.geeksforgeeks.org/search/?gq=How%20does%20React%20batching%20and%20the%20render%20phase%20work) · [Search](https://www.google.com/search?q=How%20does%20React%20batching%20and%20the%20render%20phase%20work) |
-| How do you code-split and lazy-load a route? | 🟡 Medium | `bundling` `perf` | [GfG](https://www.geeksforgeeks.org/search/?gq=How%20do%20you%20code-split%20and%20lazy-load%20a%20route) · [Search](https://www.google.com/search?q=How%20do%20you%20code-split%20and%20lazy-load%20a%20route) |
+| What is indexing in a database and when does it help? | 🟡 Medium | `dbms` | [GfG](https://www.geeksforgeeks.org/search/?gq=What%20is%20indexing%20in%20a%20database%20and%20when%20does%20it%20help) · [Search](https://www.google.com/search?q=What%20is%20indexing%20in%20a%20database%20and%20when%20does%20it%20help) |
+| Difference between an array and a linked list. | 🟢 Easy | `data-structures` | [GfG](https://www.geeksforgeeks.org/search/?gq=Difference%20between%20an%20array%20and%20a%20linked%20list) · [Search](https://www.google.com/search?q=Difference%20between%20an%20array%20and%20a%20linked%20list) |
+| Explain the layers of the OSI model. | 🟢 Easy | `networking` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20the%20layers%20of%20the%20OSI%20model) · [Search](https://www.google.com/search?q=Explain%20the%20layers%20of%20the%20OSI%20model) |
+| What are the JDK, JRE and JVM? | 🟢 Easy | `java` | [GfG](https://www.geeksforgeeks.org/search/?gq=What%20are%20the%20JDK%2C%20JRE%20and%20JVM) · [Search](https://www.google.com/search?q=What%20are%20the%20JDK%2C%20JRE%20and%20JVM) |
 
-## Round 5 · Behavioral / HR
+## Round 4 · Behavioral / HR
 <!-- round: behavioral -->
 
 _Values, collaboration, and past-experience (STAR) questions._
 
 | Question | Difficulty | Tags |
 | --- | --- | --- |
-| Describe a time you had to deliver bad news. | — | `communication` `star` |
-| Tell me about a project you are most proud of. | — | `star` |
+| Why did you choose this branch of engineering? | — | — |
+| Are you willing to relocate anywhere in India? | — | — |
+| Tell me about a conflict in a team project and how you resolved it. | — | — |
 
 ---
 

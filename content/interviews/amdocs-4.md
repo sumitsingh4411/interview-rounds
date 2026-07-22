@@ -1,77 +1,72 @@
 ---
 id: amdocs-4
 company: amdocs
-role: frontend
-level: staff
-outcome: offer
-year: 2023
+role: fullstack
+level: junior
+outcome: withdrew
+year: 2024
 source: curated
 summary: >-
-  5-round staff frontend process. Coding-heavy early, design and behavioral
-  later.
+  4-round junior fullstack process. Aptitude screen first, then technical
+  fundamentals and HR.
 ---
-# Staff Frontend — Amdocs
+# Junior Full-stack — Amdocs
 
-![role](https://img.shields.io/badge/role-Frontend-22d3ee?style=flat-square)
-![level](https://img.shields.io/badge/level-Staff-818cf8?style=flat-square)
-![outcome](https://img.shields.io/badge/outcome-Offer-34d399?style=flat-square)
-![year](https://img.shields.io/badge/year-2023-6b7280?style=flat-square)
+![role](https://img.shields.io/badge/role-Full--stack-a78bfa?style=flat-square)
+![level](https://img.shields.io/badge/level-Junior-818cf8?style=flat-square)
+![outcome](https://img.shields.io/badge/outcome-Withdrew-fbbf24?style=flat-square)
+![year](https://img.shields.io/badge/year-2024-6b7280?style=flat-square)
 ![source](https://img.shields.io/badge/source-Commonly%20asked-2dd4bf?style=flat-square)
 
-> 5-round staff frontend process. Coding-heavy early, design and behavioral later.
+> 4-round junior fullstack process. Aptitude screen first, then technical fundamentals and HR.
 
-**5 rounds · 9 questions**
+**4 rounds · 12 questions**
 
 ---
 
-## Round 1 · DSA / Coding
+## Round 1 · Online Assessment
+<!-- round: oa -->
+
+_Timed online coding / aptitude screen, usually the first filter._
+
+| Question | Difficulty | Tags | Practice |
+| --- | --- | --- | --- |
+| Verbal ability: reading comprehension passage. | 🟢 Easy | `verbal` | [GfG](https://www.geeksforgeeks.org/search/?gq=Verbal%20ability%3A%20reading%20comprehension%20passage) · [Search](https://www.google.com/search?q=Verbal%20ability%3A%20reading%20comprehension%20passage) |
+| Logical reasoning: blood relations and seating arrangement. | 🟡 Medium | `reasoning` | [GfG](https://www.geeksforgeeks.org/search/?gq=Logical%20reasoning%3A%20blood%20relations%20and%20seating%20arrangement) · [Search](https://www.google.com/search?q=Logical%20reasoning%3A%20blood%20relations%20and%20seating%20arrangement) |
+| Logical reasoning: number and letter series completion. | 🟢 Easy | `reasoning` | [GfG](https://www.geeksforgeeks.org/search/?gq=Logical%20reasoning%3A%20number%20and%20letter%20series%20completion) · [Search](https://www.google.com/search?q=Logical%20reasoning%3A%20number%20and%20letter%20series%20completion) |
+
+## Round 2 · DSA / Coding
 <!-- round: dsa -->
 
 _Data structures & algorithms on a whiteboard or shared editor._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Binary tree level order traversal. | 🟡 Medium | `tree` `bfs` | [LC](https://leetcode.com/problems/binary-tree-level-order-traversal/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Binary%20tree%20level%20order%20traversal) |
-| Kth largest element in an array. | 🟡 Medium | `heap` `quickselect` | [LC](https://leetcode.com/problems/kth-largest-element-in-an-array/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Kth%20largest%20element%20in%20an%20array) |
-| Regular expression matching. | 🔴 Hard | `dp` `string` | [LC](https://leetcode.com/problems/regular-expression-matching/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Regular%20expression%20matching) |
+| Swap two numbers without using a temporary variable. | 🟢 Easy | `math` | [GfG](https://www.geeksforgeeks.org/search/?gq=Swap%20two%20numbers%20without%20using%20a%20temporary%20variable) · [Search](https://www.google.com/search?q=Swap%20two%20numbers%20without%20using%20a%20temporary%20variable) |
+| Remove duplicates from an array without using extra space. | 🟡 Medium | `array` | [GfG](https://www.geeksforgeeks.org/search/?gq=Remove%20duplicates%20from%20an%20array%20without%20using%20extra%20space) · [Search](https://www.google.com/search?q=Remove%20duplicates%20from%20an%20array%20without%20using%20extra%20space) |
 
-## Round 2 · System Design
-<!-- round: system_design -->
+## Round 3 · Tech Deep-Dive
+<!-- round: tech_deep_dive -->
 
-_High-level architecture of a large-scale system._
-
-| Question | Difficulty | Tags | Practice |
-| --- | --- | --- | --- |
-| Design a file-sharing service with permissions. | 🟡 Medium | `storage` `acl` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20file-sharing%20service%20with%20permissions) · [Search](https://www.google.com/search?q=Design%20a%20file-sharing%20service%20with%20permissions) |
-| Design a video streaming service like YouTube. | 🔴 Hard | `cdn` `storage` `transcoding` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20video%20streaming%20service%20like%20YouTube) · [Search](https://www.google.com/search?q=Design%20a%20video%20streaming%20service%20like%20YouTube) |
-
-## Round 3 · Low-Level Design
-<!-- round: lld -->
-
-_Object-oriented / low-level design of a focused module._
+_Deep questions on your core stack and fundamentals._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Design a virtual DOM diffing model. | 🔴 Hard | `oop` `algorithms` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20virtual%20DOM%20diffing%20model) · [Search](https://www.google.com/search?q=Design%20a%20virtual%20DOM%20diffing%20model) |
+| Explain virtual memory, paging and segmentation. | 🟡 Medium | `os` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20virtual%20memory%2C%20paging%20and%20segmentation) · [Search](https://www.google.com/search?q=Explain%20virtual%20memory%2C%20paging%20and%20segmentation) |
+| Difference between DELETE, TRUNCATE and DROP. | 🟢 Easy | `sql` | [GfG](https://www.geeksforgeeks.org/search/?gq=Difference%20between%20DELETE%2C%20TRUNCATE%20and%20DROP) · [Search](https://www.google.com/search?q=Difference%20between%20DELETE%2C%20TRUNCATE%20and%20DROP) |
+| What are the JDK, JRE and JVM? | 🟢 Easy | `java` | [GfG](https://www.geeksforgeeks.org/search/?gq=What%20are%20the%20JDK%2C%20JRE%20and%20JVM) · [Search](https://www.google.com/search?q=What%20are%20the%20JDK%2C%20JRE%20and%20JVM) |
+| Difference between an array and a linked list. | 🟢 Easy | `data-structures` | [GfG](https://www.geeksforgeeks.org/search/?gq=Difference%20between%20an%20array%20and%20a%20linked%20list) · [Search](https://www.google.com/search?q=Difference%20between%20an%20array%20and%20a%20linked%20list) |
 
-## Round 4 · Hiring Manager
-<!-- round: hiring_manager -->
-
-_Scope, ownership, and role-fit discussion with the manager._
-
-| Question | Difficulty | Tags |
-| --- | --- | --- |
-| How do you grow junior engineers on your team? | — | `mentorship` `leadership` |
-
-## Round 5 · Behavioral / HR
+## Round 4 · Behavioral / HR
 <!-- round: behavioral -->
 
 _Values, collaboration, and past-experience (STAR) questions._
 
 | Question | Difficulty | Tags |
 | --- | --- | --- |
-| Describe a conflict with your manager and the outcome. | — | `conflict` `star` |
-| Tell me about the most impactful project of your career. | — | `impact` `star` |
+| What are your interests outside academics? | — | — |
+| Are you willing to relocate anywhere in India? | — | — |
+| Why did you choose this branch of engineering? | — | — |
 
 ---
 

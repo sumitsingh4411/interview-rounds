@@ -1,77 +1,72 @@
 ---
 id: bajaj-finserv-5
 company: bajaj-finserv
-role: backend
-level: mid
-outcome: rejected
+role: fullstack
+level: intern
+outcome: no_offer
 year: 2023
 source: curated
-summary: 'A mid backend loop. Balanced across coding, design, and collaboration.'
+summary: >-
+  4-round intern fullstack process. Screening test, technical round, then a
+  managerial and HR conversation.
 ---
-# Mid Backend — Bajaj Finserv
+# Intern Full-stack — Bajaj Finserv
 
-![role](https://img.shields.io/badge/role-Backend-8b93ff?style=flat-square)
-![level](https://img.shields.io/badge/level-Mid-818cf8?style=flat-square)
-![outcome](https://img.shields.io/badge/outcome-Rejected-f87171?style=flat-square)
+![role](https://img.shields.io/badge/role-Full--stack-a78bfa?style=flat-square)
+![level](https://img.shields.io/badge/level-Intern-818cf8?style=flat-square)
+![outcome](https://img.shields.io/badge/outcome-No%20offer-f87171?style=flat-square)
 ![year](https://img.shields.io/badge/year-2023-6b7280?style=flat-square)
 ![source](https://img.shields.io/badge/source-Commonly%20asked-2dd4bf?style=flat-square)
 
-> A mid backend loop. Balanced across coding, design, and collaboration.
+> 4-round intern fullstack process. Screening test, technical round, then a managerial and HR conversation.
 
-**5 rounds · 11 questions**
+**4 rounds · 12 questions**
 
 ---
 
-## Round 1 · DSA / Coding
+## Round 1 · Online Assessment
+<!-- round: oa -->
+
+_Timed online coding / aptitude screen, usually the first filter._
+
+| Question | Difficulty | Tags | Practice |
+| --- | --- | --- | --- |
+| Email writing / essay writing task. | 🟢 Easy | `verbal` | [GfG](https://www.geeksforgeeks.org/search/?gq=Email%20writing%20%2F%20essay%20writing%20task) · [Search](https://www.google.com/search?q=Email%20writing%20%2F%20essay%20writing%20task) |
+| Quantitative aptitude: time and work problems. | 🟢 Easy | `aptitude` | [GfG](https://www.geeksforgeeks.org/search/?gq=Quantitative%20aptitude%3A%20time%20and%20work%20problems) · [Search](https://www.google.com/search?q=Quantitative%20aptitude%3A%20time%20and%20work%20problems) |
+| Verbal ability: synonyms, antonyms and para-jumbles. | 🟢 Easy | `verbal` | [GfG](https://www.geeksforgeeks.org/search/?gq=Verbal%20ability%3A%20synonyms%2C%20antonyms%20and%20para-jumbles) · [Search](https://www.google.com/search?q=Verbal%20ability%3A%20synonyms%2C%20antonyms%20and%20para-jumbles) |
+
+## Round 2 · DSA / Coding
 <!-- round: dsa -->
 
 _Data structures & algorithms on a whiteboard or shared editor._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Jump game. | 🟡 Medium | `greedy` `dp` | [LC](https://leetcode.com/problems/jump-game/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Jump%20game) |
-| Merge two sorted linked lists. | 🟢 Easy | `linked-list` | [LC](https://leetcode.com/problems/merge-two-sorted-lists/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Merge%20two%20sorted%20linked%20lists) |
-| Merge intervals. | 🟡 Medium | `intervals` `sorting` | [LC](https://leetcode.com/problems/merge-intervals/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Merge%20intervals) |
+| Find the sum of digits of a number. | 🟢 Easy | `math` | [GfG](https://www.geeksforgeeks.org/search/?gq=Find%20the%20sum%20of%20digits%20of%20a%20number) · [Search](https://www.google.com/search?q=Find%20the%20sum%20of%20digits%20of%20a%20number) |
+| Count the frequency of each character in a string. | 🟢 Easy | `string` | [GfG](https://www.geeksforgeeks.org/search/?gq=Count%20the%20frequency%20of%20each%20character%20in%20a%20string) · [Search](https://www.google.com/search?q=Count%20the%20frequency%20of%20each%20character%20in%20a%20string) |
 
-## Round 2 · Machine Coding
-<!-- round: machine_coding -->
-
-_Build a working component or service under time pressure._
-
-| Question | Difficulty | Tags | Practice |
-| --- | --- | --- | --- |
-| Build a webhook receiver with signature verification. | 🟡 Medium | `security` `api` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20a%20webhook%20receiver%20with%20signature%20verification) · [Search](https://www.google.com/search?q=Build%20a%20webhook%20receiver%20with%20signature%20verification) |
-| Implement an exponential-backoff HTTP client. | 🟡 Medium | `reliability` | [GfG](https://www.geeksforgeeks.org/search/?gq=Implement%20an%20exponential-backoff%20HTTP%20client) · [Search](https://www.google.com/search?q=Implement%20an%20exponential-backoff%20HTTP%20client) |
-
-## Round 3 · Low-Level Design
-<!-- round: lld -->
-
-_Object-oriented / low-level design of a focused module._
-
-| Question | Difficulty | Tags | Practice |
-| --- | --- | --- | --- |
-| Design an in-memory file system. | 🔴 Hard | `oop` `trees` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20an%20in-memory%20file%20system) · [Search](https://www.google.com/search?q=Design%20an%20in-memory%20file%20system) |
-
-## Round 4 · Tech Deep-Dive
+## Round 3 · Tech Deep-Dive
 <!-- round: tech_deep_dive -->
 
 _Deep questions on your core stack and fundamentals._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Explain the CAP theorem with a practical example. | 🔴 Hard | `distributed` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20the%20CAP%20theorem%20with%20a%20practical%20example) · [Search](https://www.google.com/search?q=Explain%20the%20CAP%20theorem%20with%20a%20practical%20example) |
-| Explain JWT structure and common pitfalls. | 🟡 Medium | `auth` `security` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20JWT%20structure%20and%20common%20pitfalls) · [Search](https://www.google.com/search?q=Explain%20JWT%20structure%20and%20common%20pitfalls) |
-| Explain database replication lag and how to mitigate it. | 🟡 Medium | `databases` `replication` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20database%20replication%20lag%20and%20how%20to%20mitigate%20it) · [Search](https://www.google.com/search?q=Explain%20database%20replication%20lag%20and%20how%20to%20mitigate%20it) |
+| Explain SQL joins: inner, left, right and full outer. | 🟢 Easy | `sql` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20SQL%20joins%3A%20inner%2C%20left%2C%20right%20and%20full%20outer) · [Search](https://www.google.com/search?q=Explain%20SQL%20joins%3A%20inner%2C%20left%2C%20right%20and%20full%20outer) |
+| What is a pointer? Explain pointer arithmetic in C. | 🟡 Medium | `c` | [GfG](https://www.geeksforgeeks.org/search/?gq=What%20is%20a%20pointer%3F%20Explain%20pointer%20arithmetic%20in%20C) · [Search](https://www.google.com/search?q=What%20is%20a%20pointer%3F%20Explain%20pointer%20arithmetic%20in%20C) |
+| Explain exception handling with try, catch and finally. | 🟢 Easy | `java` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20exception%20handling%20with%20try%2C%20catch%20and%20finally) · [Search](https://www.google.com/search?q=Explain%20exception%20handling%20with%20try%2C%20catch%20and%20finally) |
+| Difference between an abstract class and an interface. | 🟡 Medium | `oops` | [GfG](https://www.geeksforgeeks.org/search/?gq=Difference%20between%20an%20abstract%20class%20and%20an%20interface) · [Search](https://www.google.com/search?q=Difference%20between%20an%20abstract%20class%20and%20an%20interface) |
 
-## Round 5 · Behavioral / HR
+## Round 4 · Behavioral / HR
 <!-- round: behavioral -->
 
 _Values, collaboration, and past-experience (STAR) questions._
 
 | Question | Difficulty | Tags |
 | --- | --- | --- |
-| Describe something you shipped that you were not proud of. | — | `tradeoffs` `star` |
-| Describe a time you had to deliver bad news. | — | `communication` `star` |
+| Why do you want to join our company? | — | — |
+| Tell me about yourself. | — | — |
+| How do you handle pressure and tight deadlines? | — | — |
 
 ---
 

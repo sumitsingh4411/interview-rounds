@@ -1,24 +1,26 @@
 ---
 id: ust-2
 company: ust
-role: fullstack
-level: staff
-outcome: unknown
-year: 2023
+role: backend
+level: senior
+outcome: rejected
+year: 2025
 source: curated
-summary: A staff fullstack loop. Fundamentals mattered as much as getting to an answer.
+summary: >-
+  Campus-style senior backend interview. Aptitude screen first, then technical
+  fundamentals and HR.
 ---
-# Staff Full-stack — UST
+# Senior Backend — UST
 
-![role](https://img.shields.io/badge/role-Full--stack-a78bfa?style=flat-square)
-![level](https://img.shields.io/badge/level-Staff-818cf8?style=flat-square)
-![outcome](https://img.shields.io/badge/outcome-Unknown-6b7280?style=flat-square)
-![year](https://img.shields.io/badge/year-2023-6b7280?style=flat-square)
+![role](https://img.shields.io/badge/role-Backend-8b93ff?style=flat-square)
+![level](https://img.shields.io/badge/level-Senior-818cf8?style=flat-square)
+![outcome](https://img.shields.io/badge/outcome-Rejected-f87171?style=flat-square)
+![year](https://img.shields.io/badge/year-2025-6b7280?style=flat-square)
 ![source](https://img.shields.io/badge/source-Commonly%20asked-2dd4bf?style=flat-square)
 
-> A staff fullstack loop. Fundamentals mattered as much as getting to an answer.
+> Campus-style senior backend interview. Aptitude screen first, then technical fundamentals and HR.
 
-**5 rounds · 9 questions**
+**4 rounds · 11 questions**
 
 ---
 
@@ -29,47 +31,41 @@ _Data structures & algorithms on a whiteboard or shared editor._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Implement a trie (prefix tree). | 🟡 Medium | `trie` | [LC](https://leetcode.com/problems/implement-trie-prefix-tree/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Implement%20a%20trie%20(prefix%20tree)) |
-| Minimum window substring. | 🔴 Hard | `sliding-window` `string` | [LC](https://leetcode.com/problems/minimum-window-substring/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Minimum%20window%20substring) |
-| Number of islands in a 2D grid. | 🟡 Medium | `bfs` `dfs` `grid` | [LC](https://leetcode.com/problems/number-of-islands/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Number%20of%20islands%20in%20a%202D%20grid) |
+| Count the frequency of each character in a string. | 🟢 Easy | `string` | [GfG](https://www.geeksforgeeks.org/search/?gq=Count%20the%20frequency%20of%20each%20character%20in%20a%20string) · [Search](https://www.google.com/search?q=Count%20the%20frequency%20of%20each%20character%20in%20a%20string) |
+| Count vowels, consonants and words in a string. | 🟢 Easy | `string` | [GfG](https://www.geeksforgeeks.org/search/?gq=Count%20vowels%2C%20consonants%20and%20words%20in%20a%20string) · [Search](https://www.google.com/search?q=Count%20vowels%2C%20consonants%20and%20words%20in%20a%20string) |
 
-## Round 2 · System Design
-<!-- round: system_design -->
+## Round 2 · Tech Deep-Dive
+<!-- round: tech_deep_dive -->
 
-_High-level architecture of a large-scale system._
-
-| Question | Difficulty | Tags | Practice |
-| --- | --- | --- | --- |
-| Design a search indexing pipeline (crawl to index to serve). | 🔴 Hard | `indexing` `pipeline` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20search%20indexing%20pipeline%20(crawl%20to%20index%20to%20serve)) · [Search](https://www.google.com/search?q=Design%20a%20search%20indexing%20pipeline%20(crawl%20to%20index%20to%20serve)) |
-| Design an offline-capable web app with sync. | 🔴 Hard | `frontend` `offline` `sync` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20an%20offline-capable%20web%20app%20with%20sync) · [Search](https://www.google.com/search?q=Design%20an%20offline-capable%20web%20app%20with%20sync) |
-
-## Round 3 · Low-Level Design
-<!-- round: lld -->
-
-_Object-oriented / low-level design of a focused module._
+_Deep questions on your core stack and fundamentals._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Design an analytics event-tracking client. | 🟡 Medium | `oop` `observability` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20an%20analytics%20event-tracking%20client) · [Search](https://www.google.com/search?q=Design%20an%20analytics%20event-tracking%20client) |
+| Explain the ACID properties of a transaction. | 🟡 Medium | `dbms` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20the%20ACID%20properties%20of%20a%20transaction) · [Search](https://www.google.com/search?q=Explain%20the%20ACID%20properties%20of%20a%20transaction) |
+| Explain exception handling with try, catch and finally. | 🟢 Easy | `java` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20exception%20handling%20with%20try%2C%20catch%20and%20finally) · [Search](https://www.google.com/search?q=Explain%20exception%20handling%20with%20try%2C%20catch%20and%20finally) |
+| Write a SQL query to find the second-highest salary. | 🟡 Medium | `sql` | [GfG](https://www.geeksforgeeks.org/search/?gq=Write%20a%20SQL%20query%20to%20find%20the%20second-highest%20salary) · [Search](https://www.google.com/search?q=Write%20a%20SQL%20query%20to%20find%20the%20second-highest%20salary) |
+| Explain primary key, foreign key, unique key and candidate key. | 🟢 Easy | `dbms` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20primary%20key%2C%20foreign%20key%2C%20unique%20key%20and%20candidate%20key) · [Search](https://www.google.com/search?q=Explain%20primary%20key%2C%20foreign%20key%2C%20unique%20key%20and%20candidate%20key) |
 
-## Round 4 · Hiring Manager
+## Round 3 · Hiring Manager
 <!-- round: hiring_manager -->
 
 _Scope, ownership, and role-fit discussion with the manager._
 
 | Question | Difficulty | Tags |
 | --- | --- | --- |
-| How do you give difficult feedback to a peer? | — | `leadership` |
+| How do you estimate the effort for a module assigned to you? | — | — |
+| Which technology stack are you most comfortable with, and why? | — | — |
 
-## Round 5 · Behavioral / HR
+## Round 4 · Behavioral / HR
 <!-- round: behavioral -->
 
 _Values, collaboration, and past-experience (STAR) questions._
 
 | Question | Difficulty | Tags |
 | --- | --- | --- |
-| How do you get up to speed on an unfamiliar codebase? | — | `learning` |
-| Describe a goal you set and how you achieved it. | — | `ownership` `star` |
+| Tell me about your final-year project. | — | — |
+| Are you willing to relocate anywhere in India? | — | — |
+| What do you know about our company and the services we provide? | — | — |
 
 ---
 

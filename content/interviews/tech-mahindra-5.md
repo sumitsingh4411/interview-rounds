@@ -2,86 +2,71 @@
 id: tech-mahindra-5
 company: tech-mahindra
 role: frontend
-level: senior
-outcome: offer
-year: 2024
+level: junior
+outcome: rejected
+year: 2023
 source: curated
-summary: Senior frontend interview. Fast-paced; expect follow-ups that push on depth.
+summary: >-
+  Campus-style junior frontend interview. Screening test, technical round, then
+  a managerial and HR conversation.
 ---
-# Senior Frontend — Tech Mahindra
+# Junior Frontend — Tech Mahindra
 
 ![role](https://img.shields.io/badge/role-Frontend-22d3ee?style=flat-square)
-![level](https://img.shields.io/badge/level-Senior-818cf8?style=flat-square)
-![outcome](https://img.shields.io/badge/outcome-Offer-34d399?style=flat-square)
-![year](https://img.shields.io/badge/year-2024-6b7280?style=flat-square)
+![level](https://img.shields.io/badge/level-Junior-818cf8?style=flat-square)
+![outcome](https://img.shields.io/badge/outcome-Rejected-f87171?style=flat-square)
+![year](https://img.shields.io/badge/year-2023-6b7280?style=flat-square)
 ![source](https://img.shields.io/badge/source-Commonly%20asked-2dd4bf?style=flat-square)
 
-> Senior frontend interview. Fast-paced; expect follow-ups that push on depth.
+> Campus-style junior frontend interview. Screening test, technical round, then a managerial and HR conversation.
 
-**6 rounds · 13 questions**
+**4 rounds · 12 questions**
 
 ---
 
-## Round 1 · DSA / Coding
+## Round 1 · Online Assessment
+<!-- round: oa -->
+
+_Timed online coding / aptitude screen, usually the first filter._
+
+| Question | Difficulty | Tags | Practice |
+| --- | --- | --- | --- |
+| Email writing / essay writing task. | 🟢 Easy | `verbal` | [GfG](https://www.geeksforgeeks.org/search/?gq=Email%20writing%20%2F%20essay%20writing%20task) · [Search](https://www.google.com/search?q=Email%20writing%20%2F%20essay%20writing%20task) |
+| Logical reasoning: blood relations and seating arrangement. | 🟡 Medium | `reasoning` | [GfG](https://www.geeksforgeeks.org/search/?gq=Logical%20reasoning%3A%20blood%20relations%20and%20seating%20arrangement) · [Search](https://www.google.com/search?q=Logical%20reasoning%3A%20blood%20relations%20and%20seating%20arrangement) |
+| Verbal ability: reading comprehension passage. | 🟢 Easy | `verbal` | [GfG](https://www.geeksforgeeks.org/search/?gq=Verbal%20ability%3A%20reading%20comprehension%20passage) · [Search](https://www.google.com/search?q=Verbal%20ability%3A%20reading%20comprehension%20passage) |
+
+## Round 2 · DSA / Coding
 <!-- round: dsa -->
 
 _Data structures & algorithms on a whiteboard or shared editor._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Jump game. | 🟡 Medium | `greedy` `dp` | [LC](https://leetcode.com/problems/jump-game/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Jump%20game) |
-| Daily temperatures. | 🟡 Medium | `stack` `monotonic-stack` | [LC](https://leetcode.com/problems/daily-temperatures/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Daily%20temperatures) |
-| Binary tree level order traversal. | 🟡 Medium | `tree` `bfs` | [LC](https://leetcode.com/problems/binary-tree-level-order-traversal/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Binary%20tree%20level%20order%20traversal) |
+| Remove duplicates from an array without using extra space. | 🟡 Medium | `array` | [GfG](https://www.geeksforgeeks.org/search/?gq=Remove%20duplicates%20from%20an%20array%20without%20using%20extra%20space) · [Search](https://www.google.com/search?q=Remove%20duplicates%20from%20an%20array%20without%20using%20extra%20space) |
+| Print a star / pyramid pattern for n rows. | 🟢 Easy | `patterns` | [GfG](https://www.geeksforgeeks.org/search/?gq=Print%20a%20star%20%2F%20pyramid%20pattern%20for%20n%20rows) · [Search](https://www.google.com/search?q=Print%20a%20star%20%2F%20pyramid%20pattern%20for%20n%20rows) |
 
-## Round 2 · Machine Coding
-<!-- round: machine_coding -->
-
-_Build a working component or service under time pressure._
-
-| Question | Difficulty | Tags | Practice |
-| --- | --- | --- | --- |
-| Build a carousel/image slider. | 🟡 Medium | `react` `ui` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20a%20carousel%2Fimage%20slider) · [Search](https://www.google.com/search?q=Build%20a%20carousel%2Fimage%20slider) |
-| Build an image carousel with autoplay and swipe. | 🟡 Medium | `react` `ui` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20an%20image%20carousel%20with%20autoplay%20and%20swipe) · [Search](https://www.google.com/search?q=Build%20an%20image%20carousel%20with%20autoplay%20and%20swipe) |
-
-## Round 3 · System Design
-<!-- round: system_design -->
-
-_High-level architecture of a large-scale system._
-
-| Question | Difficulty | Tags | Practice |
-| --- | --- | --- | --- |
-| Design a web crawler. | 🔴 Hard | `queues` `dedup` `scale` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20web%20crawler) · [Search](https://www.google.com/search?q=Design%20a%20web%20crawler) |
-| Design an accessible internationalized form system. | 🟡 Medium | `frontend` `a11y` `i18n` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20an%20accessible%20internationalized%20form%20system) · [Search](https://www.google.com/search?q=Design%20an%20accessible%20internationalized%20form%20system) |
-
-## Round 4 · Tech Deep-Dive
+## Round 3 · Tech Deep-Dive
 <!-- round: tech_deep_dive -->
 
 _Deep questions on your core stack and fundamentals._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Difference between controlled and uncontrolled inputs. | 🟢 Easy | `react` `forms` | [GfG](https://www.geeksforgeeks.org/search/?gq=Difference%20between%20controlled%20and%20uncontrolled%20inputs) · [Search](https://www.google.com/search?q=Difference%20between%20controlled%20and%20uncontrolled%20inputs) |
-| How does React batching and the render phase work? | 🔴 Hard | `react` | [GfG](https://www.geeksforgeeks.org/search/?gq=How%20does%20React%20batching%20and%20the%20render%20phase%20work) · [Search](https://www.google.com/search?q=How%20does%20React%20batching%20and%20the%20render%20phase%20work) |
-| What is the difference between var, let and const? | 🟢 Easy | `javascript` | [GfG](https://www.geeksforgeeks.org/search/?gq=What%20is%20the%20difference%20between%20var%2C%20let%20and%20const) · [Search](https://www.google.com/search?q=What%20is%20the%20difference%20between%20var%2C%20let%20and%20const) |
+| Difference between a structure and a union in C. | 🟢 Easy | `c` | [GfG](https://www.geeksforgeeks.org/search/?gq=Difference%20between%20a%20structure%20and%20a%20union%20in%20C) · [Search](https://www.google.com/search?q=Difference%20between%20a%20structure%20and%20a%20union%20in%20C) |
+| Difference between a process and a thread. | 🟢 Easy | `os` | [GfG](https://www.geeksforgeeks.org/search/?gq=Difference%20between%20a%20process%20and%20a%20thread) · [Search](https://www.google.com/search?q=Difference%20between%20a%20process%20and%20a%20thread) |
+| Explain the layers of the OSI model. | 🟢 Easy | `networking` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20the%20layers%20of%20the%20OSI%20model) · [Search](https://www.google.com/search?q=Explain%20the%20layers%20of%20the%20OSI%20model) |
+| What happens when you type a URL into a browser? | 🟡 Medium | `networking` | [GfG](https://www.geeksforgeeks.org/search/?gq=What%20happens%20when%20you%20type%20a%20URL%20into%20a%20browser) · [Search](https://www.google.com/search?q=What%20happens%20when%20you%20type%20a%20URL%20into%20a%20browser) |
 
-## Round 5 · Hiring Manager
-<!-- round: hiring_manager -->
-
-_Scope, ownership, and role-fit discussion with the manager._
-
-| Question | Difficulty | Tags |
-| --- | --- | --- |
-| What does a great engineering culture look like to you? | — | `values` |
-
-## Round 6 · Behavioral / HR
+## Round 4 · Behavioral / HR
 <!-- round: behavioral -->
 
 _Values, collaboration, and past-experience (STAR) questions._
 
 | Question | Difficulty | Tags |
 | --- | --- | --- |
-| Describe a goal you set and how you achieved it. | — | `ownership` `star` |
-| How do you handle being blocked for several days? | — | `ownership` `star` |
+| Are you comfortable signing the service agreement / bond? | — | — |
+| Why should we hire you? | — | — |
+| How do you handle pressure and tight deadlines? | — | — |
 
 ---
 

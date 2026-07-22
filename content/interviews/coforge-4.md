@@ -1,67 +1,71 @@
 ---
 id: coforge-4
 company: coforge
-role: fullstack
+role: backend
 level: mid
-outcome: no_offer
-year: 2023
+outcome: offer
+year: 2024
 source: curated
-summary: 'A mid fullstack loop. Balanced across coding, design, and collaboration.'
+summary: >-
+  5-round mid backend process. Screening test, technical round, then a
+  managerial and HR conversation.
 ---
-# Mid Full-stack — Coforge
+# Mid Backend — Coforge
 
-![role](https://img.shields.io/badge/role-Full--stack-a78bfa?style=flat-square)
+![role](https://img.shields.io/badge/role-Backend-8b93ff?style=flat-square)
 ![level](https://img.shields.io/badge/level-Mid-818cf8?style=flat-square)
-![outcome](https://img.shields.io/badge/outcome-No%20offer-f87171?style=flat-square)
-![year](https://img.shields.io/badge/year-2023-6b7280?style=flat-square)
+![outcome](https://img.shields.io/badge/outcome-Offer-34d399?style=flat-square)
+![year](https://img.shields.io/badge/year-2024-6b7280?style=flat-square)
 ![source](https://img.shields.io/badge/source-Commonly%20asked-2dd4bf?style=flat-square)
 
-> A mid fullstack loop. Balanced across coding, design, and collaboration.
+> 5-round mid backend process. Screening test, technical round, then a managerial and HR conversation.
 
-**5 rounds · 11 questions**
+**5 rounds · 14 questions**
 
 ---
 
-## Round 1 · DSA / Coding
+## Round 1 · Online Assessment
+<!-- round: oa -->
+
+_Timed online coding / aptitude screen, usually the first filter._
+
+| Question | Difficulty | Tags | Practice |
+| --- | --- | --- | --- |
+| Quantitative aptitude: simple and compound interest. | 🟢 Easy | `aptitude` | [GfG](https://www.geeksforgeeks.org/search/?gq=Quantitative%20aptitude%3A%20simple%20and%20compound%20interest) · [Search](https://www.google.com/search?q=Quantitative%20aptitude%3A%20simple%20and%20compound%20interest) |
+| Quantitative aptitude: time, speed and distance problems. | 🟢 Easy | `aptitude` | [GfG](https://www.geeksforgeeks.org/search/?gq=Quantitative%20aptitude%3A%20time%2C%20speed%20and%20distance%20problems) · [Search](https://www.google.com/search?q=Quantitative%20aptitude%3A%20time%2C%20speed%20and%20distance%20problems) |
+| Logical reasoning: data interpretation from charts and tables. | 🟡 Medium | `reasoning` | [GfG](https://www.geeksforgeeks.org/search/?gq=Logical%20reasoning%3A%20data%20interpretation%20from%20charts%20and%20tables) · [Search](https://www.google.com/search?q=Logical%20reasoning%3A%20data%20interpretation%20from%20charts%20and%20tables) |
+
+## Round 2 · DSA / Coding
 <!-- round: dsa -->
 
 _Data structures & algorithms on a whiteboard or shared editor._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Maximum depth of a binary tree. | 🟢 Easy | `tree` `dfs` | [LC](https://leetcode.com/problems/maximum-depth-of-binary-tree/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Maximum%20depth%20of%20a%20binary%20tree) |
-| Top K frequent elements. | 🟡 Medium | `heap` `hashmap` | [LC](https://leetcode.com/problems/top-k-frequent-elements/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Top%20K%20frequent%20elements) |
-| Pow(x, n). | 🟡 Medium | `math` `recursion` | [LC](https://leetcode.com/problems/powx-n/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Pow(x%2C%20n)) |
+| Remove duplicates from an array without using extra space. | 🟡 Medium | `array` | [GfG](https://www.geeksforgeeks.org/search/?gq=Remove%20duplicates%20from%20an%20array%20without%20using%20extra%20space) · [Search](https://www.google.com/search?q=Remove%20duplicates%20from%20an%20array%20without%20using%20extra%20space) |
+| Remove duplicate characters from a string. | 🟢 Easy | `string` | [GfG](https://www.geeksforgeeks.org/search/?gq=Remove%20duplicate%20characters%20from%20a%20string) · [Search](https://www.google.com/search?q=Remove%20duplicate%20characters%20from%20a%20string) |
 
-## Round 2 · Machine Coding
-<!-- round: machine_coding -->
-
-_Build a working component or service under time pressure._
-
-| Question | Difficulty | Tags | Practice |
-| --- | --- | --- | --- |
-| Build an image carousel with autoplay and swipe. | 🟡 Medium | `react` `ui` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20an%20image%20carousel%20with%20autoplay%20and%20swipe) · [Search](https://www.google.com/search?q=Build%20an%20image%20carousel%20with%20autoplay%20and%20swipe) |
-| Build a stopwatch with lap times. | 🟢 Easy | `react` `state` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20a%20stopwatch%20with%20lap%20times) · [Search](https://www.google.com/search?q=Build%20a%20stopwatch%20with%20lap%20times) |
-
-## Round 3 · Low-Level Design
-<!-- round: lld -->
-
-_Object-oriented / low-level design of a focused module._
-
-| Question | Difficulty | Tags | Practice |
-| --- | --- | --- | --- |
-| Design a client-side event bus / pub-sub. | 🟡 Medium | `pub-sub` `oop` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20client-side%20event%20bus%20%2F%20pub-sub) · [Search](https://www.google.com/search?q=Design%20a%20client-side%20event%20bus%20%2F%20pub-sub) |
-
-## Round 4 · Tech Deep-Dive
+## Round 3 · Tech Deep-Dive
 <!-- round: tech_deep_dive -->
 
 _Deep questions on your core stack and fundamentals._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| How do CSS specificity and the cascade resolve conflicts? | 🟡 Medium | `css` | [GfG](https://www.geeksforgeeks.org/search/?gq=How%20do%20CSS%20specificity%20and%20the%20cascade%20resolve%20conflicts) · [Search](https://www.google.com/search?q=How%20do%20CSS%20specificity%20and%20the%20cascade%20resolve%20conflicts) |
-| Explain memoization: useMemo, useCallback and React.memo. | 🟡 Medium | `react` `perf` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20memoization%3A%20useMemo%2C%20useCallback%20and%20React.memo) · [Search](https://www.google.com/search?q=Explain%20memoization%3A%20useMemo%2C%20useCallback%20and%20React.memo) |
-| How does HTTPS/TLS establish a secure connection? | 🟡 Medium | `networking` `security` | [GfG](https://www.geeksforgeeks.org/search/?gq=How%20does%20HTTPS%2FTLS%20establish%20a%20secure%20connection) · [Search](https://www.google.com/search?q=How%20does%20HTTPS%2FTLS%20establish%20a%20secure%20connection) |
+| Explain CPU scheduling algorithms: FCFS, SJF and round robin. | 🟡 Medium | `os` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20CPU%20scheduling%20algorithms%3A%20FCFS%2C%20SJF%20and%20round%20robin) · [Search](https://www.google.com/search?q=Explain%20CPU%20scheduling%20algorithms%3A%20FCFS%2C%20SJF%20and%20round%20robin) |
+| Difference between a structure and a union in C. | 🟢 Easy | `c` | [GfG](https://www.geeksforgeeks.org/search/?gq=Difference%20between%20a%20structure%20and%20a%20union%20in%20C) · [Search](https://www.google.com/search?q=Difference%20between%20a%20structure%20and%20a%20union%20in%20C) |
+| Explain the static and final keywords in Java. | 🟢 Easy | `java` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20the%20static%20and%20final%20keywords%20in%20Java) · [Search](https://www.google.com/search?q=Explain%20the%20static%20and%20final%20keywords%20in%20Java) |
+| What is a constructor? Explain constructor overloading. | 🟢 Easy | `oops` | [GfG](https://www.geeksforgeeks.org/search/?gq=What%20is%20a%20constructor%3F%20Explain%20constructor%20overloading) · [Search](https://www.google.com/search?q=What%20is%20a%20constructor%3F%20Explain%20constructor%20overloading) |
+
+## Round 4 · Hiring Manager
+<!-- round: hiring_manager -->
+
+_Scope, ownership, and role-fit discussion with the manager._
+
+| Question | Difficulty | Tags |
+| --- | --- | --- |
+| Describe your experience working with an onsite / offshore team. | — | — |
+| How do you ensure code quality under a tight delivery timeline? | — | — |
 
 ## Round 5 · Behavioral / HR
 <!-- round: behavioral -->
@@ -70,8 +74,9 @@ _Values, collaboration, and past-experience (STAR) questions._
 
 | Question | Difficulty | Tags |
 | --- | --- | --- |
-| Tell me about the most impactful project of your career. | — | `impact` `star` |
-| Tell me about a time you had to learn something quickly. | — | `learning` `star` |
+| Are you willing to relocate anywhere in India? | — | — |
+| Are you comfortable working in rotational or night shifts? | — | — |
+| What are your interests outside academics? | — | — |
 
 ---
 

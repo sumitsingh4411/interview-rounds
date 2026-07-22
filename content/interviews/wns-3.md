@@ -1,56 +1,61 @@
 ---
 id: wns-3
 company: wns
-role: backend
-level: staff
-outcome: offer
+role: fullstack
+level: mid
+outcome: rejected
 year: 2024
 source: curated
-summary: 'A staff backend loop. Coding-heavy early, design and behavioral later.'
+summary: >-
+  Campus-style mid fullstack interview. Fundamentals over puzzles — OOP, DBMS
+  and SQL carried the most weight.
 ---
-# Staff Backend — WNS
+# Mid Full-stack — WNS
 
-![role](https://img.shields.io/badge/role-Backend-8b93ff?style=flat-square)
-![level](https://img.shields.io/badge/level-Staff-818cf8?style=flat-square)
-![outcome](https://img.shields.io/badge/outcome-Offer-34d399?style=flat-square)
+![role](https://img.shields.io/badge/role-Full--stack-a78bfa?style=flat-square)
+![level](https://img.shields.io/badge/level-Mid-818cf8?style=flat-square)
+![outcome](https://img.shields.io/badge/outcome-Rejected-f87171?style=flat-square)
 ![year](https://img.shields.io/badge/year-2024-6b7280?style=flat-square)
 ![source](https://img.shields.io/badge/source-Commonly%20asked-2dd4bf?style=flat-square)
 
-> A staff backend loop. Coding-heavy early, design and behavioral later.
+> Campus-style mid fullstack interview. Fundamentals over puzzles — OOP, DBMS and SQL carried the most weight.
 
-**5 rounds · 9 questions**
+**5 rounds · 14 questions**
 
 ---
 
-## Round 1 · DSA / Coding
+## Round 1 · Online Assessment
+<!-- round: oa -->
+
+_Timed online coding / aptitude screen, usually the first filter._
+
+| Question | Difficulty | Tags | Practice |
+| --- | --- | --- | --- |
+| Pseudocode: predict the output of the given code block. | 🟡 Medium | `pseudocode` | [GfG](https://www.geeksforgeeks.org/search/?gq=Pseudocode%3A%20predict%20the%20output%20of%20the%20given%20code%20block) · [Search](https://www.google.com/search?q=Pseudocode%3A%20predict%20the%20output%20of%20the%20given%20code%20block) |
+| Verbal ability: error spotting and sentence correction. | 🟢 Easy | `verbal` | [GfG](https://www.geeksforgeeks.org/search/?gq=Verbal%20ability%3A%20error%20spotting%20and%20sentence%20correction) · [Search](https://www.google.com/search?q=Verbal%20ability%3A%20error%20spotting%20and%20sentence%20correction) |
+| Quantitative aptitude: permutations, combinations and probability. | 🟡 Medium | `aptitude` | [GfG](https://www.geeksforgeeks.org/search/?gq=Quantitative%20aptitude%3A%20permutations%2C%20combinations%20and%20probability) · [Search](https://www.google.com/search?q=Quantitative%20aptitude%3A%20permutations%2C%20combinations%20and%20probability) |
+
+## Round 2 · DSA / Coding
 <!-- round: dsa -->
 
 _Data structures & algorithms on a whiteboard or shared editor._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Rotting oranges. | 🟡 Medium | `bfs` `grid` | [LC](https://leetcode.com/problems/rotting-oranges/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Rotting%20oranges) |
-| Largest rectangle in histogram. | 🔴 Hard | `stack` `monotonic-stack` | [LC](https://leetcode.com/problems/largest-rectangle-in-histogram/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Largest%20rectangle%20in%20histogram) |
-| Best time to buy and sell stock. | 🟢 Easy | `array` `greedy` | [LC](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Best%20time%20to%20buy%20and%20sell%20stock) |
+| Swap two numbers without using a temporary variable. | 🟢 Easy | `math` | [GfG](https://www.geeksforgeeks.org/search/?gq=Swap%20two%20numbers%20without%20using%20a%20temporary%20variable) · [Search](https://www.google.com/search?q=Swap%20two%20numbers%20without%20using%20a%20temporary%20variable) |
+| Remove duplicates from an array without using extra space. | 🟡 Medium | `array` | [GfG](https://www.geeksforgeeks.org/search/?gq=Remove%20duplicates%20from%20an%20array%20without%20using%20extra%20space) · [Search](https://www.google.com/search?q=Remove%20duplicates%20from%20an%20array%20without%20using%20extra%20space) |
 
-## Round 2 · System Design
-<!-- round: system_design -->
+## Round 3 · Tech Deep-Dive
+<!-- round: tech_deep_dive -->
 
-_High-level architecture of a large-scale system._
-
-| Question | Difficulty | Tags | Practice |
-| --- | --- | --- | --- |
-| Design an online code judge / evaluator. | 🔴 Hard | `sandboxing` `queues` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20an%20online%20code%20judge%20%2F%20evaluator) · [Search](https://www.google.com/search?q=Design%20an%20online%20code%20judge%20%2F%20evaluator) |
-| Design a payment processing + idempotency system. | 🔴 Hard | `idempotency` `consistency` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20payment%20processing%20%2B%20idempotency%20system) · [Search](https://www.google.com/search?q=Design%20a%20payment%20processing%20%2B%20idempotency%20system) |
-
-## Round 3 · Low-Level Design
-<!-- round: lld -->
-
-_Object-oriented / low-level design of a focused module._
+_Deep questions on your core stack and fundamentals._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Design classes for a parking lot. | 🟡 Medium | `oop` `design-patterns` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20classes%20for%20a%20parking%20lot) · [Search](https://www.google.com/search?q=Design%20classes%20for%20a%20parking%20lot) |
+| What is polymorphism? Compile-time vs runtime. | 🟢 Easy | `oops` | [GfG](https://www.geeksforgeeks.org/search/?gq=What%20is%20polymorphism%3F%20Compile-time%20vs%20runtime) · [Search](https://www.google.com/search?q=What%20is%20polymorphism%3F%20Compile-time%20vs%20runtime) |
+| What is a deadlock and how do you prevent it? | 🟡 Medium | `os` | [GfG](https://www.geeksforgeeks.org/search/?gq=What%20is%20a%20deadlock%20and%20how%20do%20you%20prevent%20it) · [Search](https://www.google.com/search?q=What%20is%20a%20deadlock%20and%20how%20do%20you%20prevent%20it) |
+| Explain the layers of the OSI model. | 🟢 Easy | `networking` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20the%20layers%20of%20the%20OSI%20model) · [Search](https://www.google.com/search?q=Explain%20the%20layers%20of%20the%20OSI%20model) |
+| Difference between abstraction and encapsulation. | 🟢 Easy | `oops` | [GfG](https://www.geeksforgeeks.org/search/?gq=Difference%20between%20abstraction%20and%20encapsulation) · [Search](https://www.google.com/search?q=Difference%20between%20abstraction%20and%20encapsulation) |
 
 ## Round 4 · Hiring Manager
 <!-- round: hiring_manager -->
@@ -59,7 +64,8 @@ _Scope, ownership, and role-fit discussion with the manager._
 
 | Question | Difficulty | Tags |
 | --- | --- | --- |
-| How do you balance tech debt against feature work? | — | `prioritization` |
+| How do you estimate the effort for a module assigned to you? | — | — |
+| Walk me through your project and your exact contribution to it. | — | — |
 
 ## Round 5 · Behavioral / HR
 <!-- round: behavioral -->
@@ -68,8 +74,9 @@ _Values, collaboration, and past-experience (STAR) questions._
 
 | Question | Difficulty | Tags |
 | --- | --- | --- |
-| Describe working with an ambiguous or shifting requirement. | — | `ambiguity` `star` |
-| Tell me about a time you had to say no to a stakeholder. | — | `influence` `star` |
+| Tell me about your final-year project. | — | — |
+| Are you comfortable signing the service agreement / bond? | — | — |
+| Tell me about yourself. | — | — |
 
 ---
 

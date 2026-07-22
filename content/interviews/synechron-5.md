@@ -1,89 +1,72 @@
 ---
 id: synechron-5
 company: synechron
-role: frontend
-level: senior
+role: backend
+level: junior
 outcome: no_offer
-year: 2025
+year: 2023
 source: curated
 summary: >-
-  A senior frontend loop. Pragmatic questions — more real-world than pure
-  puzzles.
+  A junior backend hiring drive. Breadth of fundamentals mattered more than
+  algorithmic depth.
 ---
-# Senior Frontend — Synechron
+# Junior Backend — Synechron
 
-![role](https://img.shields.io/badge/role-Frontend-22d3ee?style=flat-square)
-![level](https://img.shields.io/badge/level-Senior-818cf8?style=flat-square)
+![role](https://img.shields.io/badge/role-Backend-8b93ff?style=flat-square)
+![level](https://img.shields.io/badge/level-Junior-818cf8?style=flat-square)
 ![outcome](https://img.shields.io/badge/outcome-No%20offer-f87171?style=flat-square)
-![year](https://img.shields.io/badge/year-2025-6b7280?style=flat-square)
+![year](https://img.shields.io/badge/year-2023-6b7280?style=flat-square)
 ![source](https://img.shields.io/badge/source-Commonly%20asked-2dd4bf?style=flat-square)
 
-> A senior frontend loop. Pragmatic questions — more real-world than pure puzzles.
+> A junior backend hiring drive. Breadth of fundamentals mattered more than algorithmic depth.
 
-**6 rounds · 13 questions**
+**4 rounds · 12 questions**
 
 ---
 
-## Round 1 · DSA / Coding
+## Round 1 · Online Assessment
+<!-- round: oa -->
+
+_Timed online coding / aptitude screen, usually the first filter._
+
+| Question | Difficulty | Tags | Practice |
+| --- | --- | --- | --- |
+| Quantitative aptitude: permutations, combinations and probability. | 🟡 Medium | `aptitude` | [GfG](https://www.geeksforgeeks.org/search/?gq=Quantitative%20aptitude%3A%20permutations%2C%20combinations%20and%20probability) · [Search](https://www.google.com/search?q=Quantitative%20aptitude%3A%20permutations%2C%20combinations%20and%20probability) |
+| Quantitative aptitude: time and work problems. | 🟢 Easy | `aptitude` | [GfG](https://www.geeksforgeeks.org/search/?gq=Quantitative%20aptitude%3A%20time%20and%20work%20problems) · [Search](https://www.google.com/search?q=Quantitative%20aptitude%3A%20time%20and%20work%20problems) |
+| Logical reasoning: data interpretation from charts and tables. | 🟡 Medium | `reasoning` | [GfG](https://www.geeksforgeeks.org/search/?gq=Logical%20reasoning%3A%20data%20interpretation%20from%20charts%20and%20tables) · [Search](https://www.google.com/search?q=Logical%20reasoning%3A%20data%20interpretation%20from%20charts%20and%20tables) |
+
+## Round 2 · DSA / Coding
 <!-- round: dsa -->
 
 _Data structures & algorithms on a whiteboard or shared editor._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Maximum subarray (Kadane). | 🟡 Medium | `array` `dp` | [LC](https://leetcode.com/problems/maximum-subarray/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Maximum%20subarray%20(Kadane)) |
-| Subtree of another tree. | 🟢 Easy | `tree` `dfs` | [LC](https://leetcode.com/problems/subtree-of-another-tree/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Subtree%20of%20another%20tree) |
-| Construct binary tree from preorder and inorder traversal. | 🟡 Medium | `tree` `recursion` | [LC](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Construct%20binary%20tree%20from%20preorder%20and%20inorder%20traversal) |
+| Check whether two strings are anagrams. | 🟢 Easy | `string` | [GfG](https://www.geeksforgeeks.org/search/?gq=Check%20whether%20two%20strings%20are%20anagrams) · [Search](https://www.google.com/search?q=Check%20whether%20two%20strings%20are%20anagrams) |
+| Find the factorial of a number using recursion. | 🟢 Easy | `recursion` | [GfG](https://www.geeksforgeeks.org/search/?gq=Find%20the%20factorial%20of%20a%20number%20using%20recursion) · [Search](https://www.google.com/search?q=Find%20the%20factorial%20of%20a%20number%20using%20recursion) |
 
-## Round 2 · Machine Coding
-<!-- round: machine_coding -->
-
-_Build a working component or service under time pressure._
-
-| Question | Difficulty | Tags | Practice |
-| --- | --- | --- | --- |
-| Build a toast / notification queue. | 🟡 Medium | `react` `state` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20a%20toast%20%2F%20notification%20queue) · [Search](https://www.google.com/search?q=Build%20a%20toast%20%2F%20notification%20queue) |
-| Build an accessible accordion with single/multi open. | 🟡 Medium | `react` `a11y` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20an%20accessible%20accordion%20with%20single%2Fmulti%20open) · [Search](https://www.google.com/search?q=Build%20an%20accessible%20accordion%20with%20single%2Fmulti%20open) |
-
-## Round 3 · System Design
-<!-- round: system_design -->
-
-_High-level architecture of a large-scale system._
-
-| Question | Difficulty | Tags | Practice |
-| --- | --- | --- | --- |
-| Design an image-heavy gallery with lazy loading and a CDN. | 🟡 Medium | `frontend` `perf` `cdn` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20an%20image-heavy%20gallery%20with%20lazy%20loading%20and%20a%20CDN) · [Search](https://www.google.com/search?q=Design%20an%20image-heavy%20gallery%20with%20lazy%20loading%20and%20a%20CDN) |
-| Design an online code judge / evaluator. | 🔴 Hard | `sandboxing` `queues` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20an%20online%20code%20judge%20%2F%20evaluator) · [Search](https://www.google.com/search?q=Design%20an%20online%20code%20judge%20%2F%20evaluator) |
-
-## Round 4 · Tech Deep-Dive
+## Round 3 · Tech Deep-Dive
 <!-- round: tech_deep_dive -->
 
 _Deep questions on your core stack and fundamentals._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| What causes layout thrashing and how do you avoid it? | 🔴 Hard | `perf` `dom` | [GfG](https://www.geeksforgeeks.org/search/?gq=What%20causes%20layout%20thrashing%20and%20how%20do%20you%20avoid%20it) · [Search](https://www.google.com/search?q=What%20causes%20layout%20thrashing%20and%20how%20do%20you%20avoid%20it) |
-| Accessibility: how do you make a custom widget usable? | 🟡 Medium | `a11y` | [GfG](https://www.geeksforgeeks.org/search/?gq=Accessibility%3A%20how%20do%20you%20make%20a%20custom%20widget%20usable) · [Search](https://www.google.com/search?q=Accessibility%3A%20how%20do%20you%20make%20a%20custom%20widget%20usable) |
-| Explain WeakMap/WeakSet and when to use them. | 🟡 Medium | `javascript` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20WeakMap%2FWeakSet%20and%20when%20to%20use%20them) · [Search](https://www.google.com/search?q=Explain%20WeakMap%2FWeakSet%20and%20when%20to%20use%20them) |
+| Explain Java collections: List, Set and Map. | 🟡 Medium | `java` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20Java%20collections%3A%20List%2C%20Set%20and%20Map) · [Search](https://www.google.com/search?q=Explain%20Java%20collections%3A%20List%2C%20Set%20and%20Map) |
+| Explain inheritance and its types. | 🟢 Easy | `oops` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20inheritance%20and%20its%20types) · [Search](https://www.google.com/search?q=Explain%20inheritance%20and%20its%20types) |
+| Difference between stack and heap memory. | 🟢 Easy | `fundamentals` | [GfG](https://www.geeksforgeeks.org/search/?gq=Difference%20between%20stack%20and%20heap%20memory) · [Search](https://www.google.com/search?q=Difference%20between%20stack%20and%20heap%20memory) |
+| Explain database normalization and its normal forms. | 🟡 Medium | `dbms` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20database%20normalization%20and%20its%20normal%20forms) · [Search](https://www.google.com/search?q=Explain%20database%20normalization%20and%20its%20normal%20forms) |
 
-## Round 5 · Hiring Manager
-<!-- round: hiring_manager -->
-
-_Scope, ownership, and role-fit discussion with the manager._
-
-| Question | Difficulty | Tags |
-| --- | --- | --- |
-| How do you decide when a project is done enough to ship? | — | `delivery` `judgment` |
-
-## Round 6 · Behavioral / HR
+## Round 4 · Behavioral / HR
 <!-- round: behavioral -->
 
 _Values, collaboration, and past-experience (STAR) questions._
 
 | Question | Difficulty | Tags |
 | --- | --- | --- |
-| Describe a time you improved a process or tool for your team. | — | `ownership` `star` |
-| Tell me about a time you led without a title. | — | `leadership` `star` |
+| What are your interests outside academics? | — | — |
+| Are you willing to relocate anywhere in India? | — | — |
+| Are you comfortable working in rotational or night shifts? | — | — |
 
 ---
 

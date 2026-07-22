@@ -1,87 +1,72 @@
 ---
 id: ust-5
 company: ust
-role: fullstack
-level: senior
-outcome: withdrew
-year: 2023
+role: backend
+level: intern
+outcome: no_offer
+year: 2024
 source: curated
-summary: 'Senior fullstack interview. Coding-heavy early, design and behavioral later.'
+summary: >-
+  4-round intern backend process. Aptitude screen first, then technical
+  fundamentals and HR.
 ---
-# Senior Full-stack — UST
+# Intern Backend — UST
 
-![role](https://img.shields.io/badge/role-Full--stack-a78bfa?style=flat-square)
-![level](https://img.shields.io/badge/level-Senior-818cf8?style=flat-square)
-![outcome](https://img.shields.io/badge/outcome-Withdrew-fbbf24?style=flat-square)
-![year](https://img.shields.io/badge/year-2023-6b7280?style=flat-square)
+![role](https://img.shields.io/badge/role-Backend-8b93ff?style=flat-square)
+![level](https://img.shields.io/badge/level-Intern-818cf8?style=flat-square)
+![outcome](https://img.shields.io/badge/outcome-No%20offer-f87171?style=flat-square)
+![year](https://img.shields.io/badge/year-2024-6b7280?style=flat-square)
 ![source](https://img.shields.io/badge/source-Commonly%20asked-2dd4bf?style=flat-square)
 
-> Senior fullstack interview. Coding-heavy early, design and behavioral later.
+> 4-round intern backend process. Aptitude screen first, then technical fundamentals and HR.
 
-**6 rounds · 13 questions**
+**4 rounds · 12 questions**
 
 ---
 
-## Round 1 · DSA / Coding
+## Round 1 · Online Assessment
+<!-- round: oa -->
+
+_Timed online coding / aptitude screen, usually the first filter._
+
+| Question | Difficulty | Tags | Practice |
+| --- | --- | --- | --- |
+| Pseudocode: spot the error in the given snippet. | 🟡 Medium | `pseudocode` | [GfG](https://www.geeksforgeeks.org/search/?gq=Pseudocode%3A%20spot%20the%20error%20in%20the%20given%20snippet) · [Search](https://www.google.com/search?q=Pseudocode%3A%20spot%20the%20error%20in%20the%20given%20snippet) |
+| Pseudocode: predict the output of the given code block. | 🟡 Medium | `pseudocode` | [GfG](https://www.geeksforgeeks.org/search/?gq=Pseudocode%3A%20predict%20the%20output%20of%20the%20given%20code%20block) · [Search](https://www.google.com/search?q=Pseudocode%3A%20predict%20the%20output%20of%20the%20given%20code%20block) |
+| Logical reasoning: data interpretation from charts and tables. | 🟡 Medium | `reasoning` | [GfG](https://www.geeksforgeeks.org/search/?gq=Logical%20reasoning%3A%20data%20interpretation%20from%20charts%20and%20tables) · [Search](https://www.google.com/search?q=Logical%20reasoning%3A%20data%20interpretation%20from%20charts%20and%20tables) |
+
+## Round 2 · DSA / Coding
 <!-- round: dsa -->
 
 _Data structures & algorithms on a whiteboard or shared editor._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Pacific Atlantic water flow. | 🟡 Medium | `dfs` `grid` | [LC](https://leetcode.com/problems/pacific-atlantic-water-flow/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Pacific%20Atlantic%20water%20flow) |
-| Same tree. | 🟢 Easy | `tree` | [LC](https://leetcode.com/problems/same-tree/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Same%20tree) |
-| Kth smallest element in a BST. | 🟡 Medium | `tree` `bst` | [LC](https://leetcode.com/problems/kth-smallest-element-in-a-bst/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Kth%20smallest%20element%20in%20a%20BST) |
+| Swap two numbers without using a temporary variable. | 🟢 Easy | `math` | [GfG](https://www.geeksforgeeks.org/search/?gq=Swap%20two%20numbers%20without%20using%20a%20temporary%20variable) · [Search](https://www.google.com/search?q=Swap%20two%20numbers%20without%20using%20a%20temporary%20variable) |
+| Print a star / pyramid pattern for n rows. | 🟢 Easy | `patterns` | [GfG](https://www.geeksforgeeks.org/search/?gq=Print%20a%20star%20%2F%20pyramid%20pattern%20for%20n%20rows) · [Search](https://www.google.com/search?q=Print%20a%20star%20%2F%20pyramid%20pattern%20for%20n%20rows) |
 
-## Round 2 · Machine Coding
-<!-- round: machine_coding -->
-
-_Build a working component or service under time pressure._
-
-| Question | Difficulty | Tags | Practice |
-| --- | --- | --- | --- |
-| Build an accessible accordion with single/multi open. | 🟡 Medium | `react` `a11y` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20an%20accessible%20accordion%20with%20single%2Fmulti%20open) · [Search](https://www.google.com/search?q=Build%20an%20accessible%20accordion%20with%20single%2Fmulti%20open) |
-| Build an infinite-scrolling list with virtualization. | 🔴 Hard | `react` `virtualization` `perf` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20an%20infinite-scrolling%20list%20with%20virtualization) · [Search](https://www.google.com/search?q=Build%20an%20infinite-scrolling%20list%20with%20virtualization) |
-
-## Round 3 · System Design
-<!-- round: system_design -->
-
-_High-level architecture of a large-scale system._
-
-| Question | Difficulty | Tags | Practice |
-| --- | --- | --- | --- |
-| Design a content delivery network (CDN). | 🔴 Hard | `cdn` `cache` `edge` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20content%20delivery%20network%20(CDN)) · [Search](https://www.google.com/search?q=Design%20a%20content%20delivery%20network%20(CDN)) |
-| Design a notification system (push/email/SMS). | 🟡 Medium | `queues` `fanout` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20notification%20system%20(push%2Femail%2FSMS)) · [Search](https://www.google.com/search?q=Design%20a%20notification%20system%20(push%2Femail%2FSMS)) |
-
-## Round 4 · Tech Deep-Dive
+## Round 3 · Tech Deep-Dive
 <!-- round: tech_deep_dive -->
 
 _Deep questions on your core stack and fundamentals._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| What are React keys and why do they matter? | 🟢 Easy | `react` | [GfG](https://www.geeksforgeeks.org/search/?gq=What%20are%20React%20keys%20and%20why%20do%20they%20matter) · [Search](https://www.google.com/search?q=What%20are%20React%20keys%20and%20why%20do%20they%20matter) |
-| What is the virtual DOM and why does it help? | 🟡 Medium | `react` | [GfG](https://www.geeksforgeeks.org/search/?gq=What%20is%20the%20virtual%20DOM%20and%20why%20does%20it%20help) · [Search](https://www.google.com/search?q=What%20is%20the%20virtual%20DOM%20and%20why%20does%20it%20help) |
-| Explain `useEffect` dependencies and common pitfalls. | 🟡 Medium | `react` `hooks` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20%60useEffect%60%20dependencies%20and%20common%20pitfalls) · [Search](https://www.google.com/search?q=Explain%20%60useEffect%60%20dependencies%20and%20common%20pitfalls) |
+| Explain CPU scheduling algorithms: FCFS, SJF and round robin. | 🟡 Medium | `os` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20CPU%20scheduling%20algorithms%3A%20FCFS%2C%20SJF%20and%20round%20robin) · [Search](https://www.google.com/search?q=Explain%20CPU%20scheduling%20algorithms%3A%20FCFS%2C%20SJF%20and%20round%20robin) |
+| What is a deadlock and how do you prevent it? | 🟡 Medium | `os` | [GfG](https://www.geeksforgeeks.org/search/?gq=What%20is%20a%20deadlock%20and%20how%20do%20you%20prevent%20it) · [Search](https://www.google.com/search?q=What%20is%20a%20deadlock%20and%20how%20do%20you%20prevent%20it) |
+| What are the JDK, JRE and JVM? | 🟢 Easy | `java` | [GfG](https://www.geeksforgeeks.org/search/?gq=What%20are%20the%20JDK%2C%20JRE%20and%20JVM) · [Search](https://www.google.com/search?q=What%20are%20the%20JDK%2C%20JRE%20and%20JVM) |
+| Difference between an abstract class and an interface. | 🟡 Medium | `oops` | [GfG](https://www.geeksforgeeks.org/search/?gq=Difference%20between%20an%20abstract%20class%20and%20an%20interface) · [Search](https://www.google.com/search?q=Difference%20between%20an%20abstract%20class%20and%20an%20interface) |
 
-## Round 5 · Hiring Manager
-<!-- round: hiring_manager -->
-
-_Scope, ownership, and role-fit discussion with the manager._
-
-| Question | Difficulty | Tags |
-| --- | --- | --- |
-| How do you keep a team unblocked and shipping? | — | `leadership` |
-
-## Round 6 · Behavioral / HR
+## Round 4 · Behavioral / HR
 <!-- round: behavioral -->
 
 _Values, collaboration, and past-experience (STAR) questions._
 
 | Question | Difficulty | Tags |
 | --- | --- | --- |
-| When did you have to make a decision with incomplete data? | — | `judgment` `star` |
-| Tell me about the hardest bug you have debugged. | — | `debugging` `star` |
+| Why should we hire you? | — | — |
+| What are your strengths and weaknesses? | — | — |
+| Are you comfortable working in rotational or night shifts? | — | — |
 
 ---
 

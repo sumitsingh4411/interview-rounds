@@ -1,75 +1,72 @@
 ---
 id: tata-elxsi-1
 company: tata-elxsi
-role: frontend
-level: staff
-outcome: rejected
+role: fullstack
+level: junior
+outcome: offer
 year: 2024
 source: curated
-summary: 'A staff frontend loop. Coding-heavy early, design and behavioral later.'
+summary: >-
+  A junior fullstack hiring drive. Fundamentals over puzzles — OOP, DBMS and SQL
+  carried the most weight.
 ---
-# Staff Frontend — Tata Elxsi
+# Junior Full-stack — Tata Elxsi
 
-![role](https://img.shields.io/badge/role-Frontend-22d3ee?style=flat-square)
-![level](https://img.shields.io/badge/level-Staff-818cf8?style=flat-square)
-![outcome](https://img.shields.io/badge/outcome-Rejected-f87171?style=flat-square)
+![role](https://img.shields.io/badge/role-Full--stack-a78bfa?style=flat-square)
+![level](https://img.shields.io/badge/level-Junior-818cf8?style=flat-square)
+![outcome](https://img.shields.io/badge/outcome-Offer-34d399?style=flat-square)
 ![year](https://img.shields.io/badge/year-2024-6b7280?style=flat-square)
 ![source](https://img.shields.io/badge/source-Commonly%20asked-2dd4bf?style=flat-square)
 
-> A staff frontend loop. Coding-heavy early, design and behavioral later.
+> A junior fullstack hiring drive. Fundamentals over puzzles — OOP, DBMS and SQL carried the most weight.
 
-**5 rounds · 9 questions**
+**4 rounds · 12 questions**
 
 ---
 
-## Round 1 · DSA / Coding
+## Round 1 · Online Assessment
+<!-- round: oa -->
+
+_Timed online coding / aptitude screen, usually the first filter._
+
+| Question | Difficulty | Tags | Practice |
+| --- | --- | --- | --- |
+| Quantitative aptitude: simple and compound interest. | 🟢 Easy | `aptitude` | [GfG](https://www.geeksforgeeks.org/search/?gq=Quantitative%20aptitude%3A%20simple%20and%20compound%20interest) · [Search](https://www.google.com/search?q=Quantitative%20aptitude%3A%20simple%20and%20compound%20interest) |
+| Logical reasoning: blood relations and seating arrangement. | 🟡 Medium | `reasoning` | [GfG](https://www.geeksforgeeks.org/search/?gq=Logical%20reasoning%3A%20blood%20relations%20and%20seating%20arrangement) · [Search](https://www.google.com/search?q=Logical%20reasoning%3A%20blood%20relations%20and%20seating%20arrangement) |
+| Email writing / essay writing task. | 🟢 Easy | `verbal` | [GfG](https://www.geeksforgeeks.org/search/?gq=Email%20writing%20%2F%20essay%20writing%20task) · [Search](https://www.google.com/search?q=Email%20writing%20%2F%20essay%20writing%20task) |
+
+## Round 2 · DSA / Coding
 <!-- round: dsa -->
 
 _Data structures & algorithms on a whiteboard or shared editor._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Maximum depth of a binary tree. | 🟢 Easy | `tree` `dfs` | [LC](https://leetcode.com/problems/maximum-depth-of-binary-tree/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Maximum%20depth%20of%20a%20binary%20tree) |
-| Binary tree level order traversal. | 🟡 Medium | `tree` `bfs` | [LC](https://leetcode.com/problems/binary-tree-level-order-traversal/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Binary%20tree%20level%20order%20traversal) |
-| Sliding window maximum. | 🔴 Hard | `deque` `sliding-window` | [LC](https://leetcode.com/problems/sliding-window-maximum/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Sliding%20window%20maximum) |
+| Check whether a number is prime. | 🟢 Easy | `math` | [GfG](https://www.geeksforgeeks.org/search/?gq=Check%20whether%20a%20number%20is%20prime) · [Search](https://www.google.com/search?q=Check%20whether%20a%20number%20is%20prime) |
+| Implement binary search on a sorted array. | 🟢 Easy | `searching` | [GfG](https://www.geeksforgeeks.org/search/?gq=Implement%20binary%20search%20on%20a%20sorted%20array) · [Search](https://www.google.com/search?q=Implement%20binary%20search%20on%20a%20sorted%20array) |
 
-## Round 2 · System Design
-<!-- round: system_design -->
+## Round 3 · Tech Deep-Dive
+<!-- round: tech_deep_dive -->
 
-_High-level architecture of a large-scale system._
-
-| Question | Difficulty | Tags | Practice |
-| --- | --- | --- | --- |
-| Design a large dashboard with many live widgets. | 🔴 Hard | `frontend` `realtime` `perf` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20large%20dashboard%20with%20many%20live%20widgets) · [Search](https://www.google.com/search?q=Design%20a%20large%20dashboard%20with%20many%20live%20widgets) |
-| Design a ticket booking system (inventory + concurrency). | 🔴 Hard | `concurrency` `transactions` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20ticket%20booking%20system%20(inventory%20%2B%20concurrency)) · [Search](https://www.google.com/search?q=Design%20a%20ticket%20booking%20system%20(inventory%20%2B%20concurrency)) |
-
-## Round 3 · Low-Level Design
-<!-- round: lld -->
-
-_Object-oriented / low-level design of a focused module._
+_Deep questions on your core stack and fundamentals._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Design a client-side event bus / pub-sub. | 🟡 Medium | `pub-sub` `oop` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20client-side%20event%20bus%20%2F%20pub-sub) · [Search](https://www.google.com/search?q=Design%20a%20client-side%20event%20bus%20%2F%20pub-sub) |
+| Difference between C and C++. | 🟢 Easy | `c` | [GfG](https://www.geeksforgeeks.org/search/?gq=Difference%20between%20C%20and%20C%2B%2B) · [Search](https://www.google.com/search?q=Difference%20between%20C%20and%20C%2B%2B) |
+| What is a constructor? Explain constructor overloading. | 🟢 Easy | `oops` | [GfG](https://www.geeksforgeeks.org/search/?gq=What%20is%20a%20constructor%3F%20Explain%20constructor%20overloading) · [Search](https://www.google.com/search?q=What%20is%20a%20constructor%3F%20Explain%20constructor%20overloading) |
+| Explain your final-year project architecture and your role in it. | 🟢 Easy | `project` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20your%20final-year%20project%20architecture%20and%20your%20role%20in%20it) · [Search](https://www.google.com/search?q=Explain%20your%20final-year%20project%20architecture%20and%20your%20role%20in%20it) |
+| Difference between DBMS and RDBMS. | 🟢 Easy | `dbms` | [GfG](https://www.geeksforgeeks.org/search/?gq=Difference%20between%20DBMS%20and%20RDBMS) · [Search](https://www.google.com/search?q=Difference%20between%20DBMS%20and%20RDBMS) |
 
-## Round 4 · Hiring Manager
-<!-- round: hiring_manager -->
-
-_Scope, ownership, and role-fit discussion with the manager._
-
-| Question | Difficulty | Tags |
-| --- | --- | --- |
-| How do you set technical direction for a team? | — | `leadership` `strategy` |
-
-## Round 5 · Behavioral / HR
+## Round 4 · Behavioral / HR
 <!-- round: behavioral -->
 
 _Values, collaboration, and past-experience (STAR) questions._
 
 | Question | Difficulty | Tags |
 | --- | --- | --- |
-| Tell me about a time you disagreed and committed. | — | `teamwork` `star` |
-| Describe a time you had to deliver bad news. | — | `communication` `star` |
+| Tell me about your final-year project. | — | — |
+| What are your strengths and weaknesses? | — | — |
+| Why do you want to join our company? | — | — |
 
 ---
 

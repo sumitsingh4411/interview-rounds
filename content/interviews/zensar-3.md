@@ -7,8 +7,8 @@ outcome: offer
 year: 2024
 source: curated
 summary: >-
-  5-round junior backend process. Fundamentals mattered as much as getting to an
-  answer.
+  Campus-style junior backend interview. Aptitude screen first, then technical
+  fundamentals and HR.
 ---
 # Junior Backend — Zensar
 
@@ -18,9 +18,9 @@ summary: >-
 ![year](https://img.shields.io/badge/year-2024-6b7280?style=flat-square)
 ![source](https://img.shields.io/badge/source-Commonly%20asked-2dd4bf?style=flat-square)
 
-> 5-round junior backend process. Fundamentals mattered as much as getting to an answer.
+> Campus-style junior backend interview. Aptitude screen first, then technical fundamentals and HR.
 
-**5 rounds · 11 questions**
+**4 rounds · 12 questions**
 
 ---
 
@@ -31,7 +31,9 @@ _Timed online coding / aptitude screen, usually the first filter._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Move zeroes to the end in place. | 🟢 Easy | `two-pointers` | [LC](https://leetcode.com/problems/move-zeroes/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Move%20zeroes%20to%20the%20end%20in%20place) |
+| Logical reasoning: blood relations and seating arrangement. | 🟡 Medium | `reasoning` | [GfG](https://www.geeksforgeeks.org/search/?gq=Logical%20reasoning%3A%20blood%20relations%20and%20seating%20arrangement) · [Search](https://www.google.com/search?q=Logical%20reasoning%3A%20blood%20relations%20and%20seating%20arrangement) |
+| Pseudocode: predict the output of the given code block. | 🟡 Medium | `pseudocode` | [GfG](https://www.geeksforgeeks.org/search/?gq=Pseudocode%3A%20predict%20the%20output%20of%20the%20given%20code%20block) · [Search](https://www.google.com/search?q=Pseudocode%3A%20predict%20the%20output%20of%20the%20given%20code%20block) |
+| Quantitative aptitude: permutations, combinations and probability. | 🟡 Medium | `aptitude` | [GfG](https://www.geeksforgeeks.org/search/?gq=Quantitative%20aptitude%3A%20permutations%2C%20combinations%20and%20probability) · [Search](https://www.google.com/search?q=Quantitative%20aptitude%3A%20permutations%2C%20combinations%20and%20probability) |
 
 ## Round 2 · DSA / Coding
 <!-- round: dsa -->
@@ -40,40 +42,31 @@ _Data structures & algorithms on a whiteboard or shared editor._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Regular expression matching. | 🔴 Hard | `dp` `string` | [LC](https://leetcode.com/problems/regular-expression-matching/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Regular%20expression%20matching) |
-| Pow(x, n). | 🟡 Medium | `math` `recursion` | [LC](https://leetcode.com/problems/powx-n/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Pow(x%2C%20n)) |
-| Subtree of another tree. | 🟢 Easy | `tree` `dfs` | [LC](https://leetcode.com/problems/subtree-of-another-tree/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Subtree%20of%20another%20tree) |
+| Sort an array using bubble sort and state its complexity. | 🟢 Easy | `sorting` | [GfG](https://www.geeksforgeeks.org/search/?gq=Sort%20an%20array%20using%20bubble%20sort%20and%20state%20its%20complexity) · [Search](https://www.google.com/search?q=Sort%20an%20array%20using%20bubble%20sort%20and%20state%20its%20complexity) |
+| Print the Fibonacci series up to n terms. | 🟢 Easy | `math` | [GfG](https://www.geeksforgeeks.org/search/?gq=Print%20the%20Fibonacci%20series%20up%20to%20n%20terms) · [Search](https://www.google.com/search?q=Print%20the%20Fibonacci%20series%20up%20to%20n%20terms) |
 
-## Round 3 · Machine Coding
-<!-- round: machine_coding -->
-
-_Build a working component or service under time pressure._
-
-| Question | Difficulty | Tags | Practice |
-| --- | --- | --- | --- |
-| Build a key-value store with TTL expiry. | 🟡 Medium | `cache` `ttl` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20a%20key-value%20store%20with%20TTL%20expiry) · [Search](https://www.google.com/search?q=Build%20a%20key-value%20store%20with%20TTL%20expiry) |
-| Implement cursor-based pagination over a sorted dataset. | 🟡 Medium | `pagination` `api` | [GfG](https://www.geeksforgeeks.org/search/?gq=Implement%20cursor-based%20pagination%20over%20a%20sorted%20dataset) · [Search](https://www.google.com/search?q=Implement%20cursor-based%20pagination%20over%20a%20sorted%20dataset) |
-
-## Round 4 · Tech Deep-Dive
+## Round 3 · Tech Deep-Dive
 <!-- round: tech_deep_dive -->
 
 _Deep questions on your core stack and fundamentals._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| How does a write-ahead log guarantee durability? | 🔴 Hard | `databases` | [GfG](https://www.geeksforgeeks.org/search/?gq=How%20does%20a%20write-ahead%20log%20guarantee%20durability) · [Search](https://www.google.com/search?q=How%20does%20a%20write-ahead%20log%20guarantee%20durability) |
-| Explain optimistic vs pessimistic locking. | 🔴 Hard | `databases` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20optimistic%20vs%20pessimistic%20locking) · [Search](https://www.google.com/search?q=Explain%20optimistic%20vs%20pessimistic%20locking) |
-| How do circuit breakers and bulkheads improve resilience? | 🟡 Medium | `reliability` | [GfG](https://www.geeksforgeeks.org/search/?gq=How%20do%20circuit%20breakers%20and%20bulkheads%20improve%20resilience) · [Search](https://www.google.com/search?q=How%20do%20circuit%20breakers%20and%20bulkheads%20improve%20resilience) |
+| Explain the time complexity of common sorting algorithms. | 🟡 Medium | `data-structures` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20the%20time%20complexity%20of%20common%20sorting%20algorithms) · [Search](https://www.google.com/search?q=Explain%20the%20time%20complexity%20of%20common%20sorting%20algorithms) |
+| Explain the ACID properties of a transaction. | 🟡 Medium | `dbms` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20the%20ACID%20properties%20of%20a%20transaction) · [Search](https://www.google.com/search?q=Explain%20the%20ACID%20properties%20of%20a%20transaction) |
+| What is a constructor? Explain constructor overloading. | 🟢 Easy | `oops` | [GfG](https://www.geeksforgeeks.org/search/?gq=What%20is%20a%20constructor%3F%20Explain%20constructor%20overloading) · [Search](https://www.google.com/search?q=What%20is%20a%20constructor%3F%20Explain%20constructor%20overloading) |
+| Explain inheritance and its types. | 🟢 Easy | `oops` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20inheritance%20and%20its%20types) · [Search](https://www.google.com/search?q=Explain%20inheritance%20and%20its%20types) |
 
-## Round 5 · Behavioral / HR
+## Round 4 · Behavioral / HR
 <!-- round: behavioral -->
 
 _Values, collaboration, and past-experience (STAR) questions._
 
 | Question | Difficulty | Tags |
 | --- | --- | --- |
-| Tell me about a project you are most proud of. | — | `star` |
-| Why this company, and why this role? | — | `motivation` |
+| Why do you want to join our company? | — | — |
+| How do you handle pressure and tight deadlines? | — | — |
+| Tell me about your final-year project. | — | — |
 
 ---
 

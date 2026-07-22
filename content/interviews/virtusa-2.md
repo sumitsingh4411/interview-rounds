@@ -1,26 +1,26 @@
 ---
 id: virtusa-2
 company: virtusa
-role: fullstack
-level: junior
-outcome: no_offer
-year: 2023
+role: backend
+level: mid
+outcome: rejected
+year: 2025
 source: curated
 summary: >-
-  Junior fullstack interview. Pragmatic questions — more real-world than pure
-  puzzles.
+  Campus-style mid backend interview. Breadth of fundamentals mattered more than
+  algorithmic depth.
 ---
-# Junior Full-stack — Virtusa
+# Mid Backend — Virtusa
 
-![role](https://img.shields.io/badge/role-Full--stack-a78bfa?style=flat-square)
-![level](https://img.shields.io/badge/level-Junior-818cf8?style=flat-square)
-![outcome](https://img.shields.io/badge/outcome-No%20offer-f87171?style=flat-square)
-![year](https://img.shields.io/badge/year-2023-6b7280?style=flat-square)
+![role](https://img.shields.io/badge/role-Backend-8b93ff?style=flat-square)
+![level](https://img.shields.io/badge/level-Mid-818cf8?style=flat-square)
+![outcome](https://img.shields.io/badge/outcome-Rejected-f87171?style=flat-square)
+![year](https://img.shields.io/badge/year-2025-6b7280?style=flat-square)
 ![source](https://img.shields.io/badge/source-Commonly%20asked-2dd4bf?style=flat-square)
 
-> Junior fullstack interview. Pragmatic questions — more real-world than pure puzzles.
+> Campus-style mid backend interview. Breadth of fundamentals mattered more than algorithmic depth.
 
-**5 rounds · 11 questions**
+**5 rounds · 14 questions**
 
 ---
 
@@ -31,7 +31,9 @@ _Timed online coding / aptitude screen, usually the first filter._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Merge overlapping meeting intervals from a calendar. | 🟡 Medium | `intervals` `sorting` | [GfG](https://www.geeksforgeeks.org/search/?gq=Merge%20overlapping%20meeting%20intervals%20from%20a%20calendar) · [Search](https://www.google.com/search?q=Merge%20overlapping%20meeting%20intervals%20from%20a%20calendar) |
+| Logical reasoning: blood relations and seating arrangement. | 🟡 Medium | `reasoning` | [GfG](https://www.geeksforgeeks.org/search/?gq=Logical%20reasoning%3A%20blood%20relations%20and%20seating%20arrangement) · [Search](https://www.google.com/search?q=Logical%20reasoning%3A%20blood%20relations%20and%20seating%20arrangement) |
+| Quantitative aptitude: ratio, proportion and averages. | 🟢 Easy | `aptitude` | [GfG](https://www.geeksforgeeks.org/search/?gq=Quantitative%20aptitude%3A%20ratio%2C%20proportion%20and%20averages) · [Search](https://www.google.com/search?q=Quantitative%20aptitude%3A%20ratio%2C%20proportion%20and%20averages) |
+| Quantitative aptitude: permutations, combinations and probability. | 🟡 Medium | `aptitude` | [GfG](https://www.geeksforgeeks.org/search/?gq=Quantitative%20aptitude%3A%20permutations%2C%20combinations%20and%20probability) · [Search](https://www.google.com/search?q=Quantitative%20aptitude%3A%20permutations%2C%20combinations%20and%20probability) |
 
 ## Round 2 · DSA / Coding
 <!-- round: dsa -->
@@ -40,30 +42,30 @@ _Data structures & algorithms on a whiteboard or shared editor._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Rotate array. | 🟡 Medium | `array` | [LC](https://leetcode.com/problems/rotate-array/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Rotate%20array) |
-| Longest increasing subsequence. | 🔴 Hard | `dp` `binary-search` | [LC](https://leetcode.com/problems/longest-increasing-subsequence/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Longest%20increasing%20subsequence) |
-| Decode ways. | 🟡 Medium | `dp` `string` | [LC](https://leetcode.com/problems/decode-ways/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Decode%20ways) |
+| Implement binary search on a sorted array. | 🟢 Easy | `searching` | [GfG](https://www.geeksforgeeks.org/search/?gq=Implement%20binary%20search%20on%20a%20sorted%20array) · [Search](https://www.google.com/search?q=Implement%20binary%20search%20on%20a%20sorted%20array) |
+| Count vowels, consonants and words in a string. | 🟢 Easy | `string` | [GfG](https://www.geeksforgeeks.org/search/?gq=Count%20vowels%2C%20consonants%20and%20words%20in%20a%20string) · [Search](https://www.google.com/search?q=Count%20vowels%2C%20consonants%20and%20words%20in%20a%20string) |
 
-## Round 3 · Machine Coding
-<!-- round: machine_coding -->
-
-_Build a working component or service under time pressure._
-
-| Question | Difficulty | Tags | Practice |
-| --- | --- | --- | --- |
-| Implement a JSON config loader with env overrides. | 🟢 Easy | `config` | [GfG](https://www.geeksforgeeks.org/search/?gq=Implement%20a%20JSON%20config%20loader%20with%20env%20overrides) · [Search](https://www.google.com/search?q=Implement%20a%20JSON%20config%20loader%20with%20env%20overrides) |
-| Build a carousel/image slider. | 🟡 Medium | `react` `ui` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20a%20carousel%2Fimage%20slider) · [Search](https://www.google.com/search?q=Build%20a%20carousel%2Fimage%20slider) |
-
-## Round 4 · Tech Deep-Dive
+## Round 3 · Tech Deep-Dive
 <!-- round: tech_deep_dive -->
 
 _Deep questions on your core stack and fundamentals._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| How do you secure secrets and handle auth tokens? | 🟡 Medium | `security` | [GfG](https://www.geeksforgeeks.org/search/?gq=How%20do%20you%20secure%20secrets%20and%20handle%20auth%20tokens) · [Search](https://www.google.com/search?q=How%20do%20you%20secure%20secrets%20and%20handle%20auth%20tokens) |
-| Explain CORS and how a preflight request works. | 🟡 Medium | `browser` `security` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20CORS%20and%20how%20a%20preflight%20request%20works) · [Search](https://www.google.com/search?q=Explain%20CORS%20and%20how%20a%20preflight%20request%20works) |
-| Explain eventual consistency with a real example. | 🔴 Hard | `distributed` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20eventual%20consistency%20with%20a%20real%20example) · [Search](https://www.google.com/search?q=Explain%20eventual%20consistency%20with%20a%20real%20example) |
+| Explain virtual memory, paging and segmentation. | 🟡 Medium | `os` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20virtual%20memory%2C%20paging%20and%20segmentation) · [Search](https://www.google.com/search?q=Explain%20virtual%20memory%2C%20paging%20and%20segmentation) |
+| Explain inheritance and its types. | 🟢 Easy | `oops` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20inheritance%20and%20its%20types) · [Search](https://www.google.com/search?q=Explain%20inheritance%20and%20its%20types) |
+| Difference between a process and a thread. | 🟢 Easy | `os` | [GfG](https://www.geeksforgeeks.org/search/?gq=Difference%20between%20a%20process%20and%20a%20thread) · [Search](https://www.google.com/search?q=Difference%20between%20a%20process%20and%20a%20thread) |
+| Explain the time complexity of common sorting algorithms. | 🟡 Medium | `data-structures` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20the%20time%20complexity%20of%20common%20sorting%20algorithms) · [Search](https://www.google.com/search?q=Explain%20the%20time%20complexity%20of%20common%20sorting%20algorithms) |
+
+## Round 4 · Hiring Manager
+<!-- round: hiring_manager -->
+
+_Scope, ownership, and role-fit discussion with the manager._
+
+| Question | Difficulty | Tags |
+| --- | --- | --- |
+| What would you do if you disagreed with your project lead? | — | — |
+| Tell me about a production issue you helped resolve. | — | — |
 
 ## Round 5 · Behavioral / HR
 <!-- round: behavioral -->
@@ -72,8 +74,9 @@ _Values, collaboration, and past-experience (STAR) questions._
 
 | Question | Difficulty | Tags |
 | --- | --- | --- |
-| Tell me about a time you had to say no to a stakeholder. | — | `influence` `star` |
-| Tell me about a time you simplified something overly complex. | — | `judgment` `star` |
+| What are your interests outside academics? | — | — |
+| Where do you see yourself in five years? | — | — |
+| Tell me about your final-year project. | — | — |
 
 ---
 

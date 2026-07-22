@@ -1,26 +1,26 @@
 ---
 id: mphasis-4
 company: mphasis
-role: fullstack
-level: staff
-outcome: withdrew
+role: backend
+level: senior
+outcome: rejected
 year: 2023
 source: curated
 summary: >-
-  A staff fullstack loop. Pragmatic questions — more real-world than pure
-  puzzles.
+  4-round senior backend process. Screening test, technical round, then a
+  managerial and HR conversation.
 ---
-# Staff Full-stack — Mphasis
+# Senior Backend — Mphasis
 
-![role](https://img.shields.io/badge/role-Full--stack-a78bfa?style=flat-square)
-![level](https://img.shields.io/badge/level-Staff-818cf8?style=flat-square)
-![outcome](https://img.shields.io/badge/outcome-Withdrew-fbbf24?style=flat-square)
+![role](https://img.shields.io/badge/role-Backend-8b93ff?style=flat-square)
+![level](https://img.shields.io/badge/level-Senior-818cf8?style=flat-square)
+![outcome](https://img.shields.io/badge/outcome-Rejected-f87171?style=flat-square)
 ![year](https://img.shields.io/badge/year-2023-6b7280?style=flat-square)
 ![source](https://img.shields.io/badge/source-Commonly%20asked-2dd4bf?style=flat-square)
 
-> A staff fullstack loop. Pragmatic questions — more real-world than pure puzzles.
+> 4-round senior backend process. Screening test, technical round, then a managerial and HR conversation.
 
-**5 rounds · 9 questions**
+**4 rounds · 11 questions**
 
 ---
 
@@ -31,47 +31,41 @@ _Data structures & algorithms on a whiteboard or shared editor._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Insert interval. | 🟡 Medium | `intervals` | [LC](https://leetcode.com/problems/insert-interval/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Insert%20interval) |
-| Course Schedule — detect a cycle / topological sort. | 🟡 Medium | `graph` `topo-sort` | [LC](https://leetcode.com/problems/course-schedule/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Course%20Schedule%20%E2%80%94%20detect%20a%20cycle%20%2F%20topological%20sort) |
-| Combination sum. | 🟡 Medium | `backtracking` | [LC](https://leetcode.com/problems/combination-sum/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Combination%20sum) |
+| Reverse a linked list. | 🟡 Medium | `linked-list` | [LC](https://leetcode.com/problems/reverse-linked-list/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Reverse%20a%20linked%20list) |
+| Find the largest and smallest element in an array. | 🟢 Easy | `array` | [GfG](https://www.geeksforgeeks.org/search/?gq=Find%20the%20largest%20and%20smallest%20element%20in%20an%20array) · [Search](https://www.google.com/search?q=Find%20the%20largest%20and%20smallest%20element%20in%20an%20array) |
 
-## Round 2 · System Design
-<!-- round: system_design -->
+## Round 2 · Tech Deep-Dive
+<!-- round: tech_deep_dive -->
 
-_High-level architecture of a large-scale system._
-
-| Question | Difficulty | Tags | Practice |
-| --- | --- | --- | --- |
-| Design a URL shortener like TinyURL. | 🟡 Medium | `hashing` `cache` `sharding` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20URL%20shortener%20like%20TinyURL) · [Search](https://www.google.com/search?q=Design%20a%20URL%20shortener%20like%20TinyURL) |
-| Design a client-side error and telemetry pipeline. | 🟡 Medium | `frontend` `observability` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20client-side%20error%20and%20telemetry%20pipeline) · [Search](https://www.google.com/search?q=Design%20a%20client-side%20error%20and%20telemetry%20pipeline) |
-
-## Round 3 · Low-Level Design
-<!-- round: lld -->
-
-_Object-oriented / low-level design of a focused module._
+_Deep questions on your core stack and fundamentals._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Design a hotel-reservation system core. | 🟡 Medium | `oop` `concurrency` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20hotel-reservation%20system%20core) · [Search](https://www.google.com/search?q=Design%20a%20hotel-reservation%20system%20core) |
+| Difference between an abstract class and an interface. | 🟡 Medium | `oops` | [GfG](https://www.geeksforgeeks.org/search/?gq=Difference%20between%20an%20abstract%20class%20and%20an%20interface) · [Search](https://www.google.com/search?q=Difference%20between%20an%20abstract%20class%20and%20an%20interface) |
+| Explain inheritance and its types. | 🟢 Easy | `oops` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20inheritance%20and%20its%20types) · [Search](https://www.google.com/search?q=Explain%20inheritance%20and%20its%20types) |
+| Explain the layers of the OSI model. | 🟢 Easy | `networking` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20the%20layers%20of%20the%20OSI%20model) · [Search](https://www.google.com/search?q=Explain%20the%20layers%20of%20the%20OSI%20model) |
+| What is a deadlock and how do you prevent it? | 🟡 Medium | `os` | [GfG](https://www.geeksforgeeks.org/search/?gq=What%20is%20a%20deadlock%20and%20how%20do%20you%20prevent%20it) · [Search](https://www.google.com/search?q=What%20is%20a%20deadlock%20and%20how%20do%20you%20prevent%20it) |
 
-## Round 4 · Hiring Manager
+## Round 3 · Hiring Manager
 <!-- round: hiring_manager -->
 
 _Scope, ownership, and role-fit discussion with the manager._
 
 | Question | Difficulty | Tags |
 | --- | --- | --- |
-| Describe how you drove alignment across multiple teams. | — | `collaboration` `influence` |
+| How do you handle a client changing requirements mid-sprint? | — | — |
+| How would you approach understanding a client's legacy codebase? | — | — |
 
-## Round 5 · Behavioral / HR
+## Round 4 · Behavioral / HR
 <!-- round: behavioral -->
 
 _Values, collaboration, and past-experience (STAR) questions._
 
 | Question | Difficulty | Tags |
 | --- | --- | --- |
-| A time you made a mistake in production — what happened next? | — | `ownership` `star` |
-| When did you take ownership of something outside your scope? | — | `ownership` `star` |
+| Would you be comfortable working on any technology assigned to you? | — | — |
+| Are you comfortable working in rotational or night shifts? | — | — |
+| Do you have any backlogs or academic gaps? Please explain. | — | — |
 
 ---
 

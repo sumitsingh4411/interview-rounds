@@ -1,26 +1,26 @@
 ---
 id: deloitte-5
 company: deloitte
-role: fullstack
-level: junior
-outcome: offer
+role: backend
+level: mid
+outcome: rejected
 year: 2024
 source: curated
 summary: >-
-  5-round junior fullstack process. Coding-heavy early, design and behavioral
-  later.
+  Campus-style mid backend interview. Fundamentals over puzzles — OOP, DBMS and
+  SQL carried the most weight.
 ---
-# Junior Full-stack — Deloitte
+# Mid Backend — Deloitte
 
-![role](https://img.shields.io/badge/role-Full--stack-a78bfa?style=flat-square)
-![level](https://img.shields.io/badge/level-Junior-818cf8?style=flat-square)
-![outcome](https://img.shields.io/badge/outcome-Offer-34d399?style=flat-square)
+![role](https://img.shields.io/badge/role-Backend-8b93ff?style=flat-square)
+![level](https://img.shields.io/badge/level-Mid-818cf8?style=flat-square)
+![outcome](https://img.shields.io/badge/outcome-Rejected-f87171?style=flat-square)
 ![year](https://img.shields.io/badge/year-2024-6b7280?style=flat-square)
 ![source](https://img.shields.io/badge/source-Commonly%20asked-2dd4bf?style=flat-square)
 
-> 5-round junior fullstack process. Coding-heavy early, design and behavioral later.
+> Campus-style mid backend interview. Fundamentals over puzzles — OOP, DBMS and SQL carried the most weight.
 
-**5 rounds · 11 questions**
+**5 rounds · 14 questions**
 
 ---
 
@@ -31,7 +31,9 @@ _Timed online coding / aptitude screen, usually the first filter._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Count pairs with a given sum in an array. | 🟢 Easy | `hashmap` | [GfG](https://www.geeksforgeeks.org/search/?gq=Count%20pairs%20with%20a%20given%20sum%20in%20an%20array) · [Search](https://www.google.com/search?q=Count%20pairs%20with%20a%20given%20sum%20in%20an%20array) |
+| Quantitative aptitude: time, speed and distance problems. | 🟢 Easy | `aptitude` | [GfG](https://www.geeksforgeeks.org/search/?gq=Quantitative%20aptitude%3A%20time%2C%20speed%20and%20distance%20problems) · [Search](https://www.google.com/search?q=Quantitative%20aptitude%3A%20time%2C%20speed%20and%20distance%20problems) |
+| Logical reasoning: number and letter series completion. | 🟢 Easy | `reasoning` | [GfG](https://www.geeksforgeeks.org/search/?gq=Logical%20reasoning%3A%20number%20and%20letter%20series%20completion) · [Search](https://www.google.com/search?q=Logical%20reasoning%3A%20number%20and%20letter%20series%20completion) |
+| Pseudocode: predict the output of the given code block. | 🟡 Medium | `pseudocode` | [GfG](https://www.geeksforgeeks.org/search/?gq=Pseudocode%3A%20predict%20the%20output%20of%20the%20given%20code%20block) · [Search](https://www.google.com/search?q=Pseudocode%3A%20predict%20the%20output%20of%20the%20given%20code%20block) |
 
 ## Round 2 · DSA / Coding
 <!-- round: dsa -->
@@ -40,30 +42,30 @@ _Data structures & algorithms on a whiteboard or shared editor._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Contains duplicate. | 🟢 Easy | `array` `hashmap` | [LC](https://leetcode.com/problems/contains-duplicate/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Contains%20duplicate) |
-| Maximum product subarray. | 🟡 Medium | `array` `dp` | [LC](https://leetcode.com/problems/maximum-product-subarray/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Maximum%20product%20subarray) |
-| Coin change — fewest coins to make an amount. | 🟡 Medium | `dp` | [LC](https://leetcode.com/problems/coin-change/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Coin%20change%20%E2%80%94%20fewest%20coins%20to%20make%20an%20amount) |
+| Print a star / pyramid pattern for n rows. | 🟢 Easy | `patterns` | [GfG](https://www.geeksforgeeks.org/search/?gq=Print%20a%20star%20%2F%20pyramid%20pattern%20for%20n%20rows) · [Search](https://www.google.com/search?q=Print%20a%20star%20%2F%20pyramid%20pattern%20for%20n%20rows) |
+| Check whether two strings are anagrams. | 🟢 Easy | `string` | [GfG](https://www.geeksforgeeks.org/search/?gq=Check%20whether%20two%20strings%20are%20anagrams) · [Search](https://www.google.com/search?q=Check%20whether%20two%20strings%20are%20anagrams) |
 
-## Round 3 · Machine Coding
-<!-- round: machine_coding -->
-
-_Build a working component or service under time pressure._
-
-| Question | Difficulty | Tags | Practice |
-| --- | --- | --- | --- |
-| Build a debounced autocomplete/search box with keyboard nav. | 🟡 Medium | `react` `debounce` `a11y` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20a%20debounced%20autocomplete%2Fsearch%20box%20with%20keyboard%20nav) · [Search](https://www.google.com/search?q=Build%20a%20debounced%20autocomplete%2Fsearch%20box%20with%20keyboard%20nav) |
-| Build a kanban board with drag and drop. | 🔴 Hard | `react` `dnd` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20a%20kanban%20board%20with%20drag%20and%20drop) · [Search](https://www.google.com/search?q=Build%20a%20kanban%20board%20with%20drag%20and%20drop) |
-
-## Round 4 · Tech Deep-Dive
+## Round 3 · Tech Deep-Dive
 <!-- round: tech_deep_dive -->
 
 _Deep questions on your core stack and fundamentals._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| SQL vs NoSQL — how do you choose for a given workload? | 🟡 Medium | `databases` | [GfG](https://www.geeksforgeeks.org/search/?gq=SQL%20vs%20NoSQL%20%E2%80%94%20how%20do%20you%20choose%20for%20a%20given%20workload) · [Search](https://www.google.com/search?q=SQL%20vs%20NoSQL%20%E2%80%94%20how%20do%20you%20choose%20for%20a%20given%20workload) |
-| What is backpressure and how do you handle it? | 🔴 Hard | `streaming` `reliability` | [GfG](https://www.geeksforgeeks.org/search/?gq=What%20is%20backpressure%20and%20how%20do%20you%20handle%20it) · [Search](https://www.google.com/search?q=What%20is%20backpressure%20and%20how%20do%20you%20handle%20it) |
-| How does React batching and the render phase work? | 🔴 Hard | `react` | [GfG](https://www.geeksforgeeks.org/search/?gq=How%20does%20React%20batching%20and%20the%20render%20phase%20work) · [Search](https://www.google.com/search?q=How%20does%20React%20batching%20and%20the%20render%20phase%20work) |
+| What is a pointer? Explain pointer arithmetic in C. | 🟡 Medium | `c` | [GfG](https://www.geeksforgeeks.org/search/?gq=What%20is%20a%20pointer%3F%20Explain%20pointer%20arithmetic%20in%20C) · [Search](https://www.google.com/search?q=What%20is%20a%20pointer%3F%20Explain%20pointer%20arithmetic%20in%20C) |
+| Difference between C and C++. | 🟢 Easy | `c` | [GfG](https://www.geeksforgeeks.org/search/?gq=Difference%20between%20C%20and%20C%2B%2B) · [Search](https://www.google.com/search?q=Difference%20between%20C%20and%20C%2B%2B) |
+| Difference between an abstract class and an interface. | 🟡 Medium | `oops` | [GfG](https://www.geeksforgeeks.org/search/?gq=Difference%20between%20an%20abstract%20class%20and%20an%20interface) · [Search](https://www.google.com/search?q=Difference%20between%20an%20abstract%20class%20and%20an%20interface) |
+| Explain inheritance and its types. | 🟢 Easy | `oops` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20inheritance%20and%20its%20types) · [Search](https://www.google.com/search?q=Explain%20inheritance%20and%20its%20types) |
+
+## Round 4 · Hiring Manager
+<!-- round: hiring_manager -->
+
+_Scope, ownership, and role-fit discussion with the manager._
+
+| Question | Difficulty | Tags |
+| --- | --- | --- |
+| Which technology stack are you most comfortable with, and why? | — | — |
+| How do you approach learning a technology you have never used? | — | — |
 
 ## Round 5 · Behavioral / HR
 <!-- round: behavioral -->
@@ -72,8 +74,9 @@ _Values, collaboration, and past-experience (STAR) questions._
 
 | Question | Difficulty | Tags |
 | --- | --- | --- |
-| Describe mentoring or unblocking another engineer. | — | `mentorship` `star` |
-| How do you handle being blocked for several days? | — | `ownership` `star` |
+| Why did you choose this branch of engineering? | — | — |
+| What are your interests outside academics? | — | — |
+| Are you comfortable signing the service agreement / bond? | — | — |
 
 ---
 

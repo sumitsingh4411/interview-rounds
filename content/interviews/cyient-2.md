@@ -1,87 +1,72 @@
 ---
 id: cyient-2
 company: cyient
-role: backend
-level: senior
+role: frontend
+level: junior
 outcome: offer
-year: 2025
+year: 2023
 source: curated
-summary: 'A senior backend loop. Balanced across coding, design, and collaboration.'
+summary: >-
+  Campus-style junior frontend interview. Aptitude screen first, then technical
+  fundamentals and HR.
 ---
-# Senior Backend — Cyient
+# Junior Frontend — Cyient
 
-![role](https://img.shields.io/badge/role-Backend-8b93ff?style=flat-square)
-![level](https://img.shields.io/badge/level-Senior-818cf8?style=flat-square)
+![role](https://img.shields.io/badge/role-Frontend-22d3ee?style=flat-square)
+![level](https://img.shields.io/badge/level-Junior-818cf8?style=flat-square)
 ![outcome](https://img.shields.io/badge/outcome-Offer-34d399?style=flat-square)
-![year](https://img.shields.io/badge/year-2025-6b7280?style=flat-square)
+![year](https://img.shields.io/badge/year-2023-6b7280?style=flat-square)
 ![source](https://img.shields.io/badge/source-Commonly%20asked-2dd4bf?style=flat-square)
 
-> A senior backend loop. Balanced across coding, design, and collaboration.
+> Campus-style junior frontend interview. Aptitude screen first, then technical fundamentals and HR.
 
-**6 rounds · 13 questions**
+**4 rounds · 12 questions**
 
 ---
 
-## Round 1 · DSA / Coding
+## Round 1 · Online Assessment
+<!-- round: oa -->
+
+_Timed online coding / aptitude screen, usually the first filter._
+
+| Question | Difficulty | Tags | Practice |
+| --- | --- | --- | --- |
+| Quantitative aptitude: time and work problems. | 🟢 Easy | `aptitude` | [GfG](https://www.geeksforgeeks.org/search/?gq=Quantitative%20aptitude%3A%20time%20and%20work%20problems) · [Search](https://www.google.com/search?q=Quantitative%20aptitude%3A%20time%20and%20work%20problems) |
+| Quantitative aptitude: time, speed and distance problems. | 🟢 Easy | `aptitude` | [GfG](https://www.geeksforgeeks.org/search/?gq=Quantitative%20aptitude%3A%20time%2C%20speed%20and%20distance%20problems) · [Search](https://www.google.com/search?q=Quantitative%20aptitude%3A%20time%2C%20speed%20and%20distance%20problems) |
+| Verbal ability: error spotting and sentence correction. | 🟢 Easy | `verbal` | [GfG](https://www.geeksforgeeks.org/search/?gq=Verbal%20ability%3A%20error%20spotting%20and%20sentence%20correction) · [Search](https://www.google.com/search?q=Verbal%20ability%3A%20error%20spotting%20and%20sentence%20correction) |
+
+## Round 2 · DSA / Coding
 <!-- round: dsa -->
 
 _Data structures & algorithms on a whiteboard or shared editor._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Course Schedule — detect a cycle / topological sort. | 🟡 Medium | `graph` `topo-sort` | [LC](https://leetcode.com/problems/course-schedule/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Course%20Schedule%20%E2%80%94%20detect%20a%20cycle%20%2F%20topological%20sort) |
-| Maximum depth of a binary tree. | 🟢 Easy | `tree` `dfs` | [LC](https://leetcode.com/problems/maximum-depth-of-binary-tree/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Maximum%20depth%20of%20a%20binary%20tree) |
-| Construct binary tree from preorder and inorder traversal. | 🟡 Medium | `tree` `recursion` | [LC](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Construct%20binary%20tree%20from%20preorder%20and%20inorder%20traversal) |
+| Reverse a linked list. | 🟡 Medium | `linked-list` | [LC](https://leetcode.com/problems/reverse-linked-list/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Reverse%20a%20linked%20list) |
+| Print the Fibonacci series up to n terms. | 🟢 Easy | `math` | [GfG](https://www.geeksforgeeks.org/search/?gq=Print%20the%20Fibonacci%20series%20up%20to%20n%20terms) · [Search](https://www.google.com/search?q=Print%20the%20Fibonacci%20series%20up%20to%20n%20terms) |
 
-## Round 2 · Machine Coding
-<!-- round: machine_coding -->
-
-_Build a working component or service under time pressure._
-
-| Question | Difficulty | Tags | Practice |
-| --- | --- | --- | --- |
-| Parse and evaluate a simple expression/DSL. | 🟡 Medium | `parsing` | [GfG](https://www.geeksforgeeks.org/search/?gq=Parse%20and%20evaluate%20a%20simple%20expression%2FDSL) · [Search](https://www.google.com/search?q=Parse%20and%20evaluate%20a%20simple%20expression%2FDSL) |
-| Build a file-upload service with chunking and resume. | 🔴 Hard | `streaming` `storage` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20a%20file-upload%20service%20with%20chunking%20and%20resume) · [Search](https://www.google.com/search?q=Build%20a%20file-upload%20service%20with%20chunking%20and%20resume) |
-
-## Round 3 · System Design
-<!-- round: system_design -->
-
-_High-level architecture of a large-scale system._
-
-| Question | Difficulty | Tags | Practice |
-| --- | --- | --- | --- |
-| Design a news feed / timeline. | 🔴 Hard | `fanout` `ranking` `cache` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20news%20feed%20%2F%20timeline) · [Search](https://www.google.com/search?q=Design%20a%20news%20feed%20%2F%20timeline) |
-| Design a job scheduler / cron service. | 🟡 Medium | `queues` `scheduling` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20job%20scheduler%20%2F%20cron%20service) · [Search](https://www.google.com/search?q=Design%20a%20job%20scheduler%20%2F%20cron%20service) |
-
-## Round 4 · Tech Deep-Dive
+## Round 3 · Tech Deep-Dive
 <!-- round: tech_deep_dive -->
 
 _Deep questions on your core stack and fundamentals._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| ACID vs BASE and transaction isolation levels. | 🔴 Hard | `databases` `transactions` | [GfG](https://www.geeksforgeeks.org/search/?gq=ACID%20vs%20BASE%20and%20transaction%20isolation%20levels) · [Search](https://www.google.com/search?q=ACID%20vs%20BASE%20and%20transaction%20isolation%20levels) |
-| Explain eventual consistency with a real example. | 🔴 Hard | `distributed` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20eventual%20consistency%20with%20a%20real%20example) · [Search](https://www.google.com/search?q=Explain%20eventual%20consistency%20with%20a%20real%20example) |
-| How do you prevent and detect N+1 queries? | 🟡 Medium | `databases` `orm` | [GfG](https://www.geeksforgeeks.org/search/?gq=How%20do%20you%20prevent%20and%20detect%20N%2B1%20queries) · [Search](https://www.google.com/search?q=How%20do%20you%20prevent%20and%20detect%20N%2B1%20queries) |
+| Explain the time complexity of common sorting algorithms. | 🟡 Medium | `data-structures` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20the%20time%20complexity%20of%20common%20sorting%20algorithms) · [Search](https://www.google.com/search?q=Explain%20the%20time%20complexity%20of%20common%20sorting%20algorithms) |
+| Method overloading vs method overriding. | 🟢 Easy | `oops` | [GfG](https://www.geeksforgeeks.org/search/?gq=Method%20overloading%20vs%20method%20overriding) · [Search](https://www.google.com/search?q=Method%20overloading%20vs%20method%20overriding) |
+| Difference between a process and a thread. | 🟢 Easy | `os` | [GfG](https://www.geeksforgeeks.org/search/?gq=Difference%20between%20a%20process%20and%20a%20thread) · [Search](https://www.google.com/search?q=Difference%20between%20a%20process%20and%20a%20thread) |
+| Difference between an array and a linked list. | 🟢 Easy | `data-structures` | [GfG](https://www.geeksforgeeks.org/search/?gq=Difference%20between%20an%20array%20and%20a%20linked%20list) · [Search](https://www.google.com/search?q=Difference%20between%20an%20array%20and%20a%20linked%20list) |
 
-## Round 5 · Hiring Manager
-<!-- round: hiring_manager -->
-
-_Scope, ownership, and role-fit discussion with the manager._
-
-| Question | Difficulty | Tags |
-| --- | --- | --- |
-| Walk me through a technical trade-off you regret. | — | `judgment` |
-
-## Round 6 · Behavioral / HR
+## Round 4 · Behavioral / HR
 <!-- round: behavioral -->
 
 _Values, collaboration, and past-experience (STAR) questions._
 
 | Question | Difficulty | Tags |
 | --- | --- | --- |
-| Describe something you shipped that you were not proud of. | — | `tradeoffs` `star` |
-| A time you influenced a decision without authority. | — | `influence` `star` |
+| Tell me about a conflict in a team project and how you resolved it. | — | — |
+| Tell me about yourself. | — | — |
+| Why do you want to join our company? | — | — |
 
 ---
 

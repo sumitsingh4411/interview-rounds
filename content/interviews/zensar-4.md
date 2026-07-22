@@ -1,77 +1,72 @@
 ---
 id: zensar-4
 company: zensar
-role: frontend
-level: staff
-outcome: no_offer
-year: 2024
+role: fullstack
+level: junior
+outcome: rejected
+year: 2023
 source: curated
 summary: >-
-  5-round staff frontend process. Pragmatic questions — more real-world than
-  pure puzzles.
+  4-round junior fullstack process. Screening test, technical round, then a
+  managerial and HR conversation.
 ---
-# Staff Frontend — Zensar
+# Junior Full-stack — Zensar
 
-![role](https://img.shields.io/badge/role-Frontend-22d3ee?style=flat-square)
-![level](https://img.shields.io/badge/level-Staff-818cf8?style=flat-square)
-![outcome](https://img.shields.io/badge/outcome-No%20offer-f87171?style=flat-square)
-![year](https://img.shields.io/badge/year-2024-6b7280?style=flat-square)
+![role](https://img.shields.io/badge/role-Full--stack-a78bfa?style=flat-square)
+![level](https://img.shields.io/badge/level-Junior-818cf8?style=flat-square)
+![outcome](https://img.shields.io/badge/outcome-Rejected-f87171?style=flat-square)
+![year](https://img.shields.io/badge/year-2023-6b7280?style=flat-square)
 ![source](https://img.shields.io/badge/source-Commonly%20asked-2dd4bf?style=flat-square)
 
-> 5-round staff frontend process. Pragmatic questions — more real-world than pure puzzles.
+> 4-round junior fullstack process. Screening test, technical round, then a managerial and HR conversation.
 
-**5 rounds · 9 questions**
+**4 rounds · 12 questions**
 
 ---
 
-## Round 1 · DSA / Coding
+## Round 1 · Online Assessment
+<!-- round: oa -->
+
+_Timed online coding / aptitude screen, usually the first filter._
+
+| Question | Difficulty | Tags | Practice |
+| --- | --- | --- | --- |
+| Verbal ability: synonyms, antonyms and para-jumbles. | 🟢 Easy | `verbal` | [GfG](https://www.geeksforgeeks.org/search/?gq=Verbal%20ability%3A%20synonyms%2C%20antonyms%20and%20para-jumbles) · [Search](https://www.google.com/search?q=Verbal%20ability%3A%20synonyms%2C%20antonyms%20and%20para-jumbles) |
+| Quantitative aptitude: time, speed and distance problems. | 🟢 Easy | `aptitude` | [GfG](https://www.geeksforgeeks.org/search/?gq=Quantitative%20aptitude%3A%20time%2C%20speed%20and%20distance%20problems) · [Search](https://www.google.com/search?q=Quantitative%20aptitude%3A%20time%2C%20speed%20and%20distance%20problems) |
+| Logical reasoning: syllogisms and statement–conclusion. | 🟡 Medium | `reasoning` | [GfG](https://www.geeksforgeeks.org/search/?gq=Logical%20reasoning%3A%20syllogisms%20and%20statement%E2%80%93conclusion) · [Search](https://www.google.com/search?q=Logical%20reasoning%3A%20syllogisms%20and%20statement%E2%80%93conclusion) |
+
+## Round 2 · DSA / Coding
 <!-- round: dsa -->
 
 _Data structures & algorithms on a whiteboard or shared editor._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Kth smallest element in a BST. | 🟡 Medium | `tree` `bst` | [LC](https://leetcode.com/problems/kth-smallest-element-in-a-bst/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Kth%20smallest%20element%20in%20a%20BST) |
-| Binary tree maximum path sum. | 🔴 Hard | `tree` `dfs` | [LC](https://leetcode.com/problems/binary-tree-maximum-path-sum/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Binary%20tree%20maximum%20path%20sum) |
-| Serialize and deserialize a binary tree. | 🔴 Hard | `tree` `dfs` | [LC](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Serialize%20and%20deserialize%20a%20binary%20tree) |
+| Check whether a number is prime. | 🟢 Easy | `math` | [GfG](https://www.geeksforgeeks.org/search/?gq=Check%20whether%20a%20number%20is%20prime) · [Search](https://www.google.com/search?q=Check%20whether%20a%20number%20is%20prime) |
+| Remove duplicates from an array without using extra space. | 🟡 Medium | `array` | [GfG](https://www.geeksforgeeks.org/search/?gq=Remove%20duplicates%20from%20an%20array%20without%20using%20extra%20space) · [Search](https://www.google.com/search?q=Remove%20duplicates%20from%20an%20array%20without%20using%20extra%20space) |
 
-## Round 2 · System Design
-<!-- round: system_design -->
+## Round 3 · Tech Deep-Dive
+<!-- round: tech_deep_dive -->
 
-_High-level architecture of a large-scale system._
-
-| Question | Difficulty | Tags | Practice |
-| --- | --- | --- | --- |
-| Design a ticket booking system (inventory + concurrency). | 🔴 Hard | `concurrency` `transactions` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20ticket%20booking%20system%20(inventory%20%2B%20concurrency)) · [Search](https://www.google.com/search?q=Design%20a%20ticket%20booking%20system%20(inventory%20%2B%20concurrency)) |
-| Design a pastebin with expiring links. | 🟡 Medium | `storage` `ttl` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20pastebin%20with%20expiring%20links) · [Search](https://www.google.com/search?q=Design%20a%20pastebin%20with%20expiring%20links) |
-
-## Round 3 · Low-Level Design
-<!-- round: lld -->
-
-_Object-oriented / low-level design of a focused module._
+_Deep questions on your core stack and fundamentals._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Design a reusable form-validation library API. | 🟡 Medium | `oop` `api-design` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20reusable%20form-validation%20library%20API) · [Search](https://www.google.com/search?q=Design%20a%20reusable%20form-validation%20library%20API) |
+| Explain the static and final keywords in Java. | 🟢 Easy | `java` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20the%20static%20and%20final%20keywords%20in%20Java) · [Search](https://www.google.com/search?q=Explain%20the%20static%20and%20final%20keywords%20in%20Java) |
+| What are the JDK, JRE and JVM? | 🟢 Easy | `java` | [GfG](https://www.geeksforgeeks.org/search/?gq=What%20are%20the%20JDK%2C%20JRE%20and%20JVM) · [Search](https://www.google.com/search?q=What%20are%20the%20JDK%2C%20JRE%20and%20JVM) |
+| Explain database normalization and its normal forms. | 🟡 Medium | `dbms` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20database%20normalization%20and%20its%20normal%20forms) · [Search](https://www.google.com/search?q=Explain%20database%20normalization%20and%20its%20normal%20forms) |
+| Explain primary key, foreign key, unique key and candidate key. | 🟢 Easy | `dbms` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20primary%20key%2C%20foreign%20key%2C%20unique%20key%20and%20candidate%20key) · [Search](https://www.google.com/search?q=Explain%20primary%20key%2C%20foreign%20key%2C%20unique%20key%20and%20candidate%20key) |
 
-## Round 4 · Hiring Manager
-<!-- round: hiring_manager -->
-
-_Scope, ownership, and role-fit discussion with the manager._
-
-| Question | Difficulty | Tags |
-| --- | --- | --- |
-| How do you evaluate and adopt a new technology? | — | `judgment` |
-
-## Round 5 · Behavioral / HR
+## Round 4 · Behavioral / HR
 <!-- round: behavioral -->
 
 _Values, collaboration, and past-experience (STAR) questions._
 
 | Question | Difficulty | Tags |
 | --- | --- | --- |
-| When did you change your mind after seeing new evidence? | — | `judgment` `star` |
-| Describe mentoring or unblocking another engineer. | — | `mentorship` `star` |
+| What do you know about our company and the services we provide? | — | — |
+| Tell me about yourself. | — | — |
+| Are you comfortable working in rotational or night shifts? | — | — |
 
 ---
 

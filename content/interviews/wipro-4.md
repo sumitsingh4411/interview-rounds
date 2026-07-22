@@ -2,88 +2,71 @@
 id: wipro-4
 company: wipro
 role: backend
-level: senior
-outcome: rejected
-year: 2023
+level: junior
+outcome: withdrew
+year: 2024
 source: curated
 summary: >-
-  6-round senior backend process. Fast-paced; expect follow-ups that push on
-  depth.
+  Campus-style junior backend interview. Screening test, technical round, then a
+  managerial and HR conversation.
 ---
-# Senior Backend — Wipro
+# Junior Backend — Wipro
 
 ![role](https://img.shields.io/badge/role-Backend-8b93ff?style=flat-square)
-![level](https://img.shields.io/badge/level-Senior-818cf8?style=flat-square)
-![outcome](https://img.shields.io/badge/outcome-Rejected-f87171?style=flat-square)
-![year](https://img.shields.io/badge/year-2023-6b7280?style=flat-square)
+![level](https://img.shields.io/badge/level-Junior-818cf8?style=flat-square)
+![outcome](https://img.shields.io/badge/outcome-Withdrew-fbbf24?style=flat-square)
+![year](https://img.shields.io/badge/year-2024-6b7280?style=flat-square)
 ![source](https://img.shields.io/badge/source-Commonly%20asked-2dd4bf?style=flat-square)
 
-> 6-round senior backend process. Fast-paced; expect follow-ups that push on depth.
+> Campus-style junior backend interview. Screening test, technical round, then a managerial and HR conversation.
 
-**6 rounds · 13 questions**
+**4 rounds · 12 questions**
 
 ---
 
-## Round 1 · DSA / Coding
+## Round 1 · Online Assessment
+<!-- round: oa -->
+
+_Timed online coding / aptitude screen, usually the first filter._
+
+| Question | Difficulty | Tags | Practice |
+| --- | --- | --- | --- |
+| Quantitative aptitude: time, speed and distance problems. | 🟢 Easy | `aptitude` | [GfG](https://www.geeksforgeeks.org/search/?gq=Quantitative%20aptitude%3A%20time%2C%20speed%20and%20distance%20problems) · [Search](https://www.google.com/search?q=Quantitative%20aptitude%3A%20time%2C%20speed%20and%20distance%20problems) |
+| Verbal ability: synonyms, antonyms and para-jumbles. | 🟢 Easy | `verbal` | [GfG](https://www.geeksforgeeks.org/search/?gq=Verbal%20ability%3A%20synonyms%2C%20antonyms%20and%20para-jumbles) · [Search](https://www.google.com/search?q=Verbal%20ability%3A%20synonyms%2C%20antonyms%20and%20para-jumbles) |
+| Verbal ability: error spotting and sentence correction. | 🟢 Easy | `verbal` | [GfG](https://www.geeksforgeeks.org/search/?gq=Verbal%20ability%3A%20error%20spotting%20and%20sentence%20correction) · [Search](https://www.google.com/search?q=Verbal%20ability%3A%20error%20spotting%20and%20sentence%20correction) |
+
+## Round 2 · DSA / Coding
 <!-- round: dsa -->
 
 _Data structures & algorithms on a whiteboard or shared editor._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Trapping rain water. | 🔴 Hard | `two-pointers` `array` | [LC](https://leetcode.com/problems/trapping-rain-water/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Trapping%20rain%20water) |
-| Merge intervals. | 🟡 Medium | `intervals` `sorting` | [LC](https://leetcode.com/problems/merge-intervals/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Merge%20intervals) |
-| Edit distance. | 🔴 Hard | `dp` `string` | [LC](https://leetcode.com/problems/edit-distance/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Edit%20distance) |
+| Check whether a string is a palindrome. | 🟢 Easy | `string` | [GfG](https://www.geeksforgeeks.org/search/?gq=Check%20whether%20a%20string%20is%20a%20palindrome) · [Search](https://www.google.com/search?q=Check%20whether%20a%20string%20is%20a%20palindrome) |
+| Remove duplicates from an array without using extra space. | 🟡 Medium | `array` | [GfG](https://www.geeksforgeeks.org/search/?gq=Remove%20duplicates%20from%20an%20array%20without%20using%20extra%20space) · [Search](https://www.google.com/search?q=Remove%20duplicates%20from%20an%20array%20without%20using%20extra%20space) |
 
-## Round 2 · Machine Coding
-<!-- round: machine_coding -->
-
-_Build a working component or service under time pressure._
-
-| Question | Difficulty | Tags | Practice |
-| --- | --- | --- | --- |
-| Implement a bulk-upsert endpoint with validation. | 🟡 Medium | `api` `validation` | [GfG](https://www.geeksforgeeks.org/search/?gq=Implement%20a%20bulk-upsert%20endpoint%20with%20validation) · [Search](https://www.google.com/search?q=Implement%20a%20bulk-upsert%20endpoint%20with%20validation) |
-| Implement an LRU + TTL cache library. | 🔴 Hard | `cache` `ttl` | [GfG](https://www.geeksforgeeks.org/search/?gq=Implement%20an%20LRU%20%2B%20TTL%20cache%20library) · [Search](https://www.google.com/search?q=Implement%20an%20LRU%20%2B%20TTL%20cache%20library) |
-
-## Round 3 · System Design
-<!-- round: system_design -->
-
-_High-level architecture of a large-scale system._
-
-| Question | Difficulty | Tags | Practice |
-| --- | --- | --- | --- |
-| Design a ticket booking system (inventory + concurrency). | 🔴 Hard | `concurrency` `transactions` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20ticket%20booking%20system%20(inventory%20%2B%20concurrency)) · [Search](https://www.google.com/search?q=Design%20a%20ticket%20booking%20system%20(inventory%20%2B%20concurrency)) |
-| Design a feature-flag service. | 🟡 Medium | `config` `rollout` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20feature-flag%20service) · [Search](https://www.google.com/search?q=Design%20a%20feature-flag%20service) |
-
-## Round 4 · Tech Deep-Dive
+## Round 3 · Tech Deep-Dive
 <!-- round: tech_deep_dive -->
 
 _Deep questions on your core stack and fundamentals._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Explain eventual consistency with a real example. | 🔴 Hard | `distributed` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20eventual%20consistency%20with%20a%20real%20example) · [Search](https://www.google.com/search?q=Explain%20eventual%20consistency%20with%20a%20real%20example) |
-| Explain optimistic vs pessimistic locking. | 🔴 Hard | `databases` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20optimistic%20vs%20pessimistic%20locking) · [Search](https://www.google.com/search?q=Explain%20optimistic%20vs%20pessimistic%20locking) |
-| How do you secure secrets and handle auth tokens? | 🟡 Medium | `security` | [GfG](https://www.geeksforgeeks.org/search/?gq=How%20do%20you%20secure%20secrets%20and%20handle%20auth%20tokens) · [Search](https://www.google.com/search?q=How%20do%20you%20secure%20secrets%20and%20handle%20auth%20tokens) |
+| What is polymorphism? Compile-time vs runtime. | 🟢 Easy | `oops` | [GfG](https://www.geeksforgeeks.org/search/?gq=What%20is%20polymorphism%3F%20Compile-time%20vs%20runtime) · [Search](https://www.google.com/search?q=What%20is%20polymorphism%3F%20Compile-time%20vs%20runtime) |
+| Explain your final-year project architecture and your role in it. | 🟢 Easy | `project` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20your%20final-year%20project%20architecture%20and%20your%20role%20in%20it) · [Search](https://www.google.com/search?q=Explain%20your%20final-year%20project%20architecture%20and%20your%20role%20in%20it) |
+| Difference between an array and a linked list. | 🟢 Easy | `data-structures` | [GfG](https://www.geeksforgeeks.org/search/?gq=Difference%20between%20an%20array%20and%20a%20linked%20list) · [Search](https://www.google.com/search?q=Difference%20between%20an%20array%20and%20a%20linked%20list) |
+| What is a deadlock and how do you prevent it? | 🟡 Medium | `os` | [GfG](https://www.geeksforgeeks.org/search/?gq=What%20is%20a%20deadlock%20and%20how%20do%20you%20prevent%20it) · [Search](https://www.google.com/search?q=What%20is%20a%20deadlock%20and%20how%20do%20you%20prevent%20it) |
 
-## Round 5 · Hiring Manager
-<!-- round: hiring_manager -->
-
-_Scope, ownership, and role-fit discussion with the manager._
-
-| Question | Difficulty | Tags |
-| --- | --- | --- |
-| How do you set technical direction for a team? | — | `leadership` `strategy` |
-
-## Round 6 · Behavioral / HR
+## Round 4 · Behavioral / HR
 <!-- round: behavioral -->
 
 _Values, collaboration, and past-experience (STAR) questions._
 
 | Question | Difficulty | Tags |
 | --- | --- | --- |
-| Describe a conflict with your manager and the outcome. | — | `conflict` `star` |
-| Tell me about a time you led without a title. | — | `leadership` `star` |
+| Are you willing to relocate anywhere in India? | — | — |
+| How do you handle pressure and tight deadlines? | — | — |
+| What are your strengths and weaknesses? | — | — |
 
 ---
 

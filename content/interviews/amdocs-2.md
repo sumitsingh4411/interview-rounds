@@ -1,24 +1,26 @@
 ---
 id: amdocs-2
 company: amdocs
-role: fullstack
-level: mid
-outcome: offer
+role: backend
+level: senior
+outcome: withdrew
 year: 2025
 source: curated
-summary: 'Mid fullstack interview. Balanced across coding, design, and collaboration.'
+summary: >-
+  4-round senior backend process. Breadth of fundamentals mattered more than
+  algorithmic depth.
 ---
-# Mid Full-stack — Amdocs
+# Senior Backend — Amdocs
 
-![role](https://img.shields.io/badge/role-Full--stack-a78bfa?style=flat-square)
-![level](https://img.shields.io/badge/level-Mid-818cf8?style=flat-square)
-![outcome](https://img.shields.io/badge/outcome-Offer-34d399?style=flat-square)
+![role](https://img.shields.io/badge/role-Backend-8b93ff?style=flat-square)
+![level](https://img.shields.io/badge/level-Senior-818cf8?style=flat-square)
+![outcome](https://img.shields.io/badge/outcome-Withdrew-fbbf24?style=flat-square)
 ![year](https://img.shields.io/badge/year-2025-6b7280?style=flat-square)
 ![source](https://img.shields.io/badge/source-Commonly%20asked-2dd4bf?style=flat-square)
 
-> Mid fullstack interview. Balanced across coding, design, and collaboration.
+> 4-round senior backend process. Breadth of fundamentals mattered more than algorithmic depth.
 
-**5 rounds · 11 questions**
+**4 rounds · 11 questions**
 
 ---
 
@@ -29,49 +31,41 @@ _Data structures & algorithms on a whiteboard or shared editor._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Invert a binary tree. | 🟢 Easy | `tree` | [LC](https://leetcode.com/problems/invert-binary-tree/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Invert%20a%20binary%20tree) |
-| Daily temperatures. | 🟡 Medium | `stack` `monotonic-stack` | [LC](https://leetcode.com/problems/daily-temperatures/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Daily%20temperatures) |
-| Climbing stairs. | 🟢 Easy | `dp` | [LC](https://leetcode.com/problems/climbing-stairs/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Climbing%20stairs) |
+| Remove duplicate characters from a string. | 🟢 Easy | `string` | [GfG](https://www.geeksforgeeks.org/search/?gq=Remove%20duplicate%20characters%20from%20a%20string) · [Search](https://www.google.com/search?q=Remove%20duplicate%20characters%20from%20a%20string) |
+| Find the factorial of a number using recursion. | 🟢 Easy | `recursion` | [GfG](https://www.geeksforgeeks.org/search/?gq=Find%20the%20factorial%20of%20a%20number%20using%20recursion) · [Search](https://www.google.com/search?q=Find%20the%20factorial%20of%20a%20number%20using%20recursion) |
 
-## Round 2 · Machine Coding
-<!-- round: machine_coding -->
-
-_Build a working component or service under time pressure._
-
-| Question | Difficulty | Tags | Practice |
-| --- | --- | --- | --- |
-| Implement an LRU + TTL cache library. | 🔴 Hard | `cache` `ttl` | [GfG](https://www.geeksforgeeks.org/search/?gq=Implement%20an%20LRU%20%2B%20TTL%20cache%20library) · [Search](https://www.google.com/search?q=Implement%20an%20LRU%20%2B%20TTL%20cache%20library) |
-| Build a webhook receiver with signature verification. | 🟡 Medium | `security` `api` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20a%20webhook%20receiver%20with%20signature%20verification) · [Search](https://www.google.com/search?q=Build%20a%20webhook%20receiver%20with%20signature%20verification) |
-
-## Round 3 · Low-Level Design
-<!-- round: lld -->
-
-_Object-oriented / low-level design of a focused module._
-
-| Question | Difficulty | Tags | Practice |
-| --- | --- | --- | --- |
-| Design classes for a parking lot. | 🟡 Medium | `oop` `design-patterns` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20classes%20for%20a%20parking%20lot) · [Search](https://www.google.com/search?q=Design%20classes%20for%20a%20parking%20lot) |
-
-## Round 4 · Tech Deep-Dive
+## Round 2 · Tech Deep-Dive
 <!-- round: tech_deep_dive -->
 
 _Deep questions on your core stack and fundamentals._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| How do you run a zero-downtime database migration? | 🔴 Hard | `databases` | [GfG](https://www.geeksforgeeks.org/search/?gq=How%20do%20you%20run%20a%20zero-downtime%20database%20migration) · [Search](https://www.google.com/search?q=How%20do%20you%20run%20a%20zero-downtime%20database%20migration) |
-| How do you design a public API for backward compatibility? | 🟡 Medium | `api-design` | [GfG](https://www.geeksforgeeks.org/search/?gq=How%20do%20you%20design%20a%20public%20API%20for%20backward%20compatibility) · [Search](https://www.google.com/search?q=How%20do%20you%20design%20a%20public%20API%20for%20backward%20compatibility) |
-| Explain optimistic vs pessimistic locking. | 🔴 Hard | `databases` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20optimistic%20vs%20pessimistic%20locking) · [Search](https://www.google.com/search?q=Explain%20optimistic%20vs%20pessimistic%20locking) |
+| What is a pointer? Explain pointer arithmetic in C. | 🟡 Medium | `c` | [GfG](https://www.geeksforgeeks.org/search/?gq=What%20is%20a%20pointer%3F%20Explain%20pointer%20arithmetic%20in%20C) · [Search](https://www.google.com/search?q=What%20is%20a%20pointer%3F%20Explain%20pointer%20arithmetic%20in%20C) |
+| Explain the ACID properties of a transaction. | 🟡 Medium | `dbms` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20the%20ACID%20properties%20of%20a%20transaction) · [Search](https://www.google.com/search?q=Explain%20the%20ACID%20properties%20of%20a%20transaction) |
+| Difference between C and C++. | 🟢 Easy | `c` | [GfG](https://www.geeksforgeeks.org/search/?gq=Difference%20between%20C%20and%20C%2B%2B) · [Search](https://www.google.com/search?q=Difference%20between%20C%20and%20C%2B%2B) |
+| Difference between stack and heap memory. | 🟢 Easy | `fundamentals` | [GfG](https://www.geeksforgeeks.org/search/?gq=Difference%20between%20stack%20and%20heap%20memory) · [Search](https://www.google.com/search?q=Difference%20between%20stack%20and%20heap%20memory) |
 
-## Round 5 · Behavioral / HR
+## Round 3 · Hiring Manager
+<!-- round: hiring_manager -->
+
+_Scope, ownership, and role-fit discussion with the manager._
+
+| Question | Difficulty | Tags |
+| --- | --- | --- |
+| How would you approach understanding a client's legacy codebase? | — | — |
+| How do you ensure code quality under a tight delivery timeline? | — | — |
+
+## Round 4 · Behavioral / HR
 <!-- round: behavioral -->
 
 _Values, collaboration, and past-experience (STAR) questions._
 
 | Question | Difficulty | Tags |
 | --- | --- | --- |
-| Describe working with an ambiguous or shifting requirement. | — | `ambiguity` `star` |
-| How do you get up to speed on an unfamiliar codebase? | — | `learning` |
+| How do you handle pressure and tight deadlines? | — | — |
+| Would you be comfortable working on any technology assigned to you? | — | — |
+| Are you comfortable signing the service agreement / bond? | — | — |
 
 ---
 

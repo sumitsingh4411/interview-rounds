@@ -3,24 +3,24 @@ id: accenture-3
 company: accenture
 role: backend
 level: junior
-outcome: no_offer
+outcome: offer
 year: 2024
 source: curated
 summary: >-
-  Junior backend interview. Fundamentals mattered as much as getting to an
-  answer.
+  4-round junior backend process. Aptitude screen first, then technical
+  fundamentals and HR.
 ---
 # Junior Backend — Accenture
 
 ![role](https://img.shields.io/badge/role-Backend-8b93ff?style=flat-square)
 ![level](https://img.shields.io/badge/level-Junior-818cf8?style=flat-square)
-![outcome](https://img.shields.io/badge/outcome-No%20offer-f87171?style=flat-square)
+![outcome](https://img.shields.io/badge/outcome-Offer-34d399?style=flat-square)
 ![year](https://img.shields.io/badge/year-2024-6b7280?style=flat-square)
 ![source](https://img.shields.io/badge/source-Commonly%20asked-2dd4bf?style=flat-square)
 
-> Junior backend interview. Fundamentals mattered as much as getting to an answer.
+> 4-round junior backend process. Aptitude screen first, then technical fundamentals and HR.
 
-**5 rounds · 11 questions**
+**4 rounds · 12 questions**
 
 ---
 
@@ -31,7 +31,9 @@ _Timed online coding / aptitude screen, usually the first filter._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Simulate a simplified card game and score it. | 🟡 Medium | `simulation` | [GfG](https://www.geeksforgeeks.org/search/?gq=Simulate%20a%20simplified%20card%20game%20and%20score%20it) · [Search](https://www.google.com/search?q=Simulate%20a%20simplified%20card%20game%20and%20score%20it) |
+| Verbal ability: error spotting and sentence correction. | 🟢 Easy | `verbal` | [GfG](https://www.geeksforgeeks.org/search/?gq=Verbal%20ability%3A%20error%20spotting%20and%20sentence%20correction) · [Search](https://www.google.com/search?q=Verbal%20ability%3A%20error%20spotting%20and%20sentence%20correction) |
+| Logical reasoning: number and letter series completion. | 🟢 Easy | `reasoning` | [GfG](https://www.geeksforgeeks.org/search/?gq=Logical%20reasoning%3A%20number%20and%20letter%20series%20completion) · [Search](https://www.google.com/search?q=Logical%20reasoning%3A%20number%20and%20letter%20series%20completion) |
+| Email writing / essay writing task. | 🟢 Easy | `verbal` | [GfG](https://www.geeksforgeeks.org/search/?gq=Email%20writing%20%2F%20essay%20writing%20task) · [Search](https://www.google.com/search?q=Email%20writing%20%2F%20essay%20writing%20task) |
 
 ## Round 2 · DSA / Coding
 <!-- round: dsa -->
@@ -40,40 +42,31 @@ _Data structures & algorithms on a whiteboard or shared editor._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Invert a binary tree. | 🟢 Easy | `tree` | [LC](https://leetcode.com/problems/invert-binary-tree/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Invert%20a%20binary%20tree) |
-| Merge two sorted linked lists. | 🟢 Easy | `linked-list` | [LC](https://leetcode.com/problems/merge-two-sorted-lists/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Merge%20two%20sorted%20linked%20lists) |
-| Maximum subarray (Kadane). | 🟡 Medium | `array` `dp` | [LC](https://leetcode.com/problems/maximum-subarray/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Maximum%20subarray%20(Kadane)) |
+| Sort an array using bubble sort and state its complexity. | 🟢 Easy | `sorting` | [GfG](https://www.geeksforgeeks.org/search/?gq=Sort%20an%20array%20using%20bubble%20sort%20and%20state%20its%20complexity) · [Search](https://www.google.com/search?q=Sort%20an%20array%20using%20bubble%20sort%20and%20state%20its%20complexity) |
+| Find the sum of digits of a number. | 🟢 Easy | `math` | [GfG](https://www.geeksforgeeks.org/search/?gq=Find%20the%20sum%20of%20digits%20of%20a%20number) · [Search](https://www.google.com/search?q=Find%20the%20sum%20of%20digits%20of%20a%20number) |
 
-## Round 3 · Machine Coding
-<!-- round: machine_coding -->
-
-_Build a working component or service under time pressure._
-
-| Question | Difficulty | Tags | Practice |
-| --- | --- | --- | --- |
-| Implement an idempotent "charge" endpoint. | 🔴 Hard | `idempotency` `payments` | [GfG](https://www.geeksforgeeks.org/search/?gq=Implement%20an%20idempotent%20%22charge%22%20endpoint) · [Search](https://www.google.com/search?q=Implement%20an%20idempotent%20%22charge%22%20endpoint) |
-| Build a CSV importer that streams and validates rows. | 🟡 Medium | `streaming` `validation` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20a%20CSV%20importer%20that%20streams%20and%20validates%20rows) · [Search](https://www.google.com/search?q=Build%20a%20CSV%20importer%20that%20streams%20and%20validates%20rows) |
-
-## Round 4 · Tech Deep-Dive
+## Round 3 · Tech Deep-Dive
 <!-- round: tech_deep_dive -->
 
 _Deep questions on your core stack and fundamentals._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| How do you retry without amplifying load? | 🔴 Hard | `reliability` | [GfG](https://www.geeksforgeeks.org/search/?gq=How%20do%20you%20retry%20without%20amplifying%20load) · [Search](https://www.google.com/search?q=How%20do%20you%20retry%20without%20amplifying%20load) |
-| How do you run a zero-downtime database migration? | 🔴 Hard | `databases` | [GfG](https://www.geeksforgeeks.org/search/?gq=How%20do%20you%20run%20a%20zero-downtime%20database%20migration) · [Search](https://www.google.com/search?q=How%20do%20you%20run%20a%20zero-downtime%20database%20migration) |
-| How do you design a schema for a multi-currency ledger? | 🔴 Hard | `databases` `money` | [GfG](https://www.geeksforgeeks.org/search/?gq=How%20do%20you%20design%20a%20schema%20for%20a%20multi-currency%20ledger) · [Search](https://www.google.com/search?q=How%20do%20you%20design%20a%20schema%20for%20a%20multi-currency%20ledger) |
+| Write a SQL query to find the second-highest salary. | 🟡 Medium | `sql` | [GfG](https://www.geeksforgeeks.org/search/?gq=Write%20a%20SQL%20query%20to%20find%20the%20second-highest%20salary) · [Search](https://www.google.com/search?q=Write%20a%20SQL%20query%20to%20find%20the%20second-highest%20salary) |
+| What is a deadlock and how do you prevent it? | 🟡 Medium | `os` | [GfG](https://www.geeksforgeeks.org/search/?gq=What%20is%20a%20deadlock%20and%20how%20do%20you%20prevent%20it) · [Search](https://www.google.com/search?q=What%20is%20a%20deadlock%20and%20how%20do%20you%20prevent%20it) |
+| Explain the ACID properties of a transaction. | 🟡 Medium | `dbms` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20the%20ACID%20properties%20of%20a%20transaction) · [Search](https://www.google.com/search?q=Explain%20the%20ACID%20properties%20of%20a%20transaction) |
+| Explain your final-year project architecture and your role in it. | 🟢 Easy | `project` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20your%20final-year%20project%20architecture%20and%20your%20role%20in%20it) · [Search](https://www.google.com/search?q=Explain%20your%20final-year%20project%20architecture%20and%20your%20role%20in%20it) |
 
-## Round 5 · Behavioral / HR
+## Round 4 · Behavioral / HR
 <!-- round: behavioral -->
 
 _Values, collaboration, and past-experience (STAR) questions._
 
 | Question | Difficulty | Tags |
 | --- | --- | --- |
-| Describe a goal you set and how you achieved it. | — | `ownership` `star` |
-| A time you made a mistake in production — what happened next? | — | `ownership` `star` |
+| What are your interests outside academics? | — | — |
+| Where do you see yourself in five years? | — | — |
+| Are you comfortable working in rotational or night shifts? | — | — |
 
 ---
 

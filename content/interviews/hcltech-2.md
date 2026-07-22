@@ -1,87 +1,72 @@
 ---
 id: hcltech-2
 company: hcltech
-role: frontend
-level: senior
-outcome: unknown
+role: backend
+level: junior
+outcome: rejected
 year: 2023
 source: curated
-summary: A senior frontend loop. Fast-paced; expect follow-ups that push on depth.
+summary: >-
+  4-round junior backend process. Fundamentals over puzzles — OOP, DBMS and SQL
+  carried the most weight.
 ---
-# Senior Frontend — HCLTech
+# Junior Backend — HCLTech
 
-![role](https://img.shields.io/badge/role-Frontend-22d3ee?style=flat-square)
-![level](https://img.shields.io/badge/level-Senior-818cf8?style=flat-square)
-![outcome](https://img.shields.io/badge/outcome-Unknown-6b7280?style=flat-square)
+![role](https://img.shields.io/badge/role-Backend-8b93ff?style=flat-square)
+![level](https://img.shields.io/badge/level-Junior-818cf8?style=flat-square)
+![outcome](https://img.shields.io/badge/outcome-Rejected-f87171?style=flat-square)
 ![year](https://img.shields.io/badge/year-2023-6b7280?style=flat-square)
 ![source](https://img.shields.io/badge/source-Commonly%20asked-2dd4bf?style=flat-square)
 
-> A senior frontend loop. Fast-paced; expect follow-ups that push on depth.
+> 4-round junior backend process. Fundamentals over puzzles — OOP, DBMS and SQL carried the most weight.
 
-**6 rounds · 13 questions**
+**4 rounds · 12 questions**
 
 ---
 
-## Round 1 · DSA / Coding
+## Round 1 · Online Assessment
+<!-- round: oa -->
+
+_Timed online coding / aptitude screen, usually the first filter._
+
+| Question | Difficulty | Tags | Practice |
+| --- | --- | --- | --- |
+| Logical reasoning: number and letter series completion. | 🟢 Easy | `reasoning` | [GfG](https://www.geeksforgeeks.org/search/?gq=Logical%20reasoning%3A%20number%20and%20letter%20series%20completion) · [Search](https://www.google.com/search?q=Logical%20reasoning%3A%20number%20and%20letter%20series%20completion) |
+| Pseudocode: spot the error in the given snippet. | 🟡 Medium | `pseudocode` | [GfG](https://www.geeksforgeeks.org/search/?gq=Pseudocode%3A%20spot%20the%20error%20in%20the%20given%20snippet) · [Search](https://www.google.com/search?q=Pseudocode%3A%20spot%20the%20error%20in%20the%20given%20snippet) |
+| Quantitative aptitude: time and work problems. | 🟢 Easy | `aptitude` | [GfG](https://www.geeksforgeeks.org/search/?gq=Quantitative%20aptitude%3A%20time%20and%20work%20problems) · [Search](https://www.google.com/search?q=Quantitative%20aptitude%3A%20time%20and%20work%20problems) |
+
+## Round 2 · DSA / Coding
 <!-- round: dsa -->
 
 _Data structures & algorithms on a whiteboard or shared editor._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Serialize and deserialize a binary tree. | 🔴 Hard | `tree` `dfs` | [LC](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Serialize%20and%20deserialize%20a%20binary%20tree) |
-| Same tree. | 🟢 Easy | `tree` | [LC](https://leetcode.com/problems/same-tree/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Same%20tree) |
-| Word search II. | 🔴 Hard | `trie` `backtracking` | [LC](https://leetcode.com/problems/word-search-ii/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Word%20search%20II) |
+| Sort an array using bubble sort and state its complexity. | 🟢 Easy | `sorting` | [GfG](https://www.geeksforgeeks.org/search/?gq=Sort%20an%20array%20using%20bubble%20sort%20and%20state%20its%20complexity) · [Search](https://www.google.com/search?q=Sort%20an%20array%20using%20bubble%20sort%20and%20state%20its%20complexity) |
+| Implement binary search on a sorted array. | 🟢 Easy | `searching` | [GfG](https://www.geeksforgeeks.org/search/?gq=Implement%20binary%20search%20on%20a%20sorted%20array) · [Search](https://www.google.com/search?q=Implement%20binary%20search%20on%20a%20sorted%20array) |
 
-## Round 2 · Machine Coding
-<!-- round: machine_coding -->
-
-_Build a working component or service under time pressure._
-
-| Question | Difficulty | Tags | Practice |
-| --- | --- | --- | --- |
-| Build a form builder that renders from a JSON schema. | 🔴 Hard | `react` `forms` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20a%20form%20builder%20that%20renders%20from%20a%20JSON%20schema) · [Search](https://www.google.com/search?q=Build%20a%20form%20builder%20that%20renders%20from%20a%20JSON%20schema) |
-| Build a debounced autocomplete/search box with keyboard nav. | 🟡 Medium | `react` `debounce` `a11y` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20a%20debounced%20autocomplete%2Fsearch%20box%20with%20keyboard%20nav) · [Search](https://www.google.com/search?q=Build%20a%20debounced%20autocomplete%2Fsearch%20box%20with%20keyboard%20nav) |
-
-## Round 3 · System Design
-<!-- round: system_design -->
-
-_High-level architecture of a large-scale system._
-
-| Question | Difficulty | Tags | Practice |
-| --- | --- | --- | --- |
-| Design an accessible internationalized form system. | 🟡 Medium | `frontend` `a11y` `i18n` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20an%20accessible%20internationalized%20form%20system) · [Search](https://www.google.com/search?q=Design%20an%20accessible%20internationalized%20form%20system) |
-| Design a URL shortener like TinyURL. | 🟡 Medium | `hashing` `cache` `sharding` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20URL%20shortener%20like%20TinyURL) · [Search](https://www.google.com/search?q=Design%20a%20URL%20shortener%20like%20TinyURL) |
-
-## Round 4 · Tech Deep-Dive
+## Round 3 · Tech Deep-Dive
 <!-- round: tech_deep_dive -->
 
 _Deep questions on your core stack and fundamentals._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| How does React batching and the render phase work? | 🔴 Hard | `react` | [GfG](https://www.geeksforgeeks.org/search/?gq=How%20does%20React%20batching%20and%20the%20render%20phase%20work) · [Search](https://www.google.com/search?q=How%20does%20React%20batching%20and%20the%20render%20phase%20work) |
-| How do you optimize a slow React app? (profiling → fixes) | 🔴 Hard | `react` `perf` | [GfG](https://www.geeksforgeeks.org/search/?gq=How%20do%20you%20optimize%20a%20slow%20React%20app%3F%20(profiling%20%E2%86%92%20fixes)) · [Search](https://www.google.com/search?q=How%20do%20you%20optimize%20a%20slow%20React%20app%3F%20(profiling%20%E2%86%92%20fixes)) |
-| Explain the JS event loop: microtasks vs macrotasks. | 🟡 Medium | `javascript` `event-loop` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20the%20JS%20event%20loop%3A%20microtasks%20vs%20macrotasks) · [Search](https://www.google.com/search?q=Explain%20the%20JS%20event%20loop%3A%20microtasks%20vs%20macrotasks) |
+| Difference between DBMS and RDBMS. | 🟢 Easy | `dbms` | [GfG](https://www.geeksforgeeks.org/search/?gq=Difference%20between%20DBMS%20and%20RDBMS) · [Search](https://www.google.com/search?q=Difference%20between%20DBMS%20and%20RDBMS) |
+| What is a constructor? Explain constructor overloading. | 🟢 Easy | `oops` | [GfG](https://www.geeksforgeeks.org/search/?gq=What%20is%20a%20constructor%3F%20Explain%20constructor%20overloading) · [Search](https://www.google.com/search?q=What%20is%20a%20constructor%3F%20Explain%20constructor%20overloading) |
+| Difference between DELETE, TRUNCATE and DROP. | 🟢 Easy | `sql` | [GfG](https://www.geeksforgeeks.org/search/?gq=Difference%20between%20DELETE%2C%20TRUNCATE%20and%20DROP) · [Search](https://www.google.com/search?q=Difference%20between%20DELETE%2C%20TRUNCATE%20and%20DROP) |
+| Explain database normalization and its normal forms. | 🟡 Medium | `dbms` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20database%20normalization%20and%20its%20normal%20forms) · [Search](https://www.google.com/search?q=Explain%20database%20normalization%20and%20its%20normal%20forms) |
 
-## Round 5 · Hiring Manager
-<!-- round: hiring_manager -->
-
-_Scope, ownership, and role-fit discussion with the manager._
-
-| Question | Difficulty | Tags |
-| --- | --- | --- |
-| How do you set technical direction for a team? | — | `leadership` `strategy` |
-
-## Round 6 · Behavioral / HR
+## Round 4 · Behavioral / HR
 <!-- round: behavioral -->
 
 _Values, collaboration, and past-experience (STAR) questions._
 
 | Question | Difficulty | Tags |
 | --- | --- | --- |
-| Tell me about a project you are most proud of. | — | `star` |
-| A time you influenced a decision without authority. | — | `influence` `star` |
+| Tell me about a conflict in a team project and how you resolved it. | — | — |
+| What are your interests outside academics? | — | — |
+| Are you comfortable working in rotational or night shifts? | — | — |
 
 ---
 

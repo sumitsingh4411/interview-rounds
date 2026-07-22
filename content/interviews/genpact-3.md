@@ -1,87 +1,72 @@
 ---
 id: genpact-3
 company: genpact
-role: fullstack
-level: senior
-outcome: withdrew
-year: 2023
+role: backend
+level: intern
+outcome: offer
+year: 2025
 source: curated
-summary: A senior fullstack loop. Fast-paced; expect follow-ups that push on depth.
+summary: >-
+  4-round intern backend process. Fundamentals over puzzles — OOP, DBMS and SQL
+  carried the most weight.
 ---
-# Senior Full-stack — Genpact
+# Intern Backend — Genpact
 
-![role](https://img.shields.io/badge/role-Full--stack-a78bfa?style=flat-square)
-![level](https://img.shields.io/badge/level-Senior-818cf8?style=flat-square)
-![outcome](https://img.shields.io/badge/outcome-Withdrew-fbbf24?style=flat-square)
-![year](https://img.shields.io/badge/year-2023-6b7280?style=flat-square)
+![role](https://img.shields.io/badge/role-Backend-8b93ff?style=flat-square)
+![level](https://img.shields.io/badge/level-Intern-818cf8?style=flat-square)
+![outcome](https://img.shields.io/badge/outcome-Offer-34d399?style=flat-square)
+![year](https://img.shields.io/badge/year-2025-6b7280?style=flat-square)
 ![source](https://img.shields.io/badge/source-Commonly%20asked-2dd4bf?style=flat-square)
 
-> A senior fullstack loop. Fast-paced; expect follow-ups that push on depth.
+> 4-round intern backend process. Fundamentals over puzzles — OOP, DBMS and SQL carried the most weight.
 
-**6 rounds · 13 questions**
+**4 rounds · 12 questions**
 
 ---
 
-## Round 1 · DSA / Coding
+## Round 1 · Online Assessment
+<!-- round: oa -->
+
+_Timed online coding / aptitude screen, usually the first filter._
+
+| Question | Difficulty | Tags | Practice |
+| --- | --- | --- | --- |
+| Logical reasoning: syllogisms and statement–conclusion. | 🟡 Medium | `reasoning` | [GfG](https://www.geeksforgeeks.org/search/?gq=Logical%20reasoning%3A%20syllogisms%20and%20statement%E2%80%93conclusion) · [Search](https://www.google.com/search?q=Logical%20reasoning%3A%20syllogisms%20and%20statement%E2%80%93conclusion) |
+| Quantitative aptitude: time, speed and distance problems. | 🟢 Easy | `aptitude` | [GfG](https://www.geeksforgeeks.org/search/?gq=Quantitative%20aptitude%3A%20time%2C%20speed%20and%20distance%20problems) · [Search](https://www.google.com/search?q=Quantitative%20aptitude%3A%20time%2C%20speed%20and%20distance%20problems) |
+| Quantitative aptitude: time and work problems. | 🟢 Easy | `aptitude` | [GfG](https://www.geeksforgeeks.org/search/?gq=Quantitative%20aptitude%3A%20time%20and%20work%20problems) · [Search](https://www.google.com/search?q=Quantitative%20aptitude%3A%20time%20and%20work%20problems) |
+
+## Round 2 · DSA / Coding
 <!-- round: dsa -->
 
 _Data structures & algorithms on a whiteboard or shared editor._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Reverse nodes in k-group. | 🔴 Hard | `linked-list` | [LC](https://leetcode.com/problems/reverse-nodes-in-k-group/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Reverse%20nodes%20in%20k-group) |
-| Best time to buy and sell stock. | 🟢 Easy | `array` `greedy` | [LC](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Best%20time%20to%20buy%20and%20sell%20stock) |
-| Insert interval. | 🟡 Medium | `intervals` | [LC](https://leetcode.com/problems/insert-interval/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Insert%20interval) |
+| Print a star / pyramid pattern for n rows. | 🟢 Easy | `patterns` | [GfG](https://www.geeksforgeeks.org/search/?gq=Print%20a%20star%20%2F%20pyramid%20pattern%20for%20n%20rows) · [Search](https://www.google.com/search?q=Print%20a%20star%20%2F%20pyramid%20pattern%20for%20n%20rows) |
+| Remove duplicate characters from a string. | 🟢 Easy | `string` | [GfG](https://www.geeksforgeeks.org/search/?gq=Remove%20duplicate%20characters%20from%20a%20string) · [Search](https://www.google.com/search?q=Remove%20duplicate%20characters%20from%20a%20string) |
 
-## Round 2 · Machine Coding
-<!-- round: machine_coding -->
-
-_Build a working component or service under time pressure._
-
-| Question | Difficulty | Tags | Practice |
-| --- | --- | --- | --- |
-| Build an infinite-scrolling list with virtualization. | 🔴 Hard | `react` `virtualization` `perf` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20an%20infinite-scrolling%20list%20with%20virtualization) · [Search](https://www.google.com/search?q=Build%20an%20infinite-scrolling%20list%20with%20virtualization) |
-| Build a key-value store with TTL expiry. | 🟡 Medium | `cache` `ttl` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20a%20key-value%20store%20with%20TTL%20expiry) · [Search](https://www.google.com/search?q=Build%20a%20key-value%20store%20with%20TTL%20expiry) |
-
-## Round 3 · System Design
-<!-- round: system_design -->
-
-_High-level architecture of a large-scale system._
-
-| Question | Difficulty | Tags | Practice |
-| --- | --- | --- | --- |
-| Design a distributed cache. | 🔴 Hard | `cache` `consistency` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20distributed%20cache) · [Search](https://www.google.com/search?q=Design%20a%20distributed%20cache) |
-| Design a job scheduler / cron service. | 🟡 Medium | `queues` `scheduling` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20job%20scheduler%20%2F%20cron%20service) · [Search](https://www.google.com/search?q=Design%20a%20job%20scheduler%20%2F%20cron%20service) |
-
-## Round 4 · Tech Deep-Dive
+## Round 3 · Tech Deep-Dive
 <!-- round: tech_deep_dive -->
 
 _Deep questions on your core stack and fundamentals._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| ACID vs BASE and transaction isolation levels. | 🔴 Hard | `databases` `transactions` | [GfG](https://www.geeksforgeeks.org/search/?gq=ACID%20vs%20BASE%20and%20transaction%20isolation%20levels) · [Search](https://www.google.com/search?q=ACID%20vs%20BASE%20and%20transaction%20isolation%20levels) |
-| What is tree shaking and when does it fail? | 🟡 Medium | `bundling` | [GfG](https://www.geeksforgeeks.org/search/?gq=What%20is%20tree%20shaking%20and%20when%20does%20it%20fail) · [Search](https://www.google.com/search?q=What%20is%20tree%20shaking%20and%20when%20does%20it%20fail) |
-| Explain server components vs client components. | 🔴 Hard | `react` `ssr` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20server%20components%20vs%20client%20components) · [Search](https://www.google.com/search?q=Explain%20server%20components%20vs%20client%20components) |
+| Difference between DELETE, TRUNCATE and DROP. | 🟢 Easy | `sql` | [GfG](https://www.geeksforgeeks.org/search/?gq=Difference%20between%20DELETE%2C%20TRUNCATE%20and%20DROP) · [Search](https://www.google.com/search?q=Difference%20between%20DELETE%2C%20TRUNCATE%20and%20DROP) |
+| Explain the time complexity of common sorting algorithms. | 🟡 Medium | `data-structures` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20the%20time%20complexity%20of%20common%20sorting%20algorithms) · [Search](https://www.google.com/search?q=Explain%20the%20time%20complexity%20of%20common%20sorting%20algorithms) |
+| Explain the static and final keywords in Java. | 🟢 Easy | `java` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20the%20static%20and%20final%20keywords%20in%20Java) · [Search](https://www.google.com/search?q=Explain%20the%20static%20and%20final%20keywords%20in%20Java) |
+| Explain database normalization and its normal forms. | 🟡 Medium | `dbms` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20database%20normalization%20and%20its%20normal%20forms) · [Search](https://www.google.com/search?q=Explain%20database%20normalization%20and%20its%20normal%20forms) |
 
-## Round 5 · Hiring Manager
-<!-- round: hiring_manager -->
-
-_Scope, ownership, and role-fit discussion with the manager._
-
-| Question | Difficulty | Tags |
-| --- | --- | --- |
-| Tell me about a technical bet that did not pay off. | — | `risk` `judgment` |
-
-## Round 6 · Behavioral / HR
+## Round 4 · Behavioral / HR
 <!-- round: behavioral -->
 
 _Values, collaboration, and past-experience (STAR) questions._
 
 | Question | Difficulty | Tags |
 | --- | --- | --- |
-| How do you handle being blocked for several days? | — | `ownership` `star` |
-| Tell me about a time you simplified something overly complex. | — | `judgment` `star` |
+| How do you handle pressure and tight deadlines? | — | — |
+| Why do you want to join our company? | — | — |
+| What are your interests outside academics? | — | — |
 
 ---
 

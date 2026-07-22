@@ -1,89 +1,82 @@
 ---
 id: axis-bank-5
 company: axis-bank
-role: fullstack
-level: senior
-outcome: unknown
+role: backend
+level: mid
+outcome: offer
 year: 2024
 source: curated
 summary: >-
-  6-round senior fullstack process. Balanced across coding, design, and
-  collaboration.
+  Campus-style mid backend interview. Screening test, technical round, then a
+  managerial and HR conversation.
 ---
-# Senior Full-stack — Axis Bank
+# Mid Backend — Axis Bank
 
-![role](https://img.shields.io/badge/role-Full--stack-a78bfa?style=flat-square)
-![level](https://img.shields.io/badge/level-Senior-818cf8?style=flat-square)
-![outcome](https://img.shields.io/badge/outcome-Unknown-6b7280?style=flat-square)
+![role](https://img.shields.io/badge/role-Backend-8b93ff?style=flat-square)
+![level](https://img.shields.io/badge/level-Mid-818cf8?style=flat-square)
+![outcome](https://img.shields.io/badge/outcome-Offer-34d399?style=flat-square)
 ![year](https://img.shields.io/badge/year-2024-6b7280?style=flat-square)
 ![source](https://img.shields.io/badge/source-Commonly%20asked-2dd4bf?style=flat-square)
 
-> 6-round senior fullstack process. Balanced across coding, design, and collaboration.
+> Campus-style mid backend interview. Screening test, technical round, then a managerial and HR conversation.
 
-**6 rounds · 13 questions**
+**5 rounds · 14 questions**
 
 ---
 
-## Round 1 · DSA / Coding
+## Round 1 · Online Assessment
+<!-- round: oa -->
+
+_Timed online coding / aptitude screen, usually the first filter._
+
+| Question | Difficulty | Tags | Practice |
+| --- | --- | --- | --- |
+| Email writing / essay writing task. | 🟢 Easy | `verbal` | [GfG](https://www.geeksforgeeks.org/search/?gq=Email%20writing%20%2F%20essay%20writing%20task) · [Search](https://www.google.com/search?q=Email%20writing%20%2F%20essay%20writing%20task) |
+| Quantitative aptitude: time, speed and distance problems. | 🟢 Easy | `aptitude` | [GfG](https://www.geeksforgeeks.org/search/?gq=Quantitative%20aptitude%3A%20time%2C%20speed%20and%20distance%20problems) · [Search](https://www.google.com/search?q=Quantitative%20aptitude%3A%20time%2C%20speed%20and%20distance%20problems) |
+| Quantitative aptitude: ratio, proportion and averages. | 🟢 Easy | `aptitude` | [GfG](https://www.geeksforgeeks.org/search/?gq=Quantitative%20aptitude%3A%20ratio%2C%20proportion%20and%20averages) · [Search](https://www.google.com/search?q=Quantitative%20aptitude%3A%20ratio%2C%20proportion%20and%20averages) |
+
+## Round 2 · DSA / Coding
 <!-- round: dsa -->
 
 _Data structures & algorithms on a whiteboard or shared editor._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Word ladder — shortest transformation sequence. | 🔴 Hard | `bfs` `graph` | [LC](https://leetcode.com/problems/word-ladder/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Word%20ladder%20%E2%80%94%20shortest%20transformation%20sequence) |
-| Valid Parentheses — check balanced brackets. | 🟢 Easy | `stack` `string` | [LC](https://leetcode.com/problems/valid-parentheses/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Valid%20Parentheses%20%E2%80%94%20check%20balanced%20brackets) |
-| Longest palindromic substring. | 🟡 Medium | `string` `dp` | [LC](https://leetcode.com/problems/longest-palindromic-substring/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Longest%20palindromic%20substring) |
+| Check whether a number is an Armstrong number. | 🟢 Easy | `math` | [GfG](https://www.geeksforgeeks.org/search/?gq=Check%20whether%20a%20number%20is%20an%20Armstrong%20number) · [Search](https://www.google.com/search?q=Check%20whether%20a%20number%20is%20an%20Armstrong%20number) |
+| Matrix operations: transpose and sum of the diagonals. | 🟡 Medium | `matrix` | [GfG](https://www.geeksforgeeks.org/search/?gq=Matrix%20operations%3A%20transpose%20and%20sum%20of%20the%20diagonals) · [Search](https://www.google.com/search?q=Matrix%20operations%3A%20transpose%20and%20sum%20of%20the%20diagonals) |
 
-## Round 2 · Machine Coding
-<!-- round: machine_coding -->
-
-_Build a working component or service under time pressure._
-
-| Question | Difficulty | Tags | Practice |
-| --- | --- | --- | --- |
-| Build a to-do app with filters and localStorage persistence. | 🟢 Easy | `react` `state` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20a%20to-do%20app%20with%20filters%20and%20localStorage%20persistence) · [Search](https://www.google.com/search?q=Build%20a%20to-do%20app%20with%20filters%20and%20localStorage%20persistence) |
-| Build a REST endpoint with pagination, filtering and sorting. | 🟡 Medium | `api` `pagination` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20a%20REST%20endpoint%20with%20pagination%2C%20filtering%20and%20sorting) · [Search](https://www.google.com/search?q=Build%20a%20REST%20endpoint%20with%20pagination%2C%20filtering%20and%20sorting) |
-
-## Round 3 · System Design
-<!-- round: system_design -->
-
-_High-level architecture of a large-scale system._
-
-| Question | Difficulty | Tags | Practice |
-| --- | --- | --- | --- |
-| Design a search indexing pipeline (crawl to index to serve). | 🔴 Hard | `indexing` `pipeline` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20search%20indexing%20pipeline%20(crawl%20to%20index%20to%20serve)) · [Search](https://www.google.com/search?q=Design%20a%20search%20indexing%20pipeline%20(crawl%20to%20index%20to%20serve)) |
-| Design a job scheduler / cron service. | 🟡 Medium | `queues` `scheduling` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20job%20scheduler%20%2F%20cron%20service) · [Search](https://www.google.com/search?q=Design%20a%20job%20scheduler%20%2F%20cron%20service) |
-
-## Round 4 · Tech Deep-Dive
+## Round 3 · Tech Deep-Dive
 <!-- round: tech_deep_dive -->
 
 _Deep questions on your core stack and fundamentals._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Difference between at-least-once and exactly-once delivery. | 🔴 Hard | `messaging` | [GfG](https://www.geeksforgeeks.org/search/?gq=Difference%20between%20at-least-once%20and%20exactly-once%20delivery) · [Search](https://www.google.com/search?q=Difference%20between%20at-least-once%20and%20exactly-once%20delivery) |
-| How do you design an idempotency-key system for payments? | 🔴 Hard | `idempotency` `payments` | [GfG](https://www.geeksforgeeks.org/search/?gq=How%20do%20you%20design%20an%20idempotency-key%20system%20for%20payments) · [Search](https://www.google.com/search?q=How%20do%20you%20design%20an%20idempotency-key%20system%20for%20payments) |
-| How do you design a schema for a multi-currency ledger? | 🔴 Hard | `databases` `money` | [GfG](https://www.geeksforgeeks.org/search/?gq=How%20do%20you%20design%20a%20schema%20for%20a%20multi-currency%20ledger) · [Search](https://www.google.com/search?q=How%20do%20you%20design%20a%20schema%20for%20a%20multi-currency%20ledger) |
+| Explain SQL joins: inner, left, right and full outer. | 🟢 Easy | `sql` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20SQL%20joins%3A%20inner%2C%20left%2C%20right%20and%20full%20outer) · [Search](https://www.google.com/search?q=Explain%20SQL%20joins%3A%20inner%2C%20left%2C%20right%20and%20full%20outer) |
+| Difference between == and equals() in Java. | 🟢 Easy | `java` | [GfG](https://www.geeksforgeeks.org/search/?gq=Difference%20between%20%3D%3D%20and%20equals()%20in%20Java) · [Search](https://www.google.com/search?q=Difference%20between%20%3D%3D%20and%20equals()%20in%20Java) |
+| Difference between abstraction and encapsulation. | 🟢 Easy | `oops` | [GfG](https://www.geeksforgeeks.org/search/?gq=Difference%20between%20abstraction%20and%20encapsulation) · [Search](https://www.google.com/search?q=Difference%20between%20abstraction%20and%20encapsulation) |
+| What happens when you type a URL into a browser? | 🟡 Medium | `networking` | [GfG](https://www.geeksforgeeks.org/search/?gq=What%20happens%20when%20you%20type%20a%20URL%20into%20a%20browser) · [Search](https://www.google.com/search?q=What%20happens%20when%20you%20type%20a%20URL%20into%20a%20browser) |
 
-## Round 5 · Hiring Manager
+## Round 4 · Hiring Manager
 <!-- round: hiring_manager -->
 
 _Scope, ownership, and role-fit discussion with the manager._
 
 | Question | Difficulty | Tags |
 | --- | --- | --- |
-| Where do you want to grow in the next two years? | — | `growth` |
+| What would you do if you disagreed with your project lead? | — | — |
+| Walk me through your project and your exact contribution to it. | — | — |
 
-## Round 6 · Behavioral / HR
+## Round 5 · Behavioral / HR
 <!-- round: behavioral -->
 
 _Values, collaboration, and past-experience (STAR) questions._
 
 | Question | Difficulty | Tags |
 | --- | --- | --- |
-| Describe something you shipped that you were not proud of. | — | `tradeoffs` `star` |
-| How do you get up to speed on an unfamiliar codebase? | — | `learning` |
+| What do you know about our company and the services we provide? | — | — |
+| Do you have any backlogs or academic gaps? Please explain. | — | — |
+| Tell me about yourself. | — | — |
 
 ---
 

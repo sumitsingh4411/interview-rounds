@@ -2,88 +2,81 @@
 id: happiest-minds-2
 company: happiest-minds
 role: frontend
-level: senior
-outcome: unknown
-year: 2023
+level: mid
+outcome: withdrew
+year: 2025
 source: curated
 summary: >-
-  6-round senior frontend process. Fundamentals mattered as much as getting to
-  an answer.
+  5-round mid frontend process. Fundamentals over puzzles — OOP, DBMS and SQL
+  carried the most weight.
 ---
-# Senior Frontend — Happiest Minds
+# Mid Frontend — Happiest Minds
 
 ![role](https://img.shields.io/badge/role-Frontend-22d3ee?style=flat-square)
-![level](https://img.shields.io/badge/level-Senior-818cf8?style=flat-square)
-![outcome](https://img.shields.io/badge/outcome-Unknown-6b7280?style=flat-square)
-![year](https://img.shields.io/badge/year-2023-6b7280?style=flat-square)
+![level](https://img.shields.io/badge/level-Mid-818cf8?style=flat-square)
+![outcome](https://img.shields.io/badge/outcome-Withdrew-fbbf24?style=flat-square)
+![year](https://img.shields.io/badge/year-2025-6b7280?style=flat-square)
 ![source](https://img.shields.io/badge/source-Commonly%20asked-2dd4bf?style=flat-square)
 
-> 6-round senior frontend process. Fundamentals mattered as much as getting to an answer.
+> 5-round mid frontend process. Fundamentals over puzzles — OOP, DBMS and SQL carried the most weight.
 
-**6 rounds · 13 questions**
+**5 rounds · 14 questions**
 
 ---
 
-## Round 1 · DSA / Coding
+## Round 1 · Online Assessment
+<!-- round: oa -->
+
+_Timed online coding / aptitude screen, usually the first filter._
+
+| Question | Difficulty | Tags | Practice |
+| --- | --- | --- | --- |
+| Logical reasoning: blood relations and seating arrangement. | 🟡 Medium | `reasoning` | [GfG](https://www.geeksforgeeks.org/search/?gq=Logical%20reasoning%3A%20blood%20relations%20and%20seating%20arrangement) · [Search](https://www.google.com/search?q=Logical%20reasoning%3A%20blood%20relations%20and%20seating%20arrangement) |
+| Pseudocode: predict the output of the given code block. | 🟡 Medium | `pseudocode` | [GfG](https://www.geeksforgeeks.org/search/?gq=Pseudocode%3A%20predict%20the%20output%20of%20the%20given%20code%20block) · [Search](https://www.google.com/search?q=Pseudocode%3A%20predict%20the%20output%20of%20the%20given%20code%20block) |
+| Quantitative aptitude: time and work problems. | 🟢 Easy | `aptitude` | [GfG](https://www.geeksforgeeks.org/search/?gq=Quantitative%20aptitude%3A%20time%20and%20work%20problems) · [Search](https://www.google.com/search?q=Quantitative%20aptitude%3A%20time%20and%20work%20problems) |
+
+## Round 2 · DSA / Coding
 <!-- round: dsa -->
 
 _Data structures & algorithms on a whiteboard or shared editor._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Jump game. | 🟡 Medium | `greedy` `dp` | [LC](https://leetcode.com/problems/jump-game/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Jump%20game) |
-| Merge intervals. | 🟡 Medium | `intervals` `sorting` | [LC](https://leetcode.com/problems/merge-intervals/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Merge%20intervals) |
-| Find median from data stream. | 🔴 Hard | `heap` `design` | [LC](https://leetcode.com/problems/find-median-from-data-stream/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Find%20median%20from%20data%20stream) |
+| Print the Fibonacci series up to n terms. | 🟢 Easy | `math` | [GfG](https://www.geeksforgeeks.org/search/?gq=Print%20the%20Fibonacci%20series%20up%20to%20n%20terms) · [Search](https://www.google.com/search?q=Print%20the%20Fibonacci%20series%20up%20to%20n%20terms) |
+| Check whether a number is prime. | 🟢 Easy | `math` | [GfG](https://www.geeksforgeeks.org/search/?gq=Check%20whether%20a%20number%20is%20prime) · [Search](https://www.google.com/search?q=Check%20whether%20a%20number%20is%20prime) |
 
-## Round 2 · Machine Coding
-<!-- round: machine_coding -->
-
-_Build a working component or service under time pressure._
-
-| Question | Difficulty | Tags | Practice |
-| --- | --- | --- | --- |
-| Build a stopwatch with lap times. | 🟢 Easy | `react` `state` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20a%20stopwatch%20with%20lap%20times) · [Search](https://www.google.com/search?q=Build%20a%20stopwatch%20with%20lap%20times) |
-| Build a "Wordle" clone with keyboard input. | 🟡 Medium | `react` `state` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20a%20%22Wordle%22%20clone%20with%20keyboard%20input) · [Search](https://www.google.com/search?q=Build%20a%20%22Wordle%22%20clone%20with%20keyboard%20input) |
-
-## Round 3 · System Design
-<!-- round: system_design -->
-
-_High-level architecture of a large-scale system._
-
-| Question | Difficulty | Tags | Practice |
-| --- | --- | --- | --- |
-| Design a micro-frontend architecture. | 🔴 Hard | `frontend` `architecture` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20micro-frontend%20architecture) · [Search](https://www.google.com/search?q=Design%20a%20micro-frontend%20architecture) |
-| Design a large dashboard with many live widgets. | 🔴 Hard | `frontend` `realtime` `perf` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20large%20dashboard%20with%20many%20live%20widgets) · [Search](https://www.google.com/search?q=Design%20a%20large%20dashboard%20with%20many%20live%20widgets) |
-
-## Round 4 · Tech Deep-Dive
+## Round 3 · Tech Deep-Dive
 <!-- round: tech_deep_dive -->
 
 _Deep questions on your core stack and fundamentals._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| localStorage vs sessionStorage vs cookies — when to use each? | 🟢 Easy | `browser` | [GfG](https://www.geeksforgeeks.org/search/?gq=localStorage%20vs%20sessionStorage%20vs%20cookies%20%E2%80%94%20when%20to%20use%20each) · [Search](https://www.google.com/search?q=localStorage%20vs%20sessionStorage%20vs%20cookies%20%E2%80%94%20when%20to%20use%20each) |
-| How do CSS specificity and the cascade resolve conflicts? | 🟡 Medium | `css` | [GfG](https://www.geeksforgeeks.org/search/?gq=How%20do%20CSS%20specificity%20and%20the%20cascade%20resolve%20conflicts) · [Search](https://www.google.com/search?q=How%20do%20CSS%20specificity%20and%20the%20cascade%20resolve%20conflicts) |
-| Explain Core Web Vitals (LCP, CLS, INP) and how to improve them. | 🔴 Hard | `perf` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20Core%20Web%20Vitals%20(LCP%2C%20CLS%2C%20INP)%20and%20how%20to%20improve%20them) · [Search](https://www.google.com/search?q=Explain%20Core%20Web%20Vitals%20(LCP%2C%20CLS%2C%20INP)%20and%20how%20to%20improve%20them) |
+| What is indexing in a database and when does it help? | 🟡 Medium | `dbms` | [GfG](https://www.geeksforgeeks.org/search/?gq=What%20is%20indexing%20in%20a%20database%20and%20when%20does%20it%20help) · [Search](https://www.google.com/search?q=What%20is%20indexing%20in%20a%20database%20and%20when%20does%20it%20help) |
+| What are the JDK, JRE and JVM? | 🟢 Easy | `java` | [GfG](https://www.geeksforgeeks.org/search/?gq=What%20are%20the%20JDK%2C%20JRE%20and%20JVM) · [Search](https://www.google.com/search?q=What%20are%20the%20JDK%2C%20JRE%20and%20JVM) |
+| Difference between DBMS and RDBMS. | 🟢 Easy | `dbms` | [GfG](https://www.geeksforgeeks.org/search/?gq=Difference%20between%20DBMS%20and%20RDBMS) · [Search](https://www.google.com/search?q=Difference%20between%20DBMS%20and%20RDBMS) |
+| What is a constructor? Explain constructor overloading. | 🟢 Easy | `oops` | [GfG](https://www.geeksforgeeks.org/search/?gq=What%20is%20a%20constructor%3F%20Explain%20constructor%20overloading) · [Search](https://www.google.com/search?q=What%20is%20a%20constructor%3F%20Explain%20constructor%20overloading) |
 
-## Round 5 · Hiring Manager
+## Round 4 · Hiring Manager
 <!-- round: hiring_manager -->
 
 _Scope, ownership, and role-fit discussion with the manager._
 
 | Question | Difficulty | Tags |
 | --- | --- | --- |
-| How do you evaluate and adopt a new technology? | — | `judgment` |
+| Walk me through your project and your exact contribution to it. | — | — |
+| How do you ensure code quality under a tight delivery timeline? | — | — |
 
-## Round 6 · Behavioral / HR
+## Round 5 · Behavioral / HR
 <!-- round: behavioral -->
 
 _Values, collaboration, and past-experience (STAR) questions._
 
 | Question | Difficulty | Tags |
 | --- | --- | --- |
-| Describe mentoring or unblocking another engineer. | — | `mentorship` `star` |
-| A time you influenced a decision without authority. | — | `influence` `star` |
+| Are you willing to relocate anywhere in India? | — | — |
+| What do you know about our company and the services we provide? | — | — |
+| Are you comfortable signing the service agreement / bond? | — | — |
 
 ---
 

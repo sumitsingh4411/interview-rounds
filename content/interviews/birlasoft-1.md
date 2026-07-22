@@ -1,79 +1,72 @@
 ---
 id: birlasoft-1
 company: birlasoft
-role: frontend
-level: mid
-outcome: unknown
-year: 2023
+role: fullstack
+level: intern
+outcome: rejected
+year: 2024
 source: curated
 summary: >-
-  5-round mid frontend process. Balanced across coding, design, and
-  collaboration.
+  Campus-style intern fullstack interview. Breadth of fundamentals mattered more
+  than algorithmic depth.
 ---
-# Mid Frontend — Birlasoft
+# Intern Full-stack — Birlasoft
 
-![role](https://img.shields.io/badge/role-Frontend-22d3ee?style=flat-square)
-![level](https://img.shields.io/badge/level-Mid-818cf8?style=flat-square)
-![outcome](https://img.shields.io/badge/outcome-Unknown-6b7280?style=flat-square)
-![year](https://img.shields.io/badge/year-2023-6b7280?style=flat-square)
+![role](https://img.shields.io/badge/role-Full--stack-a78bfa?style=flat-square)
+![level](https://img.shields.io/badge/level-Intern-818cf8?style=flat-square)
+![outcome](https://img.shields.io/badge/outcome-Rejected-f87171?style=flat-square)
+![year](https://img.shields.io/badge/year-2024-6b7280?style=flat-square)
 ![source](https://img.shields.io/badge/source-Commonly%20asked-2dd4bf?style=flat-square)
 
-> 5-round mid frontend process. Balanced across coding, design, and collaboration.
+> Campus-style intern fullstack interview. Breadth of fundamentals mattered more than algorithmic depth.
 
-**5 rounds · 11 questions**
+**4 rounds · 12 questions**
 
 ---
 
-## Round 1 · DSA / Coding
+## Round 1 · Online Assessment
+<!-- round: oa -->
+
+_Timed online coding / aptitude screen, usually the first filter._
+
+| Question | Difficulty | Tags | Practice |
+| --- | --- | --- | --- |
+| Quantitative aptitude: simple and compound interest. | 🟢 Easy | `aptitude` | [GfG](https://www.geeksforgeeks.org/search/?gq=Quantitative%20aptitude%3A%20simple%20and%20compound%20interest) · [Search](https://www.google.com/search?q=Quantitative%20aptitude%3A%20simple%20and%20compound%20interest) |
+| Logical reasoning: syllogisms and statement–conclusion. | 🟡 Medium | `reasoning` | [GfG](https://www.geeksforgeeks.org/search/?gq=Logical%20reasoning%3A%20syllogisms%20and%20statement%E2%80%93conclusion) · [Search](https://www.google.com/search?q=Logical%20reasoning%3A%20syllogisms%20and%20statement%E2%80%93conclusion) |
+| Quantitative aptitude: ratio, proportion and averages. | 🟢 Easy | `aptitude` | [GfG](https://www.geeksforgeeks.org/search/?gq=Quantitative%20aptitude%3A%20ratio%2C%20proportion%20and%20averages) · [Search](https://www.google.com/search?q=Quantitative%20aptitude%3A%20ratio%2C%20proportion%20and%20averages) |
+
+## Round 2 · DSA / Coding
 <!-- round: dsa -->
 
 _Data structures & algorithms on a whiteboard or shared editor._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Implement a trie (prefix tree). | 🟡 Medium | `trie` | [LC](https://leetcode.com/problems/implement-trie-prefix-tree/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Implement%20a%20trie%20(prefix%20tree)) |
-| Meeting rooms II — minimum rooms required. | 🟡 Medium | `heap` `intervals` | [LC](https://leetcode.com/problems/meeting-rooms-ii/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Meeting%20rooms%20II%20%E2%80%94%20minimum%20rooms%20required) |
-| Climbing stairs. | 🟢 Easy | `dp` | [LC](https://leetcode.com/problems/climbing-stairs/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Climbing%20stairs) |
+| Check whether a number is an Armstrong number. | 🟢 Easy | `math` | [GfG](https://www.geeksforgeeks.org/search/?gq=Check%20whether%20a%20number%20is%20an%20Armstrong%20number) · [Search](https://www.google.com/search?q=Check%20whether%20a%20number%20is%20an%20Armstrong%20number) |
+| Remove duplicate characters from a string. | 🟢 Easy | `string` | [GfG](https://www.geeksforgeeks.org/search/?gq=Remove%20duplicate%20characters%20from%20a%20string) · [Search](https://www.google.com/search?q=Remove%20duplicate%20characters%20from%20a%20string) |
 
-## Round 2 · Machine Coding
-<!-- round: machine_coding -->
-
-_Build a working component or service under time pressure._
-
-| Question | Difficulty | Tags | Practice |
-| --- | --- | --- | --- |
-| Build a "connect four" game with win detection. | 🟡 Medium | `react` `state` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20a%20%22connect%20four%22%20game%20with%20win%20detection) · [Search](https://www.google.com/search?q=Build%20a%20%22connect%20four%22%20game%20with%20win%20detection) |
-| Build a color-picker with hex/rgb sync. | 🟡 Medium | `react` `ui` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20a%20color-picker%20with%20hex%2Frgb%20sync) · [Search](https://www.google.com/search?q=Build%20a%20color-picker%20with%20hex%2Frgb%20sync) |
-
-## Round 3 · Low-Level Design
-<!-- round: lld -->
-
-_Object-oriented / low-level design of a focused module._
-
-| Question | Difficulty | Tags | Practice |
-| --- | --- | --- | --- |
-| Design a form-state library with validation rules. | 🟡 Medium | `oop` `api-design` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20form-state%20library%20with%20validation%20rules) · [Search](https://www.google.com/search?q=Design%20a%20form-state%20library%20with%20validation%20rules) |
-
-## Round 4 · Tech Deep-Dive
+## Round 3 · Tech Deep-Dive
 <!-- round: tech_deep_dive -->
 
 _Deep questions on your core stack and fundamentals._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| What is the difference between var, let and const? | 🟢 Easy | `javascript` | [GfG](https://www.geeksforgeeks.org/search/?gq=What%20is%20the%20difference%20between%20var%2C%20let%20and%20const) · [Search](https://www.google.com/search?q=What%20is%20the%20difference%20between%20var%2C%20let%20and%20const) |
-| Explain `this` binding and the call/apply/bind trio. | 🟡 Medium | `javascript` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20%60this%60%20binding%20and%20the%20call%2Fapply%2Fbind%20trio) · [Search](https://www.google.com/search?q=Explain%20%60this%60%20binding%20and%20the%20call%2Fapply%2Fbind%20trio) |
-| Explain hydration and the cost of client vs server rendering. | 🔴 Hard | `ssr` `perf` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20hydration%20and%20the%20cost%20of%20client%20vs%20server%20rendering) · [Search](https://www.google.com/search?q=Explain%20hydration%20and%20the%20cost%20of%20client%20vs%20server%20rendering) |
+| Explain database normalization and its normal forms. | 🟡 Medium | `dbms` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20database%20normalization%20and%20its%20normal%20forms) · [Search](https://www.google.com/search?q=Explain%20database%20normalization%20and%20its%20normal%20forms) |
+| Explain SQL joins: inner, left, right and full outer. | 🟢 Easy | `sql` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20SQL%20joins%3A%20inner%2C%20left%2C%20right%20and%20full%20outer) · [Search](https://www.google.com/search?q=Explain%20SQL%20joins%3A%20inner%2C%20left%2C%20right%20and%20full%20outer) |
+| Write a SQL query to find the second-highest salary. | 🟡 Medium | `sql` | [GfG](https://www.geeksforgeeks.org/search/?gq=Write%20a%20SQL%20query%20to%20find%20the%20second-highest%20salary) · [Search](https://www.google.com/search?q=Write%20a%20SQL%20query%20to%20find%20the%20second-highest%20salary) |
+| Difference between DELETE, TRUNCATE and DROP. | 🟢 Easy | `sql` | [GfG](https://www.geeksforgeeks.org/search/?gq=Difference%20between%20DELETE%2C%20TRUNCATE%20and%20DROP) · [Search](https://www.google.com/search?q=Difference%20between%20DELETE%2C%20TRUNCATE%20and%20DROP) |
 
-## Round 5 · Behavioral / HR
+## Round 4 · Behavioral / HR
 <!-- round: behavioral -->
 
 _Values, collaboration, and past-experience (STAR) questions._
 
 | Question | Difficulty | Tags |
 | --- | --- | --- |
-| Describe working with an ambiguous or shifting requirement. | — | `ambiguity` `star` |
-| Tell me about the hardest bug you have debugged. | — | `debugging` `star` |
+| Why do you want to join our company? | — | — |
+| Tell me about a conflict in a team project and how you resolved it. | — | — |
+| What are your interests outside academics? | — | — |
 
 ---
 

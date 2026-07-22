@@ -1,24 +1,26 @@
 ---
 id: ltimindtree-2
 company: ltimindtree
-role: fullstack
-level: staff
-outcome: withdrew
-year: 2025
+role: backend
+level: senior
+outcome: no_offer
+year: 2023
 source: curated
-summary: A staff fullstack loop. Fundamentals mattered as much as getting to an answer.
+summary: >-
+  4-round senior backend process. Fundamentals over puzzles — OOP, DBMS and SQL
+  carried the most weight.
 ---
-# Staff Full-stack — LTIMindtree
+# Senior Backend — LTIMindtree
 
-![role](https://img.shields.io/badge/role-Full--stack-a78bfa?style=flat-square)
-![level](https://img.shields.io/badge/level-Staff-818cf8?style=flat-square)
-![outcome](https://img.shields.io/badge/outcome-Withdrew-fbbf24?style=flat-square)
-![year](https://img.shields.io/badge/year-2025-6b7280?style=flat-square)
+![role](https://img.shields.io/badge/role-Backend-8b93ff?style=flat-square)
+![level](https://img.shields.io/badge/level-Senior-818cf8?style=flat-square)
+![outcome](https://img.shields.io/badge/outcome-No%20offer-f87171?style=flat-square)
+![year](https://img.shields.io/badge/year-2023-6b7280?style=flat-square)
 ![source](https://img.shields.io/badge/source-Commonly%20asked-2dd4bf?style=flat-square)
 
-> A staff fullstack loop. Fundamentals mattered as much as getting to an answer.
+> 4-round senior backend process. Fundamentals over puzzles — OOP, DBMS and SQL carried the most weight.
 
-**5 rounds · 9 questions**
+**4 rounds · 11 questions**
 
 ---
 
@@ -29,47 +31,41 @@ _Data structures & algorithms on a whiteboard or shared editor._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Best time to buy and sell stock. | 🟢 Easy | `array` `greedy` | [LC](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Best%20time%20to%20buy%20and%20sell%20stock) |
-| Longest consecutive sequence. | 🟡 Medium | `hashmap` `array` | [LC](https://leetcode.com/problems/longest-consecutive-sequence/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Longest%20consecutive%20sequence) |
-| Binary tree maximum path sum. | 🔴 Hard | `tree` `dfs` | [LC](https://leetcode.com/problems/binary-tree-maximum-path-sum/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Binary%20tree%20maximum%20path%20sum) |
+| Find the sum of digits of a number. | 🟢 Easy | `math` | [GfG](https://www.geeksforgeeks.org/search/?gq=Find%20the%20sum%20of%20digits%20of%20a%20number) · [Search](https://www.google.com/search?q=Find%20the%20sum%20of%20digits%20of%20a%20number) |
+| Count vowels, consonants and words in a string. | 🟢 Easy | `string` | [GfG](https://www.geeksforgeeks.org/search/?gq=Count%20vowels%2C%20consonants%20and%20words%20in%20a%20string) · [Search](https://www.google.com/search?q=Count%20vowels%2C%20consonants%20and%20words%20in%20a%20string) |
 
-## Round 2 · System Design
-<!-- round: system_design -->
+## Round 2 · Tech Deep-Dive
+<!-- round: tech_deep_dive -->
 
-_High-level architecture of a large-scale system._
-
-| Question | Difficulty | Tags | Practice |
-| --- | --- | --- | --- |
-| Design a URL shortener like TinyURL. | 🟡 Medium | `hashing` `cache` `sharding` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20URL%20shortener%20like%20TinyURL) · [Search](https://www.google.com/search?q=Design%20a%20URL%20shortener%20like%20TinyURL) |
-| Design an event-driven order pipeline with retries. | 🔴 Hard | `events` `queues` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20an%20event-driven%20order%20pipeline%20with%20retries) · [Search](https://www.google.com/search?q=Design%20an%20event-driven%20order%20pipeline%20with%20retries) |
-
-## Round 3 · Low-Level Design
-<!-- round: lld -->
-
-_Object-oriented / low-level design of a focused module._
+_Deep questions on your core stack and fundamentals._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Design a drag-and-drop framework abstraction. | 🔴 Hard | `oop` `dnd` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20drag-and-drop%20framework%20abstraction) · [Search](https://www.google.com/search?q=Design%20a%20drag-and-drop%20framework%20abstraction) |
+| Explain database normalization and its normal forms. | 🟡 Medium | `dbms` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20database%20normalization%20and%20its%20normal%20forms) · [Search](https://www.google.com/search?q=Explain%20database%20normalization%20and%20its%20normal%20forms) |
+| Difference between a structure and a union in C. | 🟢 Easy | `c` | [GfG](https://www.geeksforgeeks.org/search/?gq=Difference%20between%20a%20structure%20and%20a%20union%20in%20C) · [Search](https://www.google.com/search?q=Difference%20between%20a%20structure%20and%20a%20union%20in%20C) |
+| Explain the four pillars of OOP with examples. | 🟢 Easy | `oops` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20the%20four%20pillars%20of%20OOP%20with%20examples) · [Search](https://www.google.com/search?q=Explain%20the%20four%20pillars%20of%20OOP%20with%20examples) |
+| Explain the time complexity of common sorting algorithms. | 🟡 Medium | `data-structures` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20the%20time%20complexity%20of%20common%20sorting%20algorithms) · [Search](https://www.google.com/search?q=Explain%20the%20time%20complexity%20of%20common%20sorting%20algorithms) |
 
-## Round 4 · Hiring Manager
+## Round 3 · Hiring Manager
 <!-- round: hiring_manager -->
 
 _Scope, ownership, and role-fit discussion with the manager._
 
 | Question | Difficulty | Tags |
 | --- | --- | --- |
-| How do you measure the success of a project after launch? | — | `metrics` |
+| How do you approach learning a technology you have never used? | — | — |
+| Describe your experience working with an onsite / offshore team. | — | — |
 
-## Round 5 · Behavioral / HR
+## Round 4 · Behavioral / HR
 <!-- round: behavioral -->
 
 _Values, collaboration, and past-experience (STAR) questions._
 
 | Question | Difficulty | Tags |
 | --- | --- | --- |
-| How do you get up to speed on an unfamiliar codebase? | — | `learning` |
-| How do you handle competing priorities from two managers? | — | `prioritization` `star` |
+| Are you willing to relocate anywhere in India? | — | — |
+| How do you handle pressure and tight deadlines? | — | — |
+| Do you have any backlogs or academic gaps? Please explain. | — | — |
 
 ---
 

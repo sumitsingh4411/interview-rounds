@@ -1,89 +1,82 @@
 ---
 id: virtusa-3
 company: virtusa
-role: backend
-level: senior
+role: frontend
+level: mid
 outcome: offer
-year: 2025
+year: 2024
 source: curated
 summary: >-
-  6-round senior backend process. Balanced across coding, design, and
-  collaboration.
+  A mid frontend hiring drive. Aptitude screen first, then technical
+  fundamentals and HR.
 ---
-# Senior Backend — Virtusa
+# Mid Frontend — Virtusa
 
-![role](https://img.shields.io/badge/role-Backend-8b93ff?style=flat-square)
-![level](https://img.shields.io/badge/level-Senior-818cf8?style=flat-square)
+![role](https://img.shields.io/badge/role-Frontend-22d3ee?style=flat-square)
+![level](https://img.shields.io/badge/level-Mid-818cf8?style=flat-square)
 ![outcome](https://img.shields.io/badge/outcome-Offer-34d399?style=flat-square)
-![year](https://img.shields.io/badge/year-2025-6b7280?style=flat-square)
+![year](https://img.shields.io/badge/year-2024-6b7280?style=flat-square)
 ![source](https://img.shields.io/badge/source-Commonly%20asked-2dd4bf?style=flat-square)
 
-> 6-round senior backend process. Balanced across coding, design, and collaboration.
+> A mid frontend hiring drive. Aptitude screen first, then technical fundamentals and HR.
 
-**6 rounds · 13 questions**
+**5 rounds · 14 questions**
 
 ---
 
-## Round 1 · DSA / Coding
+## Round 1 · Online Assessment
+<!-- round: oa -->
+
+_Timed online coding / aptitude screen, usually the first filter._
+
+| Question | Difficulty | Tags | Practice |
+| --- | --- | --- | --- |
+| Verbal ability: synonyms, antonyms and para-jumbles. | 🟢 Easy | `verbal` | [GfG](https://www.geeksforgeeks.org/search/?gq=Verbal%20ability%3A%20synonyms%2C%20antonyms%20and%20para-jumbles) · [Search](https://www.google.com/search?q=Verbal%20ability%3A%20synonyms%2C%20antonyms%20and%20para-jumbles) |
+| Pseudocode: spot the error in the given snippet. | 🟡 Medium | `pseudocode` | [GfG](https://www.geeksforgeeks.org/search/?gq=Pseudocode%3A%20spot%20the%20error%20in%20the%20given%20snippet) · [Search](https://www.google.com/search?q=Pseudocode%3A%20spot%20the%20error%20in%20the%20given%20snippet) |
+| Quantitative aptitude: time and work problems. | 🟢 Easy | `aptitude` | [GfG](https://www.geeksforgeeks.org/search/?gq=Quantitative%20aptitude%3A%20time%20and%20work%20problems) · [Search](https://www.google.com/search?q=Quantitative%20aptitude%3A%20time%20and%20work%20problems) |
+
+## Round 2 · DSA / Coding
 <!-- round: dsa -->
 
 _Data structures & algorithms on a whiteboard or shared editor._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Valid anagram. | 🟢 Easy | `string` `hashmap` | [LC](https://leetcode.com/problems/valid-anagram/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Valid%20anagram) |
-| Coin change — fewest coins to make an amount. | 🟡 Medium | `dp` | [LC](https://leetcode.com/problems/coin-change/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Coin%20change%20%E2%80%94%20fewest%20coins%20to%20make%20an%20amount) |
-| Top K frequent elements. | 🟡 Medium | `heap` `hashmap` | [LC](https://leetcode.com/problems/top-k-frequent-elements/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Top%20K%20frequent%20elements) |
+| Count the frequency of each character in a string. | 🟢 Easy | `string` | [GfG](https://www.geeksforgeeks.org/search/?gq=Count%20the%20frequency%20of%20each%20character%20in%20a%20string) · [Search](https://www.google.com/search?q=Count%20the%20frequency%20of%20each%20character%20in%20a%20string) |
+| Remove duplicate characters from a string. | 🟢 Easy | `string` | [GfG](https://www.geeksforgeeks.org/search/?gq=Remove%20duplicate%20characters%20from%20a%20string) · [Search](https://www.google.com/search?q=Remove%20duplicate%20characters%20from%20a%20string) |
 
-## Round 2 · Machine Coding
-<!-- round: machine_coding -->
-
-_Build a working component or service under time pressure._
-
-| Question | Difficulty | Tags | Practice |
-| --- | --- | --- | --- |
-| Build a webhook receiver with signature verification. | 🟡 Medium | `security` `api` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20a%20webhook%20receiver%20with%20signature%20verification) · [Search](https://www.google.com/search?q=Build%20a%20webhook%20receiver%20with%20signature%20verification) |
-| Implement a job queue with retries and backoff. | 🔴 Hard | `queue` `reliability` | [GfG](https://www.geeksforgeeks.org/search/?gq=Implement%20a%20job%20queue%20with%20retries%20and%20backoff) · [Search](https://www.google.com/search?q=Implement%20a%20job%20queue%20with%20retries%20and%20backoff) |
-
-## Round 3 · System Design
-<!-- round: system_design -->
-
-_High-level architecture of a large-scale system._
-
-| Question | Difficulty | Tags | Practice |
-| --- | --- | --- | --- |
-| Design a ride-matching backend (riders ↔ nearby drivers). | 🔴 Hard | `geospatial` `matching` `realtime` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20ride-matching%20backend%20(riders%20%E2%86%94%20nearby%20drivers)) · [Search](https://www.google.com/search?q=Design%20a%20ride-matching%20backend%20(riders%20%E2%86%94%20nearby%20drivers)) |
-| Design a news feed / timeline. | 🔴 Hard | `fanout` `ranking` `cache` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20news%20feed%20%2F%20timeline) · [Search](https://www.google.com/search?q=Design%20a%20news%20feed%20%2F%20timeline) |
-
-## Round 4 · Tech Deep-Dive
+## Round 3 · Tech Deep-Dive
 <!-- round: tech_deep_dive -->
 
 _Deep questions on your core stack and fundamentals._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Explain how you handle concurrency / race conditions. | 🔴 Hard | `concurrency` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20how%20you%20handle%20concurrency%20%2F%20race%20conditions) · [Search](https://www.google.com/search?q=Explain%20how%20you%20handle%20concurrency%20%2F%20race%20conditions) |
-| Explain how DNS resolution works end to end. | 🟡 Medium | `networking` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20how%20DNS%20resolution%20works%20end%20to%20end) · [Search](https://www.google.com/search?q=Explain%20how%20DNS%20resolution%20works%20end%20to%20end) |
-| How do circuit breakers and bulkheads improve resilience? | 🟡 Medium | `reliability` | [GfG](https://www.geeksforgeeks.org/search/?gq=How%20do%20circuit%20breakers%20and%20bulkheads%20improve%20resilience) · [Search](https://www.google.com/search?q=How%20do%20circuit%20breakers%20and%20bulkheads%20improve%20resilience) |
+| Difference between == and equals() in Java. | 🟢 Easy | `java` | [GfG](https://www.geeksforgeeks.org/search/?gq=Difference%20between%20%3D%3D%20and%20equals()%20in%20Java) · [Search](https://www.google.com/search?q=Difference%20between%20%3D%3D%20and%20equals()%20in%20Java) |
+| Difference between DBMS and RDBMS. | 🟢 Easy | `dbms` | [GfG](https://www.geeksforgeeks.org/search/?gq=Difference%20between%20DBMS%20and%20RDBMS) · [Search](https://www.google.com/search?q=Difference%20between%20DBMS%20and%20RDBMS) |
+| Explain the ACID properties of a transaction. | 🟡 Medium | `dbms` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20the%20ACID%20properties%20of%20a%20transaction) · [Search](https://www.google.com/search?q=Explain%20the%20ACID%20properties%20of%20a%20transaction) |
+| What happens when you type a URL into a browser? | 🟡 Medium | `networking` | [GfG](https://www.geeksforgeeks.org/search/?gq=What%20happens%20when%20you%20type%20a%20URL%20into%20a%20browser) · [Search](https://www.google.com/search?q=What%20happens%20when%20you%20type%20a%20URL%20into%20a%20browser) |
 
-## Round 5 · Hiring Manager
+## Round 4 · Hiring Manager
 <!-- round: hiring_manager -->
 
 _Scope, ownership, and role-fit discussion with the manager._
 
 | Question | Difficulty | Tags |
 | --- | --- | --- |
-| Describe how you drove alignment across multiple teams. | — | `collaboration` `influence` |
+| How do you handle a client changing requirements mid-sprint? | — | — |
+| How do you approach learning a technology you have never used? | — | — |
 
-## Round 6 · Behavioral / HR
+## Round 5 · Behavioral / HR
 <!-- round: behavioral -->
 
 _Values, collaboration, and past-experience (STAR) questions._
 
 | Question | Difficulty | Tags |
 | --- | --- | --- |
-| Describe a disagreement on a code review and how it ended. | — | `conflict` `star` |
-| Describe a conflict with your manager and the outcome. | — | `conflict` `star` |
+| Tell me about a conflict in a team project and how you resolved it. | — | — |
+| Are you comfortable signing the service agreement / bond? | — | — |
+| Would you be comfortable working on any technology assigned to you? | — | — |
 
 ---
 

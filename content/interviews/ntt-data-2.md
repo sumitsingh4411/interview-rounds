@@ -1,79 +1,72 @@
 ---
 id: ntt-data-2
 company: ntt-data
-role: fullstack
-level: mid
-outcome: offer
-year: 2024
+role: backend
+level: intern
+outcome: unknown
+year: 2023
 source: curated
 summary: >-
-  5-round mid fullstack process. Coding-heavy early, design and behavioral
-  later.
+  Campus-style intern backend interview. Basic programming plus core CS;
+  communication mattered throughout.
 ---
-# Mid Full-stack — NTT Data
+# Intern Backend — NTT Data
 
-![role](https://img.shields.io/badge/role-Full--stack-a78bfa?style=flat-square)
-![level](https://img.shields.io/badge/level-Mid-818cf8?style=flat-square)
-![outcome](https://img.shields.io/badge/outcome-Offer-34d399?style=flat-square)
-![year](https://img.shields.io/badge/year-2024-6b7280?style=flat-square)
+![role](https://img.shields.io/badge/role-Backend-8b93ff?style=flat-square)
+![level](https://img.shields.io/badge/level-Intern-818cf8?style=flat-square)
+![outcome](https://img.shields.io/badge/outcome-Unknown-6b7280?style=flat-square)
+![year](https://img.shields.io/badge/year-2023-6b7280?style=flat-square)
 ![source](https://img.shields.io/badge/source-Commonly%20asked-2dd4bf?style=flat-square)
 
-> 5-round mid fullstack process. Coding-heavy early, design and behavioral later.
+> Campus-style intern backend interview. Basic programming plus core CS; communication mattered throughout.
 
-**5 rounds · 11 questions**
+**4 rounds · 12 questions**
 
 ---
 
-## Round 1 · DSA / Coding
+## Round 1 · Online Assessment
+<!-- round: oa -->
+
+_Timed online coding / aptitude screen, usually the first filter._
+
+| Question | Difficulty | Tags | Practice |
+| --- | --- | --- | --- |
+| Quantitative aptitude: time and work problems. | 🟢 Easy | `aptitude` | [GfG](https://www.geeksforgeeks.org/search/?gq=Quantitative%20aptitude%3A%20time%20and%20work%20problems) · [Search](https://www.google.com/search?q=Quantitative%20aptitude%3A%20time%20and%20work%20problems) |
+| Quantitative aptitude: profit, loss and percentages. | 🟢 Easy | `aptitude` | [GfG](https://www.geeksforgeeks.org/search/?gq=Quantitative%20aptitude%3A%20profit%2C%20loss%20and%20percentages) · [Search](https://www.google.com/search?q=Quantitative%20aptitude%3A%20profit%2C%20loss%20and%20percentages) |
+| Pseudocode: spot the error in the given snippet. | 🟡 Medium | `pseudocode` | [GfG](https://www.geeksforgeeks.org/search/?gq=Pseudocode%3A%20spot%20the%20error%20in%20the%20given%20snippet) · [Search](https://www.google.com/search?q=Pseudocode%3A%20spot%20the%20error%20in%20the%20given%20snippet) |
+
+## Round 2 · DSA / Coding
 <!-- round: dsa -->
 
 _Data structures & algorithms on a whiteboard or shared editor._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Container with most water. | 🟡 Medium | `two-pointers` `array` | [LC](https://leetcode.com/problems/container-with-most-water/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Container%20with%20most%20water) |
-| Validate a binary search tree. | 🟡 Medium | `tree` `dfs` | [LC](https://leetcode.com/problems/validate-binary-search-tree/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Validate%20a%20binary%20search%20tree) |
-| Meeting rooms II — minimum rooms required. | 🟡 Medium | `heap` `intervals` | [LC](https://leetcode.com/problems/meeting-rooms-ii/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Meeting%20rooms%20II%20%E2%80%94%20minimum%20rooms%20required) |
+| Find the factorial of a number using recursion. | 🟢 Easy | `recursion` | [GfG](https://www.geeksforgeeks.org/search/?gq=Find%20the%20factorial%20of%20a%20number%20using%20recursion) · [Search](https://www.google.com/search?q=Find%20the%20factorial%20of%20a%20number%20using%20recursion) |
+| Count vowels, consonants and words in a string. | 🟢 Easy | `string` | [GfG](https://www.geeksforgeeks.org/search/?gq=Count%20vowels%2C%20consonants%20and%20words%20in%20a%20string) · [Search](https://www.google.com/search?q=Count%20vowels%2C%20consonants%20and%20words%20in%20a%20string) |
 
-## Round 2 · Machine Coding
-<!-- round: machine_coding -->
-
-_Build a working component or service under time pressure._
-
-| Question | Difficulty | Tags | Practice |
-| --- | --- | --- | --- |
-| Build a webhook receiver with signature verification. | 🟡 Medium | `security` `api` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20a%20webhook%20receiver%20with%20signature%20verification) · [Search](https://www.google.com/search?q=Build%20a%20webhook%20receiver%20with%20signature%20verification) |
-| Implement a JSON config loader with env overrides. | 🟢 Easy | `config` | [GfG](https://www.geeksforgeeks.org/search/?gq=Implement%20a%20JSON%20config%20loader%20with%20env%20overrides) · [Search](https://www.google.com/search?q=Implement%20a%20JSON%20config%20loader%20with%20env%20overrides) |
-
-## Round 3 · Low-Level Design
-<!-- round: lld -->
-
-_Object-oriented / low-level design of a focused module._
-
-| Question | Difficulty | Tags | Practice |
-| --- | --- | --- | --- |
-| Design a splitwise-style expense sharer. | 🟡 Medium | `oop` `graph` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20splitwise-style%20expense%20sharer) · [Search](https://www.google.com/search?q=Design%20a%20splitwise-style%20expense%20sharer) |
-
-## Round 4 · Tech Deep-Dive
+## Round 3 · Tech Deep-Dive
 <!-- round: tech_deep_dive -->
 
 _Deep questions on your core stack and fundamentals._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| What is tree shaking and when does it fail? | 🟡 Medium | `bundling` | [GfG](https://www.geeksforgeeks.org/search/?gq=What%20is%20tree%20shaking%20and%20when%20does%20it%20fail) · [Search](https://www.google.com/search?q=What%20is%20tree%20shaking%20and%20when%20does%20it%20fail) |
-| How do you secure secrets and handle auth tokens? | 🟡 Medium | `security` | [GfG](https://www.geeksforgeeks.org/search/?gq=How%20do%20you%20secure%20secrets%20and%20handle%20auth%20tokens) · [Search](https://www.google.com/search?q=How%20do%20you%20secure%20secrets%20and%20handle%20auth%20tokens) |
-| How does a service worker enable offline support? | 🟡 Medium | `pwa` `offline` | [GfG](https://www.geeksforgeeks.org/search/?gq=How%20does%20a%20service%20worker%20enable%20offline%20support) · [Search](https://www.google.com/search?q=How%20does%20a%20service%20worker%20enable%20offline%20support) |
+| Explain CPU scheduling algorithms: FCFS, SJF and round robin. | 🟡 Medium | `os` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20CPU%20scheduling%20algorithms%3A%20FCFS%2C%20SJF%20and%20round%20robin) · [Search](https://www.google.com/search?q=Explain%20CPU%20scheduling%20algorithms%3A%20FCFS%2C%20SJF%20and%20round%20robin) |
+| Explain database normalization and its normal forms. | 🟡 Medium | `dbms` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20database%20normalization%20and%20its%20normal%20forms) · [Search](https://www.google.com/search?q=Explain%20database%20normalization%20and%20its%20normal%20forms) |
+| Difference between C and C++. | 🟢 Easy | `c` | [GfG](https://www.geeksforgeeks.org/search/?gq=Difference%20between%20C%20and%20C%2B%2B) · [Search](https://www.google.com/search?q=Difference%20between%20C%20and%20C%2B%2B) |
+| Explain virtual memory, paging and segmentation. | 🟡 Medium | `os` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20virtual%20memory%2C%20paging%20and%20segmentation) · [Search](https://www.google.com/search?q=Explain%20virtual%20memory%2C%20paging%20and%20segmentation) |
 
-## Round 5 · Behavioral / HR
+## Round 4 · Behavioral / HR
 <!-- round: behavioral -->
 
 _Values, collaboration, and past-experience (STAR) questions._
 
 | Question | Difficulty | Tags |
 | --- | --- | --- |
-| When did you have to make a decision with incomplete data? | — | `judgment` `star` |
-| How do you handle being blocked for several days? | — | `ownership` `star` |
+| Are you comfortable signing the service agreement / bond? | — | — |
+| Why do you want to join our company? | — | — |
+| Why should we hire you? | — | — |
 
 ---
 

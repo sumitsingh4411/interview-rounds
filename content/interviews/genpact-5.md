@@ -1,58 +1,61 @@
 ---
 id: genpact-5
 company: genpact
-role: backend
-level: staff
-outcome: offer
+role: fullstack
+level: mid
+outcome: rejected
 year: 2024
 source: curated
 summary: >-
-  5-round staff backend process. Coding-heavy early, design and behavioral
-  later.
+  A mid fullstack hiring drive. Breadth of fundamentals mattered more than
+  algorithmic depth.
 ---
-# Staff Backend — Genpact
+# Mid Full-stack — Genpact
 
-![role](https://img.shields.io/badge/role-Backend-8b93ff?style=flat-square)
-![level](https://img.shields.io/badge/level-Staff-818cf8?style=flat-square)
-![outcome](https://img.shields.io/badge/outcome-Offer-34d399?style=flat-square)
+![role](https://img.shields.io/badge/role-Full--stack-a78bfa?style=flat-square)
+![level](https://img.shields.io/badge/level-Mid-818cf8?style=flat-square)
+![outcome](https://img.shields.io/badge/outcome-Rejected-f87171?style=flat-square)
 ![year](https://img.shields.io/badge/year-2024-6b7280?style=flat-square)
 ![source](https://img.shields.io/badge/source-Commonly%20asked-2dd4bf?style=flat-square)
 
-> 5-round staff backend process. Coding-heavy early, design and behavioral later.
+> A mid fullstack hiring drive. Breadth of fundamentals mattered more than algorithmic depth.
 
-**5 rounds · 9 questions**
+**5 rounds · 14 questions**
 
 ---
 
-## Round 1 · DSA / Coding
+## Round 1 · Online Assessment
+<!-- round: oa -->
+
+_Timed online coding / aptitude screen, usually the first filter._
+
+| Question | Difficulty | Tags | Practice |
+| --- | --- | --- | --- |
+| Verbal ability: synonyms, antonyms and para-jumbles. | 🟢 Easy | `verbal` | [GfG](https://www.geeksforgeeks.org/search/?gq=Verbal%20ability%3A%20synonyms%2C%20antonyms%20and%20para-jumbles) · [Search](https://www.google.com/search?q=Verbal%20ability%3A%20synonyms%2C%20antonyms%20and%20para-jumbles) |
+| Logical reasoning: number and letter series completion. | 🟢 Easy | `reasoning` | [GfG](https://www.geeksforgeeks.org/search/?gq=Logical%20reasoning%3A%20number%20and%20letter%20series%20completion) · [Search](https://www.google.com/search?q=Logical%20reasoning%3A%20number%20and%20letter%20series%20completion) |
+| Quantitative aptitude: ratio, proportion and averages. | 🟢 Easy | `aptitude` | [GfG](https://www.geeksforgeeks.org/search/?gq=Quantitative%20aptitude%3A%20ratio%2C%20proportion%20and%20averages) · [Search](https://www.google.com/search?q=Quantitative%20aptitude%3A%20ratio%2C%20proportion%20and%20averages) |
+
+## Round 2 · DSA / Coding
 <!-- round: dsa -->
 
 _Data structures & algorithms on a whiteboard or shared editor._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Rotting oranges. | 🟡 Medium | `bfs` `grid` | [LC](https://leetcode.com/problems/rotting-oranges/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Rotting%20oranges) |
-| Container with most water. | 🟡 Medium | `two-pointers` `array` | [LC](https://leetcode.com/problems/container-with-most-water/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Container%20with%20most%20water) |
-| Median of two sorted arrays. | 🔴 Hard | `binary-search` | [LC](https://leetcode.com/problems/median-of-two-sorted-arrays/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Median%20of%20two%20sorted%20arrays) |
+| Reverse a linked list. | 🟡 Medium | `linked-list` | [LC](https://leetcode.com/problems/reverse-linked-list/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Reverse%20a%20linked%20list) |
+| Print the Fibonacci series up to n terms. | 🟢 Easy | `math` | [GfG](https://www.geeksforgeeks.org/search/?gq=Print%20the%20Fibonacci%20series%20up%20to%20n%20terms) · [Search](https://www.google.com/search?q=Print%20the%20Fibonacci%20series%20up%20to%20n%20terms) |
 
-## Round 2 · System Design
-<!-- round: system_design -->
+## Round 3 · Tech Deep-Dive
+<!-- round: tech_deep_dive -->
 
-_High-level architecture of a large-scale system._
-
-| Question | Difficulty | Tags | Practice |
-| --- | --- | --- | --- |
-| Design an analytics / metrics dashboard backend. | 🔴 Hard | `time-series` `aggregation` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20an%20analytics%20%2F%20metrics%20dashboard%20backend) · [Search](https://www.google.com/search?q=Design%20an%20analytics%20%2F%20metrics%20dashboard%20backend) |
-| Design a search indexing pipeline (crawl to index to serve). | 🔴 Hard | `indexing` `pipeline` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20search%20indexing%20pipeline%20(crawl%20to%20index%20to%20serve)) · [Search](https://www.google.com/search?q=Design%20a%20search%20indexing%20pipeline%20(crawl%20to%20index%20to%20serve)) |
-
-## Round 3 · Low-Level Design
-<!-- round: lld -->
-
-_Object-oriented / low-level design of a focused module._
+_Deep questions on your core stack and fundamentals._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Design a library management system. | 🟡 Medium | `oop` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20library%20management%20system) · [Search](https://www.google.com/search?q=Design%20a%20library%20management%20system) |
+| Explain the four pillars of OOP with examples. | 🟢 Easy | `oops` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20the%20four%20pillars%20of%20OOP%20with%20examples) · [Search](https://www.google.com/search?q=Explain%20the%20four%20pillars%20of%20OOP%20with%20examples) |
+| Explain exception handling with try, catch and finally. | 🟢 Easy | `java` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20exception%20handling%20with%20try%2C%20catch%20and%20finally) · [Search](https://www.google.com/search?q=Explain%20exception%20handling%20with%20try%2C%20catch%20and%20finally) |
+| Difference between stack and heap memory. | 🟢 Easy | `fundamentals` | [GfG](https://www.geeksforgeeks.org/search/?gq=Difference%20between%20stack%20and%20heap%20memory) · [Search](https://www.google.com/search?q=Difference%20between%20stack%20and%20heap%20memory) |
+| Write a SQL query to find the second-highest salary. | 🟡 Medium | `sql` | [GfG](https://www.geeksforgeeks.org/search/?gq=Write%20a%20SQL%20query%20to%20find%20the%20second-highest%20salary) · [Search](https://www.google.com/search?q=Write%20a%20SQL%20query%20to%20find%20the%20second-highest%20salary) |
 
 ## Round 4 · Hiring Manager
 <!-- round: hiring_manager -->
@@ -61,7 +64,8 @@ _Scope, ownership, and role-fit discussion with the manager._
 
 | Question | Difficulty | Tags |
 | --- | --- | --- |
-| How do you scope and staff a multi-month project? | — | `planning` `leadership` |
+| How do you estimate the effort for a module assigned to you? | — | — |
+| What would you do if you disagreed with your project lead? | — | — |
 
 ## Round 5 · Behavioral / HR
 <!-- round: behavioral -->
@@ -70,8 +74,9 @@ _Values, collaboration, and past-experience (STAR) questions._
 
 | Question | Difficulty | Tags |
 | --- | --- | --- |
-| Describe a conflict with your manager and the outcome. | — | `conflict` `star` |
-| Describe a time you improved a process or tool for your team. | — | `ownership` `star` |
+| Where do you see yourself in five years? | — | — |
+| Are you comfortable working in rotational or night shifts? | — | — |
+| Tell me about yourself. | — | — |
 
 ---
 

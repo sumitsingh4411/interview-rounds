@@ -2,25 +2,25 @@
 id: cognizant-1
 company: cognizant
 role: frontend
-level: junior
-outcome: offer
-year: 2025
+level: mid
+outcome: rejected
+year: 2023
 source: curated
 summary: >-
-  5-round junior frontend process. Fundamentals mattered as much as getting to
-  an answer.
+  5-round mid frontend process. Aptitude screen first, then technical
+  fundamentals and HR.
 ---
-# Junior Frontend — Cognizant
+# Mid Frontend — Cognizant
 
 ![role](https://img.shields.io/badge/role-Frontend-22d3ee?style=flat-square)
-![level](https://img.shields.io/badge/level-Junior-818cf8?style=flat-square)
-![outcome](https://img.shields.io/badge/outcome-Offer-34d399?style=flat-square)
-![year](https://img.shields.io/badge/year-2025-6b7280?style=flat-square)
+![level](https://img.shields.io/badge/level-Mid-818cf8?style=flat-square)
+![outcome](https://img.shields.io/badge/outcome-Rejected-f87171?style=flat-square)
+![year](https://img.shields.io/badge/year-2023-6b7280?style=flat-square)
 ![source](https://img.shields.io/badge/source-Commonly%20asked-2dd4bf?style=flat-square)
 
-> 5-round junior frontend process. Fundamentals mattered as much as getting to an answer.
+> 5-round mid frontend process. Aptitude screen first, then technical fundamentals and HR.
 
-**5 rounds · 11 questions**
+**5 rounds · 14 questions**
 
 ---
 
@@ -31,7 +31,9 @@ _Timed online coding / aptitude screen, usually the first filter._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Validate an IP address (IPv4 / IPv6). | 🟡 Medium | `string` `parsing` | [GfG](https://www.geeksforgeeks.org/search/?gq=Validate%20an%20IP%20address%20(IPv4%20%2F%20IPv6)) · [Search](https://www.google.com/search?q=Validate%20an%20IP%20address%20(IPv4%20%2F%20IPv6)) |
+| Quantitative aptitude: time and work problems. | 🟢 Easy | `aptitude` | [GfG](https://www.geeksforgeeks.org/search/?gq=Quantitative%20aptitude%3A%20time%20and%20work%20problems) · [Search](https://www.google.com/search?q=Quantitative%20aptitude%3A%20time%20and%20work%20problems) |
+| Quantitative aptitude: ratio, proportion and averages. | 🟢 Easy | `aptitude` | [GfG](https://www.geeksforgeeks.org/search/?gq=Quantitative%20aptitude%3A%20ratio%2C%20proportion%20and%20averages) · [Search](https://www.google.com/search?q=Quantitative%20aptitude%3A%20ratio%2C%20proportion%20and%20averages) |
+| Verbal ability: synonyms, antonyms and para-jumbles. | 🟢 Easy | `verbal` | [GfG](https://www.geeksforgeeks.org/search/?gq=Verbal%20ability%3A%20synonyms%2C%20antonyms%20and%20para-jumbles) · [Search](https://www.google.com/search?q=Verbal%20ability%3A%20synonyms%2C%20antonyms%20and%20para-jumbles) |
 
 ## Round 2 · DSA / Coding
 <!-- round: dsa -->
@@ -40,30 +42,30 @@ _Data structures & algorithms on a whiteboard or shared editor._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Largest rectangle in histogram. | 🔴 Hard | `stack` `monotonic-stack` | [LC](https://leetcode.com/problems/largest-rectangle-in-histogram/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Largest%20rectangle%20in%20histogram) |
-| Combination sum. | 🟡 Medium | `backtracking` | [LC](https://leetcode.com/problems/combination-sum/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Combination%20sum) |
-| Word ladder — shortest transformation sequence. | 🔴 Hard | `bfs` `graph` | [LC](https://leetcode.com/problems/word-ladder/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Word%20ladder%20%E2%80%94%20shortest%20transformation%20sequence) |
+| Sort an array using bubble sort and state its complexity. | 🟢 Easy | `sorting` | [GfG](https://www.geeksforgeeks.org/search/?gq=Sort%20an%20array%20using%20bubble%20sort%20and%20state%20its%20complexity) · [Search](https://www.google.com/search?q=Sort%20an%20array%20using%20bubble%20sort%20and%20state%20its%20complexity) |
+| Reverse a linked list. | 🟡 Medium | `linked-list` | [LC](https://leetcode.com/problems/reverse-linked-list/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Reverse%20a%20linked%20list) |
 
-## Round 3 · Machine Coding
-<!-- round: machine_coding -->
-
-_Build a working component or service under time pressure._
-
-| Question | Difficulty | Tags | Practice |
-| --- | --- | --- | --- |
-| Build an accessible tabs component with keyboard nav. | 🟡 Medium | `react` `a11y` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20an%20accessible%20tabs%20component%20with%20keyboard%20nav) · [Search](https://www.google.com/search?q=Build%20an%20accessible%20tabs%20component%20with%20keyboard%20nav) |
-| Build an image carousel with autoplay and swipe. | 🟡 Medium | `react` `ui` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20an%20image%20carousel%20with%20autoplay%20and%20swipe) · [Search](https://www.google.com/search?q=Build%20an%20image%20carousel%20with%20autoplay%20and%20swipe) |
-
-## Round 4 · Tech Deep-Dive
+## Round 3 · Tech Deep-Dive
 <!-- round: tech_deep_dive -->
 
 _Deep questions on your core stack and fundamentals._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Difference between CSS Grid and Flexbox — when to use each. | 🟢 Easy | `css` `layout` | [GfG](https://www.geeksforgeeks.org/search/?gq=Difference%20between%20CSS%20Grid%20and%20Flexbox%20%E2%80%94%20when%20to%20use%20each) · [Search](https://www.google.com/search?q=Difference%20between%20CSS%20Grid%20and%20Flexbox%20%E2%80%94%20when%20to%20use%20each) |
-| Explain CORS and how a preflight request works. | 🟡 Medium | `browser` `security` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20CORS%20and%20how%20a%20preflight%20request%20works) · [Search](https://www.google.com/search?q=Explain%20CORS%20and%20how%20a%20preflight%20request%20works) |
-| What is the difference between var, let and const? | 🟢 Easy | `javascript` | [GfG](https://www.geeksforgeeks.org/search/?gq=What%20is%20the%20difference%20between%20var%2C%20let%20and%20const) · [Search](https://www.google.com/search?q=What%20is%20the%20difference%20between%20var%2C%20let%20and%20const) |
+| Difference between a process and a thread. | 🟢 Easy | `os` | [GfG](https://www.geeksforgeeks.org/search/?gq=Difference%20between%20a%20process%20and%20a%20thread) · [Search](https://www.google.com/search?q=Difference%20between%20a%20process%20and%20a%20thread) |
+| Difference between an array and a linked list. | 🟢 Easy | `data-structures` | [GfG](https://www.geeksforgeeks.org/search/?gq=Difference%20between%20an%20array%20and%20a%20linked%20list) · [Search](https://www.google.com/search?q=Difference%20between%20an%20array%20and%20a%20linked%20list) |
+| What is indexing in a database and when does it help? | 🟡 Medium | `dbms` | [GfG](https://www.geeksforgeeks.org/search/?gq=What%20is%20indexing%20in%20a%20database%20and%20when%20does%20it%20help) · [Search](https://www.google.com/search?q=What%20is%20indexing%20in%20a%20database%20and%20when%20does%20it%20help) |
+| Difference between == and equals() in Java. | 🟢 Easy | `java` | [GfG](https://www.geeksforgeeks.org/search/?gq=Difference%20between%20%3D%3D%20and%20equals()%20in%20Java) · [Search](https://www.google.com/search?q=Difference%20between%20%3D%3D%20and%20equals()%20in%20Java) |
+
+## Round 4 · Hiring Manager
+<!-- round: hiring_manager -->
+
+_Scope, ownership, and role-fit discussion with the manager._
+
+| Question | Difficulty | Tags |
+| --- | --- | --- |
+| Tell me about a production issue you helped resolve. | — | — |
+| How do you estimate the effort for a module assigned to you? | — | — |
 
 ## Round 5 · Behavioral / HR
 <!-- round: behavioral -->
@@ -72,8 +74,9 @@ _Values, collaboration, and past-experience (STAR) questions._
 
 | Question | Difficulty | Tags |
 | --- | --- | --- |
-| Describe a time you had to deliver bad news. | — | `communication` `star` |
-| Describe a disagreement on a code review and how it ended. | — | `conflict` `star` |
+| Why should we hire you? | — | — |
+| What are your strengths and weaknesses? | — | — |
+| Would you be comfortable working on any technology assigned to you? | — | — |
 
 ---
 

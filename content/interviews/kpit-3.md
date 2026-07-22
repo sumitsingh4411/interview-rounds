@@ -2,86 +2,81 @@
 id: kpit-3
 company: kpit
 role: frontend
-level: senior
-outcome: rejected
+level: mid
+outcome: offer
 year: 2024
 source: curated
-summary: Senior frontend interview. Fast-paced; expect follow-ups that push on depth.
+summary: >-
+  A mid frontend hiring drive. Fundamentals over puzzles — OOP, DBMS and SQL
+  carried the most weight.
 ---
-# Senior Frontend — KPIT Technologies
+# Mid Frontend — KPIT Technologies
 
 ![role](https://img.shields.io/badge/role-Frontend-22d3ee?style=flat-square)
-![level](https://img.shields.io/badge/level-Senior-818cf8?style=flat-square)
-![outcome](https://img.shields.io/badge/outcome-Rejected-f87171?style=flat-square)
+![level](https://img.shields.io/badge/level-Mid-818cf8?style=flat-square)
+![outcome](https://img.shields.io/badge/outcome-Offer-34d399?style=flat-square)
 ![year](https://img.shields.io/badge/year-2024-6b7280?style=flat-square)
 ![source](https://img.shields.io/badge/source-Commonly%20asked-2dd4bf?style=flat-square)
 
-> Senior frontend interview. Fast-paced; expect follow-ups that push on depth.
+> A mid frontend hiring drive. Fundamentals over puzzles — OOP, DBMS and SQL carried the most weight.
 
-**6 rounds · 13 questions**
+**5 rounds · 14 questions**
 
 ---
 
-## Round 1 · DSA / Coding
+## Round 1 · Online Assessment
+<!-- round: oa -->
+
+_Timed online coding / aptitude screen, usually the first filter._
+
+| Question | Difficulty | Tags | Practice |
+| --- | --- | --- | --- |
+| Quantitative aptitude: ratio, proportion and averages. | 🟢 Easy | `aptitude` | [GfG](https://www.geeksforgeeks.org/search/?gq=Quantitative%20aptitude%3A%20ratio%2C%20proportion%20and%20averages) · [Search](https://www.google.com/search?q=Quantitative%20aptitude%3A%20ratio%2C%20proportion%20and%20averages) |
+| Quantitative aptitude: permutations, combinations and probability. | 🟡 Medium | `aptitude` | [GfG](https://www.geeksforgeeks.org/search/?gq=Quantitative%20aptitude%3A%20permutations%2C%20combinations%20and%20probability) · [Search](https://www.google.com/search?q=Quantitative%20aptitude%3A%20permutations%2C%20combinations%20and%20probability) |
+| Verbal ability: error spotting and sentence correction. | 🟢 Easy | `verbal` | [GfG](https://www.geeksforgeeks.org/search/?gq=Verbal%20ability%3A%20error%20spotting%20and%20sentence%20correction) · [Search](https://www.google.com/search?q=Verbal%20ability%3A%20error%20spotting%20and%20sentence%20correction) |
+
+## Round 2 · DSA / Coding
 <!-- round: dsa -->
 
 _Data structures & algorithms on a whiteboard or shared editor._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Subsets. | 🟡 Medium | `backtracking` | [LC](https://leetcode.com/problems/subsets/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Subsets) |
-| Course Schedule II. | 🟡 Medium | `graph` `topo-sort` | [LC](https://leetcode.com/problems/course-schedule-ii/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Course%20Schedule%20II) |
-| Implement a trie (prefix tree). | 🟡 Medium | `trie` | [LC](https://leetcode.com/problems/implement-trie-prefix-tree/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Implement%20a%20trie%20(prefix%20tree)) |
+| Check whether a string is a palindrome. | 🟢 Easy | `string` | [GfG](https://www.geeksforgeeks.org/search/?gq=Check%20whether%20a%20string%20is%20a%20palindrome) · [Search](https://www.google.com/search?q=Check%20whether%20a%20string%20is%20a%20palindrome) |
+| Reverse a string without using library functions. | 🟢 Easy | `string` | [GfG](https://www.geeksforgeeks.org/search/?gq=Reverse%20a%20string%20without%20using%20library%20functions) · [Search](https://www.google.com/search?q=Reverse%20a%20string%20without%20using%20library%20functions) |
 
-## Round 2 · Machine Coding
-<!-- round: machine_coding -->
-
-_Build a working component or service under time pressure._
-
-| Question | Difficulty | Tags | Practice |
-| --- | --- | --- | --- |
-| Build a color-picker with hex/rgb sync. | 🟡 Medium | `react` `ui` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20a%20color-picker%20with%20hex%2Frgb%20sync) · [Search](https://www.google.com/search?q=Build%20a%20color-picker%20with%20hex%2Frgb%20sync) |
-| Build a toast / notification queue. | 🟡 Medium | `react` `state` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20a%20toast%20%2F%20notification%20queue) · [Search](https://www.google.com/search?q=Build%20a%20toast%20%2F%20notification%20queue) |
-
-## Round 3 · System Design
-<!-- round: system_design -->
-
-_High-level architecture of a large-scale system._
-
-| Question | Difficulty | Tags | Practice |
-| --- | --- | --- | --- |
-| Design a news feed / timeline. | 🔴 Hard | `fanout` `ranking` `cache` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20news%20feed%20%2F%20timeline) · [Search](https://www.google.com/search?q=Design%20a%20news%20feed%20%2F%20timeline) |
-| Design a typeahead / autocomplete service. | 🔴 Hard | `trie` `cache` `ranking` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20typeahead%20%2F%20autocomplete%20service) · [Search](https://www.google.com/search?q=Design%20a%20typeahead%20%2F%20autocomplete%20service) |
-
-## Round 4 · Tech Deep-Dive
+## Round 3 · Tech Deep-Dive
 <!-- round: tech_deep_dive -->
 
 _Deep questions on your core stack and fundamentals._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Debounce vs throttle — implement one from scratch. | 🟡 Medium | `javascript` `perf` | [GfG](https://www.geeksforgeeks.org/search/?gq=Debounce%20vs%20throttle%20%E2%80%94%20implement%20one%20from%20scratch) · [Search](https://www.google.com/search?q=Debounce%20vs%20throttle%20%E2%80%94%20implement%20one%20from%20scratch) |
-| How do you code-split and lazy-load a route? | 🟡 Medium | `bundling` `perf` | [GfG](https://www.geeksforgeeks.org/search/?gq=How%20do%20you%20code-split%20and%20lazy-load%20a%20route) · [Search](https://www.google.com/search?q=How%20do%20you%20code-split%20and%20lazy-load%20a%20route) |
-| Explain `this` binding and the call/apply/bind trio. | 🟡 Medium | `javascript` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20%60this%60%20binding%20and%20the%20call%2Fapply%2Fbind%20trio) · [Search](https://www.google.com/search?q=Explain%20%60this%60%20binding%20and%20the%20call%2Fapply%2Fbind%20trio) |
+| What is a constructor? Explain constructor overloading. | 🟢 Easy | `oops` | [GfG](https://www.geeksforgeeks.org/search/?gq=What%20is%20a%20constructor%3F%20Explain%20constructor%20overloading) · [Search](https://www.google.com/search?q=What%20is%20a%20constructor%3F%20Explain%20constructor%20overloading) |
+| Explain CPU scheduling algorithms: FCFS, SJF and round robin. | 🟡 Medium | `os` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20CPU%20scheduling%20algorithms%3A%20FCFS%2C%20SJF%20and%20round%20robin) · [Search](https://www.google.com/search?q=Explain%20CPU%20scheduling%20algorithms%3A%20FCFS%2C%20SJF%20and%20round%20robin) |
+| What is polymorphism? Compile-time vs runtime. | 🟢 Easy | `oops` | [GfG](https://www.geeksforgeeks.org/search/?gq=What%20is%20polymorphism%3F%20Compile-time%20vs%20runtime) · [Search](https://www.google.com/search?q=What%20is%20polymorphism%3F%20Compile-time%20vs%20runtime) |
+| Difference between abstraction and encapsulation. | 🟢 Easy | `oops` | [GfG](https://www.geeksforgeeks.org/search/?gq=Difference%20between%20abstraction%20and%20encapsulation) · [Search](https://www.google.com/search?q=Difference%20between%20abstraction%20and%20encapsulation) |
 
-## Round 5 · Hiring Manager
+## Round 4 · Hiring Manager
 <!-- round: hiring_manager -->
 
 _Scope, ownership, and role-fit discussion with the manager._
 
 | Question | Difficulty | Tags |
 | --- | --- | --- |
-| Walk me through a technical trade-off you regret. | — | `judgment` |
+| Describe your experience working with an onsite / offshore team. | — | — |
+| What would you do if you disagreed with your project lead? | — | — |
 
-## Round 6 · Behavioral / HR
+## Round 5 · Behavioral / HR
 <!-- round: behavioral -->
 
 _Values, collaboration, and past-experience (STAR) questions._
 
 | Question | Difficulty | Tags |
 | --- | --- | --- |
-| Tell me about a time you failed and what you learned. | — | `growth` `star` |
-| Describe a time you improved a process or tool for your team. | — | `ownership` `star` |
+| What are your strengths and weaknesses? | — | — |
+| Why do you want to join our company? | — | — |
+| What are your interests outside academics? | — | — |
 
 ---
 

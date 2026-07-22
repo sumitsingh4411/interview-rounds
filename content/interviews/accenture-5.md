@@ -1,77 +1,72 @@
 ---
 id: accenture-5
 company: accenture
-role: fullstack
-level: staff
+role: backend
+level: intern
 outcome: offer
-year: 2024
+year: 2023
 source: curated
 summary: >-
-  5-round staff fullstack process. Balanced across coding, design, and
-  collaboration.
+  A intern backend hiring drive. Aptitude screen first, then technical
+  fundamentals and HR.
 ---
-# Staff Full-stack — Accenture
+# Intern Backend — Accenture
 
-![role](https://img.shields.io/badge/role-Full--stack-a78bfa?style=flat-square)
-![level](https://img.shields.io/badge/level-Staff-818cf8?style=flat-square)
+![role](https://img.shields.io/badge/role-Backend-8b93ff?style=flat-square)
+![level](https://img.shields.io/badge/level-Intern-818cf8?style=flat-square)
 ![outcome](https://img.shields.io/badge/outcome-Offer-34d399?style=flat-square)
-![year](https://img.shields.io/badge/year-2024-6b7280?style=flat-square)
+![year](https://img.shields.io/badge/year-2023-6b7280?style=flat-square)
 ![source](https://img.shields.io/badge/source-Commonly%20asked-2dd4bf?style=flat-square)
 
-> 5-round staff fullstack process. Balanced across coding, design, and collaboration.
+> A intern backend hiring drive. Aptitude screen first, then technical fundamentals and HR.
 
-**5 rounds · 9 questions**
+**4 rounds · 12 questions**
 
 ---
 
-## Round 1 · DSA / Coding
+## Round 1 · Online Assessment
+<!-- round: oa -->
+
+_Timed online coding / aptitude screen, usually the first filter._
+
+| Question | Difficulty | Tags | Practice |
+| --- | --- | --- | --- |
+| Quantitative aptitude: ratio, proportion and averages. | 🟢 Easy | `aptitude` | [GfG](https://www.geeksforgeeks.org/search/?gq=Quantitative%20aptitude%3A%20ratio%2C%20proportion%20and%20averages) · [Search](https://www.google.com/search?q=Quantitative%20aptitude%3A%20ratio%2C%20proportion%20and%20averages) |
+| Pseudocode: spot the error in the given snippet. | 🟡 Medium | `pseudocode` | [GfG](https://www.geeksforgeeks.org/search/?gq=Pseudocode%3A%20spot%20the%20error%20in%20the%20given%20snippet) · [Search](https://www.google.com/search?q=Pseudocode%3A%20spot%20the%20error%20in%20the%20given%20snippet) |
+| Pseudocode: predict the output of the given code block. | 🟡 Medium | `pseudocode` | [GfG](https://www.geeksforgeeks.org/search/?gq=Pseudocode%3A%20predict%20the%20output%20of%20the%20given%20code%20block) · [Search](https://www.google.com/search?q=Pseudocode%3A%20predict%20the%20output%20of%20the%20given%20code%20block) |
+
+## Round 2 · DSA / Coding
 <!-- round: dsa -->
 
 _Data structures & algorithms on a whiteboard or shared editor._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Binary tree level order traversal. | 🟡 Medium | `tree` `bfs` | [LC](https://leetcode.com/problems/binary-tree-level-order-traversal/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Binary%20tree%20level%20order%20traversal) |
-| Longest palindromic substring. | 🟡 Medium | `string` `dp` | [LC](https://leetcode.com/problems/longest-palindromic-substring/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Longest%20palindromic%20substring) |
-| Word ladder — shortest transformation sequence. | 🔴 Hard | `bfs` `graph` | [LC](https://leetcode.com/problems/word-ladder/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Word%20ladder%20%E2%80%94%20shortest%20transformation%20sequence) |
+| Check whether a number is an Armstrong number. | 🟢 Easy | `math` | [GfG](https://www.geeksforgeeks.org/search/?gq=Check%20whether%20a%20number%20is%20an%20Armstrong%20number) · [Search](https://www.google.com/search?q=Check%20whether%20a%20number%20is%20an%20Armstrong%20number) |
+| Remove duplicates from an array without using extra space. | 🟡 Medium | `array` | [GfG](https://www.geeksforgeeks.org/search/?gq=Remove%20duplicates%20from%20an%20array%20without%20using%20extra%20space) · [Search](https://www.google.com/search?q=Remove%20duplicates%20from%20an%20array%20without%20using%20extra%20space) |
 
-## Round 2 · System Design
-<!-- round: system_design -->
+## Round 3 · Tech Deep-Dive
+<!-- round: tech_deep_dive -->
 
-_High-level architecture of a large-scale system._
-
-| Question | Difficulty | Tags | Practice |
-| --- | --- | --- | --- |
-| Design a leaderboard for millions of players. | 🟡 Medium | `redis` `ranking` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20leaderboard%20for%20millions%20of%20players) · [Search](https://www.google.com/search?q=Design%20a%20leaderboard%20for%20millions%20of%20players) |
-| Design a web crawler. | 🔴 Hard | `queues` `dedup` `scale` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20web%20crawler) · [Search](https://www.google.com/search?q=Design%20a%20web%20crawler) |
-
-## Round 3 · Low-Level Design
-<!-- round: lld -->
-
-_Object-oriented / low-level design of a focused module._
+_Deep questions on your core stack and fundamentals._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Design a toast/notification manager API. | 🟡 Medium | `oop` `pub-sub` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20toast%2Fnotification%20manager%20API) · [Search](https://www.google.com/search?q=Design%20a%20toast%2Fnotification%20manager%20API) |
+| Difference between abstraction and encapsulation. | 🟢 Easy | `oops` | [GfG](https://www.geeksforgeeks.org/search/?gq=Difference%20between%20abstraction%20and%20encapsulation) · [Search](https://www.google.com/search?q=Difference%20between%20abstraction%20and%20encapsulation) |
+| Explain primary key, foreign key, unique key and candidate key. | 🟢 Easy | `dbms` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20primary%20key%2C%20foreign%20key%2C%20unique%20key%20and%20candidate%20key) · [Search](https://www.google.com/search?q=Explain%20primary%20key%2C%20foreign%20key%2C%20unique%20key%20and%20candidate%20key) |
+| Difference between TCP and UDP. | 🟢 Easy | `networking` | [GfG](https://www.geeksforgeeks.org/search/?gq=Difference%20between%20TCP%20and%20UDP) · [Search](https://www.google.com/search?q=Difference%20between%20TCP%20and%20UDP) |
+| Difference between stack and heap memory. | 🟢 Easy | `fundamentals` | [GfG](https://www.geeksforgeeks.org/search/?gq=Difference%20between%20stack%20and%20heap%20memory) · [Search](https://www.google.com/search?q=Difference%20between%20stack%20and%20heap%20memory) |
 
-## Round 4 · Hiring Manager
-<!-- round: hiring_manager -->
-
-_Scope, ownership, and role-fit discussion with the manager._
-
-| Question | Difficulty | Tags |
-| --- | --- | --- |
-| How do you set technical direction for a team? | — | `leadership` `strategy` |
-
-## Round 5 · Behavioral / HR
+## Round 4 · Behavioral / HR
 <!-- round: behavioral -->
 
 _Values, collaboration, and past-experience (STAR) questions._
 
 | Question | Difficulty | Tags |
 | --- | --- | --- |
-| Tell me about a time you simplified something overly complex. | — | `judgment` `star` |
-| A time you influenced a decision without authority. | — | `influence` `star` |
+| Why do you want to join our company? | — | — |
+| Why did you choose this branch of engineering? | — | — |
+| Tell me about your final-year project. | — | — |
 
 ---
 

@@ -1,79 +1,72 @@
 ---
 id: amdocs-1
 company: amdocs
-role: frontend
-level: mid
-outcome: offer
-year: 2025
+role: fullstack
+level: intern
+outcome: unknown
+year: 2023
 source: curated
 summary: >-
-  5-round mid frontend process. Fundamentals mattered as much as getting to an
-  answer.
+  Campus-style intern fullstack interview. Aptitude screen first, then technical
+  fundamentals and HR.
 ---
-# Mid Frontend — Amdocs
+# Intern Full-stack — Amdocs
 
-![role](https://img.shields.io/badge/role-Frontend-22d3ee?style=flat-square)
-![level](https://img.shields.io/badge/level-Mid-818cf8?style=flat-square)
-![outcome](https://img.shields.io/badge/outcome-Offer-34d399?style=flat-square)
-![year](https://img.shields.io/badge/year-2025-6b7280?style=flat-square)
+![role](https://img.shields.io/badge/role-Full--stack-a78bfa?style=flat-square)
+![level](https://img.shields.io/badge/level-Intern-818cf8?style=flat-square)
+![outcome](https://img.shields.io/badge/outcome-Unknown-6b7280?style=flat-square)
+![year](https://img.shields.io/badge/year-2023-6b7280?style=flat-square)
 ![source](https://img.shields.io/badge/source-Commonly%20asked-2dd4bf?style=flat-square)
 
-> 5-round mid frontend process. Fundamentals mattered as much as getting to an answer.
+> Campus-style intern fullstack interview. Aptitude screen first, then technical fundamentals and HR.
 
-**5 rounds · 11 questions**
+**4 rounds · 12 questions**
 
 ---
 
-## Round 1 · DSA / Coding
+## Round 1 · Online Assessment
+<!-- round: oa -->
+
+_Timed online coding / aptitude screen, usually the first filter._
+
+| Question | Difficulty | Tags | Practice |
+| --- | --- | --- | --- |
+| Logical reasoning: data interpretation from charts and tables. | 🟡 Medium | `reasoning` | [GfG](https://www.geeksforgeeks.org/search/?gq=Logical%20reasoning%3A%20data%20interpretation%20from%20charts%20and%20tables) · [Search](https://www.google.com/search?q=Logical%20reasoning%3A%20data%20interpretation%20from%20charts%20and%20tables) |
+| Quantitative aptitude: permutations, combinations and probability. | 🟡 Medium | `aptitude` | [GfG](https://www.geeksforgeeks.org/search/?gq=Quantitative%20aptitude%3A%20permutations%2C%20combinations%20and%20probability) · [Search](https://www.google.com/search?q=Quantitative%20aptitude%3A%20permutations%2C%20combinations%20and%20probability) |
+| Verbal ability: error spotting and sentence correction. | 🟢 Easy | `verbal` | [GfG](https://www.geeksforgeeks.org/search/?gq=Verbal%20ability%3A%20error%20spotting%20and%20sentence%20correction) · [Search](https://www.google.com/search?q=Verbal%20ability%3A%20error%20spotting%20and%20sentence%20correction) |
+
+## Round 2 · DSA / Coding
 <!-- round: dsa -->
 
 _Data structures & algorithms on a whiteboard or shared editor._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Longest palindromic substring. | 🟡 Medium | `string` `dp` | [LC](https://leetcode.com/problems/longest-palindromic-substring/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Longest%20palindromic%20substring) |
-| Subtree of another tree. | 🟢 Easy | `tree` `dfs` | [LC](https://leetcode.com/problems/subtree-of-another-tree/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Subtree%20of%20another%20tree) |
-| Find median from data stream. | 🔴 Hard | `heap` `design` | [LC](https://leetcode.com/problems/find-median-from-data-stream/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Find%20median%20from%20data%20stream) |
+| Print a star / pyramid pattern for n rows. | 🟢 Easy | `patterns` | [GfG](https://www.geeksforgeeks.org/search/?gq=Print%20a%20star%20%2F%20pyramid%20pattern%20for%20n%20rows) · [Search](https://www.google.com/search?q=Print%20a%20star%20%2F%20pyramid%20pattern%20for%20n%20rows) |
+| Check whether two strings are anagrams. | 🟢 Easy | `string` | [GfG](https://www.geeksforgeeks.org/search/?gq=Check%20whether%20two%20strings%20are%20anagrams) · [Search](https://www.google.com/search?q=Check%20whether%20two%20strings%20are%20anagrams) |
 
-## Round 2 · Machine Coding
-<!-- round: machine_coding -->
-
-_Build a working component or service under time pressure._
-
-| Question | Difficulty | Tags | Practice |
-| --- | --- | --- | --- |
-| Build an image carousel with autoplay and swipe. | 🟡 Medium | `react` `ui` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20an%20image%20carousel%20with%20autoplay%20and%20swipe) · [Search](https://www.google.com/search?q=Build%20an%20image%20carousel%20with%20autoplay%20and%20swipe) |
-| Build a carousel/image slider. | 🟡 Medium | `react` `ui` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20a%20carousel%2Fimage%20slider) · [Search](https://www.google.com/search?q=Build%20a%20carousel%2Fimage%20slider) |
-
-## Round 3 · Low-Level Design
-<!-- round: lld -->
-
-_Object-oriented / low-level design of a focused module._
-
-| Question | Difficulty | Tags | Practice |
-| --- | --- | --- | --- |
-| Design an undo/redo stack for an editor. | 🟡 Medium | `oop` `command` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20an%20undo%2Fredo%20stack%20for%20an%20editor) · [Search](https://www.google.com/search?q=Design%20an%20undo%2Fredo%20stack%20for%20an%20editor) |
-
-## Round 4 · Tech Deep-Dive
+## Round 3 · Tech Deep-Dive
 <!-- round: tech_deep_dive -->
 
 _Deep questions on your core stack and fundamentals._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Explain the CSS box model and box-sizing. | 🟢 Easy | `css` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20the%20CSS%20box%20model%20and%20box-sizing) · [Search](https://www.google.com/search?q=Explain%20the%20CSS%20box%20model%20and%20box-sizing) |
-| What are React keys and why do they matter? | 🟢 Easy | `react` | [GfG](https://www.geeksforgeeks.org/search/?gq=What%20are%20React%20keys%20and%20why%20do%20they%20matter) · [Search](https://www.google.com/search?q=What%20are%20React%20keys%20and%20why%20do%20they%20matter) |
-| How does React batching and the render phase work? | 🔴 Hard | `react` | [GfG](https://www.geeksforgeeks.org/search/?gq=How%20does%20React%20batching%20and%20the%20render%20phase%20work) · [Search](https://www.google.com/search?q=How%20does%20React%20batching%20and%20the%20render%20phase%20work) |
+| Explain the static and final keywords in Java. | 🟢 Easy | `java` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20the%20static%20and%20final%20keywords%20in%20Java) · [Search](https://www.google.com/search?q=Explain%20the%20static%20and%20final%20keywords%20in%20Java) |
+| Difference between a process and a thread. | 🟢 Easy | `os` | [GfG](https://www.geeksforgeeks.org/search/?gq=Difference%20between%20a%20process%20and%20a%20thread) · [Search](https://www.google.com/search?q=Difference%20between%20a%20process%20and%20a%20thread) |
+| What is polymorphism? Compile-time vs runtime. | 🟢 Easy | `oops` | [GfG](https://www.geeksforgeeks.org/search/?gq=What%20is%20polymorphism%3F%20Compile-time%20vs%20runtime) · [Search](https://www.google.com/search?q=What%20is%20polymorphism%3F%20Compile-time%20vs%20runtime) |
+| Explain your final-year project architecture and your role in it. | 🟢 Easy | `project` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20your%20final-year%20project%20architecture%20and%20your%20role%20in%20it) · [Search](https://www.google.com/search?q=Explain%20your%20final-year%20project%20architecture%20and%20your%20role%20in%20it) |
 
-## Round 5 · Behavioral / HR
+## Round 4 · Behavioral / HR
 <!-- round: behavioral -->
 
 _Values, collaboration, and past-experience (STAR) questions._
 
 | Question | Difficulty | Tags |
 | --- | --- | --- |
-| Tell me about a project you are most proud of. | — | `star` |
-| Tell me about receiving hard feedback and acting on it. | — | `feedback` `star` |
+| What are your strengths and weaknesses? | — | — |
+| Tell me about your final-year project. | — | — |
+| Tell me about yourself. | — | — |
 
 ---
 

@@ -1,67 +1,71 @@
 ---
 id: nagarro-5
 company: nagarro
-role: backend
+role: fullstack
 level: mid
-outcome: offer
-year: 2025
+outcome: rejected
+year: 2024
 source: curated
-summary: 5-round mid backend process. Fast-paced; expect follow-ups that push on depth.
+summary: >-
+  A mid fullstack hiring drive. Aptitude screen first, then technical
+  fundamentals and HR.
 ---
-# Mid Backend — Nagarro
+# Mid Full-stack — Nagarro
 
-![role](https://img.shields.io/badge/role-Backend-8b93ff?style=flat-square)
+![role](https://img.shields.io/badge/role-Full--stack-a78bfa?style=flat-square)
 ![level](https://img.shields.io/badge/level-Mid-818cf8?style=flat-square)
-![outcome](https://img.shields.io/badge/outcome-Offer-34d399?style=flat-square)
-![year](https://img.shields.io/badge/year-2025-6b7280?style=flat-square)
+![outcome](https://img.shields.io/badge/outcome-Rejected-f87171?style=flat-square)
+![year](https://img.shields.io/badge/year-2024-6b7280?style=flat-square)
 ![source](https://img.shields.io/badge/source-Commonly%20asked-2dd4bf?style=flat-square)
 
-> 5-round mid backend process. Fast-paced; expect follow-ups that push on depth.
+> A mid fullstack hiring drive. Aptitude screen first, then technical fundamentals and HR.
 
-**5 rounds · 11 questions**
+**5 rounds · 14 questions**
 
 ---
 
-## Round 1 · DSA / Coding
+## Round 1 · Online Assessment
+<!-- round: oa -->
+
+_Timed online coding / aptitude screen, usually the first filter._
+
+| Question | Difficulty | Tags | Practice |
+| --- | --- | --- | --- |
+| Quantitative aptitude: time and work problems. | 🟢 Easy | `aptitude` | [GfG](https://www.geeksforgeeks.org/search/?gq=Quantitative%20aptitude%3A%20time%20and%20work%20problems) · [Search](https://www.google.com/search?q=Quantitative%20aptitude%3A%20time%20and%20work%20problems) |
+| Verbal ability: error spotting and sentence correction. | 🟢 Easy | `verbal` | [GfG](https://www.geeksforgeeks.org/search/?gq=Verbal%20ability%3A%20error%20spotting%20and%20sentence%20correction) · [Search](https://www.google.com/search?q=Verbal%20ability%3A%20error%20spotting%20and%20sentence%20correction) |
+| Pseudocode: spot the error in the given snippet. | 🟡 Medium | `pseudocode` | [GfG](https://www.geeksforgeeks.org/search/?gq=Pseudocode%3A%20spot%20the%20error%20in%20the%20given%20snippet) · [Search](https://www.google.com/search?q=Pseudocode%3A%20spot%20the%20error%20in%20the%20given%20snippet) |
+
+## Round 2 · DSA / Coding
 <!-- round: dsa -->
 
 _Data structures & algorithms on a whiteboard or shared editor._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Diameter of a binary tree. | 🟢 Easy | `tree` `dfs` | [LC](https://leetcode.com/problems/diameter-of-binary-tree/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Diameter%20of%20a%20binary%20tree) |
-| Invert a binary tree. | 🟢 Easy | `tree` | [LC](https://leetcode.com/problems/invert-binary-tree/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Invert%20a%20binary%20tree) |
-| Min cost to connect all points. | 🟡 Medium | `graph` `mst` | [LC](https://leetcode.com/problems/min-cost-to-connect-all-points/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Min%20cost%20to%20connect%20all%20points) |
+| Check whether a number is prime. | 🟢 Easy | `math` | [GfG](https://www.geeksforgeeks.org/search/?gq=Check%20whether%20a%20number%20is%20prime) · [Search](https://www.google.com/search?q=Check%20whether%20a%20number%20is%20prime) |
+| Sort an array using bubble sort and state its complexity. | 🟢 Easy | `sorting` | [GfG](https://www.geeksforgeeks.org/search/?gq=Sort%20an%20array%20using%20bubble%20sort%20and%20state%20its%20complexity) · [Search](https://www.google.com/search?q=Sort%20an%20array%20using%20bubble%20sort%20and%20state%20its%20complexity) |
 
-## Round 2 · Machine Coding
-<!-- round: machine_coding -->
-
-_Build a working component or service under time pressure._
-
-| Question | Difficulty | Tags | Practice |
-| --- | --- | --- | --- |
-| Build a URL health checker with a concurrency limit. | 🟡 Medium | `concurrency` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20a%20URL%20health%20checker%20with%20a%20concurrency%20limit) · [Search](https://www.google.com/search?q=Build%20a%20URL%20health%20checker%20with%20a%20concurrency%20limit) |
-| Build a webhook receiver with signature verification. | 🟡 Medium | `security` `api` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20a%20webhook%20receiver%20with%20signature%20verification) · [Search](https://www.google.com/search?q=Build%20a%20webhook%20receiver%20with%20signature%20verification) |
-
-## Round 3 · Low-Level Design
-<!-- round: lld -->
-
-_Object-oriented / low-level design of a focused module._
-
-| Question | Difficulty | Tags | Practice |
-| --- | --- | --- | --- |
-| Design a hotel-reservation system core. | 🟡 Medium | `oop` `concurrency` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20hotel-reservation%20system%20core) · [Search](https://www.google.com/search?q=Design%20a%20hotel-reservation%20system%20core) |
-
-## Round 4 · Tech Deep-Dive
+## Round 3 · Tech Deep-Dive
 <!-- round: tech_deep_dive -->
 
 _Deep questions on your core stack and fundamentals._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| How do you secure secrets and handle auth tokens? | 🟡 Medium | `security` | [GfG](https://www.geeksforgeeks.org/search/?gq=How%20do%20you%20secure%20secrets%20and%20handle%20auth%20tokens) · [Search](https://www.google.com/search?q=How%20do%20you%20secure%20secrets%20and%20handle%20auth%20tokens) |
-| Explain leader election and consensus (Raft) at a high level. | 🔴 Hard | `distributed` `consensus` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20leader%20election%20and%20consensus%20(Raft)%20at%20a%20high%20level) · [Search](https://www.google.com/search?q=Explain%20leader%20election%20and%20consensus%20(Raft)%20at%20a%20high%20level) |
-| How would you design and version a public REST API? | 🟡 Medium | `api-design` | [GfG](https://www.geeksforgeeks.org/search/?gq=How%20would%20you%20design%20and%20version%20a%20public%20REST%20API) · [Search](https://www.google.com/search?q=How%20would%20you%20design%20and%20version%20a%20public%20REST%20API) |
+| Write a SQL query to find the second-highest salary. | 🟡 Medium | `sql` | [GfG](https://www.geeksforgeeks.org/search/?gq=Write%20a%20SQL%20query%20to%20find%20the%20second-highest%20salary) · [Search](https://www.google.com/search?q=Write%20a%20SQL%20query%20to%20find%20the%20second-highest%20salary) |
+| Explain the time complexity of common sorting algorithms. | 🟡 Medium | `data-structures` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20the%20time%20complexity%20of%20common%20sorting%20algorithms) · [Search](https://www.google.com/search?q=Explain%20the%20time%20complexity%20of%20common%20sorting%20algorithms) |
+| What is polymorphism? Compile-time vs runtime. | 🟢 Easy | `oops` | [GfG](https://www.geeksforgeeks.org/search/?gq=What%20is%20polymorphism%3F%20Compile-time%20vs%20runtime) · [Search](https://www.google.com/search?q=What%20is%20polymorphism%3F%20Compile-time%20vs%20runtime) |
+| Explain the ACID properties of a transaction. | 🟡 Medium | `dbms` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20the%20ACID%20properties%20of%20a%20transaction) · [Search](https://www.google.com/search?q=Explain%20the%20ACID%20properties%20of%20a%20transaction) |
+
+## Round 4 · Hiring Manager
+<!-- round: hiring_manager -->
+
+_Scope, ownership, and role-fit discussion with the manager._
+
+| Question | Difficulty | Tags |
+| --- | --- | --- |
+| Describe your experience working with an onsite / offshore team. | — | — |
+| Tell me about a production issue you helped resolve. | — | — |
 
 ## Round 5 · Behavioral / HR
 <!-- round: behavioral -->
@@ -70,8 +74,9 @@ _Values, collaboration, and past-experience (STAR) questions._
 
 | Question | Difficulty | Tags |
 | --- | --- | --- |
-| Tell me about the most impactful project of your career. | — | `impact` `star` |
-| Describe a goal you set and how you achieved it. | — | `ownership` `star` |
+| Are you comfortable signing the service agreement / bond? | — | — |
+| Why should we hire you? | — | — |
+| What are your interests outside academics? | — | — |
 
 ---
 

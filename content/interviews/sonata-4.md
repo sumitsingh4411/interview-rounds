@@ -1,75 +1,72 @@
 ---
 id: sonata-4
 company: sonata
-role: backend
-level: staff
-outcome: unknown
-year: 2024
+role: fullstack
+level: intern
+outcome: offer
+year: 2025
 source: curated
-summary: 'Staff backend interview. Balanced across coding, design, and collaboration.'
+summary: >-
+  Campus-style intern fullstack interview. Basic programming plus core CS;
+  communication mattered throughout.
 ---
-# Staff Backend — Sonata Software
+# Intern Full-stack — Sonata Software
 
-![role](https://img.shields.io/badge/role-Backend-8b93ff?style=flat-square)
-![level](https://img.shields.io/badge/level-Staff-818cf8?style=flat-square)
-![outcome](https://img.shields.io/badge/outcome-Unknown-6b7280?style=flat-square)
-![year](https://img.shields.io/badge/year-2024-6b7280?style=flat-square)
+![role](https://img.shields.io/badge/role-Full--stack-a78bfa?style=flat-square)
+![level](https://img.shields.io/badge/level-Intern-818cf8?style=flat-square)
+![outcome](https://img.shields.io/badge/outcome-Offer-34d399?style=flat-square)
+![year](https://img.shields.io/badge/year-2025-6b7280?style=flat-square)
 ![source](https://img.shields.io/badge/source-Commonly%20asked-2dd4bf?style=flat-square)
 
-> Staff backend interview. Balanced across coding, design, and collaboration.
+> Campus-style intern fullstack interview. Basic programming plus core CS; communication mattered throughout.
 
-**5 rounds · 9 questions**
+**4 rounds · 12 questions**
 
 ---
 
-## Round 1 · DSA / Coding
+## Round 1 · Online Assessment
+<!-- round: oa -->
+
+_Timed online coding / aptitude screen, usually the first filter._
+
+| Question | Difficulty | Tags | Practice |
+| --- | --- | --- | --- |
+| Logical reasoning: syllogisms and statement–conclusion. | 🟡 Medium | `reasoning` | [GfG](https://www.geeksforgeeks.org/search/?gq=Logical%20reasoning%3A%20syllogisms%20and%20statement%E2%80%93conclusion) · [Search](https://www.google.com/search?q=Logical%20reasoning%3A%20syllogisms%20and%20statement%E2%80%93conclusion) |
+| Pseudocode: predict the output of the given code block. | 🟡 Medium | `pseudocode` | [GfG](https://www.geeksforgeeks.org/search/?gq=Pseudocode%3A%20predict%20the%20output%20of%20the%20given%20code%20block) · [Search](https://www.google.com/search?q=Pseudocode%3A%20predict%20the%20output%20of%20the%20given%20code%20block) |
+| Quantitative aptitude: time, speed and distance problems. | 🟢 Easy | `aptitude` | [GfG](https://www.geeksforgeeks.org/search/?gq=Quantitative%20aptitude%3A%20time%2C%20speed%20and%20distance%20problems) · [Search](https://www.google.com/search?q=Quantitative%20aptitude%3A%20time%2C%20speed%20and%20distance%20problems) |
+
+## Round 2 · DSA / Coding
 <!-- round: dsa -->
 
 _Data structures & algorithms on a whiteboard or shared editor._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Top K frequent elements. | 🟡 Medium | `heap` `hashmap` | [LC](https://leetcode.com/problems/top-k-frequent-elements/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Top%20K%20frequent%20elements) |
-| Trapping rain water. | 🔴 Hard | `two-pointers` `array` | [LC](https://leetcode.com/problems/trapping-rain-water/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Trapping%20rain%20water) |
-| Sliding window maximum. | 🔴 Hard | `deque` `sliding-window` | [LC](https://leetcode.com/problems/sliding-window-maximum/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Sliding%20window%20maximum) |
+| Count vowels, consonants and words in a string. | 🟢 Easy | `string` | [GfG](https://www.geeksforgeeks.org/search/?gq=Count%20vowels%2C%20consonants%20and%20words%20in%20a%20string) · [Search](https://www.google.com/search?q=Count%20vowels%2C%20consonants%20and%20words%20in%20a%20string) |
+| Reverse a string without using library functions. | 🟢 Easy | `string` | [GfG](https://www.geeksforgeeks.org/search/?gq=Reverse%20a%20string%20without%20using%20library%20functions) · [Search](https://www.google.com/search?q=Reverse%20a%20string%20without%20using%20library%20functions) |
 
-## Round 2 · System Design
-<!-- round: system_design -->
+## Round 3 · Tech Deep-Dive
+<!-- round: tech_deep_dive -->
 
-_High-level architecture of a large-scale system._
-
-| Question | Difficulty | Tags | Practice |
-| --- | --- | --- | --- |
-| Design a metrics/time-series ingestion pipeline. | 🔴 Hard | `time-series` `ingestion` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20metrics%2Ftime-series%20ingestion%20pipeline) · [Search](https://www.google.com/search?q=Design%20a%20metrics%2Ftime-series%20ingestion%20pipeline) |
-| Design an event-driven order pipeline with retries. | 🔴 Hard | `events` `queues` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20an%20event-driven%20order%20pipeline%20with%20retries) · [Search](https://www.google.com/search?q=Design%20an%20event-driven%20order%20pipeline%20with%20retries) |
-
-## Round 3 · Low-Level Design
-<!-- round: lld -->
-
-_Object-oriented / low-level design of a focused module._
+_Deep questions on your core stack and fundamentals._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Design a food-delivery order/dispatch model. | 🔴 Hard | `oop` `state-machine` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20food-delivery%20order%2Fdispatch%20model) · [Search](https://www.google.com/search?q=Design%20a%20food-delivery%20order%2Fdispatch%20model) |
+| Difference between a structure and a union in C. | 🟢 Easy | `c` | [GfG](https://www.geeksforgeeks.org/search/?gq=Difference%20between%20a%20structure%20and%20a%20union%20in%20C) · [Search](https://www.google.com/search?q=Difference%20between%20a%20structure%20and%20a%20union%20in%20C) |
+| Explain inheritance and its types. | 🟢 Easy | `oops` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20inheritance%20and%20its%20types) · [Search](https://www.google.com/search?q=Explain%20inheritance%20and%20its%20types) |
+| Explain primary key, foreign key, unique key and candidate key. | 🟢 Easy | `dbms` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20primary%20key%2C%20foreign%20key%2C%20unique%20key%20and%20candidate%20key) · [Search](https://www.google.com/search?q=Explain%20primary%20key%2C%20foreign%20key%2C%20unique%20key%20and%20candidate%20key) |
+| Explain virtual memory, paging and segmentation. | 🟡 Medium | `os` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20virtual%20memory%2C%20paging%20and%20segmentation) · [Search](https://www.google.com/search?q=Explain%20virtual%20memory%2C%20paging%20and%20segmentation) |
 
-## Round 4 · Hiring Manager
-<!-- round: hiring_manager -->
-
-_Scope, ownership, and role-fit discussion with the manager._
-
-| Question | Difficulty | Tags |
-| --- | --- | --- |
-| How do you measure the success of a project after launch? | — | `metrics` |
-
-## Round 5 · Behavioral / HR
+## Round 4 · Behavioral / HR
 <!-- round: behavioral -->
 
 _Values, collaboration, and past-experience (STAR) questions._
 
 | Question | Difficulty | Tags |
 | --- | --- | --- |
-| Tell me about receiving hard feedback and acting on it. | — | `feedback` `star` |
-| Describe a conflict with your manager and the outcome. | — | `conflict` `star` |
+| What are your strengths and weaknesses? | — | — |
+| Are you comfortable working in rotational or night shifts? | — | — |
+| How do you handle pressure and tight deadlines? | — | — |
 
 ---
 

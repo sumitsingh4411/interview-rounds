@@ -1,77 +1,71 @@
 ---
 id: wipro-3
 company: wipro
-role: fullstack
-level: junior
+role: backend
+level: senior
 outcome: withdrew
-year: 2025
+year: 2024
 source: curated
-summary: 'A junior fullstack loop. Coding-heavy early, design and behavioral later.'
+summary: >-
+  Campus-style senior backend interview. Breadth of fundamentals mattered more
+  than algorithmic depth.
 ---
-# Junior Full-stack — Wipro
+# Senior Backend — Wipro
 
-![role](https://img.shields.io/badge/role-Full--stack-a78bfa?style=flat-square)
-![level](https://img.shields.io/badge/level-Junior-818cf8?style=flat-square)
+![role](https://img.shields.io/badge/role-Backend-8b93ff?style=flat-square)
+![level](https://img.shields.io/badge/level-Senior-818cf8?style=flat-square)
 ![outcome](https://img.shields.io/badge/outcome-Withdrew-fbbf24?style=flat-square)
-![year](https://img.shields.io/badge/year-2025-6b7280?style=flat-square)
+![year](https://img.shields.io/badge/year-2024-6b7280?style=flat-square)
 ![source](https://img.shields.io/badge/source-Commonly%20asked-2dd4bf?style=flat-square)
 
-> A junior fullstack loop. Coding-heavy early, design and behavioral later.
+> Campus-style senior backend interview. Breadth of fundamentals mattered more than algorithmic depth.
 
-**5 rounds · 11 questions**
+**4 rounds · 11 questions**
 
 ---
 
-## Round 1 · Online Assessment
-<!-- round: oa -->
-
-_Timed online coding / aptitude screen, usually the first filter._
-
-| Question | Difficulty | Tags | Practice |
-| --- | --- | --- | --- |
-| Find the missing number in 1..n. | 🟢 Easy | `math` | [LC](https://leetcode.com/problems/missing-number/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Find%20the%20missing%20number%20in%201..n) |
-
-## Round 2 · DSA / Coding
+## Round 1 · DSA / Coding
 <!-- round: dsa -->
 
 _Data structures & algorithms on a whiteboard or shared editor._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Merge k sorted lists. | 🔴 Hard | `heap` `linked-list` | [LC](https://leetcode.com/problems/merge-k-sorted-lists/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Merge%20k%20sorted%20lists) |
-| Pacific Atlantic water flow. | 🟡 Medium | `dfs` `grid` | [LC](https://leetcode.com/problems/pacific-atlantic-water-flow/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Pacific%20Atlantic%20water%20flow) |
-| Same tree. | 🟢 Easy | `tree` | [LC](https://leetcode.com/problems/same-tree/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Same%20tree) |
+| Remove duplicate characters from a string. | 🟢 Easy | `string` | [GfG](https://www.geeksforgeeks.org/search/?gq=Remove%20duplicate%20characters%20from%20a%20string) · [Search](https://www.google.com/search?q=Remove%20duplicate%20characters%20from%20a%20string) |
+| Swap two numbers without using a temporary variable. | 🟢 Easy | `math` | [GfG](https://www.geeksforgeeks.org/search/?gq=Swap%20two%20numbers%20without%20using%20a%20temporary%20variable) · [Search](https://www.google.com/search?q=Swap%20two%20numbers%20without%20using%20a%20temporary%20variable) |
 
-## Round 3 · Machine Coding
-<!-- round: machine_coding -->
-
-_Build a working component or service under time pressure._
-
-| Question | Difficulty | Tags | Practice |
-| --- | --- | --- | --- |
-| Implement a leaderboard API backed by a sorted set. | 🟡 Medium | `redis` `ranking` | [GfG](https://www.geeksforgeeks.org/search/?gq=Implement%20a%20leaderboard%20API%20backed%20by%20a%20sorted%20set) · [Search](https://www.google.com/search?q=Implement%20a%20leaderboard%20API%20backed%20by%20a%20sorted%20set) |
-| Build a webhook receiver with signature verification. | 🟡 Medium | `security` `api` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20a%20webhook%20receiver%20with%20signature%20verification) · [Search](https://www.google.com/search?q=Build%20a%20webhook%20receiver%20with%20signature%20verification) |
-
-## Round 4 · Tech Deep-Dive
+## Round 2 · Tech Deep-Dive
 <!-- round: tech_deep_dive -->
 
 _Deep questions on your core stack and fundamentals._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Explain memoization: useMemo, useCallback and React.memo. | 🟡 Medium | `react` `perf` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20memoization%3A%20useMemo%2C%20useCallback%20and%20React.memo) · [Search](https://www.google.com/search?q=Explain%20memoization%3A%20useMemo%2C%20useCallback%20and%20React.memo) |
-| Explain how Promises work and implement Promise.all. | 🟡 Medium | `javascript` `async` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20how%20Promises%20work%20and%20implement%20Promise.all) · [Search](https://www.google.com/search?q=Explain%20how%20Promises%20work%20and%20implement%20Promise.all) |
-| How do you optimize a slow React app? (profiling → fixes) | 🔴 Hard | `react` `perf` | [GfG](https://www.geeksforgeeks.org/search/?gq=How%20do%20you%20optimize%20a%20slow%20React%20app%3F%20(profiling%20%E2%86%92%20fixes)) · [Search](https://www.google.com/search?q=How%20do%20you%20optimize%20a%20slow%20React%20app%3F%20(profiling%20%E2%86%92%20fixes)) |
+| Explain the time complexity of common sorting algorithms. | 🟡 Medium | `data-structures` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20the%20time%20complexity%20of%20common%20sorting%20algorithms) · [Search](https://www.google.com/search?q=Explain%20the%20time%20complexity%20of%20common%20sorting%20algorithms) |
+| Explain inheritance and its types. | 🟢 Easy | `oops` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20inheritance%20and%20its%20types) · [Search](https://www.google.com/search?q=Explain%20inheritance%20and%20its%20types) |
+| Difference between C and C++. | 🟢 Easy | `c` | [GfG](https://www.geeksforgeeks.org/search/?gq=Difference%20between%20C%20and%20C%2B%2B) · [Search](https://www.google.com/search?q=Difference%20between%20C%20and%20C%2B%2B) |
+| Difference between TCP and UDP. | 🟢 Easy | `networking` | [GfG](https://www.geeksforgeeks.org/search/?gq=Difference%20between%20TCP%20and%20UDP) · [Search](https://www.google.com/search?q=Difference%20between%20TCP%20and%20UDP) |
 
-## Round 5 · Behavioral / HR
+## Round 3 · Hiring Manager
+<!-- round: hiring_manager -->
+
+_Scope, ownership, and role-fit discussion with the manager._
+
+| Question | Difficulty | Tags |
+| --- | --- | --- |
+| Describe your experience working with an onsite / offshore team. | — | — |
+| How do you approach learning a technology you have never used? | — | — |
+
+## Round 4 · Behavioral / HR
 <!-- round: behavioral -->
 
 _Values, collaboration, and past-experience (STAR) questions._
 
 | Question | Difficulty | Tags |
 | --- | --- | --- |
-| How do you get up to speed on an unfamiliar codebase? | — | `learning` |
-| Describe a time you disagreed with a teammate. How did it resolve? | — | `conflict` `star` |
+| Are you comfortable signing the service agreement / bond? | — | — |
+| Are you comfortable working in rotational or night shifts? | — | — |
+| Do you have any backlogs or academic gaps? Please explain. | — | — |
 
 ---
 

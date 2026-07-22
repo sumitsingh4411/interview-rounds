@@ -2,25 +2,25 @@
 id: synechron-2
 company: synechron
 role: frontend
-level: junior
-outcome: no_offer
+level: mid
+outcome: offer
 year: 2023
 source: curated
 summary: >-
-  5-round junior frontend process. Fundamentals mattered as much as getting to
-  an answer.
+  A mid frontend hiring drive. Screening test, technical round, then a
+  managerial and HR conversation.
 ---
-# Junior Frontend — Synechron
+# Mid Frontend — Synechron
 
 ![role](https://img.shields.io/badge/role-Frontend-22d3ee?style=flat-square)
-![level](https://img.shields.io/badge/level-Junior-818cf8?style=flat-square)
-![outcome](https://img.shields.io/badge/outcome-No%20offer-f87171?style=flat-square)
+![level](https://img.shields.io/badge/level-Mid-818cf8?style=flat-square)
+![outcome](https://img.shields.io/badge/outcome-Offer-34d399?style=flat-square)
 ![year](https://img.shields.io/badge/year-2023-6b7280?style=flat-square)
 ![source](https://img.shields.io/badge/source-Commonly%20asked-2dd4bf?style=flat-square)
 
-> 5-round junior frontend process. Fundamentals mattered as much as getting to an answer.
+> A mid frontend hiring drive. Screening test, technical round, then a managerial and HR conversation.
 
-**5 rounds · 11 questions**
+**5 rounds · 14 questions**
 
 ---
 
@@ -31,7 +31,9 @@ _Timed online coding / aptitude screen, usually the first filter._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Reformat a log file by timestamp. | 🟢 Easy | `sorting` `parsing` | [GfG](https://www.geeksforgeeks.org/search/?gq=Reformat%20a%20log%20file%20by%20timestamp) · [Search](https://www.google.com/search?q=Reformat%20a%20log%20file%20by%20timestamp) |
+| Logical reasoning: blood relations and seating arrangement. | 🟡 Medium | `reasoning` | [GfG](https://www.geeksforgeeks.org/search/?gq=Logical%20reasoning%3A%20blood%20relations%20and%20seating%20arrangement) · [Search](https://www.google.com/search?q=Logical%20reasoning%3A%20blood%20relations%20and%20seating%20arrangement) |
+| Pseudocode: spot the error in the given snippet. | 🟡 Medium | `pseudocode` | [GfG](https://www.geeksforgeeks.org/search/?gq=Pseudocode%3A%20spot%20the%20error%20in%20the%20given%20snippet) · [Search](https://www.google.com/search?q=Pseudocode%3A%20spot%20the%20error%20in%20the%20given%20snippet) |
+| Verbal ability: reading comprehension passage. | 🟢 Easy | `verbal` | [GfG](https://www.geeksforgeeks.org/search/?gq=Verbal%20ability%3A%20reading%20comprehension%20passage) · [Search](https://www.google.com/search?q=Verbal%20ability%3A%20reading%20comprehension%20passage) |
 
 ## Round 2 · DSA / Coding
 <!-- round: dsa -->
@@ -40,30 +42,30 @@ _Data structures & algorithms on a whiteboard or shared editor._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Search in a rotated sorted array. | 🟡 Medium | `binary-search` | [LC](https://leetcode.com/problems/search-in-rotated-sorted-array/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Search%20in%20a%20rotated%20sorted%20array) |
-| Min cost to connect all points. | 🟡 Medium | `graph` `mst` | [LC](https://leetcode.com/problems/min-cost-to-connect-all-points/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Min%20cost%20to%20connect%20all%20points) |
-| Contains duplicate. | 🟢 Easy | `array` `hashmap` | [LC](https://leetcode.com/problems/contains-duplicate/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Contains%20duplicate) |
+| Sort an array using bubble sort and state its complexity. | 🟢 Easy | `sorting` | [GfG](https://www.geeksforgeeks.org/search/?gq=Sort%20an%20array%20using%20bubble%20sort%20and%20state%20its%20complexity) · [Search](https://www.google.com/search?q=Sort%20an%20array%20using%20bubble%20sort%20and%20state%20its%20complexity) |
+| Swap two numbers without using a temporary variable. | 🟢 Easy | `math` | [GfG](https://www.geeksforgeeks.org/search/?gq=Swap%20two%20numbers%20without%20using%20a%20temporary%20variable) · [Search](https://www.google.com/search?q=Swap%20two%20numbers%20without%20using%20a%20temporary%20variable) |
 
-## Round 3 · Machine Coding
-<!-- round: machine_coding -->
-
-_Build a working component or service under time pressure._
-
-| Question | Difficulty | Tags | Practice |
-| --- | --- | --- | --- |
-| Build a modal/dialog with focus trapping. | 🟡 Medium | `react` `a11y` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20a%20modal%2Fdialog%20with%20focus%20trapping) · [Search](https://www.google.com/search?q=Build%20a%20modal%2Fdialog%20with%20focus%20trapping) |
-| Build a star-rating component (controlled + accessible). | 🟢 Easy | `react` `a11y` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20a%20star-rating%20component%20(controlled%20%2B%20accessible)) · [Search](https://www.google.com/search?q=Build%20a%20star-rating%20component%20(controlled%20%2B%20accessible)) |
-
-## Round 4 · Tech Deep-Dive
+## Round 3 · Tech Deep-Dive
 <!-- round: tech_deep_dive -->
 
 _Deep questions on your core stack and fundamentals._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Explain the difference between == and === and coercion. | 🟢 Easy | `javascript` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20the%20difference%20between%20%3D%3D%20and%20%3D%3D%3D%20and%20coercion) · [Search](https://www.google.com/search?q=Explain%20the%20difference%20between%20%3D%3D%20and%20%3D%3D%3D%20and%20coercion) |
-| Explain how CSS-in-JS differs from utility CSS. | 🟢 Easy | `css` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20how%20CSS-in-JS%20differs%20from%20utility%20CSS) · [Search](https://www.google.com/search?q=Explain%20how%20CSS-in-JS%20differs%20from%20utility%20CSS) |
-| Explain CORS and how a preflight request works. | 🟡 Medium | `browser` `security` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20CORS%20and%20how%20a%20preflight%20request%20works) · [Search](https://www.google.com/search?q=Explain%20CORS%20and%20how%20a%20preflight%20request%20works) |
+| What are the JDK, JRE and JVM? | 🟢 Easy | `java` | [GfG](https://www.geeksforgeeks.org/search/?gq=What%20are%20the%20JDK%2C%20JRE%20and%20JVM) · [Search](https://www.google.com/search?q=What%20are%20the%20JDK%2C%20JRE%20and%20JVM) |
+| Write a SQL query to find the second-highest salary. | 🟡 Medium | `sql` | [GfG](https://www.geeksforgeeks.org/search/?gq=Write%20a%20SQL%20query%20to%20find%20the%20second-highest%20salary) · [Search](https://www.google.com/search?q=Write%20a%20SQL%20query%20to%20find%20the%20second-highest%20salary) |
+| Difference between a process and a thread. | 🟢 Easy | `os` | [GfG](https://www.geeksforgeeks.org/search/?gq=Difference%20between%20a%20process%20and%20a%20thread) · [Search](https://www.google.com/search?q=Difference%20between%20a%20process%20and%20a%20thread) |
+| What is a constructor? Explain constructor overloading. | 🟢 Easy | `oops` | [GfG](https://www.geeksforgeeks.org/search/?gq=What%20is%20a%20constructor%3F%20Explain%20constructor%20overloading) · [Search](https://www.google.com/search?q=What%20is%20a%20constructor%3F%20Explain%20constructor%20overloading) |
+
+## Round 4 · Hiring Manager
+<!-- round: hiring_manager -->
+
+_Scope, ownership, and role-fit discussion with the manager._
+
+| Question | Difficulty | Tags |
+| --- | --- | --- |
+| What would you do if you disagreed with your project lead? | — | — |
+| How would you approach understanding a client's legacy codebase? | — | — |
 
 ## Round 5 · Behavioral / HR
 <!-- round: behavioral -->
@@ -72,8 +74,9 @@ _Values, collaboration, and past-experience (STAR) questions._
 
 | Question | Difficulty | Tags |
 | --- | --- | --- |
-| When did you take ownership of something outside your scope? | — | `ownership` `star` |
-| Tell me about a time you disagreed and committed. | — | `teamwork` `star` |
+| What are your strengths and weaknesses? | — | — |
+| Tell me about your final-year project. | — | — |
+| What do you know about our company and the services we provide? | — | — |
 
 ---
 

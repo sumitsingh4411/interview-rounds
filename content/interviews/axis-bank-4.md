@@ -1,69 +1,71 @@
 ---
 id: axis-bank-4
 company: axis-bank
-role: backend
+role: fullstack
 level: mid
 outcome: offer
-year: 2025
+year: 2023
 source: curated
 summary: >-
-  Mid backend interview. Pragmatic questions — more real-world than pure
-  puzzles.
+  A mid fullstack hiring drive. Basic programming plus core CS; communication
+  mattered throughout.
 ---
-# Mid Backend — Axis Bank
+# Mid Full-stack — Axis Bank
 
-![role](https://img.shields.io/badge/role-Backend-8b93ff?style=flat-square)
+![role](https://img.shields.io/badge/role-Full--stack-a78bfa?style=flat-square)
 ![level](https://img.shields.io/badge/level-Mid-818cf8?style=flat-square)
 ![outcome](https://img.shields.io/badge/outcome-Offer-34d399?style=flat-square)
-![year](https://img.shields.io/badge/year-2025-6b7280?style=flat-square)
+![year](https://img.shields.io/badge/year-2023-6b7280?style=flat-square)
 ![source](https://img.shields.io/badge/source-Commonly%20asked-2dd4bf?style=flat-square)
 
-> Mid backend interview. Pragmatic questions — more real-world than pure puzzles.
+> A mid fullstack hiring drive. Basic programming plus core CS; communication mattered throughout.
 
-**5 rounds · 11 questions**
+**5 rounds · 14 questions**
 
 ---
 
-## Round 1 · DSA / Coding
+## Round 1 · Online Assessment
+<!-- round: oa -->
+
+_Timed online coding / aptitude screen, usually the first filter._
+
+| Question | Difficulty | Tags | Practice |
+| --- | --- | --- | --- |
+| Quantitative aptitude: permutations, combinations and probability. | 🟡 Medium | `aptitude` | [GfG](https://www.geeksforgeeks.org/search/?gq=Quantitative%20aptitude%3A%20permutations%2C%20combinations%20and%20probability) · [Search](https://www.google.com/search?q=Quantitative%20aptitude%3A%20permutations%2C%20combinations%20and%20probability) |
+| Verbal ability: error spotting and sentence correction. | 🟢 Easy | `verbal` | [GfG](https://www.geeksforgeeks.org/search/?gq=Verbal%20ability%3A%20error%20spotting%20and%20sentence%20correction) · [Search](https://www.google.com/search?q=Verbal%20ability%3A%20error%20spotting%20and%20sentence%20correction) |
+| Verbal ability: synonyms, antonyms and para-jumbles. | 🟢 Easy | `verbal` | [GfG](https://www.geeksforgeeks.org/search/?gq=Verbal%20ability%3A%20synonyms%2C%20antonyms%20and%20para-jumbles) · [Search](https://www.google.com/search?q=Verbal%20ability%3A%20synonyms%2C%20antonyms%20and%20para-jumbles) |
+
+## Round 2 · DSA / Coding
 <!-- round: dsa -->
 
 _Data structures & algorithms on a whiteboard or shared editor._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Maximum depth of a binary tree. | 🟢 Easy | `tree` `dfs` | [LC](https://leetcode.com/problems/maximum-depth-of-binary-tree/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Maximum%20depth%20of%20a%20binary%20tree) |
-| Product of array except self. | 🟡 Medium | `array` `prefix-sum` | [LC](https://leetcode.com/problems/product-of-array-except-self/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Product%20of%20array%20except%20self) |
-| Meeting rooms II — minimum rooms required. | 🟡 Medium | `heap` `intervals` | [LC](https://leetcode.com/problems/meeting-rooms-ii/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Meeting%20rooms%20II%20%E2%80%94%20minimum%20rooms%20required) |
+| Reverse a string without using library functions. | 🟢 Easy | `string` | [GfG](https://www.geeksforgeeks.org/search/?gq=Reverse%20a%20string%20without%20using%20library%20functions) · [Search](https://www.google.com/search?q=Reverse%20a%20string%20without%20using%20library%20functions) |
+| Count the frequency of each character in a string. | 🟢 Easy | `string` | [GfG](https://www.geeksforgeeks.org/search/?gq=Count%20the%20frequency%20of%20each%20character%20in%20a%20string) · [Search](https://www.google.com/search?q=Count%20the%20frequency%20of%20each%20character%20in%20a%20string) |
 
-## Round 2 · Machine Coding
-<!-- round: machine_coding -->
-
-_Build a working component or service under time pressure._
-
-| Question | Difficulty | Tags | Practice |
-| --- | --- | --- | --- |
-| Build a CSV importer that streams and validates rows. | 🟡 Medium | `streaming` `validation` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20a%20CSV%20importer%20that%20streams%20and%20validates%20rows) · [Search](https://www.google.com/search?q=Build%20a%20CSV%20importer%20that%20streams%20and%20validates%20rows) |
-| Implement an exponential-backoff HTTP client. | 🟡 Medium | `reliability` | [GfG](https://www.geeksforgeeks.org/search/?gq=Implement%20an%20exponential-backoff%20HTTP%20client) · [Search](https://www.google.com/search?q=Implement%20an%20exponential-backoff%20HTTP%20client) |
-
-## Round 3 · Low-Level Design
-<!-- round: lld -->
-
-_Object-oriented / low-level design of a focused module._
-
-| Question | Difficulty | Tags | Practice |
-| --- | --- | --- | --- |
-| Design a hotel-reservation system core. | 🟡 Medium | `oop` `concurrency` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20hotel-reservation%20system%20core) · [Search](https://www.google.com/search?q=Design%20a%20hotel-reservation%20system%20core) |
-
-## Round 4 · Tech Deep-Dive
+## Round 3 · Tech Deep-Dive
 <!-- round: tech_deep_dive -->
 
 _Deep questions on your core stack and fundamentals._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Explain database indexing and when a query uses one. | 🟡 Medium | `databases` `indexing` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20database%20indexing%20and%20when%20a%20query%20uses%20one) · [Search](https://www.google.com/search?q=Explain%20database%20indexing%20and%20when%20a%20query%20uses%20one) |
-| How would you design and version a public REST API? | 🟡 Medium | `api-design` | [GfG](https://www.geeksforgeeks.org/search/?gq=How%20would%20you%20design%20and%20version%20a%20public%20REST%20API) · [Search](https://www.google.com/search?q=How%20would%20you%20design%20and%20version%20a%20public%20REST%20API) |
-| How do you prevent and detect N+1 queries? | 🟡 Medium | `databases` `orm` | [GfG](https://www.geeksforgeeks.org/search/?gq=How%20do%20you%20prevent%20and%20detect%20N%2B1%20queries) · [Search](https://www.google.com/search?q=How%20do%20you%20prevent%20and%20detect%20N%2B1%20queries) |
+| Method overloading vs method overriding. | 🟢 Easy | `oops` | [GfG](https://www.geeksforgeeks.org/search/?gq=Method%20overloading%20vs%20method%20overriding) · [Search](https://www.google.com/search?q=Method%20overloading%20vs%20method%20overriding) |
+| Explain primary key, foreign key, unique key and candidate key. | 🟢 Easy | `dbms` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20primary%20key%2C%20foreign%20key%2C%20unique%20key%20and%20candidate%20key) · [Search](https://www.google.com/search?q=Explain%20primary%20key%2C%20foreign%20key%2C%20unique%20key%20and%20candidate%20key) |
+| Difference between DBMS and RDBMS. | 🟢 Easy | `dbms` | [GfG](https://www.geeksforgeeks.org/search/?gq=Difference%20between%20DBMS%20and%20RDBMS) · [Search](https://www.google.com/search?q=Difference%20between%20DBMS%20and%20RDBMS) |
+| Explain the ACID properties of a transaction. | 🟡 Medium | `dbms` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20the%20ACID%20properties%20of%20a%20transaction) · [Search](https://www.google.com/search?q=Explain%20the%20ACID%20properties%20of%20a%20transaction) |
+
+## Round 4 · Hiring Manager
+<!-- round: hiring_manager -->
+
+_Scope, ownership, and role-fit discussion with the manager._
+
+| Question | Difficulty | Tags |
+| --- | --- | --- |
+| How would you approach understanding a client's legacy codebase? | — | — |
+| Describe your experience working with an onsite / offshore team. | — | — |
 
 ## Round 5 · Behavioral / HR
 <!-- round: behavioral -->
@@ -72,8 +74,9 @@ _Values, collaboration, and past-experience (STAR) questions._
 
 | Question | Difficulty | Tags |
 | --- | --- | --- |
-| Tell me about a time you simplified something overly complex. | — | `judgment` `star` |
-| Tell me about receiving hard feedback and acting on it. | — | `feedback` `star` |
+| Why do you want to join our company? | — | — |
+| Why should we hire you? | — | — |
+| Would you be comfortable working on any technology assigned to you? | — | — |
 
 ---
 

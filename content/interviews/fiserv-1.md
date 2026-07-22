@@ -1,77 +1,72 @@
 ---
 id: fiserv-1
 company: fiserv
-role: backend
-level: mid
-outcome: no_offer
+role: fullstack
+level: intern
+outcome: withdrew
 year: 2024
 source: curated
-summary: 'Mid backend interview. Balanced across coding, design, and collaboration.'
+summary: >-
+  4-round intern fullstack process. Aptitude screen first, then technical
+  fundamentals and HR.
 ---
-# Mid Backend — Fiserv
+# Intern Full-stack — Fiserv
 
-![role](https://img.shields.io/badge/role-Backend-8b93ff?style=flat-square)
-![level](https://img.shields.io/badge/level-Mid-818cf8?style=flat-square)
-![outcome](https://img.shields.io/badge/outcome-No%20offer-f87171?style=flat-square)
+![role](https://img.shields.io/badge/role-Full--stack-a78bfa?style=flat-square)
+![level](https://img.shields.io/badge/level-Intern-818cf8?style=flat-square)
+![outcome](https://img.shields.io/badge/outcome-Withdrew-fbbf24?style=flat-square)
 ![year](https://img.shields.io/badge/year-2024-6b7280?style=flat-square)
 ![source](https://img.shields.io/badge/source-Commonly%20asked-2dd4bf?style=flat-square)
 
-> Mid backend interview. Balanced across coding, design, and collaboration.
+> 4-round intern fullstack process. Aptitude screen first, then technical fundamentals and HR.
 
-**5 rounds · 11 questions**
+**4 rounds · 12 questions**
 
 ---
 
-## Round 1 · DSA / Coding
+## Round 1 · Online Assessment
+<!-- round: oa -->
+
+_Timed online coding / aptitude screen, usually the first filter._
+
+| Question | Difficulty | Tags | Practice |
+| --- | --- | --- | --- |
+| Quantitative aptitude: permutations, combinations and probability. | 🟡 Medium | `aptitude` | [GfG](https://www.geeksforgeeks.org/search/?gq=Quantitative%20aptitude%3A%20permutations%2C%20combinations%20and%20probability) · [Search](https://www.google.com/search?q=Quantitative%20aptitude%3A%20permutations%2C%20combinations%20and%20probability) |
+| Logical reasoning: data interpretation from charts and tables. | 🟡 Medium | `reasoning` | [GfG](https://www.geeksforgeeks.org/search/?gq=Logical%20reasoning%3A%20data%20interpretation%20from%20charts%20and%20tables) · [Search](https://www.google.com/search?q=Logical%20reasoning%3A%20data%20interpretation%20from%20charts%20and%20tables) |
+| Quantitative aptitude: ratio, proportion and averages. | 🟢 Easy | `aptitude` | [GfG](https://www.geeksforgeeks.org/search/?gq=Quantitative%20aptitude%3A%20ratio%2C%20proportion%20and%20averages) · [Search](https://www.google.com/search?q=Quantitative%20aptitude%3A%20ratio%2C%20proportion%20and%20averages) |
+
+## Round 2 · DSA / Coding
 <!-- round: dsa -->
 
 _Data structures & algorithms on a whiteboard or shared editor._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Longest substring without repeating characters. | 🟡 Medium | `sliding-window` `string` | [LC](https://leetcode.com/problems/longest-substring-without-repeating-characters/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Longest%20substring%20without%20repeating%20characters) |
-| Container with most water. | 🟡 Medium | `two-pointers` `array` | [LC](https://leetcode.com/problems/container-with-most-water/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Container%20with%20most%20water) |
-| Largest rectangle in histogram. | 🔴 Hard | `stack` `monotonic-stack` | [LC](https://leetcode.com/problems/largest-rectangle-in-histogram/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Largest%20rectangle%20in%20histogram) |
+| Check whether a string is a palindrome. | 🟢 Easy | `string` | [GfG](https://www.geeksforgeeks.org/search/?gq=Check%20whether%20a%20string%20is%20a%20palindrome) · [Search](https://www.google.com/search?q=Check%20whether%20a%20string%20is%20a%20palindrome) |
+| Reverse a string without using library functions. | 🟢 Easy | `string` | [GfG](https://www.geeksforgeeks.org/search/?gq=Reverse%20a%20string%20without%20using%20library%20functions) · [Search](https://www.google.com/search?q=Reverse%20a%20string%20without%20using%20library%20functions) |
 
-## Round 2 · Machine Coding
-<!-- round: machine_coding -->
-
-_Build a working component or service under time pressure._
-
-| Question | Difficulty | Tags | Practice |
-| --- | --- | --- | --- |
-| Build a URL health checker with a concurrency limit. | 🟡 Medium | `concurrency` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20a%20URL%20health%20checker%20with%20a%20concurrency%20limit) · [Search](https://www.google.com/search?q=Build%20a%20URL%20health%20checker%20with%20a%20concurrency%20limit) |
-| Implement an LRU + TTL cache library. | 🔴 Hard | `cache` `ttl` | [GfG](https://www.geeksforgeeks.org/search/?gq=Implement%20an%20LRU%20%2B%20TTL%20cache%20library) · [Search](https://www.google.com/search?q=Implement%20an%20LRU%20%2B%20TTL%20cache%20library) |
-
-## Round 3 · Low-Level Design
-<!-- round: lld -->
-
-_Object-oriented / low-level design of a focused module._
-
-| Question | Difficulty | Tags | Practice |
-| --- | --- | --- | --- |
-| Design a notification service (channels + templates). | 🟡 Medium | `oop` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20notification%20service%20(channels%20%2B%20templates)) · [Search](https://www.google.com/search?q=Design%20a%20notification%20service%20(channels%20%2B%20templates)) |
-
-## Round 4 · Tech Deep-Dive
+## Round 3 · Tech Deep-Dive
 <!-- round: tech_deep_dive -->
 
 _Deep questions on your core stack and fundamentals._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Sharding vs partitioning vs replication. | 🔴 Hard | `databases` `scale` | [GfG](https://www.geeksforgeeks.org/search/?gq=Sharding%20vs%20partitioning%20vs%20replication) · [Search](https://www.google.com/search?q=Sharding%20vs%20partitioning%20vs%20replication) |
-| Explain JWT structure and common pitfalls. | 🟡 Medium | `auth` `security` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20JWT%20structure%20and%20common%20pitfalls) · [Search](https://www.google.com/search?q=Explain%20JWT%20structure%20and%20common%20pitfalls) |
-| How does a load balancer choose a backend? | 🟡 Medium | `networking` | [GfG](https://www.geeksforgeeks.org/search/?gq=How%20does%20a%20load%20balancer%20choose%20a%20backend) · [Search](https://www.google.com/search?q=How%20does%20a%20load%20balancer%20choose%20a%20backend) |
+| What is polymorphism? Compile-time vs runtime. | 🟢 Easy | `oops` | [GfG](https://www.geeksforgeeks.org/search/?gq=What%20is%20polymorphism%3F%20Compile-time%20vs%20runtime) · [Search](https://www.google.com/search?q=What%20is%20polymorphism%3F%20Compile-time%20vs%20runtime) |
+| Explain virtual memory, paging and segmentation. | 🟡 Medium | `os` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20virtual%20memory%2C%20paging%20and%20segmentation) · [Search](https://www.google.com/search?q=Explain%20virtual%20memory%2C%20paging%20and%20segmentation) |
+| Explain SQL joins: inner, left, right and full outer. | 🟢 Easy | `sql` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20SQL%20joins%3A%20inner%2C%20left%2C%20right%20and%20full%20outer) · [Search](https://www.google.com/search?q=Explain%20SQL%20joins%3A%20inner%2C%20left%2C%20right%20and%20full%20outer) |
+| What is a deadlock and how do you prevent it? | 🟡 Medium | `os` | [GfG](https://www.geeksforgeeks.org/search/?gq=What%20is%20a%20deadlock%20and%20how%20do%20you%20prevent%20it) · [Search](https://www.google.com/search?q=What%20is%20a%20deadlock%20and%20how%20do%20you%20prevent%20it) |
 
-## Round 5 · Behavioral / HR
+## Round 4 · Behavioral / HR
 <!-- round: behavioral -->
 
 _Values, collaboration, and past-experience (STAR) questions._
 
 | Question | Difficulty | Tags |
 | --- | --- | --- |
-| Describe handling a tight deadline with competing priorities. | — | `prioritization` `star` |
-| Tell me about a time you disagreed and committed. | — | `teamwork` `star` |
+| Tell me about your final-year project. | — | — |
+| Why do you want to join our company? | — | — |
+| How do you handle pressure and tight deadlines? | — | — |
 
 ---
 

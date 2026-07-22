@@ -1,79 +1,72 @@
 ---
 id: infosys-2
 company: infosys
-role: frontend
-level: mid
-outcome: offer
+role: fullstack
+level: intern
+outcome: unknown
 year: 2024
 source: curated
 summary: >-
-  Mid frontend interview. Pragmatic questions — more real-world than pure
-  puzzles.
+  Campus-style intern fullstack interview. Aptitude screen first, then technical
+  fundamentals and HR.
 ---
-# Mid Frontend — Infosys
+# Intern Full-stack — Infosys
 
-![role](https://img.shields.io/badge/role-Frontend-22d3ee?style=flat-square)
-![level](https://img.shields.io/badge/level-Mid-818cf8?style=flat-square)
-![outcome](https://img.shields.io/badge/outcome-Offer-34d399?style=flat-square)
+![role](https://img.shields.io/badge/role-Full--stack-a78bfa?style=flat-square)
+![level](https://img.shields.io/badge/level-Intern-818cf8?style=flat-square)
+![outcome](https://img.shields.io/badge/outcome-Unknown-6b7280?style=flat-square)
 ![year](https://img.shields.io/badge/year-2024-6b7280?style=flat-square)
 ![source](https://img.shields.io/badge/source-Commonly%20asked-2dd4bf?style=flat-square)
 
-> Mid frontend interview. Pragmatic questions — more real-world than pure puzzles.
+> Campus-style intern fullstack interview. Aptitude screen first, then technical fundamentals and HR.
 
-**5 rounds · 11 questions**
+**4 rounds · 12 questions**
 
 ---
 
-## Round 1 · DSA / Coding
+## Round 1 · Online Assessment
+<!-- round: oa -->
+
+_Timed online coding / aptitude screen, usually the first filter._
+
+| Question | Difficulty | Tags | Practice |
+| --- | --- | --- | --- |
+| Logical reasoning: data interpretation from charts and tables. | 🟡 Medium | `reasoning` | [GfG](https://www.geeksforgeeks.org/search/?gq=Logical%20reasoning%3A%20data%20interpretation%20from%20charts%20and%20tables) · [Search](https://www.google.com/search?q=Logical%20reasoning%3A%20data%20interpretation%20from%20charts%20and%20tables) |
+| Quantitative aptitude: permutations, combinations and probability. | 🟡 Medium | `aptitude` | [GfG](https://www.geeksforgeeks.org/search/?gq=Quantitative%20aptitude%3A%20permutations%2C%20combinations%20and%20probability) · [Search](https://www.google.com/search?q=Quantitative%20aptitude%3A%20permutations%2C%20combinations%20and%20probability) |
+| Quantitative aptitude: ratio, proportion and averages. | 🟢 Easy | `aptitude` | [GfG](https://www.geeksforgeeks.org/search/?gq=Quantitative%20aptitude%3A%20ratio%2C%20proportion%20and%20averages) · [Search](https://www.google.com/search?q=Quantitative%20aptitude%3A%20ratio%2C%20proportion%20and%20averages) |
+
+## Round 2 · DSA / Coding
 <!-- round: dsa -->
 
 _Data structures & algorithms on a whiteboard or shared editor._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Binary tree level order traversal. | 🟡 Medium | `tree` `bfs` | [LC](https://leetcode.com/problems/binary-tree-level-order-traversal/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Binary%20tree%20level%20order%20traversal) |
-| Rotate array. | 🟡 Medium | `array` | [LC](https://leetcode.com/problems/rotate-array/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Rotate%20array) |
-| Longest substring without repeating characters. | 🟡 Medium | `sliding-window` `string` | [LC](https://leetcode.com/problems/longest-substring-without-repeating-characters/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Longest%20substring%20without%20repeating%20characters) |
+| Print the Fibonacci series up to n terms. | 🟢 Easy | `math` | [GfG](https://www.geeksforgeeks.org/search/?gq=Print%20the%20Fibonacci%20series%20up%20to%20n%20terms) · [Search](https://www.google.com/search?q=Print%20the%20Fibonacci%20series%20up%20to%20n%20terms) |
+| Remove duplicates from an array without using extra space. | 🟡 Medium | `array` | [GfG](https://www.geeksforgeeks.org/search/?gq=Remove%20duplicates%20from%20an%20array%20without%20using%20extra%20space) · [Search](https://www.google.com/search?q=Remove%20duplicates%20from%20an%20array%20without%20using%20extra%20space) |
 
-## Round 2 · Machine Coding
-<!-- round: machine_coding -->
-
-_Build a working component or service under time pressure._
-
-| Question | Difficulty | Tags | Practice |
-| --- | --- | --- | --- |
-| Build a nested checkbox tree with indeterminate state. | 🔴 Hard | `react` `recursion` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20a%20nested%20checkbox%20tree%20with%20indeterminate%20state) · [Search](https://www.google.com/search?q=Build%20a%20nested%20checkbox%20tree%20with%20indeterminate%20state) |
-| Build a "polling" progress UI that updates from an API. | 🟡 Medium | `react` `async` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20a%20%22polling%22%20progress%20UI%20that%20updates%20from%20an%20API) · [Search](https://www.google.com/search?q=Build%20a%20%22polling%22%20progress%20UI%20that%20updates%20from%20an%20API) |
-
-## Round 3 · Low-Level Design
-<!-- round: lld -->
-
-_Object-oriented / low-level design of a focused module._
-
-| Question | Difficulty | Tags | Practice |
-| --- | --- | --- | --- |
-| Model the state machine for a checkout flow. | 🟡 Medium | `state-machine` | [GfG](https://www.geeksforgeeks.org/search/?gq=Model%20the%20state%20machine%20for%20a%20checkout%20flow) · [Search](https://www.google.com/search?q=Model%20the%20state%20machine%20for%20a%20checkout%20flow) |
-
-## Round 4 · Tech Deep-Dive
+## Round 3 · Tech Deep-Dive
 <!-- round: tech_deep_dive -->
 
 _Deep questions on your core stack and fundamentals._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| What causes layout thrashing and how do you avoid it? | 🔴 Hard | `perf` `dom` | [GfG](https://www.geeksforgeeks.org/search/?gq=What%20causes%20layout%20thrashing%20and%20how%20do%20you%20avoid%20it) · [Search](https://www.google.com/search?q=What%20causes%20layout%20thrashing%20and%20how%20do%20you%20avoid%20it) |
-| Difference between CSS Grid and Flexbox — when to use each. | 🟢 Easy | `css` `layout` | [GfG](https://www.geeksforgeeks.org/search/?gq=Difference%20between%20CSS%20Grid%20and%20Flexbox%20%E2%80%94%20when%20to%20use%20each) · [Search](https://www.google.com/search?q=Difference%20between%20CSS%20Grid%20and%20Flexbox%20%E2%80%94%20when%20to%20use%20each) |
-| Accessibility: how do you make a custom widget usable? | 🟡 Medium | `a11y` | [GfG](https://www.geeksforgeeks.org/search/?gq=Accessibility%3A%20how%20do%20you%20make%20a%20custom%20widget%20usable) · [Search](https://www.google.com/search?q=Accessibility%3A%20how%20do%20you%20make%20a%20custom%20widget%20usable) |
+| What is a constructor? Explain constructor overloading. | 🟢 Easy | `oops` | [GfG](https://www.geeksforgeeks.org/search/?gq=What%20is%20a%20constructor%3F%20Explain%20constructor%20overloading) · [Search](https://www.google.com/search?q=What%20is%20a%20constructor%3F%20Explain%20constructor%20overloading) |
+| Explain the static and final keywords in Java. | 🟢 Easy | `java` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20the%20static%20and%20final%20keywords%20in%20Java) · [Search](https://www.google.com/search?q=Explain%20the%20static%20and%20final%20keywords%20in%20Java) |
+| Difference between == and equals() in Java. | 🟢 Easy | `java` | [GfG](https://www.geeksforgeeks.org/search/?gq=Difference%20between%20%3D%3D%20and%20equals()%20in%20Java) · [Search](https://www.google.com/search?q=Difference%20between%20%3D%3D%20and%20equals()%20in%20Java) |
+| Explain primary key, foreign key, unique key and candidate key. | 🟢 Easy | `dbms` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20primary%20key%2C%20foreign%20key%2C%20unique%20key%20and%20candidate%20key) · [Search](https://www.google.com/search?q=Explain%20primary%20key%2C%20foreign%20key%2C%20unique%20key%20and%20candidate%20key) |
 
-## Round 5 · Behavioral / HR
+## Round 4 · Behavioral / HR
 <!-- round: behavioral -->
 
 _Values, collaboration, and past-experience (STAR) questions._
 
 | Question | Difficulty | Tags |
 | --- | --- | --- |
-| Tell me about a time you led without a title. | — | `leadership` `star` |
-| Tell me about a time you had to learn something quickly. | — | `learning` `star` |
+| Tell me about your final-year project. | — | — |
+| How do you handle pressure and tight deadlines? | — | — |
+| What do you know about our company and the services we provide? | — | — |
 
 ---
 

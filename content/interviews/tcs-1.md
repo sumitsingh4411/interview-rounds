@@ -4,23 +4,23 @@ company: tcs
 role: backend
 level: junior
 outcome: offer
-year: 2023
+year: 2024
 source: curated
 summary: >-
-  Junior backend interview. Fundamentals mattered as much as getting to an
-  answer.
+  4-round junior backend process. Breadth of fundamentals mattered more than
+  algorithmic depth.
 ---
 # Junior Backend — TCS
 
 ![role](https://img.shields.io/badge/role-Backend-8b93ff?style=flat-square)
 ![level](https://img.shields.io/badge/level-Junior-818cf8?style=flat-square)
 ![outcome](https://img.shields.io/badge/outcome-Offer-34d399?style=flat-square)
-![year](https://img.shields.io/badge/year-2023-6b7280?style=flat-square)
+![year](https://img.shields.io/badge/year-2024-6b7280?style=flat-square)
 ![source](https://img.shields.io/badge/source-Commonly%20asked-2dd4bf?style=flat-square)
 
-> Junior backend interview. Fundamentals mattered as much as getting to an answer.
+> 4-round junior backend process. Breadth of fundamentals mattered more than algorithmic depth.
 
-**5 rounds · 11 questions**
+**4 rounds · 12 questions**
 
 ---
 
@@ -31,7 +31,9 @@ _Timed online coding / aptitude screen, usually the first filter._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Find the missing number in 1..n. | 🟢 Easy | `math` | [LC](https://leetcode.com/problems/missing-number/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Find%20the%20missing%20number%20in%201..n) |
+| Verbal ability: synonyms, antonyms and para-jumbles. | 🟢 Easy | `verbal` | [GfG](https://www.geeksforgeeks.org/search/?gq=Verbal%20ability%3A%20synonyms%2C%20antonyms%20and%20para-jumbles) · [Search](https://www.google.com/search?q=Verbal%20ability%3A%20synonyms%2C%20antonyms%20and%20para-jumbles) |
+| Logical reasoning: number and letter series completion. | 🟢 Easy | `reasoning` | [GfG](https://www.geeksforgeeks.org/search/?gq=Logical%20reasoning%3A%20number%20and%20letter%20series%20completion) · [Search](https://www.google.com/search?q=Logical%20reasoning%3A%20number%20and%20letter%20series%20completion) |
+| Quantitative aptitude: profit, loss and percentages. | 🟢 Easy | `aptitude` | [GfG](https://www.geeksforgeeks.org/search/?gq=Quantitative%20aptitude%3A%20profit%2C%20loss%20and%20percentages) · [Search](https://www.google.com/search?q=Quantitative%20aptitude%3A%20profit%2C%20loss%20and%20percentages) |
 
 ## Round 2 · DSA / Coding
 <!-- round: dsa -->
@@ -40,40 +42,31 @@ _Data structures & algorithms on a whiteboard or shared editor._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Sort colors. | 🟡 Medium | `two-pointers` `array` | [LC](https://leetcode.com/problems/sort-colors/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Sort%20colors) |
-| Median of two sorted arrays. | 🔴 Hard | `binary-search` | [LC](https://leetcode.com/problems/median-of-two-sorted-arrays/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Median%20of%20two%20sorted%20arrays) |
-| Clone a graph. | 🟡 Medium | `graph` `dfs` | [LC](https://leetcode.com/problems/clone-graph/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Clone%20a%20graph) |
+| Swap two numbers without using a temporary variable. | 🟢 Easy | `math` | [GfG](https://www.geeksforgeeks.org/search/?gq=Swap%20two%20numbers%20without%20using%20a%20temporary%20variable) · [Search](https://www.google.com/search?q=Swap%20two%20numbers%20without%20using%20a%20temporary%20variable) |
+| Implement binary search on a sorted array. | 🟢 Easy | `searching` | [GfG](https://www.geeksforgeeks.org/search/?gq=Implement%20binary%20search%20on%20a%20sorted%20array) · [Search](https://www.google.com/search?q=Implement%20binary%20search%20on%20a%20sorted%20array) |
 
-## Round 3 · Machine Coding
-<!-- round: machine_coding -->
-
-_Build a working component or service under time pressure._
-
-| Question | Difficulty | Tags | Practice |
-| --- | --- | --- | --- |
-| Build a URL health checker with a concurrency limit. | 🟡 Medium | `concurrency` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20a%20URL%20health%20checker%20with%20a%20concurrency%20limit) · [Search](https://www.google.com/search?q=Build%20a%20URL%20health%20checker%20with%20a%20concurrency%20limit) |
-| Implement a bulk-upsert endpoint with validation. | 🟡 Medium | `api` `validation` | [GfG](https://www.geeksforgeeks.org/search/?gq=Implement%20a%20bulk-upsert%20endpoint%20with%20validation) · [Search](https://www.google.com/search?q=Implement%20a%20bulk-upsert%20endpoint%20with%20validation) |
-
-## Round 4 · Tech Deep-Dive
+## Round 3 · Tech Deep-Dive
 <!-- round: tech_deep_dive -->
 
 _Deep questions on your core stack and fundamentals._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| How do you retry without amplifying load? | 🔴 Hard | `reliability` | [GfG](https://www.geeksforgeeks.org/search/?gq=How%20do%20you%20retry%20without%20amplifying%20load) · [Search](https://www.google.com/search?q=How%20do%20you%20retry%20without%20amplifying%20load) |
-| How does a write-ahead log guarantee durability? | 🔴 Hard | `databases` | [GfG](https://www.geeksforgeeks.org/search/?gq=How%20does%20a%20write-ahead%20log%20guarantee%20durability) · [Search](https://www.google.com/search?q=How%20does%20a%20write-ahead%20log%20guarantee%20durability) |
-| Explain the difference between horizontal and vertical scaling. | 🟢 Easy | `scale` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20the%20difference%20between%20horizontal%20and%20vertical%20scaling) · [Search](https://www.google.com/search?q=Explain%20the%20difference%20between%20horizontal%20and%20vertical%20scaling) |
+| Explain CPU scheduling algorithms: FCFS, SJF and round robin. | 🟡 Medium | `os` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20CPU%20scheduling%20algorithms%3A%20FCFS%2C%20SJF%20and%20round%20robin) · [Search](https://www.google.com/search?q=Explain%20CPU%20scheduling%20algorithms%3A%20FCFS%2C%20SJF%20and%20round%20robin) |
+| Difference between an array and a linked list. | 🟢 Easy | `data-structures` | [GfG](https://www.geeksforgeeks.org/search/?gq=Difference%20between%20an%20array%20and%20a%20linked%20list) · [Search](https://www.google.com/search?q=Difference%20between%20an%20array%20and%20a%20linked%20list) |
+| What is indexing in a database and when does it help? | 🟡 Medium | `dbms` | [GfG](https://www.geeksforgeeks.org/search/?gq=What%20is%20indexing%20in%20a%20database%20and%20when%20does%20it%20help) · [Search](https://www.google.com/search?q=What%20is%20indexing%20in%20a%20database%20and%20when%20does%20it%20help) |
+| Explain your final-year project architecture and your role in it. | 🟢 Easy | `project` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20your%20final-year%20project%20architecture%20and%20your%20role%20in%20it) · [Search](https://www.google.com/search?q=Explain%20your%20final-year%20project%20architecture%20and%20your%20role%20in%20it) |
 
-## Round 5 · Behavioral / HR
+## Round 4 · Behavioral / HR
 <!-- round: behavioral -->
 
 _Values, collaboration, and past-experience (STAR) questions._
 
 | Question | Difficulty | Tags |
 | --- | --- | --- |
-| How do you get up to speed on an unfamiliar codebase? | — | `learning` |
-| How do you handle being blocked for several days? | — | `ownership` `star` |
+| What are your strengths and weaknesses? | — | — |
+| Why did you choose this branch of engineering? | — | — |
+| Tell me about your final-year project. | — | — |
 
 ---
 

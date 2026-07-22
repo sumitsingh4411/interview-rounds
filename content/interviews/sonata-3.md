@@ -2,88 +2,81 @@
 id: sonata-3
 company: sonata
 role: frontend
-level: senior
-outcome: offer
-year: 2025
+level: mid
+outcome: unknown
+year: 2023
 source: curated
 summary: >-
-  Senior frontend interview. Pragmatic questions — more real-world than pure
-  puzzles.
+  A mid frontend hiring drive. Fundamentals over puzzles — OOP, DBMS and SQL
+  carried the most weight.
 ---
-# Senior Frontend — Sonata Software
+# Mid Frontend — Sonata Software
 
 ![role](https://img.shields.io/badge/role-Frontend-22d3ee?style=flat-square)
-![level](https://img.shields.io/badge/level-Senior-818cf8?style=flat-square)
-![outcome](https://img.shields.io/badge/outcome-Offer-34d399?style=flat-square)
-![year](https://img.shields.io/badge/year-2025-6b7280?style=flat-square)
+![level](https://img.shields.io/badge/level-Mid-818cf8?style=flat-square)
+![outcome](https://img.shields.io/badge/outcome-Unknown-6b7280?style=flat-square)
+![year](https://img.shields.io/badge/year-2023-6b7280?style=flat-square)
 ![source](https://img.shields.io/badge/source-Commonly%20asked-2dd4bf?style=flat-square)
 
-> Senior frontend interview. Pragmatic questions — more real-world than pure puzzles.
+> A mid frontend hiring drive. Fundamentals over puzzles — OOP, DBMS and SQL carried the most weight.
 
-**6 rounds · 13 questions**
+**5 rounds · 14 questions**
 
 ---
 
-## Round 1 · DSA / Coding
+## Round 1 · Online Assessment
+<!-- round: oa -->
+
+_Timed online coding / aptitude screen, usually the first filter._
+
+| Question | Difficulty | Tags | Practice |
+| --- | --- | --- | --- |
+| Logical reasoning: number and letter series completion. | 🟢 Easy | `reasoning` | [GfG](https://www.geeksforgeeks.org/search/?gq=Logical%20reasoning%3A%20number%20and%20letter%20series%20completion) · [Search](https://www.google.com/search?q=Logical%20reasoning%3A%20number%20and%20letter%20series%20completion) |
+| Email writing / essay writing task. | 🟢 Easy | `verbal` | [GfG](https://www.geeksforgeeks.org/search/?gq=Email%20writing%20%2F%20essay%20writing%20task) · [Search](https://www.google.com/search?q=Email%20writing%20%2F%20essay%20writing%20task) |
+| Verbal ability: synonyms, antonyms and para-jumbles. | 🟢 Easy | `verbal` | [GfG](https://www.geeksforgeeks.org/search/?gq=Verbal%20ability%3A%20synonyms%2C%20antonyms%20and%20para-jumbles) · [Search](https://www.google.com/search?q=Verbal%20ability%3A%20synonyms%2C%20antonyms%20and%20para-jumbles) |
+
+## Round 2 · DSA / Coding
 <!-- round: dsa -->
 
 _Data structures & algorithms on a whiteboard or shared editor._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Find median from data stream. | 🔴 Hard | `heap` `design` | [LC](https://leetcode.com/problems/find-median-from-data-stream/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Find%20median%20from%20data%20stream) |
-| Meeting rooms II — minimum rooms required. | 🟡 Medium | `heap` `intervals` | [LC](https://leetcode.com/problems/meeting-rooms-ii/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Meeting%20rooms%20II%20%E2%80%94%20minimum%20rooms%20required) |
-| Valid Parentheses — check balanced brackets. | 🟢 Easy | `stack` `string` | [LC](https://leetcode.com/problems/valid-parentheses/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Valid%20Parentheses%20%E2%80%94%20check%20balanced%20brackets) |
+| Swap two numbers without using a temporary variable. | 🟢 Easy | `math` | [GfG](https://www.geeksforgeeks.org/search/?gq=Swap%20two%20numbers%20without%20using%20a%20temporary%20variable) · [Search](https://www.google.com/search?q=Swap%20two%20numbers%20without%20using%20a%20temporary%20variable) |
+| Remove duplicate characters from a string. | 🟢 Easy | `string` | [GfG](https://www.geeksforgeeks.org/search/?gq=Remove%20duplicate%20characters%20from%20a%20string) · [Search](https://www.google.com/search?q=Remove%20duplicate%20characters%20from%20a%20string) |
 
-## Round 2 · Machine Coding
-<!-- round: machine_coding -->
-
-_Build a working component or service under time pressure._
-
-| Question | Difficulty | Tags | Practice |
-| --- | --- | --- | --- |
-| Build a to-do app with filters and localStorage persistence. | 🟢 Easy | `react` `state` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20a%20to-do%20app%20with%20filters%20and%20localStorage%20persistence) · [Search](https://www.google.com/search?q=Build%20a%20to-do%20app%20with%20filters%20and%20localStorage%20persistence) |
-| Build a color-picker with hex/rgb sync. | 🟡 Medium | `react` `ui` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20a%20color-picker%20with%20hex%2Frgb%20sync) · [Search](https://www.google.com/search?q=Build%20a%20color-picker%20with%20hex%2Frgb%20sync) |
-
-## Round 3 · System Design
-<!-- round: system_design -->
-
-_High-level architecture of a large-scale system._
-
-| Question | Difficulty | Tags | Practice |
-| --- | --- | --- | --- |
-| Design a ride-sharing service like Uber. | 🔴 Hard | `geospatial` `matching` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20ride-sharing%20service%20like%20Uber) · [Search](https://www.google.com/search?q=Design%20a%20ride-sharing%20service%20like%20Uber) |
-| Design a typeahead / autocomplete service. | 🔴 Hard | `trie` `cache` `ranking` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20typeahead%20%2F%20autocomplete%20service) · [Search](https://www.google.com/search?q=Design%20a%20typeahead%20%2F%20autocomplete%20service) |
-
-## Round 4 · Tech Deep-Dive
+## Round 3 · Tech Deep-Dive
 <!-- round: tech_deep_dive -->
 
 _Deep questions on your core stack and fundamentals._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Debounce vs throttle — implement one from scratch. | 🟡 Medium | `javascript` `perf` | [GfG](https://www.geeksforgeeks.org/search/?gq=Debounce%20vs%20throttle%20%E2%80%94%20implement%20one%20from%20scratch) · [Search](https://www.google.com/search?q=Debounce%20vs%20throttle%20%E2%80%94%20implement%20one%20from%20scratch) |
-| Difference between CSS Grid and Flexbox — when to use each. | 🟢 Easy | `css` `layout` | [GfG](https://www.geeksforgeeks.org/search/?gq=Difference%20between%20CSS%20Grid%20and%20Flexbox%20%E2%80%94%20when%20to%20use%20each) · [Search](https://www.google.com/search?q=Difference%20between%20CSS%20Grid%20and%20Flexbox%20%E2%80%94%20when%20to%20use%20each) |
-| Explain WeakMap/WeakSet and when to use them. | 🟡 Medium | `javascript` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20WeakMap%2FWeakSet%20and%20when%20to%20use%20them) · [Search](https://www.google.com/search?q=Explain%20WeakMap%2FWeakSet%20and%20when%20to%20use%20them) |
+| Explain Java collections: List, Set and Map. | 🟡 Medium | `java` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20Java%20collections%3A%20List%2C%20Set%20and%20Map) · [Search](https://www.google.com/search?q=Explain%20Java%20collections%3A%20List%2C%20Set%20and%20Map) |
+| What is polymorphism? Compile-time vs runtime. | 🟢 Easy | `oops` | [GfG](https://www.geeksforgeeks.org/search/?gq=What%20is%20polymorphism%3F%20Compile-time%20vs%20runtime) · [Search](https://www.google.com/search?q=What%20is%20polymorphism%3F%20Compile-time%20vs%20runtime) |
+| Write a SQL query to find the second-highest salary. | 🟡 Medium | `sql` | [GfG](https://www.geeksforgeeks.org/search/?gq=Write%20a%20SQL%20query%20to%20find%20the%20second-highest%20salary) · [Search](https://www.google.com/search?q=Write%20a%20SQL%20query%20to%20find%20the%20second-highest%20salary) |
+| Explain the static and final keywords in Java. | 🟢 Easy | `java` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20the%20static%20and%20final%20keywords%20in%20Java) · [Search](https://www.google.com/search?q=Explain%20the%20static%20and%20final%20keywords%20in%20Java) |
 
-## Round 5 · Hiring Manager
+## Round 4 · Hiring Manager
 <!-- round: hiring_manager -->
 
 _Scope, ownership, and role-fit discussion with the manager._
 
 | Question | Difficulty | Tags |
 | --- | --- | --- |
-| How do you decide what to build vs. buy vs. defer? | — | `judgment` |
+| How do you ensure code quality under a tight delivery timeline? | — | — |
+| Which technology stack are you most comfortable with, and why? | — | — |
 
-## Round 6 · Behavioral / HR
+## Round 5 · Behavioral / HR
 <!-- round: behavioral -->
 
 _Values, collaboration, and past-experience (STAR) questions._
 
 | Question | Difficulty | Tags |
 | --- | --- | --- |
-| A time you made a mistake in production — what happened next? | — | `ownership` `star` |
-| Tell me about a time you led without a title. | — | `leadership` `star` |
+| Why did you choose this branch of engineering? | — | — |
+| What are your interests outside academics? | — | — |
+| Are you comfortable signing the service agreement / bond? | — | — |
 
 ---
 

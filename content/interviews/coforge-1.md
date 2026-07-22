@@ -1,26 +1,26 @@
 ---
 id: coforge-1
 company: coforge
-role: fullstack
-level: junior
-outcome: no_offer
+role: backend
+level: intern
+outcome: rejected
 year: 2025
 source: curated
 summary: >-
-  5-round junior fullstack process. Balanced across coding, design, and
-  collaboration.
+  A intern backend hiring drive. Fundamentals over puzzles — OOP, DBMS and SQL
+  carried the most weight.
 ---
-# Junior Full-stack — Coforge
+# Intern Backend — Coforge
 
-![role](https://img.shields.io/badge/role-Full--stack-a78bfa?style=flat-square)
-![level](https://img.shields.io/badge/level-Junior-818cf8?style=flat-square)
-![outcome](https://img.shields.io/badge/outcome-No%20offer-f87171?style=flat-square)
+![role](https://img.shields.io/badge/role-Backend-8b93ff?style=flat-square)
+![level](https://img.shields.io/badge/level-Intern-818cf8?style=flat-square)
+![outcome](https://img.shields.io/badge/outcome-Rejected-f87171?style=flat-square)
 ![year](https://img.shields.io/badge/year-2025-6b7280?style=flat-square)
 ![source](https://img.shields.io/badge/source-Commonly%20asked-2dd4bf?style=flat-square)
 
-> 5-round junior fullstack process. Balanced across coding, design, and collaboration.
+> A intern backend hiring drive. Fundamentals over puzzles — OOP, DBMS and SQL carried the most weight.
 
-**5 rounds · 11 questions**
+**4 rounds · 12 questions**
 
 ---
 
@@ -31,7 +31,9 @@ _Timed online coding / aptitude screen, usually the first filter._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Compute the running median of a stream. | 🔴 Hard | `heap` | [GfG](https://www.geeksforgeeks.org/search/?gq=Compute%20the%20running%20median%20of%20a%20stream) · [Search](https://www.google.com/search?q=Compute%20the%20running%20median%20of%20a%20stream) |
+| Quantitative aptitude: permutations, combinations and probability. | 🟡 Medium | `aptitude` | [GfG](https://www.geeksforgeeks.org/search/?gq=Quantitative%20aptitude%3A%20permutations%2C%20combinations%20and%20probability) · [Search](https://www.google.com/search?q=Quantitative%20aptitude%3A%20permutations%2C%20combinations%20and%20probability) |
+| Quantitative aptitude: time and work problems. | 🟢 Easy | `aptitude` | [GfG](https://www.geeksforgeeks.org/search/?gq=Quantitative%20aptitude%3A%20time%20and%20work%20problems) · [Search](https://www.google.com/search?q=Quantitative%20aptitude%3A%20time%20and%20work%20problems) |
+| Pseudocode: predict the output of the given code block. | 🟡 Medium | `pseudocode` | [GfG](https://www.geeksforgeeks.org/search/?gq=Pseudocode%3A%20predict%20the%20output%20of%20the%20given%20code%20block) · [Search](https://www.google.com/search?q=Pseudocode%3A%20predict%20the%20output%20of%20the%20given%20code%20block) |
 
 ## Round 2 · DSA / Coding
 <!-- round: dsa -->
@@ -40,40 +42,31 @@ _Data structures & algorithms on a whiteboard or shared editor._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Search in a rotated sorted array. | 🟡 Medium | `binary-search` | [LC](https://leetcode.com/problems/search-in-rotated-sorted-array/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Search%20in%20a%20rotated%20sorted%20array) |
-| Word ladder — shortest transformation sequence. | 🔴 Hard | `bfs` `graph` | [LC](https://leetcode.com/problems/word-ladder/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Word%20ladder%20%E2%80%94%20shortest%20transformation%20sequence) |
-| Longest increasing subsequence. | 🔴 Hard | `dp` `binary-search` | [LC](https://leetcode.com/problems/longest-increasing-subsequence/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Longest%20increasing%20subsequence) |
+| Find the second-largest element in an array. | 🟢 Easy | `array` | [GfG](https://www.geeksforgeeks.org/search/?gq=Find%20the%20second-largest%20element%20in%20an%20array) · [Search](https://www.google.com/search?q=Find%20the%20second-largest%20element%20in%20an%20array) |
+| Swap two numbers without using a temporary variable. | 🟢 Easy | `math` | [GfG](https://www.geeksforgeeks.org/search/?gq=Swap%20two%20numbers%20without%20using%20a%20temporary%20variable) · [Search](https://www.google.com/search?q=Swap%20two%20numbers%20without%20using%20a%20temporary%20variable) |
 
-## Round 3 · Machine Coding
-<!-- round: machine_coding -->
-
-_Build a working component or service under time pressure._
-
-| Question | Difficulty | Tags | Practice |
-| --- | --- | --- | --- |
-| Build auth middleware that verifies a JWT. | 🟡 Medium | `auth` `security` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20auth%20middleware%20that%20verifies%20a%20JWT) · [Search](https://www.google.com/search?q=Build%20auth%20middleware%20that%20verifies%20a%20JWT) |
-| Build a star-rating component (controlled + accessible). | 🟢 Easy | `react` `a11y` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20a%20star-rating%20component%20(controlled%20%2B%20accessible)) · [Search](https://www.google.com/search?q=Build%20a%20star-rating%20component%20(controlled%20%2B%20accessible)) |
-
-## Round 4 · Tech Deep-Dive
+## Round 3 · Tech Deep-Dive
 <!-- round: tech_deep_dive -->
 
 _Deep questions on your core stack and fundamentals._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Explain database replication lag and how to mitigate it. | 🟡 Medium | `databases` `replication` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20database%20replication%20lag%20and%20how%20to%20mitigate%20it) · [Search](https://www.google.com/search?q=Explain%20database%20replication%20lag%20and%20how%20to%20mitigate%20it) |
-| Explain how CSS-in-JS differs from utility CSS. | 🟢 Easy | `css` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20how%20CSS-in-JS%20differs%20from%20utility%20CSS) · [Search](https://www.google.com/search?q=Explain%20how%20CSS-in-JS%20differs%20from%20utility%20CSS) |
-| How do you prevent XSS in a React app? | 🟡 Medium | `security` `react` | [GfG](https://www.geeksforgeeks.org/search/?gq=How%20do%20you%20prevent%20XSS%20in%20a%20React%20app) · [Search](https://www.google.com/search?q=How%20do%20you%20prevent%20XSS%20in%20a%20React%20app) |
+| Explain exception handling with try, catch and finally. | 🟢 Easy | `java` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20exception%20handling%20with%20try%2C%20catch%20and%20finally) · [Search](https://www.google.com/search?q=Explain%20exception%20handling%20with%20try%2C%20catch%20and%20finally) |
+| Explain your final-year project architecture and your role in it. | 🟢 Easy | `project` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20your%20final-year%20project%20architecture%20and%20your%20role%20in%20it) · [Search](https://www.google.com/search?q=Explain%20your%20final-year%20project%20architecture%20and%20your%20role%20in%20it) |
+| Explain inheritance and its types. | 🟢 Easy | `oops` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20inheritance%20and%20its%20types) · [Search](https://www.google.com/search?q=Explain%20inheritance%20and%20its%20types) |
+| Difference between stack and heap memory. | 🟢 Easy | `fundamentals` | [GfG](https://www.geeksforgeeks.org/search/?gq=Difference%20between%20stack%20and%20heap%20memory) · [Search](https://www.google.com/search?q=Difference%20between%20stack%20and%20heap%20memory) |
 
-## Round 5 · Behavioral / HR
+## Round 4 · Behavioral / HR
 <!-- round: behavioral -->
 
 _Values, collaboration, and past-experience (STAR) questions._
 
 | Question | Difficulty | Tags |
 | --- | --- | --- |
-| Tell me about receiving hard feedback and acting on it. | — | `feedback` `star` |
-| Describe a time you disagreed with a teammate. How did it resolve? | — | `conflict` `star` |
+| What do you know about our company and the services we provide? | — | — |
+| Why do you want to join our company? | — | — |
+| Why did you choose this branch of engineering? | — | — |
 
 ---
 

@@ -10,7 +10,7 @@ description: 'Banking and digital services. Core coding, SQL, and technical-plus
 ![industry](https://img.shields.io/badge/industry-Finance-8b93ff?style=flat-square)
 ![hq](https://img.shields.io/badge/hq-Mumbai,%20India-6b7280?style=flat-square)
 ![interviews](https://img.shields.io/badge/interviews-5-22d3ee?style=flat-square)
-![questions](https://img.shields.io/badge/questions-51-a78bfa?style=flat-square)
+![questions](https://img.shields.io/badge/questions-61-a78bfa?style=flat-square)
 
 > Banking and digital services. Core coding, SQL, and technical-plus-HR rounds.
 
@@ -20,11 +20,11 @@ description: 'Banking and digital services. Core coding, SQL, and technical-plus
 
 | Interview | Outcome | Rounds | Questions |
 | --- | --- | --- | --- |
-| [Junior · Backend](../interviews/icici-bank-1.md) | Withdrew | 5 | 11 |
-| [Staff · Frontend](../interviews/icici-bank-2.md) | Offer | 5 | 9 |
-| [Staff · Full-stack](../interviews/icici-bank-3.md) | Rejected | 5 | 9 |
-| [Junior · Frontend](../interviews/icici-bank-4.md) | Rejected | 5 | 11 |
-| [Mid · Backend](../interviews/icici-bank-5.md) | Offer | 5 | 11 |
+| [Mid · Frontend](../interviews/icici-bank-1.md) | Offer | 5 | 14 |
+| [Intern · Full-stack](../interviews/icici-bank-2.md) | No offer | 4 | 12 |
+| [Senior · Backend](../interviews/icici-bank-3.md) | Withdrew | 4 | 11 |
+| [Junior · Backend](../interviews/icici-bank-4.md) | Withdrew | 4 | 12 |
+| [Junior · Full-stack](../interviews/icici-bank-5.md) | Offer | 4 | 12 |
 
 ---
 

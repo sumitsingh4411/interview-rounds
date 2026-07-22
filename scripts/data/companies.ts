@@ -1,3 +1,5 @@
+import type { Archetype } from './bank';
+
 export type SeedCompany = {
   name: string;
   slug: string;
@@ -6,10 +8,33 @@ export type SeedCompany = {
   hq?: string;
   /** Surfaced first on the home page. */
   featured?: boolean;
+  /**
+   * Which interview shape this company actually runs. Defaults to `product`.
+   * Mass recruiters (TCS, Infosys, Capgemini, banks…) run an aptitude →
+   * fundamentals → HR loop, not a DSA/system-design loop.
+   */
+  archetype?: Archetype;
 };
 
+/**
+ * Companies whose loop is an aptitude screen + CS-fundamentals technical round
+ * + managerial/HR, rather than DSA and system design. Applied below so the
+ * question set matches what candidates are actually asked.
+ */
+const SERVICES_SLUGS = new Set<string>([
+  // Indian and global IT services / BPO
+  'tcs', 'infosys', 'wipro', 'cognizant', 'accenture', 'capgemini', 'hcltech',
+  'tech-mahindra', 'ltimindtree', 'mphasis', 'persistent', 'coforge',
+  'hexaware', 'virtusa', 'ust', 'zensar', 'birlasoft', 'cyient', 'kpit',
+  'sonata', 'happiest-minds', 'tata-elxsi', 'ltts', 'amdocs', 'ntt-data',
+  'synechron', 'genpact', 'wns', 'nagarro', 'deloitte',
+  // Banks and financial-services IT, which interview the same way
+  'hdfc-bank', 'icici-bank', 'axis-bank', 'kotak', 'bajaj-finserv',
+  'fis', 'fiserv', 'broadridge',
+]);
+
 // Top companies commonly targeted for frontend / backend / full-stack roles.
-export const COMPANIES: SeedCompany[] = [
+const RAW_COMPANIES: SeedCompany[] = [
   { name: 'Google', slug: 'google', featured: true, industry: 'Big Tech', hq: 'Mountain View, CA', description: 'Search, Ads, Cloud, Android. A rigorous, algorithm-heavy loop with a high bar.' },
   { name: 'Meta', slug: 'meta', featured: true, industry: 'Big Tech', hq: 'Menlo Park, CA', description: 'Facebook, Instagram, WhatsApp. Frontend loops lean hard on React and JS internals.' },
   { name: 'Amazon', slug: 'amazon', featured: true, industry: 'Big Tech', hq: 'Seattle, WA', description: 'E-commerce and AWS. Every round is weighed against the Leadership Principles.' },
@@ -392,3 +417,17 @@ export const COMPANIES: SeedCompany[] = [
   { name: 'Siemens', slug: 'siemens', industry: 'Enterprise Software', hq: 'Munich, Germany', description: 'Industrial software and automation. Systems coding and engineering fundamentals.' },
   { name: 'Honeywell', slug: 'honeywell', industry: 'IoT', hq: 'Charlotte, NC', description: 'Industrial and building tech. Embedded-adjacent coding and systems rounds.' },
 ];
+
+export const COMPANIES: SeedCompany[] = RAW_COMPANIES.map((c) => ({
+  ...c,
+  archetype: c.archetype ?? (SERVICES_SLUGS.has(c.slug) ? 'services' : 'product'),
+}));
+
+// A typo in SERVICES_SLUGS would silently leave a company on the wrong bank.
+{
+  const slugs = new Set(RAW_COMPANIES.map((c) => c.slug));
+  const unknown = [...SERVICES_SLUGS].filter((s) => !slugs.has(s));
+  if (unknown.length > 0) {
+    throw new Error(`SERVICES_SLUGS references unknown slugs: ${unknown.join(', ')}`);
+  }
+}

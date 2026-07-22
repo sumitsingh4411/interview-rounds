@@ -1,67 +1,71 @@
 ---
 id: mphasis-1
 company: mphasis
-role: fullstack
+role: backend
 level: mid
-outcome: unknown
+outcome: no_offer
 year: 2023
 source: curated
-summary: A mid fullstack loop. Fast-paced; expect follow-ups that push on depth.
+summary: >-
+  A mid backend hiring drive. Breadth of fundamentals mattered more than
+  algorithmic depth.
 ---
-# Mid Full-stack — Mphasis
+# Mid Backend — Mphasis
 
-![role](https://img.shields.io/badge/role-Full--stack-a78bfa?style=flat-square)
+![role](https://img.shields.io/badge/role-Backend-8b93ff?style=flat-square)
 ![level](https://img.shields.io/badge/level-Mid-818cf8?style=flat-square)
-![outcome](https://img.shields.io/badge/outcome-Unknown-6b7280?style=flat-square)
+![outcome](https://img.shields.io/badge/outcome-No%20offer-f87171?style=flat-square)
 ![year](https://img.shields.io/badge/year-2023-6b7280?style=flat-square)
 ![source](https://img.shields.io/badge/source-Commonly%20asked-2dd4bf?style=flat-square)
 
-> A mid fullstack loop. Fast-paced; expect follow-ups that push on depth.
+> A mid backend hiring drive. Breadth of fundamentals mattered more than algorithmic depth.
 
-**5 rounds · 11 questions**
+**5 rounds · 14 questions**
 
 ---
 
-## Round 1 · DSA / Coding
+## Round 1 · Online Assessment
+<!-- round: oa -->
+
+_Timed online coding / aptitude screen, usually the first filter._
+
+| Question | Difficulty | Tags | Practice |
+| --- | --- | --- | --- |
+| Logical reasoning: number and letter series completion. | 🟢 Easy | `reasoning` | [GfG](https://www.geeksforgeeks.org/search/?gq=Logical%20reasoning%3A%20number%20and%20letter%20series%20completion) · [Search](https://www.google.com/search?q=Logical%20reasoning%3A%20number%20and%20letter%20series%20completion) |
+| Quantitative aptitude: permutations, combinations and probability. | 🟡 Medium | `aptitude` | [GfG](https://www.geeksforgeeks.org/search/?gq=Quantitative%20aptitude%3A%20permutations%2C%20combinations%20and%20probability) · [Search](https://www.google.com/search?q=Quantitative%20aptitude%3A%20permutations%2C%20combinations%20and%20probability) |
+| Quantitative aptitude: profit, loss and percentages. | 🟢 Easy | `aptitude` | [GfG](https://www.geeksforgeeks.org/search/?gq=Quantitative%20aptitude%3A%20profit%2C%20loss%20and%20percentages) · [Search](https://www.google.com/search?q=Quantitative%20aptitude%3A%20profit%2C%20loss%20and%20percentages) |
+
+## Round 2 · DSA / Coding
 <!-- round: dsa -->
 
 _Data structures & algorithms on a whiteboard or shared editor._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Trapping rain water. | 🔴 Hard | `two-pointers` `array` | [LC](https://leetcode.com/problems/trapping-rain-water/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Trapping%20rain%20water) |
-| LRU cache with O(1) get and put. | 🟡 Medium | `hashmap` `linked-list` | [LC](https://leetcode.com/problems/lru-cache/) · [GfG](https://www.geeksforgeeks.org/search/?gq=LRU%20cache%20with%20O(1)%20get%20and%20put) |
-| Course Schedule II. | 🟡 Medium | `graph` `topo-sort` | [LC](https://leetcode.com/problems/course-schedule-ii/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Course%20Schedule%20II) |
+| Check whether a number is prime. | 🟢 Easy | `math` | [GfG](https://www.geeksforgeeks.org/search/?gq=Check%20whether%20a%20number%20is%20prime) · [Search](https://www.google.com/search?q=Check%20whether%20a%20number%20is%20prime) |
+| Reverse a string without using library functions. | 🟢 Easy | `string` | [GfG](https://www.geeksforgeeks.org/search/?gq=Reverse%20a%20string%20without%20using%20library%20functions) · [Search](https://www.google.com/search?q=Reverse%20a%20string%20without%20using%20library%20functions) |
 
-## Round 2 · Machine Coding
-<!-- round: machine_coding -->
-
-_Build a working component or service under time pressure._
-
-| Question | Difficulty | Tags | Practice |
-| --- | --- | --- | --- |
-| Build a tic-tac-toe game with win detection. | 🟢 Easy | `react` `state` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20a%20tic-tac-toe%20game%20with%20win%20detection) · [Search](https://www.google.com/search?q=Build%20a%20tic-tac-toe%20game%20with%20win%20detection) |
-| Implement cursor-based pagination over a sorted dataset. | 🟡 Medium | `pagination` `api` | [GfG](https://www.geeksforgeeks.org/search/?gq=Implement%20cursor-based%20pagination%20over%20a%20sorted%20dataset) · [Search](https://www.google.com/search?q=Implement%20cursor-based%20pagination%20over%20a%20sorted%20dataset) |
-
-## Round 3 · Low-Level Design
-<!-- round: lld -->
-
-_Object-oriented / low-level design of a focused module._
-
-| Question | Difficulty | Tags | Practice |
-| --- | --- | --- | --- |
-| Design a logging library with levels and sinks. | 🟡 Medium | `oop` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20logging%20library%20with%20levels%20and%20sinks) · [Search](https://www.google.com/search?q=Design%20a%20logging%20library%20with%20levels%20and%20sinks) |
-
-## Round 4 · Tech Deep-Dive
+## Round 3 · Tech Deep-Dive
 <!-- round: tech_deep_dive -->
 
 _Deep questions on your core stack and fundamentals._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| How does a service worker enable offline support? | 🟡 Medium | `pwa` `offline` | [GfG](https://www.geeksforgeeks.org/search/?gq=How%20does%20a%20service%20worker%20enable%20offline%20support) · [Search](https://www.google.com/search?q=How%20does%20a%20service%20worker%20enable%20offline%20support) |
-| Idempotency in APIs — why and how. | 🟡 Medium | `api-design` `idempotency` | [GfG](https://www.geeksforgeeks.org/search/?gq=Idempotency%20in%20APIs%20%E2%80%94%20why%20and%20how) · [Search](https://www.google.com/search?q=Idempotency%20in%20APIs%20%E2%80%94%20why%20and%20how) |
-| Difference between controlled and uncontrolled inputs. | 🟢 Easy | `react` `forms` | [GfG](https://www.geeksforgeeks.org/search/?gq=Difference%20between%20controlled%20and%20uncontrolled%20inputs) · [Search](https://www.google.com/search?q=Difference%20between%20controlled%20and%20uncontrolled%20inputs) |
+| What happens when you type a URL into a browser? | 🟡 Medium | `networking` | [GfG](https://www.geeksforgeeks.org/search/?gq=What%20happens%20when%20you%20type%20a%20URL%20into%20a%20browser) · [Search](https://www.google.com/search?q=What%20happens%20when%20you%20type%20a%20URL%20into%20a%20browser) |
+| What is indexing in a database and when does it help? | 🟡 Medium | `dbms` | [GfG](https://www.geeksforgeeks.org/search/?gq=What%20is%20indexing%20in%20a%20database%20and%20when%20does%20it%20help) · [Search](https://www.google.com/search?q=What%20is%20indexing%20in%20a%20database%20and%20when%20does%20it%20help) |
+| Explain database normalization and its normal forms. | 🟡 Medium | `dbms` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20database%20normalization%20and%20its%20normal%20forms) · [Search](https://www.google.com/search?q=Explain%20database%20normalization%20and%20its%20normal%20forms) |
+| Difference between C and C++. | 🟢 Easy | `c` | [GfG](https://www.geeksforgeeks.org/search/?gq=Difference%20between%20C%20and%20C%2B%2B) · [Search](https://www.google.com/search?q=Difference%20between%20C%20and%20C%2B%2B) |
+
+## Round 4 · Hiring Manager
+<!-- round: hiring_manager -->
+
+_Scope, ownership, and role-fit discussion with the manager._
+
+| Question | Difficulty | Tags |
+| --- | --- | --- |
+| How do you approach learning a technology you have never used? | — | — |
+| Tell me about a production issue you helped resolve. | — | — |
 
 ## Round 5 · Behavioral / HR
 <!-- round: behavioral -->
@@ -70,8 +74,9 @@ _Values, collaboration, and past-experience (STAR) questions._
 
 | Question | Difficulty | Tags |
 | --- | --- | --- |
-| Tell me about the most impactful project of your career. | — | `impact` `star` |
-| Describe something you shipped that you were not proud of. | — | `tradeoffs` `star` |
+| How do you handle pressure and tight deadlines? | — | — |
+| Tell me about yourself. | — | — |
+| What are your strengths and weaknesses? | — | — |
 
 ---
 

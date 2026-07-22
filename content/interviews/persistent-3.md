@@ -1,77 +1,72 @@
 ---
 id: persistent-3
 company: persistent
-role: backend
-level: mid
-outcome: withdrew
-year: 2023
+role: fullstack
+level: intern
+outcome: unknown
+year: 2025
 source: curated
-summary: 'Mid backend interview. Balanced across coding, design, and collaboration.'
+summary: >-
+  Campus-style intern fullstack interview. Basic programming plus core CS;
+  communication mattered throughout.
 ---
-# Mid Backend — Persistent Systems
+# Intern Full-stack — Persistent Systems
 
-![role](https://img.shields.io/badge/role-Backend-8b93ff?style=flat-square)
-![level](https://img.shields.io/badge/level-Mid-818cf8?style=flat-square)
-![outcome](https://img.shields.io/badge/outcome-Withdrew-fbbf24?style=flat-square)
-![year](https://img.shields.io/badge/year-2023-6b7280?style=flat-square)
+![role](https://img.shields.io/badge/role-Full--stack-a78bfa?style=flat-square)
+![level](https://img.shields.io/badge/level-Intern-818cf8?style=flat-square)
+![outcome](https://img.shields.io/badge/outcome-Unknown-6b7280?style=flat-square)
+![year](https://img.shields.io/badge/year-2025-6b7280?style=flat-square)
 ![source](https://img.shields.io/badge/source-Commonly%20asked-2dd4bf?style=flat-square)
 
-> Mid backend interview. Balanced across coding, design, and collaboration.
+> Campus-style intern fullstack interview. Basic programming plus core CS; communication mattered throughout.
 
-**5 rounds · 11 questions**
+**4 rounds · 12 questions**
 
 ---
 
-## Round 1 · DSA / Coding
+## Round 1 · Online Assessment
+<!-- round: oa -->
+
+_Timed online coding / aptitude screen, usually the first filter._
+
+| Question | Difficulty | Tags | Practice |
+| --- | --- | --- | --- |
+| Email writing / essay writing task. | 🟢 Easy | `verbal` | [GfG](https://www.geeksforgeeks.org/search/?gq=Email%20writing%20%2F%20essay%20writing%20task) · [Search](https://www.google.com/search?q=Email%20writing%20%2F%20essay%20writing%20task) |
+| Quantitative aptitude: time, speed and distance problems. | 🟢 Easy | `aptitude` | [GfG](https://www.geeksforgeeks.org/search/?gq=Quantitative%20aptitude%3A%20time%2C%20speed%20and%20distance%20problems) · [Search](https://www.google.com/search?q=Quantitative%20aptitude%3A%20time%2C%20speed%20and%20distance%20problems) |
+| Logical reasoning: blood relations and seating arrangement. | 🟡 Medium | `reasoning` | [GfG](https://www.geeksforgeeks.org/search/?gq=Logical%20reasoning%3A%20blood%20relations%20and%20seating%20arrangement) · [Search](https://www.google.com/search?q=Logical%20reasoning%3A%20blood%20relations%20and%20seating%20arrangement) |
+
+## Round 2 · DSA / Coding
 <!-- round: dsa -->
 
 _Data structures & algorithms on a whiteboard or shared editor._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Best time to buy and sell stock. | 🟢 Easy | `array` `greedy` | [LC](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Best%20time%20to%20buy%20and%20sell%20stock) |
-| Largest rectangle in histogram. | 🔴 Hard | `stack` `monotonic-stack` | [LC](https://leetcode.com/problems/largest-rectangle-in-histogram/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Largest%20rectangle%20in%20histogram) |
-| Group anagrams from a list of strings. | 🟡 Medium | `hashmap` `string` | [LC](https://leetcode.com/problems/group-anagrams/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Group%20anagrams%20from%20a%20list%20of%20strings) |
+| Check whether a number is an Armstrong number. | 🟢 Easy | `math` | [GfG](https://www.geeksforgeeks.org/search/?gq=Check%20whether%20a%20number%20is%20an%20Armstrong%20number) · [Search](https://www.google.com/search?q=Check%20whether%20a%20number%20is%20an%20Armstrong%20number) |
+| Count the frequency of each character in a string. | 🟢 Easy | `string` | [GfG](https://www.geeksforgeeks.org/search/?gq=Count%20the%20frequency%20of%20each%20character%20in%20a%20string) · [Search](https://www.google.com/search?q=Count%20the%20frequency%20of%20each%20character%20in%20a%20string) |
 
-## Round 2 · Machine Coding
-<!-- round: machine_coding -->
-
-_Build a working component or service under time pressure._
-
-| Question | Difficulty | Tags | Practice |
-| --- | --- | --- | --- |
-| Build a CSV importer that streams and validates rows. | 🟡 Medium | `streaming` `validation` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20a%20CSV%20importer%20that%20streams%20and%20validates%20rows) · [Search](https://www.google.com/search?q=Build%20a%20CSV%20importer%20that%20streams%20and%20validates%20rows) |
-| Design and build a URL-shortener service (API + storage). | 🟡 Medium | `api` `hashing` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20and%20build%20a%20URL-shortener%20service%20(API%20%2B%20storage)) · [Search](https://www.google.com/search?q=Design%20and%20build%20a%20URL-shortener%20service%20(API%20%2B%20storage)) |
-
-## Round 3 · Low-Level Design
-<!-- round: lld -->
-
-_Object-oriented / low-level design of a focused module._
-
-| Question | Difficulty | Tags | Practice |
-| --- | --- | --- | --- |
-| Design an elevator control system. | 🟡 Medium | `oop` `state-machine` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20an%20elevator%20control%20system) · [Search](https://www.google.com/search?q=Design%20an%20elevator%20control%20system) |
-
-## Round 4 · Tech Deep-Dive
+## Round 3 · Tech Deep-Dive
 <!-- round: tech_deep_dive -->
 
 _Deep questions on your core stack and fundamentals._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| How do you secure secrets and handle auth tokens? | 🟡 Medium | `security` | [GfG](https://www.geeksforgeeks.org/search/?gq=How%20do%20you%20secure%20secrets%20and%20handle%20auth%20tokens) · [Search](https://www.google.com/search?q=How%20do%20you%20secure%20secrets%20and%20handle%20auth%20tokens) |
-| Sharding vs partitioning vs replication. | 🔴 Hard | `databases` `scale` | [GfG](https://www.geeksforgeeks.org/search/?gq=Sharding%20vs%20partitioning%20vs%20replication) · [Search](https://www.google.com/search?q=Sharding%20vs%20partitioning%20vs%20replication) |
-| How does HTTPS/TLS establish a secure connection? | 🟡 Medium | `networking` `security` | [GfG](https://www.geeksforgeeks.org/search/?gq=How%20does%20HTTPS%2FTLS%20establish%20a%20secure%20connection) · [Search](https://www.google.com/search?q=How%20does%20HTTPS%2FTLS%20establish%20a%20secure%20connection) |
+| Explain the layers of the OSI model. | 🟢 Easy | `networking` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20the%20layers%20of%20the%20OSI%20model) · [Search](https://www.google.com/search?q=Explain%20the%20layers%20of%20the%20OSI%20model) |
+| Difference between stack and heap memory. | 🟢 Easy | `fundamentals` | [GfG](https://www.geeksforgeeks.org/search/?gq=Difference%20between%20stack%20and%20heap%20memory) · [Search](https://www.google.com/search?q=Difference%20between%20stack%20and%20heap%20memory) |
+| Difference between an abstract class and an interface. | 🟡 Medium | `oops` | [GfG](https://www.geeksforgeeks.org/search/?gq=Difference%20between%20an%20abstract%20class%20and%20an%20interface) · [Search](https://www.google.com/search?q=Difference%20between%20an%20abstract%20class%20and%20an%20interface) |
+| Difference between abstraction and encapsulation. | 🟢 Easy | `oops` | [GfG](https://www.geeksforgeeks.org/search/?gq=Difference%20between%20abstraction%20and%20encapsulation) · [Search](https://www.google.com/search?q=Difference%20between%20abstraction%20and%20encapsulation) |
 
-## Round 5 · Behavioral / HR
+## Round 4 · Behavioral / HR
 <!-- round: behavioral -->
 
 _Values, collaboration, and past-experience (STAR) questions._
 
 | Question | Difficulty | Tags |
 | --- | --- | --- |
-| A time you influenced a decision without authority. | — | `influence` `star` |
-| How do you get up to speed on an unfamiliar codebase? | — | `learning` |
+| Tell me about yourself. | — | — |
+| Are you willing to relocate anywhere in India? | — | — |
+| What are your interests outside academics? | — | — |
 
 ---
 

@@ -1,26 +1,26 @@
 ---
 id: icici-bank-4
 company: icici-bank
-role: frontend
+role: backend
 level: junior
-outcome: rejected
+outcome: withdrew
 year: 2025
 source: curated
 summary: >-
-  5-round junior frontend process. Pragmatic questions — more real-world than
-  pure puzzles.
+  Campus-style junior backend interview. Basic programming plus core CS;
+  communication mattered throughout.
 ---
-# Junior Frontend — ICICI Bank
+# Junior Backend — ICICI Bank
 
-![role](https://img.shields.io/badge/role-Frontend-22d3ee?style=flat-square)
+![role](https://img.shields.io/badge/role-Backend-8b93ff?style=flat-square)
 ![level](https://img.shields.io/badge/level-Junior-818cf8?style=flat-square)
-![outcome](https://img.shields.io/badge/outcome-Rejected-f87171?style=flat-square)
+![outcome](https://img.shields.io/badge/outcome-Withdrew-fbbf24?style=flat-square)
 ![year](https://img.shields.io/badge/year-2025-6b7280?style=flat-square)
 ![source](https://img.shields.io/badge/source-Commonly%20asked-2dd4bf?style=flat-square)
 
-> 5-round junior frontend process. Pragmatic questions — more real-world than pure puzzles.
+> Campus-style junior backend interview. Basic programming plus core CS; communication mattered throughout.
 
-**5 rounds · 11 questions**
+**4 rounds · 12 questions**
 
 ---
 
@@ -31,7 +31,9 @@ _Timed online coding / aptitude screen, usually the first filter._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Find the missing number in 1..n. | 🟢 Easy | `math` | [LC](https://leetcode.com/problems/missing-number/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Find%20the%20missing%20number%20in%201..n) |
+| Quantitative aptitude: time, speed and distance problems. | 🟢 Easy | `aptitude` | [GfG](https://www.geeksforgeeks.org/search/?gq=Quantitative%20aptitude%3A%20time%2C%20speed%20and%20distance%20problems) · [Search](https://www.google.com/search?q=Quantitative%20aptitude%3A%20time%2C%20speed%20and%20distance%20problems) |
+| Quantitative aptitude: time and work problems. | 🟢 Easy | `aptitude` | [GfG](https://www.geeksforgeeks.org/search/?gq=Quantitative%20aptitude%3A%20time%20and%20work%20problems) · [Search](https://www.google.com/search?q=Quantitative%20aptitude%3A%20time%20and%20work%20problems) |
+| Logical reasoning: syllogisms and statement–conclusion. | 🟡 Medium | `reasoning` | [GfG](https://www.geeksforgeeks.org/search/?gq=Logical%20reasoning%3A%20syllogisms%20and%20statement%E2%80%93conclusion) · [Search](https://www.google.com/search?q=Logical%20reasoning%3A%20syllogisms%20and%20statement%E2%80%93conclusion) |
 
 ## Round 2 · DSA / Coding
 <!-- round: dsa -->
@@ -40,40 +42,31 @@ _Data structures & algorithms on a whiteboard or shared editor._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Contains duplicate. | 🟢 Easy | `array` `hashmap` | [LC](https://leetcode.com/problems/contains-duplicate/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Contains%20duplicate) |
-| Word ladder — shortest transformation sequence. | 🔴 Hard | `bfs` `graph` | [LC](https://leetcode.com/problems/word-ladder/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Word%20ladder%20%E2%80%94%20shortest%20transformation%20sequence) |
-| Longest consecutive sequence. | 🟡 Medium | `hashmap` `array` | [LC](https://leetcode.com/problems/longest-consecutive-sequence/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Longest%20consecutive%20sequence) |
+| Find the second-largest element in an array. | 🟢 Easy | `array` | [GfG](https://www.geeksforgeeks.org/search/?gq=Find%20the%20second-largest%20element%20in%20an%20array) · [Search](https://www.google.com/search?q=Find%20the%20second-largest%20element%20in%20an%20array) |
+| Remove duplicate characters from a string. | 🟢 Easy | `string` | [GfG](https://www.geeksforgeeks.org/search/?gq=Remove%20duplicate%20characters%20from%20a%20string) · [Search](https://www.google.com/search?q=Remove%20duplicate%20characters%20from%20a%20string) |
 
-## Round 3 · Machine Coding
-<!-- round: machine_coding -->
-
-_Build a working component or service under time pressure._
-
-| Question | Difficulty | Tags | Practice |
-| --- | --- | --- | --- |
-| Build a "polling" progress UI that updates from an API. | 🟡 Medium | `react` `async` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20a%20%22polling%22%20progress%20UI%20that%20updates%20from%20an%20API) · [Search](https://www.google.com/search?q=Build%20a%20%22polling%22%20progress%20UI%20that%20updates%20from%20an%20API) |
-| Build an image carousel with autoplay and swipe. | 🟡 Medium | `react` `ui` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20an%20image%20carousel%20with%20autoplay%20and%20swipe) · [Search](https://www.google.com/search?q=Build%20an%20image%20carousel%20with%20autoplay%20and%20swipe) |
-
-## Round 4 · Tech Deep-Dive
+## Round 3 · Tech Deep-Dive
 <!-- round: tech_deep_dive -->
 
 _Deep questions on your core stack and fundamentals._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| What is the difference between var, let and const? | 🟢 Easy | `javascript` | [GfG](https://www.geeksforgeeks.org/search/?gq=What%20is%20the%20difference%20between%20var%2C%20let%20and%20const) · [Search](https://www.google.com/search?q=What%20is%20the%20difference%20between%20var%2C%20let%20and%20const) |
-| Closures and the module pattern — with an example. | 🟢 Easy | `javascript` `closures` | [GfG](https://www.geeksforgeeks.org/search/?gq=Closures%20and%20the%20module%20pattern%20%E2%80%94%20with%20an%20example) · [Search](https://www.google.com/search?q=Closures%20and%20the%20module%20pattern%20%E2%80%94%20with%20an%20example) |
-| What are Web Workers and when would you use one? | 🟡 Medium | `browser` `perf` | [GfG](https://www.geeksforgeeks.org/search/?gq=What%20are%20Web%20Workers%20and%20when%20would%20you%20use%20one) · [Search](https://www.google.com/search?q=What%20are%20Web%20Workers%20and%20when%20would%20you%20use%20one) |
+| Explain virtual memory, paging and segmentation. | 🟡 Medium | `os` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20virtual%20memory%2C%20paging%20and%20segmentation) · [Search](https://www.google.com/search?q=Explain%20virtual%20memory%2C%20paging%20and%20segmentation) |
+| Difference between an abstract class and an interface. | 🟡 Medium | `oops` | [GfG](https://www.geeksforgeeks.org/search/?gq=Difference%20between%20an%20abstract%20class%20and%20an%20interface) · [Search](https://www.google.com/search?q=Difference%20between%20an%20abstract%20class%20and%20an%20interface) |
+| Explain your final-year project architecture and your role in it. | 🟢 Easy | `project` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20your%20final-year%20project%20architecture%20and%20your%20role%20in%20it) · [Search](https://www.google.com/search?q=Explain%20your%20final-year%20project%20architecture%20and%20your%20role%20in%20it) |
+| Difference between a process and a thread. | 🟢 Easy | `os` | [GfG](https://www.geeksforgeeks.org/search/?gq=Difference%20between%20a%20process%20and%20a%20thread) · [Search](https://www.google.com/search?q=Difference%20between%20a%20process%20and%20a%20thread) |
 
-## Round 5 · Behavioral / HR
+## Round 4 · Behavioral / HR
 <!-- round: behavioral -->
 
 _Values, collaboration, and past-experience (STAR) questions._
 
 | Question | Difficulty | Tags |
 | --- | --- | --- |
-| Describe mentoring or unblocking another engineer. | — | `mentorship` `star` |
-| When did you change your mind after seeing new evidence? | — | `judgment` `star` |
+| What are your interests outside academics? | — | — |
+| What do you know about our company and the services we provide? | — | — |
+| Tell me about yourself. | — | — |
 
 ---
 

@@ -1,89 +1,72 @@
 ---
 id: fiserv-3
 company: fiserv
-role: frontend
-level: senior
-outcome: withdrew
-year: 2023
+role: backend
+level: junior
+outcome: offer
+year: 2025
 source: curated
 summary: >-
-  6-round senior frontend process. Balanced across coding, design, and
-  collaboration.
+  A junior backend hiring drive. Aptitude screen first, then technical
+  fundamentals and HR.
 ---
-# Senior Frontend — Fiserv
+# Junior Backend — Fiserv
 
-![role](https://img.shields.io/badge/role-Frontend-22d3ee?style=flat-square)
-![level](https://img.shields.io/badge/level-Senior-818cf8?style=flat-square)
-![outcome](https://img.shields.io/badge/outcome-Withdrew-fbbf24?style=flat-square)
-![year](https://img.shields.io/badge/year-2023-6b7280?style=flat-square)
+![role](https://img.shields.io/badge/role-Backend-8b93ff?style=flat-square)
+![level](https://img.shields.io/badge/level-Junior-818cf8?style=flat-square)
+![outcome](https://img.shields.io/badge/outcome-Offer-34d399?style=flat-square)
+![year](https://img.shields.io/badge/year-2025-6b7280?style=flat-square)
 ![source](https://img.shields.io/badge/source-Commonly%20asked-2dd4bf?style=flat-square)
 
-> 6-round senior frontend process. Balanced across coding, design, and collaboration.
+> A junior backend hiring drive. Aptitude screen first, then technical fundamentals and HR.
 
-**6 rounds · 13 questions**
+**4 rounds · 12 questions**
 
 ---
 
-## Round 1 · DSA / Coding
+## Round 1 · Online Assessment
+<!-- round: oa -->
+
+_Timed online coding / aptitude screen, usually the first filter._
+
+| Question | Difficulty | Tags | Practice |
+| --- | --- | --- | --- |
+| Quantitative aptitude: simple and compound interest. | 🟢 Easy | `aptitude` | [GfG](https://www.geeksforgeeks.org/search/?gq=Quantitative%20aptitude%3A%20simple%20and%20compound%20interest) · [Search](https://www.google.com/search?q=Quantitative%20aptitude%3A%20simple%20and%20compound%20interest) |
+| Quantitative aptitude: profit, loss and percentages. | 🟢 Easy | `aptitude` | [GfG](https://www.geeksforgeeks.org/search/?gq=Quantitative%20aptitude%3A%20profit%2C%20loss%20and%20percentages) · [Search](https://www.google.com/search?q=Quantitative%20aptitude%3A%20profit%2C%20loss%20and%20percentages) |
+| Pseudocode: predict the output of the given code block. | 🟡 Medium | `pseudocode` | [GfG](https://www.geeksforgeeks.org/search/?gq=Pseudocode%3A%20predict%20the%20output%20of%20the%20given%20code%20block) · [Search](https://www.google.com/search?q=Pseudocode%3A%20predict%20the%20output%20of%20the%20given%20code%20block) |
+
+## Round 2 · DSA / Coding
 <!-- round: dsa -->
 
 _Data structures & algorithms on a whiteboard or shared editor._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Find median from data stream. | 🔴 Hard | `heap` `design` | [LC](https://leetcode.com/problems/find-median-from-data-stream/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Find%20median%20from%20data%20stream) |
-| Trapping rain water. | 🔴 Hard | `two-pointers` `array` | [LC](https://leetcode.com/problems/trapping-rain-water/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Trapping%20rain%20water) |
-| Daily temperatures. | 🟡 Medium | `stack` `monotonic-stack` | [LC](https://leetcode.com/problems/daily-temperatures/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Daily%20temperatures) |
+| Swap two numbers without using a temporary variable. | 🟢 Easy | `math` | [GfG](https://www.geeksforgeeks.org/search/?gq=Swap%20two%20numbers%20without%20using%20a%20temporary%20variable) · [Search](https://www.google.com/search?q=Swap%20two%20numbers%20without%20using%20a%20temporary%20variable) |
+| Print a star / pyramid pattern for n rows. | 🟢 Easy | `patterns` | [GfG](https://www.geeksforgeeks.org/search/?gq=Print%20a%20star%20%2F%20pyramid%20pattern%20for%20n%20rows) · [Search](https://www.google.com/search?q=Print%20a%20star%20%2F%20pyramid%20pattern%20for%20n%20rows) |
 
-## Round 2 · Machine Coding
-<!-- round: machine_coding -->
-
-_Build a working component or service under time pressure._
-
-| Question | Difficulty | Tags | Practice |
-| --- | --- | --- | --- |
-| Build a "polling" progress UI that updates from an API. | 🟡 Medium | `react` `async` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20a%20%22polling%22%20progress%20UI%20that%20updates%20from%20an%20API) · [Search](https://www.google.com/search?q=Build%20a%20%22polling%22%20progress%20UI%20that%20updates%20from%20an%20API) |
-| Build a data table with sorting, filtering and pagination. | 🔴 Hard | `react` `table` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20a%20data%20table%20with%20sorting%2C%20filtering%20and%20pagination) · [Search](https://www.google.com/search?q=Build%20a%20data%20table%20with%20sorting%2C%20filtering%20and%20pagination) |
-
-## Round 3 · System Design
-<!-- round: system_design -->
-
-_High-level architecture of a large-scale system._
-
-| Question | Difficulty | Tags | Practice |
-| --- | --- | --- | --- |
-| Design an online code judge / evaluator. | 🔴 Hard | `sandboxing` `queues` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20an%20online%20code%20judge%20%2F%20evaluator) · [Search](https://www.google.com/search?q=Design%20an%20online%20code%20judge%20%2F%20evaluator) |
-| Design a rate limiter for a public API. | 🟡 Medium | `token-bucket` `redis` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20rate%20limiter%20for%20a%20public%20API) · [Search](https://www.google.com/search?q=Design%20a%20rate%20limiter%20for%20a%20public%20API) |
-
-## Round 4 · Tech Deep-Dive
+## Round 3 · Tech Deep-Dive
 <!-- round: tech_deep_dive -->
 
 _Deep questions on your core stack and fundamentals._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Explain CORS and how a preflight request works. | 🟡 Medium | `browser` `security` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20CORS%20and%20how%20a%20preflight%20request%20works) · [Search](https://www.google.com/search?q=Explain%20CORS%20and%20how%20a%20preflight%20request%20works) |
-| How does a service worker enable offline support? | 🟡 Medium | `pwa` `offline` | [GfG](https://www.geeksforgeeks.org/search/?gq=How%20does%20a%20service%20worker%20enable%20offline%20support) · [Search](https://www.google.com/search?q=How%20does%20a%20service%20worker%20enable%20offline%20support) |
-| Explain memoization: useMemo, useCallback and React.memo. | 🟡 Medium | `react` `perf` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20memoization%3A%20useMemo%2C%20useCallback%20and%20React.memo) · [Search](https://www.google.com/search?q=Explain%20memoization%3A%20useMemo%2C%20useCallback%20and%20React.memo) |
+| Explain the ACID properties of a transaction. | 🟡 Medium | `dbms` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20the%20ACID%20properties%20of%20a%20transaction) · [Search](https://www.google.com/search?q=Explain%20the%20ACID%20properties%20of%20a%20transaction) |
+| Difference between abstraction and encapsulation. | 🟢 Easy | `oops` | [GfG](https://www.geeksforgeeks.org/search/?gq=Difference%20between%20abstraction%20and%20encapsulation) · [Search](https://www.google.com/search?q=Difference%20between%20abstraction%20and%20encapsulation) |
+| Difference between C and C++. | 🟢 Easy | `c` | [GfG](https://www.geeksforgeeks.org/search/?gq=Difference%20between%20C%20and%20C%2B%2B) · [Search](https://www.google.com/search?q=Difference%20between%20C%20and%20C%2B%2B) |
+| Explain the layers of the OSI model. | 🟢 Easy | `networking` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20the%20layers%20of%20the%20OSI%20model) · [Search](https://www.google.com/search?q=Explain%20the%20layers%20of%20the%20OSI%20model) |
 
-## Round 5 · Hiring Manager
-<!-- round: hiring_manager -->
-
-_Scope, ownership, and role-fit discussion with the manager._
-
-| Question | Difficulty | Tags |
-| --- | --- | --- |
-| Tell me about a project that slipped. What did you do? | — | `delivery` |
-
-## Round 6 · Behavioral / HR
+## Round 4 · Behavioral / HR
 <!-- round: behavioral -->
 
 _Values, collaboration, and past-experience (STAR) questions._
 
 | Question | Difficulty | Tags |
 | --- | --- | --- |
-| When did you have to make a decision with incomplete data? | — | `judgment` `star` |
-| Tell me about a time you simplified something overly complex. | — | `judgment` `star` |
+| Are you comfortable working in rotational or night shifts? | — | — |
+| Tell me about a conflict in a team project and how you resolved it. | — | — |
+| Where do you see yourself in five years? | — | — |
 
 ---
 

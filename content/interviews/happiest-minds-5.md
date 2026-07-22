@@ -2,86 +2,71 @@
 id: happiest-minds-5
 company: happiest-minds
 role: backend
-level: senior
-outcome: no_offer
+level: junior
+outcome: offer
 year: 2025
 source: curated
-summary: 'Senior backend interview. Balanced across coding, design, and collaboration.'
+summary: >-
+  4-round junior backend process. Breadth of fundamentals mattered more than
+  algorithmic depth.
 ---
-# Senior Backend — Happiest Minds
+# Junior Backend — Happiest Minds
 
 ![role](https://img.shields.io/badge/role-Backend-8b93ff?style=flat-square)
-![level](https://img.shields.io/badge/level-Senior-818cf8?style=flat-square)
-![outcome](https://img.shields.io/badge/outcome-No%20offer-f87171?style=flat-square)
+![level](https://img.shields.io/badge/level-Junior-818cf8?style=flat-square)
+![outcome](https://img.shields.io/badge/outcome-Offer-34d399?style=flat-square)
 ![year](https://img.shields.io/badge/year-2025-6b7280?style=flat-square)
 ![source](https://img.shields.io/badge/source-Commonly%20asked-2dd4bf?style=flat-square)
 
-> Senior backend interview. Balanced across coding, design, and collaboration.
+> 4-round junior backend process. Breadth of fundamentals mattered more than algorithmic depth.
 
-**6 rounds · 13 questions**
+**4 rounds · 12 questions**
 
 ---
 
-## Round 1 · DSA / Coding
+## Round 1 · Online Assessment
+<!-- round: oa -->
+
+_Timed online coding / aptitude screen, usually the first filter._
+
+| Question | Difficulty | Tags | Practice |
+| --- | --- | --- | --- |
+| Pseudocode: spot the error in the given snippet. | 🟡 Medium | `pseudocode` | [GfG](https://www.geeksforgeeks.org/search/?gq=Pseudocode%3A%20spot%20the%20error%20in%20the%20given%20snippet) · [Search](https://www.google.com/search?q=Pseudocode%3A%20spot%20the%20error%20in%20the%20given%20snippet) |
+| Logical reasoning: number and letter series completion. | 🟢 Easy | `reasoning` | [GfG](https://www.geeksforgeeks.org/search/?gq=Logical%20reasoning%3A%20number%20and%20letter%20series%20completion) · [Search](https://www.google.com/search?q=Logical%20reasoning%3A%20number%20and%20letter%20series%20completion) |
+| Quantitative aptitude: profit, loss and percentages. | 🟢 Easy | `aptitude` | [GfG](https://www.geeksforgeeks.org/search/?gq=Quantitative%20aptitude%3A%20profit%2C%20loss%20and%20percentages) · [Search](https://www.google.com/search?q=Quantitative%20aptitude%3A%20profit%2C%20loss%20and%20percentages) |
+
+## Round 2 · DSA / Coding
 <!-- round: dsa -->
 
 _Data structures & algorithms on a whiteboard or shared editor._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Merge two sorted linked lists. | 🟢 Easy | `linked-list` | [LC](https://leetcode.com/problems/merge-two-sorted-lists/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Merge%20two%20sorted%20linked%20lists) |
-| Median of two sorted arrays. | 🔴 Hard | `binary-search` | [LC](https://leetcode.com/problems/median-of-two-sorted-arrays/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Median%20of%20two%20sorted%20arrays) |
-| Maximum depth of a binary tree. | 🟢 Easy | `tree` `dfs` | [LC](https://leetcode.com/problems/maximum-depth-of-binary-tree/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Maximum%20depth%20of%20a%20binary%20tree) |
+| Count the frequency of each character in a string. | 🟢 Easy | `string` | [GfG](https://www.geeksforgeeks.org/search/?gq=Count%20the%20frequency%20of%20each%20character%20in%20a%20string) · [Search](https://www.google.com/search?q=Count%20the%20frequency%20of%20each%20character%20in%20a%20string) |
+| Matrix operations: transpose and sum of the diagonals. | 🟡 Medium | `matrix` | [GfG](https://www.geeksforgeeks.org/search/?gq=Matrix%20operations%3A%20transpose%20and%20sum%20of%20the%20diagonals) · [Search](https://www.google.com/search?q=Matrix%20operations%3A%20transpose%20and%20sum%20of%20the%20diagonals) |
 
-## Round 2 · Machine Coding
-<!-- round: machine_coding -->
-
-_Build a working component or service under time pressure._
-
-| Question | Difficulty | Tags | Practice |
-| --- | --- | --- | --- |
-| Build a CSV importer that streams and validates rows. | 🟡 Medium | `streaming` `validation` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20a%20CSV%20importer%20that%20streams%20and%20validates%20rows) · [Search](https://www.google.com/search?q=Build%20a%20CSV%20importer%20that%20streams%20and%20validates%20rows) |
-| Build a URL health checker with a concurrency limit. | 🟡 Medium | `concurrency` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20a%20URL%20health%20checker%20with%20a%20concurrency%20limit) · [Search](https://www.google.com/search?q=Build%20a%20URL%20health%20checker%20with%20a%20concurrency%20limit) |
-
-## Round 3 · System Design
-<!-- round: system_design -->
-
-_High-level architecture of a large-scale system._
-
-| Question | Difficulty | Tags | Practice |
-| --- | --- | --- | --- |
-| Design a ticket booking system (inventory + concurrency). | 🔴 Hard | `concurrency` `transactions` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20ticket%20booking%20system%20(inventory%20%2B%20concurrency)) · [Search](https://www.google.com/search?q=Design%20a%20ticket%20booking%20system%20(inventory%20%2B%20concurrency)) |
-| Design a rate-limited, multi-tenant public API gateway. | 🔴 Hard | `gateway` `rate-limit` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20rate-limited%2C%20multi-tenant%20public%20API%20gateway) · [Search](https://www.google.com/search?q=Design%20a%20rate-limited%2C%20multi-tenant%20public%20API%20gateway) |
-
-## Round 4 · Tech Deep-Dive
+## Round 3 · Tech Deep-Dive
 <!-- round: tech_deep_dive -->
 
 _Deep questions on your core stack and fundamentals._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| What is a deadlock and how do you avoid one? | 🔴 Hard | `concurrency` | [GfG](https://www.geeksforgeeks.org/search/?gq=What%20is%20a%20deadlock%20and%20how%20do%20you%20avoid%20one) · [Search](https://www.google.com/search?q=What%20is%20a%20deadlock%20and%20how%20do%20you%20avoid%20one) |
-| How does a load balancer choose a backend? | 🟡 Medium | `networking` | [GfG](https://www.geeksforgeeks.org/search/?gq=How%20does%20a%20load%20balancer%20choose%20a%20backend) · [Search](https://www.google.com/search?q=How%20does%20a%20load%20balancer%20choose%20a%20backend) |
-| Explain database indexing and when a query uses one. | 🟡 Medium | `databases` `indexing` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20database%20indexing%20and%20when%20a%20query%20uses%20one) · [Search](https://www.google.com/search?q=Explain%20database%20indexing%20and%20when%20a%20query%20uses%20one) |
+| Difference between an array and a linked list. | 🟢 Easy | `data-structures` | [GfG](https://www.geeksforgeeks.org/search/?gq=Difference%20between%20an%20array%20and%20a%20linked%20list) · [Search](https://www.google.com/search?q=Difference%20between%20an%20array%20and%20a%20linked%20list) |
+| Difference between an abstract class and an interface. | 🟡 Medium | `oops` | [GfG](https://www.geeksforgeeks.org/search/?gq=Difference%20between%20an%20abstract%20class%20and%20an%20interface) · [Search](https://www.google.com/search?q=Difference%20between%20an%20abstract%20class%20and%20an%20interface) |
+| Difference between C and C++. | 🟢 Easy | `c` | [GfG](https://www.geeksforgeeks.org/search/?gq=Difference%20between%20C%20and%20C%2B%2B) · [Search](https://www.google.com/search?q=Difference%20between%20C%20and%20C%2B%2B) |
+| Explain Java collections: List, Set and Map. | 🟡 Medium | `java` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20Java%20collections%3A%20List%2C%20Set%20and%20Map) · [Search](https://www.google.com/search?q=Explain%20Java%20collections%3A%20List%2C%20Set%20and%20Map) |
 
-## Round 5 · Hiring Manager
-<!-- round: hiring_manager -->
-
-_Scope, ownership, and role-fit discussion with the manager._
-
-| Question | Difficulty | Tags |
-| --- | --- | --- |
-| What does a great engineering culture look like to you? | — | `values` |
-
-## Round 6 · Behavioral / HR
+## Round 4 · Behavioral / HR
 <!-- round: behavioral -->
 
 _Values, collaboration, and past-experience (STAR) questions._
 
 | Question | Difficulty | Tags |
 | --- | --- | --- |
-| How do you handle being blocked for several days? | — | `ownership` `star` |
-| Describe a time you improved a process or tool for your team. | — | `ownership` `star` |
+| Tell me about a conflict in a team project and how you resolved it. | — | — |
+| Tell me about your final-year project. | — | — |
+| Where do you see yourself in five years? | — | — |
 
 ---
 

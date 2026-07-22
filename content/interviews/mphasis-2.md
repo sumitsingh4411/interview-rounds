@@ -1,26 +1,26 @@
 ---
 id: mphasis-2
 company: mphasis
-role: backend
-level: junior
-outcome: no_offer
-year: 2025
+role: frontend
+level: mid
+outcome: offer
+year: 2023
 source: curated
 summary: >-
-  Junior backend interview. Pragmatic questions — more real-world than pure
-  puzzles.
+  Campus-style mid frontend interview. Basic programming plus core CS;
+  communication mattered throughout.
 ---
-# Junior Backend — Mphasis
+# Mid Frontend — Mphasis
 
-![role](https://img.shields.io/badge/role-Backend-8b93ff?style=flat-square)
-![level](https://img.shields.io/badge/level-Junior-818cf8?style=flat-square)
-![outcome](https://img.shields.io/badge/outcome-No%20offer-f87171?style=flat-square)
-![year](https://img.shields.io/badge/year-2025-6b7280?style=flat-square)
+![role](https://img.shields.io/badge/role-Frontend-22d3ee?style=flat-square)
+![level](https://img.shields.io/badge/level-Mid-818cf8?style=flat-square)
+![outcome](https://img.shields.io/badge/outcome-Offer-34d399?style=flat-square)
+![year](https://img.shields.io/badge/year-2023-6b7280?style=flat-square)
 ![source](https://img.shields.io/badge/source-Commonly%20asked-2dd4bf?style=flat-square)
 
-> Junior backend interview. Pragmatic questions — more real-world than pure puzzles.
+> Campus-style mid frontend interview. Basic programming plus core CS; communication mattered throughout.
 
-**5 rounds · 11 questions**
+**5 rounds · 14 questions**
 
 ---
 
@@ -31,7 +31,9 @@ _Timed online coding / aptitude screen, usually the first filter._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Implement a rate-limited counter. | 🟡 Medium | `simulation` | [GfG](https://www.geeksforgeeks.org/search/?gq=Implement%20a%20rate-limited%20counter) · [Search](https://www.google.com/search?q=Implement%20a%20rate-limited%20counter) |
+| Verbal ability: synonyms, antonyms and para-jumbles. | 🟢 Easy | `verbal` | [GfG](https://www.geeksforgeeks.org/search/?gq=Verbal%20ability%3A%20synonyms%2C%20antonyms%20and%20para-jumbles) · [Search](https://www.google.com/search?q=Verbal%20ability%3A%20synonyms%2C%20antonyms%20and%20para-jumbles) |
+| Quantitative aptitude: time and work problems. | 🟢 Easy | `aptitude` | [GfG](https://www.geeksforgeeks.org/search/?gq=Quantitative%20aptitude%3A%20time%20and%20work%20problems) · [Search](https://www.google.com/search?q=Quantitative%20aptitude%3A%20time%20and%20work%20problems) |
+| Verbal ability: error spotting and sentence correction. | 🟢 Easy | `verbal` | [GfG](https://www.geeksforgeeks.org/search/?gq=Verbal%20ability%3A%20error%20spotting%20and%20sentence%20correction) · [Search](https://www.google.com/search?q=Verbal%20ability%3A%20error%20spotting%20and%20sentence%20correction) |
 
 ## Round 2 · DSA / Coding
 <!-- round: dsa -->
@@ -40,30 +42,30 @@ _Data structures & algorithms on a whiteboard or shared editor._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Subtree of another tree. | 🟢 Easy | `tree` `dfs` | [LC](https://leetcode.com/problems/subtree-of-another-tree/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Subtree%20of%20another%20tree) |
-| Same tree. | 🟢 Easy | `tree` | [LC](https://leetcode.com/problems/same-tree/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Same%20tree) |
-| Word break. | 🟡 Medium | `dp` `string` | [LC](https://leetcode.com/problems/word-break/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Word%20break) |
+| Implement binary search on a sorted array. | 🟢 Easy | `searching` | [GfG](https://www.geeksforgeeks.org/search/?gq=Implement%20binary%20search%20on%20a%20sorted%20array) · [Search](https://www.google.com/search?q=Implement%20binary%20search%20on%20a%20sorted%20array) |
+| Reverse a number and check whether it is a palindrome. | 🟢 Easy | `math` | [GfG](https://www.geeksforgeeks.org/search/?gq=Reverse%20a%20number%20and%20check%20whether%20it%20is%20a%20palindrome) · [Search](https://www.google.com/search?q=Reverse%20a%20number%20and%20check%20whether%20it%20is%20a%20palindrome) |
 
-## Round 3 · Machine Coding
-<!-- round: machine_coding -->
-
-_Build a working component or service under time pressure._
-
-| Question | Difficulty | Tags | Practice |
-| --- | --- | --- | --- |
-| Build a file-upload service with chunking and resume. | 🔴 Hard | `streaming` `storage` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20a%20file-upload%20service%20with%20chunking%20and%20resume) · [Search](https://www.google.com/search?q=Build%20a%20file-upload%20service%20with%20chunking%20and%20resume) |
-| Design and build a URL-shortener service (API + storage). | 🟡 Medium | `api` `hashing` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20and%20build%20a%20URL-shortener%20service%20(API%20%2B%20storage)) · [Search](https://www.google.com/search?q=Design%20and%20build%20a%20URL-shortener%20service%20(API%20%2B%20storage)) |
-
-## Round 4 · Tech Deep-Dive
+## Round 3 · Tech Deep-Dive
 <!-- round: tech_deep_dive -->
 
 _Deep questions on your core stack and fundamentals._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Caching strategies: cache-aside, write-through, TTLs. | 🟡 Medium | `cache` | [GfG](https://www.geeksforgeeks.org/search/?gq=Caching%20strategies%3A%20cache-aside%2C%20write-through%2C%20TTLs) · [Search](https://www.google.com/search?q=Caching%20strategies%3A%20cache-aside%2C%20write-through%2C%20TTLs) |
-| How does a load balancer choose a backend? | 🟡 Medium | `networking` | [GfG](https://www.geeksforgeeks.org/search/?gq=How%20does%20a%20load%20balancer%20choose%20a%20backend) · [Search](https://www.google.com/search?q=How%20does%20a%20load%20balancer%20choose%20a%20backend) |
-| How would you design and version a public REST API? | 🟡 Medium | `api-design` | [GfG](https://www.geeksforgeeks.org/search/?gq=How%20would%20you%20design%20and%20version%20a%20public%20REST%20API) · [Search](https://www.google.com/search?q=How%20would%20you%20design%20and%20version%20a%20public%20REST%20API) |
+| What is polymorphism? Compile-time vs runtime. | 🟢 Easy | `oops` | [GfG](https://www.geeksforgeeks.org/search/?gq=What%20is%20polymorphism%3F%20Compile-time%20vs%20runtime) · [Search](https://www.google.com/search?q=What%20is%20polymorphism%3F%20Compile-time%20vs%20runtime) |
+| Explain virtual memory, paging and segmentation. | 🟡 Medium | `os` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20virtual%20memory%2C%20paging%20and%20segmentation) · [Search](https://www.google.com/search?q=Explain%20virtual%20memory%2C%20paging%20and%20segmentation) |
+| Explain the four pillars of OOP with examples. | 🟢 Easy | `oops` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20the%20four%20pillars%20of%20OOP%20with%20examples) · [Search](https://www.google.com/search?q=Explain%20the%20four%20pillars%20of%20OOP%20with%20examples) |
+| Write a SQL query to find the second-highest salary. | 🟡 Medium | `sql` | [GfG](https://www.geeksforgeeks.org/search/?gq=Write%20a%20SQL%20query%20to%20find%20the%20second-highest%20salary) · [Search](https://www.google.com/search?q=Write%20a%20SQL%20query%20to%20find%20the%20second-highest%20salary) |
+
+## Round 4 · Hiring Manager
+<!-- round: hiring_manager -->
+
+_Scope, ownership, and role-fit discussion with the manager._
+
+| Question | Difficulty | Tags |
+| --- | --- | --- |
+| How do you ensure code quality under a tight delivery timeline? | — | — |
+| Which technology stack are you most comfortable with, and why? | — | — |
 
 ## Round 5 · Behavioral / HR
 <!-- round: behavioral -->
@@ -72,8 +74,9 @@ _Values, collaboration, and past-experience (STAR) questions._
 
 | Question | Difficulty | Tags |
 | --- | --- | --- |
-| Why this company, and why this role? | — | `motivation` |
-| Describe working with an ambiguous or shifting requirement. | — | `ambiguity` `star` |
+| Are you comfortable signing the service agreement / bond? | — | — |
+| Tell me about a conflict in a team project and how you resolved it. | — | — |
+| Tell me about your final-year project. | — | — |
 
 ---
 

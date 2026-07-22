@@ -20,11 +20,11 @@ description: 'Global tech services. Aptitude, core coding, and technical-plus-HR
 
 | Interview | Outcome | Rounds | Questions |
 | --- | --- | --- | --- |
-| [Senior · Full-stack](../interviews/hcltech-1.md) | Unknown | 6 | 13 |
-| [Senior · Frontend](../interviews/hcltech-2.md) | Unknown | 6 | 13 |
-| [Staff · Backend](../interviews/hcltech-3.md) | Unknown | 5 | 9 |
-| [Junior · Full-stack](../interviews/hcltech-4.md) | No offer | 5 | 11 |
-| [Senior · Backend](../interviews/hcltech-5.md) | Offer | 6 | 13 |
+| [Senior · Backend](../interviews/hcltech-1.md) | Rejected | 4 | 11 |
+| [Junior · Backend](../interviews/hcltech-2.md) | Rejected | 4 | 12 |
+| [Junior · Full-stack](../interviews/hcltech-3.md) | Rejected | 4 | 12 |
+| [Intern · Backend](../interviews/hcltech-4.md) | No offer | 4 | 12 |
+| [Junior · Frontend](../interviews/hcltech-5.md) | No offer | 4 | 12 |
 
 ---
 

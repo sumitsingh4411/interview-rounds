@@ -3,24 +3,24 @@ id: amdocs-3
 company: amdocs
 role: backend
 level: junior
-outcome: rejected
-year: 2025
+outcome: offer
+year: 2024
 source: curated
 summary: >-
-  A junior backend loop. Pragmatic questions — more real-world than pure
-  puzzles.
+  A junior backend hiring drive. Basic programming plus core CS; communication
+  mattered throughout.
 ---
 # Junior Backend — Amdocs
 
 ![role](https://img.shields.io/badge/role-Backend-8b93ff?style=flat-square)
 ![level](https://img.shields.io/badge/level-Junior-818cf8?style=flat-square)
-![outcome](https://img.shields.io/badge/outcome-Rejected-f87171?style=flat-square)
-![year](https://img.shields.io/badge/year-2025-6b7280?style=flat-square)
+![outcome](https://img.shields.io/badge/outcome-Offer-34d399?style=flat-square)
+![year](https://img.shields.io/badge/year-2024-6b7280?style=flat-square)
 ![source](https://img.shields.io/badge/source-Commonly%20asked-2dd4bf?style=flat-square)
 
-> A junior backend loop. Pragmatic questions — more real-world than pure puzzles.
+> A junior backend hiring drive. Basic programming plus core CS; communication mattered throughout.
 
-**5 rounds · 11 questions**
+**4 rounds · 12 questions**
 
 ---
 
@@ -31,7 +31,9 @@ _Timed online coding / aptitude screen, usually the first filter._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Compute the running median of a stream. | 🔴 Hard | `heap` | [GfG](https://www.geeksforgeeks.org/search/?gq=Compute%20the%20running%20median%20of%20a%20stream) · [Search](https://www.google.com/search?q=Compute%20the%20running%20median%20of%20a%20stream) |
+| Quantitative aptitude: time, speed and distance problems. | 🟢 Easy | `aptitude` | [GfG](https://www.geeksforgeeks.org/search/?gq=Quantitative%20aptitude%3A%20time%2C%20speed%20and%20distance%20problems) · [Search](https://www.google.com/search?q=Quantitative%20aptitude%3A%20time%2C%20speed%20and%20distance%20problems) |
+| Email writing / essay writing task. | 🟢 Easy | `verbal` | [GfG](https://www.geeksforgeeks.org/search/?gq=Email%20writing%20%2F%20essay%20writing%20task) · [Search](https://www.google.com/search?q=Email%20writing%20%2F%20essay%20writing%20task) |
+| Pseudocode: spot the error in the given snippet. | 🟡 Medium | `pseudocode` | [GfG](https://www.geeksforgeeks.org/search/?gq=Pseudocode%3A%20spot%20the%20error%20in%20the%20given%20snippet) · [Search](https://www.google.com/search?q=Pseudocode%3A%20spot%20the%20error%20in%20the%20given%20snippet) |
 
 ## Round 2 · DSA / Coding
 <!-- round: dsa -->
@@ -40,40 +42,31 @@ _Data structures & algorithms on a whiteboard or shared editor._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Trapping rain water. | 🔴 Hard | `two-pointers` `array` | [LC](https://leetcode.com/problems/trapping-rain-water/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Trapping%20rain%20water) |
-| Sort colors. | 🟡 Medium | `two-pointers` `array` | [LC](https://leetcode.com/problems/sort-colors/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Sort%20colors) |
-| Decode ways. | 🟡 Medium | `dp` `string` | [LC](https://leetcode.com/problems/decode-ways/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Decode%20ways) |
+| Check whether a number is an Armstrong number. | 🟢 Easy | `math` | [GfG](https://www.geeksforgeeks.org/search/?gq=Check%20whether%20a%20number%20is%20an%20Armstrong%20number) · [Search](https://www.google.com/search?q=Check%20whether%20a%20number%20is%20an%20Armstrong%20number) |
+| Matrix operations: transpose and sum of the diagonals. | 🟡 Medium | `matrix` | [GfG](https://www.geeksforgeeks.org/search/?gq=Matrix%20operations%3A%20transpose%20and%20sum%20of%20the%20diagonals) · [Search](https://www.google.com/search?q=Matrix%20operations%3A%20transpose%20and%20sum%20of%20the%20diagonals) |
 
-## Round 3 · Machine Coding
-<!-- round: machine_coding -->
-
-_Build a working component or service under time pressure._
-
-| Question | Difficulty | Tags | Practice |
-| --- | --- | --- | --- |
-| Implement a token-bucket rate limiter as a service. | 🟡 Medium | `rate-limit` | [GfG](https://www.geeksforgeeks.org/search/?gq=Implement%20a%20token-bucket%20rate%20limiter%20as%20a%20service) · [Search](https://www.google.com/search?q=Implement%20a%20token-bucket%20rate%20limiter%20as%20a%20service) |
-| Build a URL health checker with a concurrency limit. | 🟡 Medium | `concurrency` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20a%20URL%20health%20checker%20with%20a%20concurrency%20limit) · [Search](https://www.google.com/search?q=Build%20a%20URL%20health%20checker%20with%20a%20concurrency%20limit) |
-
-## Round 4 · Tech Deep-Dive
+## Round 3 · Tech Deep-Dive
 <!-- round: tech_deep_dive -->
 
 _Deep questions on your core stack and fundamentals._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Explain JWT structure and common pitfalls. | 🟡 Medium | `auth` `security` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20JWT%20structure%20and%20common%20pitfalls) · [Search](https://www.google.com/search?q=Explain%20JWT%20structure%20and%20common%20pitfalls) |
-| Explain how a hash index differs from a B-tree index. | 🔴 Hard | `databases` `indexing` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20how%20a%20hash%20index%20differs%20from%20a%20B-tree%20index) · [Search](https://www.google.com/search?q=Explain%20how%20a%20hash%20index%20differs%20from%20a%20B-tree%20index) |
-| How do you secure secrets and handle auth tokens? | 🟡 Medium | `security` | [GfG](https://www.geeksforgeeks.org/search/?gq=How%20do%20you%20secure%20secrets%20and%20handle%20auth%20tokens) · [Search](https://www.google.com/search?q=How%20do%20you%20secure%20secrets%20and%20handle%20auth%20tokens) |
+| Explain inheritance and its types. | 🟢 Easy | `oops` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20inheritance%20and%20its%20types) · [Search](https://www.google.com/search?q=Explain%20inheritance%20and%20its%20types) |
+| What is a deadlock and how do you prevent it? | 🟡 Medium | `os` | [GfG](https://www.geeksforgeeks.org/search/?gq=What%20is%20a%20deadlock%20and%20how%20do%20you%20prevent%20it) · [Search](https://www.google.com/search?q=What%20is%20a%20deadlock%20and%20how%20do%20you%20prevent%20it) |
+| Difference between a structure and a union in C. | 🟢 Easy | `c` | [GfG](https://www.geeksforgeeks.org/search/?gq=Difference%20between%20a%20structure%20and%20a%20union%20in%20C) · [Search](https://www.google.com/search?q=Difference%20between%20a%20structure%20and%20a%20union%20in%20C) |
+| Explain SQL joins: inner, left, right and full outer. | 🟢 Easy | `sql` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20SQL%20joins%3A%20inner%2C%20left%2C%20right%20and%20full%20outer) · [Search](https://www.google.com/search?q=Explain%20SQL%20joins%3A%20inner%2C%20left%2C%20right%20and%20full%20outer) |
 
-## Round 5 · Behavioral / HR
+## Round 4 · Behavioral / HR
 <!-- round: behavioral -->
 
 _Values, collaboration, and past-experience (STAR) questions._
 
 | Question | Difficulty | Tags |
 | --- | --- | --- |
-| Describe a time you improved a process or tool for your team. | — | `ownership` `star` |
-| Tell me about the hardest bug you have debugged. | — | `debugging` `star` |
+| Why do you want to join our company? | — | — |
+| Are you comfortable working in rotational or night shifts? | — | — |
+| Tell me about a conflict in a team project and how you resolved it. | — | — |
 
 ---
 

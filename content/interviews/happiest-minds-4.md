@@ -1,77 +1,71 @@
 ---
 id: happiest-minds-4
 company: happiest-minds
-role: fullstack
-level: junior
-outcome: rejected
-year: 2023
+role: backend
+level: senior
+outcome: no_offer
+year: 2025
 source: curated
-summary: A junior fullstack loop. Fast-paced; expect follow-ups that push on depth.
+summary: >-
+  A senior backend hiring drive. Breadth of fundamentals mattered more than
+  algorithmic depth.
 ---
-# Junior Full-stack — Happiest Minds
+# Senior Backend — Happiest Minds
 
-![role](https://img.shields.io/badge/role-Full--stack-a78bfa?style=flat-square)
-![level](https://img.shields.io/badge/level-Junior-818cf8?style=flat-square)
-![outcome](https://img.shields.io/badge/outcome-Rejected-f87171?style=flat-square)
-![year](https://img.shields.io/badge/year-2023-6b7280?style=flat-square)
+![role](https://img.shields.io/badge/role-Backend-8b93ff?style=flat-square)
+![level](https://img.shields.io/badge/level-Senior-818cf8?style=flat-square)
+![outcome](https://img.shields.io/badge/outcome-No%20offer-f87171?style=flat-square)
+![year](https://img.shields.io/badge/year-2025-6b7280?style=flat-square)
 ![source](https://img.shields.io/badge/source-Commonly%20asked-2dd4bf?style=flat-square)
 
-> A junior fullstack loop. Fast-paced; expect follow-ups that push on depth.
+> A senior backend hiring drive. Breadth of fundamentals mattered more than algorithmic depth.
 
-**5 rounds · 11 questions**
+**4 rounds · 11 questions**
 
 ---
 
-## Round 1 · Online Assessment
-<!-- round: oa -->
-
-_Timed online coding / aptitude screen, usually the first filter._
-
-| Question | Difficulty | Tags | Practice |
-| --- | --- | --- | --- |
-| Implement a rate-limited counter. | 🟡 Medium | `simulation` | [GfG](https://www.geeksforgeeks.org/search/?gq=Implement%20a%20rate-limited%20counter) · [Search](https://www.google.com/search?q=Implement%20a%20rate-limited%20counter) |
-
-## Round 2 · DSA / Coding
+## Round 1 · DSA / Coding
 <!-- round: dsa -->
 
 _Data structures & algorithms on a whiteboard or shared editor._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Search in a rotated sorted array. | 🟡 Medium | `binary-search` | [LC](https://leetcode.com/problems/search-in-rotated-sorted-array/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Search%20in%20a%20rotated%20sorted%20array) |
-| Combination sum. | 🟡 Medium | `backtracking` | [LC](https://leetcode.com/problems/combination-sum/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Combination%20sum) |
-| Pacific Atlantic water flow. | 🟡 Medium | `dfs` `grid` | [LC](https://leetcode.com/problems/pacific-atlantic-water-flow/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Pacific%20Atlantic%20water%20flow) |
+| Sort an array using bubble sort and state its complexity. | 🟢 Easy | `sorting` | [GfG](https://www.geeksforgeeks.org/search/?gq=Sort%20an%20array%20using%20bubble%20sort%20and%20state%20its%20complexity) · [Search](https://www.google.com/search?q=Sort%20an%20array%20using%20bubble%20sort%20and%20state%20its%20complexity) |
+| Find the sum of digits of a number. | 🟢 Easy | `math` | [GfG](https://www.geeksforgeeks.org/search/?gq=Find%20the%20sum%20of%20digits%20of%20a%20number) · [Search](https://www.google.com/search?q=Find%20the%20sum%20of%20digits%20of%20a%20number) |
 
-## Round 3 · Machine Coding
-<!-- round: machine_coding -->
-
-_Build a working component or service under time pressure._
-
-| Question | Difficulty | Tags | Practice |
-| --- | --- | --- | --- |
-| Build a multi-step form with validation. | 🟡 Medium | `react` `forms` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20a%20multi-step%20form%20with%20validation) · [Search](https://www.google.com/search?q=Build%20a%20multi-step%20form%20with%20validation) |
-| Implement a leaderboard API backed by a sorted set. | 🟡 Medium | `redis` `ranking` | [GfG](https://www.geeksforgeeks.org/search/?gq=Implement%20a%20leaderboard%20API%20backed%20by%20a%20sorted%20set) · [Search](https://www.google.com/search?q=Implement%20a%20leaderboard%20API%20backed%20by%20a%20sorted%20set) |
-
-## Round 4 · Tech Deep-Dive
+## Round 2 · Tech Deep-Dive
 <!-- round: tech_deep_dive -->
 
 _Deep questions on your core stack and fundamentals._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Explain `useEffect` dependencies and common pitfalls. | 🟡 Medium | `react` `hooks` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20%60useEffect%60%20dependencies%20and%20common%20pitfalls) · [Search](https://www.google.com/search?q=Explain%20%60useEffect%60%20dependencies%20and%20common%20pitfalls) |
-| How do you run a zero-downtime database migration? | 🔴 Hard | `databases` | [GfG](https://www.geeksforgeeks.org/search/?gq=How%20do%20you%20run%20a%20zero-downtime%20database%20migration) · [Search](https://www.google.com/search?q=How%20do%20you%20run%20a%20zero-downtime%20database%20migration) |
-| Explain leader election and consensus (Raft) at a high level. | 🔴 Hard | `distributed` `consensus` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20leader%20election%20and%20consensus%20(Raft)%20at%20a%20high%20level) · [Search](https://www.google.com/search?q=Explain%20leader%20election%20and%20consensus%20(Raft)%20at%20a%20high%20level) |
+| What is a deadlock and how do you prevent it? | 🟡 Medium | `os` | [GfG](https://www.geeksforgeeks.org/search/?gq=What%20is%20a%20deadlock%20and%20how%20do%20you%20prevent%20it) · [Search](https://www.google.com/search?q=What%20is%20a%20deadlock%20and%20how%20do%20you%20prevent%20it) |
+| Difference between == and equals() in Java. | 🟢 Easy | `java` | [GfG](https://www.geeksforgeeks.org/search/?gq=Difference%20between%20%3D%3D%20and%20equals()%20in%20Java) · [Search](https://www.google.com/search?q=Difference%20between%20%3D%3D%20and%20equals()%20in%20Java) |
+| Explain the ACID properties of a transaction. | 🟡 Medium | `dbms` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20the%20ACID%20properties%20of%20a%20transaction) · [Search](https://www.google.com/search?q=Explain%20the%20ACID%20properties%20of%20a%20transaction) |
+| What happens when you type a URL into a browser? | 🟡 Medium | `networking` | [GfG](https://www.geeksforgeeks.org/search/?gq=What%20happens%20when%20you%20type%20a%20URL%20into%20a%20browser) · [Search](https://www.google.com/search?q=What%20happens%20when%20you%20type%20a%20URL%20into%20a%20browser) |
 
-## Round 5 · Behavioral / HR
+## Round 3 · Hiring Manager
+<!-- round: hiring_manager -->
+
+_Scope, ownership, and role-fit discussion with the manager._
+
+| Question | Difficulty | Tags |
+| --- | --- | --- |
+| Describe your experience working with an onsite / offshore team. | — | — |
+| What would you do if you disagreed with your project lead? | — | — |
+
+## Round 4 · Behavioral / HR
 <!-- round: behavioral -->
 
 _Values, collaboration, and past-experience (STAR) questions._
 
 | Question | Difficulty | Tags |
 | --- | --- | --- |
-| A time you made a mistake in production — what happened next? | — | `ownership` `star` |
-| Describe a goal you set and how you achieved it. | — | `ownership` `star` |
+| Do you have any backlogs or academic gaps? Please explain. | — | — |
+| Would you be comfortable working on any technology assigned to you? | — | — |
+| Why did you choose this branch of engineering? | — | — |
 
 ---
 

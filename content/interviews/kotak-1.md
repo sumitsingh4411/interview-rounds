@@ -2,86 +2,71 @@
 id: kotak-1
 company: kotak
 role: frontend
-level: senior
-outcome: withdrew
-year: 2023
+level: junior
+outcome: unknown
+year: 2025
 source: curated
-summary: Senior frontend interview. Fast-paced; expect follow-ups that push on depth.
+summary: >-
+  Campus-style junior frontend interview. Basic programming plus core CS;
+  communication mattered throughout.
 ---
-# Senior Frontend — Kotak Mahindra Bank
+# Junior Frontend — Kotak Mahindra Bank
 
 ![role](https://img.shields.io/badge/role-Frontend-22d3ee?style=flat-square)
-![level](https://img.shields.io/badge/level-Senior-818cf8?style=flat-square)
-![outcome](https://img.shields.io/badge/outcome-Withdrew-fbbf24?style=flat-square)
-![year](https://img.shields.io/badge/year-2023-6b7280?style=flat-square)
+![level](https://img.shields.io/badge/level-Junior-818cf8?style=flat-square)
+![outcome](https://img.shields.io/badge/outcome-Unknown-6b7280?style=flat-square)
+![year](https://img.shields.io/badge/year-2025-6b7280?style=flat-square)
 ![source](https://img.shields.io/badge/source-Commonly%20asked-2dd4bf?style=flat-square)
 
-> Senior frontend interview. Fast-paced; expect follow-ups that push on depth.
+> Campus-style junior frontend interview. Basic programming plus core CS; communication mattered throughout.
 
-**6 rounds · 13 questions**
+**4 rounds · 12 questions**
 
 ---
 
-## Round 1 · DSA / Coding
+## Round 1 · Online Assessment
+<!-- round: oa -->
+
+_Timed online coding / aptitude screen, usually the first filter._
+
+| Question | Difficulty | Tags | Practice |
+| --- | --- | --- | --- |
+| Pseudocode: predict the output of the given code block. | 🟡 Medium | `pseudocode` | [GfG](https://www.geeksforgeeks.org/search/?gq=Pseudocode%3A%20predict%20the%20output%20of%20the%20given%20code%20block) · [Search](https://www.google.com/search?q=Pseudocode%3A%20predict%20the%20output%20of%20the%20given%20code%20block) |
+| Quantitative aptitude: time and work problems. | 🟢 Easy | `aptitude` | [GfG](https://www.geeksforgeeks.org/search/?gq=Quantitative%20aptitude%3A%20time%20and%20work%20problems) · [Search](https://www.google.com/search?q=Quantitative%20aptitude%3A%20time%20and%20work%20problems) |
+| Quantitative aptitude: permutations, combinations and probability. | 🟡 Medium | `aptitude` | [GfG](https://www.geeksforgeeks.org/search/?gq=Quantitative%20aptitude%3A%20permutations%2C%20combinations%20and%20probability) · [Search](https://www.google.com/search?q=Quantitative%20aptitude%3A%20permutations%2C%20combinations%20and%20probability) |
+
+## Round 2 · DSA / Coding
 <!-- round: dsa -->
 
 _Data structures & algorithms on a whiteboard or shared editor._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Find median from data stream. | 🔴 Hard | `heap` `design` | [LC](https://leetcode.com/problems/find-median-from-data-stream/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Find%20median%20from%20data%20stream) |
-| Course Schedule II. | 🟡 Medium | `graph` `topo-sort` | [LC](https://leetcode.com/problems/course-schedule-ii/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Course%20Schedule%20II) |
-| Contains duplicate. | 🟢 Easy | `array` `hashmap` | [LC](https://leetcode.com/problems/contains-duplicate/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Contains%20duplicate) |
+| Find the sum of digits of a number. | 🟢 Easy | `math` | [GfG](https://www.geeksforgeeks.org/search/?gq=Find%20the%20sum%20of%20digits%20of%20a%20number) · [Search](https://www.google.com/search?q=Find%20the%20sum%20of%20digits%20of%20a%20number) |
+| Count vowels, consonants and words in a string. | 🟢 Easy | `string` | [GfG](https://www.geeksforgeeks.org/search/?gq=Count%20vowels%2C%20consonants%20and%20words%20in%20a%20string) · [Search](https://www.google.com/search?q=Count%20vowels%2C%20consonants%20and%20words%20in%20a%20string) |
 
-## Round 2 · Machine Coding
-<!-- round: machine_coding -->
-
-_Build a working component or service under time pressure._
-
-| Question | Difficulty | Tags | Practice |
-| --- | --- | --- | --- |
-| Build an accessible tabs component with keyboard nav. | 🟡 Medium | `react` `a11y` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20an%20accessible%20tabs%20component%20with%20keyboard%20nav) · [Search](https://www.google.com/search?q=Build%20an%20accessible%20tabs%20component%20with%20keyboard%20nav) |
-| Build a "Wordle" clone with keyboard input. | 🟡 Medium | `react` `state` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20a%20%22Wordle%22%20clone%20with%20keyboard%20input) · [Search](https://www.google.com/search?q=Build%20a%20%22Wordle%22%20clone%20with%20keyboard%20input) |
-
-## Round 3 · System Design
-<!-- round: system_design -->
-
-_High-level architecture of a large-scale system._
-
-| Question | Difficulty | Tags | Practice |
-| --- | --- | --- | --- |
-| Design an online code judge / evaluator. | 🔴 Hard | `sandboxing` `queues` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20an%20online%20code%20judge%20%2F%20evaluator) · [Search](https://www.google.com/search?q=Design%20an%20online%20code%20judge%20%2F%20evaluator) |
-| Design a video-call UI with grid and speaker views. | 🔴 Hard | `frontend` `webrtc` `perf` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20video-call%20UI%20with%20grid%20and%20speaker%20views) · [Search](https://www.google.com/search?q=Design%20a%20video-call%20UI%20with%20grid%20and%20speaker%20views) |
-
-## Round 4 · Tech Deep-Dive
+## Round 3 · Tech Deep-Dive
 <!-- round: tech_deep_dive -->
 
 _Deep questions on your core stack and fundamentals._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| What is tree shaking and when does it fail? | 🟡 Medium | `bundling` | [GfG](https://www.geeksforgeeks.org/search/?gq=What%20is%20tree%20shaking%20and%20when%20does%20it%20fail) · [Search](https://www.google.com/search?q=What%20is%20tree%20shaking%20and%20when%20does%20it%20fail) |
-| Debounce vs throttle — implement one from scratch. | 🟡 Medium | `javascript` `perf` | [GfG](https://www.geeksforgeeks.org/search/?gq=Debounce%20vs%20throttle%20%E2%80%94%20implement%20one%20from%20scratch) · [Search](https://www.google.com/search?q=Debounce%20vs%20throttle%20%E2%80%94%20implement%20one%20from%20scratch) |
-| How do you implement dark mode without a flash? | 🟡 Medium | `css` `ssr` | [GfG](https://www.geeksforgeeks.org/search/?gq=How%20do%20you%20implement%20dark%20mode%20without%20a%20flash) · [Search](https://www.google.com/search?q=How%20do%20you%20implement%20dark%20mode%20without%20a%20flash) |
+| Difference between a structure and a union in C. | 🟢 Easy | `c` | [GfG](https://www.geeksforgeeks.org/search/?gq=Difference%20between%20a%20structure%20and%20a%20union%20in%20C) · [Search](https://www.google.com/search?q=Difference%20between%20a%20structure%20and%20a%20union%20in%20C) |
+| What is a constructor? Explain constructor overloading. | 🟢 Easy | `oops` | [GfG](https://www.geeksforgeeks.org/search/?gq=What%20is%20a%20constructor%3F%20Explain%20constructor%20overloading) · [Search](https://www.google.com/search?q=What%20is%20a%20constructor%3F%20Explain%20constructor%20overloading) |
+| Explain your final-year project architecture and your role in it. | 🟢 Easy | `project` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20your%20final-year%20project%20architecture%20and%20your%20role%20in%20it) · [Search](https://www.google.com/search?q=Explain%20your%20final-year%20project%20architecture%20and%20your%20role%20in%20it) |
+| Explain the four pillars of OOP with examples. | 🟢 Easy | `oops` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20the%20four%20pillars%20of%20OOP%20with%20examples) · [Search](https://www.google.com/search?q=Explain%20the%20four%20pillars%20of%20OOP%20with%20examples) |
 
-## Round 5 · Hiring Manager
-<!-- round: hiring_manager -->
-
-_Scope, ownership, and role-fit discussion with the manager._
-
-| Question | Difficulty | Tags |
-| --- | --- | --- |
-| How do you measure the success of a project after launch? | — | `metrics` |
-
-## Round 6 · Behavioral / HR
+## Round 4 · Behavioral / HR
 <!-- round: behavioral -->
 
 _Values, collaboration, and past-experience (STAR) questions._
 
 | Question | Difficulty | Tags |
 | --- | --- | --- |
-| Describe working with an ambiguous or shifting requirement. | — | `ambiguity` `star` |
-| Describe a conflict with your manager and the outcome. | — | `conflict` `star` |
+| Why did you choose this branch of engineering? | — | — |
+| Where do you see yourself in five years? | — | — |
+| Do you have any backlogs or academic gaps? Please explain. | — | — |
 
 ---
 

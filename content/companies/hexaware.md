@@ -10,7 +10,7 @@ description: 'IT and BPO services. Aptitude, fundamentals, and communication rou
 ![industry](https://img.shields.io/badge/industry-IT%20Services-8b93ff?style=flat-square)
 ![hq](https://img.shields.io/badge/hq-Mumbai,%20India-6b7280?style=flat-square)
 ![interviews](https://img.shields.io/badge/interviews-5-22d3ee?style=flat-square)
-![questions](https://img.shields.io/badge/questions-57-a78bfa?style=flat-square)
+![questions](https://img.shields.io/badge/questions-62-a78bfa?style=flat-square)
 
 > IT and BPO services. Aptitude, fundamentals, and communication rounds.
 
@@ -20,11 +20,11 @@ description: 'IT and BPO services. Aptitude, fundamentals, and communication rou
 
 | Interview | Outcome | Rounds | Questions |
 | --- | --- | --- | --- |
-| [Senior · Frontend](../interviews/hexaware-1.md) | Withdrew | 6 | 13 |
-| [Staff · Backend](../interviews/hexaware-2.md) | Rejected | 5 | 9 |
-| [Junior · Full-stack](../interviews/hexaware-3.md) | Offer | 5 | 11 |
-| [Senior · Backend](../interviews/hexaware-4.md) | No offer | 6 | 13 |
-| [Mid · Frontend](../interviews/hexaware-5.md) | Offer | 5 | 11 |
+| [Junior · Backend](../interviews/hexaware-1.md) | Offer | 4 | 12 |
+| [Junior · Full-stack](../interviews/hexaware-2.md) | No offer | 4 | 12 |
+| [Intern · Backend](../interviews/hexaware-3.md) | Unknown | 4 | 12 |
+| [Junior · Frontend](../interviews/hexaware-4.md) | Withdrew | 4 | 12 |
+| [Mid · Full-stack](../interviews/hexaware-5.md) | Offer | 5 | 14 |
 
 ---
 

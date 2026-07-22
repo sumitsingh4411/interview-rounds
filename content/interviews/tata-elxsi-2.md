@@ -1,77 +1,72 @@
 ---
 id: tata-elxsi-2
 company: tata-elxsi
-role: fullstack
-level: staff
+role: backend
+level: intern
 outcome: offer
 year: 2025
 source: curated
 summary: >-
-  A staff fullstack loop. Pragmatic questions — more real-world than pure
-  puzzles.
+  A intern backend hiring drive. Screening test, technical round, then a
+  managerial and HR conversation.
 ---
-# Staff Full-stack — Tata Elxsi
+# Intern Backend — Tata Elxsi
 
-![role](https://img.shields.io/badge/role-Full--stack-a78bfa?style=flat-square)
-![level](https://img.shields.io/badge/level-Staff-818cf8?style=flat-square)
+![role](https://img.shields.io/badge/role-Backend-8b93ff?style=flat-square)
+![level](https://img.shields.io/badge/level-Intern-818cf8?style=flat-square)
 ![outcome](https://img.shields.io/badge/outcome-Offer-34d399?style=flat-square)
 ![year](https://img.shields.io/badge/year-2025-6b7280?style=flat-square)
 ![source](https://img.shields.io/badge/source-Commonly%20asked-2dd4bf?style=flat-square)
 
-> A staff fullstack loop. Pragmatic questions — more real-world than pure puzzles.
+> A intern backend hiring drive. Screening test, technical round, then a managerial and HR conversation.
 
-**5 rounds · 9 questions**
+**4 rounds · 12 questions**
 
 ---
 
-## Round 1 · DSA / Coding
+## Round 1 · Online Assessment
+<!-- round: oa -->
+
+_Timed online coding / aptitude screen, usually the first filter._
+
+| Question | Difficulty | Tags | Practice |
+| --- | --- | --- | --- |
+| Quantitative aptitude: time and work problems. | 🟢 Easy | `aptitude` | [GfG](https://www.geeksforgeeks.org/search/?gq=Quantitative%20aptitude%3A%20time%20and%20work%20problems) · [Search](https://www.google.com/search?q=Quantitative%20aptitude%3A%20time%20and%20work%20problems) |
+| Quantitative aptitude: time, speed and distance problems. | 🟢 Easy | `aptitude` | [GfG](https://www.geeksforgeeks.org/search/?gq=Quantitative%20aptitude%3A%20time%2C%20speed%20and%20distance%20problems) · [Search](https://www.google.com/search?q=Quantitative%20aptitude%3A%20time%2C%20speed%20and%20distance%20problems) |
+| Verbal ability: error spotting and sentence correction. | 🟢 Easy | `verbal` | [GfG](https://www.geeksforgeeks.org/search/?gq=Verbal%20ability%3A%20error%20spotting%20and%20sentence%20correction) · [Search](https://www.google.com/search?q=Verbal%20ability%3A%20error%20spotting%20and%20sentence%20correction) |
+
+## Round 2 · DSA / Coding
 <!-- round: dsa -->
 
 _Data structures & algorithms on a whiteboard or shared editor._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Serialize and deserialize a binary tree. | 🔴 Hard | `tree` `dfs` | [LC](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Serialize%20and%20deserialize%20a%20binary%20tree) |
-| Clone a graph. | 🟡 Medium | `graph` `dfs` | [LC](https://leetcode.com/problems/clone-graph/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Clone%20a%20graph) |
-| Top K frequent elements. | 🟡 Medium | `heap` `hashmap` | [LC](https://leetcode.com/problems/top-k-frequent-elements/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Top%20K%20frequent%20elements) |
+| Check whether a number is an Armstrong number. | 🟢 Easy | `math` | [GfG](https://www.geeksforgeeks.org/search/?gq=Check%20whether%20a%20number%20is%20an%20Armstrong%20number) · [Search](https://www.google.com/search?q=Check%20whether%20a%20number%20is%20an%20Armstrong%20number) |
+| Check whether a string is a palindrome. | 🟢 Easy | `string` | [GfG](https://www.geeksforgeeks.org/search/?gq=Check%20whether%20a%20string%20is%20a%20palindrome) · [Search](https://www.google.com/search?q=Check%20whether%20a%20string%20is%20a%20palindrome) |
 
-## Round 2 · System Design
-<!-- round: system_design -->
+## Round 3 · Tech Deep-Dive
+<!-- round: tech_deep_dive -->
 
-_High-level architecture of a large-scale system._
-
-| Question | Difficulty | Tags | Practice |
-| --- | --- | --- | --- |
-| Design a distributed unique ID generator. | 🟡 Medium | `snowflake` `distributed` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20distributed%20unique%20ID%20generator) · [Search](https://www.google.com/search?q=Design%20a%20distributed%20unique%20ID%20generator) |
-| Design a notification system (push/email/SMS). | 🟡 Medium | `queues` `fanout` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20notification%20system%20(push%2Femail%2FSMS)) · [Search](https://www.google.com/search?q=Design%20a%20notification%20system%20(push%2Femail%2FSMS)) |
-
-## Round 3 · Low-Level Design
-<!-- round: lld -->
-
-_Object-oriented / low-level design of a focused module._
+_Deep questions on your core stack and fundamentals._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Design an ATM / cash dispenser. | 🟡 Medium | `oop` `state-machine` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20an%20ATM%20%2F%20cash%20dispenser) · [Search](https://www.google.com/search?q=Design%20an%20ATM%20%2F%20cash%20dispenser) |
+| What is polymorphism? Compile-time vs runtime. | 🟢 Easy | `oops` | [GfG](https://www.geeksforgeeks.org/search/?gq=What%20is%20polymorphism%3F%20Compile-time%20vs%20runtime) · [Search](https://www.google.com/search?q=What%20is%20polymorphism%3F%20Compile-time%20vs%20runtime) |
+| Difference between == and equals() in Java. | 🟢 Easy | `java` | [GfG](https://www.geeksforgeeks.org/search/?gq=Difference%20between%20%3D%3D%20and%20equals()%20in%20Java) · [Search](https://www.google.com/search?q=Difference%20between%20%3D%3D%20and%20equals()%20in%20Java) |
+| Explain the four pillars of OOP with examples. | 🟢 Easy | `oops` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20the%20four%20pillars%20of%20OOP%20with%20examples) · [Search](https://www.google.com/search?q=Explain%20the%20four%20pillars%20of%20OOP%20with%20examples) |
+| What is a pointer? Explain pointer arithmetic in C. | 🟡 Medium | `c` | [GfG](https://www.geeksforgeeks.org/search/?gq=What%20is%20a%20pointer%3F%20Explain%20pointer%20arithmetic%20in%20C) · [Search](https://www.google.com/search?q=What%20is%20a%20pointer%3F%20Explain%20pointer%20arithmetic%20in%20C) |
 
-## Round 4 · Hiring Manager
-<!-- round: hiring_manager -->
-
-_Scope, ownership, and role-fit discussion with the manager._
-
-| Question | Difficulty | Tags |
-| --- | --- | --- |
-| How do you balance tech debt against feature work? | — | `prioritization` |
-
-## Round 5 · Behavioral / HR
+## Round 4 · Behavioral / HR
 <!-- round: behavioral -->
 
 _Values, collaboration, and past-experience (STAR) questions._
 
 | Question | Difficulty | Tags |
 | --- | --- | --- |
-| How do you handle being blocked for several days? | — | `ownership` `star` |
-| Tell me about the most impactful project of your career. | — | `impact` `star` |
+| How do you handle pressure and tight deadlines? | — | — |
+| Why should we hire you? | — | — |
+| Where do you see yourself in five years? | — | — |
 
 ---
 

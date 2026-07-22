@@ -1,89 +1,72 @@
 ---
 id: deloitte-2
 company: deloitte
-role: fullstack
-level: senior
-outcome: offer
-year: 2025
+role: backend
+level: intern
+outcome: rejected
+year: 2024
 source: curated
 summary: >-
-  6-round senior fullstack process. Pragmatic questions — more real-world than
-  pure puzzles.
+  A intern backend hiring drive. Breadth of fundamentals mattered more than
+  algorithmic depth.
 ---
-# Senior Full-stack — Deloitte
+# Intern Backend — Deloitte
 
-![role](https://img.shields.io/badge/role-Full--stack-a78bfa?style=flat-square)
-![level](https://img.shields.io/badge/level-Senior-818cf8?style=flat-square)
-![outcome](https://img.shields.io/badge/outcome-Offer-34d399?style=flat-square)
-![year](https://img.shields.io/badge/year-2025-6b7280?style=flat-square)
+![role](https://img.shields.io/badge/role-Backend-8b93ff?style=flat-square)
+![level](https://img.shields.io/badge/level-Intern-818cf8?style=flat-square)
+![outcome](https://img.shields.io/badge/outcome-Rejected-f87171?style=flat-square)
+![year](https://img.shields.io/badge/year-2024-6b7280?style=flat-square)
 ![source](https://img.shields.io/badge/source-Commonly%20asked-2dd4bf?style=flat-square)
 
-> 6-round senior fullstack process. Pragmatic questions — more real-world than pure puzzles.
+> A intern backend hiring drive. Breadth of fundamentals mattered more than algorithmic depth.
 
-**6 rounds · 13 questions**
+**4 rounds · 12 questions**
 
 ---
 
-## Round 1 · DSA / Coding
+## Round 1 · Online Assessment
+<!-- round: oa -->
+
+_Timed online coding / aptitude screen, usually the first filter._
+
+| Question | Difficulty | Tags | Practice |
+| --- | --- | --- | --- |
+| Quantitative aptitude: time and work problems. | 🟢 Easy | `aptitude` | [GfG](https://www.geeksforgeeks.org/search/?gq=Quantitative%20aptitude%3A%20time%20and%20work%20problems) · [Search](https://www.google.com/search?q=Quantitative%20aptitude%3A%20time%20and%20work%20problems) |
+| Quantitative aptitude: simple and compound interest. | 🟢 Easy | `aptitude` | [GfG](https://www.geeksforgeeks.org/search/?gq=Quantitative%20aptitude%3A%20simple%20and%20compound%20interest) · [Search](https://www.google.com/search?q=Quantitative%20aptitude%3A%20simple%20and%20compound%20interest) |
+| Pseudocode: spot the error in the given snippet. | 🟡 Medium | `pseudocode` | [GfG](https://www.geeksforgeeks.org/search/?gq=Pseudocode%3A%20spot%20the%20error%20in%20the%20given%20snippet) · [Search](https://www.google.com/search?q=Pseudocode%3A%20spot%20the%20error%20in%20the%20given%20snippet) |
+
+## Round 2 · DSA / Coding
 <!-- round: dsa -->
 
 _Data structures & algorithms on a whiteboard or shared editor._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Binary tree level order traversal. | 🟡 Medium | `tree` `bfs` | [LC](https://leetcode.com/problems/binary-tree-level-order-traversal/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Binary%20tree%20level%20order%20traversal) |
-| Subsets. | 🟡 Medium | `backtracking` | [LC](https://leetcode.com/problems/subsets/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Subsets) |
-| Trapping rain water. | 🔴 Hard | `two-pointers` `array` | [LC](https://leetcode.com/problems/trapping-rain-water/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Trapping%20rain%20water) |
+| Find the sum of digits of a number. | 🟢 Easy | `math` | [GfG](https://www.geeksforgeeks.org/search/?gq=Find%20the%20sum%20of%20digits%20of%20a%20number) · [Search](https://www.google.com/search?q=Find%20the%20sum%20of%20digits%20of%20a%20number) |
+| Find the largest and smallest element in an array. | 🟢 Easy | `array` | [GfG](https://www.geeksforgeeks.org/search/?gq=Find%20the%20largest%20and%20smallest%20element%20in%20an%20array) · [Search](https://www.google.com/search?q=Find%20the%20largest%20and%20smallest%20element%20in%20an%20array) |
 
-## Round 2 · Machine Coding
-<!-- round: machine_coding -->
-
-_Build a working component or service under time pressure._
-
-| Question | Difficulty | Tags | Practice |
-| --- | --- | --- | --- |
-| Build auth middleware that verifies a JWT. | 🟡 Medium | `auth` `security` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20auth%20middleware%20that%20verifies%20a%20JWT) · [Search](https://www.google.com/search?q=Build%20auth%20middleware%20that%20verifies%20a%20JWT) |
-| Implement a job queue with retries and backoff. | 🔴 Hard | `queue` `reliability` | [GfG](https://www.geeksforgeeks.org/search/?gq=Implement%20a%20job%20queue%20with%20retries%20and%20backoff) · [Search](https://www.google.com/search?q=Implement%20a%20job%20queue%20with%20retries%20and%20backoff) |
-
-## Round 3 · System Design
-<!-- round: system_design -->
-
-_High-level architecture of a large-scale system._
-
-| Question | Difficulty | Tags | Practice |
-| --- | --- | --- | --- |
-| Design a pastebin with expiring links. | 🟡 Medium | `storage` `ttl` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20pastebin%20with%20expiring%20links) · [Search](https://www.google.com/search?q=Design%20a%20pastebin%20with%20expiring%20links) |
-| Design a rate limiter for a public API. | 🟡 Medium | `token-bucket` `redis` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20rate%20limiter%20for%20a%20public%20API) · [Search](https://www.google.com/search?q=Design%20a%20rate%20limiter%20for%20a%20public%20API) |
-
-## Round 4 · Tech Deep-Dive
+## Round 3 · Tech Deep-Dive
 <!-- round: tech_deep_dive -->
 
 _Deep questions on your core stack and fundamentals._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| How does the OAuth 2.0 authorization-code flow work? | 🟡 Medium | `auth` `security` | [GfG](https://www.geeksforgeeks.org/search/?gq=How%20does%20the%20OAuth%202.0%20authorization-code%20flow%20work) · [Search](https://www.google.com/search?q=How%20does%20the%20OAuth%202.0%20authorization-code%20flow%20work) |
-| How does a service worker enable offline support? | 🟡 Medium | `pwa` `offline` | [GfG](https://www.geeksforgeeks.org/search/?gq=How%20does%20a%20service%20worker%20enable%20offline%20support) · [Search](https://www.google.com/search?q=How%20does%20a%20service%20worker%20enable%20offline%20support) |
-| How does the browser critical rendering path work? | 🟡 Medium | `browser` `perf` | [GfG](https://www.geeksforgeeks.org/search/?gq=How%20does%20the%20browser%20critical%20rendering%20path%20work) · [Search](https://www.google.com/search?q=How%20does%20the%20browser%20critical%20rendering%20path%20work) |
+| What is indexing in a database and when does it help? | 🟡 Medium | `dbms` | [GfG](https://www.geeksforgeeks.org/search/?gq=What%20is%20indexing%20in%20a%20database%20and%20when%20does%20it%20help) · [Search](https://www.google.com/search?q=What%20is%20indexing%20in%20a%20database%20and%20when%20does%20it%20help) |
+| Difference between TCP and UDP. | 🟢 Easy | `networking` | [GfG](https://www.geeksforgeeks.org/search/?gq=Difference%20between%20TCP%20and%20UDP) · [Search](https://www.google.com/search?q=Difference%20between%20TCP%20and%20UDP) |
+| Difference between DELETE, TRUNCATE and DROP. | 🟢 Easy | `sql` | [GfG](https://www.geeksforgeeks.org/search/?gq=Difference%20between%20DELETE%2C%20TRUNCATE%20and%20DROP) · [Search](https://www.google.com/search?q=Difference%20between%20DELETE%2C%20TRUNCATE%20and%20DROP) |
+| Difference between an array and a linked list. | 🟢 Easy | `data-structures` | [GfG](https://www.geeksforgeeks.org/search/?gq=Difference%20between%20an%20array%20and%20a%20linked%20list) · [Search](https://www.google.com/search?q=Difference%20between%20an%20array%20and%20a%20linked%20list) |
 
-## Round 5 · Hiring Manager
-<!-- round: hiring_manager -->
-
-_Scope, ownership, and role-fit discussion with the manager._
-
-| Question | Difficulty | Tags |
-| --- | --- | --- |
-| What would your first 90 days here look like? | — | `planning` |
-
-## Round 6 · Behavioral / HR
+## Round 4 · Behavioral / HR
 <!-- round: behavioral -->
 
 _Values, collaboration, and past-experience (STAR) questions._
 
 | Question | Difficulty | Tags |
 | --- | --- | --- |
-| Tell me about a time you disagreed and committed. | — | `teamwork` `star` |
-| Describe a goal you set and how you achieved it. | — | `ownership` `star` |
+| What do you know about our company and the services we provide? | — | — |
+| Why do you want to join our company? | — | — |
+| Would you be comfortable working on any technology assigned to you? | — | — |
 
 ---
 

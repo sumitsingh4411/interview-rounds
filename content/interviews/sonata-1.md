@@ -1,67 +1,71 @@
 ---
 id: sonata-1
 company: sonata
-role: backend
+role: fullstack
 level: mid
-outcome: rejected
-year: 2024
+outcome: unknown
+year: 2025
 source: curated
-summary: Mid backend interview. Fundamentals mattered as much as getting to an answer.
+summary: >-
+  Campus-style mid fullstack interview. Breadth of fundamentals mattered more
+  than algorithmic depth.
 ---
-# Mid Backend — Sonata Software
+# Mid Full-stack — Sonata Software
 
-![role](https://img.shields.io/badge/role-Backend-8b93ff?style=flat-square)
+![role](https://img.shields.io/badge/role-Full--stack-a78bfa?style=flat-square)
 ![level](https://img.shields.io/badge/level-Mid-818cf8?style=flat-square)
-![outcome](https://img.shields.io/badge/outcome-Rejected-f87171?style=flat-square)
-![year](https://img.shields.io/badge/year-2024-6b7280?style=flat-square)
+![outcome](https://img.shields.io/badge/outcome-Unknown-6b7280?style=flat-square)
+![year](https://img.shields.io/badge/year-2025-6b7280?style=flat-square)
 ![source](https://img.shields.io/badge/source-Commonly%20asked-2dd4bf?style=flat-square)
 
-> Mid backend interview. Fundamentals mattered as much as getting to an answer.
+> Campus-style mid fullstack interview. Breadth of fundamentals mattered more than algorithmic depth.
 
-**5 rounds · 11 questions**
+**5 rounds · 14 questions**
 
 ---
 
-## Round 1 · DSA / Coding
+## Round 1 · Online Assessment
+<!-- round: oa -->
+
+_Timed online coding / aptitude screen, usually the first filter._
+
+| Question | Difficulty | Tags | Practice |
+| --- | --- | --- | --- |
+| Quantitative aptitude: ratio, proportion and averages. | 🟢 Easy | `aptitude` | [GfG](https://www.geeksforgeeks.org/search/?gq=Quantitative%20aptitude%3A%20ratio%2C%20proportion%20and%20averages) · [Search](https://www.google.com/search?q=Quantitative%20aptitude%3A%20ratio%2C%20proportion%20and%20averages) |
+| Pseudocode: spot the error in the given snippet. | 🟡 Medium | `pseudocode` | [GfG](https://www.geeksforgeeks.org/search/?gq=Pseudocode%3A%20spot%20the%20error%20in%20the%20given%20snippet) · [Search](https://www.google.com/search?q=Pseudocode%3A%20spot%20the%20error%20in%20the%20given%20snippet) |
+| Verbal ability: reading comprehension passage. | 🟢 Easy | `verbal` | [GfG](https://www.geeksforgeeks.org/search/?gq=Verbal%20ability%3A%20reading%20comprehension%20passage) · [Search](https://www.google.com/search?q=Verbal%20ability%3A%20reading%20comprehension%20passage) |
+
+## Round 2 · DSA / Coding
 <!-- round: dsa -->
 
 _Data structures & algorithms on a whiteboard or shared editor._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Unique paths. | 🟡 Medium | `dp` `grid` | [LC](https://leetcode.com/problems/unique-paths/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Unique%20paths) |
-| Regular expression matching. | 🔴 Hard | `dp` `string` | [LC](https://leetcode.com/problems/regular-expression-matching/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Regular%20expression%20matching) |
-| Invert a binary tree. | 🟢 Easy | `tree` | [LC](https://leetcode.com/problems/invert-binary-tree/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Invert%20a%20binary%20tree) |
+| Reverse a number and check whether it is a palindrome. | 🟢 Easy | `math` | [GfG](https://www.geeksforgeeks.org/search/?gq=Reverse%20a%20number%20and%20check%20whether%20it%20is%20a%20palindrome) · [Search](https://www.google.com/search?q=Reverse%20a%20number%20and%20check%20whether%20it%20is%20a%20palindrome) |
+| Check whether a number is prime. | 🟢 Easy | `math` | [GfG](https://www.geeksforgeeks.org/search/?gq=Check%20whether%20a%20number%20is%20prime) · [Search](https://www.google.com/search?q=Check%20whether%20a%20number%20is%20prime) |
 
-## Round 2 · Machine Coding
-<!-- round: machine_coding -->
-
-_Build a working component or service under time pressure._
-
-| Question | Difficulty | Tags | Practice |
-| --- | --- | --- | --- |
-| Build a mini ORM query builder (select/where/join). | 🔴 Hard | `parsing` `sql` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20a%20mini%20ORM%20query%20builder%20(select%2Fwhere%2Fjoin)) · [Search](https://www.google.com/search?q=Build%20a%20mini%20ORM%20query%20builder%20(select%2Fwhere%2Fjoin)) |
-| Build a file-upload service with chunking and resume. | 🔴 Hard | `streaming` `storage` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20a%20file-upload%20service%20with%20chunking%20and%20resume) · [Search](https://www.google.com/search?q=Build%20a%20file-upload%20service%20with%20chunking%20and%20resume) |
-
-## Round 3 · Low-Level Design
-<!-- round: lld -->
-
-_Object-oriented / low-level design of a focused module._
-
-| Question | Difficulty | Tags | Practice |
-| --- | --- | --- | --- |
-| Design a library management system. | 🟡 Medium | `oop` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20library%20management%20system) · [Search](https://www.google.com/search?q=Design%20a%20library%20management%20system) |
-
-## Round 4 · Tech Deep-Dive
+## Round 3 · Tech Deep-Dive
 <!-- round: tech_deep_dive -->
 
 _Deep questions on your core stack and fundamentals._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| How does a write-ahead log guarantee durability? | 🔴 Hard | `databases` | [GfG](https://www.geeksforgeeks.org/search/?gq=How%20does%20a%20write-ahead%20log%20guarantee%20durability) · [Search](https://www.google.com/search?q=How%20does%20a%20write-ahead%20log%20guarantee%20durability) |
-| Explain eventual consistency with a real example. | 🔴 Hard | `distributed` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20eventual%20consistency%20with%20a%20real%20example) · [Search](https://www.google.com/search?q=Explain%20eventual%20consistency%20with%20a%20real%20example) |
-| Explain how DNS resolution works end to end. | 🟡 Medium | `networking` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20how%20DNS%20resolution%20works%20end%20to%20end) · [Search](https://www.google.com/search?q=Explain%20how%20DNS%20resolution%20works%20end%20to%20end) |
+| Difference between a process and a thread. | 🟢 Easy | `os` | [GfG](https://www.geeksforgeeks.org/search/?gq=Difference%20between%20a%20process%20and%20a%20thread) · [Search](https://www.google.com/search?q=Difference%20between%20a%20process%20and%20a%20thread) |
+| Explain the four pillars of OOP with examples. | 🟢 Easy | `oops` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20the%20four%20pillars%20of%20OOP%20with%20examples) · [Search](https://www.google.com/search?q=Explain%20the%20four%20pillars%20of%20OOP%20with%20examples) |
+| What happens when you type a URL into a browser? | 🟡 Medium | `networking` | [GfG](https://www.geeksforgeeks.org/search/?gq=What%20happens%20when%20you%20type%20a%20URL%20into%20a%20browser) · [Search](https://www.google.com/search?q=What%20happens%20when%20you%20type%20a%20URL%20into%20a%20browser) |
+| Difference between DBMS and RDBMS. | 🟢 Easy | `dbms` | [GfG](https://www.geeksforgeeks.org/search/?gq=Difference%20between%20DBMS%20and%20RDBMS) · [Search](https://www.google.com/search?q=Difference%20between%20DBMS%20and%20RDBMS) |
+
+## Round 4 · Hiring Manager
+<!-- round: hiring_manager -->
+
+_Scope, ownership, and role-fit discussion with the manager._
+
+| Question | Difficulty | Tags |
+| --- | --- | --- |
+| How do you estimate the effort for a module assigned to you? | — | — |
+| Describe your experience working with an onsite / offshore team. | — | — |
 
 ## Round 5 · Behavioral / HR
 <!-- round: behavioral -->
@@ -70,8 +74,9 @@ _Values, collaboration, and past-experience (STAR) questions._
 
 | Question | Difficulty | Tags |
 | --- | --- | --- |
-| Describe a time you disagreed with a teammate. How did it resolve? | — | `conflict` `star` |
-| Tell me about a time you went above and beyond for a customer. | — | `customer` `star` |
+| What do you know about our company and the services we provide? | — | — |
+| Do you have any backlogs or academic gaps? Please explain. | — | — |
+| Why should we hire you? | — | — |
 
 ---
 

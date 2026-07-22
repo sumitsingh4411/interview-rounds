@@ -2,88 +2,71 @@
 id: fis-3
 company: fis
 role: frontend
-level: senior
-outcome: withdrew
+level: junior
+outcome: unknown
 year: 2025
 source: curated
 summary: >-
-  6-round senior frontend process. Pragmatic questions — more real-world than
-  pure puzzles.
+  Campus-style junior frontend interview. Aptitude screen first, then technical
+  fundamentals and HR.
 ---
-# Senior Frontend — FIS
+# Junior Frontend — FIS
 
 ![role](https://img.shields.io/badge/role-Frontend-22d3ee?style=flat-square)
-![level](https://img.shields.io/badge/level-Senior-818cf8?style=flat-square)
-![outcome](https://img.shields.io/badge/outcome-Withdrew-fbbf24?style=flat-square)
+![level](https://img.shields.io/badge/level-Junior-818cf8?style=flat-square)
+![outcome](https://img.shields.io/badge/outcome-Unknown-6b7280?style=flat-square)
 ![year](https://img.shields.io/badge/year-2025-6b7280?style=flat-square)
 ![source](https://img.shields.io/badge/source-Commonly%20asked-2dd4bf?style=flat-square)
 
-> 6-round senior frontend process. Pragmatic questions — more real-world than pure puzzles.
+> Campus-style junior frontend interview. Aptitude screen first, then technical fundamentals and HR.
 
-**6 rounds · 13 questions**
+**4 rounds · 12 questions**
 
 ---
 
-## Round 1 · DSA / Coding
+## Round 1 · Online Assessment
+<!-- round: oa -->
+
+_Timed online coding / aptitude screen, usually the first filter._
+
+| Question | Difficulty | Tags | Practice |
+| --- | --- | --- | --- |
+| Verbal ability: synonyms, antonyms and para-jumbles. | 🟢 Easy | `verbal` | [GfG](https://www.geeksforgeeks.org/search/?gq=Verbal%20ability%3A%20synonyms%2C%20antonyms%20and%20para-jumbles) · [Search](https://www.google.com/search?q=Verbal%20ability%3A%20synonyms%2C%20antonyms%20and%20para-jumbles) |
+| Verbal ability: error spotting and sentence correction. | 🟢 Easy | `verbal` | [GfG](https://www.geeksforgeeks.org/search/?gq=Verbal%20ability%3A%20error%20spotting%20and%20sentence%20correction) · [Search](https://www.google.com/search?q=Verbal%20ability%3A%20error%20spotting%20and%20sentence%20correction) |
+| Logical reasoning: blood relations and seating arrangement. | 🟡 Medium | `reasoning` | [GfG](https://www.geeksforgeeks.org/search/?gq=Logical%20reasoning%3A%20blood%20relations%20and%20seating%20arrangement) · [Search](https://www.google.com/search?q=Logical%20reasoning%3A%20blood%20relations%20and%20seating%20arrangement) |
+
+## Round 2 · DSA / Coding
 <!-- round: dsa -->
 
 _Data structures & algorithms on a whiteboard or shared editor._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Regular expression matching. | 🔴 Hard | `dp` `string` | [LC](https://leetcode.com/problems/regular-expression-matching/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Regular%20expression%20matching) |
-| Minimum window substring. | 🔴 Hard | `sliding-window` `string` | [LC](https://leetcode.com/problems/minimum-window-substring/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Minimum%20window%20substring) |
-| Edit distance. | 🔴 Hard | `dp` `string` | [LC](https://leetcode.com/problems/edit-distance/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Edit%20distance) |
+| Find the GCD and LCM of two numbers. | 🟢 Easy | `math` | [GfG](https://www.geeksforgeeks.org/search/?gq=Find%20the%20GCD%20and%20LCM%20of%20two%20numbers) · [Search](https://www.google.com/search?q=Find%20the%20GCD%20and%20LCM%20of%20two%20numbers) |
+| Reverse a number and check whether it is a palindrome. | 🟢 Easy | `math` | [GfG](https://www.geeksforgeeks.org/search/?gq=Reverse%20a%20number%20and%20check%20whether%20it%20is%20a%20palindrome) · [Search](https://www.google.com/search?q=Reverse%20a%20number%20and%20check%20whether%20it%20is%20a%20palindrome) |
 
-## Round 2 · Machine Coding
-<!-- round: machine_coding -->
-
-_Build a working component or service under time pressure._
-
-| Question | Difficulty | Tags | Practice |
-| --- | --- | --- | --- |
-| Build a form builder that renders from a JSON schema. | 🔴 Hard | `react` `forms` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20a%20form%20builder%20that%20renders%20from%20a%20JSON%20schema) · [Search](https://www.google.com/search?q=Build%20a%20form%20builder%20that%20renders%20from%20a%20JSON%20schema) |
-| Build an accessible tabs component with keyboard nav. | 🟡 Medium | `react` `a11y` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20an%20accessible%20tabs%20component%20with%20keyboard%20nav) · [Search](https://www.google.com/search?q=Build%20an%20accessible%20tabs%20component%20with%20keyboard%20nav) |
-
-## Round 3 · System Design
-<!-- round: system_design -->
-
-_High-level architecture of a large-scale system._
-
-| Question | Difficulty | Tags | Practice |
-| --- | --- | --- | --- |
-| Design a Google Docs-style collaborative editor (frontend). | 🔴 Hard | `frontend` `crdt` `realtime` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20Google%20Docs-style%20collaborative%20editor%20(frontend)) · [Search](https://www.google.com/search?q=Design%20a%20Google%20Docs-style%20collaborative%20editor%20(frontend)) |
-| Design a distributed key-value store. | 🔴 Hard | `replication` `consistency` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20distributed%20key-value%20store) · [Search](https://www.google.com/search?q=Design%20a%20distributed%20key-value%20store) |
-
-## Round 4 · Tech Deep-Dive
+## Round 3 · Tech Deep-Dive
 <!-- round: tech_deep_dive -->
 
 _Deep questions on your core stack and fundamentals._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Explain hydration and the cost of client vs server rendering. | 🔴 Hard | `ssr` `perf` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20hydration%20and%20the%20cost%20of%20client%20vs%20server%20rendering) · [Search](https://www.google.com/search?q=Explain%20hydration%20and%20the%20cost%20of%20client%20vs%20server%20rendering) |
-| Explain `useEffect` dependencies and common pitfalls. | 🟡 Medium | `react` `hooks` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20%60useEffect%60%20dependencies%20and%20common%20pitfalls) · [Search](https://www.google.com/search?q=Explain%20%60useEffect%60%20dependencies%20and%20common%20pitfalls) |
-| How do CSS specificity and the cascade resolve conflicts? | 🟡 Medium | `css` | [GfG](https://www.geeksforgeeks.org/search/?gq=How%20do%20CSS%20specificity%20and%20the%20cascade%20resolve%20conflicts) · [Search](https://www.google.com/search?q=How%20do%20CSS%20specificity%20and%20the%20cascade%20resolve%20conflicts) |
+| Difference between DELETE, TRUNCATE and DROP. | 🟢 Easy | `sql` | [GfG](https://www.geeksforgeeks.org/search/?gq=Difference%20between%20DELETE%2C%20TRUNCATE%20and%20DROP) · [Search](https://www.google.com/search?q=Difference%20between%20DELETE%2C%20TRUNCATE%20and%20DROP) |
+| Difference between an array and a linked list. | 🟢 Easy | `data-structures` | [GfG](https://www.geeksforgeeks.org/search/?gq=Difference%20between%20an%20array%20and%20a%20linked%20list) · [Search](https://www.google.com/search?q=Difference%20between%20an%20array%20and%20a%20linked%20list) |
+| What is indexing in a database and when does it help? | 🟡 Medium | `dbms` | [GfG](https://www.geeksforgeeks.org/search/?gq=What%20is%20indexing%20in%20a%20database%20and%20when%20does%20it%20help) · [Search](https://www.google.com/search?q=What%20is%20indexing%20in%20a%20database%20and%20when%20does%20it%20help) |
+| Explain primary key, foreign key, unique key and candidate key. | 🟢 Easy | `dbms` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20primary%20key%2C%20foreign%20key%2C%20unique%20key%20and%20candidate%20key) · [Search](https://www.google.com/search?q=Explain%20primary%20key%2C%20foreign%20key%2C%20unique%20key%20and%20candidate%20key) |
 
-## Round 5 · Hiring Manager
-<!-- round: hiring_manager -->
-
-_Scope, ownership, and role-fit discussion with the manager._
-
-| Question | Difficulty | Tags |
-| --- | --- | --- |
-| What is the biggest system you have designed, and why those choices? | — | `architecture` |
-
-## Round 6 · Behavioral / HR
+## Round 4 · Behavioral / HR
 <!-- round: behavioral -->
 
 _Values, collaboration, and past-experience (STAR) questions._
 
 | Question | Difficulty | Tags |
 | --- | --- | --- |
-| Tell me about a time you led without a title. | — | `leadership` `star` |
-| Tell me about a time you simplified something overly complex. | — | `judgment` `star` |
+| Would you be comfortable working on any technology assigned to you? | — | — |
+| Tell me about a conflict in a team project and how you resolved it. | — | — |
+| How do you handle pressure and tight deadlines? | — | — |
 
 ---
 

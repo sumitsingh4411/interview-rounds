@@ -1,77 +1,72 @@
 ---
 id: ltimindtree-4
 company: ltimindtree
-role: backend
-level: mid
+role: fullstack
+level: junior
 outcome: offer
 year: 2024
 source: curated
-summary: Mid backend interview. Fundamentals mattered as much as getting to an answer.
+summary: >-
+  4-round junior fullstack process. Fundamentals over puzzles — OOP, DBMS and
+  SQL carried the most weight.
 ---
-# Mid Backend — LTIMindtree
+# Junior Full-stack — LTIMindtree
 
-![role](https://img.shields.io/badge/role-Backend-8b93ff?style=flat-square)
-![level](https://img.shields.io/badge/level-Mid-818cf8?style=flat-square)
+![role](https://img.shields.io/badge/role-Full--stack-a78bfa?style=flat-square)
+![level](https://img.shields.io/badge/level-Junior-818cf8?style=flat-square)
 ![outcome](https://img.shields.io/badge/outcome-Offer-34d399?style=flat-square)
 ![year](https://img.shields.io/badge/year-2024-6b7280?style=flat-square)
 ![source](https://img.shields.io/badge/source-Commonly%20asked-2dd4bf?style=flat-square)
 
-> Mid backend interview. Fundamentals mattered as much as getting to an answer.
+> 4-round junior fullstack process. Fundamentals over puzzles — OOP, DBMS and SQL carried the most weight.
 
-**5 rounds · 11 questions**
+**4 rounds · 12 questions**
 
 ---
 
-## Round 1 · DSA / Coding
+## Round 1 · Online Assessment
+<!-- round: oa -->
+
+_Timed online coding / aptitude screen, usually the first filter._
+
+| Question | Difficulty | Tags | Practice |
+| --- | --- | --- | --- |
+| Quantitative aptitude: time, speed and distance problems. | 🟢 Easy | `aptitude` | [GfG](https://www.geeksforgeeks.org/search/?gq=Quantitative%20aptitude%3A%20time%2C%20speed%20and%20distance%20problems) · [Search](https://www.google.com/search?q=Quantitative%20aptitude%3A%20time%2C%20speed%20and%20distance%20problems) |
+| Quantitative aptitude: profit, loss and percentages. | 🟢 Easy | `aptitude` | [GfG](https://www.geeksforgeeks.org/search/?gq=Quantitative%20aptitude%3A%20profit%2C%20loss%20and%20percentages) · [Search](https://www.google.com/search?q=Quantitative%20aptitude%3A%20profit%2C%20loss%20and%20percentages) |
+| Logical reasoning: blood relations and seating arrangement. | 🟡 Medium | `reasoning` | [GfG](https://www.geeksforgeeks.org/search/?gq=Logical%20reasoning%3A%20blood%20relations%20and%20seating%20arrangement) · [Search](https://www.google.com/search?q=Logical%20reasoning%3A%20blood%20relations%20and%20seating%20arrangement) |
+
+## Round 2 · DSA / Coding
 <!-- round: dsa -->
 
 _Data structures & algorithms on a whiteboard or shared editor._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Number of islands in a 2D grid. | 🟡 Medium | `bfs` `dfs` `grid` | [LC](https://leetcode.com/problems/number-of-islands/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Number%20of%20islands%20in%20a%202D%20grid) |
-| Course Schedule — detect a cycle / topological sort. | 🟡 Medium | `graph` `topo-sort` | [LC](https://leetcode.com/problems/course-schedule/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Course%20Schedule%20%E2%80%94%20detect%20a%20cycle%20%2F%20topological%20sort) |
-| Merge two sorted linked lists. | 🟢 Easy | `linked-list` | [LC](https://leetcode.com/problems/merge-two-sorted-lists/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Merge%20two%20sorted%20linked%20lists) |
+| Reverse a string without using library functions. | 🟢 Easy | `string` | [GfG](https://www.geeksforgeeks.org/search/?gq=Reverse%20a%20string%20without%20using%20library%20functions) · [Search](https://www.google.com/search?q=Reverse%20a%20string%20without%20using%20library%20functions) |
+| Implement binary search on a sorted array. | 🟢 Easy | `searching` | [GfG](https://www.geeksforgeeks.org/search/?gq=Implement%20binary%20search%20on%20a%20sorted%20array) · [Search](https://www.google.com/search?q=Implement%20binary%20search%20on%20a%20sorted%20array) |
 
-## Round 2 · Machine Coding
-<!-- round: machine_coding -->
-
-_Build a working component or service under time pressure._
-
-| Question | Difficulty | Tags | Practice |
-| --- | --- | --- | --- |
-| Implement a job queue with retries and backoff. | 🔴 Hard | `queue` `reliability` | [GfG](https://www.geeksforgeeks.org/search/?gq=Implement%20a%20job%20queue%20with%20retries%20and%20backoff) · [Search](https://www.google.com/search?q=Implement%20a%20job%20queue%20with%20retries%20and%20backoff) |
-| Implement a bulk-upsert endpoint with validation. | 🟡 Medium | `api` `validation` | [GfG](https://www.geeksforgeeks.org/search/?gq=Implement%20a%20bulk-upsert%20endpoint%20with%20validation) · [Search](https://www.google.com/search?q=Implement%20a%20bulk-upsert%20endpoint%20with%20validation) |
-
-## Round 3 · Low-Level Design
-<!-- round: lld -->
-
-_Object-oriented / low-level design of a focused module._
-
-| Question | Difficulty | Tags | Practice |
-| --- | --- | --- | --- |
-| Design a chess game (pieces, moves, board). | 🔴 Hard | `oop` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20chess%20game%20(pieces%2C%20moves%2C%20board)) · [Search](https://www.google.com/search?q=Design%20a%20chess%20game%20(pieces%2C%20moves%2C%20board)) |
-
-## Round 4 · Tech Deep-Dive
+## Round 3 · Tech Deep-Dive
 <!-- round: tech_deep_dive -->
 
 _Deep questions on your core stack and fundamentals._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| What is a deadlock and how do you avoid one? | 🔴 Hard | `concurrency` | [GfG](https://www.geeksforgeeks.org/search/?gq=What%20is%20a%20deadlock%20and%20how%20do%20you%20avoid%20one) · [Search](https://www.google.com/search?q=What%20is%20a%20deadlock%20and%20how%20do%20you%20avoid%20one) |
-| SQL vs NoSQL — how do you choose for a given workload? | 🟡 Medium | `databases` | [GfG](https://www.geeksforgeeks.org/search/?gq=SQL%20vs%20NoSQL%20%E2%80%94%20how%20do%20you%20choose%20for%20a%20given%20workload) · [Search](https://www.google.com/search?q=SQL%20vs%20NoSQL%20%E2%80%94%20how%20do%20you%20choose%20for%20a%20given%20workload) |
-| Explain database replication lag and how to mitigate it. | 🟡 Medium | `databases` `replication` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20database%20replication%20lag%20and%20how%20to%20mitigate%20it) · [Search](https://www.google.com/search?q=Explain%20database%20replication%20lag%20and%20how%20to%20mitigate%20it) |
+| Explain SQL joins: inner, left, right and full outer. | 🟢 Easy | `sql` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20SQL%20joins%3A%20inner%2C%20left%2C%20right%20and%20full%20outer) · [Search](https://www.google.com/search?q=Explain%20SQL%20joins%3A%20inner%2C%20left%2C%20right%20and%20full%20outer) |
+| Difference between DBMS and RDBMS. | 🟢 Easy | `dbms` | [GfG](https://www.geeksforgeeks.org/search/?gq=Difference%20between%20DBMS%20and%20RDBMS) · [Search](https://www.google.com/search?q=Difference%20between%20DBMS%20and%20RDBMS) |
+| Difference between abstraction and encapsulation. | 🟢 Easy | `oops` | [GfG](https://www.geeksforgeeks.org/search/?gq=Difference%20between%20abstraction%20and%20encapsulation) · [Search](https://www.google.com/search?q=Difference%20between%20abstraction%20and%20encapsulation) |
+| Difference between an array and a linked list. | 🟢 Easy | `data-structures` | [GfG](https://www.geeksforgeeks.org/search/?gq=Difference%20between%20an%20array%20and%20a%20linked%20list) · [Search](https://www.google.com/search?q=Difference%20between%20an%20array%20and%20a%20linked%20list) |
 
-## Round 5 · Behavioral / HR
+## Round 4 · Behavioral / HR
 <!-- round: behavioral -->
 
 _Values, collaboration, and past-experience (STAR) questions._
 
 | Question | Difficulty | Tags |
 | --- | --- | --- |
-| When did you take ownership of something outside your scope? | — | `ownership` `star` |
-| Tell me about a project you are most proud of. | — | `star` |
+| Why did you choose this branch of engineering? | — | — |
+| Tell me about a conflict in a team project and how you resolved it. | — | — |
+| Are you comfortable working in rotational or night shifts? | — | — |
 
 ---
 

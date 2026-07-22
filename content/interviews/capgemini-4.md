@@ -2,86 +2,71 @@
 id: capgemini-4
 company: capgemini
 role: frontend
-level: senior
-outcome: offer
-year: 2024
+level: junior
+outcome: no_offer
+year: 2023
 source: curated
-summary: 'A senior frontend loop. Coding-heavy early, design and behavioral later.'
+summary: >-
+  4-round junior frontend process. Screening test, technical round, then a
+  managerial and HR conversation.
 ---
-# Senior Frontend — Capgemini
+# Junior Frontend — Capgemini
 
 ![role](https://img.shields.io/badge/role-Frontend-22d3ee?style=flat-square)
-![level](https://img.shields.io/badge/level-Senior-818cf8?style=flat-square)
-![outcome](https://img.shields.io/badge/outcome-Offer-34d399?style=flat-square)
-![year](https://img.shields.io/badge/year-2024-6b7280?style=flat-square)
+![level](https://img.shields.io/badge/level-Junior-818cf8?style=flat-square)
+![outcome](https://img.shields.io/badge/outcome-No%20offer-f87171?style=flat-square)
+![year](https://img.shields.io/badge/year-2023-6b7280?style=flat-square)
 ![source](https://img.shields.io/badge/source-Commonly%20asked-2dd4bf?style=flat-square)
 
-> A senior frontend loop. Coding-heavy early, design and behavioral later.
+> 4-round junior frontend process. Screening test, technical round, then a managerial and HR conversation.
 
-**6 rounds · 13 questions**
+**4 rounds · 12 questions**
 
 ---
 
-## Round 1 · DSA / Coding
+## Round 1 · Online Assessment
+<!-- round: oa -->
+
+_Timed online coding / aptitude screen, usually the first filter._
+
+| Question | Difficulty | Tags | Practice |
+| --- | --- | --- | --- |
+| Verbal ability: error spotting and sentence correction. | 🟢 Easy | `verbal` | [GfG](https://www.geeksforgeeks.org/search/?gq=Verbal%20ability%3A%20error%20spotting%20and%20sentence%20correction) · [Search](https://www.google.com/search?q=Verbal%20ability%3A%20error%20spotting%20and%20sentence%20correction) |
+| Logical reasoning: syllogisms and statement–conclusion. | 🟡 Medium | `reasoning` | [GfG](https://www.geeksforgeeks.org/search/?gq=Logical%20reasoning%3A%20syllogisms%20and%20statement%E2%80%93conclusion) · [Search](https://www.google.com/search?q=Logical%20reasoning%3A%20syllogisms%20and%20statement%E2%80%93conclusion) |
+| Logical reasoning: blood relations and seating arrangement. | 🟡 Medium | `reasoning` | [GfG](https://www.geeksforgeeks.org/search/?gq=Logical%20reasoning%3A%20blood%20relations%20and%20seating%20arrangement) · [Search](https://www.google.com/search?q=Logical%20reasoning%3A%20blood%20relations%20and%20seating%20arrangement) |
+
+## Round 2 · DSA / Coding
 <!-- round: dsa -->
 
 _Data structures & algorithms on a whiteboard or shared editor._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Longest consecutive sequence. | 🟡 Medium | `hashmap` `array` | [LC](https://leetcode.com/problems/longest-consecutive-sequence/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Longest%20consecutive%20sequence) |
-| Permutations. | 🟡 Medium | `backtracking` | [LC](https://leetcode.com/problems/permutations/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Permutations) |
-| Merge intervals. | 🟡 Medium | `intervals` `sorting` | [LC](https://leetcode.com/problems/merge-intervals/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Merge%20intervals) |
+| Find the largest and smallest element in an array. | 🟢 Easy | `array` | [GfG](https://www.geeksforgeeks.org/search/?gq=Find%20the%20largest%20and%20smallest%20element%20in%20an%20array) · [Search](https://www.google.com/search?q=Find%20the%20largest%20and%20smallest%20element%20in%20an%20array) |
+| Reverse a number and check whether it is a palindrome. | 🟢 Easy | `math` | [GfG](https://www.geeksforgeeks.org/search/?gq=Reverse%20a%20number%20and%20check%20whether%20it%20is%20a%20palindrome) · [Search](https://www.google.com/search?q=Reverse%20a%20number%20and%20check%20whether%20it%20is%20a%20palindrome) |
 
-## Round 2 · Machine Coding
-<!-- round: machine_coding -->
-
-_Build a working component or service under time pressure._
-
-| Question | Difficulty | Tags | Practice |
-| --- | --- | --- | --- |
-| Build a kanban board with drag and drop. | 🔴 Hard | `react` `dnd` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20a%20kanban%20board%20with%20drag%20and%20drop) · [Search](https://www.google.com/search?q=Build%20a%20kanban%20board%20with%20drag%20and%20drop) |
-| Build a "Wordle" clone with keyboard input. | 🟡 Medium | `react` `state` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20a%20%22Wordle%22%20clone%20with%20keyboard%20input) · [Search](https://www.google.com/search?q=Build%20a%20%22Wordle%22%20clone%20with%20keyboard%20input) |
-
-## Round 3 · System Design
-<!-- round: system_design -->
-
-_High-level architecture of a large-scale system._
-
-| Question | Difficulty | Tags | Practice |
-| --- | --- | --- | --- |
-| Design a search autocomplete at Google scale. | 🔴 Hard | `trie` `ranking` `cache` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20search%20autocomplete%20at%20Google%20scale) · [Search](https://www.google.com/search?q=Design%20a%20search%20autocomplete%20at%20Google%20scale) |
-| Design an image-heavy gallery with lazy loading and a CDN. | 🟡 Medium | `frontend` `perf` `cdn` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20an%20image-heavy%20gallery%20with%20lazy%20loading%20and%20a%20CDN) · [Search](https://www.google.com/search?q=Design%20an%20image-heavy%20gallery%20with%20lazy%20loading%20and%20a%20CDN) |
-
-## Round 4 · Tech Deep-Dive
+## Round 3 · Tech Deep-Dive
 <!-- round: tech_deep_dive -->
 
 _Deep questions on your core stack and fundamentals._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Explain CORS and how a preflight request works. | 🟡 Medium | `browser` `security` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20CORS%20and%20how%20a%20preflight%20request%20works) · [Search](https://www.google.com/search?q=Explain%20CORS%20and%20how%20a%20preflight%20request%20works) |
-| Explain the difference between SSR, SSG, and ISR. | 🟡 Medium | `ssr` `rendering` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20the%20difference%20between%20SSR%2C%20SSG%2C%20and%20ISR) · [Search](https://www.google.com/search?q=Explain%20the%20difference%20between%20SSR%2C%20SSG%2C%20and%20ISR) |
-| Explain how CSS-in-JS differs from utility CSS. | 🟢 Easy | `css` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20how%20CSS-in-JS%20differs%20from%20utility%20CSS) · [Search](https://www.google.com/search?q=Explain%20how%20CSS-in-JS%20differs%20from%20utility%20CSS) |
+| Difference between C and C++. | 🟢 Easy | `c` | [GfG](https://www.geeksforgeeks.org/search/?gq=Difference%20between%20C%20and%20C%2B%2B) · [Search](https://www.google.com/search?q=Difference%20between%20C%20and%20C%2B%2B) |
+| Explain inheritance and its types. | 🟢 Easy | `oops` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20inheritance%20and%20its%20types) · [Search](https://www.google.com/search?q=Explain%20inheritance%20and%20its%20types) |
+| Difference between stack and heap memory. | 🟢 Easy | `fundamentals` | [GfG](https://www.geeksforgeeks.org/search/?gq=Difference%20between%20stack%20and%20heap%20memory) · [Search](https://www.google.com/search?q=Difference%20between%20stack%20and%20heap%20memory) |
+| Explain database normalization and its normal forms. | 🟡 Medium | `dbms` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20database%20normalization%20and%20its%20normal%20forms) · [Search](https://www.google.com/search?q=Explain%20database%20normalization%20and%20its%20normal%20forms) |
 
-## Round 5 · Hiring Manager
-<!-- round: hiring_manager -->
-
-_Scope, ownership, and role-fit discussion with the manager._
-
-| Question | Difficulty | Tags |
-| --- | --- | --- |
-| How do you handle an underperforming teammate? | — | `leadership` |
-
-## Round 6 · Behavioral / HR
+## Round 4 · Behavioral / HR
 <!-- round: behavioral -->
 
 _Values, collaboration, and past-experience (STAR) questions._
 
 | Question | Difficulty | Tags |
 | --- | --- | --- |
-| Tell me about the hardest bug you have debugged. | — | `debugging` `star` |
-| When did you take ownership of something outside your scope? | — | `ownership` `star` |
+| Why do you want to join our company? | — | — |
+| Are you comfortable working in rotational or night shifts? | — | — |
+| What are your interests outside academics? | — | — |
 
 ---
 

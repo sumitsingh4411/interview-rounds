@@ -1,75 +1,72 @@
 ---
 id: axis-bank-1
 company: axis-bank
-role: frontend
-level: staff
-outcome: offer
-year: 2023
+role: fullstack
+level: junior
+outcome: no_offer
+year: 2024
 source: curated
-summary: 'A staff frontend loop. Coding-heavy early, design and behavioral later.'
+summary: >-
+  4-round junior fullstack process. Screening test, technical round, then a
+  managerial and HR conversation.
 ---
-# Staff Frontend — Axis Bank
+# Junior Full-stack — Axis Bank
 
-![role](https://img.shields.io/badge/role-Frontend-22d3ee?style=flat-square)
-![level](https://img.shields.io/badge/level-Staff-818cf8?style=flat-square)
-![outcome](https://img.shields.io/badge/outcome-Offer-34d399?style=flat-square)
-![year](https://img.shields.io/badge/year-2023-6b7280?style=flat-square)
+![role](https://img.shields.io/badge/role-Full--stack-a78bfa?style=flat-square)
+![level](https://img.shields.io/badge/level-Junior-818cf8?style=flat-square)
+![outcome](https://img.shields.io/badge/outcome-No%20offer-f87171?style=flat-square)
+![year](https://img.shields.io/badge/year-2024-6b7280?style=flat-square)
 ![source](https://img.shields.io/badge/source-Commonly%20asked-2dd4bf?style=flat-square)
 
-> A staff frontend loop. Coding-heavy early, design and behavioral later.
+> 4-round junior fullstack process. Screening test, technical round, then a managerial and HR conversation.
 
-**5 rounds · 9 questions**
+**4 rounds · 12 questions**
 
 ---
 
-## Round 1 · DSA / Coding
+## Round 1 · Online Assessment
+<!-- round: oa -->
+
+_Timed online coding / aptitude screen, usually the first filter._
+
+| Question | Difficulty | Tags | Practice |
+| --- | --- | --- | --- |
+| Quantitative aptitude: simple and compound interest. | 🟢 Easy | `aptitude` | [GfG](https://www.geeksforgeeks.org/search/?gq=Quantitative%20aptitude%3A%20simple%20and%20compound%20interest) · [Search](https://www.google.com/search?q=Quantitative%20aptitude%3A%20simple%20and%20compound%20interest) |
+| Logical reasoning: data interpretation from charts and tables. | 🟡 Medium | `reasoning` | [GfG](https://www.geeksforgeeks.org/search/?gq=Logical%20reasoning%3A%20data%20interpretation%20from%20charts%20and%20tables) · [Search](https://www.google.com/search?q=Logical%20reasoning%3A%20data%20interpretation%20from%20charts%20and%20tables) |
+| Pseudocode: spot the error in the given snippet. | 🟡 Medium | `pseudocode` | [GfG](https://www.geeksforgeeks.org/search/?gq=Pseudocode%3A%20spot%20the%20error%20in%20the%20given%20snippet) · [Search](https://www.google.com/search?q=Pseudocode%3A%20spot%20the%20error%20in%20the%20given%20snippet) |
+
+## Round 2 · DSA / Coding
 <!-- round: dsa -->
 
 _Data structures & algorithms on a whiteboard or shared editor._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Group anagrams from a list of strings. | 🟡 Medium | `hashmap` `string` | [LC](https://leetcode.com/problems/group-anagrams/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Group%20anagrams%20from%20a%20list%20of%20strings) |
-| Min cost to connect all points. | 🟡 Medium | `graph` `mst` | [LC](https://leetcode.com/problems/min-cost-to-connect-all-points/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Min%20cost%20to%20connect%20all%20points) |
-| Largest rectangle in histogram. | 🔴 Hard | `stack` `monotonic-stack` | [LC](https://leetcode.com/problems/largest-rectangle-in-histogram/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Largest%20rectangle%20in%20histogram) |
+| Check whether a string is a palindrome. | 🟢 Easy | `string` | [GfG](https://www.geeksforgeeks.org/search/?gq=Check%20whether%20a%20string%20is%20a%20palindrome) · [Search](https://www.google.com/search?q=Check%20whether%20a%20string%20is%20a%20palindrome) |
+| Check whether two strings are anagrams. | 🟢 Easy | `string` | [GfG](https://www.geeksforgeeks.org/search/?gq=Check%20whether%20two%20strings%20are%20anagrams) · [Search](https://www.google.com/search?q=Check%20whether%20two%20strings%20are%20anagrams) |
 
-## Round 2 · System Design
-<!-- round: system_design -->
+## Round 3 · Tech Deep-Dive
+<!-- round: tech_deep_dive -->
 
-_High-level architecture of a large-scale system._
-
-| Question | Difficulty | Tags | Practice |
-| --- | --- | --- | --- |
-| Design a file-sharing service with permissions. | 🟡 Medium | `storage` `acl` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20file-sharing%20service%20with%20permissions) · [Search](https://www.google.com/search?q=Design%20a%20file-sharing%20service%20with%20permissions) |
-| Design an analytics / metrics dashboard backend. | 🔴 Hard | `time-series` `aggregation` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20an%20analytics%20%2F%20metrics%20dashboard%20backend) · [Search](https://www.google.com/search?q=Design%20an%20analytics%20%2F%20metrics%20dashboard%20backend) |
-
-## Round 3 · Low-Level Design
-<!-- round: lld -->
-
-_Object-oriented / low-level design of a focused module._
+_Deep questions on your core stack and fundamentals._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Design an undo/redo stack for an editor. | 🟡 Medium | `oop` `command` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20an%20undo%2Fredo%20stack%20for%20an%20editor) · [Search](https://www.google.com/search?q=Design%20an%20undo%2Fredo%20stack%20for%20an%20editor) |
+| What is a deadlock and how do you prevent it? | 🟡 Medium | `os` | [GfG](https://www.geeksforgeeks.org/search/?gq=What%20is%20a%20deadlock%20and%20how%20do%20you%20prevent%20it) · [Search](https://www.google.com/search?q=What%20is%20a%20deadlock%20and%20how%20do%20you%20prevent%20it) |
+| What is polymorphism? Compile-time vs runtime. | 🟢 Easy | `oops` | [GfG](https://www.geeksforgeeks.org/search/?gq=What%20is%20polymorphism%3F%20Compile-time%20vs%20runtime) · [Search](https://www.google.com/search?q=What%20is%20polymorphism%3F%20Compile-time%20vs%20runtime) |
+| Explain CPU scheduling algorithms: FCFS, SJF and round robin. | 🟡 Medium | `os` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20CPU%20scheduling%20algorithms%3A%20FCFS%2C%20SJF%20and%20round%20robin) · [Search](https://www.google.com/search?q=Explain%20CPU%20scheduling%20algorithms%3A%20FCFS%2C%20SJF%20and%20round%20robin) |
+| Explain database normalization and its normal forms. | 🟡 Medium | `dbms` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20database%20normalization%20and%20its%20normal%20forms) · [Search](https://www.google.com/search?q=Explain%20database%20normalization%20and%20its%20normal%20forms) |
 
-## Round 4 · Hiring Manager
-<!-- round: hiring_manager -->
-
-_Scope, ownership, and role-fit discussion with the manager._
-
-| Question | Difficulty | Tags |
-| --- | --- | --- |
-| How do you decide what to build vs. buy vs. defer? | — | `judgment` |
-
-## Round 5 · Behavioral / HR
+## Round 4 · Behavioral / HR
 <!-- round: behavioral -->
 
 _Values, collaboration, and past-experience (STAR) questions._
 
 | Question | Difficulty | Tags |
 | --- | --- | --- |
-| Why this company, and why this role? | — | `motivation` |
-| Describe handling a tight deadline with competing priorities. | — | `prioritization` `star` |
+| Tell me about your final-year project. | — | — |
+| Are you comfortable working in rotational or night shifts? | — | — |
+| Are you comfortable signing the service agreement / bond? | — | — |
 
 ---
 

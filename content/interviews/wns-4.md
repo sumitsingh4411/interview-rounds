@@ -1,26 +1,26 @@
 ---
 id: wns-4
 company: wns
-role: fullstack
-level: junior
-outcome: withdrew
-year: 2025
+role: backend
+level: mid
+outcome: offer
+year: 2023
 source: curated
 summary: >-
-  A junior fullstack loop. Fundamentals mattered as much as getting to an
-  answer.
+  5-round mid backend process. Basic programming plus core CS; communication
+  mattered throughout.
 ---
-# Junior Full-stack — WNS
+# Mid Backend — WNS
 
-![role](https://img.shields.io/badge/role-Full--stack-a78bfa?style=flat-square)
-![level](https://img.shields.io/badge/level-Junior-818cf8?style=flat-square)
-![outcome](https://img.shields.io/badge/outcome-Withdrew-fbbf24?style=flat-square)
-![year](https://img.shields.io/badge/year-2025-6b7280?style=flat-square)
+![role](https://img.shields.io/badge/role-Backend-8b93ff?style=flat-square)
+![level](https://img.shields.io/badge/level-Mid-818cf8?style=flat-square)
+![outcome](https://img.shields.io/badge/outcome-Offer-34d399?style=flat-square)
+![year](https://img.shields.io/badge/year-2023-6b7280?style=flat-square)
 ![source](https://img.shields.io/badge/source-Commonly%20asked-2dd4bf?style=flat-square)
 
-> A junior fullstack loop. Fundamentals mattered as much as getting to an answer.
+> 5-round mid backend process. Basic programming plus core CS; communication mattered throughout.
 
-**5 rounds · 11 questions**
+**5 rounds · 14 questions**
 
 ---
 
@@ -31,7 +31,9 @@ _Timed online coding / aptitude screen, usually the first filter._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Merge overlapping meeting intervals from a calendar. | 🟡 Medium | `intervals` `sorting` | [GfG](https://www.geeksforgeeks.org/search/?gq=Merge%20overlapping%20meeting%20intervals%20from%20a%20calendar) · [Search](https://www.google.com/search?q=Merge%20overlapping%20meeting%20intervals%20from%20a%20calendar) |
+| Quantitative aptitude: time and work problems. | 🟢 Easy | `aptitude` | [GfG](https://www.geeksforgeeks.org/search/?gq=Quantitative%20aptitude%3A%20time%20and%20work%20problems) · [Search](https://www.google.com/search?q=Quantitative%20aptitude%3A%20time%20and%20work%20problems) |
+| Quantitative aptitude: time, speed and distance problems. | 🟢 Easy | `aptitude` | [GfG](https://www.geeksforgeeks.org/search/?gq=Quantitative%20aptitude%3A%20time%2C%20speed%20and%20distance%20problems) · [Search](https://www.google.com/search?q=Quantitative%20aptitude%3A%20time%2C%20speed%20and%20distance%20problems) |
+| Logical reasoning: data interpretation from charts and tables. | 🟡 Medium | `reasoning` | [GfG](https://www.geeksforgeeks.org/search/?gq=Logical%20reasoning%3A%20data%20interpretation%20from%20charts%20and%20tables) · [Search](https://www.google.com/search?q=Logical%20reasoning%3A%20data%20interpretation%20from%20charts%20and%20tables) |
 
 ## Round 2 · DSA / Coding
 <!-- round: dsa -->
@@ -40,30 +42,30 @@ _Data structures & algorithms on a whiteboard or shared editor._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Merge intervals. | 🟡 Medium | `intervals` `sorting` | [LC](https://leetcode.com/problems/merge-intervals/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Merge%20intervals) |
-| Longest substring without repeating characters. | 🟡 Medium | `sliding-window` `string` | [LC](https://leetcode.com/problems/longest-substring-without-repeating-characters/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Longest%20substring%20without%20repeating%20characters) |
-| Course Schedule — detect a cycle / topological sort. | 🟡 Medium | `graph` `topo-sort` | [LC](https://leetcode.com/problems/course-schedule/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Course%20Schedule%20%E2%80%94%20detect%20a%20cycle%20%2F%20topological%20sort) |
+| Find the factorial of a number using recursion. | 🟢 Easy | `recursion` | [GfG](https://www.geeksforgeeks.org/search/?gq=Find%20the%20factorial%20of%20a%20number%20using%20recursion) · [Search](https://www.google.com/search?q=Find%20the%20factorial%20of%20a%20number%20using%20recursion) |
+| Check whether a number is an Armstrong number. | 🟢 Easy | `math` | [GfG](https://www.geeksforgeeks.org/search/?gq=Check%20whether%20a%20number%20is%20an%20Armstrong%20number) · [Search](https://www.google.com/search?q=Check%20whether%20a%20number%20is%20an%20Armstrong%20number) |
 
-## Round 3 · Machine Coding
-<!-- round: machine_coding -->
-
-_Build a working component or service under time pressure._
-
-| Question | Difficulty | Tags | Practice |
-| --- | --- | --- | --- |
-| Build a countdown timer with pause and resume. | 🟢 Easy | `react` `state` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20a%20countdown%20timer%20with%20pause%20and%20resume) · [Search](https://www.google.com/search?q=Build%20a%20countdown%20timer%20with%20pause%20and%20resume) |
-| Build an accessible accordion with single/multi open. | 🟡 Medium | `react` `a11y` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20an%20accessible%20accordion%20with%20single%2Fmulti%20open) · [Search](https://www.google.com/search?q=Build%20an%20accessible%20accordion%20with%20single%2Fmulti%20open) |
-
-## Round 4 · Tech Deep-Dive
+## Round 3 · Tech Deep-Dive
 <!-- round: tech_deep_dive -->
 
 _Deep questions on your core stack and fundamentals._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Debounce vs throttle — implement one from scratch. | 🟡 Medium | `javascript` `perf` | [GfG](https://www.geeksforgeeks.org/search/?gq=Debounce%20vs%20throttle%20%E2%80%94%20implement%20one%20from%20scratch) · [Search](https://www.google.com/search?q=Debounce%20vs%20throttle%20%E2%80%94%20implement%20one%20from%20scratch) |
-| How does a bloom filter work and when would you use one? | 🟡 Medium | `data-structures` `probabilistic` | [GfG](https://www.geeksforgeeks.org/search/?gq=How%20does%20a%20bloom%20filter%20work%20and%20when%20would%20you%20use%20one) · [Search](https://www.google.com/search?q=How%20does%20a%20bloom%20filter%20work%20and%20when%20would%20you%20use%20one) |
-| Trade-offs of gRPC vs REST vs GraphQL. | 🟡 Medium | `api-design` | [GfG](https://www.geeksforgeeks.org/search/?gq=Trade-offs%20of%20gRPC%20vs%20REST%20vs%20GraphQL) · [Search](https://www.google.com/search?q=Trade-offs%20of%20gRPC%20vs%20REST%20vs%20GraphQL) |
+| Difference between a process and a thread. | 🟢 Easy | `os` | [GfG](https://www.geeksforgeeks.org/search/?gq=Difference%20between%20a%20process%20and%20a%20thread) · [Search](https://www.google.com/search?q=Difference%20between%20a%20process%20and%20a%20thread) |
+| Difference between DBMS and RDBMS. | 🟢 Easy | `dbms` | [GfG](https://www.geeksforgeeks.org/search/?gq=Difference%20between%20DBMS%20and%20RDBMS) · [Search](https://www.google.com/search?q=Difference%20between%20DBMS%20and%20RDBMS) |
+| Difference between DELETE, TRUNCATE and DROP. | 🟢 Easy | `sql` | [GfG](https://www.geeksforgeeks.org/search/?gq=Difference%20between%20DELETE%2C%20TRUNCATE%20and%20DROP) · [Search](https://www.google.com/search?q=Difference%20between%20DELETE%2C%20TRUNCATE%20and%20DROP) |
+| Explain Java collections: List, Set and Map. | 🟡 Medium | `java` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20Java%20collections%3A%20List%2C%20Set%20and%20Map) · [Search](https://www.google.com/search?q=Explain%20Java%20collections%3A%20List%2C%20Set%20and%20Map) |
+
+## Round 4 · Hiring Manager
+<!-- round: hiring_manager -->
+
+_Scope, ownership, and role-fit discussion with the manager._
+
+| Question | Difficulty | Tags |
+| --- | --- | --- |
+| Which technology stack are you most comfortable with, and why? | — | — |
+| How do you ensure code quality under a tight delivery timeline? | — | — |
 
 ## Round 5 · Behavioral / HR
 <!-- round: behavioral -->
@@ -72,8 +74,9 @@ _Values, collaboration, and past-experience (STAR) questions._
 
 | Question | Difficulty | Tags |
 | --- | --- | --- |
-| Describe a conflict with your manager and the outcome. | — | `conflict` `star` |
-| Describe a disagreement on a code review and how it ended. | — | `conflict` `star` |
+| Why should we hire you? | — | — |
+| How do you handle pressure and tight deadlines? | — | — |
+| What do you know about our company and the services we provide? | — | — |
 
 ---
 

@@ -1,89 +1,72 @@
 ---
 id: capgemini-3
 company: capgemini
-role: fullstack
-level: senior
-outcome: unknown
-year: 2023
+role: backend
+level: intern
+outcome: offer
+year: 2024
 source: curated
 summary: >-
-  6-round senior fullstack process. Pragmatic questions — more real-world than
-  pure puzzles.
+  Campus-style intern backend interview. Basic programming plus core CS;
+  communication mattered throughout.
 ---
-# Senior Full-stack — Capgemini
+# Intern Backend — Capgemini
 
-![role](https://img.shields.io/badge/role-Full--stack-a78bfa?style=flat-square)
-![level](https://img.shields.io/badge/level-Senior-818cf8?style=flat-square)
-![outcome](https://img.shields.io/badge/outcome-Unknown-6b7280?style=flat-square)
-![year](https://img.shields.io/badge/year-2023-6b7280?style=flat-square)
+![role](https://img.shields.io/badge/role-Backend-8b93ff?style=flat-square)
+![level](https://img.shields.io/badge/level-Intern-818cf8?style=flat-square)
+![outcome](https://img.shields.io/badge/outcome-Offer-34d399?style=flat-square)
+![year](https://img.shields.io/badge/year-2024-6b7280?style=flat-square)
 ![source](https://img.shields.io/badge/source-Commonly%20asked-2dd4bf?style=flat-square)
 
-> 6-round senior fullstack process. Pragmatic questions — more real-world than pure puzzles.
+> Campus-style intern backend interview. Basic programming plus core CS; communication mattered throughout.
 
-**6 rounds · 13 questions**
+**4 rounds · 12 questions**
 
 ---
 
-## Round 1 · DSA / Coding
+## Round 1 · Online Assessment
+<!-- round: oa -->
+
+_Timed online coding / aptitude screen, usually the first filter._
+
+| Question | Difficulty | Tags | Practice |
+| --- | --- | --- | --- |
+| Quantitative aptitude: ratio, proportion and averages. | 🟢 Easy | `aptitude` | [GfG](https://www.geeksforgeeks.org/search/?gq=Quantitative%20aptitude%3A%20ratio%2C%20proportion%20and%20averages) · [Search](https://www.google.com/search?q=Quantitative%20aptitude%3A%20ratio%2C%20proportion%20and%20averages) |
+| Quantitative aptitude: simple and compound interest. | 🟢 Easy | `aptitude` | [GfG](https://www.geeksforgeeks.org/search/?gq=Quantitative%20aptitude%3A%20simple%20and%20compound%20interest) · [Search](https://www.google.com/search?q=Quantitative%20aptitude%3A%20simple%20and%20compound%20interest) |
+| Quantitative aptitude: profit, loss and percentages. | 🟢 Easy | `aptitude` | [GfG](https://www.geeksforgeeks.org/search/?gq=Quantitative%20aptitude%3A%20profit%2C%20loss%20and%20percentages) · [Search](https://www.google.com/search?q=Quantitative%20aptitude%3A%20profit%2C%20loss%20and%20percentages) |
+
+## Round 2 · DSA / Coding
 <!-- round: dsa -->
 
 _Data structures & algorithms on a whiteboard or shared editor._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Maximum depth of a binary tree. | 🟢 Easy | `tree` `dfs` | [LC](https://leetcode.com/problems/maximum-depth-of-binary-tree/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Maximum%20depth%20of%20a%20binary%20tree) |
-| Minimum window substring. | 🔴 Hard | `sliding-window` `string` | [LC](https://leetcode.com/problems/minimum-window-substring/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Minimum%20window%20substring) |
-| Invert a binary tree. | 🟢 Easy | `tree` | [LC](https://leetcode.com/problems/invert-binary-tree/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Invert%20a%20binary%20tree) |
+| Check whether two strings are anagrams. | 🟢 Easy | `string` | [GfG](https://www.geeksforgeeks.org/search/?gq=Check%20whether%20two%20strings%20are%20anagrams) · [Search](https://www.google.com/search?q=Check%20whether%20two%20strings%20are%20anagrams) |
+| Swap two numbers without using a temporary variable. | 🟢 Easy | `math` | [GfG](https://www.geeksforgeeks.org/search/?gq=Swap%20two%20numbers%20without%20using%20a%20temporary%20variable) · [Search](https://www.google.com/search?q=Swap%20two%20numbers%20without%20using%20a%20temporary%20variable) |
 
-## Round 2 · Machine Coding
-<!-- round: machine_coding -->
-
-_Build a working component or service under time pressure._
-
-| Question | Difficulty | Tags | Practice |
-| --- | --- | --- | --- |
-| Build a file-upload service with chunking and resume. | 🔴 Hard | `streaming` `storage` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20a%20file-upload%20service%20with%20chunking%20and%20resume) · [Search](https://www.google.com/search?q=Build%20a%20file-upload%20service%20with%20chunking%20and%20resume) |
-| Build a key-value store with TTL expiry. | 🟡 Medium | `cache` `ttl` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20a%20key-value%20store%20with%20TTL%20expiry) · [Search](https://www.google.com/search?q=Build%20a%20key-value%20store%20with%20TTL%20expiry) |
-
-## Round 3 · System Design
-<!-- round: system_design -->
-
-_High-level architecture of a large-scale system._
-
-| Question | Difficulty | Tags | Practice |
-| --- | --- | --- | --- |
-| Design a Google Docs-style collaborative editor (frontend). | 🔴 Hard | `frontend` `crdt` `realtime` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20Google%20Docs-style%20collaborative%20editor%20(frontend)) · [Search](https://www.google.com/search?q=Design%20a%20Google%20Docs-style%20collaborative%20editor%20(frontend)) |
-| Design a typeahead / autocomplete service. | 🔴 Hard | `trie` `cache` `ranking` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20typeahead%20%2F%20autocomplete%20service) · [Search](https://www.google.com/search?q=Design%20a%20typeahead%20%2F%20autocomplete%20service) |
-
-## Round 4 · Tech Deep-Dive
+## Round 3 · Tech Deep-Dive
 <!-- round: tech_deep_dive -->
 
 _Deep questions on your core stack and fundamentals._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| How does React batching and the render phase work? | 🔴 Hard | `react` | [GfG](https://www.geeksforgeeks.org/search/?gq=How%20does%20React%20batching%20and%20the%20render%20phase%20work) · [Search](https://www.google.com/search?q=How%20does%20React%20batching%20and%20the%20render%20phase%20work) |
-| Explain prototypal inheritance. | 🟡 Medium | `javascript` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20prototypal%20inheritance) · [Search](https://www.google.com/search?q=Explain%20prototypal%20inheritance) |
-| How do you secure secrets and handle auth tokens? | 🟡 Medium | `security` | [GfG](https://www.geeksforgeeks.org/search/?gq=How%20do%20you%20secure%20secrets%20and%20handle%20auth%20tokens) · [Search](https://www.google.com/search?q=How%20do%20you%20secure%20secrets%20and%20handle%20auth%20tokens) |
+| What is a deadlock and how do you prevent it? | 🟡 Medium | `os` | [GfG](https://www.geeksforgeeks.org/search/?gq=What%20is%20a%20deadlock%20and%20how%20do%20you%20prevent%20it) · [Search](https://www.google.com/search?q=What%20is%20a%20deadlock%20and%20how%20do%20you%20prevent%20it) |
+| Difference between abstraction and encapsulation. | 🟢 Easy | `oops` | [GfG](https://www.geeksforgeeks.org/search/?gq=Difference%20between%20abstraction%20and%20encapsulation) · [Search](https://www.google.com/search?q=Difference%20between%20abstraction%20and%20encapsulation) |
+| Explain the time complexity of common sorting algorithms. | 🟡 Medium | `data-structures` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20the%20time%20complexity%20of%20common%20sorting%20algorithms) · [Search](https://www.google.com/search?q=Explain%20the%20time%20complexity%20of%20common%20sorting%20algorithms) |
+| Explain Java collections: List, Set and Map. | 🟡 Medium | `java` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20Java%20collections%3A%20List%2C%20Set%20and%20Map) · [Search](https://www.google.com/search?q=Explain%20Java%20collections%3A%20List%2C%20Set%20and%20Map) |
 
-## Round 5 · Hiring Manager
-<!-- round: hiring_manager -->
-
-_Scope, ownership, and role-fit discussion with the manager._
-
-| Question | Difficulty | Tags |
-| --- | --- | --- |
-| How do you scope and staff a multi-month project? | — | `planning` `leadership` |
-
-## Round 6 · Behavioral / HR
+## Round 4 · Behavioral / HR
 <!-- round: behavioral -->
 
 _Values, collaboration, and past-experience (STAR) questions._
 
 | Question | Difficulty | Tags |
 | --- | --- | --- |
-| Describe handling a tight deadline with competing priorities. | — | `prioritization` `star` |
-| Describe mentoring or unblocking another engineer. | — | `mentorship` `star` |
+| Would you be comfortable working on any technology assigned to you? | — | — |
+| Tell me about a conflict in a team project and how you resolved it. | — | — |
+| Why did you choose this branch of engineering? | — | — |
 
 ---
 

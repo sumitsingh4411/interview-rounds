@@ -1,24 +1,26 @@
 ---
 id: ntt-data-3
 company: ntt-data
-role: backend
+role: frontend
 level: junior
-outcome: rejected
+outcome: offer
 year: 2024
 source: curated
-summary: 'A junior backend loop. Balanced across coding, design, and collaboration.'
+summary: >-
+  4-round junior frontend process. Breadth of fundamentals mattered more than
+  algorithmic depth.
 ---
-# Junior Backend — NTT Data
+# Junior Frontend — NTT Data
 
-![role](https://img.shields.io/badge/role-Backend-8b93ff?style=flat-square)
+![role](https://img.shields.io/badge/role-Frontend-22d3ee?style=flat-square)
 ![level](https://img.shields.io/badge/level-Junior-818cf8?style=flat-square)
-![outcome](https://img.shields.io/badge/outcome-Rejected-f87171?style=flat-square)
+![outcome](https://img.shields.io/badge/outcome-Offer-34d399?style=flat-square)
 ![year](https://img.shields.io/badge/year-2024-6b7280?style=flat-square)
 ![source](https://img.shields.io/badge/source-Commonly%20asked-2dd4bf?style=flat-square)
 
-> A junior backend loop. Balanced across coding, design, and collaboration.
+> 4-round junior frontend process. Breadth of fundamentals mattered more than algorithmic depth.
 
-**5 rounds · 11 questions**
+**4 rounds · 12 questions**
 
 ---
 
@@ -29,7 +31,9 @@ _Timed online coding / aptitude screen, usually the first filter._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Find the missing number in 1..n. | 🟢 Easy | `math` | [LC](https://leetcode.com/problems/missing-number/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Find%20the%20missing%20number%20in%201..n) |
+| Pseudocode: predict the output of the given code block. | 🟡 Medium | `pseudocode` | [GfG](https://www.geeksforgeeks.org/search/?gq=Pseudocode%3A%20predict%20the%20output%20of%20the%20given%20code%20block) · [Search](https://www.google.com/search?q=Pseudocode%3A%20predict%20the%20output%20of%20the%20given%20code%20block) |
+| Logical reasoning: syllogisms and statement–conclusion. | 🟡 Medium | `reasoning` | [GfG](https://www.geeksforgeeks.org/search/?gq=Logical%20reasoning%3A%20syllogisms%20and%20statement%E2%80%93conclusion) · [Search](https://www.google.com/search?q=Logical%20reasoning%3A%20syllogisms%20and%20statement%E2%80%93conclusion) |
+| Quantitative aptitude: time, speed and distance problems. | 🟢 Easy | `aptitude` | [GfG](https://www.geeksforgeeks.org/search/?gq=Quantitative%20aptitude%3A%20time%2C%20speed%20and%20distance%20problems) · [Search](https://www.google.com/search?q=Quantitative%20aptitude%3A%20time%2C%20speed%20and%20distance%20problems) |
 
 ## Round 2 · DSA / Coding
 <!-- round: dsa -->
@@ -38,40 +42,31 @@ _Data structures & algorithms on a whiteboard or shared editor._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Insert interval. | 🟡 Medium | `intervals` | [LC](https://leetcode.com/problems/insert-interval/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Insert%20interval) |
-| Merge two sorted linked lists. | 🟢 Easy | `linked-list` | [LC](https://leetcode.com/problems/merge-two-sorted-lists/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Merge%20two%20sorted%20linked%20lists) |
-| Maximum subarray (Kadane). | 🟡 Medium | `array` `dp` | [LC](https://leetcode.com/problems/maximum-subarray/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Maximum%20subarray%20(Kadane)) |
+| Matrix operations: transpose and sum of the diagonals. | 🟡 Medium | `matrix` | [GfG](https://www.geeksforgeeks.org/search/?gq=Matrix%20operations%3A%20transpose%20and%20sum%20of%20the%20diagonals) · [Search](https://www.google.com/search?q=Matrix%20operations%3A%20transpose%20and%20sum%20of%20the%20diagonals) |
+| Reverse a string without using library functions. | 🟢 Easy | `string` | [GfG](https://www.geeksforgeeks.org/search/?gq=Reverse%20a%20string%20without%20using%20library%20functions) · [Search](https://www.google.com/search?q=Reverse%20a%20string%20without%20using%20library%20functions) |
 
-## Round 3 · Machine Coding
-<!-- round: machine_coding -->
-
-_Build a working component or service under time pressure._
-
-| Question | Difficulty | Tags | Practice |
-| --- | --- | --- | --- |
-| Build a REST endpoint with pagination, filtering and sorting. | 🟡 Medium | `api` `pagination` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20a%20REST%20endpoint%20with%20pagination%2C%20filtering%20and%20sorting) · [Search](https://www.google.com/search?q=Build%20a%20REST%20endpoint%20with%20pagination%2C%20filtering%20and%20sorting) |
-| Build a URL health checker with a concurrency limit. | 🟡 Medium | `concurrency` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20a%20URL%20health%20checker%20with%20a%20concurrency%20limit) · [Search](https://www.google.com/search?q=Build%20a%20URL%20health%20checker%20with%20a%20concurrency%20limit) |
-
-## Round 4 · Tech Deep-Dive
+## Round 3 · Tech Deep-Dive
 <!-- round: tech_deep_dive -->
 
 _Deep questions on your core stack and fundamentals._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| How do you design a schema for a multi-currency ledger? | 🔴 Hard | `databases` `money` | [GfG](https://www.geeksforgeeks.org/search/?gq=How%20do%20you%20design%20a%20schema%20for%20a%20multi-currency%20ledger) · [Search](https://www.google.com/search?q=How%20do%20you%20design%20a%20schema%20for%20a%20multi-currency%20ledger) |
-| Idempotency in APIs — why and how. | 🟡 Medium | `api-design` `idempotency` | [GfG](https://www.geeksforgeeks.org/search/?gq=Idempotency%20in%20APIs%20%E2%80%94%20why%20and%20how) · [Search](https://www.google.com/search?q=Idempotency%20in%20APIs%20%E2%80%94%20why%20and%20how) |
-| Compare rate-limiting algorithms and their trade-offs. | 🟡 Medium | `rate-limit` | [GfG](https://www.geeksforgeeks.org/search/?gq=Compare%20rate-limiting%20algorithms%20and%20their%20trade-offs) · [Search](https://www.google.com/search?q=Compare%20rate-limiting%20algorithms%20and%20their%20trade-offs) |
+| Explain exception handling with try, catch and finally. | 🟢 Easy | `java` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20exception%20handling%20with%20try%2C%20catch%20and%20finally) · [Search](https://www.google.com/search?q=Explain%20exception%20handling%20with%20try%2C%20catch%20and%20finally) |
+| Difference between DBMS and RDBMS. | 🟢 Easy | `dbms` | [GfG](https://www.geeksforgeeks.org/search/?gq=Difference%20between%20DBMS%20and%20RDBMS) · [Search](https://www.google.com/search?q=Difference%20between%20DBMS%20and%20RDBMS) |
+| Explain primary key, foreign key, unique key and candidate key. | 🟢 Easy | `dbms` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20primary%20key%2C%20foreign%20key%2C%20unique%20key%20and%20candidate%20key) · [Search](https://www.google.com/search?q=Explain%20primary%20key%2C%20foreign%20key%2C%20unique%20key%20and%20candidate%20key) |
+| Difference between stack and heap memory. | 🟢 Easy | `fundamentals` | [GfG](https://www.geeksforgeeks.org/search/?gq=Difference%20between%20stack%20and%20heap%20memory) · [Search](https://www.google.com/search?q=Difference%20between%20stack%20and%20heap%20memory) |
 
-## Round 5 · Behavioral / HR
+## Round 4 · Behavioral / HR
 <!-- round: behavioral -->
 
 _Values, collaboration, and past-experience (STAR) questions._
 
 | Question | Difficulty | Tags |
 | --- | --- | --- |
-| Tell me about a time you led without a title. | — | `leadership` `star` |
-| Describe a disagreement on a code review and how it ended. | — | `conflict` `star` |
+| Tell me about yourself. | — | — |
+| Tell me about a conflict in a team project and how you resolved it. | — | — |
+| How do you handle pressure and tight deadlines? | — | — |
 
 ---
 

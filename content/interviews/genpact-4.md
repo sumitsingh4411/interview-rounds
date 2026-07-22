@@ -2,86 +2,71 @@
 id: genpact-4
 company: genpact
 role: frontend
-level: senior
-outcome: unknown
-year: 2023
+level: junior
+outcome: no_offer
+year: 2025
 source: curated
-summary: 'A senior frontend loop. Balanced across coding, design, and collaboration.'
+summary: >-
+  Campus-style junior frontend interview. Aptitude screen first, then technical
+  fundamentals and HR.
 ---
-# Senior Frontend — Genpact
+# Junior Frontend — Genpact
 
 ![role](https://img.shields.io/badge/role-Frontend-22d3ee?style=flat-square)
-![level](https://img.shields.io/badge/level-Senior-818cf8?style=flat-square)
-![outcome](https://img.shields.io/badge/outcome-Unknown-6b7280?style=flat-square)
-![year](https://img.shields.io/badge/year-2023-6b7280?style=flat-square)
+![level](https://img.shields.io/badge/level-Junior-818cf8?style=flat-square)
+![outcome](https://img.shields.io/badge/outcome-No%20offer-f87171?style=flat-square)
+![year](https://img.shields.io/badge/year-2025-6b7280?style=flat-square)
 ![source](https://img.shields.io/badge/source-Commonly%20asked-2dd4bf?style=flat-square)
 
-> A senior frontend loop. Balanced across coding, design, and collaboration.
+> Campus-style junior frontend interview. Aptitude screen first, then technical fundamentals and HR.
 
-**6 rounds · 13 questions**
+**4 rounds · 12 questions**
 
 ---
 
-## Round 1 · DSA / Coding
+## Round 1 · Online Assessment
+<!-- round: oa -->
+
+_Timed online coding / aptitude screen, usually the first filter._
+
+| Question | Difficulty | Tags | Practice |
+| --- | --- | --- | --- |
+| Quantitative aptitude: profit, loss and percentages. | 🟢 Easy | `aptitude` | [GfG](https://www.geeksforgeeks.org/search/?gq=Quantitative%20aptitude%3A%20profit%2C%20loss%20and%20percentages) · [Search](https://www.google.com/search?q=Quantitative%20aptitude%3A%20profit%2C%20loss%20and%20percentages) |
+| Verbal ability: reading comprehension passage. | 🟢 Easy | `verbal` | [GfG](https://www.geeksforgeeks.org/search/?gq=Verbal%20ability%3A%20reading%20comprehension%20passage) · [Search](https://www.google.com/search?q=Verbal%20ability%3A%20reading%20comprehension%20passage) |
+| Logical reasoning: data interpretation from charts and tables. | 🟡 Medium | `reasoning` | [GfG](https://www.geeksforgeeks.org/search/?gq=Logical%20reasoning%3A%20data%20interpretation%20from%20charts%20and%20tables) · [Search](https://www.google.com/search?q=Logical%20reasoning%3A%20data%20interpretation%20from%20charts%20and%20tables) |
+
+## Round 2 · DSA / Coding
 <!-- round: dsa -->
 
 _Data structures & algorithms on a whiteboard or shared editor._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Regular expression matching. | 🔴 Hard | `dp` `string` | [LC](https://leetcode.com/problems/regular-expression-matching/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Regular%20expression%20matching) |
-| Longest increasing subsequence. | 🔴 Hard | `dp` `binary-search` | [LC](https://leetcode.com/problems/longest-increasing-subsequence/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Longest%20increasing%20subsequence) |
-| Coin change — fewest coins to make an amount. | 🟡 Medium | `dp` | [LC](https://leetcode.com/problems/coin-change/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Coin%20change%20%E2%80%94%20fewest%20coins%20to%20make%20an%20amount) |
+| Check whether a number is prime. | 🟢 Easy | `math` | [GfG](https://www.geeksforgeeks.org/search/?gq=Check%20whether%20a%20number%20is%20prime) · [Search](https://www.google.com/search?q=Check%20whether%20a%20number%20is%20prime) |
+| Find the second-largest element in an array. | 🟢 Easy | `array` | [GfG](https://www.geeksforgeeks.org/search/?gq=Find%20the%20second-largest%20element%20in%20an%20array) · [Search](https://www.google.com/search?q=Find%20the%20second-largest%20element%20in%20an%20array) |
 
-## Round 2 · Machine Coding
-<!-- round: machine_coding -->
-
-_Build a working component or service under time pressure._
-
-| Question | Difficulty | Tags | Practice |
-| --- | --- | --- | --- |
-| Build a data table with sorting, filtering and pagination. | 🔴 Hard | `react` `table` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20a%20data%20table%20with%20sorting%2C%20filtering%20and%20pagination) · [Search](https://www.google.com/search?q=Build%20a%20data%20table%20with%20sorting%2C%20filtering%20and%20pagination) |
-| Build a modal/dialog with focus trapping. | 🟡 Medium | `react` `a11y` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20a%20modal%2Fdialog%20with%20focus%20trapping) · [Search](https://www.google.com/search?q=Build%20a%20modal%2Fdialog%20with%20focus%20trapping) |
-
-## Round 3 · System Design
-<!-- round: system_design -->
-
-_High-level architecture of a large-scale system._
-
-| Question | Difficulty | Tags | Practice |
-| --- | --- | --- | --- |
-| Design a file-sharing service with permissions. | 🟡 Medium | `storage` `acl` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20file-sharing%20service%20with%20permissions) · [Search](https://www.google.com/search?q=Design%20a%20file-sharing%20service%20with%20permissions) |
-| Design an offline-capable web app with sync. | 🔴 Hard | `frontend` `offline` `sync` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20an%20offline-capable%20web%20app%20with%20sync) · [Search](https://www.google.com/search?q=Design%20an%20offline-capable%20web%20app%20with%20sync) |
-
-## Round 4 · Tech Deep-Dive
+## Round 3 · Tech Deep-Dive
 <!-- round: tech_deep_dive -->
 
 _Deep questions on your core stack and fundamentals._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Difference between controlled and uncontrolled inputs. | 🟢 Easy | `react` `forms` | [GfG](https://www.geeksforgeeks.org/search/?gq=Difference%20between%20controlled%20and%20uncontrolled%20inputs) · [Search](https://www.google.com/search?q=Difference%20between%20controlled%20and%20uncontrolled%20inputs) |
-| Accessibility: how do you make a custom widget usable? | 🟡 Medium | `a11y` | [GfG](https://www.geeksforgeeks.org/search/?gq=Accessibility%3A%20how%20do%20you%20make%20a%20custom%20widget%20usable) · [Search](https://www.google.com/search?q=Accessibility%3A%20how%20do%20you%20make%20a%20custom%20widget%20usable) |
-| Explain how CSS-in-JS differs from utility CSS. | 🟢 Easy | `css` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20how%20CSS-in-JS%20differs%20from%20utility%20CSS) · [Search](https://www.google.com/search?q=Explain%20how%20CSS-in-JS%20differs%20from%20utility%20CSS) |
+| Explain primary key, foreign key, unique key and candidate key. | 🟢 Easy | `dbms` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20primary%20key%2C%20foreign%20key%2C%20unique%20key%20and%20candidate%20key) · [Search](https://www.google.com/search?q=Explain%20primary%20key%2C%20foreign%20key%2C%20unique%20key%20and%20candidate%20key) |
+| Difference between an array and a linked list. | 🟢 Easy | `data-structures` | [GfG](https://www.geeksforgeeks.org/search/?gq=Difference%20between%20an%20array%20and%20a%20linked%20list) · [Search](https://www.google.com/search?q=Difference%20between%20an%20array%20and%20a%20linked%20list) |
+| What is indexing in a database and when does it help? | 🟡 Medium | `dbms` | [GfG](https://www.geeksforgeeks.org/search/?gq=What%20is%20indexing%20in%20a%20database%20and%20when%20does%20it%20help) · [Search](https://www.google.com/search?q=What%20is%20indexing%20in%20a%20database%20and%20when%20does%20it%20help) |
+| Method overloading vs method overriding. | 🟢 Easy | `oops` | [GfG](https://www.geeksforgeeks.org/search/?gq=Method%20overloading%20vs%20method%20overriding) · [Search](https://www.google.com/search?q=Method%20overloading%20vs%20method%20overriding) |
 
-## Round 5 · Hiring Manager
-<!-- round: hiring_manager -->
-
-_Scope, ownership, and role-fit discussion with the manager._
-
-| Question | Difficulty | Tags |
-| --- | --- | --- |
-| How do you keep a team unblocked and shipping? | — | `leadership` |
-
-## Round 6 · Behavioral / HR
+## Round 4 · Behavioral / HR
 <!-- round: behavioral -->
 
 _Values, collaboration, and past-experience (STAR) questions._
 
 | Question | Difficulty | Tags |
 | --- | --- | --- |
-| When did you change your mind after seeing new evidence? | — | `judgment` `star` |
-| Describe mentoring or unblocking another engineer. | — | `mentorship` `star` |
+| Are you willing to relocate anywhere in India? | — | — |
+| What are your strengths and weaknesses? | — | — |
+| What do you know about our company and the services we provide? | — | — |
 
 ---
 

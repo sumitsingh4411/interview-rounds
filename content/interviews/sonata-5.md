@@ -1,79 +1,71 @@
 ---
 id: sonata-5
 company: sonata
-role: fullstack
-level: junior
-outcome: unknown
+role: backend
+level: senior
+outcome: rejected
 year: 2023
 source: curated
 summary: >-
-  5-round junior fullstack process. Coding-heavy early, design and behavioral
-  later.
+  Campus-style senior backend interview. Screening test, technical round, then a
+  managerial and HR conversation.
 ---
-# Junior Full-stack — Sonata Software
+# Senior Backend — Sonata Software
 
-![role](https://img.shields.io/badge/role-Full--stack-a78bfa?style=flat-square)
-![level](https://img.shields.io/badge/level-Junior-818cf8?style=flat-square)
-![outcome](https://img.shields.io/badge/outcome-Unknown-6b7280?style=flat-square)
+![role](https://img.shields.io/badge/role-Backend-8b93ff?style=flat-square)
+![level](https://img.shields.io/badge/level-Senior-818cf8?style=flat-square)
+![outcome](https://img.shields.io/badge/outcome-Rejected-f87171?style=flat-square)
 ![year](https://img.shields.io/badge/year-2023-6b7280?style=flat-square)
 ![source](https://img.shields.io/badge/source-Commonly%20asked-2dd4bf?style=flat-square)
 
-> 5-round junior fullstack process. Coding-heavy early, design and behavioral later.
+> Campus-style senior backend interview. Screening test, technical round, then a managerial and HR conversation.
 
-**5 rounds · 11 questions**
+**4 rounds · 11 questions**
 
 ---
 
-## Round 1 · Online Assessment
-<!-- round: oa -->
-
-_Timed online coding / aptitude screen, usually the first filter._
-
-| Question | Difficulty | Tags | Practice |
-| --- | --- | --- | --- |
-| Validate an IP address (IPv4 / IPv6). | 🟡 Medium | `string` `parsing` | [GfG](https://www.geeksforgeeks.org/search/?gq=Validate%20an%20IP%20address%20(IPv4%20%2F%20IPv6)) · [Search](https://www.google.com/search?q=Validate%20an%20IP%20address%20(IPv4%20%2F%20IPv6)) |
-
-## Round 2 · DSA / Coding
+## Round 1 · DSA / Coding
 <!-- round: dsa -->
 
 _Data structures & algorithms on a whiteboard or shared editor._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Rotate array. | 🟡 Medium | `array` | [LC](https://leetcode.com/problems/rotate-array/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Rotate%20array) |
-| Longest consecutive sequence. | 🟡 Medium | `hashmap` `array` | [LC](https://leetcode.com/problems/longest-consecutive-sequence/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Longest%20consecutive%20sequence) |
-| Daily temperatures. | 🟡 Medium | `stack` `monotonic-stack` | [LC](https://leetcode.com/problems/daily-temperatures/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Daily%20temperatures) |
+| Matrix operations: transpose and sum of the diagonals. | 🟡 Medium | `matrix` | [GfG](https://www.geeksforgeeks.org/search/?gq=Matrix%20operations%3A%20transpose%20and%20sum%20of%20the%20diagonals) · [Search](https://www.google.com/search?q=Matrix%20operations%3A%20transpose%20and%20sum%20of%20the%20diagonals) |
+| Find the largest and smallest element in an array. | 🟢 Easy | `array` | [GfG](https://www.geeksforgeeks.org/search/?gq=Find%20the%20largest%20and%20smallest%20element%20in%20an%20array) · [Search](https://www.google.com/search?q=Find%20the%20largest%20and%20smallest%20element%20in%20an%20array) |
 
-## Round 3 · Machine Coding
-<!-- round: machine_coding -->
-
-_Build a working component or service under time pressure._
-
-| Question | Difficulty | Tags | Practice |
-| --- | --- | --- | --- |
-| Build a virtualized chat window that loads older messages. | 🔴 Hard | `react` `virtualization` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20a%20virtualized%20chat%20window%20that%20loads%20older%20messages) · [Search](https://www.google.com/search?q=Build%20a%20virtualized%20chat%20window%20that%20loads%20older%20messages) |
-| Build a countdown timer with pause and resume. | 🟢 Easy | `react` `state` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20a%20countdown%20timer%20with%20pause%20and%20resume) · [Search](https://www.google.com/search?q=Build%20a%20countdown%20timer%20with%20pause%20and%20resume) |
-
-## Round 4 · Tech Deep-Dive
+## Round 2 · Tech Deep-Dive
 <!-- round: tech_deep_dive -->
 
 _Deep questions on your core stack and fundamentals._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| How do you design an idempotency-key system for payments? | 🔴 Hard | `idempotency` `payments` | [GfG](https://www.geeksforgeeks.org/search/?gq=How%20do%20you%20design%20an%20idempotency-key%20system%20for%20payments) · [Search](https://www.google.com/search?q=How%20do%20you%20design%20an%20idempotency-key%20system%20for%20payments) |
-| Closures and the module pattern — with an example. | 🟢 Easy | `javascript` `closures` | [GfG](https://www.geeksforgeeks.org/search/?gq=Closures%20and%20the%20module%20pattern%20%E2%80%94%20with%20an%20example) · [Search](https://www.google.com/search?q=Closures%20and%20the%20module%20pattern%20%E2%80%94%20with%20an%20example) |
-| SQL vs NoSQL — how do you choose for a given workload? | 🟡 Medium | `databases` | [GfG](https://www.geeksforgeeks.org/search/?gq=SQL%20vs%20NoSQL%20%E2%80%94%20how%20do%20you%20choose%20for%20a%20given%20workload) · [Search](https://www.google.com/search?q=SQL%20vs%20NoSQL%20%E2%80%94%20how%20do%20you%20choose%20for%20a%20given%20workload) |
+| Explain database normalization and its normal forms. | 🟡 Medium | `dbms` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20database%20normalization%20and%20its%20normal%20forms) · [Search](https://www.google.com/search?q=Explain%20database%20normalization%20and%20its%20normal%20forms) |
+| What is a deadlock and how do you prevent it? | 🟡 Medium | `os` | [GfG](https://www.geeksforgeeks.org/search/?gq=What%20is%20a%20deadlock%20and%20how%20do%20you%20prevent%20it) · [Search](https://www.google.com/search?q=What%20is%20a%20deadlock%20and%20how%20do%20you%20prevent%20it) |
+| Difference between DELETE, TRUNCATE and DROP. | 🟢 Easy | `sql` | [GfG](https://www.geeksforgeeks.org/search/?gq=Difference%20between%20DELETE%2C%20TRUNCATE%20and%20DROP) · [Search](https://www.google.com/search?q=Difference%20between%20DELETE%2C%20TRUNCATE%20and%20DROP) |
+| Explain the layers of the OSI model. | 🟢 Easy | `networking` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20the%20layers%20of%20the%20OSI%20model) · [Search](https://www.google.com/search?q=Explain%20the%20layers%20of%20the%20OSI%20model) |
 
-## Round 5 · Behavioral / HR
+## Round 3 · Hiring Manager
+<!-- round: hiring_manager -->
+
+_Scope, ownership, and role-fit discussion with the manager._
+
+| Question | Difficulty | Tags |
+| --- | --- | --- |
+| Walk me through your project and your exact contribution to it. | — | — |
+| How would you approach understanding a client's legacy codebase? | — | — |
+
+## Round 4 · Behavioral / HR
 <!-- round: behavioral -->
 
 _Values, collaboration, and past-experience (STAR) questions._
 
 | Question | Difficulty | Tags |
 | --- | --- | --- |
-| When did you have to make a decision with incomplete data? | — | `judgment` `star` |
-| Describe mentoring or unblocking another engineer. | — | `mentorship` `star` |
+| Would you be comfortable working on any technology assigned to you? | — | — |
+| Tell me about yourself. | — | — |
+| Tell me about your final-year project. | — | — |
 
 ---
 

@@ -1,77 +1,72 @@
 ---
 id: ust-1
 company: ust
-role: frontend
-level: staff
+role: fullstack
+level: intern
 outcome: offer
 year: 2025
 source: curated
 summary: >-
-  A staff frontend loop. Pragmatic questions — more real-world than pure
-  puzzles.
+  A intern fullstack hiring drive. Fundamentals over puzzles — OOP, DBMS and SQL
+  carried the most weight.
 ---
-# Staff Frontend — UST
+# Intern Full-stack — UST
 
-![role](https://img.shields.io/badge/role-Frontend-22d3ee?style=flat-square)
-![level](https://img.shields.io/badge/level-Staff-818cf8?style=flat-square)
+![role](https://img.shields.io/badge/role-Full--stack-a78bfa?style=flat-square)
+![level](https://img.shields.io/badge/level-Intern-818cf8?style=flat-square)
 ![outcome](https://img.shields.io/badge/outcome-Offer-34d399?style=flat-square)
 ![year](https://img.shields.io/badge/year-2025-6b7280?style=flat-square)
 ![source](https://img.shields.io/badge/source-Commonly%20asked-2dd4bf?style=flat-square)
 
-> A staff frontend loop. Pragmatic questions — more real-world than pure puzzles.
+> A intern fullstack hiring drive. Fundamentals over puzzles — OOP, DBMS and SQL carried the most weight.
 
-**5 rounds · 9 questions**
+**4 rounds · 12 questions**
 
 ---
 
-## Round 1 · DSA / Coding
+## Round 1 · Online Assessment
+<!-- round: oa -->
+
+_Timed online coding / aptitude screen, usually the first filter._
+
+| Question | Difficulty | Tags | Practice |
+| --- | --- | --- | --- |
+| Quantitative aptitude: permutations, combinations and probability. | 🟡 Medium | `aptitude` | [GfG](https://www.geeksforgeeks.org/search/?gq=Quantitative%20aptitude%3A%20permutations%2C%20combinations%20and%20probability) · [Search](https://www.google.com/search?q=Quantitative%20aptitude%3A%20permutations%2C%20combinations%20and%20probability) |
+| Quantitative aptitude: time, speed and distance problems. | 🟢 Easy | `aptitude` | [GfG](https://www.geeksforgeeks.org/search/?gq=Quantitative%20aptitude%3A%20time%2C%20speed%20and%20distance%20problems) · [Search](https://www.google.com/search?q=Quantitative%20aptitude%3A%20time%2C%20speed%20and%20distance%20problems) |
+| Verbal ability: error spotting and sentence correction. | 🟢 Easy | `verbal` | [GfG](https://www.geeksforgeeks.org/search/?gq=Verbal%20ability%3A%20error%20spotting%20and%20sentence%20correction) · [Search](https://www.google.com/search?q=Verbal%20ability%3A%20error%20spotting%20and%20sentence%20correction) |
+
+## Round 2 · DSA / Coding
 <!-- round: dsa -->
 
 _Data structures & algorithms on a whiteboard or shared editor._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Top K frequent elements. | 🟡 Medium | `heap` `hashmap` | [LC](https://leetcode.com/problems/top-k-frequent-elements/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Top%20K%20frequent%20elements) |
-| Find minimum in rotated sorted array. | 🟡 Medium | `binary-search` | [LC](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Find%20minimum%20in%20rotated%20sorted%20array) |
-| Kth largest element in an array. | 🟡 Medium | `heap` `quickselect` | [LC](https://leetcode.com/problems/kth-largest-element-in-an-array/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Kth%20largest%20element%20in%20an%20array) |
+| Find the factorial of a number using recursion. | 🟢 Easy | `recursion` | [GfG](https://www.geeksforgeeks.org/search/?gq=Find%20the%20factorial%20of%20a%20number%20using%20recursion) · [Search](https://www.google.com/search?q=Find%20the%20factorial%20of%20a%20number%20using%20recursion) |
+| Find the largest and smallest element in an array. | 🟢 Easy | `array` | [GfG](https://www.geeksforgeeks.org/search/?gq=Find%20the%20largest%20and%20smallest%20element%20in%20an%20array) · [Search](https://www.google.com/search?q=Find%20the%20largest%20and%20smallest%20element%20in%20an%20array) |
 
-## Round 2 · System Design
-<!-- round: system_design -->
+## Round 3 · Tech Deep-Dive
+<!-- round: tech_deep_dive -->
 
-_High-level architecture of a large-scale system._
-
-| Question | Difficulty | Tags | Practice |
-| --- | --- | --- | --- |
-| Design an object storage service like S3. | 🔴 Hard | `storage` `scale` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20an%20object%20storage%20service%20like%20S3) · [Search](https://www.google.com/search?q=Design%20an%20object%20storage%20service%20like%20S3) |
-| Design a video streaming service like YouTube. | 🔴 Hard | `cdn` `storage` `transcoding` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20video%20streaming%20service%20like%20YouTube) · [Search](https://www.google.com/search?q=Design%20a%20video%20streaming%20service%20like%20YouTube) |
-
-## Round 3 · Low-Level Design
-<!-- round: lld -->
-
-_Object-oriented / low-level design of a focused module._
+_Deep questions on your core stack and fundamentals._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Design a data-fetching cache with invalidation. | 🔴 Hard | `cache` `oop` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20data-fetching%20cache%20with%20invalidation) · [Search](https://www.google.com/search?q=Design%20a%20data-fetching%20cache%20with%20invalidation) |
+| Method overloading vs method overriding. | 🟢 Easy | `oops` | [GfG](https://www.geeksforgeeks.org/search/?gq=Method%20overloading%20vs%20method%20overriding) · [Search](https://www.google.com/search?q=Method%20overloading%20vs%20method%20overriding) |
+| Difference between stack and heap memory. | 🟢 Easy | `fundamentals` | [GfG](https://www.geeksforgeeks.org/search/?gq=Difference%20between%20stack%20and%20heap%20memory) · [Search](https://www.google.com/search?q=Difference%20between%20stack%20and%20heap%20memory) |
+| What happens when you type a URL into a browser? | 🟡 Medium | `networking` | [GfG](https://www.geeksforgeeks.org/search/?gq=What%20happens%20when%20you%20type%20a%20URL%20into%20a%20browser) · [Search](https://www.google.com/search?q=What%20happens%20when%20you%20type%20a%20URL%20into%20a%20browser) |
+| Difference between DELETE, TRUNCATE and DROP. | 🟢 Easy | `sql` | [GfG](https://www.geeksforgeeks.org/search/?gq=Difference%20between%20DELETE%2C%20TRUNCATE%20and%20DROP) · [Search](https://www.google.com/search?q=Difference%20between%20DELETE%2C%20TRUNCATE%20and%20DROP) |
 
-## Round 4 · Hiring Manager
-<!-- round: hiring_manager -->
-
-_Scope, ownership, and role-fit discussion with the manager._
-
-| Question | Difficulty | Tags |
-| --- | --- | --- |
-| How do you run an incident and the postmortem after? | — | `reliability` `process` |
-
-## Round 5 · Behavioral / HR
+## Round 4 · Behavioral / HR
 <!-- round: behavioral -->
 
 _Values, collaboration, and past-experience (STAR) questions._
 
 | Question | Difficulty | Tags |
 | --- | --- | --- |
-| When did you change your mind after seeing new evidence? | — | `judgment` `star` |
-| Tell me about receiving hard feedback and acting on it. | — | `feedback` `star` |
+| Where do you see yourself in five years? | — | — |
+| Why do you want to join our company? | — | — |
+| Tell me about a conflict in a team project and how you resolved it. | — | — |
 
 ---
 

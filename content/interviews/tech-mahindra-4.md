@@ -1,89 +1,72 @@
 ---
 id: tech-mahindra-4
 company: tech-mahindra
-role: fullstack
-level: senior
-outcome: offer
-year: 2025
+role: backend
+level: intern
+outcome: unknown
+year: 2023
 source: curated
 summary: >-
-  6-round senior fullstack process. Fundamentals mattered as much as getting to
-  an answer.
+  A intern backend hiring drive. Aptitude screen first, then technical
+  fundamentals and HR.
 ---
-# Senior Full-stack — Tech Mahindra
+# Intern Backend — Tech Mahindra
 
-![role](https://img.shields.io/badge/role-Full--stack-a78bfa?style=flat-square)
-![level](https://img.shields.io/badge/level-Senior-818cf8?style=flat-square)
-![outcome](https://img.shields.io/badge/outcome-Offer-34d399?style=flat-square)
-![year](https://img.shields.io/badge/year-2025-6b7280?style=flat-square)
+![role](https://img.shields.io/badge/role-Backend-8b93ff?style=flat-square)
+![level](https://img.shields.io/badge/level-Intern-818cf8?style=flat-square)
+![outcome](https://img.shields.io/badge/outcome-Unknown-6b7280?style=flat-square)
+![year](https://img.shields.io/badge/year-2023-6b7280?style=flat-square)
 ![source](https://img.shields.io/badge/source-Commonly%20asked-2dd4bf?style=flat-square)
 
-> 6-round senior fullstack process. Fundamentals mattered as much as getting to an answer.
+> A intern backend hiring drive. Aptitude screen first, then technical fundamentals and HR.
 
-**6 rounds · 13 questions**
+**4 rounds · 12 questions**
 
 ---
 
-## Round 1 · DSA / Coding
+## Round 1 · Online Assessment
+<!-- round: oa -->
+
+_Timed online coding / aptitude screen, usually the first filter._
+
+| Question | Difficulty | Tags | Practice |
+| --- | --- | --- | --- |
+| Logical reasoning: data interpretation from charts and tables. | 🟡 Medium | `reasoning` | [GfG](https://www.geeksforgeeks.org/search/?gq=Logical%20reasoning%3A%20data%20interpretation%20from%20charts%20and%20tables) · [Search](https://www.google.com/search?q=Logical%20reasoning%3A%20data%20interpretation%20from%20charts%20and%20tables) |
+| Logical reasoning: number and letter series completion. | 🟢 Easy | `reasoning` | [GfG](https://www.geeksforgeeks.org/search/?gq=Logical%20reasoning%3A%20number%20and%20letter%20series%20completion) · [Search](https://www.google.com/search?q=Logical%20reasoning%3A%20number%20and%20letter%20series%20completion) |
+| Quantitative aptitude: profit, loss and percentages. | 🟢 Easy | `aptitude` | [GfG](https://www.geeksforgeeks.org/search/?gq=Quantitative%20aptitude%3A%20profit%2C%20loss%20and%20percentages) · [Search](https://www.google.com/search?q=Quantitative%20aptitude%3A%20profit%2C%20loss%20and%20percentages) |
+
+## Round 2 · DSA / Coding
 <!-- round: dsa -->
 
 _Data structures & algorithms on a whiteboard or shared editor._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Longest increasing subsequence. | 🔴 Hard | `dp` `binary-search` | [LC](https://leetcode.com/problems/longest-increasing-subsequence/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Longest%20increasing%20subsequence) |
-| Word break. | 🟡 Medium | `dp` `string` | [LC](https://leetcode.com/problems/word-break/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Word%20break) |
-| Search in a rotated sorted array. | 🟡 Medium | `binary-search` | [LC](https://leetcode.com/problems/search-in-rotated-sorted-array/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Search%20in%20a%20rotated%20sorted%20array) |
+| Sort an array using bubble sort and state its complexity. | 🟢 Easy | `sorting` | [GfG](https://www.geeksforgeeks.org/search/?gq=Sort%20an%20array%20using%20bubble%20sort%20and%20state%20its%20complexity) · [Search](https://www.google.com/search?q=Sort%20an%20array%20using%20bubble%20sort%20and%20state%20its%20complexity) |
+| Check whether a number is prime. | 🟢 Easy | `math` | [GfG](https://www.geeksforgeeks.org/search/?gq=Check%20whether%20a%20number%20is%20prime) · [Search](https://www.google.com/search?q=Check%20whether%20a%20number%20is%20prime) |
 
-## Round 2 · Machine Coding
-<!-- round: machine_coding -->
-
-_Build a working component or service under time pressure._
-
-| Question | Difficulty | Tags | Practice |
-| --- | --- | --- | --- |
-| Build a debounced autocomplete/search box with keyboard nav. | 🟡 Medium | `react` `debounce` `a11y` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20a%20debounced%20autocomplete%2Fsearch%20box%20with%20keyboard%20nav) · [Search](https://www.google.com/search?q=Build%20a%20debounced%20autocomplete%2Fsearch%20box%20with%20keyboard%20nav) |
-| Build a "connect four" game with win detection. | 🟡 Medium | `react` `state` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20a%20%22connect%20four%22%20game%20with%20win%20detection) · [Search](https://www.google.com/search?q=Build%20a%20%22connect%20four%22%20game%20with%20win%20detection) |
-
-## Round 3 · System Design
-<!-- round: system_design -->
-
-_High-level architecture of a large-scale system._
-
-| Question | Difficulty | Tags | Practice |
-| --- | --- | --- | --- |
-| Design a scalable frontend for an infinite feed (data, caching, rendering). | 🔴 Hard | `frontend` `virtualization` `cache` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20scalable%20frontend%20for%20an%20infinite%20feed%20(data%2C%20caching%2C%20rendering)) · [Search](https://www.google.com/search?q=Design%20a%20scalable%20frontend%20for%20an%20infinite%20feed%20(data%2C%20caching%2C%20rendering)) |
-| Design a search autocomplete at Google scale. | 🔴 Hard | `trie` `ranking` `cache` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20search%20autocomplete%20at%20Google%20scale) · [Search](https://www.google.com/search?q=Design%20a%20search%20autocomplete%20at%20Google%20scale) |
-
-## Round 4 · Tech Deep-Dive
+## Round 3 · Tech Deep-Dive
 <!-- round: tech_deep_dive -->
 
 _Deep questions on your core stack and fundamentals._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Explain hydration and the cost of client vs server rendering. | 🔴 Hard | `ssr` `perf` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20hydration%20and%20the%20cost%20of%20client%20vs%20server%20rendering) · [Search](https://www.google.com/search?q=Explain%20hydration%20and%20the%20cost%20of%20client%20vs%20server%20rendering) |
-| What is backpressure and how do you handle it? | 🔴 Hard | `streaming` `reliability` | [GfG](https://www.geeksforgeeks.org/search/?gq=What%20is%20backpressure%20and%20how%20do%20you%20handle%20it) · [Search](https://www.google.com/search?q=What%20is%20backpressure%20and%20how%20do%20you%20handle%20it) |
-| How do you implement dark mode without a flash? | 🟡 Medium | `css` `ssr` | [GfG](https://www.geeksforgeeks.org/search/?gq=How%20do%20you%20implement%20dark%20mode%20without%20a%20flash) · [Search](https://www.google.com/search?q=How%20do%20you%20implement%20dark%20mode%20without%20a%20flash) |
+| Difference between DBMS and RDBMS. | 🟢 Easy | `dbms` | [GfG](https://www.geeksforgeeks.org/search/?gq=Difference%20between%20DBMS%20and%20RDBMS) · [Search](https://www.google.com/search?q=Difference%20between%20DBMS%20and%20RDBMS) |
+| Difference between abstraction and encapsulation. | 🟢 Easy | `oops` | [GfG](https://www.geeksforgeeks.org/search/?gq=Difference%20between%20abstraction%20and%20encapsulation) · [Search](https://www.google.com/search?q=Difference%20between%20abstraction%20and%20encapsulation) |
+| Write a SQL query to find the second-highest salary. | 🟡 Medium | `sql` | [GfG](https://www.geeksforgeeks.org/search/?gq=Write%20a%20SQL%20query%20to%20find%20the%20second-highest%20salary) · [Search](https://www.google.com/search?q=Write%20a%20SQL%20query%20to%20find%20the%20second-highest%20salary) |
+| What is a pointer? Explain pointer arithmetic in C. | 🟡 Medium | `c` | [GfG](https://www.geeksforgeeks.org/search/?gq=What%20is%20a%20pointer%3F%20Explain%20pointer%20arithmetic%20in%20C) · [Search](https://www.google.com/search?q=What%20is%20a%20pointer%3F%20Explain%20pointer%20arithmetic%20in%20C) |
 
-## Round 5 · Hiring Manager
-<!-- round: hiring_manager -->
-
-_Scope, ownership, and role-fit discussion with the manager._
-
-| Question | Difficulty | Tags |
-| --- | --- | --- |
-| How do you handle disagreement with a product partner? | — | `collaboration` |
-
-## Round 6 · Behavioral / HR
+## Round 4 · Behavioral / HR
 <!-- round: behavioral -->
 
 _Values, collaboration, and past-experience (STAR) questions._
 
 | Question | Difficulty | Tags |
 | --- | --- | --- |
-| Tell me about a time you went above and beyond for a customer. | — | `customer` `star` |
-| Tell me about a time you had to learn something quickly. | — | `learning` `star` |
+| Why do you want to join our company? | — | — |
+| Tell me about yourself. | — | — |
+| Where do you see yourself in five years? | — | — |
 
 ---
 

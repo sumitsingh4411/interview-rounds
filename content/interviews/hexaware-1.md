@@ -1,89 +1,72 @@
 ---
 id: hexaware-1
 company: hexaware
-role: frontend
-level: senior
-outcome: withdrew
-year: 2023
+role: backend
+level: junior
+outcome: offer
+year: 2024
 source: curated
 summary: >-
-  6-round senior frontend process. Fundamentals mattered as much as getting to
-  an answer.
+  Campus-style junior backend interview. Breadth of fundamentals mattered more
+  than algorithmic depth.
 ---
-# Senior Frontend — Hexaware
+# Junior Backend — Hexaware
 
-![role](https://img.shields.io/badge/role-Frontend-22d3ee?style=flat-square)
-![level](https://img.shields.io/badge/level-Senior-818cf8?style=flat-square)
-![outcome](https://img.shields.io/badge/outcome-Withdrew-fbbf24?style=flat-square)
-![year](https://img.shields.io/badge/year-2023-6b7280?style=flat-square)
+![role](https://img.shields.io/badge/role-Backend-8b93ff?style=flat-square)
+![level](https://img.shields.io/badge/level-Junior-818cf8?style=flat-square)
+![outcome](https://img.shields.io/badge/outcome-Offer-34d399?style=flat-square)
+![year](https://img.shields.io/badge/year-2024-6b7280?style=flat-square)
 ![source](https://img.shields.io/badge/source-Commonly%20asked-2dd4bf?style=flat-square)
 
-> 6-round senior frontend process. Fundamentals mattered as much as getting to an answer.
+> Campus-style junior backend interview. Breadth of fundamentals mattered more than algorithmic depth.
 
-**6 rounds · 13 questions**
+**4 rounds · 12 questions**
 
 ---
 
-## Round 1 · DSA / Coding
+## Round 1 · Online Assessment
+<!-- round: oa -->
+
+_Timed online coding / aptitude screen, usually the first filter._
+
+| Question | Difficulty | Tags | Practice |
+| --- | --- | --- | --- |
+| Pseudocode: predict the output of the given code block. | 🟡 Medium | `pseudocode` | [GfG](https://www.geeksforgeeks.org/search/?gq=Pseudocode%3A%20predict%20the%20output%20of%20the%20given%20code%20block) · [Search](https://www.google.com/search?q=Pseudocode%3A%20predict%20the%20output%20of%20the%20given%20code%20block) |
+| Email writing / essay writing task. | 🟢 Easy | `verbal` | [GfG](https://www.geeksforgeeks.org/search/?gq=Email%20writing%20%2F%20essay%20writing%20task) · [Search](https://www.google.com/search?q=Email%20writing%20%2F%20essay%20writing%20task) |
+| Pseudocode: spot the error in the given snippet. | 🟡 Medium | `pseudocode` | [GfG](https://www.geeksforgeeks.org/search/?gq=Pseudocode%3A%20spot%20the%20error%20in%20the%20given%20snippet) · [Search](https://www.google.com/search?q=Pseudocode%3A%20spot%20the%20error%20in%20the%20given%20snippet) |
+
+## Round 2 · DSA / Coding
 <!-- round: dsa -->
 
 _Data structures & algorithms on a whiteboard or shared editor._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Decode ways. | 🟡 Medium | `dp` `string` | [LC](https://leetcode.com/problems/decode-ways/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Decode%20ways) |
-| Set matrix zeroes. | 🟡 Medium | `matrix` | [LC](https://leetcode.com/problems/set-matrix-zeroes/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Set%20matrix%20zeroes) |
-| Longest substring without repeating characters. | 🟡 Medium | `sliding-window` `string` | [LC](https://leetcode.com/problems/longest-substring-without-repeating-characters/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Longest%20substring%20without%20repeating%20characters) |
+| Implement binary search on a sorted array. | 🟢 Easy | `searching` | [GfG](https://www.geeksforgeeks.org/search/?gq=Implement%20binary%20search%20on%20a%20sorted%20array) · [Search](https://www.google.com/search?q=Implement%20binary%20search%20on%20a%20sorted%20array) |
+| Find the GCD and LCM of two numbers. | 🟢 Easy | `math` | [GfG](https://www.geeksforgeeks.org/search/?gq=Find%20the%20GCD%20and%20LCM%20of%20two%20numbers) · [Search](https://www.google.com/search?q=Find%20the%20GCD%20and%20LCM%20of%20two%20numbers) |
 
-## Round 2 · Machine Coding
-<!-- round: machine_coding -->
-
-_Build a working component or service under time pressure._
-
-| Question | Difficulty | Tags | Practice |
-| --- | --- | --- | --- |
-| Build a multi-step form with validation. | 🟡 Medium | `react` `forms` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20a%20multi-step%20form%20with%20validation) · [Search](https://www.google.com/search?q=Build%20a%20multi-step%20form%20with%20validation) |
-| Build an accessible tabs component with keyboard nav. | 🟡 Medium | `react` `a11y` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20an%20accessible%20tabs%20component%20with%20keyboard%20nav) · [Search](https://www.google.com/search?q=Build%20an%20accessible%20tabs%20component%20with%20keyboard%20nav) |
-
-## Round 3 · System Design
-<!-- round: system_design -->
-
-_High-level architecture of a large-scale system._
-
-| Question | Difficulty | Tags | Practice |
-| --- | --- | --- | --- |
-| Design a URL shortener like TinyURL. | 🟡 Medium | `hashing` `cache` `sharding` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20URL%20shortener%20like%20TinyURL) · [Search](https://www.google.com/search?q=Design%20a%20URL%20shortener%20like%20TinyURL) |
-| Design a file-sharing service with permissions. | 🟡 Medium | `storage` `acl` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20file-sharing%20service%20with%20permissions) · [Search](https://www.google.com/search?q=Design%20a%20file-sharing%20service%20with%20permissions) |
-
-## Round 4 · Tech Deep-Dive
+## Round 3 · Tech Deep-Dive
 <!-- round: tech_deep_dive -->
 
 _Deep questions on your core stack and fundamentals._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Explain WeakMap/WeakSet and when to use them. | 🟡 Medium | `javascript` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20WeakMap%2FWeakSet%20and%20when%20to%20use%20them) · [Search](https://www.google.com/search?q=Explain%20WeakMap%2FWeakSet%20and%20when%20to%20use%20them) |
-| Difference between controlled and uncontrolled inputs. | 🟢 Easy | `react` `forms` | [GfG](https://www.geeksforgeeks.org/search/?gq=Difference%20between%20controlled%20and%20uncontrolled%20inputs) · [Search](https://www.google.com/search?q=Difference%20between%20controlled%20and%20uncontrolled%20inputs) |
-| What is the virtual DOM and why does it help? | 🟡 Medium | `react` | [GfG](https://www.geeksforgeeks.org/search/?gq=What%20is%20the%20virtual%20DOM%20and%20why%20does%20it%20help) · [Search](https://www.google.com/search?q=What%20is%20the%20virtual%20DOM%20and%20why%20does%20it%20help) |
+| Explain Java collections: List, Set and Map. | 🟡 Medium | `java` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20Java%20collections%3A%20List%2C%20Set%20and%20Map) · [Search](https://www.google.com/search?q=Explain%20Java%20collections%3A%20List%2C%20Set%20and%20Map) |
+| What is a constructor? Explain constructor overloading. | 🟢 Easy | `oops` | [GfG](https://www.geeksforgeeks.org/search/?gq=What%20is%20a%20constructor%3F%20Explain%20constructor%20overloading) · [Search](https://www.google.com/search?q=What%20is%20a%20constructor%3F%20Explain%20constructor%20overloading) |
+| Explain virtual memory, paging and segmentation. | 🟡 Medium | `os` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20virtual%20memory%2C%20paging%20and%20segmentation) · [Search](https://www.google.com/search?q=Explain%20virtual%20memory%2C%20paging%20and%20segmentation) |
+| What are the JDK, JRE and JVM? | 🟢 Easy | `java` | [GfG](https://www.geeksforgeeks.org/search/?gq=What%20are%20the%20JDK%2C%20JRE%20and%20JVM) · [Search](https://www.google.com/search?q=What%20are%20the%20JDK%2C%20JRE%20and%20JVM) |
 
-## Round 5 · Hiring Manager
-<!-- round: hiring_manager -->
-
-_Scope, ownership, and role-fit discussion with the manager._
-
-| Question | Difficulty | Tags |
-| --- | --- | --- |
-| How do you balance tech debt against feature work? | — | `prioritization` |
-
-## Round 6 · Behavioral / HR
+## Round 4 · Behavioral / HR
 <!-- round: behavioral -->
 
 _Values, collaboration, and past-experience (STAR) questions._
 
 | Question | Difficulty | Tags |
 | --- | --- | --- |
-| Tell me about a project you are most proud of. | — | `star` |
-| Tell me about the most impactful project of your career. | — | `impact` `star` |
+| Why should we hire you? | — | — |
+| Do you have any backlogs or academic gaps? Please explain. | — | — |
+| Tell me about yourself. | — | — |
 
 ---
 

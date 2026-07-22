@@ -1,26 +1,26 @@
 ---
 id: persistent-4
 company: persistent
-role: fullstack
+role: backend
 level: senior
-outcome: no_offer
+outcome: offer
 year: 2023
 source: curated
 summary: >-
-  6-round senior fullstack process. Coding-heavy early, design and behavioral
-  later.
+  Campus-style senior backend interview. Breadth of fundamentals mattered more
+  than algorithmic depth.
 ---
-# Senior Full-stack — Persistent Systems
+# Senior Backend — Persistent Systems
 
-![role](https://img.shields.io/badge/role-Full--stack-a78bfa?style=flat-square)
+![role](https://img.shields.io/badge/role-Backend-8b93ff?style=flat-square)
 ![level](https://img.shields.io/badge/level-Senior-818cf8?style=flat-square)
-![outcome](https://img.shields.io/badge/outcome-No%20offer-f87171?style=flat-square)
+![outcome](https://img.shields.io/badge/outcome-Offer-34d399?style=flat-square)
 ![year](https://img.shields.io/badge/year-2023-6b7280?style=flat-square)
 ![source](https://img.shields.io/badge/source-Commonly%20asked-2dd4bf?style=flat-square)
 
-> 6-round senior fullstack process. Coding-heavy early, design and behavioral later.
+> Campus-style senior backend interview. Breadth of fundamentals mattered more than algorithmic depth.
 
-**6 rounds · 13 questions**
+**4 rounds · 11 questions**
 
 ---
 
@@ -31,59 +31,41 @@ _Data structures & algorithms on a whiteboard or shared editor._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Lowest common ancestor of a binary tree. | 🟡 Medium | `tree` | [LC](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Lowest%20common%20ancestor%20of%20a%20binary%20tree) |
-| Container with most water. | 🟡 Medium | `two-pointers` `array` | [LC](https://leetcode.com/problems/container-with-most-water/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Container%20with%20most%20water) |
-| Unique paths. | 🟡 Medium | `dp` `grid` | [LC](https://leetcode.com/problems/unique-paths/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Unique%20paths) |
+| Find the factorial of a number using recursion. | 🟢 Easy | `recursion` | [GfG](https://www.geeksforgeeks.org/search/?gq=Find%20the%20factorial%20of%20a%20number%20using%20recursion) · [Search](https://www.google.com/search?q=Find%20the%20factorial%20of%20a%20number%20using%20recursion) |
+| Remove duplicate characters from a string. | 🟢 Easy | `string` | [GfG](https://www.geeksforgeeks.org/search/?gq=Remove%20duplicate%20characters%20from%20a%20string) · [Search](https://www.google.com/search?q=Remove%20duplicate%20characters%20from%20a%20string) |
 
-## Round 2 · Machine Coding
-<!-- round: machine_coding -->
-
-_Build a working component or service under time pressure._
-
-| Question | Difficulty | Tags | Practice |
-| --- | --- | --- | --- |
-| Build a key-value store with TTL expiry. | 🟡 Medium | `cache` `ttl` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20a%20key-value%20store%20with%20TTL%20expiry) · [Search](https://www.google.com/search?q=Build%20a%20key-value%20store%20with%20TTL%20expiry) |
-| Build auth middleware that verifies a JWT. | 🟡 Medium | `auth` `security` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20auth%20middleware%20that%20verifies%20a%20JWT) · [Search](https://www.google.com/search?q=Build%20auth%20middleware%20that%20verifies%20a%20JWT) |
-
-## Round 3 · System Design
-<!-- round: system_design -->
-
-_High-level architecture of a large-scale system._
-
-| Question | Difficulty | Tags | Practice |
-| --- | --- | --- | --- |
-| Design a rate limiter for a public API. | 🟡 Medium | `token-bucket` `redis` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20rate%20limiter%20for%20a%20public%20API) · [Search](https://www.google.com/search?q=Design%20a%20rate%20limiter%20for%20a%20public%20API) |
-| Design a client-side feature-flag and experiment SDK. | 🟡 Medium | `frontend` `experiments` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20client-side%20feature-flag%20and%20experiment%20SDK) · [Search](https://www.google.com/search?q=Design%20a%20client-side%20feature-flag%20and%20experiment%20SDK) |
-
-## Round 4 · Tech Deep-Dive
+## Round 2 · Tech Deep-Dive
 <!-- round: tech_deep_dive -->
 
 _Deep questions on your core stack and fundamentals._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| How do circuit breakers and bulkheads improve resilience? | 🟡 Medium | `reliability` | [GfG](https://www.geeksforgeeks.org/search/?gq=How%20do%20circuit%20breakers%20and%20bulkheads%20improve%20resilience) · [Search](https://www.google.com/search?q=How%20do%20circuit%20breakers%20and%20bulkheads%20improve%20resilience) |
-| Explain CORS and how a preflight request works. | 🟡 Medium | `browser` `security` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20CORS%20and%20how%20a%20preflight%20request%20works) · [Search](https://www.google.com/search?q=Explain%20CORS%20and%20how%20a%20preflight%20request%20works) |
-| What is backpressure and how do you handle it? | 🔴 Hard | `streaming` `reliability` | [GfG](https://www.geeksforgeeks.org/search/?gq=What%20is%20backpressure%20and%20how%20do%20you%20handle%20it) · [Search](https://www.google.com/search?q=What%20is%20backpressure%20and%20how%20do%20you%20handle%20it) |
+| Difference between a process and a thread. | 🟢 Easy | `os` | [GfG](https://www.geeksforgeeks.org/search/?gq=Difference%20between%20a%20process%20and%20a%20thread) · [Search](https://www.google.com/search?q=Difference%20between%20a%20process%20and%20a%20thread) |
+| Write a SQL query to find the second-highest salary. | 🟡 Medium | `sql` | [GfG](https://www.geeksforgeeks.org/search/?gq=Write%20a%20SQL%20query%20to%20find%20the%20second-highest%20salary) · [Search](https://www.google.com/search?q=Write%20a%20SQL%20query%20to%20find%20the%20second-highest%20salary) |
+| Explain database normalization and its normal forms. | 🟡 Medium | `dbms` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20database%20normalization%20and%20its%20normal%20forms) · [Search](https://www.google.com/search?q=Explain%20database%20normalization%20and%20its%20normal%20forms) |
+| Difference between an array and a linked list. | 🟢 Easy | `data-structures` | [GfG](https://www.geeksforgeeks.org/search/?gq=Difference%20between%20an%20array%20and%20a%20linked%20list) · [Search](https://www.google.com/search?q=Difference%20between%20an%20array%20and%20a%20linked%20list) |
 
-## Round 5 · Hiring Manager
+## Round 3 · Hiring Manager
 <!-- round: hiring_manager -->
 
 _Scope, ownership, and role-fit discussion with the manager._
 
 | Question | Difficulty | Tags |
 | --- | --- | --- |
-| How do you handle disagreement with a product partner? | — | `collaboration` |
+| How do you approach learning a technology you have never used? | — | — |
+| How would you approach understanding a client's legacy codebase? | — | — |
 
-## Round 6 · Behavioral / HR
+## Round 4 · Behavioral / HR
 <!-- round: behavioral -->
 
 _Values, collaboration, and past-experience (STAR) questions._
 
 | Question | Difficulty | Tags |
 | --- | --- | --- |
-| Tell me about a time you led without a title. | — | `leadership` `star` |
-| Tell me about a time you went above and beyond for a customer. | — | `customer` `star` |
+| How do you handle pressure and tight deadlines? | — | — |
+| What do you know about our company and the services we provide? | — | — |
+| Tell me about your final-year project. | — | — |
 
 ---
 

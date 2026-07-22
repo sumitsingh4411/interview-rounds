@@ -1,26 +1,26 @@
 ---
 id: hcltech-4
 company: hcltech
-role: fullstack
-level: junior
+role: backend
+level: intern
 outcome: no_offer
-year: 2025
+year: 2023
 source: curated
 summary: >-
-  Junior fullstack interview. Fundamentals mattered as much as getting to an
-  answer.
+  4-round intern backend process. Basic programming plus core CS; communication
+  mattered throughout.
 ---
-# Junior Full-stack — HCLTech
+# Intern Backend — HCLTech
 
-![role](https://img.shields.io/badge/role-Full--stack-a78bfa?style=flat-square)
-![level](https://img.shields.io/badge/level-Junior-818cf8?style=flat-square)
+![role](https://img.shields.io/badge/role-Backend-8b93ff?style=flat-square)
+![level](https://img.shields.io/badge/level-Intern-818cf8?style=flat-square)
 ![outcome](https://img.shields.io/badge/outcome-No%20offer-f87171?style=flat-square)
-![year](https://img.shields.io/badge/year-2025-6b7280?style=flat-square)
+![year](https://img.shields.io/badge/year-2023-6b7280?style=flat-square)
 ![source](https://img.shields.io/badge/source-Commonly%20asked-2dd4bf?style=flat-square)
 
-> Junior fullstack interview. Fundamentals mattered as much as getting to an answer.
+> 4-round intern backend process. Basic programming plus core CS; communication mattered throughout.
 
-**5 rounds · 11 questions**
+**4 rounds · 12 questions**
 
 ---
 
@@ -31,7 +31,9 @@ _Timed online coding / aptitude screen, usually the first filter._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Find the number of distinct substrings of length k. | 🟡 Medium | `sliding-window` `string` | [GfG](https://www.geeksforgeeks.org/search/?gq=Find%20the%20number%20of%20distinct%20substrings%20of%20length%20k) · [Search](https://www.google.com/search?q=Find%20the%20number%20of%20distinct%20substrings%20of%20length%20k) |
+| Pseudocode: predict the output of the given code block. | 🟡 Medium | `pseudocode` | [GfG](https://www.geeksforgeeks.org/search/?gq=Pseudocode%3A%20predict%20the%20output%20of%20the%20given%20code%20block) · [Search](https://www.google.com/search?q=Pseudocode%3A%20predict%20the%20output%20of%20the%20given%20code%20block) |
+| Quantitative aptitude: time, speed and distance problems. | 🟢 Easy | `aptitude` | [GfG](https://www.geeksforgeeks.org/search/?gq=Quantitative%20aptitude%3A%20time%2C%20speed%20and%20distance%20problems) · [Search](https://www.google.com/search?q=Quantitative%20aptitude%3A%20time%2C%20speed%20and%20distance%20problems) |
+| Verbal ability: reading comprehension passage. | 🟢 Easy | `verbal` | [GfG](https://www.geeksforgeeks.org/search/?gq=Verbal%20ability%3A%20reading%20comprehension%20passage) · [Search](https://www.google.com/search?q=Verbal%20ability%3A%20reading%20comprehension%20passage) |
 
 ## Round 2 · DSA / Coding
 <!-- round: dsa -->
@@ -40,40 +42,31 @@ _Data structures & algorithms on a whiteboard or shared editor._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Pow(x, n). | 🟡 Medium | `math` `recursion` | [LC](https://leetcode.com/problems/powx-n/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Pow(x%2C%20n)) |
-| Construct binary tree from preorder and inorder traversal. | 🟡 Medium | `tree` `recursion` | [LC](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Construct%20binary%20tree%20from%20preorder%20and%20inorder%20traversal) |
-| Climbing stairs. | 🟢 Easy | `dp` | [LC](https://leetcode.com/problems/climbing-stairs/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Climbing%20stairs) |
+| Check whether a number is an Armstrong number. | 🟢 Easy | `math` | [GfG](https://www.geeksforgeeks.org/search/?gq=Check%20whether%20a%20number%20is%20an%20Armstrong%20number) · [Search](https://www.google.com/search?q=Check%20whether%20a%20number%20is%20an%20Armstrong%20number) |
+| Check whether a string is a palindrome. | 🟢 Easy | `string` | [GfG](https://www.geeksforgeeks.org/search/?gq=Check%20whether%20a%20string%20is%20a%20palindrome) · [Search](https://www.google.com/search?q=Check%20whether%20a%20string%20is%20a%20palindrome) |
 
-## Round 3 · Machine Coding
-<!-- round: machine_coding -->
-
-_Build a working component or service under time pressure._
-
-| Question | Difficulty | Tags | Practice |
-| --- | --- | --- | --- |
-| Build a color-picker with hex/rgb sync. | 🟡 Medium | `react` `ui` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20a%20color-picker%20with%20hex%2Frgb%20sync) · [Search](https://www.google.com/search?q=Build%20a%20color-picker%20with%20hex%2Frgb%20sync) |
-| Implement cursor-based pagination over a sorted dataset. | 🟡 Medium | `pagination` `api` | [GfG](https://www.geeksforgeeks.org/search/?gq=Implement%20cursor-based%20pagination%20over%20a%20sorted%20dataset) · [Search](https://www.google.com/search?q=Implement%20cursor-based%20pagination%20over%20a%20sorted%20dataset) |
-
-## Round 4 · Tech Deep-Dive
+## Round 3 · Tech Deep-Dive
 <!-- round: tech_deep_dive -->
 
 _Deep questions on your core stack and fundamentals._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| SQL vs NoSQL — how do you choose for a given workload? | 🟡 Medium | `databases` | [GfG](https://www.geeksforgeeks.org/search/?gq=SQL%20vs%20NoSQL%20%E2%80%94%20how%20do%20you%20choose%20for%20a%20given%20workload) · [Search](https://www.google.com/search?q=SQL%20vs%20NoSQL%20%E2%80%94%20how%20do%20you%20choose%20for%20a%20given%20workload) |
-| How do you design a schema for a multi-currency ledger? | 🔴 Hard | `databases` `money` | [GfG](https://www.geeksforgeeks.org/search/?gq=How%20do%20you%20design%20a%20schema%20for%20a%20multi-currency%20ledger) · [Search](https://www.google.com/search?q=How%20do%20you%20design%20a%20schema%20for%20a%20multi-currency%20ledger) |
-| Explain how a hash index differs from a B-tree index. | 🔴 Hard | `databases` `indexing` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20how%20a%20hash%20index%20differs%20from%20a%20B-tree%20index) · [Search](https://www.google.com/search?q=Explain%20how%20a%20hash%20index%20differs%20from%20a%20B-tree%20index) |
+| Write a SQL query to find the second-highest salary. | 🟡 Medium | `sql` | [GfG](https://www.geeksforgeeks.org/search/?gq=Write%20a%20SQL%20query%20to%20find%20the%20second-highest%20salary) · [Search](https://www.google.com/search?q=Write%20a%20SQL%20query%20to%20find%20the%20second-highest%20salary) |
+| Explain your final-year project architecture and your role in it. | 🟢 Easy | `project` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20your%20final-year%20project%20architecture%20and%20your%20role%20in%20it) · [Search](https://www.google.com/search?q=Explain%20your%20final-year%20project%20architecture%20and%20your%20role%20in%20it) |
+| What is a deadlock and how do you prevent it? | 🟡 Medium | `os` | [GfG](https://www.geeksforgeeks.org/search/?gq=What%20is%20a%20deadlock%20and%20how%20do%20you%20prevent%20it) · [Search](https://www.google.com/search?q=What%20is%20a%20deadlock%20and%20how%20do%20you%20prevent%20it) |
+| What is indexing in a database and when does it help? | 🟡 Medium | `dbms` | [GfG](https://www.geeksforgeeks.org/search/?gq=What%20is%20indexing%20in%20a%20database%20and%20when%20does%20it%20help) · [Search](https://www.google.com/search?q=What%20is%20indexing%20in%20a%20database%20and%20when%20does%20it%20help) |
 
-## Round 5 · Behavioral / HR
+## Round 4 · Behavioral / HR
 <!-- round: behavioral -->
 
 _Values, collaboration, and past-experience (STAR) questions._
 
 | Question | Difficulty | Tags |
 | --- | --- | --- |
-| Tell me about a time you had to say no to a stakeholder. | — | `influence` `star` |
-| A time you made a mistake in production — what happened next? | — | `ownership` `star` |
+| Are you willing to relocate anywhere in India? | — | — |
+| Tell me about your final-year project. | — | — |
+| Why should we hire you? | — | — |
 
 ---
 

@@ -1,26 +1,26 @@
 ---
 id: cyient-5
 company: cyient
-role: backend
-level: junior
-outcome: unknown
-year: 2023
+role: frontend
+level: mid
+outcome: offer
+year: 2025
 source: curated
 summary: >-
-  5-round junior backend process. Coding-heavy early, design and behavioral
-  later.
+  Campus-style mid frontend interview. Aptitude screen first, then technical
+  fundamentals and HR.
 ---
-# Junior Backend — Cyient
+# Mid Frontend — Cyient
 
-![role](https://img.shields.io/badge/role-Backend-8b93ff?style=flat-square)
-![level](https://img.shields.io/badge/level-Junior-818cf8?style=flat-square)
-![outcome](https://img.shields.io/badge/outcome-Unknown-6b7280?style=flat-square)
-![year](https://img.shields.io/badge/year-2023-6b7280?style=flat-square)
+![role](https://img.shields.io/badge/role-Frontend-22d3ee?style=flat-square)
+![level](https://img.shields.io/badge/level-Mid-818cf8?style=flat-square)
+![outcome](https://img.shields.io/badge/outcome-Offer-34d399?style=flat-square)
+![year](https://img.shields.io/badge/year-2025-6b7280?style=flat-square)
 ![source](https://img.shields.io/badge/source-Commonly%20asked-2dd4bf?style=flat-square)
 
-> 5-round junior backend process. Coding-heavy early, design and behavioral later.
+> Campus-style mid frontend interview. Aptitude screen first, then technical fundamentals and HR.
 
-**5 rounds · 11 questions**
+**5 rounds · 14 questions**
 
 ---
 
@@ -31,7 +31,9 @@ _Timed online coding / aptitude screen, usually the first filter._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Find the missing number in 1..n. | 🟢 Easy | `math` | [LC](https://leetcode.com/problems/missing-number/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Find%20the%20missing%20number%20in%201..n) |
+| Quantitative aptitude: permutations, combinations and probability. | 🟡 Medium | `aptitude` | [GfG](https://www.geeksforgeeks.org/search/?gq=Quantitative%20aptitude%3A%20permutations%2C%20combinations%20and%20probability) · [Search](https://www.google.com/search?q=Quantitative%20aptitude%3A%20permutations%2C%20combinations%20and%20probability) |
+| Quantitative aptitude: ratio, proportion and averages. | 🟢 Easy | `aptitude` | [GfG](https://www.geeksforgeeks.org/search/?gq=Quantitative%20aptitude%3A%20ratio%2C%20proportion%20and%20averages) · [Search](https://www.google.com/search?q=Quantitative%20aptitude%3A%20ratio%2C%20proportion%20and%20averages) |
+| Quantitative aptitude: simple and compound interest. | 🟢 Easy | `aptitude` | [GfG](https://www.geeksforgeeks.org/search/?gq=Quantitative%20aptitude%3A%20simple%20and%20compound%20interest) · [Search](https://www.google.com/search?q=Quantitative%20aptitude%3A%20simple%20and%20compound%20interest) |
 
 ## Round 2 · DSA / Coding
 <!-- round: dsa -->
@@ -40,30 +42,30 @@ _Data structures & algorithms on a whiteboard or shared editor._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Minimum window substring. | 🔴 Hard | `sliding-window` `string` | [LC](https://leetcode.com/problems/minimum-window-substring/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Minimum%20window%20substring) |
-| Trapping rain water. | 🔴 Hard | `two-pointers` `array` | [LC](https://leetcode.com/problems/trapping-rain-water/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Trapping%20rain%20water) |
-| Binary tree level order traversal. | 🟡 Medium | `tree` `bfs` | [LC](https://leetcode.com/problems/binary-tree-level-order-traversal/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Binary%20tree%20level%20order%20traversal) |
+| Find the largest and smallest element in an array. | 🟢 Easy | `array` | [GfG](https://www.geeksforgeeks.org/search/?gq=Find%20the%20largest%20and%20smallest%20element%20in%20an%20array) · [Search](https://www.google.com/search?q=Find%20the%20largest%20and%20smallest%20element%20in%20an%20array) |
+| Remove duplicates from an array without using extra space. | 🟡 Medium | `array` | [GfG](https://www.geeksforgeeks.org/search/?gq=Remove%20duplicates%20from%20an%20array%20without%20using%20extra%20space) · [Search](https://www.google.com/search?q=Remove%20duplicates%20from%20an%20array%20without%20using%20extra%20space) |
 
-## Round 3 · Machine Coding
-<!-- round: machine_coding -->
-
-_Build a working component or service under time pressure._
-
-| Question | Difficulty | Tags | Practice |
-| --- | --- | --- | --- |
-| Design and build a URL-shortener service (API + storage). | 🟡 Medium | `api` `hashing` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20and%20build%20a%20URL-shortener%20service%20(API%20%2B%20storage)) · [Search](https://www.google.com/search?q=Design%20and%20build%20a%20URL-shortener%20service%20(API%20%2B%20storage)) |
-| Build a background job runner with priorities. | 🟡 Medium | `queue` `workers` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20a%20background%20job%20runner%20with%20priorities) · [Search](https://www.google.com/search?q=Build%20a%20background%20job%20runner%20with%20priorities) |
-
-## Round 4 · Tech Deep-Dive
+## Round 3 · Tech Deep-Dive
 <!-- round: tech_deep_dive -->
 
 _Deep questions on your core stack and fundamentals._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Explain database replication lag and how to mitigate it. | 🟡 Medium | `databases` `replication` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20database%20replication%20lag%20and%20how%20to%20mitigate%20it) · [Search](https://www.google.com/search?q=Explain%20database%20replication%20lag%20and%20how%20to%20mitigate%20it) |
-| How does a load balancer choose a backend? | 🟡 Medium | `networking` | [GfG](https://www.geeksforgeeks.org/search/?gq=How%20does%20a%20load%20balancer%20choose%20a%20backend) · [Search](https://www.google.com/search?q=How%20does%20a%20load%20balancer%20choose%20a%20backend) |
-| Sharding vs partitioning vs replication. | 🔴 Hard | `databases` `scale` | [GfG](https://www.geeksforgeeks.org/search/?gq=Sharding%20vs%20partitioning%20vs%20replication) · [Search](https://www.google.com/search?q=Sharding%20vs%20partitioning%20vs%20replication) |
+| Explain database normalization and its normal forms. | 🟡 Medium | `dbms` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20database%20normalization%20and%20its%20normal%20forms) · [Search](https://www.google.com/search?q=Explain%20database%20normalization%20and%20its%20normal%20forms) |
+| Difference between a structure and a union in C. | 🟢 Easy | `c` | [GfG](https://www.geeksforgeeks.org/search/?gq=Difference%20between%20a%20structure%20and%20a%20union%20in%20C) · [Search](https://www.google.com/search?q=Difference%20between%20a%20structure%20and%20a%20union%20in%20C) |
+| Explain the four pillars of OOP with examples. | 🟢 Easy | `oops` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20the%20four%20pillars%20of%20OOP%20with%20examples) · [Search](https://www.google.com/search?q=Explain%20the%20four%20pillars%20of%20OOP%20with%20examples) |
+| Difference between == and equals() in Java. | 🟢 Easy | `java` | [GfG](https://www.geeksforgeeks.org/search/?gq=Difference%20between%20%3D%3D%20and%20equals()%20in%20Java) · [Search](https://www.google.com/search?q=Difference%20between%20%3D%3D%20and%20equals()%20in%20Java) |
+
+## Round 4 · Hiring Manager
+<!-- round: hiring_manager -->
+
+_Scope, ownership, and role-fit discussion with the manager._
+
+| Question | Difficulty | Tags |
+| --- | --- | --- |
+| Describe your experience working with an onsite / offshore team. | — | — |
+| How do you ensure code quality under a tight delivery timeline? | — | — |
 
 ## Round 5 · Behavioral / HR
 <!-- round: behavioral -->
@@ -72,8 +74,9 @@ _Values, collaboration, and past-experience (STAR) questions._
 
 | Question | Difficulty | Tags |
 | --- | --- | --- |
-| When did you take ownership of something outside your scope? | — | `ownership` `star` |
-| Describe mentoring or unblocking another engineer. | — | `mentorship` `star` |
+| Why did you choose this branch of engineering? | — | — |
+| Are you comfortable working in rotational or night shifts? | — | — |
+| Are you willing to relocate anywhere in India? | — | — |
 
 ---
 

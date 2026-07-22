@@ -1,58 +1,61 @@
 ---
 id: capgemini-5
 company: capgemini
-role: backend
-level: staff
-outcome: withdrew
-year: 2023
+role: fullstack
+level: mid
+outcome: offer
+year: 2025
 source: curated
 summary: >-
-  5-round staff backend process. Pragmatic questions — more real-world than pure
-  puzzles.
+  5-round mid fullstack process. Basic programming plus core CS; communication
+  mattered throughout.
 ---
-# Staff Backend — Capgemini
+# Mid Full-stack — Capgemini
 
-![role](https://img.shields.io/badge/role-Backend-8b93ff?style=flat-square)
-![level](https://img.shields.io/badge/level-Staff-818cf8?style=flat-square)
-![outcome](https://img.shields.io/badge/outcome-Withdrew-fbbf24?style=flat-square)
-![year](https://img.shields.io/badge/year-2023-6b7280?style=flat-square)
+![role](https://img.shields.io/badge/role-Full--stack-a78bfa?style=flat-square)
+![level](https://img.shields.io/badge/level-Mid-818cf8?style=flat-square)
+![outcome](https://img.shields.io/badge/outcome-Offer-34d399?style=flat-square)
+![year](https://img.shields.io/badge/year-2025-6b7280?style=flat-square)
 ![source](https://img.shields.io/badge/source-Commonly%20asked-2dd4bf?style=flat-square)
 
-> 5-round staff backend process. Pragmatic questions — more real-world than pure puzzles.
+> 5-round mid fullstack process. Basic programming plus core CS; communication mattered throughout.
 
-**5 rounds · 9 questions**
+**5 rounds · 14 questions**
 
 ---
 
-## Round 1 · DSA / Coding
+## Round 1 · Online Assessment
+<!-- round: oa -->
+
+_Timed online coding / aptitude screen, usually the first filter._
+
+| Question | Difficulty | Tags | Practice |
+| --- | --- | --- | --- |
+| Pseudocode: spot the error in the given snippet. | 🟡 Medium | `pseudocode` | [GfG](https://www.geeksforgeeks.org/search/?gq=Pseudocode%3A%20spot%20the%20error%20in%20the%20given%20snippet) · [Search](https://www.google.com/search?q=Pseudocode%3A%20spot%20the%20error%20in%20the%20given%20snippet) |
+| Verbal ability: synonyms, antonyms and para-jumbles. | 🟢 Easy | `verbal` | [GfG](https://www.geeksforgeeks.org/search/?gq=Verbal%20ability%3A%20synonyms%2C%20antonyms%20and%20para-jumbles) · [Search](https://www.google.com/search?q=Verbal%20ability%3A%20synonyms%2C%20antonyms%20and%20para-jumbles) |
+| Logical reasoning: number and letter series completion. | 🟢 Easy | `reasoning` | [GfG](https://www.geeksforgeeks.org/search/?gq=Logical%20reasoning%3A%20number%20and%20letter%20series%20completion) · [Search](https://www.google.com/search?q=Logical%20reasoning%3A%20number%20and%20letter%20series%20completion) |
+
+## Round 2 · DSA / Coding
 <!-- round: dsa -->
 
 _Data structures & algorithms on a whiteboard or shared editor._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Two Sum — return indices of numbers adding to a target. | 🟢 Easy | `array` `hashmap` | [LC](https://leetcode.com/problems/two-sum/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Two%20Sum%20%E2%80%94%20return%20indices%20of%20numbers%20adding%20to%20a%20target) |
-| Implement a trie (prefix tree). | 🟡 Medium | `trie` | [LC](https://leetcode.com/problems/implement-trie-prefix-tree/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Implement%20a%20trie%20(prefix%20tree)) |
-| Top K frequent elements. | 🟡 Medium | `heap` `hashmap` | [LC](https://leetcode.com/problems/top-k-frequent-elements/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Top%20K%20frequent%20elements) |
+| Check whether a number is prime. | 🟢 Easy | `math` | [GfG](https://www.geeksforgeeks.org/search/?gq=Check%20whether%20a%20number%20is%20prime) · [Search](https://www.google.com/search?q=Check%20whether%20a%20number%20is%20prime) |
+| Print a star / pyramid pattern for n rows. | 🟢 Easy | `patterns` | [GfG](https://www.geeksforgeeks.org/search/?gq=Print%20a%20star%20%2F%20pyramid%20pattern%20for%20n%20rows) · [Search](https://www.google.com/search?q=Print%20a%20star%20%2F%20pyramid%20pattern%20for%20n%20rows) |
 
-## Round 2 · System Design
-<!-- round: system_design -->
+## Round 3 · Tech Deep-Dive
+<!-- round: tech_deep_dive -->
 
-_High-level architecture of a large-scale system._
-
-| Question | Difficulty | Tags | Practice |
-| --- | --- | --- | --- |
-| Design a distributed key-value store. | 🔴 Hard | `replication` `consistency` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20distributed%20key-value%20store) · [Search](https://www.google.com/search?q=Design%20a%20distributed%20key-value%20store) |
-| Design a content delivery network (CDN). | 🔴 Hard | `cdn` `cache` `edge` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20content%20delivery%20network%20(CDN)) · [Search](https://www.google.com/search?q=Design%20a%20content%20delivery%20network%20(CDN)) |
-
-## Round 3 · Low-Level Design
-<!-- round: lld -->
-
-_Object-oriented / low-level design of a focused module._
+_Deep questions on your core stack and fundamentals._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Design a vending machine. | 🟢 Easy | `oop` `state-machine` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20vending%20machine) · [Search](https://www.google.com/search?q=Design%20a%20vending%20machine) |
+| Explain the four pillars of OOP with examples. | 🟢 Easy | `oops` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20the%20four%20pillars%20of%20OOP%20with%20examples) · [Search](https://www.google.com/search?q=Explain%20the%20four%20pillars%20of%20OOP%20with%20examples) |
+| Explain virtual memory, paging and segmentation. | 🟡 Medium | `os` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20virtual%20memory%2C%20paging%20and%20segmentation) · [Search](https://www.google.com/search?q=Explain%20virtual%20memory%2C%20paging%20and%20segmentation) |
+| Difference between a process and a thread. | 🟢 Easy | `os` | [GfG](https://www.geeksforgeeks.org/search/?gq=Difference%20between%20a%20process%20and%20a%20thread) · [Search](https://www.google.com/search?q=Difference%20between%20a%20process%20and%20a%20thread) |
+| What is a constructor? Explain constructor overloading. | 🟢 Easy | `oops` | [GfG](https://www.geeksforgeeks.org/search/?gq=What%20is%20a%20constructor%3F%20Explain%20constructor%20overloading) · [Search](https://www.google.com/search?q=What%20is%20a%20constructor%3F%20Explain%20constructor%20overloading) |
 
 ## Round 4 · Hiring Manager
 <!-- round: hiring_manager -->
@@ -61,7 +64,8 @@ _Scope, ownership, and role-fit discussion with the manager._
 
 | Question | Difficulty | Tags |
 | --- | --- | --- |
-| What does a great engineering culture look like to you? | — | `values` |
+| What would you do if you disagreed with your project lead? | — | — |
+| How do you handle a client changing requirements mid-sprint? | — | — |
 
 ## Round 5 · Behavioral / HR
 <!-- round: behavioral -->
@@ -70,8 +74,9 @@ _Values, collaboration, and past-experience (STAR) questions._
 
 | Question | Difficulty | Tags |
 | --- | --- | --- |
-| Describe a time you improved a process or tool for your team. | — | `ownership` `star` |
-| Tell me about a time you went above and beyond for a customer. | — | `customer` `star` |
+| Where do you see yourself in five years? | — | — |
+| Why should we hire you? | — | — |
+| How do you handle pressure and tight deadlines? | — | — |
 
 ---
 

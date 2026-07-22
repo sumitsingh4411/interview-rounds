@@ -1,79 +1,72 @@
 ---
 id: kotak-5
 company: kotak
-role: frontend
-level: mid
-outcome: offer
-year: 2023
+role: fullstack
+level: intern
+outcome: rejected
+year: 2025
 source: curated
 summary: >-
-  5-round mid frontend process. Balanced across coding, design, and
-  collaboration.
+  4-round intern fullstack process. Breadth of fundamentals mattered more than
+  algorithmic depth.
 ---
-# Mid Frontend — Kotak Mahindra Bank
+# Intern Full-stack — Kotak Mahindra Bank
 
-![role](https://img.shields.io/badge/role-Frontend-22d3ee?style=flat-square)
-![level](https://img.shields.io/badge/level-Mid-818cf8?style=flat-square)
-![outcome](https://img.shields.io/badge/outcome-Offer-34d399?style=flat-square)
-![year](https://img.shields.io/badge/year-2023-6b7280?style=flat-square)
+![role](https://img.shields.io/badge/role-Full--stack-a78bfa?style=flat-square)
+![level](https://img.shields.io/badge/level-Intern-818cf8?style=flat-square)
+![outcome](https://img.shields.io/badge/outcome-Rejected-f87171?style=flat-square)
+![year](https://img.shields.io/badge/year-2025-6b7280?style=flat-square)
 ![source](https://img.shields.io/badge/source-Commonly%20asked-2dd4bf?style=flat-square)
 
-> 5-round mid frontend process. Balanced across coding, design, and collaboration.
+> 4-round intern fullstack process. Breadth of fundamentals mattered more than algorithmic depth.
 
-**5 rounds · 11 questions**
+**4 rounds · 12 questions**
 
 ---
 
-## Round 1 · DSA / Coding
+## Round 1 · Online Assessment
+<!-- round: oa -->
+
+_Timed online coding / aptitude screen, usually the first filter._
+
+| Question | Difficulty | Tags | Practice |
+| --- | --- | --- | --- |
+| Quantitative aptitude: ratio, proportion and averages. | 🟢 Easy | `aptitude` | [GfG](https://www.geeksforgeeks.org/search/?gq=Quantitative%20aptitude%3A%20ratio%2C%20proportion%20and%20averages) · [Search](https://www.google.com/search?q=Quantitative%20aptitude%3A%20ratio%2C%20proportion%20and%20averages) |
+| Email writing / essay writing task. | 🟢 Easy | `verbal` | [GfG](https://www.geeksforgeeks.org/search/?gq=Email%20writing%20%2F%20essay%20writing%20task) · [Search](https://www.google.com/search?q=Email%20writing%20%2F%20essay%20writing%20task) |
+| Logical reasoning: data interpretation from charts and tables. | 🟡 Medium | `reasoning` | [GfG](https://www.geeksforgeeks.org/search/?gq=Logical%20reasoning%3A%20data%20interpretation%20from%20charts%20and%20tables) · [Search](https://www.google.com/search?q=Logical%20reasoning%3A%20data%20interpretation%20from%20charts%20and%20tables) |
+
+## Round 2 · DSA / Coding
 <!-- round: dsa -->
 
 _Data structures & algorithms on a whiteboard or shared editor._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Construct binary tree from preorder and inorder traversal. | 🟡 Medium | `tree` `recursion` | [LC](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Construct%20binary%20tree%20from%20preorder%20and%20inorder%20traversal) |
-| Decode ways. | 🟡 Medium | `dp` `string` | [LC](https://leetcode.com/problems/decode-ways/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Decode%20ways) |
-| Merge intervals. | 🟡 Medium | `intervals` `sorting` | [LC](https://leetcode.com/problems/merge-intervals/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Merge%20intervals) |
+| Remove duplicates from an array without using extra space. | 🟡 Medium | `array` | [GfG](https://www.geeksforgeeks.org/search/?gq=Remove%20duplicates%20from%20an%20array%20without%20using%20extra%20space) · [Search](https://www.google.com/search?q=Remove%20duplicates%20from%20an%20array%20without%20using%20extra%20space) |
+| Find the GCD and LCM of two numbers. | 🟢 Easy | `math` | [GfG](https://www.geeksforgeeks.org/search/?gq=Find%20the%20GCD%20and%20LCM%20of%20two%20numbers) · [Search](https://www.google.com/search?q=Find%20the%20GCD%20and%20LCM%20of%20two%20numbers) |
 
-## Round 2 · Machine Coding
-<!-- round: machine_coding -->
-
-_Build a working component or service under time pressure._
-
-| Question | Difficulty | Tags | Practice |
-| --- | --- | --- | --- |
-| Build a "connect four" game with win detection. | 🟡 Medium | `react` `state` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20a%20%22connect%20four%22%20game%20with%20win%20detection) · [Search](https://www.google.com/search?q=Build%20a%20%22connect%20four%22%20game%20with%20win%20detection) |
-| Build a toast / notification queue. | 🟡 Medium | `react` `state` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20a%20toast%20%2F%20notification%20queue) · [Search](https://www.google.com/search?q=Build%20a%20toast%20%2F%20notification%20queue) |
-
-## Round 3 · Low-Level Design
-<!-- round: lld -->
-
-_Object-oriented / low-level design of a focused module._
-
-| Question | Difficulty | Tags | Practice |
-| --- | --- | --- | --- |
-| Design a toast/notification manager API. | 🟡 Medium | `oop` `pub-sub` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20a%20toast%2Fnotification%20manager%20API) · [Search](https://www.google.com/search?q=Design%20a%20toast%2Fnotification%20manager%20API) |
-
-## Round 4 · Tech Deep-Dive
+## Round 3 · Tech Deep-Dive
 <!-- round: tech_deep_dive -->
 
 _Deep questions on your core stack and fundamentals._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Explain hydration and the cost of client vs server rendering. | 🔴 Hard | `ssr` `perf` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20hydration%20and%20the%20cost%20of%20client%20vs%20server%20rendering) · [Search](https://www.google.com/search?q=Explain%20hydration%20and%20the%20cost%20of%20client%20vs%20server%20rendering) |
-| Explain prototypal inheritance. | 🟡 Medium | `javascript` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20prototypal%20inheritance) · [Search](https://www.google.com/search?q=Explain%20prototypal%20inheritance) |
-| How does React batching and the render phase work? | 🔴 Hard | `react` | [GfG](https://www.geeksforgeeks.org/search/?gq=How%20does%20React%20batching%20and%20the%20render%20phase%20work) · [Search](https://www.google.com/search?q=How%20does%20React%20batching%20and%20the%20render%20phase%20work) |
+| Difference between DELETE, TRUNCATE and DROP. | 🟢 Easy | `sql` | [GfG](https://www.geeksforgeeks.org/search/?gq=Difference%20between%20DELETE%2C%20TRUNCATE%20and%20DROP) · [Search](https://www.google.com/search?q=Difference%20between%20DELETE%2C%20TRUNCATE%20and%20DROP) |
+| Explain the time complexity of common sorting algorithms. | 🟡 Medium | `data-structures` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20the%20time%20complexity%20of%20common%20sorting%20algorithms) · [Search](https://www.google.com/search?q=Explain%20the%20time%20complexity%20of%20common%20sorting%20algorithms) |
+| Explain inheritance and its types. | 🟢 Easy | `oops` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20inheritance%20and%20its%20types) · [Search](https://www.google.com/search?q=Explain%20inheritance%20and%20its%20types) |
+| Difference between a process and a thread. | 🟢 Easy | `os` | [GfG](https://www.geeksforgeeks.org/search/?gq=Difference%20between%20a%20process%20and%20a%20thread) · [Search](https://www.google.com/search?q=Difference%20between%20a%20process%20and%20a%20thread) |
 
-## Round 5 · Behavioral / HR
+## Round 4 · Behavioral / HR
 <!-- round: behavioral -->
 
 _Values, collaboration, and past-experience (STAR) questions._
 
 | Question | Difficulty | Tags |
 | --- | --- | --- |
-| How do you handle competing priorities from two managers? | — | `prioritization` `star` |
-| Tell me about a time you simplified something overly complex. | — | `judgment` `star` |
+| How do you handle pressure and tight deadlines? | — | — |
+| Are you comfortable signing the service agreement / bond? | — | — |
+| Tell me about a conflict in a team project and how you resolved it. | — | — |
 
 ---
 

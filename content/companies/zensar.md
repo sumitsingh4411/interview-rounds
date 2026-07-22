@@ -10,7 +10,7 @@ description: 'Digital solutions and services. Aptitude, coding basics, and techn
 ![industry](https://img.shields.io/badge/industry-IT%20Services-8b93ff?style=flat-square)
 ![hq](https://img.shields.io/badge/hq-Pune,%20India-6b7280?style=flat-square)
 ![interviews](https://img.shields.io/badge/interviews-5-22d3ee?style=flat-square)
-![questions](https://img.shields.io/badge/questions-51-a78bfa?style=flat-square)
+![questions](https://img.shields.io/badge/questions-59-a78bfa?style=flat-square)
 
 > Digital solutions and services. Aptitude, coding basics, and technical rounds.
 
@@ -20,11 +20,11 @@ description: 'Digital solutions and services. Aptitude, coding basics, and techn
 
 | Interview | Outcome | Rounds | Questions |
 | --- | --- | --- | --- |
-| [Mid · Frontend](../interviews/zensar-1.md) | Unknown | 5 | 11 |
-| [Mid · Full-stack](../interviews/zensar-2.md) | No offer | 5 | 11 |
-| [Junior · Backend](../interviews/zensar-3.md) | Offer | 5 | 11 |
-| [Staff · Frontend](../interviews/zensar-4.md) | No offer | 5 | 9 |
-| [Staff · Full-stack](../interviews/zensar-5.md) | Offer | 5 | 9 |
+| [Intern · Full-stack](../interviews/zensar-1.md) | Offer | 4 | 12 |
+| [Senior · Backend](../interviews/zensar-2.md) | Withdrew | 4 | 11 |
+| [Junior · Backend](../interviews/zensar-3.md) | Offer | 4 | 12 |
+| [Junior · Full-stack](../interviews/zensar-4.md) | Rejected | 4 | 12 |
+| [Intern · Backend](../interviews/zensar-5.md) | Offer | 4 | 12 |
 
 ---
 

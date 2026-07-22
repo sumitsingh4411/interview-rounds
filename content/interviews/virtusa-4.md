@@ -1,79 +1,72 @@
 ---
 id: virtusa-4
 company: virtusa
-role: frontend
-level: mid
+role: fullstack
+level: intern
 outcome: offer
-year: 2023
+year: 2025
 source: curated
 summary: >-
-  Mid frontend interview. Pragmatic questions — more real-world than pure
-  puzzles.
+  4-round intern fullstack process. Screening test, technical round, then a
+  managerial and HR conversation.
 ---
-# Mid Frontend — Virtusa
+# Intern Full-stack — Virtusa
 
-![role](https://img.shields.io/badge/role-Frontend-22d3ee?style=flat-square)
-![level](https://img.shields.io/badge/level-Mid-818cf8?style=flat-square)
+![role](https://img.shields.io/badge/role-Full--stack-a78bfa?style=flat-square)
+![level](https://img.shields.io/badge/level-Intern-818cf8?style=flat-square)
 ![outcome](https://img.shields.io/badge/outcome-Offer-34d399?style=flat-square)
-![year](https://img.shields.io/badge/year-2023-6b7280?style=flat-square)
+![year](https://img.shields.io/badge/year-2025-6b7280?style=flat-square)
 ![source](https://img.shields.io/badge/source-Commonly%20asked-2dd4bf?style=flat-square)
 
-> Mid frontend interview. Pragmatic questions — more real-world than pure puzzles.
+> 4-round intern fullstack process. Screening test, technical round, then a managerial and HR conversation.
 
-**5 rounds · 11 questions**
+**4 rounds · 12 questions**
 
 ---
 
-## Round 1 · DSA / Coding
+## Round 1 · Online Assessment
+<!-- round: oa -->
+
+_Timed online coding / aptitude screen, usually the first filter._
+
+| Question | Difficulty | Tags | Practice |
+| --- | --- | --- | --- |
+| Logical reasoning: data interpretation from charts and tables. | 🟡 Medium | `reasoning` | [GfG](https://www.geeksforgeeks.org/search/?gq=Logical%20reasoning%3A%20data%20interpretation%20from%20charts%20and%20tables) · [Search](https://www.google.com/search?q=Logical%20reasoning%3A%20data%20interpretation%20from%20charts%20and%20tables) |
+| Verbal ability: reading comprehension passage. | 🟢 Easy | `verbal` | [GfG](https://www.geeksforgeeks.org/search/?gq=Verbal%20ability%3A%20reading%20comprehension%20passage) · [Search](https://www.google.com/search?q=Verbal%20ability%3A%20reading%20comprehension%20passage) |
+| Pseudocode: predict the output of the given code block. | 🟡 Medium | `pseudocode` | [GfG](https://www.geeksforgeeks.org/search/?gq=Pseudocode%3A%20predict%20the%20output%20of%20the%20given%20code%20block) · [Search](https://www.google.com/search?q=Pseudocode%3A%20predict%20the%20output%20of%20the%20given%20code%20block) |
+
+## Round 2 · DSA / Coding
 <!-- round: dsa -->
 
 _Data structures & algorithms on a whiteboard or shared editor._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Subtree of another tree. | 🟢 Easy | `tree` `dfs` | [LC](https://leetcode.com/problems/subtree-of-another-tree/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Subtree%20of%20another%20tree) |
-| Minimum window substring. | 🔴 Hard | `sliding-window` `string` | [LC](https://leetcode.com/problems/minimum-window-substring/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Minimum%20window%20substring) |
-| Sliding window maximum. | 🔴 Hard | `deque` `sliding-window` | [LC](https://leetcode.com/problems/sliding-window-maximum/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Sliding%20window%20maximum) |
+| Check whether a number is an Armstrong number. | 🟢 Easy | `math` | [GfG](https://www.geeksforgeeks.org/search/?gq=Check%20whether%20a%20number%20is%20an%20Armstrong%20number) · [Search](https://www.google.com/search?q=Check%20whether%20a%20number%20is%20an%20Armstrong%20number) |
+| Find the sum of digits of a number. | 🟢 Easy | `math` | [GfG](https://www.geeksforgeeks.org/search/?gq=Find%20the%20sum%20of%20digits%20of%20a%20number) · [Search](https://www.google.com/search?q=Find%20the%20sum%20of%20digits%20of%20a%20number) |
 
-## Round 2 · Machine Coding
-<!-- round: machine_coding -->
-
-_Build a working component or service under time pressure._
-
-| Question | Difficulty | Tags | Practice |
-| --- | --- | --- | --- |
-| Build an accessible tabs component with keyboard nav. | 🟡 Medium | `react` `a11y` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20an%20accessible%20tabs%20component%20with%20keyboard%20nav) · [Search](https://www.google.com/search?q=Build%20an%20accessible%20tabs%20component%20with%20keyboard%20nav) |
-| Build a form builder that renders from a JSON schema. | 🔴 Hard | `react` `forms` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20a%20form%20builder%20that%20renders%20from%20a%20JSON%20schema) · [Search](https://www.google.com/search?q=Build%20a%20form%20builder%20that%20renders%20from%20a%20JSON%20schema) |
-
-## Round 3 · Low-Level Design
-<!-- round: lld -->
-
-_Object-oriented / low-level design of a focused module._
-
-| Question | Difficulty | Tags | Practice |
-| --- | --- | --- | --- |
-| Design an analytics event-tracking client. | 🟡 Medium | `oop` `observability` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20an%20analytics%20event-tracking%20client) · [Search](https://www.google.com/search?q=Design%20an%20analytics%20event-tracking%20client) |
-
-## Round 4 · Tech Deep-Dive
+## Round 3 · Tech Deep-Dive
 <!-- round: tech_deep_dive -->
 
 _Deep questions on your core stack and fundamentals._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| What is tree shaking and when does it fail? | 🟡 Medium | `bundling` | [GfG](https://www.geeksforgeeks.org/search/?gq=What%20is%20tree%20shaking%20and%20when%20does%20it%20fail) · [Search](https://www.google.com/search?q=What%20is%20tree%20shaking%20and%20when%20does%20it%20fail) |
-| Explain `this` binding and the call/apply/bind trio. | 🟡 Medium | `javascript` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20%60this%60%20binding%20and%20the%20call%2Fapply%2Fbind%20trio) · [Search](https://www.google.com/search?q=Explain%20%60this%60%20binding%20and%20the%20call%2Fapply%2Fbind%20trio) |
-| Explain `useEffect` dependencies and common pitfalls. | 🟡 Medium | `react` `hooks` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20%60useEffect%60%20dependencies%20and%20common%20pitfalls) · [Search](https://www.google.com/search?q=Explain%20%60useEffect%60%20dependencies%20and%20common%20pitfalls) |
+| Difference between TCP and UDP. | 🟢 Easy | `networking` | [GfG](https://www.geeksforgeeks.org/search/?gq=Difference%20between%20TCP%20and%20UDP) · [Search](https://www.google.com/search?q=Difference%20between%20TCP%20and%20UDP) |
+| What are the JDK, JRE and JVM? | 🟢 Easy | `java` | [GfG](https://www.geeksforgeeks.org/search/?gq=What%20are%20the%20JDK%2C%20JRE%20and%20JVM) · [Search](https://www.google.com/search?q=What%20are%20the%20JDK%2C%20JRE%20and%20JVM) |
+| Difference between abstraction and encapsulation. | 🟢 Easy | `oops` | [GfG](https://www.geeksforgeeks.org/search/?gq=Difference%20between%20abstraction%20and%20encapsulation) · [Search](https://www.google.com/search?q=Difference%20between%20abstraction%20and%20encapsulation) |
+| Difference between stack and heap memory. | 🟢 Easy | `fundamentals` | [GfG](https://www.geeksforgeeks.org/search/?gq=Difference%20between%20stack%20and%20heap%20memory) · [Search](https://www.google.com/search?q=Difference%20between%20stack%20and%20heap%20memory) |
 
-## Round 5 · Behavioral / HR
+## Round 4 · Behavioral / HR
 <!-- round: behavioral -->
 
 _Values, collaboration, and past-experience (STAR) questions._
 
 | Question | Difficulty | Tags |
 | --- | --- | --- |
-| A time you influenced a decision without authority. | — | `influence` `star` |
-| Tell me about the hardest bug you have debugged. | — | `debugging` `star` |
+| What are your strengths and weaknesses? | — | — |
+| Why do you want to join our company? | — | — |
+| Are you willing to relocate anywhere in India? | — | — |
 
 ---
 

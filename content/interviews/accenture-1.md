@@ -1,77 +1,72 @@
 ---
 id: accenture-1
 company: accenture
-role: frontend
-level: mid
-outcome: withdrew
-year: 2023
+role: fullstack
+level: intern
+outcome: offer
+year: 2024
 source: curated
-summary: A mid frontend loop. Pragmatic questions — more real-world than pure puzzles.
+summary: >-
+  A intern fullstack hiring drive. Basic programming plus core CS; communication
+  mattered throughout.
 ---
-# Mid Frontend — Accenture
+# Intern Full-stack — Accenture
 
-![role](https://img.shields.io/badge/role-Frontend-22d3ee?style=flat-square)
-![level](https://img.shields.io/badge/level-Mid-818cf8?style=flat-square)
-![outcome](https://img.shields.io/badge/outcome-Withdrew-fbbf24?style=flat-square)
-![year](https://img.shields.io/badge/year-2023-6b7280?style=flat-square)
+![role](https://img.shields.io/badge/role-Full--stack-a78bfa?style=flat-square)
+![level](https://img.shields.io/badge/level-Intern-818cf8?style=flat-square)
+![outcome](https://img.shields.io/badge/outcome-Offer-34d399?style=flat-square)
+![year](https://img.shields.io/badge/year-2024-6b7280?style=flat-square)
 ![source](https://img.shields.io/badge/source-Commonly%20asked-2dd4bf?style=flat-square)
 
-> A mid frontend loop. Pragmatic questions — more real-world than pure puzzles.
+> A intern fullstack hiring drive. Basic programming plus core CS; communication mattered throughout.
 
-**5 rounds · 11 questions**
+**4 rounds · 12 questions**
 
 ---
 
-## Round 1 · DSA / Coding
+## Round 1 · Online Assessment
+<!-- round: oa -->
+
+_Timed online coding / aptitude screen, usually the first filter._
+
+| Question | Difficulty | Tags | Practice |
+| --- | --- | --- | --- |
+| Quantitative aptitude: permutations, combinations and probability. | 🟡 Medium | `aptitude` | [GfG](https://www.geeksforgeeks.org/search/?gq=Quantitative%20aptitude%3A%20permutations%2C%20combinations%20and%20probability) · [Search](https://www.google.com/search?q=Quantitative%20aptitude%3A%20permutations%2C%20combinations%20and%20probability) |
+| Quantitative aptitude: simple and compound interest. | 🟢 Easy | `aptitude` | [GfG](https://www.geeksforgeeks.org/search/?gq=Quantitative%20aptitude%3A%20simple%20and%20compound%20interest) · [Search](https://www.google.com/search?q=Quantitative%20aptitude%3A%20simple%20and%20compound%20interest) |
+| Verbal ability: synonyms, antonyms and para-jumbles. | 🟢 Easy | `verbal` | [GfG](https://www.geeksforgeeks.org/search/?gq=Verbal%20ability%3A%20synonyms%2C%20antonyms%20and%20para-jumbles) · [Search](https://www.google.com/search?q=Verbal%20ability%3A%20synonyms%2C%20antonyms%20and%20para-jumbles) |
+
+## Round 2 · DSA / Coding
 <!-- round: dsa -->
 
 _Data structures & algorithms on a whiteboard or shared editor._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| Set matrix zeroes. | 🟡 Medium | `matrix` | [LC](https://leetcode.com/problems/set-matrix-zeroes/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Set%20matrix%20zeroes) |
-| Kth smallest element in a BST. | 🟡 Medium | `tree` `bst` | [LC](https://leetcode.com/problems/kth-smallest-element-in-a-bst/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Kth%20smallest%20element%20in%20a%20BST) |
-| Binary tree maximum path sum. | 🔴 Hard | `tree` `dfs` | [LC](https://leetcode.com/problems/binary-tree-maximum-path-sum/) · [GfG](https://www.geeksforgeeks.org/search/?gq=Binary%20tree%20maximum%20path%20sum) |
+| Matrix operations: transpose and sum of the diagonals. | 🟡 Medium | `matrix` | [GfG](https://www.geeksforgeeks.org/search/?gq=Matrix%20operations%3A%20transpose%20and%20sum%20of%20the%20diagonals) · [Search](https://www.google.com/search?q=Matrix%20operations%3A%20transpose%20and%20sum%20of%20the%20diagonals) |
+| Implement binary search on a sorted array. | 🟢 Easy | `searching` | [GfG](https://www.geeksforgeeks.org/search/?gq=Implement%20binary%20search%20on%20a%20sorted%20array) · [Search](https://www.google.com/search?q=Implement%20binary%20search%20on%20a%20sorted%20array) |
 
-## Round 2 · Machine Coding
-<!-- round: machine_coding -->
-
-_Build a working component or service under time pressure._
-
-| Question | Difficulty | Tags | Practice |
-| --- | --- | --- | --- |
-| Build a nested, collapsible comment thread. | 🟡 Medium | `react` `recursion` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20a%20nested%2C%20collapsible%20comment%20thread) · [Search](https://www.google.com/search?q=Build%20a%20nested%2C%20collapsible%20comment%20thread) |
-| Build a nested checkbox tree with indeterminate state. | 🔴 Hard | `react` `recursion` | [GfG](https://www.geeksforgeeks.org/search/?gq=Build%20a%20nested%20checkbox%20tree%20with%20indeterminate%20state) · [Search](https://www.google.com/search?q=Build%20a%20nested%20checkbox%20tree%20with%20indeterminate%20state) |
-
-## Round 3 · Low-Level Design
-<!-- round: lld -->
-
-_Object-oriented / low-level design of a focused module._
-
-| Question | Difficulty | Tags | Practice |
-| --- | --- | --- | --- |
-| Design an undo/redo stack for an editor. | 🟡 Medium | `oop` `command` | [GfG](https://www.geeksforgeeks.org/search/?gq=Design%20an%20undo%2Fredo%20stack%20for%20an%20editor) · [Search](https://www.google.com/search?q=Design%20an%20undo%2Fredo%20stack%20for%20an%20editor) |
-
-## Round 4 · Tech Deep-Dive
+## Round 3 · Tech Deep-Dive
 <!-- round: tech_deep_dive -->
 
 _Deep questions on your core stack and fundamentals._
 
 | Question | Difficulty | Tags | Practice |
 | --- | --- | --- | --- |
-| What are React keys and why do they matter? | 🟢 Easy | `react` | [GfG](https://www.geeksforgeeks.org/search/?gq=What%20are%20React%20keys%20and%20why%20do%20they%20matter) · [Search](https://www.google.com/search?q=What%20are%20React%20keys%20and%20why%20do%20they%20matter) |
-| Explain how Promises work and implement Promise.all. | 🟡 Medium | `javascript` `async` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20how%20Promises%20work%20and%20implement%20Promise.all) · [Search](https://www.google.com/search?q=Explain%20how%20Promises%20work%20and%20implement%20Promise.all) |
-| Explain WeakMap/WeakSet and when to use them. | 🟡 Medium | `javascript` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20WeakMap%2FWeakSet%20and%20when%20to%20use%20them) · [Search](https://www.google.com/search?q=Explain%20WeakMap%2FWeakSet%20and%20when%20to%20use%20them) |
+| Explain CPU scheduling algorithms: FCFS, SJF and round robin. | 🟡 Medium | `os` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20CPU%20scheduling%20algorithms%3A%20FCFS%2C%20SJF%20and%20round%20robin) · [Search](https://www.google.com/search?q=Explain%20CPU%20scheduling%20algorithms%3A%20FCFS%2C%20SJF%20and%20round%20robin) |
+| Explain the static and final keywords in Java. | 🟢 Easy | `java` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20the%20static%20and%20final%20keywords%20in%20Java) · [Search](https://www.google.com/search?q=Explain%20the%20static%20and%20final%20keywords%20in%20Java) |
+| Difference between C and C++. | 🟢 Easy | `c` | [GfG](https://www.geeksforgeeks.org/search/?gq=Difference%20between%20C%20and%20C%2B%2B) · [Search](https://www.google.com/search?q=Difference%20between%20C%20and%20C%2B%2B) |
+| Explain the layers of the OSI model. | 🟢 Easy | `networking` | [GfG](https://www.geeksforgeeks.org/search/?gq=Explain%20the%20layers%20of%20the%20OSI%20model) · [Search](https://www.google.com/search?q=Explain%20the%20layers%20of%20the%20OSI%20model) |
 
-## Round 5 · Behavioral / HR
+## Round 4 · Behavioral / HR
 <!-- round: behavioral -->
 
 _Values, collaboration, and past-experience (STAR) questions._
 
 | Question | Difficulty | Tags |
 | --- | --- | --- |
-| Describe a time you had to deliver bad news. | — | `communication` `star` |
-| Tell me about a time you had to learn something quickly. | — | `learning` `star` |
+| What do you know about our company and the services we provide? | — | — |
+| Why should we hire you? | — | — |
+| Would you be comfortable working on any technology assigned to you? | — | — |
 
 ---
 
