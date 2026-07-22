@@ -94,7 +94,7 @@ const CATEGORIES: { name: string; emoji: string; industries: string[] }[] = [
   {
     name: 'Consumer and Marketplace',
     emoji: '🛒',
-    industries: ['Consumer Internet', 'Marketplace', 'E-commerce', 'Streaming', 'Gaming', 'EdTech'],
+    industries: ['Consumer Internet', 'Marketplace', 'E-commerce', 'Streaming', 'Gaming', 'EdTech', 'Telecom'],
   },
   {
     name: 'Enterprise and SaaS',
