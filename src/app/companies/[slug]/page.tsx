@@ -7,9 +7,11 @@ import {
   getCompanyBySlug,
   getInterviewsForCompany,
   getAllCompanySlugs,
+  getRelatedCompanies,
 } from '@/content/loader';
 import { JsonLd } from '@/components/JsonLd';
-import { breadcrumbLd } from '@/lib/seo';
+import { breadcrumbLd, collectionLd } from '@/lib/seo';
+import { ROLE_LABELS, LEVEL_LABELS, type Role, type Level } from '@/lib/constants';
 
 type PageProps = { params: Promise<{ slug: string }> };
 
@@ -48,6 +50,7 @@ export default async function CompanyPage({ params }: PageProps) {
   if (!company) notFound();
 
   const interviews = getInterviewsForCompany(company.id);
+  const related = getRelatedCompanies(slug);
 
   return (
     <Container className="py-12">
@@ -57,6 +60,17 @@ export default async function CompanyPage({ params }: PageProps) {
           { name: 'Companies', path: '/companies' },
           { name: company.name, path: `/companies/${slug}` },
         ])}
+      />
+      <JsonLd
+        data={collectionLd({
+          path: `/companies/${slug}`,
+          name: `${company.name} interview questions by round`,
+          description: `Real ${company.name} interview experiences, mapped round by round.`,
+          items: interviews.map((iv) => ({
+            name: `${LEVEL_LABELS[iv.level as Level]} ${ROLE_LABELS[iv.role as Role]} — ${company.name}`,
+            path: `/interviews/${iv.id}`,
+          })),
+        })}
       />
       <nav className="mb-6">
         <Link
@@ -98,6 +112,47 @@ export default async function CompanyPage({ params }: PageProps) {
       <div className="mt-10">
         <CompanyInterviews interviews={interviews} />
       </div>
+
+      {related.length > 0 ? (
+        <section aria-labelledby="related-heading" className="mt-14 border-t border-line pt-8">
+          <h2
+            id="related-heading"
+            className="font-display text-lg font-semibold text-fg"
+          >
+            {company.industry
+              ? `More ${company.industry} interview questions`
+              : 'Related companies'}
+          </h2>
+          <p className="mt-1 text-sm text-muted">
+            Prep for companies with a similar interview loop.
+          </p>
+          <ul className="mt-5 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+            {related.map((c) => (
+              <li key={c.slug}>
+                <Link
+                  href={`/companies/${c.slug}`}
+                  className="glass-card group flex items-center gap-3 rounded-xl p-3"
+                >
+                  <span
+                    aria-hidden
+                    className="grid h-9 w-9 shrink-0 place-items-center rounded-lg border border-line-2 bg-elevated font-display text-sm font-semibold text-brand"
+                  >
+                    {c.name.charAt(0)}
+                  </span>
+                  <span className="min-w-0">
+                    <span className="block truncate text-sm font-medium text-fg group-hover:text-brand">
+                      {c.name} interview questions
+                    </span>
+                    <span className="block font-mono text-xs text-faint">
+                      {c.questionCount} questions · {c.interviewCount} interviews
+                    </span>
+                  </span>
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </section>
+      ) : null}
     </Container>
   );
 }

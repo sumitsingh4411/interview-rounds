@@ -12,11 +12,12 @@ import {
 } from '@/components/ui/badges';
 import { getInterviewById, getAllInterviewIds } from '@/content/loader';
 import { JsonLd } from '@/components/JsonLd';
-import { breadcrumbLd } from '@/lib/seo';
+import { breadcrumbLd, interviewLd } from '@/lib/seo';
 import { groupQuestionsByRound } from '@/lib/questions';
 import {
   ROLE_LABELS,
   LEVEL_LABELS,
+  ROUND_LABELS,
   type Role,
   type Level,
   type Outcome,
@@ -71,6 +72,8 @@ export default async function InterviewPage({ params }: PageProps) {
   const groups = groupQuestionsByRound(questions);
   const role = interview.role as Role;
   const level = interview.level as Level;
+  const heading = interviewTitle(interview.title, role, level, company.name);
+  const description = `A ${LEVEL_LABELS[level]} ${ROLE_LABELS[role]} interview experience at ${company.name}, round by round — the questions asked in each stage.`;
 
   return (
     <Container className="max-w-3xl py-12">
@@ -80,10 +83,24 @@ export default async function InterviewPage({ params }: PageProps) {
           { name: 'Companies', path: '/companies' },
           { name: company.name, path: `/companies/${company.slug}` },
           {
-            name: interviewTitle(interview.title, role, level, company.name),
+            name: heading,
             path: `/interviews/${id}`,
           },
         ])}
+      />
+      <JsonLd
+        data={interviewLd({
+          path: `/interviews/${id}`,
+          headline: heading,
+          description,
+          companyName: company.name,
+          keywords: [
+            `${company.name} interview questions`,
+            `${ROLE_LABELS[role]} interview`,
+            `${LEVEL_LABELS[level]} interview`,
+            ...groups.map((g) => ROUND_LABELS[g.round]),
+          ],
+        })}
       />
       <nav className="mb-6 text-sm">
         <Link
@@ -127,6 +144,27 @@ export default async function InterviewPage({ params }: PageProps) {
           </p>
         )}
       </div>
+
+      {groups.length > 0 ? (
+        <nav
+          aria-label="Explore these rounds"
+          className="mt-10 border-t border-line pt-6"
+        >
+          <p className="eyebrow mb-3">Practice each round across every company</p>
+          <ul className="flex flex-wrap gap-2">
+            {groups.map((g) => (
+              <li key={g.round}>
+                <Link
+                  href={`/rounds/${g.round}`}
+                  className="glass-card inline-flex rounded-lg px-3 py-1.5 text-sm text-muted transition-colors hover:text-fg"
+                >
+                  {ROUND_LABELS[g.round]}
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </nav>
+      ) : null}
 
       {interview.sourceType === 'curated' ? (
         <p className="mt-10 rounded-lg border border-line bg-surface-2 p-3 font-mono text-xs text-faint">

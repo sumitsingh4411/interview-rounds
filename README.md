@@ -809,6 +809,8 @@ Next.js 16 · React 19 · Tailwind CSS v4 · TypeScript — **fully static, no d
 
 **Running it locally or contributing code? → [docs/DEVELOPMENT.md](docs/DEVELOPMENT.md)**
 
+**How the site gets found (Search Console + structured data + the SEO playbook) → [docs/SEO.md](docs/SEO.md)**
+
 ---
 
 ## 📄 License

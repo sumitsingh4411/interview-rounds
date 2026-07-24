@@ -190,6 +190,32 @@ export function getCompanyBySlug(slug: string): Company | undefined {
   return data().companyBySlug.get(slug);
 }
 
+/**
+ * Companies in the same industry, most-documented first, for internal linking.
+ * Falls back to popular companies so a page never dead-ends with too few links
+ * (which is exactly what leaves pages orphaned and uncrawled).
+ */
+export function getRelatedCompanies(
+  slug: string,
+  limit = 6,
+): CompanyWithStats[] {
+  const self = data().companyBySlug.get(slug);
+  if (!self) return [];
+  const all = getCompaniesWithStats();
+  const sameIndustry = all
+    .filter((c) => c.slug !== slug && c.industry === self.industry)
+    .sort((a, b) => b.interviewCount - a.interviewCount || a.name.localeCompare(b.name));
+
+  if (sameIndustry.length >= limit) return sameIndustry.slice(0, limit);
+
+  const chosen = new Set(sameIndustry.map((c) => c.slug));
+  chosen.add(slug);
+  const filler = getPopularCompanies(limit + all.length)
+    .filter((c) => !chosen.has(c.slug))
+    .slice(0, limit - sameIndustry.length);
+  return [...sameIndustry, ...filler];
+}
+
 export function getAllCompanySlugs(): string[] {
   return data().companies.map((c) => c.slug);
 }

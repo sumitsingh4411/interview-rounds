@@ -56,6 +56,15 @@ export const metadata: Metadata = {
   authors: [{ name: SITE.name, url: SITE.url }],
   creator: SITE.name,
   category: 'education',
+  // Set GOOGLE_SITE_VERIFICATION (and optionally BING_SITE_VERIFICATION) in the
+  // Vercel project to verify ownership via a meta tag — no redeploy of code
+  // needed, just the env var. Omitted from the output when unset.
+  verification: {
+    google: process.env.GOOGLE_SITE_VERIFICATION,
+    other: process.env.BING_SITE_VERIFICATION
+      ? { 'msvalidate.01': process.env.BING_SITE_VERIFICATION }
+      : {},
+  },
   robots: {
     index: true,
     follow: true,
