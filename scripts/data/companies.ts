@@ -27,7 +27,9 @@ const SERVICES_SLUGS = new Set<string>([
   'tech-mahindra', 'ltimindtree', 'mphasis', 'persistent', 'coforge',
   'hexaware', 'virtusa', 'ust', 'zensar', 'birlasoft', 'cyient', 'kpit',
   'sonata', 'happiest-minds', 'tata-elxsi', 'ltts', 'amdocs', 'ntt-data',
-  'synechron', 'genpact', 'wns', 'nagarro', 'deloitte',
+  'synechron', 'genpact', 'wns', 'nagarro', 'deloitte', 'dxc', 'sopra-steria',
+  // Big 4 advisory/technology arms — aptitude + fundamentals + case/HR
+  'pwc', 'ey', 'kpmg',
   // Banks and financial-services IT, which interview the same way
   'hdfc-bank', 'icici-bank', 'axis-bank', 'kotak', 'bajaj-finserv',
   'fis', 'fiserv', 'broadridge',
@@ -416,6 +418,114 @@ const RAW_COMPANIES: SeedCompany[] = [
   { name: 'Bosch', slug: 'bosch', industry: 'Automotive', hq: 'Gerlingen, Germany', description: 'Mobility and industrial tech. Embedded C, automotive software, and fundamentals.' },
   { name: 'Siemens', slug: 'siemens', industry: 'Enterprise Software', hq: 'Munich, Germany', description: 'Industrial software and automation. Systems coding and engineering fundamentals.' },
   { name: 'Honeywell', slug: 'honeywell', industry: 'IoT', hq: 'Charlotte, NC', description: 'Industrial and building tech. Embedded-adjacent coding and systems rounds.' },
+
+  // ── Cybersecurity — consistently high interview-search volume ──────────────
+  { name: 'CrowdStrike', slug: 'crowdstrike', industry: 'Security', hq: 'Austin, TX', description: 'Endpoint security cloud. Detection pipelines, systems coding, and strong DSA.' },
+  { name: 'Palo Alto Networks', slug: 'palo-alto-networks', industry: 'Security', hq: 'Santa Clara, CA', description: 'Network and cloud security. Systems-heavy coding and networking depth.' },
+  { name: 'Fortinet', slug: 'fortinet', industry: 'Security', hq: 'Sunnyvale, CA', description: 'Network security appliances. C/C++ depth, networking, and fundamentals.' },
+  { name: 'Zscaler', slug: 'zscaler', industry: 'Security', hq: 'San Jose, CA', description: 'Zero-trust cloud security. Large-scale proxy systems and strong coding.' },
+  { name: 'SentinelOne', slug: 'sentinelone', industry: 'Security', hq: 'Mountain View, CA', description: 'Autonomous endpoint security. Systems coding and detection engineering.' },
+  { name: 'Rapid7', slug: 'rapid7', industry: 'Security', hq: 'Boston, MA', description: 'Security operations and analytics. Data pipelines and pragmatic full-stack.' },
+  { name: 'Qualys', slug: 'qualys', industry: 'Security', hq: 'Foster City, CA', description: 'Cloud vulnerability management. Scanning systems and backend depth.' },
+  { name: 'Tenable', slug: 'tenable', industry: 'Security', hq: 'Columbia, MD', description: 'Exposure management. Scanning pipelines and practical coding rounds.' },
+  { name: 'Check Point', slug: 'check-point', industry: 'Security', hq: 'Tel Aviv, Israel', description: 'Network security pioneer. Systems, networking, and algorithmic rounds.' },
+  { name: 'Netskope', slug: 'netskope', industry: 'Security', hq: 'Santa Clara, CA', description: 'Cloud security (SASE). Distributed proxy systems and strong coding.' },
+
+  // ── Banks and financial institutions — real SWE loops with DSA + design ────
+  { name: 'Wells Fargo', slug: 'wells-fargo', industry: 'Finance', hq: 'San Francisco, CA', description: 'Banking at scale. Core DSA, SQL, and system-design rounds for tech roles.' },
+  { name: 'Bank of America', slug: 'bank-of-america', industry: 'Finance', hq: 'Charlotte, NC', description: 'Global banking. Fundamentals-heavy coding, OOP, and reliability focus.' },
+  { name: 'Citi', slug: 'citi', industry: 'Finance', hq: 'New York, NY', description: 'Global financial services. DSA, SQL, and system design for engineering roles.' },
+  { name: 'Barclays', slug: 'barclays', industry: 'Finance', hq: 'London, UK', description: 'Investment and retail banking. Strong DSA, OOP, and low-latency systems.' },
+  { name: 'Deutsche Bank', slug: 'deutsche-bank', industry: 'Finance', hq: 'Frankfurt, Germany', description: 'Global bank and markets tech. DSA, Java depth, and system design.' },
+  { name: 'HSBC', slug: 'hsbc', industry: 'Finance', hq: 'London, UK', description: 'International banking. Core coding, SQL, and design for technology roles.' },
+  { name: 'BlackRock', slug: 'blackrock', industry: 'Finance', hq: 'New York, NY', description: 'Asset management and Aladdin. Strong DSA, design, and applied problem-solving.' },
+  { name: 'Nasdaq', slug: 'nasdaq', industry: 'Finance', hq: 'New York, NY', description: 'Exchange and market tech. Low-latency systems, DSA, and concurrency.' },
+
+  // ── Quant and proprietary trading — probability-heavy, high-bar loops ──────
+  { name: 'D. E. Shaw', slug: 'de-shaw', industry: 'Trading', hq: 'New York, NY', description: 'Quant hedge fund. Probability, brainteasers, and deep algorithmic rounds.' },
+  { name: 'Hudson River Trading', slug: 'hudson-river-trading', industry: 'Trading', hq: 'New York, NY', description: 'Algorithmic market maker. DSA, probability, and low-latency systems.' },
+  { name: 'Optiver', slug: 'optiver', industry: 'Trading', hq: 'Amsterdam, Netherlands', description: 'Market making. Mental-math speed rounds, probability, and coding.' },
+  { name: 'IMC Trading', slug: 'imc-trading', industry: 'Trading', hq: 'Amsterdam, Netherlands', description: 'Proprietary trading. Probability, mental math, and performance coding.' },
+  { name: 'DRW', slug: 'drw', industry: 'Trading', hq: 'Chicago, IL', description: 'Principal trading firm. Probability, DSA, and low-latency systems.' },
+  { name: 'Jump Trading', slug: 'jump-trading', industry: 'Trading', hq: 'Chicago, IL', description: 'High-frequency trading. Systems performance, C++, and strong algorithms.' },
+  { name: 'Susquehanna', slug: 'susquehanna', industry: 'Trading', hq: 'Bala Cynwyd, PA', description: 'SIG — options and trading. Poker-style probability, EV, and coding rounds.' },
+  { name: 'Millennium', slug: 'millennium', industry: 'Trading', hq: 'New York, NY', description: 'Multi-strategy hedge fund. Strong DSA, data systems, and correctness.' },
+
+  // ── Big 4 and IT consulting (services loop: aptitude → fundamentals → HR) ──
+  { name: 'PwC', slug: 'pwc', industry: 'Consulting', hq: 'London, UK', description: 'Advisory and technology consulting. Aptitude, fundamentals, and case-plus-HR rounds.' },
+  { name: 'EY', slug: 'ey', industry: 'Consulting', hq: 'London, UK', description: 'Assurance and tech consulting. Aptitude, core coding, SQL, and HR rounds.' },
+  { name: 'KPMG', slug: 'kpmg', industry: 'Consulting', hq: 'Amstelveen, Netherlands', description: 'Advisory and technology. Aptitude, fundamentals, and managerial-plus-HR rounds.' },
+  { name: 'DXC Technology', slug: 'dxc', industry: 'IT Services', hq: 'Ashburn, VA', description: 'IT services and operations. Aptitude, core coding, and technical-plus-HR rounds.' },
+  { name: 'Sopra Steria', slug: 'sopra-steria', industry: 'IT Services', hq: 'Paris, France', description: 'European IT services. Aptitude, fundamentals, and technical interview rounds.' },
+
+  // ── Enterprise, hardware, and networking ──────────────────────────────────
+  { name: 'Dell Technologies', slug: 'dell', industry: 'Enterprise Software', hq: 'Round Rock, TX', description: 'Enterprise hardware and software. Systems coding, C/C++, and fundamentals.' },
+  { name: 'HP', slug: 'hp', industry: 'Enterprise Software', hq: 'Palo Alto, CA', description: 'PCs, printers, and services. Fundamentals-heavy coding and systems rounds.' },
+  { name: 'Hewlett Packard Enterprise', slug: 'hpe', industry: 'Enterprise Software', hq: 'Spring, TX', description: 'Enterprise compute and storage. Systems design and C/C++ depth.' },
+  { name: 'Juniper Networks', slug: 'juniper', industry: 'Networking', hq: 'Sunnyvale, CA', description: 'Networking and routing. Protocols, C/C++, and systems-heavy coding.' },
+  { name: 'Nokia', slug: 'nokia', industry: 'Networking', hq: 'Espoo, Finland', description: 'Telecom networks and 5G. Networking depth, C/C++, and systems rounds.' },
+  { name: 'Ericsson', slug: 'ericsson', industry: 'Networking', hq: 'Stockholm, Sweden', description: 'Telecom infrastructure. Networking, embedded-adjacent coding, and design.' },
+  { name: 'Autodesk', slug: 'autodesk', industry: 'Design Software', hq: 'San Francisco, CA', description: 'CAD and 3D design tools. Geometry, C++/algorithms, and systems rounds.' },
+  { name: 'Citrix', slug: 'citrix', industry: 'Enterprise Software', hq: 'Fort Lauderdale, FL', description: 'Virtualization and remote work. Systems coding and design rounds.' },
+
+  // ── Semiconductors and chip design ────────────────────────────────────────
+  { name: 'TSMC', slug: 'tsmc', industry: 'Semiconductors', hq: 'Hsinchu, Taiwan', description: 'The largest chip foundry. Fundamentals, C/C++, and systems-oriented rounds.' },
+  { name: 'ASML', slug: 'asml', industry: 'Semiconductors', hq: 'Veldhoven, Netherlands', description: 'Lithography systems. Algorithms, C++, and physics-adjacent problem-solving.' },
+  { name: 'Applied Materials', slug: 'applied-materials', industry: 'Semiconductors', hq: 'Santa Clara, CA', description: 'Semiconductor equipment. Systems, controls, and fundamentals-heavy coding.' },
+  { name: 'Marvell', slug: 'marvell', industry: 'Semiconductors', hq: 'Santa Clara, CA', description: 'Data infrastructure silicon. C/C++, architecture, and strong DSA.' },
+  { name: 'Analog Devices', slug: 'analog-devices', industry: 'Semiconductors', hq: 'Wilmington, MA', description: 'Analog and mixed-signal chips. Embedded C, signals, and fundamentals.' },
+  { name: 'Arm', slug: 'arm', industry: 'Semiconductors', hq: 'Cambridge, UK', description: 'The chip architecture behind mobile. Computer architecture, C, and strong DSA.' },
+
+  // ── Health tech and healthcare ────────────────────────────────────────────
+  { name: 'CVS Health', slug: 'cvs-health', industry: 'Health Tech', hq: 'Woonsocket, RI', description: 'Health services and pharmacy. Data-heavy backends, SQL, and practical coding.' },
+  { name: 'Cigna', slug: 'cigna', industry: 'Health Tech', hq: 'Bloomfield, CT', description: 'Health insurance and services. Data modeling, SQL, and full-stack rounds.' },
+  { name: 'Humana', slug: 'humana', industry: 'Health Tech', hq: 'Louisville, KY', description: 'Health insurance. Data pipelines, fundamentals, and practical coding.' },
+  { name: 'Cerner', slug: 'cerner', industry: 'Health Tech', hq: 'Kansas City, MO', description: 'Health records (Oracle Health). Fundamentals-heavy coding and a logic stage.' },
+  { name: 'Veeva Systems', slug: 'veeva', industry: 'Health Tech', hq: 'Pleasanton, CA', description: 'Life-sciences cloud. Practical full-stack and platform design rounds.' },
+  { name: 'athenahealth', slug: 'athenahealth', industry: 'Health Tech', hq: 'Boston, MA', description: 'Healthcare software. Product engineering and data-model design.' },
+
+  // ── Automotive and autonomous vehicles ────────────────────────────────────
+  { name: 'Ford', slug: 'ford', industry: 'Automotive', hq: 'Dearborn, MI', description: 'Automaker going software-first. Embedded C, systems, and practical coding.' },
+  { name: 'General Motors', slug: 'gm', industry: 'Automotive', hq: 'Detroit, MI', description: 'Automaker and software. Embedded, DSA, and systems-oriented rounds.' },
+  { name: 'Rivian', slug: 'rivian', industry: 'Automotive', hq: 'Irvine, CA', description: 'Electric adventure vehicles. Embedded, real-time systems, and coding.' },
+  { name: 'Lucid Motors', slug: 'lucid', industry: 'Automotive', hq: 'Newark, CA', description: 'Luxury EVs. Embedded software, systems, and fundamentals-heavy rounds.' },
+  { name: 'Aurora', slug: 'aurora', industry: 'Autonomous Vehicles', hq: 'Pittsburgh, PA', description: 'Self-driving trucks and cars. Performance systems and robotics-adjacent coding.' },
+  { name: 'Zoox', slug: 'zoox', industry: 'Autonomous Vehicles', hq: 'Foster City, CA', description: 'Autonomous robotaxis (Amazon). Real-time systems and strong DSA.' },
+
+  // ── Aerospace and defense ─────────────────────────────────────────────────
+  { name: 'Boeing', slug: 'boeing', industry: 'Aerospace', hq: 'Arlington, VA', description: 'Aerospace and defense. Embedded C/C++, safety-critical systems, and fundamentals.' },
+  { name: 'Lockheed Martin', slug: 'lockheed-martin', industry: 'Defense Tech', hq: 'Bethesda, MD', description: 'Defense systems. C/C++, real-time systems, and fundamentals-heavy rounds.' },
+  { name: 'Raytheon', slug: 'raytheon', industry: 'Defense Tech', hq: 'Arlington, VA', description: 'Defense and aerospace (RTX). Embedded systems, C++, and design rounds.' },
+  { name: 'Northrop Grumman', slug: 'northrop-grumman', industry: 'Defense Tech', hq: 'Falls Church, VA', description: 'Aerospace and defense. Systems, C/C++, and fundamentals-focused coding.' },
+  { name: 'Blue Origin', slug: 'blue-origin', industry: 'Aerospace', hq: 'Kent, WA', description: 'Spaceflight. Real-time systems, C++, and rigorous problem-solving.' },
+
+  // ── Gaming studios and platforms ──────────────────────────────────────────
+  { name: 'Nintendo', slug: 'nintendo', industry: 'Gaming', hq: 'Kyoto, Japan', description: 'Iconic games and hardware. Engine, graphics, and C++ systems rounds.' },
+  { name: 'PlayStation', slug: 'playstation', industry: 'Gaming', hq: 'San Mateo, CA', description: 'Sony gaming platform. Engine internals, C++, and large-scale services.' },
+  { name: 'Rockstar Games', slug: 'rockstar-games', industry: 'Gaming', hq: 'New York, NY', description: 'Open-world blockbusters. Engine programming and gameplay systems.' },
+  { name: 'Take-Two Interactive', slug: 'take-two', industry: 'Gaming', hq: 'New York, NY', description: '2K and Rockstar parent. Gameplay, engines, and backend systems.' },
+  { name: 'Zynga', slug: 'zynga', industry: 'Gaming', hq: 'San Francisco, CA', description: 'Social and mobile games. Live-service backends and practical coding.' },
+  { name: 'King', slug: 'king', industry: 'Gaming', hq: 'London, UK', description: 'Candy Crush maker. Gameplay systems, A/B testing, and mobile-scale backends.' },
+
+  // ── Retail and e-commerce at scale ────────────────────────────────────────
+  { name: 'Target', slug: 'target', industry: 'E-commerce', hq: 'Minneapolis, MN', description: 'Retail and commerce tech. DSA, system design, and real-world coding.' },
+  { name: 'Best Buy', slug: 'best-buy', industry: 'E-commerce', hq: 'Richfield, MN', description: 'Consumer electronics retail. Practical full-stack and commerce systems.' },
+  { name: 'The Home Depot', slug: 'home-depot', industry: 'E-commerce', hq: 'Atlanta, GA', description: 'Home-improvement retail tech. DSA, design, and catalog-scale systems.' },
+  { name: 'Costco', slug: 'costco', industry: 'E-commerce', hq: 'Issaquah, WA', description: 'Warehouse retail. Fundamentals-heavy coding and e-commerce systems.' },
+  { name: 'Chewy', slug: 'chewy', industry: 'E-commerce', hq: 'Plantation, FL', description: 'Pet e-commerce. Practical full-stack, logistics, and catalog systems.' },
+  { name: 'Coupang', slug: 'coupang', industry: 'E-commerce', hq: 'Seoul, South Korea', description: "Korea's commerce leader. Strong DSA and large-scale logistics systems." },
+
+  // ── Consumer internet, AI labs, and India ─────────────────────────────────
+  { name: 'Yahoo', slug: 'yahoo', industry: 'Consumer Internet', hq: 'Sunnyvale, CA', description: 'Search, mail, and media. DSA, system design, and large-scale backends.' },
+  { name: 'Quora', slug: 'quora', industry: 'Consumer Internet', hq: 'Mountain View, CA', description: 'Q&A platform. Ranking, recommendation systems, and strong coding.' },
+  { name: 'Tripadvisor', slug: 'tripadvisor', industry: 'Marketplace', hq: 'Needham, MA', description: 'Travel reviews and booking. Search, ranking, and practical full-stack.' },
+  { name: 'DeepMind', slug: 'deepmind', industry: 'AI', hq: 'London, UK', description: 'Google AI research lab. Strong coding, ML fundamentals, and problem-solving.' },
+  { name: 'Stability AI', slug: 'stability-ai', industry: 'AI', hq: 'London, UK', description: 'Generative image models. Applied ML engineering and systems coding.' },
+  { name: 'Fireworks AI', slug: 'fireworks-ai', industry: 'AI', hq: 'Redwood City, CA', description: 'Fast inference platform. Serving optimization and distributed-systems coding.' },
+  { name: 'Sprinklr', slug: 'sprinklr', industry: 'SaaS', hq: 'New York, NY', description: 'Customer-experience platform. Strong DSA, design, and product engineering.' },
+  { name: 'Udaan', slug: 'udaan', industry: 'E-commerce', hq: 'Bangalore, India', description: 'B2B commerce in India. DSA, machine coding, and scale-focused design.' },
+  { name: 'Games24x7', slug: 'games24x7', industry: 'Gaming', hq: 'Mumbai, India', description: 'Online skill gaming. Real-time systems, concurrency, and strong DSA.' },
+  { name: 'Yellow.ai', slug: 'yellow-ai', industry: 'AI', hq: 'Bangalore, India', description: 'Conversational AI platform. Applied LLM systems and product engineering.' },
 ];
 
 export const COMPANIES: SeedCompany[] = RAW_COMPANIES.map((c) => ({
