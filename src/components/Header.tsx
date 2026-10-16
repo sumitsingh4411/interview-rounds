@@ -2,7 +2,7 @@ import { Container } from './ui/Container';
 import { Logo } from './Logo';
 import { ThemeToggle } from './ThemeToggle';
 import { NavLinks } from './NavLinks';
-import { SITE } from '@/lib/site';
+import { SITE, frontendProUrl } from '@/lib/site';
 
 export function Header() {
   return (
@@ -14,8 +14,17 @@ export function Header() {
           <NavLinks />
         </div>
 
-        {/* Right: repo + theme */}
+        {/* Right: FrontendPro + repo + theme */}
         <div className="flex items-center gap-2">
+          <a
+            href={frontendProUrl('header')}
+            target="_blank"
+            rel="noopener"
+            className="hidden h-9 items-center gap-1.5 rounded-lg border border-line px-3 text-sm text-muted transition-colors hover:border-line-2 hover:text-fg lg:inline-flex"
+          >
+            Frontend prep
+            <span aria-hidden>↗</span>
+          </a>
           <a
             href={SITE.repo}
             target="_blank"

@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import { Container } from './ui/Container';
 import { Logo } from './Logo';
-import { SITE } from '@/lib/site';
+import { SITE, frontendProUrl } from '@/lib/site';
 import { ROUND_ORDER, ROUND_LABELS, ROUND_COLORS } from '@/lib/constants';
 
 const BROWSE = [
@@ -96,6 +96,14 @@ export function Footer() {
             className="block text-muted transition-colors hover:text-fg"
           >
             Star on GitHub
+          </a>
+          <a
+            href={frontendProUrl('footer')}
+            target="_blank"
+            rel="noopener"
+            className="block text-muted transition-colors hover:text-fg"
+          >
+            Frontend interview prep ↗
           </a>
         </nav>
       </Container>

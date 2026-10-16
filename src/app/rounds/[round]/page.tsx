@@ -11,6 +11,7 @@ import {
 import { BankSection } from '@/components/BankSection';
 import { JsonLd } from '@/components/JsonLd';
 import { breadcrumbLd } from '@/lib/seo';
+import { frontendProUrl } from '@/lib/site';
 import {
   asRound,
   ROUND_ORDER,
@@ -91,6 +92,23 @@ export default async function RoundPage({ params }: PageProps) {
         </h1>
         <p className="mt-3 text-lg text-muted">{ROUND_DESCRIPTIONS[valid]}</p>
       </header>
+
+      {valid === 'machine_coding' && (
+        <a
+          href={frontendProUrl('machine-coding-round')}
+          target="_blank"
+          rel="noopener"
+          className="glass-card mt-6 flex max-w-2xl items-center justify-between gap-4 rounded-xl px-5 py-4 text-sm transition-colors hover:border-line-2"
+        >
+          <span className="text-muted">
+            <span className="font-medium text-fg">Frontend machine-coding round?</span>{' '}
+            Practise building UI under time pressure, with an in-browser editor and tests, on FrontendPro.
+          </span>
+          <span aria-hidden className="shrink-0 text-brand">
+            ↗
+          </span>
+        </a>
+      )}
 
       {results.length > 0 ? (
         <ul className="mt-10 grid gap-3 sm:grid-cols-2">

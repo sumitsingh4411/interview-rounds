@@ -6,3 +6,8 @@ export const SITE = {
   url: 'https://interview-rounds.nextjoblist.com',
   repo: 'https://github.com/sumitsingh4411/interview-rounds',
 };
+
+/** FrontendPro: hands-on frontend interview practice. `placement` tags the visit in its analytics. */
+export function frontendProUrl(placement: string): string {
+  return `https://frontend.nextjoblist.com/?utm_source=interview-rounds&utm_medium=site&utm_campaign=${encodeURIComponent(placement)}`;
+}
