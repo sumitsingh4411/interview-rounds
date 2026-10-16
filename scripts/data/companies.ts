@@ -526,6 +526,70 @@ const RAW_COMPANIES: SeedCompany[] = [
   { name: 'Udaan', slug: 'udaan', industry: 'E-commerce', hq: 'Bangalore, India', description: 'B2B commerce in India. DSA, machine coding, and scale-focused design.' },
   { name: 'Games24x7', slug: 'games24x7', industry: 'Gaming', hq: 'Mumbai, India', description: 'Online skill gaming. Real-time systems, concurrency, and strong DSA.' },
   { name: 'Yellow.ai', slug: 'yellow-ai', industry: 'AI', hq: 'Bangalore, India', description: 'Conversational AI platform. Applied LLM systems and product engineering.' },
+
+  // ── New-wave AI: India labs, frontier startups, and AI infrastructure ─────
+  { name: 'Sarvam AI', slug: 'sarvam-ai', industry: 'AI', hq: 'Bangalore, India', description: "India's sovereign GenAI lab building Indic LLMs and voice models. Strong coding and ML systems." },
+  { name: 'Krutrim', slug: 'krutrim', industry: 'AI', hq: 'Bangalore, India', description: "Ola's AI company: Indic LLMs and AI cloud. DSA, backend design, and ML infrastructure." },
+  { name: 'Haptik', slug: 'haptik', industry: 'AI', hq: 'Mumbai, India', description: 'Conversational AI (Jio). Chatbot platforms, applied LLMs, and practical full-stack.' },
+  { name: 'Gupshup', slug: 'gupshup', industry: 'AI', hq: 'San Francisco, CA', description: 'Conversational messaging and AI agents at massive scale. DSA and high-throughput backends.' },
+  { name: 'Thinking Machines Lab', slug: 'thinking-machines', industry: 'AI', hq: 'San Francisco, CA', description: 'Frontier AI lab founded by ex-OpenAI leaders. Very strong coding and research-infra rounds.' },
+  { name: 'Cognition', slug: 'cognition', industry: 'AI', hq: 'San Francisco, CA', description: 'Devin and Windsurf AI coding agents. A famously hard, practical coding bar.' },
+  { name: 'Lovable', slug: 'lovable', industry: 'AI', hq: 'Stockholm, Sweden', description: 'Prompt-to-app builder. Fast-paced full-stack product engineering with LLMs.' },
+  { name: 'Mercor', slug: 'mercor', industry: 'AI', hq: 'San Francisco, CA', description: 'AI hiring and expert-data platform. Practical full-stack and LLM-pipeline coding.' },
+  { name: 'Decagon', slug: 'decagon', industry: 'AI', hq: 'San Francisco, CA', description: 'AI customer-support agents. Applied LLM systems and product-focused full-stack.' },
+  { name: 'Abridge', slug: 'abridge', industry: 'AI', hq: 'Pittsburgh, PA', description: 'Generative AI for clinical notes. Applied ML, healthcare data, and full-stack.' },
+  { name: 'Suno', slug: 'suno', industry: 'AI', hq: 'Cambridge, MA', description: 'AI music generation. Model serving, audio pipelines, and consumer product engineering.' },
+  { name: 'CoreWeave', slug: 'coreweave', industry: 'AI', hq: 'Livingston, NJ', description: 'GPU cloud for AI. Kubernetes, distributed systems, and infrastructure design.' },
+  { name: 'Anyscale', slug: 'anyscale', industry: 'AI', hq: 'San Francisco, CA', description: 'Ray and the AI compute platform. Distributed-systems coding and design.' },
+  { name: 'Modal', slug: 'modal', industry: 'AI', hq: 'New York, NY', description: 'Serverless GPU compute. Systems programming, containers, and performance rounds.' },
+  { name: 'Baseten', slug: 'baseten', industry: 'AI', hq: 'San Francisco, CA', description: 'Model inference platform. Serving optimization and backend infrastructure.' },
+  { name: 'Applied Intuition', slug: 'applied-intuition', industry: 'Autonomous Vehicles', hq: 'Mountain View, CA', description: 'Autonomy and simulation software. Strong DSA, C++, and systems design.' },
+
+  // ── Forbes AI 50 (2026) names not already covered ─────────────────────────
+  { name: 'Reflection AI', slug: 'reflection-ai', industry: 'AI', hq: 'New York, NY', description: 'Frontier open-weight model lab. Strong coding, RL systems, and research infrastructure.' },
+  { name: 'Physical Intelligence', slug: 'physical-intelligence', industry: 'AI', hq: 'San Francisco, CA', description: 'Foundation models for robots. ML systems, data pipelines, and strong coding.' },
+  { name: 'Crusoe', slug: 'crusoe', industry: 'AI', hq: 'Denver, CO', description: 'AI cloud and energy-first data centers. Distributed systems and infrastructure design.' },
+  { name: 'fal.ai', slug: 'fal-ai', industry: 'AI', hq: 'San Francisco, CA', description: 'Generative media inference platform. GPU serving, performance, and backend systems.' },
+  { name: 'Gamma', slug: 'gamma', industry: 'AI', hq: 'San Francisco, CA', description: 'AI-native presentations, docs, and sites. Frontend craft and LLM product engineering.' },
+  { name: 'HeyGen', slug: 'heygen', industry: 'AI', hq: 'Los Angeles, CA', description: 'AI avatar video generation. Media pipelines, model serving, and full-stack product.' },
+  { name: 'OpenEvidence', slug: 'openevidence', industry: 'AI', hq: 'Miami, FL', description: 'AI medical search for clinicians. Retrieval, ranking, and full-stack product engineering.' },
+  { name: 'EliseAI', slug: 'eliseai', industry: 'AI', hq: 'New York, NY', description: 'AI agents for housing and healthcare. Practical full-stack and applied LLM systems.' },
+  { name: 'Clay', slug: 'clay', industry: 'AI', hq: 'New York, NY', description: 'AI go-to-market data platform. Product-minded full-stack and data-pipeline coding.' },
+  { name: 'Legora', slug: 'legora', industry: 'AI', hq: 'Stockholm, Sweden', description: 'Collaborative legal AI. Applied LLM systems and full-stack product engineering.' },
+  { name: 'Speak', slug: 'speak', industry: 'AI', hq: 'San Francisco, CA', description: 'AI language tutor. Speech models, mobile, and consumer product engineering.' },
+  { name: 'Cyera', slug: 'cyera', industry: 'Security', hq: 'New York, NY', description: 'AI-powered data security. Cloud-scale backends, DSA, and security fundamentals.' },
+
+  // ── LinkedIn Top Startups India (2025) ────────────────────────────────────
+  { name: 'Lucidity', slug: 'lucidity', industry: 'Infrastructure', hq: 'Bangalore, India', description: 'Autonomous cloud-storage optimization. Cloud internals, backend systems, and DSA.' },
+  { name: 'Swish', slug: 'swish', industry: 'Marketplace', hq: 'Bangalore, India', description: '10-minute food delivery. Real-time dispatch, practical coding, and scale design.' },
+  { name: 'Jar', slug: 'jar', industry: 'Fintech', hq: 'Bangalore, India', description: 'Daily digital-gold savings app. DSA, Android/backend depth, and payments design.' },
+  { name: 'GoKwik', slug: 'gokwik', industry: 'E-commerce', hq: 'New Delhi, India', description: 'Checkout and growth stack for D2C brands. DSA, machine coding, and checkout systems.' },
+  { name: 'Atlys', slug: 'atlys', industry: 'Marketplace', hq: 'New Delhi, India', description: 'Visa applications made simple. Fast-paced full-stack and workflow-heavy backends.' },
+  { name: 'Snabbit', slug: 'snabbit', industry: 'Marketplace', hq: 'Mumbai, India', description: 'On-demand home services in minutes. Dispatch, scheduling systems, and practical coding.' },
+  { name: 'Dezerv', slug: 'dezerv', industry: 'Fintech', hq: 'Mumbai, India', description: 'Tech-led wealth management. Backend design, data correctness, and DSA.' },
+  { name: 'Convin', slug: 'convin', industry: 'AI', hq: 'Bangalore, India', description: 'AI for contact-center conversations. Speech and LLM pipelines plus backend coding.' },
+  { name: 'LimeChat', slug: 'limechat', industry: 'AI', hq: 'Bangalore, India', description: 'WhatsApp commerce and AI agents. Applied LLMs and messaging-scale backends.' },
+  { name: 'AppsForBharat', slug: 'appsforbharat', industry: 'Consumer Internet', hq: 'Bangalore, India', description: 'Sri Mandir devotional app. Consumer mobile, scale, and practical full-stack.' },
+  { name: 'FirstClub', slug: 'firstclub', industry: 'E-commerce', hq: 'Bangalore, India', description: 'Curated quick commerce. Inventory, dispatch, and machine-coding rounds.' },
+
+  // ── High-search Indian product companies ──────────────────────────────────
+  { name: 'Spinny', slug: 'spinny', industry: 'Marketplace', hq: 'Gurugram, India', description: 'Used-car marketplace. DSA, machine coding, and inventory systems.' },
+  { name: 'CARS24', slug: 'cars24', industry: 'Marketplace', hq: 'Gurugram, India', description: 'Used-car commerce and financing. DSA, LLD, and marketplace backends.' },
+  { name: 'Acko', slug: 'acko', industry: 'Fintech', hq: 'Bangalore, India', description: 'Digital-first insurance. Strong DSA, machine coding, and policy/claims systems.' },
+  { name: 'Porter', slug: 'porter', industry: 'Logistics', hq: 'Bangalore, India', description: 'Intra-city logistics. Geospatial dispatch, DSA, and scale-focused design.' },
+  { name: 'Ather Energy', slug: 'ather-energy', industry: 'Automotive', hq: 'Bangalore, India', description: 'Smart electric scooters. Embedded systems, IoT backends, and app engineering.' },
+  { name: 'Upstox', slug: 'upstox', industry: 'Fintech', hq: 'Mumbai, India', description: 'Stockbroking platform. Low-latency systems, DSA, and trading backends.' },
+  { name: 'Graviton Research Capital', slug: 'graviton', industry: 'Trading', hq: 'Gurugram, India', description: 'HFT firm. Hard DSA, C++, probability, and low-latency systems.' },
+  { name: 'Tekion', slug: 'tekion', industry: 'SaaS', hq: 'Pleasanton, CA', description: 'Cloud platform for auto retail with a big Bengaluru hub. DSA, LLD, and system design.' },
+
+  // ── High-search global product companies ──────────────────────────────────
+  { name: 'Rubrik', slug: 'rubrik', industry: 'Security', hq: 'Palo Alto, CA', description: 'Data security and backup. Strong DSA, concurrency, and distributed-systems design.' },
+  { name: 'Cohesity', slug: 'cohesity', industry: 'Infrastructure', hq: 'San Jose, CA', description: 'Data protection and storage. Systems coding, file systems, and DSA.' },
+  { name: 'Arcesium', slug: 'arcesium', industry: 'Finance', hq: 'New York, NY', description: 'Post-trade fintech platform (D. E. Shaw spin-off). DSA, OOP, and LLD.' },
+  { name: 'Tower Research Capital', slug: 'tower-research', industry: 'Trading', hq: 'New York, NY', description: 'Quant and HFT trading. Hard DSA, C++, and low-latency systems.' },
+  { name: "Lowe's", slug: 'lowes', industry: 'E-commerce', hq: 'Mooresville, NC', description: 'Home-improvement retail with a large Bengaluru tech hub. DSA, design, and full-stack.' },
+  { name: 'Verkada', slug: 'verkada', industry: 'IoT', hq: 'San Mateo, CA', description: 'Cloud-managed physical security. Practical coding, video systems, and full-stack.' },
+  { name: 'Klaviyo', slug: 'klaviyo', industry: 'SaaS', hq: 'Boston, MA', description: 'Marketing automation for e-commerce. Data-heavy backends and practical coding.' },
 ];
 
 export const COMPANIES: SeedCompany[] = RAW_COMPANIES.map((c) => ({
